@@ -1,0 +1,70 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Overweight adults (aged 18 years and over)",
+    "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
+    "summary": "Percentage of adults aged 18 and over classified as overweight or obese, England, financial years 2015/16 to 2020/21",
+    "description": "This dataset shows the percentage of adults aged 18 and over classified as overweight or obese, in England, for financial years 2015/16 to 2020/21.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data#page/9/gid/1938133368/ati/401/iid/93088/age/168/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-do-0) \n\n\n",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "obesity",
+        "subnational",
+        "local-authority",
+        "county",
+        "region"
+    ],
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+    "columns": {
+        "Period": {
+            "type": "dimension",
+            "from_template": "government-year"
+        },
+        "AREACD": {
+            "label": "Statistical Geography",
+            "type": "dimension",
+            "code_list": "./geography_code_list.json"
+        },
+        "AREANM": false,
+        "Geography": false,
+        "Variable Name": false,
+        "Indicator": false,
+        "Mission": false,
+        "Category": false,
+        "Value": {
+            "type": "observations",
+            "data_type": "decimal",
+            "unit": {
+                "label": "percent",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            },
+            "measure": {
+                "label": "Adults (aged 18 years and over) who are overweight",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+            }
+        },
+        "Measure": false,
+        "Unit": false,
+        "Lower Confidence Interval (95%)": {
+            "label": "Lower Confidence Interval",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "Value",
+            "required": false
+        },
+        "Upper Confidence Interval (95%)": {
+            "label": "Upper Confidence Interval",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "Value",
+            "required": false
+        },
+        "Observation Status": {
+            "type": "attribute",
+            "label": "Observation Status",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+            "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
+        },
+        "Polarity": false,
+        "Notes": false
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Gigabit capable broadband",
+    "creator": "https://www.gov.uk/government/organisations/ofcom",
+    "summary": "Percentage of premises with 125 megabytes (MB) or greater, UK, September 2022.",
+    "description": "This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for September 2022.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2022) \n\n\n",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "broadband-mobile-coverage",
+        "connectivity",
+        "local-authority",
+        "subnational"
+    ],
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "themes": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry",
+    "columns": {
+        "Period": {
+            "type": "dimension",
+            "from_template": "month"
+        },
+        "AREACD": {
+            "label": "Statistical Geography",
+            "type": "dimension",
+            "code_list": "./geography_code_list.json"
+        },
+        "AREANM": false,
+        "Geography": false,
+        "Variable Name": false,
+        "Indicator": false,
+        "Mission": false,
+        "Category": false,
+        "Value": {
+            "type": "observations",
+            "data_type": "decimal",
+            "unit": {
+                "label": "percent",
+                "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            },
+            "measure": {
+                "label": "Premises with gigabit capable broadband",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+            }
+        },
+        "Measure": false,
+        "Unit": false,
+        "Lower Confidence Interval (95%)": {
+            "label": "Lower Confidence Interval",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "Value",
+            "required": false
+        },
+        "Upper Confidence Interval (95%)": {
+            "label": "Upper Confidence Interval",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "Value",
+            "required": false
+        },
+        "Observation Status": {
+            "type": "attribute",
+            "label": "Observation Status",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+            "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
+        },
+        "Polarity": false,
+        "Notes": false
+    }
+}
