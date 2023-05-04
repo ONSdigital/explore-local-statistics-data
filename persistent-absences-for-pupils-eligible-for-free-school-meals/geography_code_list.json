@@ -537,6 +537,41 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000142"
         },
         {
+            "label": "Corby",
+            "notation": "E07000150",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000150"
+        },
+        {
+            "label": "Daventry",
+            "notation": "E07000151",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000151"
+        },
+        {
+            "label": "East Northamptonshire",
+            "notation": "E07000152",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000152"
+        },
+        {
+            "label": "Kettering",
+            "notation": "E07000153",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000153"
+        },
+        {
+            "label": "Northampton",
+            "notation": "E07000154",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000154"
+        },
+        {
+            "label": "South Northamptonshire",
+            "notation": "E07000155",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000155"
+        },
+        {
+            "label": "Wellingborough",
+            "notation": "E07000156",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000156"
+        },
+        {
             "label": "Ashfield",
             "notation": "E07000170",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000170"
@@ -942,6 +977,16 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000244"
         },
         {
+            "label": "Suffolk Coastal",
+            "notation": "E07000205",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000205"
+        },
+        {
+            "label": "Waveney",
+            "notation": "E07000206",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000206"
+        },
+        {
             "label": "Ipswich",
             "notation": "E07000202",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000202"
@@ -957,9 +1002,14 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000245"
         },
         {
-            "label": "London",
-            "notation": "E12000007",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000007"
+            "label": "Forest Heath",
+            "notation": "E07000201",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000201"
+        },
+        {
+            "label": "St Edmundsbury",
+            "notation": "E07000204",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000204"
         },
         {
             "label": "Inner London",
@@ -1205,6 +1255,26 @@
             "label": "Wokingham",
             "notation": "E06000041",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000041"
+        },
+        {
+            "label": "Aylesbury Vale",
+            "notation": "E07000004",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000004"
+        },
+        {
+            "label": "Chiltern",
+            "notation": "E07000005",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000005"
+        },
+        {
+            "label": "South Bucks",
+            "notation": "E07000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000006"
+        },
+        {
+            "label": "Wycombe",
+            "notation": "E07000007",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000007"
         },
         {
             "label": "Eastbourne",
@@ -1477,6 +1547,16 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000058"
         },
         {
+            "label": "Bournemouth",
+            "notation": "E06000028",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000028"
+        },
+        {
+            "label": "Poole",
+            "notation": "E06000029",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000029"
+        },
+        {
             "label": "Bristol, City of",
             "notation": "E06000023",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000023"
@@ -1567,6 +1647,36 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000047"
         },
         {
+            "label": "Christchurch",
+            "notation": "E07000048",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000048"
+        },
+        {
+            "label": "East Dorset",
+            "notation": "E07000049",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000049"
+        },
+        {
+            "label": "North Dorset",
+            "notation": "E07000050",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000050"
+        },
+        {
+            "label": "Purbeck",
+            "notation": "E07000051",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000051"
+        },
+        {
+            "label": "West Dorset",
+            "notation": "E07000052",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000052"
+        },
+        {
+            "label": "Weymouth and Portland",
+            "notation": "E07000053",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000053"
+        },
+        {
             "label": "Cheltenham",
             "notation": "E07000078",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000078"
@@ -1605,6 +1715,16 @@
             "label": "Sedgemoor",
             "notation": "E07000188",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000188"
+        },
+        {
+            "label": "Taunton Deane",
+            "notation": "E07000190",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000190"
+        },
+        {
+            "label": "West Somerset",
+            "notation": "E07000191",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000191"
         },
         {
             "label": "Somerset West and Taunton",

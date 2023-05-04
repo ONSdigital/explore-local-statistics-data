@@ -632,7 +632,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000176"
         },
         {
-            "label": "West Midlands (Regions)",
+            "label": "West Midlands (Region)",
             "notation": "E12000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000005"
         },
@@ -732,7 +732,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
         },
         {
-            "label": "West Midlands (Metropolitan Counties)",
+            "label": "West Midlands (Metropolitan County)",
             "notation": "E11000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000005"
         },

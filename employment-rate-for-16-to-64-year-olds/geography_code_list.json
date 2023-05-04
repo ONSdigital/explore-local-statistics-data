@@ -32,9 +32,24 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E92000001"
         },
         {
-            "label": "North East",
+            "label": "North East (Region)",
             "notation": "E12000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000001"
+        },
+        {
+            "label": "Tees Valley",
+            "notation": "E47000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000006"
+        },
+        {
+            "label": "North East (Combined Authority)",
+            "notation": "E47000010",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000010"
+        },
+        {
+            "label": "North of Tyne",
+            "notation": "E47000011",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000011"
         },
         {
             "label": "County Durham",
@@ -70,6 +85,11 @@
             "label": "Stockton-on-Tees",
             "notation": "E06000004",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000004"
+        },
+        {
+            "label": "Tyne and Wear",
+            "notation": "E11000007",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000007"
         },
         {
             "label": "Gateshead",
@@ -160,6 +180,16 @@
             "label": "South Lakeland",
             "notation": "E07000031",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000031"
+        },
+        {
+            "label": "Greater Manchester (Metropolitan County)",
+            "notation": "E11000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000001"
+        },
+        {
+            "label": "Greater Manchester (Combined Authority)",
+            "notation": "E47000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000001"
         },
         {
             "label": "Bolton",
@@ -272,6 +302,16 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000128"
         },
         {
+            "label": "Merseyside",
+            "notation": "E11000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000002"
+        },
+        {
+            "label": "Liverpool City Region",
+            "notation": "E47000004",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000004"
+        },
+        {
             "label": "Knowsley",
             "notation": "E08000011",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000011"
@@ -362,6 +402,16 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000169"
         },
         {
+            "label": "South Yorkshire (Metropolitan County)",
+            "notation": "E11000003",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000003"
+        },
+        {
+            "label": "South Yorkshire (Combined Authority)",
+            "notation": "E47000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000002"
+        },
+        {
             "label": "Barnsley",
             "notation": "E08000016",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000016"
@@ -380,6 +430,16 @@
             "label": "Sheffield",
             "notation": "E08000019",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000019"
+        },
+        {
+            "label": "West Yorkshire (Metropolitan County)",
+            "notation": "E11000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000006"
+        },
+        {
+            "label": "West Yorkshire (Combined Authority)",
+            "notation": "E47000003",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000003"
         },
         {
             "label": "Bradford",
@@ -587,7 +647,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000176"
         },
         {
-            "label": "West Midlands",
+            "label": "West Midlands (Region)",
             "notation": "E12000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000005"
         },
@@ -675,6 +735,16 @@
             "label": "Warwick",
             "notation": "E07000222",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
+        },
+        {
+            "label": "West Midlands (Metropolitan County)",
+            "notation": "E11000005",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000005"
+        },
+        {
+            "label": "West Midlands (Combined Authority)",
+            "notation": "E47000007",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000007"
         },
         {
             "label": "Birmingham",
@@ -775,6 +845,11 @@
             "label": "Thurrock",
             "notation": "E06000034",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000034"
+        },
+        {
+            "label": "Cambridgeshire and Peterborough",
+            "notation": "E47000008",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000008"
         },
         {
             "label": "Cambridge",
@@ -977,6 +1052,11 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000007"
         },
         {
+            "label": "Inner London",
+            "notation": "E13000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E13000001"
+        },
+        {
             "label": "Camden",
             "notation": "E09000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000007"
@@ -1045,6 +1125,11 @@
             "label": "Westminster",
             "notation": "E09000033",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000033"
+        },
+        {
+            "label": "Outer London",
+            "notation": "E13000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E13000002"
         },
         {
             "label": "Barking and Dagenham",
@@ -1470,6 +1555,11 @@
             "label": "South West",
             "notation": "E12000009",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000009"
+        },
+        {
+            "label": "West of England",
+            "notation": "E47000009",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000009"
         },
         {
             "label": "Bath and North East Somerset",

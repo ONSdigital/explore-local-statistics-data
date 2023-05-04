@@ -1,23 +1,23 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Cigarette smokers",
-    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "summary": "Percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), United Kingdom, 2011 - 2021.",
-    "description": "This dataset shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), in the United Kingdom, for 2011 - 2021.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountry (UK)\n\n### Source\n\n - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/smokinghabitsintheukanditsconstituentcountries#) \n\n\n",
+    "title": "Schools and nursery schools rated good or outstanding",
+    "creator": "https://www.gov.uk/government/organisations/ofsted",
+    "summary": "Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated \u2018Good\u2019 or \u2018Outstanding\u2019 by Ofsted, England (state-funded schools), as at 31 March 2023",
+    "description": "This dataset shows the percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated \u2018Good\u2019 or \u2018Outstanding\u2019 by Ofsted, in England (state-funded schools), as at 31 March 2023.\n\n### Coverage \n\nEngland (state-funded schools)\n\n#### Geography definition\n\nCounties and Unitary Authorities,\nRegions,\nNation (England)\n\n### Source\n\n - England: [Ofsted](https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes#) \n\n\n### Source Notes and Caveats \nThese figures cover all state-funded schools in England and are updated on a rolling basis. \n\n\n",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
-        "smoking-habits",
-        "annual-population-survey",
+        "state-funded-school",
+        "inspections-and-outcomes",
         "subnational",
-        "local-authority",
+        "county",
         "region"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
     "columns": {
         "Period": {
             "type": "dimension",
-            "from_template": "year"
+            "from_template": "gregorian-instant"
         },
         "AREACD": {
             "label": "Statistical Geography",
@@ -38,8 +38,8 @@
                 "from_existing": "http://qudt.org/vocab/unit/PERCENT"
             },
             "measure": {
-                "label": "Cigarette smokers",
-                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                "label": "Schools and nursery rated good or outstanding",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
             }
         },
         "Measure": false,
