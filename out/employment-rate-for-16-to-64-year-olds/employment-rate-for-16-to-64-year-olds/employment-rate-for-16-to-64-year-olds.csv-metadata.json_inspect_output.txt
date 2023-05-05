@@ -1,0 +1,128 @@
+
+- This file is a data cube.
+
+- The data cube has the following catalog metadata:
+        - Title: Employment rate for 16 to 64 year olds
+        - Label: Employment rate for 16 to 64 year olds
+        - Issued: 2023-05-05T08:59:44.730769
+        - Modified: 2023-05-05T08:59:44.730769
+        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+        - Landing Pages: None
+        - Themes: 
+		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
+        - Keywords: 
+		-- labour-market
+		-- annual-population-survey
+		-- paid-work
+		-- local-authority
+		-- subnational
+		-- region
+        - Contact Point: None
+        - Identifier: Employment rate for 16 to 64 year olds
+        - Comment: Proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from, Great Britain (Northern Ireland national figure included), 01/2004-12/2004 to 01/2022-12/2022.
+        - Description: This dataset shows the proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from, in Great Britain (Northern Ireland national figure included), for 01/2004-12/2004 to 01/2022-12/2022.
+		
+		### Coverage 
+		
+		GB (England, Wales and Scotland). Northern Ireland national figure included.
+		
+		#### Geography definition
+		
+		Local Authority Districts and Unitary Authorities
+		Metropolitan Counties
+		Regions
+		Combined Authorities
+		Nations (England, Wales, Scotland, Northern Ireland)
+		Countries (UK, GB, England and Wales)
+		
+		### Source
+		
+		 - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/regionallabourmarket/previousReleases#) 
+		
+		
+		### Source Notes and Caveats 
+		This indicator is based on re-weighted Annual Population Survey datasets updated on 16 August 2022. For more information, see [Impact of reweighting on Labour Force Survey key indicators: 2022](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/impactofreweightingonlabourforcesurveykeyindicators/2022) 
+		
+		
+		
+		### How to read time intervals in ISO8601 format 
+		This dataset uses custom time intervals format for periods, YYYY-MM-DDT00:00:00/PnI, where P tells that this is period; n is the number of intervals and I is interval type which can be Y(year), M(month), W(week), D(day). 
+		For example, from April 2019 to March 2022 is represented as 2019-04-01T00:00:00/P3Y, which can be read as '3 years period starts from 1st of April 2019 and ends on 31st March 2022'. 
+		For more instructions on how to read this, please visit [Time intervals on Wikipedia](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals).
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Employment rate for 16 to 64 year olds
+    - Columns: 
+                              Title         Type  Required                                                                              Property URL Observations Column Titles
+                             AREACD    Dimension      True                employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography                      Value
+                             AREANM   Suppressed     False                                                                                      None                           
+                          Geography   Suppressed     False                                                                                      None                           
+                      Variable Name   Suppressed     False                                                                                      None                           
+                          Indicator   Suppressed     False                                                                                      None                           
+                            Mission   Suppressed     False                                                                                      None                           
+                           Category   Suppressed     False                                                                                      None                           
+                             Period    Dimension      True              employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval                      Value
+                              Value Observations     False employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds                      Value
+                            Measure   Suppressed     False                                                                                      None                           
+                               Unit   Suppressed     False                                                                                      None                           
+    Lower Confidence Interval (95%)    Attribute     False            employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval                      Value
+    Upper Confidence Interval (95%)    Attribute     False            employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval                      Value
+                 Observation Status    Attribute     False                   employment-rate-for-16-to-64-year-olds.csv#attribute/observation-status                      Value
+                           Polarity   Suppressed     False                                                                                      None                           
+                              Notes   Suppressed     False                                                                                      None                           
+    - Columns where suppress output is true: 
+    		-- AREANM
+    		-- Geography
+    		-- Variable Name
+    		-- Indicator
+    		-- Mission
+    		-- Category
+    		-- Measure
+    		-- Unit
+    		-- Polarity
+    		-- Notes
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+                                                                           Code List                                                        Code List Label Columns Used In
+                                               gregorian-time-interval.csv#code-list                                                Gregorian Time Interval          Period
+ons-geography-code-list-for-employment-rate-for-16-to-64-year-olds-csv.csv#code-list ONS Geography Code List for employment-rate-for-16-to-64-year-olds.csv          AREACD
+
+- The data cube has the following dataset information:
+        - Number of Rows: 7543
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+   AREACD         AREANM Geography                          Variable Name                              Indicator   Mission                                              Category                  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2003-10-01t00-00-00/p1y   72.5 Percentage    %                             72.3                             72.7                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2021-10-01t00-00-00/p1y   75.5 Percentage    %                             75.2                             75.8                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2020-10-01t00-00-00/p1y   74.7 Percentage    %                             74.5                             74.9                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2019-10-01t00-00-00/p1y   75.1 Percentage    %                             74.9                             75.3                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2018-10-01t00-00-00/p1y   75.6 Percentage    %                             75.4                             75.8                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2017-10-01t00-00-00/p1y   75.0 Percentage    %                             74.8                             75.2                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2015-10-01t00-00-00/p1y   73.8 Percentage    %                             73.6                             74.0                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2014-10-01t00-00-00/p1y   73.4 Percentage    %                             73.2                             73.6                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2013-10-01t00-00-00/p1y   72.3 Percentage    %                             72.1                             72.5                NaN         1    NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2016-10-01t00-00-00/p1y   74.7 Percentage    %                             74.5                             74.9                NaN         1    NaN
+        - Last 10 Rows: 
+   AREACD           AREANM Geography                          Variable Name                              Indicator   Mission                                              Category                  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2018-10-01t00-00-00/p1y   71.9 Percentage    %                             70.8                             73.0                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2006-10-01t00-00-00/p1y   68.6 Percentage    %                             67.3                             69.9                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2011-10-01t00-00-00/p1y   67.0 Percentage    %                             65.6                             68.4                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2005-10-01t00-00-00/p1y   67.0 Percentage    %                             65.7                             68.3                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2004-10-01t00-00-00/p1y   67.1 Percentage    %                             65.8                             68.4                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2003-10-01t00-00-00/p1y   66.0 Percentage    %                             64.7                             67.3                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2007-10-01t00-00-00/p1y   68.0 Percentage    %                             66.7                             69.3                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2010-10-01t00-00-00/p1y   67.0 Percentage    %                             65.6                             68.4                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2009-10-01t00-00-00/p1y   65.8 Percentage    %                             64.4                             67.2                NaN         1    NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2008-10-01t00-00-00/p1y   65.1 Percentage    %                             63.7                             66.5                NaN         1    NaN
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                               Measure    Unit  Count
+Employment rate for 16 to 64 year olds percent   7543
+        
