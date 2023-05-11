@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for male-healthy-life-expectancy.csv",
+    "title": "ONS Geography Code List for Male healthy life expectancy",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
@@ -22,7 +22,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E92000001"
         },
         {
-            "label": "North East (Regions)",
+            "label": "North East (Region)",
             "notation": "E12000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000001"
         },
@@ -147,7 +147,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000006"
         },
         {
-            "label": "Greater Manchester (Metropolitan Counties)",
+            "label": "Greater Manchester (Metropolitan County)",
             "notation": "E11000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000001"
         },
@@ -282,7 +282,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000023"
         },
         {
-            "label": "South Yorkshire (Metropolitan Counties)",
+            "label": "South Yorkshire (Metropolitan County)",
             "notation": "E11000003",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000003"
         },
@@ -312,7 +312,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000019"
         },
         {
-            "label": "West Yorkshire (Metropolitan Counties)",
+            "label": "West Yorkshire (Metropolitan County)",
             "notation": "E11000006",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000006"
         },
@@ -402,7 +402,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000024"
         },
         {
-            "label": "West Midlands (Regions)",
+            "label": "West Midlands (Region)",
             "notation": "E12000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000005"
         },
@@ -437,7 +437,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000031"
         },
         {
-            "label": "West Midlands (Metropolitan Counties)",
+            "label": "West Midlands (Metropolitan County)",
             "notation": "E11000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000005"
         },
