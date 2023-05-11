@@ -1,0 +1,35 @@
+
+- This file is a code list.
+
+- The code list has the following catalog metadata:
+        - Title: Month
+        - Label: Month
+        - Issued: 2023-05-11T11:48:54.236105
+        - Modified: 2023-05-11T11:48:54.236105
+        - License: None
+        - Creator: None
+        - Publisher: None
+        - Landing Pages: None
+        - Themes: None
+        - Keywords: None
+        - Contact Point: None
+        - Identifier: Month
+        - Comment: None
+        - Description: None
+        
+
+- The code list has the following dataset information:
+        - Number of Concepts: 1
+        - Number of Duplicates: 0
+        - Concepts: 
+Uri Identifier   Label Notation  Parent Uri Identifier  Sort Priority  Description                          Original Concept URI
+       2022-09 2022-09  2022-09                    NaN              0          NaN http://reference.data.gov.uk/id/month/2022-09
+        
+
+- The code list has the following concepts information:
+        - Concepts hierarchy depth: 1
+        - Concepts hierarchy:
+root
+└── 2022-09
+
+        
