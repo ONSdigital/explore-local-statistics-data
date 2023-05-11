@@ -83,7 +83,7 @@ w06000005,Flintshire,W06000005,,80,,http://statistics.data.gov.uk/id/statistical
 e08000037,Gateshead,E08000037,,81,,http://statistics.data.gov.uk/id/statistical-geography/E08000037
 s12000049,Glasgow City,S12000049,,82,,http://statistics.data.gov.uk/id/statistical-geography/S12000049
 e10000013,Gloucestershire,E10000013,,83,,http://statistics.data.gov.uk/id/statistical-geography/E10000013
-e47000001,Greater Manchester (Combined Authority),E47000001,,84,,http://statistics.data.gov.uk/id/statistical-geography/E47000001
+e47000001,Greater Manchester (Combined Authorities),E47000001,,84,,http://statistics.data.gov.uk/id/statistical-geography/E47000001
 e11000001,Greater Manchester (Metropolitan County),E11000001,,85,,http://statistics.data.gov.uk/id/statistical-geography/E11000001
 e09000011,Greenwich,E09000011,,86,,http://statistics.data.gov.uk/id/statistical-geography/E09000011
 w06000002,Gwynedd,W06000002,,87,,http://statistics.data.gov.uk/id/statistical-geography/W06000002
@@ -144,7 +144,7 @@ w06000022,Newport,W06000022,,141,,http://statistics.data.gov.uk/id/statistical-g
 n09000010,"Newry, Mourne and Down",N09000010,,142,,http://statistics.data.gov.uk/id/statistical-geography/N09000010
 e10000020,Norfolk,E10000020,,143,,http://statistics.data.gov.uk/id/statistical-geography/E10000020
 s12000021,North Ayrshire,S12000021,,144,,http://statistics.data.gov.uk/id/statistical-geography/S12000021
-e47000010,North East (Combined Authority),E47000010,,145,,http://statistics.data.gov.uk/id/statistical-geography/E47000010
+e47000010,North East (Combined Authorities),E47000010,,145,,http://statistics.data.gov.uk/id/statistical-geography/E47000010
 e12000001,North East (Region),E12000001,,146,,http://statistics.data.gov.uk/id/statistical-geography/E12000001
 e06000012,North East Lincolnshire,E06000012,,147,,http://statistics.data.gov.uk/id/statistical-geography/E06000012
 s12000050,North Lanarkshire,S12000050,,148,,http://statistics.data.gov.uk/id/statistical-geography/S12000050
@@ -195,7 +195,7 @@ e06000025,South Gloucestershire,E06000025,,192,,http://statistics.data.gov.uk/id
 s12000029,South Lanarkshire,S12000029,,193,,http://statistics.data.gov.uk/id/statistical-geography/S12000029
 e08000023,South Tyneside,E08000023,,194,,http://statistics.data.gov.uk/id/statistical-geography/E08000023
 e12000009,South West,E12000009,,195,,http://statistics.data.gov.uk/id/statistical-geography/E12000009
-e47000002,South Yorkshire (Combined Authority),E47000002,,196,,http://statistics.data.gov.uk/id/statistical-geography/E47000002
+e47000002,South Yorkshire (Combined Authorities),E47000002,,196,,http://statistics.data.gov.uk/id/statistical-geography/E47000002
 e11000003,South Yorkshire (Metropolitan County),E11000003,,197,,http://statistics.data.gov.uk/id/statistical-geography/E11000003
 e06000045,Southampton,E06000045,,198,,http://statistics.data.gov.uk/id/statistical-geography/E06000045
 e06000033,Southend-on-Sea,E06000033,,199,,http://statistics.data.gov.uk/id/statistical-geography/E06000033
@@ -234,12 +234,12 @@ e10000031,Warwickshire,E10000031,,231,,http://statistics.data.gov.uk/id/statisti
 e06000037,West Berkshire,E06000037,,232,,http://statistics.data.gov.uk/id/statistical-geography/E06000037
 s12000039,West Dunbartonshire,S12000039,,233,,http://statistics.data.gov.uk/id/statistical-geography/S12000039
 s12000040,West Lothian,S12000040,,234,,http://statistics.data.gov.uk/id/statistical-geography/S12000040
-e47000007,West Midlands (Combined Authority),E47000007,,235,,http://statistics.data.gov.uk/id/statistical-geography/E47000007
+e47000007,West Midlands (Combined Authorities),E47000007,,235,,http://statistics.data.gov.uk/id/statistical-geography/E47000007
 e11000005,West Midlands (Metropolitan County),E11000005,,236,,http://statistics.data.gov.uk/id/statistical-geography/E11000005
 e12000005,West Midlands (Region),E12000005,,237,,http://statistics.data.gov.uk/id/statistical-geography/E12000005
 e06000062,West Northamptonshire,E06000062,,238,,http://statistics.data.gov.uk/id/statistical-geography/E06000062
 e10000032,West Sussex,E10000032,,239,,http://statistics.data.gov.uk/id/statistical-geography/E10000032
-e47000003,West Yorkshire (Combined Authority),E47000003,,240,,http://statistics.data.gov.uk/id/statistical-geography/E47000003
+e47000003,West Yorkshire (Combined Authorities),E47000003,,240,,http://statistics.data.gov.uk/id/statistical-geography/E47000003
 e11000006,West Yorkshire (Metropolitan County),E11000006,,241,,http://statistics.data.gov.uk/id/statistical-geography/E11000006
 e47000009,West of England,E47000009,,242,,http://statistics.data.gov.uk/id/statistical-geography/E47000009
 e09000033,Westminster,E09000033,,243,,http://statistics.data.gov.uk/id/statistical-geography/E09000033
