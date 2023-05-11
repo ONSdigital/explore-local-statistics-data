@@ -32,7 +32,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000006"
         },
         {
-            "label": "North East (Combined Authority)",
+            "label": "North East (Combined Authorities)",
             "notation": "E47000010",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000010"
         },
@@ -152,7 +152,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000001"
         },
         {
-            "label": "Greater Manchester (Combined Authority)",
+            "label": "Greater Manchester (Combined Authorities)",
             "notation": "E47000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000001"
         },
@@ -287,7 +287,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000003"
         },
         {
-            "label": "South Yorkshire (Combined Authority)",
+            "label": "South Yorkshire (Combined Authorities)",
             "notation": "E47000002",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000002"
         },
@@ -317,7 +317,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000006"
         },
         {
-            "label": "West Yorkshire (Combined Authority)",
+            "label": "West Yorkshire (Combined Authorities)",
             "notation": "E47000003",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000003"
         },
@@ -442,7 +442,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000005"
         },
         {
-            "label": "West Midlands (Combined Authority)",
+            "label": "West Midlands (Combined Authorities)",
             "notation": "E47000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000007"
         },
