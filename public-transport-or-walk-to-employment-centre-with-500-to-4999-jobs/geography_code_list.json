@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for public-transport-or-walk-to-employment-centre-with-500-to-4999-jobs.csv",
+    "title": "ONS Geography Code List for Public transport or walk to employment centre with 500 to 4999 jobs",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
@@ -662,7 +662,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000176"
         },
         {
-            "label": "West Midlands (Regions)",
+            "label": "West Midlands (Region)",
             "notation": "E12000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000005"
         },
@@ -762,7 +762,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
         },
         {
-            "label": "West Midlands (Metropolitan Counties)",
+            "label": "West Midlands (Metropolitan County)",
             "notation": "E11000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000005"
         },
