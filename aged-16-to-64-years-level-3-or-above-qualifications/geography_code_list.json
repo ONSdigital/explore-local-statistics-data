@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for Overweight children at Year 6 age (aged 10 to 11 years)",
+    "title": "ONS Geography Code List for Aged 16 to 64 years level 3 or above qualifications",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
@@ -11,6 +11,21 @@
         "method": "ascending"
     },
     "concepts": [
+        {
+            "label": "United Kingdom",
+            "notation": "K02000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/K02000001"
+        },
+        {
+            "label": "Great Britain",
+            "notation": "K03000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/K03000001"
+        },
+        {
+            "label": "England and Wales",
+            "notation": "K04000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/K04000001"
+        },
         {
             "label": "England",
             "notation": "E92000001",
@@ -25,11 +40,6 @@
             "label": "Tees Valley",
             "notation": "E47000006",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000006"
-        },
-        {
-            "label": "North East (Combined Authority)",
-            "notation": "E47000005",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000005"
         },
         {
             "label": "North East (Combined Authority)",
@@ -75,6 +85,11 @@
             "label": "Stockton-on-Tees",
             "notation": "E06000004",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000004"
+        },
+        {
+            "label": "Tyne and Wear",
+            "notation": "E11000007",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000007"
         },
         {
             "label": "Gateshead",
@@ -137,21 +152,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000007"
         },
         {
-            "label": "Cumbria",
-            "notation": "E10000006",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000006"
-        },
-        {
-            "label": "Cumberland",
-            "notation": "E06000063",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000063"
-        },
-        {
-            "label": "Westmorland and Furness",
-            "notation": "E06000064",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000064"
-        },
-        {
             "label": "Allerdale",
             "notation": "E07000026",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000026"
@@ -182,7 +182,12 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000031"
         },
         {
-            "label": "Greater Manchester",
+            "label": "Greater Manchester (Metropolitan County)",
+            "notation": "E11000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000001"
+        },
+        {
+            "label": "Greater Manchester (Combined Authority)",
             "notation": "E47000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000001"
         },
@@ -235,11 +240,6 @@
             "label": "Wigan",
             "notation": "E08000010",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000010"
-        },
-        {
-            "label": "Lancashire",
-            "notation": "E10000017",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000017"
         },
         {
             "label": "Burnley",
@@ -302,6 +302,11 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000128"
         },
         {
+            "label": "Merseyside",
+            "notation": "E11000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000002"
+        },
+        {
             "label": "Liverpool City Region",
             "notation": "E47000004",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000004"
@@ -362,16 +367,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000014"
         },
         {
-            "label": "North Yorkshire (County)",
-            "notation": "E10000023",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000023"
-        },
-        {
-            "label": "North Yorkshire (Unitary Authority)",
-            "notation": "E06000065",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000065"
-        },
-        {
             "label": "Craven",
             "notation": "E07000163",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000163"
@@ -407,7 +402,12 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000169"
         },
         {
-            "label": "South Yorkshire",
+            "label": "South Yorkshire (Metropolitan County)",
+            "notation": "E11000003",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000003"
+        },
+        {
+            "label": "South Yorkshire (Combined Authority)",
             "notation": "E47000002",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000002"
         },
@@ -432,7 +432,12 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000019"
         },
         {
-            "label": "West Yorkshire",
+            "label": "West Yorkshire (Metropolitan County)",
+            "notation": "E11000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000006"
+        },
+        {
+            "label": "West Yorkshire (Combined Authority)",
             "notation": "E47000003",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000003"
         },
@@ -497,11 +502,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000062"
         },
         {
-            "label": "Derbyshire",
-            "notation": "E10000007",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000007"
-        },
-        {
             "label": "Amber Valley",
             "notation": "E07000032",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000032"
@@ -542,11 +542,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000039"
         },
         {
-            "label": "Leicestershire",
-            "notation": "E10000018",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000018"
-        },
-        {
             "label": "Blaby",
             "notation": "E07000129",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000129"
@@ -582,11 +577,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000135"
         },
         {
-            "label": "Lincolnshire",
-            "notation": "E10000019",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000019"
-        },
-        {
             "label": "Boston",
             "notation": "E07000136",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000136"
@@ -620,51 +610,6 @@
             "label": "West Lindsey",
             "notation": "E07000142",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000142"
-        },
-        {
-            "label": "Northamptonshire",
-            "notation": "E10000021",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000021"
-        },
-        {
-            "label": "Corby",
-            "notation": "E07000150",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000150"
-        },
-        {
-            "label": "Daventry",
-            "notation": "E07000151",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000151"
-        },
-        {
-            "label": "East Northamptonshire",
-            "notation": "E07000152",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000152"
-        },
-        {
-            "label": "Kettering",
-            "notation": "E07000153",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000153"
-        },
-        {
-            "label": "Northampton",
-            "notation": "E07000154",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000154"
-        },
-        {
-            "label": "South Northamptonshire",
-            "notation": "E07000155",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000155"
-        },
-        {
-            "label": "Wellingborough",
-            "notation": "E07000156",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000156"
-        },
-        {
-            "label": "Nottinghamshire",
-            "notation": "E10000024",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000024"
         },
         {
             "label": "Ashfield",
@@ -727,11 +672,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000020"
         },
         {
-            "label": "Staffordshire",
-            "notation": "E10000028",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000028"
-        },
-        {
             "label": "Cannock Chase",
             "notation": "E07000192",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000192"
@@ -772,11 +712,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000199"
         },
         {
-            "label": "Warwickshire",
-            "notation": "E10000031",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000031"
-        },
-        {
             "label": "North Warwickshire",
             "notation": "E07000218",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000218"
@@ -800,6 +735,11 @@
             "label": "Warwick",
             "notation": "E07000222",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
+        },
+        {
+            "label": "West Midlands (Metropolitan County)",
+            "notation": "E11000005",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E11000005"
         },
         {
             "label": "West Midlands (Combined Authority)",
@@ -840,11 +780,6 @@
             "label": "Wolverhampton",
             "notation": "E08000031",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000031"
-        },
-        {
-            "label": "Worcestershire",
-            "notation": "E10000034",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000034"
         },
         {
             "label": "Bromsgrove",
@@ -912,11 +847,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000034"
         },
         {
-            "label": "Cambridgeshire",
-            "notation": "E10000003",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000003"
-        },
-        {
             "label": "Cambridgeshire and Peterborough",
             "notation": "E47000008",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000008"
@@ -945,11 +875,6 @@
             "label": "South Cambridgeshire",
             "notation": "E07000012",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000012"
-        },
-        {
-            "label": "Essex",
-            "notation": "E10000012",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000012"
         },
         {
             "label": "Basildon",
@@ -1012,11 +937,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000077"
         },
         {
-            "label": "Hertfordshire",
-            "notation": "E10000015",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000015"
-        },
-        {
             "label": "Broxbourne",
             "notation": "E07000095",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000095"
@@ -1067,11 +987,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000241"
         },
         {
-            "label": "Norfolk",
-            "notation": "E10000020",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000020"
-        },
-        {
             "label": "Breckland",
             "notation": "E07000143",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000143"
@@ -1107,11 +1022,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000149"
         },
         {
-            "label": "Suffolk",
-            "notation": "E10000029",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000029"
-        },
-        {
             "label": "Babergh",
             "notation": "E07000200",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000200"
@@ -1120,16 +1030,6 @@
             "label": "East Suffolk",
             "notation": "E07000244",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000244"
-        },
-        {
-            "label": "Suffolk Coastal",
-            "notation": "E07000205",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000205"
-        },
-        {
-            "label": "Waveney",
-            "notation": "E07000206",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000206"
         },
         {
             "label": "Ipswich",
@@ -1147,24 +1047,29 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000245"
         },
         {
-            "label": "Forest Heath",
-            "notation": "E07000201",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000201"
-        },
-        {
-            "label": "St Edmundsbury",
-            "notation": "E07000204",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000204"
-        },
-        {
             "label": "London",
             "notation": "E12000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000007"
         },
         {
+            "label": "Inner London",
+            "notation": "E13000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E13000001"
+        },
+        {
             "label": "Camden",
             "notation": "E09000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000007"
+        },
+        {
+            "label": "City of London",
+            "notation": "E09000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000001"
+        },
+        {
+            "label": "Hackney",
+            "notation": "E09000012",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000012"
         },
         {
             "label": "Hammersmith and Fulham",
@@ -1220,6 +1125,11 @@
             "label": "Westminster",
             "notation": "E09000033",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000033"
+        },
+        {
+            "label": "Outer London",
+            "notation": "E13000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E13000002"
         },
         {
             "label": "Barking and Dagenham",
@@ -1332,7 +1242,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000043"
         },
         {
-            "label": "Buckinghamshire (Unitary Authority)",
+            "label": "Buckinghamshire",
             "notation": "E06000060",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000060"
         },
@@ -1387,36 +1297,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000041"
         },
         {
-            "label": "Buckinghamshire (County)",
-            "notation": "E10000002",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000002"
-        },
-        {
-            "label": "Aylesbury Vale",
-            "notation": "E07000004",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000004"
-        },
-        {
-            "label": "Chiltern",
-            "notation": "E07000005",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000005"
-        },
-        {
-            "label": "South Bucks",
-            "notation": "E07000006",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000006"
-        },
-        {
-            "label": "Wycombe",
-            "notation": "E07000007",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000007"
-        },
-        {
-            "label": "East Sussex",
-            "notation": "E10000011",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000011"
-        },
-        {
             "label": "Eastbourne",
             "notation": "E07000061",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000061"
@@ -1440,11 +1320,6 @@
             "label": "Wealden",
             "notation": "E07000065",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000065"
-        },
-        {
-            "label": "Hampshire",
-            "notation": "E10000014",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000014"
         },
         {
             "label": "Basingstoke and Deane",
@@ -1500,11 +1375,6 @@
             "label": "Winchester",
             "notation": "E07000094",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000094"
-        },
-        {
-            "label": "Kent",
-            "notation": "E10000016",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000016"
         },
         {
             "label": "Ashford",
@@ -1567,11 +1437,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000116"
         },
         {
-            "label": "Oxfordshire",
-            "notation": "E10000025",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000025"
-        },
-        {
             "label": "Cherwell",
             "notation": "E07000177",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000177"
@@ -1595,11 +1460,6 @@
             "label": "West Oxfordshire",
             "notation": "E07000181",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000181"
-        },
-        {
-            "label": "Surrey",
-            "notation": "E10000030",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000030"
         },
         {
             "label": "Elmbridge",
@@ -1657,11 +1517,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000217"
         },
         {
-            "label": "West Sussex",
-            "notation": "E10000032",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000032"
-        },
-        {
             "label": "Adur",
             "notation": "E07000223",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000223"
@@ -1717,16 +1572,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000058"
         },
         {
-            "label": "Bournemouth",
-            "notation": "E06000028",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000028"
-        },
-        {
-            "label": "Poole",
-            "notation": "E06000029",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000029"
-        },
-        {
             "label": "Bristol, City of",
             "notation": "E06000023",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000023"
@@ -1737,7 +1582,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000052"
         },
         {
-            "label": "Dorset (Unitary Authority)",
+            "label": "Dorset",
             "notation": "E06000059",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000059"
         },
@@ -1775,11 +1620,6 @@
             "label": "Wiltshire",
             "notation": "E06000054",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000054"
-        },
-        {
-            "label": "Devon",
-            "notation": "E10000008",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000008"
         },
         {
             "label": "East Devon",
@@ -1822,46 +1662,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000047"
         },
         {
-            "label": "Dorset (County)",
-            "notation": "E10000009",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000009"
-        },
-        {
-            "label": "Christchurch",
-            "notation": "E07000048",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000048"
-        },
-        {
-            "label": "East Dorset",
-            "notation": "E07000049",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000049"
-        },
-        {
-            "label": "North Dorset",
-            "notation": "E07000050",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000050"
-        },
-        {
-            "label": "Purbeck",
-            "notation": "E07000051",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000051"
-        },
-        {
-            "label": "West Dorset",
-            "notation": "E07000052",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000052"
-        },
-        {
-            "label": "Weymouth and Portland",
-            "notation": "E07000053",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000053"
-        },
-        {
-            "label": "Gloucestershire",
-            "notation": "E10000013",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000013"
-        },
-        {
             "label": "Cheltenham",
             "notation": "E07000078",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000078"
@@ -1892,16 +1692,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000083"
         },
         {
-            "label": "Somerset (County)",
-            "notation": "E10000027",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000027"
-        },
-        {
-            "label": "Somerset (Unitary Authority)",
-            "notation": "E06000066",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000066"
-        },
-        {
             "label": "Mendip",
             "notation": "E07000187",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000187"
@@ -1912,16 +1702,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000188"
         },
         {
-            "label": "Taunton Deane",
-            "notation": "E07000190",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000190"
-        },
-        {
-            "label": "West Somerset",
-            "notation": "E07000191",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000191"
-        },
-        {
             "label": "Somerset West and Taunton",
             "notation": "E07000246",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000246"
@@ -1930,6 +1710,291 @@
             "label": "South Somerset",
             "notation": "E07000189",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000189"
+        },
+        {
+            "label": "Wales",
+            "notation": "W92000004",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W92000004"
+        },
+        {
+            "label": "Isle of Anglesey",
+            "notation": "W06000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000001"
+        },
+        {
+            "label": "Gwynedd",
+            "notation": "W06000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000002"
+        },
+        {
+            "label": "Conwy",
+            "notation": "W06000003",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000003"
+        },
+        {
+            "label": "Denbighshire",
+            "notation": "W06000004",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000004"
+        },
+        {
+            "label": "Flintshire",
+            "notation": "W06000005",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000005"
+        },
+        {
+            "label": "Wrexham",
+            "notation": "W06000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000006"
+        },
+        {
+            "label": "Powys",
+            "notation": "W06000023",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000023"
+        },
+        {
+            "label": "Ceredigion",
+            "notation": "W06000008",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000008"
+        },
+        {
+            "label": "Pembrokeshire",
+            "notation": "W06000009",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000009"
+        },
+        {
+            "label": "Carmarthenshire",
+            "notation": "W06000010",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000010"
+        },
+        {
+            "label": "Swansea",
+            "notation": "W06000011",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000011"
+        },
+        {
+            "label": "Neath Port Talbot",
+            "notation": "W06000012",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000012"
+        },
+        {
+            "label": "Bridgend",
+            "notation": "W06000013",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000013"
+        },
+        {
+            "label": "Vale of Glamorgan",
+            "notation": "W06000014",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000014"
+        },
+        {
+            "label": "Cardiff",
+            "notation": "W06000015",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000015"
+        },
+        {
+            "label": "Rhondda Cynon Taf",
+            "notation": "W06000016",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000016"
+        },
+        {
+            "label": "Merthyr Tydfil",
+            "notation": "W06000024",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000024"
+        },
+        {
+            "label": "Caerphilly",
+            "notation": "W06000018",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000018"
+        },
+        {
+            "label": "Blaenau Gwent",
+            "notation": "W06000019",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000019"
+        },
+        {
+            "label": "Torfaen",
+            "notation": "W06000020",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000020"
+        },
+        {
+            "label": "Monmouthshire",
+            "notation": "W06000021",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000021"
+        },
+        {
+            "label": "Newport",
+            "notation": "W06000022",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/W06000022"
+        },
+        {
+            "label": "Scotland",
+            "notation": "S92000003",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S92000003"
+        },
+        {
+            "label": "Aberdeen City",
+            "notation": "S12000033",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000033"
+        },
+        {
+            "label": "Aberdeenshire",
+            "notation": "S12000034",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000034"
+        },
+        {
+            "label": "Angus",
+            "notation": "S12000041",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000041"
+        },
+        {
+            "label": "Argyll and Bute",
+            "notation": "S12000035",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000035"
+        },
+        {
+            "label": "City of Edinburgh",
+            "notation": "S12000036",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000036"
+        },
+        {
+            "label": "Clackmannanshire",
+            "notation": "S12000005",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000005"
+        },
+        {
+            "label": "Dumfries and Galloway",
+            "notation": "S12000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000006"
+        },
+        {
+            "label": "Dundee City",
+            "notation": "S12000042",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000042"
+        },
+        {
+            "label": "East Ayrshire",
+            "notation": "S12000008",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000008"
+        },
+        {
+            "label": "East Dunbartonshire",
+            "notation": "S12000045",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000045"
+        },
+        {
+            "label": "East Lothian",
+            "notation": "S12000010",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000010"
+        },
+        {
+            "label": "East Renfrewshire",
+            "notation": "S12000011",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000011"
+        },
+        {
+            "label": "Falkirk",
+            "notation": "S12000014",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000014"
+        },
+        {
+            "label": "Fife",
+            "notation": "S12000047",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000047"
+        },
+        {
+            "label": "Glasgow City",
+            "notation": "S12000049",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000049"
+        },
+        {
+            "label": "Highland",
+            "notation": "S12000017",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000017"
+        },
+        {
+            "label": "Inverclyde",
+            "notation": "S12000018",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000018"
+        },
+        {
+            "label": "Midlothian",
+            "notation": "S12000019",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000019"
+        },
+        {
+            "label": "Moray",
+            "notation": "S12000020",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000020"
+        },
+        {
+            "label": "Na h-Eileanan Siar",
+            "notation": "S12000013",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000013"
+        },
+        {
+            "label": "North Ayrshire",
+            "notation": "S12000021",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000021"
+        },
+        {
+            "label": "North Lanarkshire",
+            "notation": "S12000050",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000050"
+        },
+        {
+            "label": "Orkney Islands",
+            "notation": "S12000023",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000023"
+        },
+        {
+            "label": "Perth and Kinross",
+            "notation": "S12000048",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000048"
+        },
+        {
+            "label": "Renfrewshire",
+            "notation": "S12000038",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000038"
+        },
+        {
+            "label": "Scottish Borders",
+            "notation": "S12000026",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000026"
+        },
+        {
+            "label": "Shetland Islands",
+            "notation": "S12000027",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000027"
+        },
+        {
+            "label": "South Ayrshire",
+            "notation": "S12000028",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000028"
+        },
+        {
+            "label": "South Lanarkshire",
+            "notation": "S12000029",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000029"
+        },
+        {
+            "label": "Stirling",
+            "notation": "S12000030",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000030"
+        },
+        {
+            "label": "West Dunbartonshire",
+            "notation": "S12000039",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000039"
+        },
+        {
+            "label": "West Lothian",
+            "notation": "S12000040",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/S12000040"
+        },
+        {
+            "label": "Northern Ireland",
+            "notation": "N92000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/N92000002"
         }
     ]
 }

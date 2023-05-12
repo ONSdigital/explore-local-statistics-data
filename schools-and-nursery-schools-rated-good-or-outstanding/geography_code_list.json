@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for schools-and-nursery-schools-rated-good-or-outstanding.csv",
+    "title": "ONS Geography Code List for Schools and nursery schools rated good or outstanding",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",

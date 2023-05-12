@@ -1,19 +1,19 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Cancer diagnosis at stage 1 and 2",
-    "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
-    "summary": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, England, 2013 to 2020",
-    "description": "This dataset shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2020.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: Office for Health Improvement and Disparities \n\n\n### Source Notes and Caveats \nValues for Cornwall and Isles of Scilly are in a combined code (E67000002).  \n\n\n",
+    "title": "Aged 16 to 64 years level 3 or above qualifications",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "summary": "Percentage of the population aged 16 \u2013 64 with National Vocational Qualification (NVQ) level 3+ qualifications, Great Britain (Northern Ireland national figure included), 2004 to 2021",
+    "description": "This dataset shows the percentage of the population aged 16 \u2013 64 with National Vocational Qualification (NVQ) level 3+ qualifications, in Great Britain (Northern Ireland national figure included), for 2004 - 2021.\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountries (UK, GB, England and Wales)\n\n### Source\n\n - Great Britain: Nomis \n\n\n### Source Notes and Caveats \nThis indicator is based on re-weighted Annual Population Survey datasets updated on 16 August 2022. For more information, see [Impact of reweighting on Labour Force Survey key indicators: 2022](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/impactofreweightingonlabourforcesurveykeyindicators/2022).\n\nAs of 18 Apr 2023 qualification estimates from the APS for the Jan 2022-Dec 2022 survey period are temporarily suspended. Qualifications outputs for 2022 will be reinstated on NOMIS as soon as the update has been made. \n\n\n",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
-        "tumor",
+        "annual-population-survey",
+        "national-vocational-qualification",
         "subnational",
         "local-authority",
-        "county",
         "region"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
     "columns": {
         "Period": {
             "type": "dimension",
@@ -38,8 +38,8 @@
                 "from_existing": "http://qudt.org/vocab/unit/PERCENT"
             },
             "measure": {
-                "label": "Cancer diagnosis at stage 1 and 2",
-                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
+                "label": "Aged 16 to 64 years level 3 or above qualifications",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
             }
         },
         "Measure": false,

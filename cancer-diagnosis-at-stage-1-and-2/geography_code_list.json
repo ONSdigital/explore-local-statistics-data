@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for cancer-diagnosis-at-stage-1-and-2.csv",
+    "title": "ONS Geography Code List for Cancer diagnosis at stage 1 and 2",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
@@ -17,7 +17,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E92000001"
         },
         {
-            "label": "North East (Regions)",
+            "label": "North East (Region)",
             "notation": "E12000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000001"
         },
@@ -27,7 +27,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000006"
         },
         {
-            "label": "North East (Combined Authorities)",
+            "label": "North East (Combined Authority)",
             "notation": "E47000010",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000010"
         },
@@ -347,9 +347,14 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000014"
         },
         {
-            "label": "North Yorkshire",
+            "label": "North Yorkshire (County)",
             "notation": "E10000023",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000023"
+        },
+        {
+            "label": "North Yorkshire (Unitary Authority)",
+            "notation": "E06000065",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000065"
         },
         {
             "label": "Craven",
@@ -682,7 +687,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000176"
         },
         {
-            "label": "West Midlands (Regions)",
+            "label": "West Midlands (Region)",
             "notation": "E12000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000005"
         },
@@ -782,7 +787,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
         },
         {
-            "label": "West Midlands (Combined Authorities)",
+            "label": "West Midlands (Combined Authority)",
             "notation": "E47000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000007"
         },
@@ -1067,7 +1072,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000145"
         },
         {
-            "label": "King's Lynn and West Norfolk",
+            "label": "King?s Lynn and West Norfolk",
             "notation": "E07000146",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000146"
         },
@@ -1782,9 +1787,14 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000083"
         },
         {
-            "label": "Somerset",
+            "label": "Somerset (County)",
             "notation": "E10000027",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000027"
+        },
+        {
+            "label": "Somerset (Unitary Authority)",
+            "notation": "E06000066",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000066"
         },
         {
             "label": "Mendip",
