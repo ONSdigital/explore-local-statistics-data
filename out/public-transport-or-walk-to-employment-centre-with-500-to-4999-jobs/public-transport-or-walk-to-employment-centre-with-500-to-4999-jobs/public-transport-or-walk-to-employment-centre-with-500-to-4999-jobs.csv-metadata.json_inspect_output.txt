@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Public transport or walk to employment centre with 500 to 4999 jobs
-        - Label: Public transport or walk to employment centre with 500 to 4999 jobs
-        - Issued: 2023-05-11T12:03:09.972297
-        - Modified: 2023-05-11T12:03:09.972297
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-transport
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Public transport or walk to employment centre with 500 to 4999 jobs
+          - Label: Public transport or walk to employment centre with 500 to 4999 jobs
+          - Issued: 2023-05-15T14:46:02.441867
+          - Modified: 2023-05-15T14:46:02.441867
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-transport
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
-        - Keywords: 
-		-- local-authority
+          - Keywords: 
 		-- transport
-		-- journey-time
 		-- subnational
+		-- local-authority
+		-- journey-time
 		-- travel-to-work
-        - Contact Point: None
-        - Identifier: Public transport or walk to employment centre with 500 to 4999 jobs
-        - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking (experimental statistics), England, 2014-2019.
-        - Description: This dataset shows the average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking (experimental statistics), in England, for 2014-2019.
+          - Contact Point: None
+          - Identifier: Public transport or walk to employment centre with 500 to 4999 jobs
+          - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking (experimental statistics), England, 2014-2019.
+          - Description: This dataset shows the average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking (experimental statistics), in England, for 2014-2019.
 		
 		### Coverage 
 		
@@ -37,7 +38,7 @@
 		
 		### Source
 		
-		 - England: Department for Transport 
+		 - England: [Department for Transport](https://www.gov.uk/government/statistical-data-sets/journey-time-statistics-data-tables-jts) 
 		
 		
 		
