@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Cigarette smokers
-        - Label: Cigarette smokers
-        - Issued: 2023-05-05T08:59:30.992885
-        - Modified: 2023-05-05T08:59:30.992885
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Cigarette smokers
+          - Label: Cigarette smokers
+          - Issued: 2023-05-15T09:07:14.968304
+          - Modified: 2023-05-15T09:07:14.968304
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
-        - Keywords: 
+          - Keywords: 
 		-- local-authority
-		-- subnational
-		-- annual-population-survey
 		-- smoking-habits
+		-- subnational
 		-- region
-        - Contact Point: None
-        - Identifier: Cigarette smokers
-        - Comment: Percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), United Kingdom, 2011 - 2021.
-        - Description: This dataset shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), in the United Kingdom, for 2011 - 2021.
+		-- annual-population-survey
+          - Contact Point: None
+          - Identifier: Cigarette smokers
+          - Comment: Percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), United Kingdom, 2012 - 2021.
+          - Description: This dataset shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), in the United Kingdom, for 2012 - 2021.
 		
 		### Coverage 
 		
@@ -36,7 +37,7 @@
 		
 		### Source
 		
-		 - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/smokinghabitsintheukanditsconstituentcountries#) 
+		 - United Kingdom: Office for National Statistics 
 		
 		
 		
@@ -77,16 +78,15 @@
 - The data cube has the following code list information:
         - Number of Code Lists: 2
         - Code Lists:
-                                                      Code List                                   Code List Label Columns Used In
-ons-geography-code-list-for-cigarette-smokers-csv.csv#code-list ONS Geography Code List for cigarette-smokers.csv          AREACD
-                                             year.csv#code-list                                              Year          Period
+                                                  Code List                               Code List Label Columns Used In
+ons-geography-code-list-for-cigarette-smokers.csv#code-list ONS Geography Code List for Cigarette smokers          AREACD
+                                         year.csv#code-list                                          Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 3984
+        - Number of Rows: 3970
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography                          Variable Name         Indicator   Mission                                            Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2011   20.2 Percentage    %                             20.0                             20.5                NaN        -1   NaN
 k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2012   19.6 Percentage    %                             19.4                             19.8                NaN        -1   NaN
 k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2013   18.8 Percentage    %                             18.5                             19.0                NaN        -1   NaN
 k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2014   18.1 Percentage    %                             17.9                             18.4                NaN        -1   NaN
@@ -96,6 +96,7 @@ k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigare
 k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2018   14.7 Percentage    %                             14.5                             14.9                NaN        -1   NaN
 k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2019   14.1 Percentage    %                             13.9                             14.3                NaN        -1   NaN
 k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2020   14.0 Percentage    %                             13.8                             14.3                NaN        -1   NaN
+k02000001 United Kingdom   Country Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2021   13.3 Percentage    %                             13.0                             13.5                NaN        -1   NaN
         - Last 10 Rows: 
    AREACD              AREANM                Geography                          Variable Name         Indicator   Mission                                            Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
 n09000011 Ards and North Down Local Authority District Adults that currently smoke cigarettes Cigarette smokers Mission 7 Spreading opportunity and improving public services    2020   15.3 Percentage    %                             11.0                             19.6                NaN        -1   NaN
@@ -113,5 +114,5 @@ n09000011 Ards and North Down Local Authority District Adults that currently smo
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
           Measure    Unit  Count
-Cigarette smokers percent   3984
+Cigarette smokers percent   3970
         
