@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Schools and nursery schools rated good or outstanding
-        - Label: Schools and nursery schools rated good or outstanding
-        - Issued: 2023-05-05T09:00:11.025713
-        - Modified: 2023-05-05T09:00:11.025713
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/ofsted
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Schools and nursery schools rated good or outstanding
+          - Label: Schools and nursery schools rated good or outstanding
+          - Issued: 2023-05-15T09:28:01.492988
+          - Modified: 2023-05-15T09:28:01.492988
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/ofsted
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
-        - Keywords: 
+          - Keywords: 
+		-- inspections-and-outcomes
+		-- region
 		-- county
 		-- subnational
 		-- state-funded-school
-		-- region
-		-- inspections-and-outcomes
-        - Contact Point: None
-        - Identifier: Schools and nursery schools rated good or outstanding
-        - Comment: Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by Ofsted, England (state-funded schools), as at 31 March 2023
-        - Description: This dataset shows the percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by Ofsted, in England (state-funded schools), as at 31 March 2023.
+          - Contact Point: None
+          - Identifier: Schools and nursery schools rated good or outstanding
+          - Comment: Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by Ofsted, England (state-funded schools), as at 31 March 2023
+          - Description: This dataset shows the percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by Ofsted, in England (state-funded schools), as at 31 March 2023.
 		
 		### Coverage 
 		
@@ -35,7 +36,7 @@
 		
 		### Source
 		
-		 - England: [Ofsted](https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes#) 
+		 - England: Ofsted 
 		
 		
 		### Source Notes and Caveats 
@@ -80,37 +81,37 @@
 - The data cube has the following code list information:
         - Number of Code Lists: 2
         - Code Lists:
-                                                                                          Code List                                                                       Code List Label Columns Used In
-ons-geography-code-list-for-schools-and-nursery-schools-rated-good-or-outstanding-csv.csv#code-list ONS Geography Code List for schools-and-nursery-schools-rated-good-or-outstanding.csv          AREACD
-                                                                         time-instant.csv#code-list                                                                          Time Instant          Period
+                                                                                      Code List                                                                   Code List Label Columns Used In
+ons-geography-code-list-for-schools-and-nursery-schools-rated-good-or-outstanding.csv#code-list ONS Geography Code List for Schools and nursery schools rated good or outstanding          AREACD
+                                                                     time-instant.csv#code-list                                                                      Time Instant          Period
 
 - The data cube has the following dataset information:
         - Number of Rows: 162
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD               AREANM                   Geography                                                   Variable Name                                             Indicator   Mission                                            Category              Period     Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
-e92000001              England                      Nation Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 88.533101 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e12000001           North East                      Region Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 89.973615 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000047        County Durham County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 88.636364 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000005           Darlington County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 83.333333 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000001           Hartlepool County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 86.842105 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000002        Middlesbrough County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 87.500000 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000057       Northumberland County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 92.638037 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000003 Redcar and Cleveland County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 87.931034 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000004     Stockton-on-Tees County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 93.589744 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e08000037            Gateshead    Local Authority District Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 89.285714 Percentage    %                              NaN                              NaN                NaN         1    NaN
+   AREACD               AREANM                   Geography                                                   Variable Name                                             Indicator   Mission                                            Category              Period     Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+e92000001              England                      Nation Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 88.533101 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e12000001           North East                      Region Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 89.973615 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000047        County Durham County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 88.636364 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000005           Darlington County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 83.333333 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000001           Hartlepool County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 86.842105 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000002        Middlesbrough County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 87.500000 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000057       Northumberland County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 92.638037 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000003 Redcar and Cleveland County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 87.931034 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000004     Stockton-on-Tees County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 93.589744 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e08000037            Gateshead    Local Authority District Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 89.285714 Percentage    %                              NaN                              NaN                 NaN         1   NaN
         - Last 10 Rows: 
-   AREACD                AREANM                   Geography                                                   Variable Name                                             Indicator   Mission                                            Category              Period     Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
-e06000053       Isles of Scilly County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00       NaN Percentage    %                              NaN                              NaN                  x         1    NaN
-e06000024        North Somerset County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 85.897436 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000026              Plymouth County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 77.551020 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000025 South Gloucestershire County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 93.750000 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000030               Swindon County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 85.542169 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000027                Torbay County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 83.333333 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e06000054             Wiltshire County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 83.116883 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e10000008                 Devon County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 87.158470 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e10000013       Gloucestershire County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 86.577181 Percentage    %                              NaN                              NaN                NaN         1    NaN
-e10000027             Somerset  County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 82.509506 Percentage    %                              NaN                              NaN                NaN         1    NaN
+   AREACD                AREANM                   Geography                                                   Variable Name                                             Indicator   Mission                                            Category              Period     Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                     Notes
+e06000053       Isles of Scilly County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00  0.000000 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e06000024        North Somerset County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 85.897436 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e06000026              Plymouth County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 77.551020 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e06000025 South Gloucestershire County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 93.750000 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e06000030               Swindon County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 85.542169 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e06000027                Torbay County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 83.333333 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e06000054             Wiltshire County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 83.116883 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e10000008                 Devon County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 87.158470 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e10000013       Gloucestershire County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 86.577181 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
+e10000027             Somerset  County or Unitary Authority Schools and nursery schools rated good or outstanding by OFSTED Schools and nursery schools rated good or outstanding Mission 5 Spreading opportunity and improving public services 2023-03-31t00-00-00 82.509506 Percentage    %                              NaN                              NaN                 NaN         1 Obsolete code since 2023 (replaced by E06000066 Somerset)
         
 
 - The data cube has the following value counts:
