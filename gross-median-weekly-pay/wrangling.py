@@ -9,6 +9,8 @@ from pathlib import Path
 def wrangle(input: Path(), output: Path()) -> None:
     df = pd.read_csv(input, na_values = 'na')
 
+    df['Observation Status'] = df.apply(lambda x: 'x' if 'na' in str(x['Value']) else x['Observation Status'], axis = 1 )
+
     df.to_csv(output, index=False)
     return
 
