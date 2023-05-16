@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Cancer diagnosis at stage 1 and 2
           - Label: ONS Geography Code List for Cancer diagnosis at stage 1 and 2
-          - Issued: 2023-05-15T09:26:30.160887
-          - Modified: 2023-05-15T09:26:30.160887
+          - Issued: 2023-05-16T11:41:16.313348
+          - Modified: 2023-05-16T11:41:16.313348
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
