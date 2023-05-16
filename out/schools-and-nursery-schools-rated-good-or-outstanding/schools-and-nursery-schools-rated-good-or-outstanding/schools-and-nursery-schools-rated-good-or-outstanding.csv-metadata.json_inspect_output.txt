@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Schools and nursery schools rated good or outstanding
           - Label: Schools and nursery schools rated good or outstanding
-          - Issued: 2023-05-15T09:28:01.492988
-          - Modified: 2023-05-15T09:28:01.492988
+          - Issued: 2023-05-16T13:36:24.493825
+          - Modified: 2023-05-16T13:36:24.493825
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofsted
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- inspections-and-outcomes
-		-- region
-		-- county
 		-- subnational
+		-- region
 		-- state-funded-school
+		-- inspections-and-outcomes
+		-- county
           - Contact Point: None
           - Identifier: Schools and nursery schools rated good or outstanding
           - Comment: Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by Ofsted, England (state-funded schools), as at 31 March 2023
@@ -36,7 +36,7 @@
 		
 		### Source
 		
-		 - England: Ofsted 
+		 - England: [Ofsted](https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes) 
 		
 		
 		### Source Notes and Caveats 

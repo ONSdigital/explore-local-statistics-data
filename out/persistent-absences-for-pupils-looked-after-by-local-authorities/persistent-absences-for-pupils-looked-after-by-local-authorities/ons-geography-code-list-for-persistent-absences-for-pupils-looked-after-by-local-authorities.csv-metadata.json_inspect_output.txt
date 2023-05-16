@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Persistent absences for pupils looked after by local authorities
           - Label: ONS Geography Code List for Persistent absences for pupils looked after by local authorities
-          - Issued: 2023-05-16T12:32:13.115916
-          - Modified: 2023-05-16T12:32:13.115916
+          - Issued: 2023-05-16T13:35:25.379841
+          - Modified: 2023-05-16T13:35:25.379841
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

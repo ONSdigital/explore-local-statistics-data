@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Persistent absences for pupils looked after by local authorities
           - Label: Persistent absences for pupils looked after by local authorities
-          - Issued: 2023-05-16T12:32:13.134850
-          - Modified: 2023-05-16T12:32:13.134850
+          - Issued: 2023-05-16T13:35:25.395087
+          - Modified: 2023-05-16T13:35:25.395087
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,14 +15,14 @@
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
 		-- subnational
-		-- state-funded-school
-		-- region
 		-- county
 		-- children-out-of-school
+		-- state-funded-school
+		-- region
           - Contact Point: None
           - Identifier: Persistent absences for pupils looked after by local authorities
-          - Comment: Percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded primary and secondary schools, special schools and pupil referral units), academic years 2016/17 - 2021/22.
-          - Description: This dataset shows the percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded primary and secondary schools, special schools and pupil referral units), for for academic years 2016/17 - 2021/22.
+          - Comment: Percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded primary and secondary schools, special schools and pupil referral units), financial years 2016/17 - 2021/22.
+          - Description: This dataset shows the percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded primary and secondary schools, special schools and pupil referral units), for financial years 2016/17 - 2021/22.
 		
 		### Coverage 
 		
@@ -36,7 +36,7 @@
 		
 		### Source
 		
-		 - England: Department for Education 
+		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/outcomes-for-children-in-need-including-children-looked-after-by-local-authorities-in-england) 
 		
 		
 		### Source Notes and Caveats 

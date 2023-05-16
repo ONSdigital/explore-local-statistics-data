@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Public transport or walk to employment centre with 500 to 4999 jobs
           - Label: ONS Geography Code List for Public transport or walk to employment centre with 500 to 4999 jobs
-          - Issued: 2023-05-15T14:46:02.422348
-          - Modified: 2023-05-15T14:46:02.422348
+          - Issued: 2023-05-16T13:35:41.692776
+          - Modified: 2023-05-16T13:35:41.692776
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

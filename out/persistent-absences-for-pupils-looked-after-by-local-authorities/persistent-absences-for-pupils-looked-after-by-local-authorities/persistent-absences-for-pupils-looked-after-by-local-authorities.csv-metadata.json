@@ -199,281 +199,13 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#class/goverment-year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-persistent-absences-for-pupils-looked-after-by-local-authorities.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/measure-type"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/unit"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/pupils-looked-after-by-local-authorities-with-persistent-absences"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/observation-status"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/goverment-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/goverment-year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Pupils looked after by local authorities with persistent absences"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
             "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -498,17 +230,151 @@
             ]
         },
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/upper-confidence-interval",
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#csvcubed-build-activity",
             "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/pupils-looked-after-by-local-authorities-with-persistent-absences",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Pupils looked after by local authorities with persistent absences"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -518,11 +384,31 @@
             ]
         },
         {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
             "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/lower-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -546,69 +432,185 @@
             ]
         },
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/pupils-looked-after-by-local-authorities-with-persistent-absences",
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences"
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#csvcubed-build-activity",
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#Attachable"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/dc/terms/creator": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                    "@id": "https://www.gov.uk/government/organisations/department-for-education"
+                }
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "This dataset shows the percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded primary and secondary schools, special schools and pupil referral units), for financial years 2016/17 - 2021/22.\n\n### Coverage \n\nEngland (state-funded primary and secondary schools, special schools and pupil referral units)\n\n#### Geography definition\n\nCounties and Unitary Authorities,\nRegions,\nNation (England)\n\n### Source\n\n - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/outcomes-for-children-in-need-including-children-looked-after-by-local-authorities-in-england) \n\n\n### Source Notes and Caveats \n\nFor the looked after children, absence data is matched to school census data for each school type, meaning that the pupils included are those on the school census with absence data. Persistent absence figures for all pupils and FSM are taken from the national absence figures and are produced using a different methodology based on enrolments and the school type is allocated in a different way so it is not appropriate to compare these figures with those for looked after children. \n\n\n"
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Persistent absences for pupils looked after by local authorities"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-05-16T13:35:25.395087"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-05-16T13:35:25.395087"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Persistent absences for pupils looked after by local authorities"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded primary and secondary schools, special schools and pupil referral units), financial years 2016/17 - 2021/22."
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Persistent absences for pupils looked after by local authorities"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
+                },
+                {
+                    "@language": "en",
+                    "@value": "state-funded-school"
+                },
+                {
+                    "@language": "en",
+                    "@value": "children-out-of-school"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#theme": [
+                {
+                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#csvcubed-build-activity"
                 }
             ]
         },
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/measure-type",
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/observation-status",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 8
                 }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/upper-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -632,133 +634,131 @@
             ]
         },
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status",
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#structure",
             "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@language": "en",
-                    "@value": "Observation Status"
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/pupils-looked-after-by-local-authorities-with-persistent-absences"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/observation-status"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/goverment-year"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/measure-type"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/unit"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/lower-confidence-interval"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#measure/pupils-looked-after-by-local-authorities-with-persistent-absences"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#slice/cross-measures"
                 }
             ]
         },
         {
-            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dataset",
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#component/goverment-year",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://purl.org/dc/terms/creator": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "https://www.gov.uk/government/organisations/department-for-education"
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
                 }
             ],
-            "http://purl.org/dc/terms/description": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "This dataset shows the percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded primary and secondary schools, special schools and pupil referral units), for for academic years 2016/17 - 2021/22.\n\n### Coverage \n\nEngland (state-funded primary and secondary schools, special schools and pupil referral units)\n\n#### Geography definition\n\nCounties and Unitary Authorities,\nRegions,\nNation (England)\n\n### Source\n\n - England: Department for Education \n\n\n### Source Notes and Caveats \n\nFor the looked after children, absence data is matched to school census data for each school type, meaning that the pupils included are those on the school census with absence data. Persistent absence figures for all pupils and FSM are taken from the national absence figures and are produced using a different methodology based on enrolments and the school type is allocated in a different way so it is not appropriate to compare these figures with those for looked after children. \n\n\n"
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/goverment-year"
                 }
             ],
-            "http://purl.org/dc/terms/identifier": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": "Persistent absences for pupils looked after by local authorities"
+                    "@value": 2
                 }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dimension/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
-            "http://purl.org/dc/terms/issued": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-16T12:32:13.134850"
-                }
-            ],
-            "http://purl.org/dc/terms/license": [
-                {
-                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-                }
-            ],
-            "http://purl.org/dc/terms/modified": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-16T12:32:13.134850"
-                }
-            ],
-            "http://purl.org/dc/terms/publisher": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/title": [
-                {
-                    "@language": "en",
-                    "@value": "Persistent absences for pupils looked after by local authorities"
-                }
-            ],
-            "http://purl.org/linked-data/cube#structure": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#structure"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded primary and secondary schools, special schools and pupil referral units), academic years 2016/17 - 2021/22."
+                    "@id": "ons-geography-code-list-for-persistent-absences-for-pupils-looked-after-by-local-authorities.csv#code-list"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Persistent absences for pupils looked after by local authorities"
+                    "@value": "Statistical Geography"
                 }
             ],
-            "http://www.w3.org/ns/dcat#keyword": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@language": "en",
-                    "@value": "county"
-                },
-                {
-                    "@language": "en",
-                    "@value": "children-out-of-school"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "state-funded-school"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
+                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#class/statistical-geography"
                 }
-            ],
-            "http://www.w3.org/ns/dcat#theme": [
-                {
-                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare"
-                }
-            ],
-            "http://www.w3.org/ns/prov#wasGeneratedBy": [
-                {
-                    "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#csvcubed-build-activity"
-                }
+            ]
+        },
+        {
+            "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#class/goverment-year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dependency/ons-geography-code-list-for-persistent-absences-for-pupils-looked-after-by-local-authorities",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -774,8 +774,8 @@
         {
             "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#dependency/goverment-year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -791,8 +791,8 @@
         {
             "@id": "persistent-absences-for-pupils-looked-after-by-local-authorities.csv#unit/percent",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://qudt.org/schema/qudt/Unit",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [

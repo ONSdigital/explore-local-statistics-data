@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Pupils at expected standards by end of primary school
           - Label: Pupils at expected standards by end of primary school
-          - Issued: 2023-05-15T09:27:50.980010
-          - Modified: 2023-05-15T09:27:50.980010
+          - Issued: 2023-05-16T13:36:03.134390
+          - Modified: 2023-05-16T13:36:03.134390
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,14 +14,14 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- state-funded-school
-		-- maths
-		-- writing
+		-- key-stage-2-attainment
+		-- county
 		-- reading
 		-- subnational
-		-- key-stage-2-attainment
+		-- state-funded-school
 		-- region
-		-- county
+		-- writing
+		-- maths
           - Contact Point: None
           - Identifier: Pupils at expected standards by end of primary school
           - Comment: Percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths by end of primary school (KS2), England (state-funded schools), academic years 2015/16 - 2021/22
@@ -39,7 +39,7 @@
 		
 		### Source
 		
-		 - England: Department for Education 
+		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-2-attainment/2021-22) 
 		
 		
 		### Source Notes and Caveats 
