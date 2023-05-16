@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Cycle to employment centre with 500 to 4999 jobs
-        - Label: Cycle to employment centre with 500 to 4999 jobs
-        - Issued: 2023-05-11T11:45:42.536441
-        - Modified: 2023-05-11T11:45:42.536441
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-transport
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Cycle to employment centre with 500 to 4999 jobs
+          - Label: Cycle to employment centre with 500 to 4999 jobs
+          - Issued: 2023-05-16T14:24:19.607281
+          - Modified: 2023-05-16T14:24:19.607281
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-transport
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
-        - Keywords: 
-		-- travel-to-work
+          - Keywords: 
 		-- journey-time
-		-- subnational
+		-- travel-to-work
 		-- local-authority
 		-- transport
-        - Contact Point: None
-        - Identifier: Cycle to employment centre with 500 to 4999 jobs
-        - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by cycle (experimental statistics), England, 2014-2019.
-        - Description: This dataset shows the average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by cycle (experimental statistics), in England, for 2014-2019.
+		-- subnational
+          - Contact Point: None
+          - Identifier: Cycle to employment centre with 500 to 4999 jobs
+          - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by cycle (experimental statistics), England, 2014-2019.
+          - Description: This dataset shows the average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by cycle (experimental statistics), in England, for 2014-2019.
 		
 		### Coverage 
 		
@@ -37,7 +38,7 @@
 		
 		### Source
 		
-		 - England: Department for Transport 
+		 - England: [Department for Transport](https://www.gov.uk/government/statistical-data-sets/journey-time-statistics-data-tables-jts) 
 		
 		
 		

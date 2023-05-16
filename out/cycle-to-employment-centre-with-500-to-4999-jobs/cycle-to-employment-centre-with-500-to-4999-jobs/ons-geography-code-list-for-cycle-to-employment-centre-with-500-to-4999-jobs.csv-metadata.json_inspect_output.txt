@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: ONS Geography Code List for Cycle to employment centre with 500 to 4999 jobs
-        - Label: ONS Geography Code List for Cycle to employment centre with 500 to 4999 jobs
-        - Issued: 2023-05-11T11:45:42.521415
-        - Modified: 2023-05-11T11:45:42.521415
-        - License: https://creativecommons.org/licenses/by/4.0/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: ONS Geography Code List for Cycle to employment centre with 500 to 4999 jobs
-        - Comment: List of ONS geographical codes
-        - Description: Automated non-hierarchical geography code list
+
+        - The code list has the following catalog metadata:
+          - Title: ONS Geography Code List for Cycle to employment centre with 500 to 4999 jobs
+          - Label: ONS Geography Code List for Cycle to employment centre with 500 to 4999 jobs
+          - Issued: 2023-05-16T14:24:19.591850
+          - Modified: 2023-05-16T14:24:19.591850
+          - License: https://creativecommons.org/licenses/by/4.0/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: ONS Geography Code List for Cycle to employment centre with 500 to 4999 jobs
+          - Comment: List of ONS geographical codes
+          - Description: Automated non-hierarchical geography code list
         
 
 - The code list has the following dataset information:
