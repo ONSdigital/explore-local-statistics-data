@@ -11,6 +11,8 @@ def wrangle(input: Path(), output: Path()) -> None:
 
     df['Period'] = df.apply(lambda x: str(x['Period'])[:4] + '-09-01T00:00:00/P1Y', axis = 1)
 
+    df['Observation Status'] = df.apply(lambda x: 'x' if 'na' in str(x['Value']) else x['Observation Status'], axis = 1 )
+
     df.to_csv(output, index=False)
     return
 
