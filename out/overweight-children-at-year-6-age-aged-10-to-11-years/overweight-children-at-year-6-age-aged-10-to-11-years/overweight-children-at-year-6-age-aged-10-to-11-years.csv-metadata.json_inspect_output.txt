@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Overweight children at Year 6 age (aged 10 to 11 years)
           - Label: Overweight children at Year 6 age (aged 10 to 11 years)
-          - Issued: 2023-05-15T09:27:27.858375
-          - Modified: 2023-05-15T09:27:27.858375
+          - Issued: 2023-05-17T12:42:01.359454
+          - Modified: 2023-05-17T12:42:01.359454
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
+		-- local-authority
 		-- state-funded-school
 		-- county
-		-- subnational
-		-- region
-		-- local-authority
-		-- obesity
 		-- national-child-measurement-programme
+		-- region
+		-- obesity
+		-- subnational
           - Contact Point: None
           - Identifier: Overweight children at Year 6 age (aged 10 to 11 years)
           - Comment: Proportion of children aged 10-11 classified as overweight or obese (children are classified as overweight (including obese) if their BMI is on or above the 85th centile of the British 1990 growth reference (UK90) according to age and sex), England, academic years 2006/07 to 2021/22
@@ -40,7 +40,7 @@
 		
 		### Source
 		
-		 - England: Office for Health Improvement and Disparities 
+		 - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data#page/9/gid/8000011/pat/15/par/E92000001/ati/401/are/E06000047/iid/20602/age/201/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1) 
 		
 		
 		### Source Notes and Caveats 
@@ -96,7 +96,7 @@
 ons-geography-code-list-for-overweight-children-at-year-6-age-aged-10-to-11-years.csv#code-list ONS Geography Code List for Overweight children at Year 6 age (aged 10 to 11 years)          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 6020
+        - Number of Rows: 6051
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD  AREANM Geography                                                   Variable Name                                               Indicator   Mission                                            Category                  Period     Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
@@ -127,5 +127,5 @@ e07000189 South Somerset Local Authority District Children (10 to 11 years old) 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                  Measure    Unit  Count
-Year 6 children (aged 10 to 11 years) who are overweight percent   6020
+Year 6 children (aged 10 to 11 years) who are overweight percent   6051
         

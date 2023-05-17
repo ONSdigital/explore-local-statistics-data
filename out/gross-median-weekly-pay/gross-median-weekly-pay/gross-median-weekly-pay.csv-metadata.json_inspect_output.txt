@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Gross median weekly pay
           - Label: Gross median weekly pay
-          - Issued: 2023-05-15T09:27:03.130747
-          - Modified: 2023-05-15T09:27:03.130747
+          - Issued: 2023-05-17T12:41:11.468465
+          - Modified: 2023-05-17T12:41:11.468465
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- subnational
+		-- annual-survey-for-hours-and-earnings
+		-- region
 		-- employee-earnings
 		-- local-authority
-		-- region
-		-- annual-survey-for-hours-and-earnings
+		-- subnational
           - Contact Point: None
           - Identifier: Gross median weekly pay
           - Comment: Average (median) weekly pay based on where people live, UK, 2002-2022.
@@ -39,8 +39,8 @@
 		
 		### Source
 		
-		 - Great Britain: Office for National Statistics 
-		 - Northern Ireland: Northern Ireland Statistics and Research Agency 
+		 - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/previousReleases) 
+		 - Northern Ireland: [Northern Ireland Statistics and Research Agency](https://www.nisra.gov.uk/statistics/labour-market-and-social-welfare/annual-survey-hours-and-earnings) 
 		
 		
 		### Source Notes and Caveats 
