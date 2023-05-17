@@ -3,7 +3,7 @@
     "title": "Cigarette smokers",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "summary": "Percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), United Kingdom, 2012 - 2021.",
-    "description": "This dataset shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), in the United Kingdom, for 2012 - 2021.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountry (UK)\n\n### Source\n\n - United Kingdom: Office for National Statistics \n\n\n",
+    "description": "This dataset shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), in the United Kingdom, for 2012 - 2021.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountry (UK)\n\n### Source\n\n - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/smokinghabitsintheukanditsconstituentcountries) \n\n\n",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "smoking-habits",

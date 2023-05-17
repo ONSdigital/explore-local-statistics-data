@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for overweight-adults-aged-18-years-and-over.csv",
+    "title": "ONS Geography Code List for Overweight adults (aged 18 years and over)",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
@@ -17,7 +17,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E92000001"
         },
         {
-            "label": "North East (Regions)",
+            "label": "North East (Region)",
             "notation": "E12000001",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000001"
         },
@@ -27,7 +27,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000006"
         },
         {
-            "label": "North East (Combined Authorities)",
+            "label": "North East (Combined Authority)",
             "notation": "E47000010",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000010"
         },
@@ -642,7 +642,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000176"
         },
         {
-            "label": "West Midlands (Regions)",
+            "label": "West Midlands (Region)",
             "notation": "E12000005",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E12000005"
         },
@@ -742,7 +742,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
         },
         {
-            "label": "West Midlands (Combined Authorities)",
+            "label": "West Midlands (Combined Authority)",
             "notation": "E47000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000007"
         },

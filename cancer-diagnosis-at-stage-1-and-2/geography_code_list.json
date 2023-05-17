@@ -1672,6 +1672,11 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000023"
         },
         {
+            "label": "Isles of Scilly, Cornwall",
+            "notation": "E67000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E67000002"
+        },
+        {
             "label": "Dorset",
             "notation": "E06000059",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000059"

@@ -13,9 +13,6 @@ def wrangle(input: Path(), output: Path()) -> None:
 
     df['Observation Status'] = df.apply(lambda x: 'x' if ('na' in str(x['Value']) and 'u' not in str(x['Observation Status'])) else x['Observation Status'], axis = 1)
 
-    indexNames = df[ df['Observation Status'].str.contains('Value for') & df['Observation Status'].str.contains('combined')].index
-    df.drop(indexNames, inplace = True)
-
     df.to_csv(output, index=False)
     return
 

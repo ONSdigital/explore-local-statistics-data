@@ -13,9 +13,6 @@ def wrangle(input: Path(), output: Path()) -> None:
 
     df['Period'] = df.apply(lambda x: f"gregorian-interval/{x['Period'][:4]}-01-01T00:00:00/P3Y" if '-' in x['Period'] else f"year/{x['Period']}", axis = 1)
 
-    indexNames = df[ df['Observation Status'].str.contains('Value for') & df['Observation Status'].str.contains('combined')].index
-    df.drop(indexNames, inplace = True)
-
     df.to_csv(output, index=False)
     return
 

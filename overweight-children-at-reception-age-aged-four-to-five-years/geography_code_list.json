@@ -1077,7 +1077,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000145"
         },
         {
-            "label": "King?s Lynn and West Norfolk",
+            "label": "King's Lynn and West Norfolk",
             "notation": "E07000146",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000146"
         },
@@ -1155,6 +1155,11 @@
             "label": "Camden",
             "notation": "E09000007",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E09000007"
+        },
+        {
+            "label": "City of London, Hackney",
+            "notation": "E67000001",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E67000001"
         },
         {
             "label": "Hammersmith and Fulham",
@@ -1725,6 +1730,11 @@
             "label": "Cornwall",
             "notation": "E06000052",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000052"
+        },
+        {
+            "label": "Isles of Scilly, Cornwall",
+            "notation": "E67000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E67000002"
         },
         {
             "label": "Dorset (Unitary Authority)",

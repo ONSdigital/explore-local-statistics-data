@@ -17,9 +17,6 @@ def wrangle(input: Path(), output: Path()) -> None:
     indexNames = df[ df['AREACD'].str.contains('Cl_') ].index
     df.drop(indexNames, inplace = True)
 
-    indexNames = df[ df['Observation Status'].str.contains('Value for') & df['Observation Status'].str.contains('combined')].index
-    df.drop(indexNames, inplace = True)
-
     df = df.replace({'Observation Status' : {'Value missing due to small sample size' : 'c',
                                             'Value missing in source data' : 'x',
                                             'Value not published for data quality reasons' : 'u',
