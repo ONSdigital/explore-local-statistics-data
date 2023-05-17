@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: Month
-        - Label: Month
-        - Issued: 2023-05-11T10:21:38.148347
-        - Modified: 2023-05-11T10:21:38.148347
-        - License: None
-        - Creator: None
-        - Publisher: None
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: Month
-        - Comment: None
-        - Description: None
+
+        - The code list has the following catalog metadata:
+          - Title: Month
+          - Label: Month
+          - Issued: 2023-05-17T12:24:29.530866
+          - Modified: 2023-05-17T12:24:29.530866
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Month
+          - Comment: None
+          - Description: None
         
 
 - The code list has the following dataset information:

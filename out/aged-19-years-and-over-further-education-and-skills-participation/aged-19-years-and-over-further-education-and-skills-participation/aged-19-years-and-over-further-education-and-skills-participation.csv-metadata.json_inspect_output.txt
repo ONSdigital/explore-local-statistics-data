@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Aged 19 years and over further education and skills participation
-        - Label: Aged 19 years and over further education and skills participation
-        - Issued: 2023-05-12T09:29:55.361848
-        - Modified: 2023-05-12T09:29:55.361848
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-education
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Aged 19 years and over further education and skills participation
+          - Label: Aged 19 years and over further education and skills participation
+          - Issued: 2023-05-17T12:25:15.996450
+          - Modified: 2023-05-17T12:25:15.996450
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-education
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
-        - Keywords: 
-		-- local-authority
-		-- education-and-training
+          - Keywords: 
+		-- community-learning
 		-- subnational
 		-- apprenticeship
-		-- community-learning
-        - Contact Point: None
-        - Identifier: Aged 19 years and over further education and skills participation
-        - Comment: 19+ further education and skills participation rate per 100,000 population, England, academic years 2017/18 to 2022/23
-        - Description: This dataset shows 19+ further education and skills participation rate per 100,000 population, in England, for full academic years 2017/18 to 2021/22. Figures for 2022/23 are available for August-October.
+		-- education-and-training
+		-- local-authority
+          - Contact Point: None
+          - Identifier: Aged 19 years and over further education and skills participation
+          - Comment: 19+ further education and skills participation rate per 100,000 population, England, academic years 2017/18 to 2022/23
+          - Description: This dataset shows 19+ further education and skills participation rate per 100,000 population, in England, for full academic years 2017/18 to 2021/22. Figures for 2022/23 are available for August 2022 to January 2023.
 		
 		### Coverage 
 		
@@ -36,11 +37,11 @@
 		
 		### Source
 		
-		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/data-catalogue/further-education-and-skills/2022-23#) 
+		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/data-catalogue/further-education-and-skills/2022-23) 
 		
 		
 		### Source Notes and Caveats 
-		Figures for 2022/23 are available for August 2022 to January 2023, 2021/22 figures are available for the full academic year. 
+		Figures for 2022/23 are available for August 2022 to January 2023, other years (2017/18 to 2021/22) are available for full academic years. 
 		
 		
 		

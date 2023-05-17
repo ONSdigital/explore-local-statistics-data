@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Cancer diagnosis at stage 1 and 2
           - Label: Cancer diagnosis at stage 1 and 2
-          - Issued: 2023-05-16T11:41:16.331832
-          - Modified: 2023-05-16T11:41:16.331832
+          - Issued: 2023-05-17T12:25:53.759812
+          - Modified: 2023-05-17T12:25:53.759812
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
+		-- region
+		-- county
+		-- local-authority
 		-- subnational
 		-- tumor
-		-- county
-		-- region
-		-- local-authority
           - Contact Point: None
           - Identifier: Cancer diagnosis at stage 1 and 2
           - Comment: New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, England, 2013 to 2020
@@ -88,7 +88,7 @@ ons-geography-code-list-for-cancer-diagnosis-at-stage-1-and-2.csv#code-list ONS 
                                                          year.csv#code-list                                                          Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 2872
+        - Number of Rows: 2880
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD     AREANM Geography                                     Variable Name                         Indicator   Mission                                            Category  Period    Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
@@ -119,5 +119,5 @@ e07000189            South Somerset Local Authority District Proportion of cance
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                           Measure    Unit  Count
-Cancer diagnosis at stage 1 and 2 percent   2872
+Cancer diagnosis at stage 1 and 2 percent   2880
         

@@ -1,28 +1,29 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Apprenticeships achievements
-        - Label: Apprenticeships achievements
-        - Issued: 2023-05-12T09:30:08.708212
-        - Modified: 2023-05-12T09:30:08.708212
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-education
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Apprenticeships achievements
+          - Label: Apprenticeships achievements
+          - Issued: 2023-05-17T12:25:28.117899
+          - Modified: 2023-05-17T12:25:28.117899
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-education
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
-        - Keywords: 
-		-- county
-		-- local-authority
-		-- community-learning
-		-- apprenticeship
-		-- subnational
+          - Keywords: 
 		-- education-and-training
-        - Contact Point: None
-        - Identifier: Apprenticeships achievements
-        - Comment: Apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, England, academic years 2017/18 to 2022/23
-        - Description: This dataset shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2017/18 to 2021/22. Figures for 2022/23 are available for August-October.
+		-- community-learning
+		-- subnational
+		-- county
+		-- apprenticeship
+		-- local-authority
+          - Contact Point: None
+          - Identifier: Apprenticeships achievements
+          - Comment: Apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, England, academic years 2017/18 to 2022/23
+          - Description: This dataset shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2017/18 to 2021/22. Figures for 2022/23 are available for August 2022 to January 2023.
 		
 		### Coverage 
 		
@@ -37,11 +38,11 @@
 		
 		### Source
 		
-		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills#) 
+		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills) 
 		
 		
 		### Source Notes and Caveats 
-		Figures for 2022/23 are available for August 2022 to January 2023, 2021/22 figures are available for the full academic year. 
+		Figures for 2022/23 are available for August 2022 to January 2023, other years (2017/18 to 2021/22) are available for full academic years. 
 		
 		
 		

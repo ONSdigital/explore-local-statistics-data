@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Employment rate for 16 to 64 year olds
           - Label: ONS Geography Code List for Employment rate for 16 to 64 year olds
-          - Issued: 2023-05-16T08:35:15.769849
-          - Modified: 2023-05-16T08:35:15.769849
+          - Issued: 2023-05-17T12:27:36.066015
+          - Modified: 2023-05-17T12:27:36.066015
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

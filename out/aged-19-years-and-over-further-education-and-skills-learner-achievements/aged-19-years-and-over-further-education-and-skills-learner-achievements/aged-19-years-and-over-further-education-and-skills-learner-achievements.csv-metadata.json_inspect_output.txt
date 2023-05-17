@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Aged 19 years and over further education and skills learner achievements
-        - Label: Aged 19 years and over further education and skills learner achievements
-        - Issued: 2023-05-12T09:29:38.603101
-        - Modified: 2023-05-12T09:29:38.603101
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-education
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Aged 19 years and over further education and skills learner achievements
+          - Label: Aged 19 years and over further education and skills learner achievements
+          - Issued: 2023-05-17T12:25:02.243397
+          - Modified: 2023-05-17T12:25:02.243397
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-education
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
-        - Keywords: 
-		-- education-and-training
-		-- subnational
-		-- community-learning
-		-- county
+          - Keywords: 
 		-- apprenticeship
-        - Contact Point: None
-        - Identifier: Aged 19 years and over further education and skills learner achievements
-        - Comment: Count of learners achieving a funded further education and skills learning aim, with the exception of community learning, England, academic years 2016/17 to 2021/22
-        - Description: This dataset shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, in England, for academic years 2016/17 to 2021/22.
+		-- community-learning
+		-- subnational
+		-- education-and-training
+		-- county
+          - Contact Point: None
+          - Identifier: Aged 19 years and over further education and skills learner achievements
+          - Comment: Count of learners achieving a funded further education and skills learning aim, with the exception of community learning, England, academic years 2016/17 to 2021/22
+          - Description: This dataset shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, in England, for academic years 2016/17 to 2021/22.
 		
 		### Coverage 
 		
@@ -34,7 +35,7 @@
 		
 		### Source
 		
-		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills/2021-22#) 
+		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills/2021-22) 
 		
 		
 		### Source Notes and Caveats 

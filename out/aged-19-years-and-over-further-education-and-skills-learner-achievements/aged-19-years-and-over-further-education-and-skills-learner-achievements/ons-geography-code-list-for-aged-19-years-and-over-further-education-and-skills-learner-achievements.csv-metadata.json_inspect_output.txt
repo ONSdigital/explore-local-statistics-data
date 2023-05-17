@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: ONS Geography Code List for Aged 19 years and over further education and skills learner achievements
-        - Label: ONS Geography Code List for Aged 19 years and over further education and skills learner achievements
-        - Issued: 2023-05-12T09:29:38.585071
-        - Modified: 2023-05-12T09:29:38.585071
-        - License: https://creativecommons.org/licenses/by/4.0/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: ONS Geography Code List for Aged 19 years and over further education and skills learner achievements
-        - Comment: List of ONS geographical codes
-        - Description: Automated non-hierarchical geography code list
+
+        - The code list has the following catalog metadata:
+          - Title: ONS Geography Code List for Aged 19 years and over further education and skills learner achievements
+          - Label: ONS Geography Code List for Aged 19 years and over further education and skills learner achievements
+          - Issued: 2023-05-17T12:25:02.227765
+          - Modified: 2023-05-17T12:25:02.227765
+          - License: https://creativecommons.org/licenses/by/4.0/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: ONS Geography Code List for Aged 19 years and over further education and skills learner achievements
+          - Comment: List of ONS geographical codes
+          - Description: Automated non-hierarchical geography code list
         
 
 - The code list has the following dataset information:

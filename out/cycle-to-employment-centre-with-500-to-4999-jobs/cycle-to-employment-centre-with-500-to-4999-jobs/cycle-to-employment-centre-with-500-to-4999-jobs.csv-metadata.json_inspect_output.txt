@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Cycle to employment centre with 500 to 4999 jobs
           - Label: Cycle to employment centre with 500 to 4999 jobs
-          - Issued: 2023-05-16T14:24:19.607281
-          - Modified: 2023-05-16T14:24:19.607281
+          - Issued: 2023-05-17T12:27:12.786527
+          - Modified: 2023-05-17T12:27:12.786527
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-transport
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- journey-time
 		-- travel-to-work
-		-- local-authority
+		-- journey-time
 		-- transport
+		-- local-authority
 		-- subnational
           - Contact Point: None
           - Identifier: Cycle to employment centre with 500 to 4999 jobs
