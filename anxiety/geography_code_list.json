@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for anxiety.csv",
+    "title": "ONS Geography Code List for Anxiety",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
