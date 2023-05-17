@@ -1,0 +1,125 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Anxiety
+          - Label: Anxiety
+          - Issued: 2023-05-17T15:13:30.109915
+          - Modified: 2023-05-17T15:13:30.109915
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
+          - Keywords: 
+		-- personal-wellbeing
+		-- annual-population-survey
+		-- local-authorities
+		-- counties
+		-- subnational
+		-- regions
+		-- quality-of-life
+          - Contact Point: None
+          - Identifier: Anxiety
+          - Comment: The average rating of those that felt anxious yesterday for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.
+          - Description: This dataset shows the average rating of those that felt anxious yesterday for adults aged 16 years and over, in the UK, for periods 04/2011-03/2012 to 04/2021-03/2022.
+		
+		### Coverage 
+		
+		UK
+		
+		#### Geography definition
+		
+		Local Authority Districts and Unitary Authorities,
+		Counties,
+		Regions, 
+		Nations (England, Wales, Scotland, Northern Ireland),
+		Country (UK)
+		
+		### Source
+		
+		 - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringnationalwellbeing/previousReleases) 
+		
+		
+		### Source Notes and Caveats 
+		On 31 October 2022, alongside the publication of the latest personal well-being estimates for the period between April 2021 to March 2022, previously published estimates for the periods between April 2011 and March 2019 have been updated due to changes in guidance on data suppression, where estimates are no longer required to be suppressed solely based on their co-efficient of variation (CV) values. Previously published estimates were suppressed based on their co-efficient of variation (CV) values being over 20. Estimates have also been updated following quality assurance of previous publications. 
+		
+		
+		
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Anxiety
+    - Columns: 
+                              Title         Type  Required                                                 Property URL Observations Column Titles
+                             AREACD    Dimension      True                  anxiety.csv#dimension/statistical-geography                      Value
+                             AREANM   Suppressed     False                                                         None                           
+                          Geography   Suppressed     False                                                         None                           
+                      Variable Name   Suppressed     False                                                         None                           
+                          Indicator   Suppressed     False                                                         None                           
+                            Mission   Suppressed     False                                                         None                           
+                           Category   Suppressed     False                                                         None                           
+                             Period    Dimension      True                         anxiety.csv#dimension/goverment-year                      Value
+                              Value Observations     False anxiety.csv#measure/mean-adults-self-reporting-anxiety-score                      Value
+                            Measure   Suppressed     False                                                         None                           
+                               Unit   Suppressed     False                                                         None                           
+    Lower Confidence Interval (95%)    Attribute     False              anxiety.csv#attribute/lower-confidence-interval                      Value
+    Upper Confidence Interval (95%)    Attribute     False              anxiety.csv#attribute/upper-confidence-interval                      Value
+                 Observation Status    Attribute     False                     anxiety.csv#attribute/observation-status                      Value
+                           Polarity   Suppressed     False                                                         None                           
+                              Notes   Suppressed     False                                                         None                           
+    - Columns where suppress output is true: 
+    		-- AREANM
+    		-- Geography
+    		-- Variable Name
+    		-- Indicator
+    		-- Mission
+    		-- Category
+    		-- Measure
+    		-- Unit
+    		-- Polarity
+    		-- Notes
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 2
+        - Code Lists:
+                                        Code List                     Code List Label Columns Used In
+                     goverment-year.csv#code-list                      Goverment Year          Period
+ons-geography-code-list-for-anxiety.csv#code-list ONS Geography Code List for Anxiety          AREACD
+
+- The data cube has the following dataset information:
+        - Number of Rows: 4609
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+   AREACD         AREANM Geography          Variable Name Indicator   Mission                                            Category    Period  Value                                                                Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2011-2012   3.13 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             3.11                             3.15                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2012-2013   3.03 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             3.01                             3.05                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2013-2014   2.92 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.91                             2.94                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2014-2015   2.86 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.84                             2.88                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2015-2016   2.87 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.85                             2.89                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2016-2017   2.90 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.88                             2.92                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2017-2018   2.89 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.87                             2.91                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2018-2019   2.87 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.84                             2.89                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2019-2020   3.05 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             3.03                             3.07                NaN        -1   NaN
+k02000001 United Kingdom   Country Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2020-2021   3.31 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             3.28                             3.33                NaN        -1   NaN
+        - Last 10 Rows: 
+   AREACD              AREANM                Geography          Variable Name Indicator   Mission                                            Category    Period  Value                                                                Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2011-2012    NaN Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                              NaN                              NaN                  x        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2012-2013   2.97 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.58                             3.35                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2013-2014   3.08 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.69                             3.47                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2014-2015   3.06 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.68                             3.44                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2015-2016   2.84 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.41                             3.28                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2016-2017   2.24 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             1.90                             2.58                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2017-2018   2.57 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.24                             2.90                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2018-2019   2.61 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.29                             2.92                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2019-2020   3.08 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.77                             3.39                NaN        -1   NaN
+n09000011 Ards and North Down Local Authority District Average anxiety rating   Anxiety Mission 8 Spreading opportunity and improving public services 2021-2022   3.00 Mean ( Where 0 is 'not at all anxious' and 10 is 'completely anxious') Score out of 10                             2.60                             3.40                NaN        -1   NaN
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                                  Measure  Unit  Count
+Mean adults' self-reporting anxiety score score   4609
+        
