@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Public transport or walk to employment centre with 500 to 4999 jobs
           - Label: Public transport or walk to employment centre with 500 to 4999 jobs
-          - Issued: 2023-05-17T12:42:14.158904
-          - Modified: 2023-05-17T12:42:14.158904
+          - Issued: 2023-05-18T15:45:42.754222
+          - Modified: 2023-05-18T15:45:42.754222
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-transport
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- transport
 		-- subnational
+		-- journey-time
 		-- local-authority
 		-- travel-to-work
-		-- journey-time
+		-- transport
           - Contact Point: None
           - Identifier: Public transport or walk to employment centre with 500 to 4999 jobs
           - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking (experimental statistics), England, 2014-2019.
@@ -39,6 +39,10 @@
 		### Source
 		
 		 - England: [Department for Transport](https://www.gov.uk/government/statistical-data-sets/journey-time-statistics-data-tables-jts) 
+		
+		
+		### Source Notes and Caveats 
+		Data is not available for 2018. 
 		
 		
 		

@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Cycle to employment centre with 500 to 4999 jobs
           - Label: Cycle to employment centre with 500 to 4999 jobs
-          - Issued: 2023-05-17T12:27:12.786527
-          - Modified: 2023-05-17T12:27:12.786527
+          - Issued: 2023-05-18T15:45:06.689142
+          - Modified: 2023-05-18T15:45:06.689142
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-transport
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,10 +15,10 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
 		-- travel-to-work
-		-- journey-time
+		-- subnational
 		-- transport
 		-- local-authority
-		-- subnational
+		-- journey-time
           - Contact Point: None
           - Identifier: Cycle to employment centre with 500 to 4999 jobs
           - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by cycle (experimental statistics), England, 2014-2019.
@@ -39,6 +39,10 @@
 		### Source
 		
 		 - England: [Department for Transport](https://www.gov.uk/government/statistical-data-sets/journey-time-statistics-data-tables-jts) 
+		
+		
+		### Source Notes and Caveats 
+		Data is not available for 2018. 
 		
 		
 		
