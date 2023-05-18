@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Employment rate for 16 to 64 year olds
           - Label: Employment rate for 16 to 64 year olds
-          - Issued: 2023-05-17T12:27:36.081798
-          - Modified: 2023-05-17T12:27:36.081798
+          - Issued: 2023-05-18T12:52:55.403367
+          - Modified: 2023-05-18T12:52:55.403367
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- annual-population-survey
-		-- region
-		-- paid-work
-		-- labour-market
-		-- local-authority
 		-- subnational
+		-- paid-work
+		-- region
+		-- annual-population-survey
+		-- local-authority
+		-- labour-market
           - Contact Point: None
           - Identifier: Employment rate for 16 to 64 year olds
           - Comment: Proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from, Great Britain (Northern Ireland national figure included), 01/2004-12/2004 to 01/2022-12/2022.
@@ -98,28 +98,28 @@ ons-geography-code-list-for-employment-rate-for-16-to-64-year-olds.csv#code-list
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography                          Variable Name                              Indicator   Mission                                              Category                  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2003-01-01t00-00-00/p1y   72.5 Percentage    %                             72.3                             72.7                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2021-01-01t00-00-00/p1y   75.5 Percentage    %                             75.2                             75.8                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2020-01-01t00-00-00/p1y   74.7 Percentage    %                             74.5                             74.9                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2019-01-01t00-00-00/p1y   75.1 Percentage    %                             74.9                             75.3                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2018-01-01t00-00-00/p1y   75.6 Percentage    %                             75.4                             75.8                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2017-01-01t00-00-00/p1y   75.0 Percentage    %                             74.8                             75.2                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2015-01-01t00-00-00/p1y   73.8 Percentage    %                             73.6                             74.0                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2014-01-01t00-00-00/p1y   73.4 Percentage    %                             73.2                             73.6                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2013-01-01t00-00-00/p1y   72.3 Percentage    %                             72.1                             72.5                NaN         1   NaN
-k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2016-01-01t00-00-00/p1y   74.7 Percentage    %                             74.5                             74.9                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2004-01-01t00-00-00/p1y   72.5 Percentage    %                             72.3                             72.7                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2022-01-01t00-00-00/p1y   75.5 Percentage    %                             75.2                             75.8                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2021-01-01t00-00-00/p1y   74.7 Percentage    %                             74.5                             74.9                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2020-01-01t00-00-00/p1y   75.1 Percentage    %                             74.9                             75.3                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2019-01-01t00-00-00/p1y   75.6 Percentage    %                             75.4                             75.8                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2018-01-01t00-00-00/p1y   75.0 Percentage    %                             74.8                             75.2                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2016-01-01t00-00-00/p1y   73.8 Percentage    %                             73.6                             74.0                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2015-01-01t00-00-00/p1y   73.4 Percentage    %                             73.2                             73.6                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2014-01-01t00-00-00/p1y   72.3 Percentage    %                             72.1                             72.5                NaN         1   NaN
+k02000001 United Kingdom   Country Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2017-01-01t00-00-00/p1y   74.7 Percentage    %                             74.5                             74.9                NaN         1   NaN
         - Last 10 Rows: 
    AREACD           AREANM Geography                          Variable Name                              Indicator   Mission                                              Category                  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2018-01-01t00-00-00/p1y   71.9 Percentage    %                             70.8                             73.0                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2006-01-01t00-00-00/p1y   68.6 Percentage    %                             67.3                             69.9                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2019-01-01t00-00-00/p1y   71.9 Percentage    %                             70.8                             73.0                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2007-01-01t00-00-00/p1y   68.6 Percentage    %                             67.3                             69.9                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2012-01-01t00-00-00/p1y   67.0 Percentage    %                             65.6                             68.4                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2006-01-01t00-00-00/p1y   67.0 Percentage    %                             65.7                             68.3                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2005-01-01t00-00-00/p1y   67.1 Percentage    %                             65.8                             68.4                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2004-01-01t00-00-00/p1y   66.0 Percentage    %                             64.7                             67.3                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2008-01-01t00-00-00/p1y   68.0 Percentage    %                             66.7                             69.3                NaN         1   NaN
 n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2011-01-01t00-00-00/p1y   67.0 Percentage    %                             65.6                             68.4                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2005-01-01t00-00-00/p1y   67.0 Percentage    %                             65.7                             68.3                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2004-01-01t00-00-00/p1y   67.1 Percentage    %                             65.8                             68.4                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2003-01-01t00-00-00/p1y   66.0 Percentage    %                             64.7                             67.3                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2007-01-01t00-00-00/p1y   68.0 Percentage    %                             66.7                             69.3                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2010-01-01t00-00-00/p1y   67.0 Percentage    %                             65.6                             68.4                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2009-01-01t00-00-00/p1y   65.8 Percentage    %                             64.4                             67.2                NaN         1   NaN
-n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2008-01-01t00-00-00/p1y   65.1 Percentage    %                             63.7                             66.5                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2010-01-01t00-00-00/p1y   65.8 Percentage    %                             64.4                             67.2                NaN         1   NaN
+n92000002 Northern Ireland    Nation Employment rate for 16 to 64 year olds Employment rate for 16 to 64 year olds Mission 1 Boosting productivity, pay, jobs and living standards 2009-01-01t00-00-00/p1y   65.1 Percentage    %                             63.7                             66.5                NaN         1   NaN
         
 
 - The data cube has the following value counts:

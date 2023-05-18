@@ -199,228 +199,41 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#class/statistical-geography",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#class/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#structure",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/measure-type",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/measure-type"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/unit"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/employment-rate-for-16-to-64-year-olds"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/observation-status"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/lower-confidence-interval"
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval"
-                },
                 {
                     "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/employment-rate-for-16-to-64-year-olds",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/gregorian-time-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
-                }
-            ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
+                    "@value": 3
                 }
             ]
         },
         {
             "@id": "employment-rate-for-16-to-64-year-olds.csv#component/observation-status",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -444,41 +257,64 @@
             ]
         },
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#csvcubed-build-activity",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
                 }
             ]
         },
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#class/gregorian-time-interval",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#slice/cross-measures",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
+                }
             ]
         },
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/statistical-geography",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
                 }
             ]
         },
@@ -488,8 +324,8 @@
                 "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -510,7 +346,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:27:36.081798"
+                    "@value": "2023-05-18T12:52:55.403367"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -521,7 +357,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:27:36.081798"
+                    "@value": "2023-05-18T12:52:55.403367"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -555,6 +391,10 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "labour-market"
+                },
+                {
+                    "@language": "en",
                     "@value": "region"
                 },
                 {
@@ -564,10 +404,6 @@
                 {
                     "@language": "en",
                     "@value": "paid-work"
-                },
-                {
-                    "@language": "en",
-                    "@value": "labour-market"
                 },
                 {
                     "@language": "en",
@@ -590,13 +426,50 @@
             ]
         },
         {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Employment rate for 16 to 64 year olds"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#people-in-employment"
+                }
+            ]
+        },
+        {
             "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -621,35 +494,105 @@
             ]
         },
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/measure-type",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/upper-confidence-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/unit"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/measure-type"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/employment-rate-for-16-to-64-year-olds"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/observation-status"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#component/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#slice/cross-measures"
                 }
             ]
         },
         {
             "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/observation-status",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -664,78 +607,31 @@
             ]
         },
         {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds",
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Employment rate for 16 to 64 year olds"
+                    "@value": "Upper Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#people-in-employment"
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-employment-rate-for-16-to-64-year-olds.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "employment-rate-for-16-to-64-year-olds.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/gregorian-time-interval"
-                }
             ]
         },
         {
             "@id": "employment-rate-for-16-to-64-year-olds.csv#component/unit",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -759,10 +655,114 @@
             ]
         },
         {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/employment-rate-for-16-to-64-year-olds",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#measure/employment-rate-for-16-to-64-year-olds"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-employment-rate-for-16-to-64-year-olds.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "employment-rate-for-16-to-64-year-olds.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "employment-rate-for-16-to-64-year-olds.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
             "@id": "employment-rate-for-16-to-64-year-olds.csv#dependency/ons-geography-code-list-for-employment-rate-for-16-to-64-year-olds",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -778,8 +778,8 @@
         {
             "@id": "employment-rate-for-16-to-64-year-olds.csv#dependency/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -796,8 +796,8 @@
             "@id": "employment-rate-for-16-to-64-year-olds.csv#unit/percent",
             "@type": [
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
