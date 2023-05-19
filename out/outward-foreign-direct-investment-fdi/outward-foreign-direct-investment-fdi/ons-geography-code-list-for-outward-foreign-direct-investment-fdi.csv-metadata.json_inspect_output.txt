@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Outward foreign direct investment (FDI)
           - Label: ONS Geography Code List for Outward foreign direct investment (FDI)
-          - Issued: 2023-05-19T10:24:03.884366
-          - Modified: 2023-05-19T10:24:03.884366
+          - Issued: 2023-05-19T11:45:11.226773
+          - Modified: 2023-05-19T11:45:11.226773
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

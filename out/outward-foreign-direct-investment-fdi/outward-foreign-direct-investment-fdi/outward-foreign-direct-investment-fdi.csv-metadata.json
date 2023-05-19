@@ -132,7 +132,7 @@
                         "virtual": true,
                         "aboutUrl": "outward-foreign-direct-investment-fdi.csv#obs/{areacd},{period}@outward-foreign-direct-investment-fdi",
                         "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
-                        "valueUrl": "outward-foreign-direct-investment-fdi.csv#unit/pounds-sterling"
+                        "valueUrl": "outward-foreign-direct-investment-fdi.csv#unit/pounds-sterling-millions"
                     },
                     {
                         "name": "virt_dim_value_areacd",
@@ -199,6 +199,26 @@
     ],
     "rdfs:seeAlso": [
         {
+            "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
             "@id": "outward-foreign-direct-investment-fdi.csv#component/unit",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -227,125 +247,14 @@
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#dataset",
+            "@id": "outward-foreign-direct-investment-fdi.csv#csvcubed-build-activity",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/dc/terms/creator": [
+            "http://www.w3.org/ns/prov#used": [
                 {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/description": [
-                {
-                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "This dataset shows the total FDI international investment position abroad at end period (experimental statistics), in Great Britain (Northern Ireland national figure included), for 2015-2021. To see these figures presented visually, please refer to Figures 2 to 5 in [Foreign direct investment, experimental UK subnational estimates: 2021](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/articles/foreigndirectinvestmentexperimentaluksubnationalstatistics/2021).\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1 and 2,\nCity Regions,\nCountry (UK)\n\n### Source\n\n - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/articles/foreigndirectinvestmentexperimentaluksubnationalstatistics/previousReleases) \n\n\n"
-                }
-            ],
-            "http://purl.org/dc/terms/identifier": [
-                {
-                    "@value": "Outward foreign direct investment (FDI)"
-                }
-            ],
-            "http://purl.org/dc/terms/issued": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-19T10:24:03.896645"
-                }
-            ],
-            "http://purl.org/dc/terms/license": [
-                {
-                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-                }
-            ],
-            "http://purl.org/dc/terms/modified": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-19T10:24:03.896645"
-                }
-            ],
-            "http://purl.org/dc/terms/publisher": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/title": [
-                {
-                    "@language": "en",
-                    "@value": "Outward foreign direct investment (FDI)"
-                }
-            ],
-            "http://purl.org/linked-data/cube#structure": [
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#structure"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Total FDI international investment position abroad at end period (experimental statistics), Great Britain (Northern Ireland national figure included), 2015-2021."
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Outward foreign direct investment (FDI)"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#keyword": [
-                {
-                    "@language": "en",
-                    "@value": "international-territorial-level"
-                },
-                {
-                    "@language": "en",
-                    "@value": "stocks"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "investment-flows"
-                },
-                {
-                    "@language": "en",
-                    "@value": "business-investment"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#theme": [
-                {
-                    "@id": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade"
-                }
-            ],
-            "http://www.w3.org/ns/prov#wasGeneratedBy": [
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         },
@@ -373,26 +282,35 @@
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#component/outward-foreign-direct-investment-fdi",
+            "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi",
             "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi"
+                    "@language": "en",
+                    "@value": "Outward foreign direct investment (FDI)"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
-            "http://purl.org/linked-data/cube#order": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@value": 5
+                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
                 }
+            ]
+        },
+        {
+            "@id": "outward-foreign-direct-investment-fdi.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
@@ -426,60 +344,60 @@
         {
             "@id": "outward-foreign-direct-investment-fdi.csv#structure",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#component/observation-status"
-                },
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#component/outward-foreign-direct-investment-fdi"
-                },
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#component/year"
-                },
-                {
                     "@id": "outward-foreign-direct-investment-fdi.csv#component/upper-confidence-interval"
                 },
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#component/measure-type"
+                    "@id": "outward-foreign-direct-investment-fdi.csv#component/observation-status"
                 },
                 {
                     "@id": "outward-foreign-direct-investment-fdi.csv#component/unit"
                 },
                 {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#component/measure-type"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#component/year"
+                },
+                {
                     "@id": "outward-foreign-direct-investment-fdi.csv#component/lower-confidence-interval"
                 },
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#component/statistical-geography"
+                    "@id": "outward-foreign-direct-investment-fdi.csv#component/outward-foreign-direct-investment-fdi"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/statistical-geography"
-                },
-                {
                     "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/year"
-                },
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
                 },
                 {
                     "@id": "outward-foreign-direct-investment-fdi.csv#attribute/lower-confidence-interval"
                 },
                 {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/year"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/statistical-geography"
+                },
+                {
                     "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#sliceKey": [
@@ -489,106 +407,41 @@
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#class/year",
+            "@id": "outward-foreign-direct-investment-fdi.csv#dimension/year",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "outward-foreign-direct-investment-fdi.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "outward-foreign-direct-investment-fdi.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "outward-foreign-direct-investment-fdi.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
+                    "@value": "Year"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "outward-foreign-direct-investment-fdi.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#csvcubed-build-activity",
+            "@id": "outward-foreign-direct-investment-fdi.csv#class/year",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "outward-foreign-direct-investment-fdi.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/year"
-                },
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/statistical-geography"
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
@@ -611,6 +464,32 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "outward-foreign-direct-investment-fdi.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-outward-foreign-direct-investment-fdi.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#class/statistical-geography"
                 }
             ]
         },
@@ -643,41 +522,31 @@
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#dimension/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "outward-foreign-direct-investment-fdi.csv#class/statistical-geography",
+            "@id": "outward-foreign-direct-investment-fdi.csv#component/upper-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
             ]
         },
         {
@@ -704,12 +573,111 @@
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi",
+            "@id": "outward-foreign-direct-investment-fdi.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "outward-foreign-direct-investment-fdi.csv#component/outward-foreign-direct-investment-fdi",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#measure/outward-foreign-direct-investment-fdi"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "outward-foreign-direct-investment-fdi.csv#dataset",
+            "@type": [
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/dc/terms/creator": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "This dataset shows the total FDI international investment position abroad at end period (experimental statistics), in Great Britain (Northern Ireland national figure included), for 2015-2021. To see these figures presented visually, please refer to Figures 2 to 5 in [Foreign direct investment, experimental UK subnational estimates: 2021](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/articles/foreigndirectinvestmentexperimentaluksubnationalstatistics/2021).\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1 and 2,\nCity Regions,\nCountry (UK)\n\n### Source\n\n - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/articles/foreigndirectinvestmentexperimentaluksubnationalstatistics/previousReleases) \n\n\n"
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Outward foreign direct investment (FDI)"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-05-19T11:45:11.242976"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-05-19T11:45:11.242976"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Outward foreign direct investment (FDI)"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Total FDI international investment position abroad at end period (experimental statistics), Great Britain (Northern Ireland national figure included), 2015-2021."
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -717,40 +685,72 @@
                     "@value": "Outward foreign direct investment (FDI)"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://www.w3.org/ns/dcat#keyword": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@language": "en",
+                    "@value": "stocks"
+                },
+                {
+                    "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "international-territorial-level"
+                },
+                {
+                    "@language": "en",
+                    "@value": "business-investment"
+                },
+                {
+                    "@language": "en",
+                    "@value": "investment-flows"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://www.w3.org/ns/dcat#theme": [
                 {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+                    "@id": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#csvcubed-build-activity"
                 }
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#dimension/statistical-geography",
+            "@id": "outward-foreign-direct-investment-fdi.csv#slice/cross-measures",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#SliceKey",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "ons-geography-code-list-for-outward-foreign-direct-investment-fdi.csv#code-list"
+                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "outward-foreign-direct-investment-fdi.csv#dimension/year"
                 }
+            ]
+        },
+        {
+            "@id": "outward-foreign-direct-investment-fdi.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Statistical Geography"
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "outward-foreign-direct-investment-fdi.csv#class/statistical-geography"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
@@ -789,7 +789,7 @@
             ]
         },
         {
-            "@id": "outward-foreign-direct-investment-fdi.csv#unit/pounds-sterling",
+            "@id": "outward-foreign-direct-investment-fdi.csv#unit/pounds-sterling-millions",
             "@type": [
                 "http://qudt.org/schema/qudt/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -819,7 +819,7 @@
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Pounds Sterling"
+                    "@value": "Pounds Sterling, Millions"
                 }
             ]
         }
