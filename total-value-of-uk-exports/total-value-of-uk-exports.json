@@ -1,0 +1,72 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "title": "Total value of UK exports",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "summary": "Estimated total value of UK exports including trade in both goods and services (experimental statistics), Great Britain (Northern Ireland national figure included), 2020.",
+    "description": "This dataset shows the estimated total value of UK exports including trade in both goods and services (experimental statistics), in Great Britain (Northern Ireland national figure included), for 2020.\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1, 2 and 3,\nCity Regions,\nCountry (UK)\n\n### Source\n\n - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousReleases) \n\n\n",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        "economic-growth",
+        "exports",
+        "goods-and-services",
+        "imports",
+        "trade-deficit",
+        "subnational",
+        "international-territorial-level"
+    ],
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "themes": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade",
+    "columns": {
+        "Period": {
+            "type": "dimension",
+            "from_template": "year"
+        },
+        "AREACD": {
+            "label": "Statistical Geography",
+            "type": "dimension",
+            "code_list": "./geography_code_list.json"
+        },
+        "AREANM": false,
+        "Geography": false,
+        "Variable Name": false,
+        "Indicator": false,
+        "Mission": false,
+        "Category": false,
+        "Value": {
+            "type": "observations",
+            "data_type": "decimal",
+            "unit": {
+                "label": "Pounds Sterling, Millions",
+                "from_existing": "http://qudt.org/vocab/unit/PoundSterling"
+            },
+            "measure": {
+                "label": "Total value of UK exports",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+            }
+        },
+        "Measure": false,
+        "Unit": false,
+        "Lower Confidence Interval (95%)": {
+            "label": "Lower Confidence Interval",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "Value",
+            "required": false
+        },
+        "Upper Confidence Interval (95%)": {
+            "label": "Upper Confidence Interval",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "Value",
+            "required": false
+        },
+        "Observation Status": {
+            "type": "attribute",
+            "label": "Observation Status",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+            "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
+        },
+        "Polarity": false,
+        "Notes": false
+    }
+}
