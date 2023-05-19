@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Gross Value Added per hour worked
           - Label: Gross Value Added per hour worked
-          - Issued: 2023-05-12T11:19:44.165047
-          - Modified: 2023-05-12T11:19:44.165047
+          - Issued: 2023-05-19T09:29:33.324488
+          - Modified: 2023-05-19T09:29:33.324488
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -16,9 +16,9 @@
           - Keywords: 
 		-- subregional-productivity
 		-- region
-		-- international-territorial-level
-		-- subnational
 		-- local-authority
+		-- subnational
+		-- international-territorial-level
           - Contact Point: None
           - Identifier: Gross Value Added per hour worked
           - Comment: Measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (experimental statistics), Great Britain (Northern Ireland national figure included), 2004-2020.
@@ -35,7 +35,7 @@
 		
 		### Source
 		
-		 - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/regionalandsubregionalproductivityintheuk/previousReleases#) 
+		 - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/articles/regionalandsubregionalproductivityintheuk/previousReleases) 
 		
 		
 		

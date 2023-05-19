@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Employment rate for 16 to 64 year olds
           - Label: Employment rate for 16 to 64 year olds
-          - Issued: 2023-05-18T13:01:28.537140
-          - Modified: 2023-05-18T13:01:28.537140
+          - Issued: 2023-05-19T09:29:16.693959
+          - Modified: 2023-05-19T09:29:16.693959
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- annual-population-survey
-		-- labour-market
 		-- region
+		-- labour-market
 		-- local-authority
 		-- subnational
 		-- paid-work
+		-- annual-population-survey
           - Contact Point: None
           - Identifier: Employment rate for 16 to 64 year olds
           - Comment: Proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from, Great Britain (Northern Ireland national figure included), 01/2004-12/2004 to 01/2022-12/2022.
