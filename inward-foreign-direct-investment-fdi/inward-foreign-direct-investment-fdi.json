@@ -34,7 +34,7 @@
             "type": "observations",
             "data_type": "decimal",
             "unit": {
-                "label": "Pounds Sterling, Millions",
+                "label": "Pounds Sterling, Millions ",
                 "from_existing": "http://qudt.org/vocab/unit/PoundSterling"
             },
             "measure": {
