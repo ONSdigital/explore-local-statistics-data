@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Aged 16 to 64 years level 3 or above qualifications
           - Label: Aged 16 to 64 years level 3 or above qualifications
-          - Issued: 2023-05-17T12:24:44.401351
-          - Modified: 2023-05-17T12:24:44.401351
+          - Issued: 2023-05-22T14:17:39.811143
+          - Modified: 2023-05-22T14:17:39.811143
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
+		-- national-vocational-qualification
+		-- annual-population-survey
 		-- local-authority
 		-- region
-		-- annual-population-survey
 		-- subnational
-		-- national-vocational-qualification
           - Contact Point: None
           - Identifier: Aged 16 to 64 years level 3 or above qualifications
           - Comment: Percentage of the population aged 16 – 64 with National Vocational Qualification (NVQ) level 3+ qualifications, Great Britain (Northern Ireland national figure included), 2004 to 2021
@@ -31,7 +31,10 @@
 		#### Geography definition
 		
 		Local Authority Districts and Unitary Authorities,
+		Metropolitan Counties,
+		Counties,
 		Regions,
+		Combined Authorities,
 		Nations (England, Wales, Scotland, Northern Ireland),
 		Countries (UK, GB, England and Wales)
 		
@@ -89,7 +92,7 @@ ons-geography-code-list-for-aged-16-to-64-years-level-3-or-above-qualifications.
                                                                            year.csv#code-list                                                                            Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 7146
+        - Number of Rows: 7580
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography                                                          Variable Name                                           Indicator   Mission                                            Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
@@ -105,13 +108,13 @@ k02000001 United Kingdom   Country Proportion of the population aged 16 – 64 w
 k02000001 United Kingdom   Country Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2016   56.7 Percentage    %                             56.3                             57.1                NaN         1   NaN
         - Last 10 Rows: 
    AREACD           AREANM Geography                                                          Variable Name                                           Indicator   Mission                                            Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2019   54.7 Percentage    %                             52.8                             56.6                NaN         1   NaN
+n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2018   53.5 Percentage    %                             51.3                             55.7                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2012   45.8 Percentage    %                             43.4                             48.2                NaN         1   NaN
+n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2008   43.2 Percentage    %                             41.0                             45.4                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2007   43.0 Percentage    %                             40.7                             45.3                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2006   40.9 Percentage    %                             38.7                             43.1                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2005   40.1 Percentage    %                             37.9                             42.3                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2004   39.9 Percentage    %                             37.7                             42.1                NaN         1   NaN
-n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2008   43.2 Percentage    %                             41.0                             45.4                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2011   41.8 Percentage    %                             39.4                             44.2                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2010   44.6 Percentage    %                             42.3                             46.9                NaN         1   NaN
 n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64 with level 3+ qualifications Aged 16 to 64 years level 3 or above qualifications Mission 6 Spreading opportunity and improving public services    2009   43.7 Percentage    %                             41.4                             46.0                NaN         1   NaN
@@ -120,5 +123,5 @@ n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                             Measure    Unit  Count
-Aged 16 to 64 years level 3 or above qualifications percent   7146
+Aged 16 to 64 years level 3 or above qualifications percent   7580
         

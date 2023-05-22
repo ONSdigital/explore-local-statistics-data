@@ -1,28 +1,29 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Persistent absences for pupils eligible for free school meals
-        - Label: Persistent absences for pupils eligible for free school meals
-        - Issued: 2023-05-05T08:59:59.357370
-        - Modified: 2023-05-05T08:59:59.357370
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-education
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Persistent absences for pupils eligible for free school meals
+          - Label: Persistent absences for pupils eligible for free school meals
+          - Issued: 2023-05-22T14:17:55.572050
+          - Modified: 2023-05-22T14:17:55.572050
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-education
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
-        - Keywords: 
+          - Keywords: 
+		-- children-out-of-school
+		-- state-funded-school
 		-- county
 		-- subnational
-		-- local-authority
 		-- region
-		-- state-funded-school
-		-- children-out-of-school
-        - Contact Point: None
-        - Identifier: Persistent absences for pupils eligible for free school meals
-        - Comment: Percentage of pupils in state-funded primary, state funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded schools), academic years 2017/18 - 2021/22.
-        - Description: This dataset shows the percentage of pupils in state-funded primary, state funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded schools), for academic years 2017/18 - 2021/22.
+		-- local-authority
+          - Contact Point: None
+          - Identifier: Persistent absences for pupils eligible for free school meals
+          - Comment: Percentage of pupils in state-funded primary, state funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded schools), academic years 2017/18 - 2021/22.
+          - Description: This dataset shows the percentage of pupils in state-funded primary, state funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded schools), for academic years 2017/18 - 2021/22.
 		
 		### Coverage 
 		
@@ -30,17 +31,17 @@
 		
 		#### Geography definition
 		
-		Local Authority Districts and Unitary Authorities,
+		Counties and Unitary Authorities,
 		Regions,
 		Nation (England)
 		
 		### Source
 		
-		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england#) 
+		 - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england) 
 		
 		
 		### Source Notes and Caveats 
-		Only national and regional data are available for academic year 2017/18 and data is not available for academic year 2019/20.
+		Data is not available for academic year 2019/20.
 		
 		Persistent absence includes absence where a pupil had tested positive for COVID-19 (national isolation policies for people ill with COVID-19 were still in effect during this period). Consequently a large proportion of persistent absence and regional variation in persistent absence is due to differing regional spread of COVID-19 rather than pupil behaviour. 
 		
@@ -87,41 +88,41 @@
 - The data cube has the following code list information:
         - Number of Code Lists: 2
         - Code Lists:
-                                                                                                  Code List                                                                               Code List Label Columns Used In
-                                                                      gregorian-time-interval.csv#code-list                                                                       Gregorian Time Interval          Period
-ons-geography-code-list-for-persistent-absences-for-pupils-eligible-for-free-school-meals-csv.csv#code-list ONS Geography Code List for persistent-absences-for-pupils-eligible-for-free-school-meals.csv          AREACD
+                                                                                              Code List                                                                           Code List Label Columns Used In
+                                                                  gregorian-time-interval.csv#code-list                                                                   Gregorian Time Interval          Period
+ons-geography-code-list-for-persistent-absences-for-pupils-eligible-for-free-school-meals.csv#code-list ONS Geography Code List for Persistent absences for pupils eligible for free school meals          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 988
+        - Number of Rows: 653
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD        AREANM                   Geography                                                                     Variable Name                                                     Indicator   Mission                                            Category                  Period    Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-e92000001       England                      Nation Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 36.52231 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e92000001       England                      Nation Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 20.37804 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e92000001       England                      Nation Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 23.20222 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e92000001       England                      Nation Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 20.56852 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e12000001    North East                      Region Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 21.20165 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e12000001    North East                      Region Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 21.22467 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e12000001    North East                      Region Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 37.98465 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e12000001    North East                      Region Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 23.01075 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e06000047 County Durham County or Unitary Authority Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 22.34128 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
-e06000047 County Durham County or Unitary Authority Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 19.91365 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+   AREACD        AREANM                   Geography                                                                                                Variable Name                                                                                            Indicator   Mission                                            Category                  Period    Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+e92000001       England                      Nation Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 23.20222 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e92000001       England                      Nation Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 20.37804 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e92000001       England                      Nation Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 20.56852 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e92000001       England                      Nation Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 36.52231 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e12000001    North East                      Region Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 21.22467 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e12000001    North East                      Region Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 37.98465 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e12000001    North East                      Region Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 21.20165 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e12000001    North East                      Region Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 23.01075 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e06000047 County Durham County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 20.18466 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+e06000047 County Durham County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 19.91365 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
         - Last 10 Rows: 
-   AREACD                    AREANM                Geography                                                                     Variable Name                                                     Indicator   Mission                                            Category                  Period    Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                      Notes
-e07000188                 Sedgemoor Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 25.25458 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000188                 Sedgemoor Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 41.42206 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000188                 Sedgemoor Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 22.75880 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000190             Taunton Deane Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 25.13312 Percentage    %                              NaN                              NaN                 NaN        -1 Obsolete code since 2019 (replaced by E07000246 Somerset West and Taunton)
-e07000191             West Somerset Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 22.70742 Percentage    %                              NaN                              NaN                 NaN        -1 Obsolete code since 2019 (replaced by E07000246 Somerset West and Taunton)
-e07000246 Somerset West and Taunton Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 24.33471 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000246 Somerset West and Taunton Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 42.12483 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000189            South Somerset Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 40.30724 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000189            South Somerset Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 25.74895 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
-e07000189            South Somerset Local Authority District Persistent absences for pupils eligible for free school meals in the past 6 years Persistent absences for pupils eligible for free school meals Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 22.53666 Percentage    %                              NaN                              NaN                 NaN        -1                                                                        NaN
+   AREACD          AREANM                   Geography                                                                                                Variable Name                                                                                            Indicator   Mission                                            Category                  Period    Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                     Notes
+e10000009          Dorset County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 23.08388 Percentage    %                              NaN                              NaN                 NaN        -1   Obsolete code since 2019 (replaced by E06000059 Dorset)
+e10000009          Dorset County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 23.73088 Percentage    %                              NaN                              NaN                 NaN        -1   Obsolete code since 2019 (replaced by E06000059 Dorset)
+e10000013 Gloucestershire County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 22.32416 Percentage    %                              NaN                              NaN                 NaN        -1                                                       NaN
+e10000013 Gloucestershire County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 39.80398 Percentage    %                              NaN                              NaN                 NaN        -1                                                       NaN
+e10000013 Gloucestershire County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 24.53704 Percentage    %                              NaN                              NaN                 NaN        -1                                                       NaN
+e10000013 Gloucestershire County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 23.59188 Percentage    %                              NaN                              NaN                 NaN        -1                                                       NaN
+e10000027       Somerset  County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y 24.71427 Percentage    %                              NaN                              NaN                 NaN        -1 Obsolete code since 2023 (replaced by E06000066 Somerset)
+e10000027       Somerset  County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y 22.46409 Percentage    %                              NaN                              NaN                 NaN        -1 Obsolete code since 2023 (replaced by E06000066 Somerset)
+e10000027       Somerset  County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y 40.77791 Percentage    %                              NaN                              NaN                 NaN        -1 Obsolete code since 2023 (replaced by E06000066 Somerset)
+e10000027       Somerset  County or Unitary Authority Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities Persistent absences for pupils looked after continuously for at least 12 months by local authorities Mission 5 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y 23.07125 Percentage    %                              NaN                              NaN                 NaN        -1 Obsolete code since 2023 (replaced by E06000066 Somerset)
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                        Measure    Unit  Count
-Pupils eligible for free school meals with persistent absences percent    988
+Pupils eligible for free school meals with persistent absences percent    653
         
