@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/code-list-config/v1",
-    "title": "ONS Geography Code List for persistent-absences-for-pupils-eligible-for-free-school-meals.csv",
+    "title": "ONS Geography Code List for Persistent absences for pupils eligible for free school meals",
     "summary": "List of ONS geographical codes",
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
@@ -117,34 +117,9 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000007"
         },
         {
-            "label": "Allerdale",
-            "notation": "E07000026",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000026"
-        },
-        {
-            "label": "Barrow-in-Furness",
-            "notation": "E07000027",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000027"
-        },
-        {
-            "label": "Carlisle",
-            "notation": "E07000028",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000028"
-        },
-        {
-            "label": "Copeland",
-            "notation": "E07000029",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000029"
-        },
-        {
-            "label": "Eden",
-            "notation": "E07000030",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000030"
-        },
-        {
-            "label": "South Lakeland",
-            "notation": "E07000031",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000031"
+            "label": "Cumbria",
+            "notation": "E10000006",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000006"
         },
         {
             "label": "Bolton",
@@ -197,64 +172,9 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000010"
         },
         {
-            "label": "Burnley",
-            "notation": "E07000117",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000117"
-        },
-        {
-            "label": "Chorley",
-            "notation": "E07000118",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000118"
-        },
-        {
-            "label": "Fylde",
-            "notation": "E07000119",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000119"
-        },
-        {
-            "label": "Hyndburn",
-            "notation": "E07000120",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000120"
-        },
-        {
-            "label": "Lancaster",
-            "notation": "E07000121",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000121"
-        },
-        {
-            "label": "Pendle",
-            "notation": "E07000122",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000122"
-        },
-        {
-            "label": "Preston",
-            "notation": "E07000123",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000123"
-        },
-        {
-            "label": "Ribble Valley",
-            "notation": "E07000124",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000124"
-        },
-        {
-            "label": "Rossendale",
-            "notation": "E07000125",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000125"
-        },
-        {
-            "label": "South Ribble",
-            "notation": "E07000126",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000126"
-        },
-        {
-            "label": "West Lancashire",
-            "notation": "E07000127",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000127"
-        },
-        {
-            "label": "Wyre",
-            "notation": "E07000128",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000128"
+            "label": "Lancashire",
+            "notation": "E10000017",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000017"
         },
         {
             "label": "Knowsley",
@@ -312,39 +232,9 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000014"
         },
         {
-            "label": "Craven",
-            "notation": "E07000163",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000163"
-        },
-        {
-            "label": "Hambleton",
-            "notation": "E07000164",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000164"
-        },
-        {
-            "label": "Harrogate",
-            "notation": "E07000165",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000165"
-        },
-        {
-            "label": "Richmondshire",
-            "notation": "E07000166",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000166"
-        },
-        {
-            "label": "Ryedale",
-            "notation": "E07000167",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000167"
-        },
-        {
-            "label": "Scarborough",
-            "notation": "E07000168",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000168"
-        },
-        {
-            "label": "Selby",
-            "notation": "E07000169",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000169"
+            "label": "North Yorkshire",
+            "notation": "E10000023",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000023"
         },
         {
             "label": "Barnsley",
@@ -427,184 +317,29 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000062"
         },
         {
-            "label": "Amber Valley",
-            "notation": "E07000032",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000032"
+            "label": "Derbyshire",
+            "notation": "E10000007",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000007"
         },
         {
-            "label": "Bolsover",
-            "notation": "E07000033",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000033"
+            "label": "Leicestershire",
+            "notation": "E10000018",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000018"
         },
         {
-            "label": "Chesterfield",
-            "notation": "E07000034",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000034"
+            "label": "Lincolnshire",
+            "notation": "E10000019",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000019"
         },
         {
-            "label": "Derbyshire Dales",
-            "notation": "E07000035",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000035"
+            "label": "Northamptonshire",
+            "notation": "E10000021",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000021"
         },
         {
-            "label": "Erewash",
-            "notation": "E07000036",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000036"
-        },
-        {
-            "label": "High Peak",
-            "notation": "E07000037",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000037"
-        },
-        {
-            "label": "North East Derbyshire",
-            "notation": "E07000038",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000038"
-        },
-        {
-            "label": "South Derbyshire",
-            "notation": "E07000039",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000039"
-        },
-        {
-            "label": "Blaby",
-            "notation": "E07000129",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000129"
-        },
-        {
-            "label": "Charnwood",
-            "notation": "E07000130",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000130"
-        },
-        {
-            "label": "Harborough",
-            "notation": "E07000131",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000131"
-        },
-        {
-            "label": "Hinckley and Bosworth",
-            "notation": "E07000132",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000132"
-        },
-        {
-            "label": "Melton",
-            "notation": "E07000133",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000133"
-        },
-        {
-            "label": "North West Leicestershire",
-            "notation": "E07000134",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000134"
-        },
-        {
-            "label": "Oadby and Wigston",
-            "notation": "E07000135",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000135"
-        },
-        {
-            "label": "Boston",
-            "notation": "E07000136",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000136"
-        },
-        {
-            "label": "East Lindsey",
-            "notation": "E07000137",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000137"
-        },
-        {
-            "label": "Lincoln",
-            "notation": "E07000138",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000138"
-        },
-        {
-            "label": "North Kesteven",
-            "notation": "E07000139",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000139"
-        },
-        {
-            "label": "South Holland",
-            "notation": "E07000140",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000140"
-        },
-        {
-            "label": "South Kesteven",
-            "notation": "E07000141",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000141"
-        },
-        {
-            "label": "West Lindsey",
-            "notation": "E07000142",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000142"
-        },
-        {
-            "label": "Corby",
-            "notation": "E07000150",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000150"
-        },
-        {
-            "label": "Daventry",
-            "notation": "E07000151",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000151"
-        },
-        {
-            "label": "East Northamptonshire",
-            "notation": "E07000152",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000152"
-        },
-        {
-            "label": "Kettering",
-            "notation": "E07000153",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000153"
-        },
-        {
-            "label": "Northampton",
-            "notation": "E07000154",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000154"
-        },
-        {
-            "label": "South Northamptonshire",
-            "notation": "E07000155",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000155"
-        },
-        {
-            "label": "Wellingborough",
-            "notation": "E07000156",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000156"
-        },
-        {
-            "label": "Ashfield",
-            "notation": "E07000170",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000170"
-        },
-        {
-            "label": "Bassetlaw",
-            "notation": "E07000171",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000171"
-        },
-        {
-            "label": "Broxtowe",
-            "notation": "E07000172",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000172"
-        },
-        {
-            "label": "Gedling",
-            "notation": "E07000173",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000173"
-        },
-        {
-            "label": "Mansfield",
-            "notation": "E07000174",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000174"
-        },
-        {
-            "label": "Newark and Sherwood",
-            "notation": "E07000175",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000175"
-        },
-        {
-            "label": "Rushcliffe",
-            "notation": "E07000176",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000176"
+            "label": "Nottinghamshire",
+            "notation": "E10000024",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000024"
         },
         {
             "label": "West Midlands",
@@ -632,69 +367,14 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000020"
         },
         {
-            "label": "Cannock Chase",
-            "notation": "E07000192",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000192"
+            "label": "Staffordshire",
+            "notation": "E10000028",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000028"
         },
         {
-            "label": "East Staffordshire",
-            "notation": "E07000193",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000193"
-        },
-        {
-            "label": "Lichfield",
-            "notation": "E07000194",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000194"
-        },
-        {
-            "label": "Newcastle-under-Lyme",
-            "notation": "E07000195",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000195"
-        },
-        {
-            "label": "South Staffordshire",
-            "notation": "E07000196",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000196"
-        },
-        {
-            "label": "Stafford",
-            "notation": "E07000197",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000197"
-        },
-        {
-            "label": "Staffordshire Moorlands",
-            "notation": "E07000198",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000198"
-        },
-        {
-            "label": "Tamworth",
-            "notation": "E07000199",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000199"
-        },
-        {
-            "label": "North Warwickshire",
-            "notation": "E07000218",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000218"
-        },
-        {
-            "label": "Nuneaton and Bedworth",
-            "notation": "E07000219",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000219"
-        },
-        {
-            "label": "Rugby",
-            "notation": "E07000220",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000220"
-        },
-        {
-            "label": "Stratford-on-Avon",
-            "notation": "E07000221",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000221"
-        },
-        {
-            "label": "Warwick",
-            "notation": "E07000222",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000222"
+            "label": "Warwickshire",
+            "notation": "E10000031",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000031"
         },
         {
             "label": "Birmingham",
@@ -732,34 +412,9 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E08000031"
         },
         {
-            "label": "Bromsgrove",
-            "notation": "E07000234",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000234"
-        },
-        {
-            "label": "Malvern Hills",
-            "notation": "E07000235",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000235"
-        },
-        {
-            "label": "Redditch",
-            "notation": "E07000236",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000236"
-        },
-        {
-            "label": "Worcester",
-            "notation": "E07000237",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000237"
-        },
-        {
-            "label": "Wychavon",
-            "notation": "E07000238",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000238"
-        },
-        {
-            "label": "Wyre Forest",
-            "notation": "E07000239",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000239"
+            "label": "Worcestershire",
+            "notation": "E10000034",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000034"
         },
         {
             "label": "East of England",
@@ -797,219 +452,29 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000034"
         },
         {
-            "label": "Cambridge",
-            "notation": "E07000008",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000008"
+            "label": "Cambridgeshire",
+            "notation": "E10000003",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000003"
         },
         {
-            "label": "East Cambridgeshire",
-            "notation": "E07000009",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000009"
+            "label": "Essex",
+            "notation": "E10000012",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000012"
         },
         {
-            "label": "Fenland",
-            "notation": "E07000010",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000010"
+            "label": "Hertfordshire",
+            "notation": "E10000015",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000015"
         },
         {
-            "label": "Huntingdonshire",
-            "notation": "E07000011",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000011"
+            "label": "Norfolk",
+            "notation": "E10000020",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000020"
         },
         {
-            "label": "South Cambridgeshire",
-            "notation": "E07000012",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000012"
-        },
-        {
-            "label": "Basildon",
-            "notation": "E07000066",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000066"
-        },
-        {
-            "label": "Braintree",
-            "notation": "E07000067",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000067"
-        },
-        {
-            "label": "Brentwood",
-            "notation": "E07000068",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000068"
-        },
-        {
-            "label": "Castle Point",
-            "notation": "E07000069",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000069"
-        },
-        {
-            "label": "Chelmsford",
-            "notation": "E07000070",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000070"
-        },
-        {
-            "label": "Colchester",
-            "notation": "E07000071",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000071"
-        },
-        {
-            "label": "Epping Forest",
-            "notation": "E07000072",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000072"
-        },
-        {
-            "label": "Harlow",
-            "notation": "E07000073",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000073"
-        },
-        {
-            "label": "Maldon",
-            "notation": "E07000074",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000074"
-        },
-        {
-            "label": "Rochford",
-            "notation": "E07000075",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000075"
-        },
-        {
-            "label": "Tendring",
-            "notation": "E07000076",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000076"
-        },
-        {
-            "label": "Uttlesford",
-            "notation": "E07000077",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000077"
-        },
-        {
-            "label": "Broxbourne",
-            "notation": "E07000095",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000095"
-        },
-        {
-            "label": "Dacorum",
-            "notation": "E07000096",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000096"
-        },
-        {
-            "label": "East Hertfordshire",
-            "notation": "E07000242",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000242"
-        },
-        {
-            "label": "Hertsmere",
-            "notation": "E07000098",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000098"
-        },
-        {
-            "label": "North Hertfordshire",
-            "notation": "E07000099",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000099"
-        },
-        {
-            "label": "St Albans",
-            "notation": "E07000240",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000240"
-        },
-        {
-            "label": "Stevenage",
-            "notation": "E07000243",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000243"
-        },
-        {
-            "label": "Three Rivers",
-            "notation": "E07000102",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000102"
-        },
-        {
-            "label": "Watford",
-            "notation": "E07000103",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000103"
-        },
-        {
-            "label": "Welwyn Hatfield",
-            "notation": "E07000241",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000241"
-        },
-        {
-            "label": "Breckland",
-            "notation": "E07000143",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000143"
-        },
-        {
-            "label": "Broadland",
-            "notation": "E07000144",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000144"
-        },
-        {
-            "label": "Great Yarmouth",
-            "notation": "E07000145",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000145"
-        },
-        {
-            "label": "King's Lynn and West Norfolk",
-            "notation": "E07000146",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000146"
-        },
-        {
-            "label": "North Norfolk",
-            "notation": "E07000147",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000147"
-        },
-        {
-            "label": "Norwich",
-            "notation": "E07000148",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000148"
-        },
-        {
-            "label": "South Norfolk",
-            "notation": "E07000149",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000149"
-        },
-        {
-            "label": "Babergh",
-            "notation": "E07000200",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000200"
-        },
-        {
-            "label": "East Suffolk",
-            "notation": "E07000244",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000244"
-        },
-        {
-            "label": "Suffolk Coastal",
-            "notation": "E07000205",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000205"
-        },
-        {
-            "label": "Waveney",
-            "notation": "E07000206",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000206"
-        },
-        {
-            "label": "Ipswich",
-            "notation": "E07000202",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000202"
-        },
-        {
-            "label": "Mid Suffolk",
-            "notation": "E07000203",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000203"
-        },
-        {
-            "label": "West Suffolk",
-            "notation": "E07000245",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000245"
-        },
-        {
-            "label": "Forest Heath",
-            "notation": "E07000201",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000201"
-        },
-        {
-            "label": "St Edmundsbury",
-            "notation": "E07000204",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000204"
+            "label": "Suffolk",
+            "notation": "E10000029",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000029"
         },
         {
             "label": "Inner London",
@@ -1202,11 +667,6 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000043"
         },
         {
-            "label": "Buckinghamshire",
-            "notation": "E06000060",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000060"
-        },
-        {
             "label": "Isle of Wight",
             "notation": "E06000046",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000046"
@@ -1257,279 +717,39 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000041"
         },
         {
-            "label": "Aylesbury Vale",
-            "notation": "E07000004",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000004"
+            "label": "Buckinghamshire",
+            "notation": "E10000002",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000002"
         },
         {
-            "label": "Chiltern",
-            "notation": "E07000005",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000005"
+            "label": "East Sussex",
+            "notation": "E10000011",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000011"
         },
         {
-            "label": "South Bucks",
-            "notation": "E07000006",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000006"
+            "label": "Hampshire",
+            "notation": "E10000014",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000014"
         },
         {
-            "label": "Wycombe",
-            "notation": "E07000007",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000007"
+            "label": "Kent",
+            "notation": "E10000016",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000016"
         },
         {
-            "label": "Eastbourne",
-            "notation": "E07000061",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000061"
+            "label": "Oxfordshire",
+            "notation": "E10000025",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000025"
         },
         {
-            "label": "Hastings",
-            "notation": "E07000062",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000062"
+            "label": "Surrey",
+            "notation": "E10000030",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000030"
         },
         {
-            "label": "Lewes",
-            "notation": "E07000063",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000063"
-        },
-        {
-            "label": "Rother",
-            "notation": "E07000064",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000064"
-        },
-        {
-            "label": "Wealden",
-            "notation": "E07000065",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000065"
-        },
-        {
-            "label": "Basingstoke and Deane",
-            "notation": "E07000084",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000084"
-        },
-        {
-            "label": "East Hampshire",
-            "notation": "E07000085",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000085"
-        },
-        {
-            "label": "Eastleigh",
-            "notation": "E07000086",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000086"
-        },
-        {
-            "label": "Fareham",
-            "notation": "E07000087",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000087"
-        },
-        {
-            "label": "Gosport",
-            "notation": "E07000088",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000088"
-        },
-        {
-            "label": "Hart",
-            "notation": "E07000089",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000089"
-        },
-        {
-            "label": "Havant",
-            "notation": "E07000090",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000090"
-        },
-        {
-            "label": "New Forest",
-            "notation": "E07000091",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000091"
-        },
-        {
-            "label": "Rushmoor",
-            "notation": "E07000092",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000092"
-        },
-        {
-            "label": "Test Valley",
-            "notation": "E07000093",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000093"
-        },
-        {
-            "label": "Winchester",
-            "notation": "E07000094",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000094"
-        },
-        {
-            "label": "Ashford",
-            "notation": "E07000105",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000105"
-        },
-        {
-            "label": "Canterbury",
-            "notation": "E07000106",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000106"
-        },
-        {
-            "label": "Dartford",
-            "notation": "E07000107",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000107"
-        },
-        {
-            "label": "Dover",
-            "notation": "E07000108",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000108"
-        },
-        {
-            "label": "Folkestone and Hythe",
-            "notation": "E07000112",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000112"
-        },
-        {
-            "label": "Gravesham",
-            "notation": "E07000109",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000109"
-        },
-        {
-            "label": "Maidstone",
-            "notation": "E07000110",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000110"
-        },
-        {
-            "label": "Sevenoaks",
-            "notation": "E07000111",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000111"
-        },
-        {
-            "label": "Swale",
-            "notation": "E07000113",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000113"
-        },
-        {
-            "label": "Thanet",
-            "notation": "E07000114",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000114"
-        },
-        {
-            "label": "Tonbridge and Malling",
-            "notation": "E07000115",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000115"
-        },
-        {
-            "label": "Tunbridge Wells",
-            "notation": "E07000116",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000116"
-        },
-        {
-            "label": "Cherwell",
-            "notation": "E07000177",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000177"
-        },
-        {
-            "label": "Oxford",
-            "notation": "E07000178",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000178"
-        },
-        {
-            "label": "South Oxfordshire",
-            "notation": "E07000179",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000179"
-        },
-        {
-            "label": "Vale of White Horse",
-            "notation": "E07000180",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000180"
-        },
-        {
-            "label": "West Oxfordshire",
-            "notation": "E07000181",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000181"
-        },
-        {
-            "label": "Elmbridge",
-            "notation": "E07000207",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000207"
-        },
-        {
-            "label": "Epsom and Ewell",
-            "notation": "E07000208",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000208"
-        },
-        {
-            "label": "Guildford",
-            "notation": "E07000209",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000209"
-        },
-        {
-            "label": "Mole Valley",
-            "notation": "E07000210",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000210"
-        },
-        {
-            "label": "Reigate and Banstead",
-            "notation": "E07000211",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000211"
-        },
-        {
-            "label": "Runnymede",
-            "notation": "E07000212",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000212"
-        },
-        {
-            "label": "Spelthorne",
-            "notation": "E07000213",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000213"
-        },
-        {
-            "label": "Surrey Heath",
-            "notation": "E07000214",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000214"
-        },
-        {
-            "label": "Tandridge",
-            "notation": "E07000215",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000215"
-        },
-        {
-            "label": "Waverley",
-            "notation": "E07000216",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000216"
-        },
-        {
-            "label": "Woking",
-            "notation": "E07000217",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000217"
-        },
-        {
-            "label": "Adur",
-            "notation": "E07000223",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000223"
-        },
-        {
-            "label": "Arun",
-            "notation": "E07000224",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000224"
-        },
-        {
-            "label": "Chichester",
-            "notation": "E07000225",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000225"
-        },
-        {
-            "label": "Crawley",
-            "notation": "E07000226",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000226"
-        },
-        {
-            "label": "Horsham",
-            "notation": "E07000227",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000227"
-        },
-        {
-            "label": "Mid Sussex",
-            "notation": "E07000228",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000228"
-        },
-        {
-            "label": "Worthing",
-            "notation": "E07000229",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000229"
+            "label": "West Sussex",
+            "notation": "E10000032",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000032"
         },
         {
             "label": "South West",
@@ -1567,7 +787,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000052"
         },
         {
-            "label": "Dorset",
+            "label": "Dorset (Unitary Authority)",
             "notation": "E06000059",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000059"
         },
@@ -1607,134 +827,24 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E06000054"
         },
         {
-            "label": "East Devon",
-            "notation": "E07000040",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000040"
+            "label": "Devon",
+            "notation": "E10000008",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000008"
         },
         {
-            "label": "Exeter",
-            "notation": "E07000041",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000041"
+            "label": "Dorset (County)",
+            "notation": "E10000009",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000009"
         },
         {
-            "label": "Mid Devon",
-            "notation": "E07000042",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000042"
+            "label": "Gloucestershire",
+            "notation": "E10000013",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000013"
         },
         {
-            "label": "North Devon",
-            "notation": "E07000043",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000043"
-        },
-        {
-            "label": "South Hams",
-            "notation": "E07000044",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000044"
-        },
-        {
-            "label": "Teignbridge",
-            "notation": "E07000045",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000045"
-        },
-        {
-            "label": "Torridge",
-            "notation": "E07000046",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000046"
-        },
-        {
-            "label": "West Devon",
-            "notation": "E07000047",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000047"
-        },
-        {
-            "label": "Christchurch",
-            "notation": "E07000048",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000048"
-        },
-        {
-            "label": "East Dorset",
-            "notation": "E07000049",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000049"
-        },
-        {
-            "label": "North Dorset",
-            "notation": "E07000050",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000050"
-        },
-        {
-            "label": "Purbeck",
-            "notation": "E07000051",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000051"
-        },
-        {
-            "label": "West Dorset",
-            "notation": "E07000052",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000052"
-        },
-        {
-            "label": "Weymouth and Portland",
-            "notation": "E07000053",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000053"
-        },
-        {
-            "label": "Cheltenham",
-            "notation": "E07000078",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000078"
-        },
-        {
-            "label": "Cotswold",
-            "notation": "E07000079",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000079"
-        },
-        {
-            "label": "Forest of Dean",
-            "notation": "E07000080",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000080"
-        },
-        {
-            "label": "Gloucester",
-            "notation": "E07000081",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000081"
-        },
-        {
-            "label": "Stroud",
-            "notation": "E07000082",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000082"
-        },
-        {
-            "label": "Tewkesbury",
-            "notation": "E07000083",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000083"
-        },
-        {
-            "label": "Mendip",
-            "notation": "E07000187",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000187"
-        },
-        {
-            "label": "Sedgemoor",
-            "notation": "E07000188",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000188"
-        },
-        {
-            "label": "Taunton Deane",
-            "notation": "E07000190",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000190"
-        },
-        {
-            "label": "West Somerset",
-            "notation": "E07000191",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000191"
-        },
-        {
-            "label": "Somerset West and Taunton",
-            "notation": "E07000246",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000246"
-        },
-        {
-            "label": "South Somerset",
-            "notation": "E07000189",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000189"
+            "label": "Somerset",
+            "notation": "E10000027",
+            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E10000027"
         }
     ]
 }
