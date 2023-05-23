@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Aged 16 to 64 years level 3 or above qualifications
           - Label: Aged 16 to 64 years level 3 or above qualifications
-          - Issued: 2023-05-22T14:17:39.811143
-          - Modified: 2023-05-22T14:17:39.811143
+          - Issued: 2023-05-23T10:17:47.964593
+          - Modified: 2023-05-23T10:17:47.964593
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- national-vocational-qualification
-		-- annual-population-survey
-		-- local-authority
 		-- region
+		-- local-authority
+		-- annual-population-survey
 		-- subnational
+		-- national-vocational-qualification
           - Contact Point: None
           - Identifier: Aged 16 to 64 years level 3 or above qualifications
           - Comment: Percentage of the population aged 16 – 64 with National Vocational Qualification (NVQ) level 3+ qualifications, Great Britain (Northern Ireland national figure included), 2004 to 2021
@@ -92,7 +92,7 @@ ons-geography-code-list-for-aged-16-to-64-years-level-3-or-above-qualifications.
                                                                            year.csv#code-list                                                                            Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 7580
+        - Number of Rows: 7578
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography                                                          Variable Name                                           Indicator   Mission                                            Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
@@ -123,5 +123,5 @@ n92000002 Northern Ireland    Nation Proportion of the population aged 16 – 64
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                             Measure    Unit  Count
-Aged 16 to 64 years level 3 or above qualifications percent   7580
+Aged 16 to 64 years level 3 or above qualifications percent   7578
         
