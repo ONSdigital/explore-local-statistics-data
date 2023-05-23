@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Total value of UK exports
           - Label: ONS Geography Code List for Total value of UK exports
-          - Issued: 2023-05-19T12:32:20.446344
-          - Modified: 2023-05-19T12:32:20.446344
+          - Issued: 2023-05-23T13:06:07.784896
+          - Modified: 2023-05-23T13:06:07.784896
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -37,7 +37,7 @@ Uri Identifier                                                                  
         - Last 10 Concepts: 
 Uri Identifier                               Label  Notation  Parent Uri Identifier  Sort Priority  Description                                             Original Concept URI
      e47000003 West Yorkshire (Combined Authority) E47000003                    NaN            225          NaN http://statistics.data.gov.uk/id/statistical-geography/E47000003
-          tle4                West Yorkshire (nan)      TLE4                    NaN            226          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLE4
+          tle4               West Yorkshire (ITL2)      TLE4                    NaN            226          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLE4
      e47000009                     West of England E47000009                    NaN            227          NaN http://statistics.data.gov.uk/id/statistical-geography/E47000009
          tli32                         Westminster     TLI32                    NaN            228          NaN     http://statistics.data.gov.uk/id/statistical-geography/TLI32
          tlk15                           Wiltshire     TLK15                    NaN            229          NaN     http://statistics.data.gov.uk/id/statistical-geography/TLK15

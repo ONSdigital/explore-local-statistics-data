@@ -39,8 +39,8 @@ tld47,Chorley and West Lancashire,TLD47,,36,,http://statistics.data.gov.uk/id/st
 tlm75,City of Edinburgh,TLM75,,37,,http://statistics.data.gov.uk/id/statistical-geography/TLM75
 tlm72,Clackmannanshire and Fife,TLM72,,38,,http://statistics.data.gov.uk/id/statistical-geography/TLM72
 tll13,Conwy and Denbighshire,TLL13,,39,,http://statistics.data.gov.uk/id/statistical-geography/TLL13
-tlk3,Cornwall and Isles of Scilly (nan),TLK3,,40,,http://statistics.data.gov.uk/id/statistical-geography/TLK3
-tlk30,Cornwall and Isles of Scilly (nan),TLK30,,41,,http://statistics.data.gov.uk/id/statistical-geography/TLK30
+tlk3,Cornwall and Isles of Scilly (ITL2),TLK3,,40,,http://statistics.data.gov.uk/id/statistical-geography/TLK3
+tlk30,Cornwall and Isles of Scilly (ITL3),TLK30,,41,,http://statistics.data.gov.uk/id/statistical-geography/TLK30
 tlg33,Coventry,TLG33,,42,,http://statistics.data.gov.uk/id/statistical-geography/TLG33
 tli62,Croydon,TLI62,,43,,http://statistics.data.gov.uk/id/statistical-geography/TLI62
 tld1,Cumbria,TLD1,,44,,http://statistics.data.gov.uk/id/statistical-geography/TLD1
@@ -83,7 +83,7 @@ tlm82,Glasgow City,TLM82,,80,,http://statistics.data.gov.uk/id/statistical-geogr
 tlk13,Gloucestershire CC,TLK13,,81,,http://statistics.data.gov.uk/id/statistical-geography/TLK13
 tlk1,"Gloucestershire, Wiltshire and Bath/Bristol area",TLK1,,82,,http://statistics.data.gov.uk/id/statistical-geography/TLK1
 e47000001,Greater Manchester (Combined Authority),E47000001,,83,,http://statistics.data.gov.uk/id/statistical-geography/E47000001
-tld3,Greater Manchester (nan),TLD3,,84,,http://statistics.data.gov.uk/id/statistical-geography/TLD3
+tld3,Greater Manchester (ITL2),TLD3,,84,,http://statistics.data.gov.uk/id/statistical-geography/TLD3
 tld37,Greater Manchester North East,TLD37,,85,,http://statistics.data.gov.uk/id/statistical-geography/TLD37
 tld36,Greater Manchester North West,TLD36,,86,,http://statistics.data.gov.uk/id/statistical-geography/TLD36
 tld35,Greater Manchester South East,TLD35,,87,,http://statistics.data.gov.uk/id/statistical-geography/TLD35
@@ -184,7 +184,7 @@ tlc12,South Teesside,TLC12,,181,,http://statistics.data.gov.uk/id/statistical-ge
 tlk,South West,TLK,,182,,http://statistics.data.gov.uk/id/statistical-geography/TLK
 tll14,South West Wales,TLL14,,183,,http://statistics.data.gov.uk/id/statistical-geography/TLL14
 e47000002,South Yorkshire (Combined Authority),E47000002,,184,,http://statistics.data.gov.uk/id/statistical-geography/E47000002
-tle3,South Yorkshire (nan),TLE3,,185,,http://statistics.data.gov.uk/id/statistical-geography/TLE3
+tle3,South Yorkshire (ITL2),TLE3,,185,,http://statistics.data.gov.uk/id/statistical-geography/TLE3
 tlf13,South and West Derbyshire,TLF13,,186,,http://statistics.data.gov.uk/id/statistical-geography/TLF13
 tlj32,Southampton,TLJ32,,187,,http://statistics.data.gov.uk/id/statistical-geography/TLJ32
 tlh31,Southend-on-Sea,TLH31,,188,,http://statistics.data.gov.uk/id/statistical-geography/TLH31
@@ -217,15 +217,15 @@ tlh35,West Essex,TLH35,,214,,http://statistics.data.gov.uk/id/statistical-geogra
 tlj46,West Kent,TLJ46,,215,,http://statistics.data.gov.uk/id/statistical-geography/TLJ46
 tlm78,West Lothian,TLM78,,216,,http://statistics.data.gov.uk/id/statistical-geography/TLM78
 e47000007,West Midlands (Combined Authority),E47000007,,217,,http://statistics.data.gov.uk/id/statistical-geography/E47000007
-tlg,West Midlands (nan),TLG,,218,,http://statistics.data.gov.uk/id/statistical-geography/TLG
-tlg3,West Midlands (nan),TLG3,,219,,http://statistics.data.gov.uk/id/statistical-geography/TLG3
+tlg,West Midlands (ITL1),TLG,,218,,http://statistics.data.gov.uk/id/statistical-geography/TLG
+tlg3,West Midlands (ITL2),TLG3,,219,,http://statistics.data.gov.uk/id/statistical-geography/TLG3
 tlf24,West Northamptonshire,TLF24,,220,,http://statistics.data.gov.uk/id/statistical-geography/TLF24
 tlj25,West Surrey,TLJ25,,221,,http://statistics.data.gov.uk/id/statistical-geography/TLJ25
-tlj27,West Sussex (nan),TLJ27,,222,,http://statistics.data.gov.uk/id/statistical-geography/TLJ27
-tlj28,West Sussex (nan),TLJ28,,223,,http://statistics.data.gov.uk/id/statistical-geography/TLJ28
+tlj27,West Sussex (ITL3),TLJ27,,222,,http://statistics.data.gov.uk/id/statistical-geography/TLJ27
+tlj28,West Sussex (ITL3),TLJ28,,223,,http://statistics.data.gov.uk/id/statistical-geography/TLJ28
 tll1,West Wales and The Valleys,TLL1,,224,,http://statistics.data.gov.uk/id/statistical-geography/TLL1
 e47000003,West Yorkshire (Combined Authority),E47000003,,225,,http://statistics.data.gov.uk/id/statistical-geography/E47000003
-tle4,West Yorkshire (nan),TLE4,,226,,http://statistics.data.gov.uk/id/statistical-geography/TLE4
+tle4,West Yorkshire (ITL2),TLE4,,226,,http://statistics.data.gov.uk/id/statistical-geography/TLE4
 e47000009,West of England,E47000009,,227,,http://statistics.data.gov.uk/id/statistical-geography/E47000009
 tli32,Westminster,TLI32,,228,,http://statistics.data.gov.uk/id/statistical-geography/TLI32
 tlk15,Wiltshire,TLK15,,229,,http://statistics.data.gov.uk/id/statistical-geography/TLK15

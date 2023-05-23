@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Outward foreign direct investment (FDI)
           - Label: ONS Geography Code List for Outward foreign direct investment (FDI)
-          - Issued: 2023-05-19T11:45:11.226773
-          - Modified: 2023-05-19T11:45:11.226773
+          - Issued: 2023-05-23T13:05:58.129466
+          - Modified: 2023-05-23T13:05:58.129466
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -39,11 +39,11 @@ Uri Identifier                               Label  Notation  Parent Uri Identif
            tll                               Wales       TLL                    NaN             55          NaN       http://statistics.data.gov.uk/id/statistical-geography/TLL
           tlm8               West Central Scotland      TLM8                    NaN             56          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLM8
      e47000007  West Midlands (Combined Authority) E47000007                    NaN             57          NaN http://statistics.data.gov.uk/id/statistical-geography/E47000007
-           tlg                 West Midlands (nan)       TLG                    NaN             58          NaN       http://statistics.data.gov.uk/id/statistical-geography/TLG
-          tlg3                 West Midlands (nan)      TLG3                    NaN             59          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLG3
+           tlg                West Midlands (ITL1)       TLG                    NaN             58          NaN       http://statistics.data.gov.uk/id/statistical-geography/TLG
+          tlg3                West Midlands (ITL2)      TLG3                    NaN             59          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLG3
           tll1          West Wales and The Valleys      TLL1                    NaN             60          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLL1
      e47000003 West Yorkshire (Combined Authority) E47000003                    NaN             61          NaN http://statistics.data.gov.uk/id/statistical-geography/E47000003
-          tle4                West Yorkshire (nan)      TLE4                    NaN             62          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLE4
+          tle4               West Yorkshire (ITL2)      TLE4                    NaN             62          NaN      http://statistics.data.gov.uk/id/statistical-geography/TLE4
      e47000009                     West of England E47000009                    NaN             63          NaN http://statistics.data.gov.uk/id/statistical-geography/E47000009
            tle            Yorkshire and The Humber       TLE                    NaN             64          NaN       http://statistics.data.gov.uk/id/statistical-geography/TLE
         
@@ -71,7 +71,7 @@ root
 ├── Essex
 ├── Gloucestershire, Wiltshire and Bath/Bristol area
 ├── Greater Manchester (Combined Authority)
-├── Greater Manchester (nan)
+├── Greater Manchester (ITL2)
 ├── Hampshire and Isle of Wight
 ├── Herefordshire, Worcestershire and Warwickshire
 ├── Highlands and Islands
@@ -99,7 +99,7 @@ root
 ├── South East
 ├── South West
 ├── South Yorkshire (Combined Authority)
-├── South Yorkshire (nan)
+├── South Yorkshire (ITL2)
 ├── Southern Scotland
 ├── Surrey, East and West Sussex
 ├── Swansea Bay City Region
@@ -110,11 +110,11 @@ root
 ├── Wales
 ├── West Central Scotland
 ├── West Midlands (Combined Authority)
-├── West Midlands (nan)
-├── West Midlands (nan)
+├── West Midlands (ITL1)
+├── West Midlands (ITL2)
 ├── West Wales and The Valleys
 ├── West Yorkshire (Combined Authority)
-├── West Yorkshire (nan)
+├── West Yorkshire (ITL2)
 ├── West of England
 └── Yorkshire and The Humber
 
