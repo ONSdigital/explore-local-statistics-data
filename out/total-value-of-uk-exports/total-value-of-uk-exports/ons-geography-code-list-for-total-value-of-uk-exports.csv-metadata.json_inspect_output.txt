@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Total value of UK exports
           - Label: ONS Geography Code List for Total value of UK exports
-          - Issued: 2023-05-23T13:06:07.784896
-          - Modified: 2023-05-23T13:06:07.784896
+          - Issued: 2023-05-23T15:14:20.806321
+          - Modified: 2023-05-23T15:14:20.806321
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

@@ -199,65 +199,30 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "total-value-of-uk-exports.csv#component/lower-confidence-interval",
+            "@id": "total-value-of-uk-exports.csv#component/unit",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "total-value-of-uk-exports.csv#attribute/lower-confidence-interval"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "total-value-of-uk-exports.csv#attribute/lower-confidence-interval"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@value": false
+                    "@value": true
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#component/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                    "@value": 4
                 }
             ]
         },
@@ -282,25 +247,207 @@
             ]
         },
         {
-            "@id": "total-value-of-uk-exports.csv#component/total-value-of-uk-exports",
+            "@id": "total-value-of-uk-exports.csv#component/upper-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/upper-confidence-interval"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports"
+                    "@id": "total-value-of-uk-exports.csv#attribute/upper-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 5
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#component/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#component/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/unit"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/total-value-of-uk-exports"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/year"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/observation-status"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#component/measure-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#dimension/year"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-total-value-of-uk-exports.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
                 }
             ]
         },
@@ -325,152 +472,27 @@
             ]
         },
         {
-            "@id": "total-value-of-uk-exports.csv#slice/cross-measures",
+            "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/year"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-total-value-of-uk-exports.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#component/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Observation Status"
+                    "@value": "Total value of UK exports"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#structure",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/unit"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/total-value-of-uk-exports"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/observation-status"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/year"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#component/measure-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/year"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#slice/cross-measures"
+                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
                 }
             ]
         },
@@ -478,8 +500,8 @@
             "@id": "total-value-of-uk-exports.csv#component/measure-type",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -498,20 +520,64 @@
             ]
         },
         {
-            "@id": "total-value-of-uk-exports.csv#class/year",
+            "@id": "total-value-of-uk-exports.csv#slice/cross-measures",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#dimension/year"
+                },
+                {
+                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "total-value-of-uk-exports.csv#component/total-value-of-uk-exports",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
             ]
         },
         {
             "@id": "total-value-of-uk-exports.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#DataSet",
                 "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -532,7 +598,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-23T13:06:07.801257"
+                    "@value": "2023-05-23T15:14:20.820244"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -543,7 +609,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-23T13:06:07.801257"
+                    "@value": "2023-05-23T15:14:20.820244"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -581,11 +647,15 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "economic-growth"
+                    "@value": "subnational"
                 },
                 {
                     "@language": "en",
-                    "@value": "subnational"
+                    "@value": "goods-and-services"
+                },
+                {
+                    "@language": "en",
+                    "@value": "economic-growth"
                 },
                 {
                     "@language": "en",
@@ -598,10 +668,6 @@
                 {
                     "@language": "en",
                     "@value": "imports"
-                },
-                {
-                    "@language": "en",
-                    "@value": "goods-and-services"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -616,129 +682,63 @@
             ]
         },
         {
-            "@id": "total-value-of-uk-exports.csv#component/upper-confidence-interval",
+            "@id": "total-value-of-uk-exports.csv#attribute/observation-status",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "total-value-of-uk-exports.csv#attribute/upper-confidence-interval"
+                    "@language": "en",
+                    "@value": "Observation Status"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "total-value-of-uk-exports.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
                 }
             ]
         },
         {
-            "@id": "total-value-of-uk-exports.csv#component/unit",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "total-value-of-uk-exports.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "total-value-of-uk-exports.csv#class/statistical-geography",
+            "@id": "total-value-of-uk-exports.csv#class/year",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
-            "@id": "total-value-of-uk-exports.csv#measure/total-value-of-uk-exports",
+            "@id": "total-value-of-uk-exports.csv#component/statistical-geography",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@language": "en",
-                    "@value": "Total value of UK exports"
+                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "total-value-of-uk-exports.csv#dimension/statistical-geography"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+                    "@value": 1
                 }
             ]
         },
         {
             "@id": "total-value-of-uk-exports.csv#dimension/year",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -800,8 +800,8 @@
             "@id": "total-value-of-uk-exports.csv#unit/pounds-sterling-millions",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
