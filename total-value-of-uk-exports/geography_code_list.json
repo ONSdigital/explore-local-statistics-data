@@ -102,7 +102,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLD12"
         },
         {
-            "label": "Greater Manchester (nan)",
+            "label": "Greater Manchester (ITL2)",
             "notation": "TLD3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLD3"
         },
@@ -262,7 +262,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE22"
         },
         {
-            "label": "South Yorkshire (nan)",
+            "label": "South Yorkshire (ITL2)",
             "notation": "TLE3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE3"
         },
@@ -282,7 +282,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE32"
         },
         {
-            "label": "West Yorkshire (nan)",
+            "label": "West Yorkshire (ITL2)",
             "notation": "TLE4",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE4"
         },
@@ -387,7 +387,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLF30"
         },
         {
-            "label": "West Midlands (nan)",
+            "label": "West Midlands (ITL1)",
             "notation": "TLG",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLG"
         },
@@ -437,7 +437,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLG24"
         },
         {
-            "label": "West Midlands (nan)",
+            "label": "West Midlands (ITL2)",
             "notation": "TLG3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLG3"
         },
@@ -787,12 +787,12 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLJ26"
         },
         {
-            "label": "West Sussex (nan)",
+            "label": "West Sussex (ITL3)",
             "notation": "TLJ27",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLJ27"
         },
         {
-            "label": "West Sussex (nan)",
+            "label": "West Sussex (ITL3)",
             "notation": "TLJ28",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLJ28"
         },
@@ -922,12 +922,12 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLK25"
         },
         {
-            "label": "Cornwall and Isles of Scilly (nan)",
+            "label": "Cornwall and Isles of Scilly (ITL2)",
             "notation": "TLK3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLK3"
         },
         {
-            "label": "Cornwall and Isles of Scilly (nan)",
+            "label": "Cornwall and Isles of Scilly (ITL3)",
             "notation": "TLK30",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLK30"
         },

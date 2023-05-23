@@ -57,7 +57,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLD1"
         },
         {
-            "label": "Greater Manchester (nan)",
+            "label": "Greater Manchester (ITL2)",
             "notation": "TLD3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLD3"
         },
@@ -102,7 +102,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE2"
         },
         {
-            "label": "South Yorkshire (nan)",
+            "label": "South Yorkshire (ITL2)",
             "notation": "TLE3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE3"
         },
@@ -112,7 +112,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000002"
         },
         {
-            "label": "West Yorkshire (nan)",
+            "label": "West Yorkshire (ITL2)",
             "notation": "TLE4",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLE4"
         },
@@ -142,7 +142,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLF3"
         },
         {
-            "label": "West Midlands (nan)",
+            "label": "West Midlands (ITL1)",
             "notation": "TLG",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLG"
         },
@@ -157,7 +157,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLG2"
         },
         {
-            "label": "West Midlands (nan)",
+            "label": "West Midlands (ITL2)",
             "notation": "TLG3",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/TLG3"
         },
