@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Overweight children at reception age (aged four to five years)
           - Label: Overweight children at reception age (aged four to five years)
-          - Issued: 2023-05-17T12:41:46.328446
-          - Modified: 2023-05-17T12:41:46.328446
+          - Issued: 2023-05-24T11:10:21.278991
+          - Modified: 2023-05-24T11:10:21.278991
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- state-funded-school
-		-- obesity
-		-- subnational
-		-- county
-		-- local-authority
 		-- region
+		-- local-authority
+		-- county
+		-- subnational
+		-- obesity
 		-- national-child-measurement-programme
+		-- state-funded-school
           - Contact Point: None
           - Identifier: Overweight children at reception age (aged four to five years)
           - Comment: Proportion of children aged 4-5 years classified as overweight or obese (children are classified as overweight (including obese) if their BMI is on or above the 85th centile of the British 1990 growth reference (UK90) according to age and sex), England, academic years 2006/07 to 2021/22
@@ -40,7 +40,7 @@
 		
 		### Source
 		
-		 - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data#page/9/gid/8000011/pat/15/par/E92000001/ati/401/are/E06000047/iid/20601/age/200/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1) 
+		 - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data) 
 		
 		
 		### Source Notes and Caveats 
@@ -95,7 +95,7 @@
 ons-geography-code-list-for-overweight-children-at-reception-age-aged-four-to-five-years.csv#code-list ONS Geography Code List for Overweight children at reception age (aged four to five years)          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 6025
+        - Number of Rows: 6021
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD  AREANM Geography                                                       Variable Name                                                      Indicator   Mission                                            Category                  Period     Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
@@ -126,5 +126,5 @@ e07000189 South Somerset Local Authority District Children (four to five years o
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                             Measure    Unit  Count
-Reception age children (aged four to five years) who are overweight percent   6025
+Reception age children (aged four to five years) who are overweight percent   6021
         

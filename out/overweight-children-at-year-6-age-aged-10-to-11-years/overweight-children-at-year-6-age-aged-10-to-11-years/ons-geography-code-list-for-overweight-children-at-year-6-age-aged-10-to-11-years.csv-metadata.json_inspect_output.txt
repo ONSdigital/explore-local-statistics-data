@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Overweight children at Year 6 age (aged 10 to 11 years)
           - Label: ONS Geography Code List for Overweight children at Year 6 age (aged 10 to 11 years)
-          - Issued: 2023-05-17T12:42:01.343886
-          - Modified: 2023-05-17T12:42:01.343886
+          - Issued: 2023-05-24T11:10:41.441718
+          - Modified: 2023-05-24T11:10:41.441718
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -20,7 +20,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 386
+        - Number of Concepts: 385
         - Number of Duplicates: 0
         - First 10 Concepts: 
 Uri Identifier                Label  Notation  Parent Uri Identifier  Sort Priority  Description                                             Original Concept URI
@@ -36,16 +36,16 @@ Uri Identifier                Label  Notation  Parent Uri Identifier  Sort Prior
      e09000003               Barnet E09000003                    NaN              9          NaN http://statistics.data.gov.uk/id/statistical-geography/E09000003
         - Last 10 Concepts: 
 Uri Identifier                    Label  Notation  Parent Uri Identifier  Sort Priority  Description                                             Original Concept URI
-     e08000031            Wolverhampton E08000031                    NaN            376          NaN http://statistics.data.gov.uk/id/statistical-geography/E08000031
-     e07000237                Worcester E07000237                    NaN            377          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000237
-     e10000034           Worcestershire E10000034                    NaN            378          NaN http://statistics.data.gov.uk/id/statistical-geography/E10000034
-     e07000229                 Worthing E07000229                    NaN            379          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000229
-     e07000238                 Wychavon E07000238                    NaN            380          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000238
-     e07000007                  Wycombe E07000007                    NaN            381          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000007
-     e07000128                     Wyre E07000128                    NaN            382          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000128
-     e07000239              Wyre Forest E07000239                    NaN            383          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000239
-     e06000014                     York E06000014                    NaN            384          NaN http://statistics.data.gov.uk/id/statistical-geography/E06000014
-     e12000003 Yorkshire and The Humber E12000003                    NaN            385          NaN http://statistics.data.gov.uk/id/statistical-geography/E12000003
+     e08000031            Wolverhampton E08000031                    NaN            375          NaN http://statistics.data.gov.uk/id/statistical-geography/E08000031
+     e07000237                Worcester E07000237                    NaN            376          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000237
+     e10000034           Worcestershire E10000034                    NaN            377          NaN http://statistics.data.gov.uk/id/statistical-geography/E10000034
+     e07000229                 Worthing E07000229                    NaN            378          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000229
+     e07000238                 Wychavon E07000238                    NaN            379          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000238
+     e07000007                  Wycombe E07000007                    NaN            380          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000007
+     e07000128                     Wyre E07000128                    NaN            381          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000128
+     e07000239              Wyre Forest E07000239                    NaN            382          NaN http://statistics.data.gov.uk/id/statistical-geography/E07000239
+     e06000014                     York E06000014                    NaN            383          NaN http://statistics.data.gov.uk/id/statistical-geography/E06000014
+     e12000003 Yorkshire and The Humber E12000003                    NaN            384          NaN http://statistics.data.gov.uk/id/statistical-geography/E12000003
         
 
 - The code list has the following concepts information:
