@@ -8,6 +8,8 @@ from pathlib import Path
 @click.option("--output", default=Path("./output.csv"), type=click.Path(path_type=Path))
 def wrangle(input: Path(), output: Path()) -> None:
     df = pd.read_csv(input, na_values = 'na')
+    df.drop(df[df['AREACD']=='E47000005'].index, inplace=True)
+    #df.loc[df['AREACD'] =='E47000005', 'AREACD'] = 'E47000010'
 
     df['Period'] = df.apply(lambda x: str(x['Period'])[:4] + '-08-01T00:00:00/P1Y', axis = 1)
     

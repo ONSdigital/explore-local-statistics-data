@@ -28,11 +28,6 @@
         },
         {
             "label": "North East (Combined Authority)",
-            "notation": "E47000005",
-            "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000005"
-        },
-        {
-            "label": "North East (Combined Authority)",
             "notation": "E47000010",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000010"
         },
