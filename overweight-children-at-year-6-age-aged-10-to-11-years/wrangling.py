@@ -23,7 +23,7 @@ def wrangle(input: Path(), output: Path()) -> None:
                                             'Value missing in source data' : 'x',
                                             'Value not published for data quality reasons' : 'u',
                                             'Value suppressed for disclosure control reasons' : 'c',
-                                            'Value suppressed due to incompleteness of  source data' : 'b',
+                                            'Value suppressed due to incompleteness of  source data' : 'u',
                                             'Interpret with caution' : 'u'}})
 
     df.to_csv(output, index=False)
