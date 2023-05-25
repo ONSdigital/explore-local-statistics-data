@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Overweight children at Year 6 age (aged 10 to 11 years)
           - Label: Overweight children at Year 6 age (aged 10 to 11 years)
-          - Issued: 2023-05-24T11:10:41.462516
-          - Modified: 2023-05-24T11:10:41.462516
+          - Issued: 2023-05-25T11:20:54.174219
+          - Modified: 2023-05-25T11:20:54.174219
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- obesity
-		-- county
-		-- local-authority
 		-- region
+		-- obesity
+		-- local-authority
 		-- national-child-measurement-programme
-		-- subnational
 		-- state-funded-school
+		-- county
+		-- subnational
           - Contact Point: None
           - Identifier: Overweight children at Year 6 age (aged 10 to 11 years)
           - Comment: Proportion of children aged 10-11 classified as overweight or obese (children are classified as overweight (including obese) if their BMI is on or above the 85th centile of the British 1990 growth reference (UK90) according to age and sex), England, academic years 2006/07 to 2021/22

@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Overweight children at Year 6 age (aged 10 to 11 years)
           - Label: ONS Geography Code List for Overweight children at Year 6 age (aged 10 to 11 years)
-          - Issued: 2023-05-24T11:10:41.441718
-          - Modified: 2023-05-24T11:10:41.441718
+          - Issued: 2023-05-25T11:20:54.158384
+          - Modified: 2023-05-25T11:20:54.158384
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
