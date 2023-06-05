@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Children at expected level for literacy by end of early years foundation stage
           - Label: ONS Geography Code List for Children at expected level for literacy by end of early years foundation stage
-          - Issued: 2023-05-17T12:26:38.367410
-          - Modified: 2023-05-17T12:26:38.367410
+          - Issued: 2023-06-05T13:10:51.032847
+          - Modified: 2023-06-05T13:10:51.032847
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
