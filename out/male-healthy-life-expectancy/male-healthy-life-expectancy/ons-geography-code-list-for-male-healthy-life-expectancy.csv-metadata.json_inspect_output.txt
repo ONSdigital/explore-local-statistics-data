@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Male healthy life expectancy
           - Label: ONS Geography Code List for Male healthy life expectancy
-          - Issued: 2023-06-05T13:26:31.280809
-          - Modified: 2023-06-05T13:26:31.280809
+          - Issued: 2023-06-05T14:07:41.567502
+          - Modified: 2023-06-05T14:07:41.567502
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

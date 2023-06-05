@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Total value of UK exports
           - Label: Total value of UK exports
-          - Issued: 2023-06-05T13:28:40.536569
-          - Modified: 2023-06-05T13:28:40.536569
+          - Issued: 2023-05-23T15:14:20.820244
+          - Modified: 2023-05-23T15:14:20.820244
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/internationaltrade
           - Keywords: 
-		-- trade-deficit
-		-- economic-growth
 		-- goods-and-services
+		-- exports
 		-- international-territorial-level
+		-- trade-deficit
 		-- imports
 		-- subnational
-		-- exports
+		-- economic-growth
           - Contact Point: None
           - Identifier: Total value of UK exports
           - Comment: Estimated total value of UK exports including trade in both goods and services (experimental statistics), Great Britain (Northern Ireland national figure included), 2020.

@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Apprenticeships starts
           - Label: Apprenticeships starts
-          - Issued: 2023-06-05T13:23:06.218516
-          - Modified: 2023-06-05T13:23:06.218516
+          - Issued: 2023-05-17T12:25:40.277755
+          - Modified: 2023-05-17T12:25:40.277755
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- subnational
 		-- county
-		-- community-learning
 		-- apprenticeship
-		-- local-authority
+		-- subnational
+		-- community-learning
 		-- education-and-training
+		-- local-authority
           - Contact Point: None
           - Identifier: Apprenticeships starts
           - Comment: Apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, England, academic years  2017/18 to 2022/23

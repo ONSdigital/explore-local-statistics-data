@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Feeling life is worthwhile
           - Label: Feeling life is worthwhile
-          - Issued: 2023-06-05T13:24:46.236822
-          - Modified: 2023-06-05T13:24:46.236822
+          - Issued: 2023-05-18T09:03:09.040086
+          - Modified: 2023-05-18T09:03:09.040086
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,12 +15,12 @@
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
 		-- personal-wellbeing
+		-- annual-population-survey
+		-- regions
+		-- counties
 		-- local-authorities
 		-- subnational
 		-- quality-of-life
-		-- annual-population-survey
-		-- counties
-		-- regions
           - Contact Point: None
           - Identifier: Feeling life is worthwhile
           - Comment: The average rating of those that feel the things they do in life are worthwhile for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.  

@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Homicide Offences
           - Label: Homicide Offences
-          - Issued: 2023-06-05T13:26:04.910874
-          - Modified: 2023-06-05T13:26:04.910874
+          - Issued: 2023-05-11T11:56:05.595427
+          - Modified: 2023-05-11T11:56:05.595427
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,8 +15,8 @@
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice
           - Keywords: 
 		-- home-office-homicide-index
-		-- subnational
 		-- region
+		-- subnational
 		-- police-force-area
           - Contact Point: None
           - Identifier: Homicide Offences

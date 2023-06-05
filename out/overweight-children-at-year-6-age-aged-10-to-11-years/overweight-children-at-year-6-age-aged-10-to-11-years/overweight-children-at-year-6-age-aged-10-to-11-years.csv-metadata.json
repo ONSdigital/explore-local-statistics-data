@@ -199,64 +199,12 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#measure/year-6-children-aged-10-to-11-years-who-are-overweight",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year 6 children (aged 10 to 11 years) who are overweight"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -282,74 +230,92 @@
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/upper-confidence-interval",
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#slice/cross-measures",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval"
-                }
+                "http://purl.org/linked-data/cube#SliceKey"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
+                },
                 {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
                 }
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#csvcubed-build-activity",
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#structure",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/observation-status"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/measure-type"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/unit"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/year-6-children-aged-10-to-11-years-who-are-overweight"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/upper-confidence-interval"
                 }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#measure/year-6-children-aged-10-to-11-years-who-are-overweight"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#sliceKey": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#slice/cross-measures"
                 }
             ]
         },
         {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/year-6-children-aged-10-to-11-years-who-are-overweight",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -368,85 +334,20 @@
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#structure",
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/observation-status",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/year-6-children-aged-10-to-11-years-who-are-overweight"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/measure-type"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/unit"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/observation-status"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#measure/year-6-children-aged-10-to-11-years-who-are-overweight"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -456,83 +357,40 @@
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 6
+                    "@value": 8
                 }
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/gregorian-time-interval",
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
+                    "@value": 1
                 }
             ]
         },
         {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -547,20 +405,38 @@
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#class/statistical-geography",
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#measure/year-6-children-aged-10-to-11-years-who-are-overweight",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year 6 children (aged 10 to 11 years) who are overweight"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
             ]
         },
         {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#Attachable"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -581,7 +457,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:27:17.963675"
+                    "@value": "2023-05-25T11:20:54.174219"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -592,7 +468,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:27:17.963675"
+                    "@value": "2023-05-25T11:20:54.174219"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -630,6 +506,14 @@
                 },
                 {
                     "@language": "en",
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "national-child-measurement-programme"
+                },
+                {
+                    "@language": "en",
                     "@value": "obesity"
                 },
                 {
@@ -638,15 +522,7 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
                     "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "national-child-measurement-programme"
                 },
                 {
                     "@language": "en",
@@ -665,20 +541,32 @@
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/observation-status",
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#csvcubed-build-activity",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status"
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/lower-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -688,16 +576,39 @@
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 8
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
                 }
             ]
         },
         {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/unit",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -721,28 +632,12 @@
             ]
         },
         {
-            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography"
-                }
-            ]
-        },
-        {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/statistical-geography",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -759,6 +654,111 @@
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
                 }
             ]
         },
@@ -799,9 +799,9 @@
         {
             "@id": "overweight-children-at-year-6-age-aged-10-to-11-years.csv#unit/percent",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit"
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

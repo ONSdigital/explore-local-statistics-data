@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: 4G coverage
           - Label: 4G coverage
-          - Issued: 2023-06-05T13:21:51.278006
-          - Modified: 2023-06-05T13:21:51.278006
+          - Issued: 2023-03-31T12:10:26.937229
+          - Modified: 2023-03-31T12:10:26.937229
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

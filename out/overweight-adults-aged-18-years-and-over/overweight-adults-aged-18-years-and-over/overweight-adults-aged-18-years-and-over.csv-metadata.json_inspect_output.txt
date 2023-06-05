@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Overweight adults (aged 18 years and over)
           - Label: Overweight adults (aged 18 years and over)
-          - Issued: 2023-06-05T13:26:53.609806
-          - Modified: 2023-06-05T13:26:53.609806
+          - Issued: 2023-05-17T12:41:34.475144
+          - Modified: 2023-05-17T12:41:34.475144
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- obesity
 		-- region
-		-- local-authority
 		-- county
+		-- local-authority
 		-- subnational
+		-- obesity
           - Contact Point: None
           - Identifier: Overweight adults (aged 18 years and over)
           - Comment: Percentage of adults aged 18 and over classified as overweight or obese, England, financial years 2015/16 to 2021/22

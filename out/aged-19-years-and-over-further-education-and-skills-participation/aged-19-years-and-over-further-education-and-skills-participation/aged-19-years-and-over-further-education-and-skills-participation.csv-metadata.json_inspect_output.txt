@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Aged 19 years and over further education and skills participation
           - Label: Aged 19 years and over further education and skills participation
-          - Issued: 2023-06-05T13:22:37.024877
-          - Modified: 2023-06-05T13:22:37.024877
+          - Issued: 2023-05-17T12:25:15.996450
+          - Modified: 2023-05-17T12:25:15.996450
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- community-learning
 		-- education-and-training
+		-- community-learning
+		-- subnational
 		-- local-authority
 		-- apprenticeship
-		-- subnational
           - Contact Point: None
           - Identifier: Aged 19 years and over further education and skills participation
           - Comment: 19+ further education and skills participation rate per 100,000 population, England, academic years 2017/18 to 2022/23

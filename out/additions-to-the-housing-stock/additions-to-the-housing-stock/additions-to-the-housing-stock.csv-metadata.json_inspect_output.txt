@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Additions to the housing stock
           - Label: Additions to the housing stock
-          - Issued: 2023-06-05T13:22:02.689587
-          - Modified: 2023-06-05T13:22:02.689587
+          - Issued: 2023-05-05T08:59:11.430214
+          - Modified: 2023-05-05T08:59:11.430214
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/housing
           - Keywords: 
-		-- county
+		-- new-building
+		-- local-authority
+		-- conversion
 		-- subnational
 		-- dwelling
 		-- demolition
-		-- local-authority
-		-- conversion
-		-- new-building
+		-- county
           - Contact Point: None
           - Identifier: Additions to the housing stock
           - Comment: Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, England, financial year 2021 - 2022.

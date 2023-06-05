@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Gigabit capable broadband
           - Label: Gigabit capable broadband
-          - Issued: 2023-06-05T13:25:13.482379
-          - Modified: 2023-06-05T13:25:13.482379
+          - Issued: 2023-03-31T12:12:36.754038
+          - Modified: 2023-03-31T12:12:36.754038
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
+		-- broadband-mobile-coverage
+		-- local-authority
 		-- subnational
 		-- connectivity
-		-- local-authority
-		-- broadband-mobile-coverage
           - Contact Point: None
           - Identifier: Gigabit capable broadband
           - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, September 2022.

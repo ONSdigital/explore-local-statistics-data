@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Persistent absences for pupils eligible for free school meals
           - Label: ONS Geography Code List for Persistent absences for pupils eligible for free school meals
-          - Issued: 2023-06-05T13:27:40.389046
-          - Modified: 2023-06-05T13:27:40.389046
+          - Issued: 2023-06-05T14:09:00.760551
+          - Modified: 2023-06-05T14:09:00.760551
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

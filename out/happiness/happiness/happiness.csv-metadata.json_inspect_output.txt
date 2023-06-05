@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Happiness
           - Label: Happiness
-          - Issued: 2023-06-05T13:25:55.083723
-          - Modified: 2023-06-05T13:25:55.083723
+          - Issued: 2023-05-18T12:55:15.941398
+          - Modified: 2023-05-18T12:55:15.941398
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -19,8 +19,8 @@
 		-- subnational
 		-- local-authorities
 		-- annual-population-survey
-		-- regions
 		-- personal-wellbeing
+		-- regions
           - Contact Point: None
           - Identifier: Happiness
           - Comment: The average rating of those that felt happy yesterday for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.

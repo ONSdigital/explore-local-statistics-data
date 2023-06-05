@@ -199,124 +199,40 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/measure-type",
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#structure",
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#class/statistical-geography",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/measure-type"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/unit"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/observation-status"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/reception-age-children-aged-four-to-five-years-who-are-overweight"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#measure/reception-age-children-aged-four-to-five-years-who-are-overweight"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dataset",
             "@type": [
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -337,7 +253,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:27:04.723764"
+                    "@value": "2023-05-25T11:20:33.054777"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -348,7 +264,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:27:04.723764"
+                    "@value": "2023-05-25T11:20:33.054777"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -386,10 +302,6 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "state-funded-school"
-                },
-                {
-                    "@language": "en",
                     "@value": "national-child-measurement-programme"
                 },
                 {
@@ -402,11 +314,15 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "local-authority"
+                    "@value": "county"
                 },
                 {
                     "@language": "en",
-                    "@value": "county"
+                    "@value": "state-funded-school"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local-authority"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -421,48 +337,13 @@
             ]
         },
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -487,61 +368,36 @@
             ]
         },
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#measure/reception-age-children-aged-four-to-five-years-who-are-overweight",
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Reception age children (aged four to five years) who are overweight"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
                 }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
             ]
         },
         {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -561,67 +417,76 @@
             ]
         },
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/observation-status",
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#structure",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status"
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/measure-type"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/unit"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/observation-status"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/reception-age-children-aged-four-to-five-years-who-are-overweight"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+                },
                 {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/upper-confidence-interval"
+                },
                 {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
                 {
                     "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#measure/reception-age-children-aged-four-to-five-years-who-are-overweight"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/linked-data/cube#sliceKey": [
                 {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#slice/cross-measures"
                 }
             ]
         },
         {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/upper-confidence-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -645,10 +510,66 @@
             ]
         },
         {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#csvcubed-build-activity",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/ns/prov#used": [
                 {
@@ -657,17 +578,17 @@
             ]
         },
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/upper-confidence-interval",
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -677,11 +598,109 @@
             ]
         },
         {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#measure/reception-age-children-aged-four-to-five-years-who-are-overweight",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Reception age children (aged four to five years) who are overweight"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/reception-age-children-aged-four-to-five-years-who-are-overweight",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -700,73 +719,54 @@
             ]
         },
         {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status",
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/observation-status",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#component/gregorian-time-interval",
-            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dimension/statistical-geography"
                 }
             ]
         },
         {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dependency/ons-geography-code-list-for-overweight-children-at-reception-age-aged-four-to-five-years",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -782,8 +782,8 @@
         {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#dependency/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -799,9 +799,9 @@
         {
             "@id": "overweight-children-at-reception-age-aged-four-to-five-years.csv#unit/percent",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://qudt.org/schema/qudt/Unit"
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

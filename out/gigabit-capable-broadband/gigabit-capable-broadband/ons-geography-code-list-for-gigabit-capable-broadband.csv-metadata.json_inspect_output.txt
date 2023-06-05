@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Gigabit capable broadband
           - Label: ONS Geography Code List for Gigabit capable broadband
-          - Issued: 2023-06-05T13:25:13.465800
-          - Modified: 2023-06-05T13:25:13.465800
+          - Issued: 2023-06-05T14:05:18.281025
+          - Modified: 2023-06-05T14:05:18.281025
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

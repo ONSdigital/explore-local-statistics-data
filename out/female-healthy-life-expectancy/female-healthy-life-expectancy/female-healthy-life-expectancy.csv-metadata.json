@@ -199,185 +199,57 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#component/measure-type",
+            "@id": "female-healthy-life-expectancy.csv#component/statistical-geography",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 1
                 }
             ]
         },
         {
-            "@id": "female-healthy-life-expectancy.csv#csvcubed-build-activity",
+            "@id": "female-healthy-life-expectancy.csv#slice/cross-measures",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-female-healthy-life-expectancy.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "female-healthy-life-expectancy.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/observation-status"
-                }
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                },
                 {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#component/female-healthy-life-expectancy",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
+                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
                 }
             ]
         },
         {
             "@id": "female-healthy-life-expectancy.csv#class/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "female-healthy-life-expectancy.csv#component/unit",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -401,13 +273,127 @@
             ]
         },
         {
+            "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-female-healthy-life-expectancy.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#component/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/measure-type"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/unit"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/female-healthy-life-expectancy"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/observation-status"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#component/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
             "@id": "female-healthy-life-expectancy.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#Attachable"
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -428,7 +414,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:24:55.882998"
+                    "@value": "2023-05-11T11:44:11.032574"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -439,7 +425,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:24:55.882998"
+                    "@value": "2023-05-11T11:44:11.032574"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -473,11 +459,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "region"
+                    "@value": "good-health"
                 },
                 {
                     "@language": "en",
-                    "@value": "county"
+                    "@value": "region"
                 },
                 {
                     "@language": "en",
@@ -485,11 +471,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "good-health"
+                    "@value": "subnational"
                 },
                 {
                     "@language": "en",
-                    "@value": "subnational"
+                    "@value": "county"
                 },
                 {
                     "@language": "en",
@@ -508,90 +494,93 @@
             ]
         },
         {
-            "@id": "female-healthy-life-expectancy.csv#structure",
+            "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
+                "http://purl.org/linked-data/cube#MeasureProperty"
             ],
-            "http://purl.org/linked-data/cube#component": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#component/female-healthy-life-expectancy"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/unit"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/observation-status"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/measure-type"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#component/upper-confidence-interval"
+                    "@language": "en",
+                    "@value": "Female healthy life expectancy"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#slice/cross-measures"
+                    "@id": "https://purl.org/csv-cubed/resources/measures#life-expectancy"
                 }
             ]
         },
         {
-            "@id": "female-healthy-life-expectancy.csv#component/statistical-geography",
+            "@id": "female-healthy-life-expectancy.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#component/female-healthy-life-expectancy",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
                 }
             ]
         },
@@ -599,8 +588,8 @@
             "@id": "female-healthy-life-expectancy.csv#component/lower-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -624,29 +613,88 @@
             ]
         },
         {
-            "@id": "female-healthy-life-expectancy.csv#slice/cross-measures",
+            "@id": "female-healthy-life-expectancy.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                    "@id": "female-healthy-life-expectancy.csv#attribute/observation-status"
                 }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "female-healthy-life-expectancy.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -671,90 +719,42 @@
             ]
         },
         {
-            "@id": "female-healthy-life-expectancy.csv#attribute/observation-status",
+            "@id": "female-healthy-life-expectancy.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://www.w3.org/ns/prov#Activity"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://www.w3.org/ns/prov#used": [
                 {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         },
         {
-            "@id": "female-healthy-life-expectancy.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#measure/female-healthy-life-expectancy",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Female healthy life expectancy"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#life-expectancy"
-                }
-            ]
-        },
-        {
-            "@id": "female-healthy-life-expectancy.csv#component/gregorian-time-interval",
+            "@id": "female-healthy-life-expectancy.csv#component/upper-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                    "@id": "female-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "female-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 7
                 }
             ]
         },
@@ -795,9 +795,9 @@
         {
             "@id": "female-healthy-life-expectancy.csv#unit/years",
             "@type": [
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

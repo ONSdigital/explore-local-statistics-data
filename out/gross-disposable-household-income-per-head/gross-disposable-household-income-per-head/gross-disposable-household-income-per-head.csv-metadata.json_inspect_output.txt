@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Gross disposable household income per head
           - Label: Gross disposable household income per head
-          - Issued: 2023-06-05T13:25:21.848961
-          - Modified: 2023-06-05T13:25:21.848961
+          - Issued: 2023-03-31T12:12:48.541529
+          - Modified: 2023-03-31T12:12:48.541529
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -16,10 +16,10 @@
           - Keywords: 
 		-- money
 		-- saving
-		-- local-authority
 		-- region
-		-- subnational
+		-- local-authority
 		-- spending
+		-- subnational
           - Contact Point: None
           - Identifier: Gross disposable household income per head
           - Comment: Estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, UK, 1997-2020.

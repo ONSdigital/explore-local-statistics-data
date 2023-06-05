@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Cardiovascular mortality considered preventable in persons aged under 75
           - Label: Cardiovascular mortality considered preventable in persons aged under 75
-          - Issued: 2023-06-05T13:23:25.892712
-          - Modified: 2023-06-05T13:23:25.892712
+          - Issued: 2023-05-17T12:26:10.462689
+          - Modified: 2023-05-17T12:26:10.462689
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- region
-		-- county
-		-- local-authority
 		-- subnational
-		-- heart-disease
+		-- county
 		-- premature-death
+		-- region
+		-- local-authority
+		-- heart-disease
           - Contact Point: None
           - Identifier: Cardiovascular mortality considered preventable in persons aged under 75
           - Comment: Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), England, 2001 to 2021

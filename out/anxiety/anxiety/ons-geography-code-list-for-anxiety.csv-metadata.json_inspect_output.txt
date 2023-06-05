@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Anxiety
           - Label: ONS Geography Code List for Anxiety
-          - Issued: 2023-06-05T13:22:46.992099
-          - Modified: 2023-06-05T13:22:46.992099
+          - Issued: 2023-06-05T14:01:55.805739
+          - Modified: 2023-06-05T14:01:55.805739
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

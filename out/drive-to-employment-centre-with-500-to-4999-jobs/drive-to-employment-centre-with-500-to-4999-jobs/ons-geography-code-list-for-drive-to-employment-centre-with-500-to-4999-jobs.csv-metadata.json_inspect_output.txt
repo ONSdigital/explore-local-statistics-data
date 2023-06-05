@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Drive to employment centre with 500 to 4999 jobs
           - Label: ONS Geography Code List for Drive to employment centre with 500 to 4999 jobs
-          - Issued: 2023-06-05T13:24:26.192720
-          - Modified: 2023-06-05T13:24:26.192720
+          - Issued: 2023-06-05T14:04:10.768865
+          - Modified: 2023-06-05T14:04:10.768865
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

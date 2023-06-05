@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Gross disposable household income per head
           - Label: ONS Geography Code List for Gross disposable household income per head
-          - Issued: 2023-06-05T13:25:21.832092
-          - Modified: 2023-06-05T13:25:21.832092
+          - Issued: 2023-06-05T14:05:52.005473
+          - Modified: 2023-06-05T14:05:52.005473
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Male healthy life expectancy
           - Label: Male healthy life expectancy
-          - Issued: 2023-06-05T13:26:31.295470
-          - Modified: 2023-06-05T13:26:31.295470
+          - Issued: 2023-03-31T12:13:33.912610
+          - Modified: 2023-03-31T12:13:33.912610
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- good-health
 		-- annual-population-survey
+		-- county
+		-- good-health
+		-- region
 		-- subnational
 		-- men
-		-- county
-		-- region
           - Contact Point: None
           - Identifier: Male healthy life expectancy
           - Comment: Average years expected to be lived in good health for males born during the reference period, United Kingdom, from calendar years 2011 - 2013 to 2018 - 2020

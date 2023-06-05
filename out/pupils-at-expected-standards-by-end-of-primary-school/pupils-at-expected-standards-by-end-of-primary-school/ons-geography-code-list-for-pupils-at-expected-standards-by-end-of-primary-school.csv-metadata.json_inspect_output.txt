@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Pupils at expected standards by end of primary school
           - Label: ONS Geography Code List for Pupils at expected standards by end of primary school
-          - Issued: 2023-06-05T13:28:22.390025
-          - Modified: 2023-06-05T13:28:22.390025
+          - Issued: 2023-06-05T14:09:50.771026
+          - Modified: 2023-06-05T14:09:50.771026
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

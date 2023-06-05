@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Cigarette smokers
           - Label: ONS Geography Code List for Cigarette smokers
-          - Issued: 2023-06-05T13:24:07.068851
-          - Modified: 2023-06-05T13:24:07.068851
+          - Issued: 2023-06-05T14:03:44.134747
+          - Modified: 2023-06-05T14:03:44.134747
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

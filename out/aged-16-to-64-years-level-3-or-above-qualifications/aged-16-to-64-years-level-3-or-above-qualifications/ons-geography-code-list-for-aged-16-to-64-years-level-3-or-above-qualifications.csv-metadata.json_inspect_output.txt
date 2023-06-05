@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Aged 16 to 64 years level 3 or above qualifications
           - Label: ONS Geography Code List for Aged 16 to 64 years level 3 or above qualifications
-          - Issued: 2023-06-05T13:22:14.070695
-          - Modified: 2023-06-05T13:22:14.070695
+          - Issued: 2023-06-05T14:01:13.711470
+          - Modified: 2023-06-05T14:01:13.711470
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Female healthy life expectancy
           - Label: ONS Geography Code List for Female healthy life expectancy
-          - Issued: 2023-06-05T13:24:55.869156
-          - Modified: 2023-06-05T13:24:55.869156
+          - Issued: 2023-06-05T14:04:52.546105
+          - Modified: 2023-06-05T14:04:52.546105
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

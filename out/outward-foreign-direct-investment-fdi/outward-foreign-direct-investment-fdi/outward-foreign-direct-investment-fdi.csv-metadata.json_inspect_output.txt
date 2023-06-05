@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Outward foreign direct investment (FDI)
           - Label: Outward foreign direct investment (FDI)
-          - Issued: 2023-06-05T13:26:40.041822
-          - Modified: 2023-06-05T13:26:40.041822
+          - Issued: 2023-05-23T13:05:58.143797
+          - Modified: 2023-05-23T13:05:58.143797
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/internationaltrade
           - Keywords: 
+		-- business-investment
 		-- investment-flows
 		-- stocks
 		-- subnational
-		-- business-investment
 		-- international-territorial-level
           - Contact Point: None
           - Identifier: Outward foreign direct investment (FDI)

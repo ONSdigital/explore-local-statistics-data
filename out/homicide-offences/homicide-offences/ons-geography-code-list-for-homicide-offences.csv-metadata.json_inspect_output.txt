@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Homicide Offences
           - Label: ONS Geography Code List for Homicide Offences
-          - Issued: 2023-06-05T13:26:04.894709
-          - Modified: 2023-06-05T13:26:04.894709
+          - Issued: 2023-06-05T14:07:02.784465
+          - Modified: 2023-06-05T14:07:02.784465
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for 4G coverage
           - Label: ONS Geography Code List for 4G coverage
-          - Issued: 2023-06-05T13:21:51.261755
-          - Modified: 2023-06-05T13:21:51.261755
+          - Issued: 2023-06-05T14:00:42.619961
+          - Modified: 2023-06-05T14:00:42.619961
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

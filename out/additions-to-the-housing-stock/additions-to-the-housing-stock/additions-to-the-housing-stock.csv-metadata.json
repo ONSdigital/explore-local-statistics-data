@@ -199,117 +199,30 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval",
+            "@id": "additions-to-the-housing-stock.csv#csvcubed-build-activity",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://www.w3.org/ns/prov#used": [
                 {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#class/statistical-geography",
+            "@id": "additions-to-the-housing-stock.csv#class/government-year",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Class",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "additions-to-the-housing-stock.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "additions-to-the-housing-stock.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
             "@id": "additions-to-the-housing-stock.csv#attribute/observation-status",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -325,90 +238,30 @@
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#component/statistical-geography",
+            "@id": "additions-to-the-housing-stock.csv#component/upper-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
+                    "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "additions-to-the-housing-stock.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/net-additions-to-housing-stock"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/government-year"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/unit"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/measure-type"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/observation-status"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#component/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#measure/net-additions-to-housing-stock"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#dimension/government-year"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "additions-to-the-housing-stock.csv#slice/cross-measures"
+                    "@value": 7
                 }
             ]
         },
@@ -416,8 +269,8 @@
             "@id": "additions-to-the-housing-stock.csv#component/government-year",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -436,31 +289,53 @@
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#component/unit",
+            "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "additions-to-the-housing-stock.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@value": true
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 4
+                    "@value": 3
                 }
+            ]
+        },
+        {
+            "@id": "additions-to-the-housing-stock.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
@@ -489,20 +364,48 @@
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#component/upper-confidence-interval",
+            "@id": "additions-to-the-housing-stock.csv#component/unit",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "additions-to-the-housing-stock.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/observation-status"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -512,7 +415,23 @@
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 7
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "additions-to-the-housing-stock.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#dimension/government-year"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
                 }
             ]
         },
@@ -520,8 +439,8 @@
             "@id": "additions-to-the-housing-stock.csv#component/net-additions-to-housing-stock",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -540,25 +459,44 @@
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#csvcubed-build-activity",
+            "@id": "additions-to-the-housing-stock.csv#dimension/government-year",
             "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                    "@id": "government-year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "government Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#class/government-year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
         {
             "@id": "additions-to-the-housing-stock.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -579,7 +517,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:22:02.689587"
+                    "@value": "2023-05-05T08:59:11.430214"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -590,7 +528,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-05T13:22:02.689587"
+                    "@value": "2023-05-05T08:59:11.430214"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -624,23 +562,7 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "county"
-                },
-                {
-                    "@language": "en",
                     "@value": "dwelling"
-                },
-                {
-                    "@language": "en",
-                    "@value": "demolition"
-                },
-                {
-                    "@language": "en",
-                    "@value": "new-building"
                 },
                 {
                     "@language": "en",
@@ -649,6 +571,22 @@
                 {
                     "@language": "en",
                     "@value": "conversion"
+                },
+                {
+                    "@language": "en",
+                    "@value": "new-building"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
+                },
+                {
+                    "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "demolition"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -663,67 +601,106 @@
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#dimension/government-year",
+            "@id": "additions-to-the-housing-stock.csv#structure",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "government-year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "@id": "additions-to-the-housing-stock.csv#component/unit"
+                },
                 {
-                    "@language": "en",
-                    "@value": "government Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+                    "@id": "additions-to-the-housing-stock.csv#component/upper-confidence-interval"
+                },
                 {
-                    "@id": "additions-to-the-housing-stock.csv#class/government-year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                    "@id": "additions-to-the-housing-stock.csv#component/statistical-geography"
+                },
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                    "@id": "additions-to-the-housing-stock.csv#component/measure-type"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#component/net-additions-to-housing-stock"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#component/government-year"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#component/observation-status"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#component/lower-confidence-interval"
                 }
-            ]
-        },
-        {
-            "@id": "additions-to-the-housing-stock.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "additions-to-the-housing-stock.csv#dimension/government-year"
+                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
                 },
                 {
-                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
+                    "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#measure/net-additions-to-housing-stock"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "additions-to-the-housing-stock.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#slice/cross-measures"
                 }
             ]
         },
         {
-            "@id": "additions-to-the-housing-stock.csv#class/government-year",
+            "@id": "additions-to-the-housing-stock.csv#component/lower-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
             ]
         },
         {
             "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -743,11 +720,34 @@
             ]
         },
         {
+            "@id": "additions-to-the-housing-stock.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "additions-to-the-housing-stock.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
             "@id": "additions-to-the-housing-stock.csv#attribute/lower-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -800,8 +800,8 @@
             "@id": "additions-to-the-housing-stock.csv#unit/per-1-000",
             "@type": [
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://qudt.org/schema/qudt/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

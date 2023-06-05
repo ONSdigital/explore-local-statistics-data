@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Anxiety
           - Label: Anxiety
-          - Issued: 2023-06-05T13:22:47.007224
-          - Modified: 2023-06-05T13:22:47.007224
+          - Issued: 2023-05-17T15:13:30.109915
+          - Modified: 2023-05-17T15:13:30.109915
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- counties
 		-- annual-population-survey
-		-- local-authorities
-		-- regions
-		-- quality-of-life
 		-- subnational
+		-- counties
+		-- quality-of-life
+		-- regions
 		-- personal-wellbeing
+		-- local-authorities
           - Contact Point: None
           - Identifier: Anxiety
           - Comment: The average rating of those that felt anxious yesterday for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.

@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Apprenticeships achievements
           - Label: ONS Geography Code List for Apprenticeships achievements
-          - Issued: 2023-06-05T13:22:57.274980
-          - Modified: 2023-06-05T13:22:57.274980
+          - Issued: 2023-06-05T14:02:09.355534
+          - Modified: 2023-06-05T14:02:09.355534
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

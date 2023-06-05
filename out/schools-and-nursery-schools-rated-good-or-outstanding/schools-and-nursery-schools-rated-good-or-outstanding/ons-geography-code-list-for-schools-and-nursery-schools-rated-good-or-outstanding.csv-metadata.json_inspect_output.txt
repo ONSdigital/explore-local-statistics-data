@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Schools and nursery schools rated good or outstanding
           - Label: ONS Geography Code List for Schools and nursery schools rated good or outstanding
-          - Issued: 2023-06-05T13:28:31.092076
-          - Modified: 2023-06-05T13:28:31.092076
+          - Issued: 2023-06-05T14:10:03.033178
+          - Modified: 2023-06-05T14:10:03.033178
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

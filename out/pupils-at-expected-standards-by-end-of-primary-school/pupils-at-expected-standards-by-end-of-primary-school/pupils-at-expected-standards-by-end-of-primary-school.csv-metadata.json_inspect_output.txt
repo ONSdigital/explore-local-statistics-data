@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Pupils at expected standards by end of primary school
           - Label: Pupils at expected standards by end of primary school
-          - Issued: 2023-06-05T13:28:22.405743
-          - Modified: 2023-06-05T13:28:22.405743
+          - Issued: 2023-03-31T12:15:13.263841
+          - Modified: 2023-03-31T12:15:13.263841
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
+		-- county
+		-- key-stage-2-attainment
+		-- state-funded-school
 		-- maths
 		-- writing
 		-- region
 		-- reading
-		-- county
-		-- state-funded-school
-		-- key-stage-2-attainment
 		-- subnational
           - Contact Point: None
           - Identifier: Pupils at expected standards by end of primary school

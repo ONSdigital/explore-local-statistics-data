@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for additions-to-the-housing-stock.csv
           - Label: ONS Geography Code List for additions-to-the-housing-stock.csv
-          - Issued: 2023-06-05T13:22:02.673777
-          - Modified: 2023-06-05T13:22:02.673777
+          - Issued: 2023-06-05T14:00:58.913140
+          - Modified: 2023-06-05T14:00:58.913140
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
