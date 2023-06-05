@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Aged 16 to 64 years level 3 or above qualifications
           - Label: Aged 16 to 64 years level 3 or above qualifications
-          - Issued: 2023-05-23T10:17:47.964593
-          - Modified: 2023-05-23T10:17:47.964593
+          - Issued: 2023-06-05T13:22:14.090604
+          - Modified: 2023-06-05T13:22:14.090604
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- region
-		-- local-authority
 		-- annual-population-survey
-		-- subnational
 		-- national-vocational-qualification
+		-- local-authority
+		-- region
+		-- subnational
           - Contact Point: None
           - Identifier: Aged 16 to 64 years level 3 or above qualifications
           - Comment: Percentage of the population aged 16 – 64 with National Vocational Qualification (NVQ) level 3+ qualifications, Great Britain (Northern Ireland national figure included), 2004 to 2021

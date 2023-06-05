@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Cigarette smokers
           - Label: Cigarette smokers
-          - Issued: 2023-05-17T12:27:00.406877
-          - Modified: 2023-05-17T12:27:00.406877
+          - Issued: 2023-06-05T13:24:07.085352
+          - Modified: 2023-06-05T13:24:07.085352
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
+		-- annual-population-survey
 		-- region
 		-- subnational
-		-- annual-population-survey
-		-- local-authority
 		-- smoking-habits
+		-- local-authority
           - Contact Point: None
           - Identifier: Cigarette smokers
           - Comment: Percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), United Kingdom, 2012 - 2021.

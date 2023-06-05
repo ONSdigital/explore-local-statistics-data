@@ -1,29 +1,30 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Additions to the housing stock
-        - Label: Additions to the housing stock
-        - Issued: 2023-05-05T08:59:11.430214
-        - Modified: 2023-05-05T08:59:11.430214
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Additions to the housing stock
+          - Label: Additions to the housing stock
+          - Issued: 2023-06-05T13:22:02.689587
+          - Modified: 2023-06-05T13:22:02.689587
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/housing
-        - Keywords: 
+          - Keywords: 
+		-- county
+		-- subnational
+		-- dwelling
 		-- demolition
 		-- local-authority
-		-- county
-		-- dwelling
-		-- new-building
 		-- conversion
-		-- subnational
-        - Contact Point: None
-        - Identifier: Additions to the housing stock
-        - Comment: Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, England, financial year 2021 - 2022.
-        - Description: This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in England, for financial year 2021 - 2022.
+		-- new-building
+          - Contact Point: None
+          - Identifier: Additions to the housing stock
+          - Comment: Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, England, financial year 2021 - 2022.
+          - Description: This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in England, for financial year 2021 - 2022.
 		
 		### Coverage 
 		
@@ -59,7 +60,7 @@
                           Indicator   Suppressed     False                                                                      None                           
                             Mission   Suppressed     False                                                                      None                           
                            Category   Suppressed     False                                                                      None                           
-                             Period    Dimension      True               additions-to-the-housing-stock.csv#dimension/goverment-year                      Value
+                             Period    Dimension      True              additions-to-the-housing-stock.csv#dimension/government-year                      Value
                               Value Observations     False additions-to-the-housing-stock.csv#measure/net-additions-to-housing-stock                      Value
                             Measure   Suppressed     False                                                                      None                           
                                Unit   Suppressed     False                                                                      None                           
@@ -84,7 +85,7 @@
         - Number of Code Lists: 2
         - Code Lists:
                                                                    Code List                                                Code List Label Columns Used In
-                                                goverment-year.csv#code-list                                                 Goverment Year          Period
+                                               government-year.csv#code-list                                                government Year          Period
 ons-geography-code-list-for-additions-to-the-housing-stock-csv.csv#code-list ONS Geography Code List for additions-to-the-housing-stock.csv          AREACD
 
 - The data cube has the following dataset information:

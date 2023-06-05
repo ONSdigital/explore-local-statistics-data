@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Life satisfaction
           - Label: Life satisfaction
-          - Issued: 2023-05-18T10:23:14.091691
-          - Modified: 2023-05-18T10:23:14.091691
+          - Issued: 2023-06-05T13:26:21.508947
+          - Modified: 2023-06-05T13:26:21.508947
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- quality-of-life
-		-- local-authorities
 		-- personal-wellbeing
-		-- annual-population-survey
-		-- subnational
 		-- counties
+		-- local-authorities
 		-- regions
+		-- subnational
+		-- annual-population-survey
+		-- quality-of-life
           - Contact Point: None
           - Identifier: Life satisfaction
           - Comment: The average rating of those that feel satisfied about their lives for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.  
@@ -61,7 +61,7 @@
                           Indicator   Suppressed     False                                                                             None                           
                             Mission   Suppressed     False                                                                             None                           
                            Category   Suppressed     False                                                                             None                           
-                             Period    Dimension      True                                   life-satisfaction.csv#dimension/goverment-year                      Value
+                             Period    Dimension      True                                  life-satisfaction.csv#dimension/government-year                      Value
                               Value Observations     False life-satisfaction.csv#measure/mean-adults-self-reported-life-satisfication-score                      Value
                             Measure   Suppressed     False                                                                             None                           
                                Unit   Suppressed     False                                                                             None                           
@@ -86,7 +86,7 @@
         - Number of Code Lists: 2
         - Code Lists:
                                                   Code List                               Code List Label Columns Used In
-                               goverment-year.csv#code-list                                Goverment Year          Period
+                              government-year.csv#code-list                               government Year          Period
 ons-geography-code-list-for-life-satisfaction.csv#code-list ONS Geography Code List for Life satisfaction          AREACD
 
 - The data cube has the following dataset information:

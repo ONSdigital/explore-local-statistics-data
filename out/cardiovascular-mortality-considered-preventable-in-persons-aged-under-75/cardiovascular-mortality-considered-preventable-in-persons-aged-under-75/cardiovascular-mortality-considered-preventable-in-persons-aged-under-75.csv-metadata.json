@@ -199,10 +199,129 @@
     ],
     "rdfs:seeAlso": [
         {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Persons aged under 75 with cardiovascular mortality considered preventable"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
             "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/statistical-geography",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
             ]
         },
         {
@@ -234,13 +353,40 @@
             ]
         },
         {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/mixed-time-period",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
             "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataSet",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -261,7 +407,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:26:10.462689"
+                    "@value": "2023-06-05T13:23:25.892712"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -272,7 +418,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:26:10.462689"
+                    "@value": "2023-06-05T13:23:25.892712"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -306,7 +452,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "heart-disease"
+                    "@value": "premature-death"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
                 },
                 {
                     "@language": "en",
@@ -318,15 +468,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "county"
+                    "@value": "heart-disease"
                 },
                 {
                     "@language": "en",
                     "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "premature-death"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -341,30 +487,81 @@
             ]
         },
         {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable",
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#slice/cross-measures",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/statistical-geography"
+                },
                 {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
                 }
             ]
         },
         {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/measure-type",
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/mixed-time-period",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -372,17 +569,17 @@
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 2
                 }
             ]
         },
@@ -406,117 +603,6 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "mixed-time-period.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Dimension consisting of mixed time periods, e.g. 2020-Q4 (quarter), 2021-06 (month), 2019-08-06 (day)"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Mixed Time Period"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/mixed-time-period"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
                 }
             ]
         },
@@ -549,190 +635,39 @@
             ]
         },
         {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/mixed-time-period",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#structure",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/unit"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/measure-type"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/observation-status"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/mixed-time-period"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/upper-confidence-interval",
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "mixed-time-period.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Dimension consisting of mixed time periods, e.g. 2020-Q4 (quarter), 2021-06 (month), 2019-08-06 (day)"
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Mixed Time Period"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/mixed-time-period",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Persons aged under 75 with cardiovascular mortality considered preventable"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#class/mixed-time-period"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
-                },
-                {
-                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
@@ -761,6 +696,71 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/mixed-time-period"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/measure-type"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/unit"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/observation-status"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#component/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#dimension/mixed-time-period"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75.csv#slice/cross-measures"
                 }
             ]
         },

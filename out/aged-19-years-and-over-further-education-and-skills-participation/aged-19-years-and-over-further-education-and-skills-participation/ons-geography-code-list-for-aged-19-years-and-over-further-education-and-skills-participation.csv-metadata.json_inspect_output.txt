@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Aged 19 years and over further education and skills participation
           - Label: ONS Geography Code List for Aged 19 years and over further education and skills participation
-          - Issued: 2023-05-17T12:25:15.981087
-          - Modified: 2023-05-17T12:25:15.981087
+          - Issued: 2023-06-05T13:22:37.007898
+          - Modified: 2023-06-05T13:22:37.007898
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

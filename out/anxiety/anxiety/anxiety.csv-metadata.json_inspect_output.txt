@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Anxiety
           - Label: Anxiety
-          - Issued: 2023-05-17T15:13:30.109915
-          - Modified: 2023-05-17T15:13:30.109915
+          - Issued: 2023-06-05T13:22:47.007224
+          - Modified: 2023-06-05T13:22:47.007224
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- personal-wellbeing
+		-- counties
 		-- annual-population-survey
 		-- local-authorities
-		-- counties
-		-- subnational
 		-- regions
 		-- quality-of-life
+		-- subnational
+		-- personal-wellbeing
           - Contact Point: None
           - Identifier: Anxiety
           - Comment: The average rating of those that felt anxious yesterday for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.
@@ -61,7 +61,7 @@
                           Indicator   Suppressed     False                                                         None                           
                             Mission   Suppressed     False                                                         None                           
                            Category   Suppressed     False                                                         None                           
-                             Period    Dimension      True                         anxiety.csv#dimension/goverment-year                      Value
+                             Period    Dimension      True                        anxiety.csv#dimension/government-year                      Value
                               Value Observations     False anxiety.csv#measure/mean-adults-self-reporting-anxiety-score                      Value
                             Measure   Suppressed     False                                                         None                           
                                Unit   Suppressed     False                                                         None                           
@@ -86,7 +86,7 @@
         - Number of Code Lists: 2
         - Code Lists:
                                         Code List                     Code List Label Columns Used In
-                     goverment-year.csv#code-list                      Goverment Year          Period
+                    government-year.csv#code-list                     government Year          Period
 ons-geography-code-list-for-anxiety.csv#code-list ONS Geography Code List for Anxiety          AREACD
 
 - The data cube has the following dataset information:

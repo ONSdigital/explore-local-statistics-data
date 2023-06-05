@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: GCSEs (and equivalent) in English and maths by age 19
           - Label: GCSEs (and equivalent) in English and maths by age 19
-          - Issued: 2023-05-17T12:40:52.061692
-          - Modified: 2023-05-17T12:40:52.061692
+          - Issued: 2023-06-05T13:25:04.667080
+          - Modified: 2023-06-05T13:25:04.667080
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- county
 		-- region
 		-- maths
-		-- English
-		-- local-authority
 		-- level-2-attainment
+		-- English
+		-- county
+		-- local-authority
 		-- subnational
           - Contact Point: None
           - Identifier: GCSEs (and equivalent) in English and maths by age 19

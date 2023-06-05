@@ -1,28 +1,29 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Gross disposable household income per head
-        - Label: Gross disposable household income per head
-        - Issued: 2023-05-11T11:52:25.349356
-        - Modified: 2023-05-11T11:52:25.349356
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Gross disposable household income per head
+          - Label: Gross disposable household income per head
+          - Issued: 2023-06-05T13:25:21.848961
+          - Modified: 2023-06-05T13:25:21.848961
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/economy/regionalaccounts
-        - Keywords: 
-		-- region
+          - Keywords: 
 		-- money
+		-- saving
 		-- local-authority
+		-- region
 		-- subnational
 		-- spending
-		-- saving
-        - Contact Point: None
-        - Identifier: Gross disposable household income per head
-        - Comment: Estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, UK, 1997-2020.
-        - Description: This dataset shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in the UK, for 1997-2020.
+          - Contact Point: None
+          - Identifier: Gross disposable household income per head
+          - Comment: Estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, UK, 1997-2020.
+          - Description: This dataset shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in the UK, for 1997-2020.
 		
 		### Coverage 
 		

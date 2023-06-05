@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Aged 19 years and over further education and skills learner achievements
           - Label: Aged 19 years and over further education and skills learner achievements
-          - Issued: 2023-05-17T12:25:02.243397
-          - Modified: 2023-05-17T12:25:02.243397
+          - Issued: 2023-06-05T13:22:27.013930
+          - Modified: 2023-06-05T13:22:27.013930
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
+		-- county
 		-- apprenticeship
 		-- community-learning
-		-- subnational
 		-- education-and-training
-		-- county
+		-- subnational
           - Contact Point: None
           - Identifier: Aged 19 years and over further education and skills learner achievements
           - Comment: Count of learners achieving a funded further education and skills learning aim, with the exception of community learning, England, academic years 2016/17 to 2021/22

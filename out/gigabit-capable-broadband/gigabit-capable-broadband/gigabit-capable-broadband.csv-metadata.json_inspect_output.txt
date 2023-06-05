@@ -1,26 +1,27 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Gigabit capable broadband
-        - Label: Gigabit capable broadband
-        - Issued: 2023-05-11T11:48:54.239589
-        - Modified: 2023-05-11T11:48:54.239589
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/ofcom
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Gigabit capable broadband
+          - Label: Gigabit capable broadband
+          - Issued: 2023-06-05T13:25:13.482379
+          - Modified: 2023-06-05T13:25:13.482379
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/ofcom
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
-        - Keywords: 
-		-- connectivity
-		-- broadband-mobile-coverage
+          - Keywords: 
 		-- subnational
+		-- connectivity
 		-- local-authority
-        - Contact Point: None
-        - Identifier: Gigabit capable broadband
-        - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, September 2022.
-        - Description: This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for September 2022.
+		-- broadband-mobile-coverage
+          - Contact Point: None
+          - Identifier: Gigabit capable broadband
+          - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, September 2022.
+          - Description: This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for September 2022.
 		
 		### Coverage 
 		

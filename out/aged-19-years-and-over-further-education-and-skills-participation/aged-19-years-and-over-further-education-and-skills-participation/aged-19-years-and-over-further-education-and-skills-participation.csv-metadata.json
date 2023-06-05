@@ -199,108 +199,25 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#class/statistical-geography",
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/aged-19-years-and-over-further-education-and-skills-participation",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/unit",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@value": true
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
+                    "@value": 5
                 }
             ]
         },
@@ -308,8 +225,8 @@
             "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/upper-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -333,172 +250,13 @@
             ]
         },
         {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/measure-type"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/unit"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/observation-status"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/aged-19-years-and-over-further-education-and-skills-participation"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/aged-19-years-and-over-further-education-and-skills-participation",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
             "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dataset",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
                 "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#DataSet"
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -519,7 +277,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:25:15.996450"
+                    "@value": "2023-06-05T13:22:37.024877"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -530,7 +288,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:25:15.996450"
+                    "@value": "2023-06-05T13:22:37.024877"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -568,11 +326,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "education-and-training"
+                    "@value": "community-learning"
                 },
                 {
                     "@language": "en",
-                    "@value": "community-learning"
+                    "@value": "local-authority"
                 },
                 {
                     "@language": "en",
@@ -580,7 +338,7 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "local-authority"
+                    "@value": "education-and-training"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -595,10 +353,59 @@
             ]
         },
         {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#class/gregorian-time-interval",
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#slice/cross-measures",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/gregorian-time-interval"
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
             ]
         },
         {
@@ -622,13 +429,176 @@
             ]
         },
         {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/gregorian-time-interval",
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/lower-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography",
+            "@type": [
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-aged-19-years-and-over-further-education-and-skills-participation.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -653,65 +623,11 @@
             ]
         },
         {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-aged-19-years-and-over-further-education-and-skills-participation.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
             "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation",
             "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -732,11 +648,95 @@
             ]
         },
         {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/observation-status"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/aged-19-years-and-over-further-education-and-skills-participation"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/unit"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/measure-type"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#measure/aged-19-years-and-over-further-education-and-skills-participation"
+                },
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
             "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#component/gregorian-time-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -792,8 +792,8 @@
             "@id": "aged-19-years-and-over-further-education-and-skills-participation.csv#unit/per-100-000",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

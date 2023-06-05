@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Cancer diagnosis at stage 1 and 2
           - Label: Cancer diagnosis at stage 1 and 2
-          - Issued: 2023-05-17T12:25:53.759812
-          - Modified: 2023-05-17T12:25:53.759812
+          - Issued: 2023-06-05T13:23:15.355347
+          - Modified: 2023-06-05T13:23:15.355347
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- region
-		-- county
-		-- local-authority
-		-- subnational
 		-- tumor
+		-- region
+		-- subnational
+		-- local-authority
+		-- county
           - Contact Point: None
           - Identifier: Cancer diagnosis at stage 1 and 2
           - Comment: New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, England, 2013 to 2020

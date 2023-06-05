@@ -1,27 +1,28 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Persistent absences for all pupils
-        - Label: Persistent absences for all pupils
-        - Issued: 2023-05-05T09:06:00.972017
-        - Modified: 2023-05-05T09:06:00.972017
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/department-for-education
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Persistent absences for all pupils
+          - Label: Persistent absences for all pupils
+          - Issued: 2023-06-05T13:27:30.764273
+          - Modified: 2023-06-05T13:27:30.764273
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/department-for-education
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
-        - Keywords: 
-		-- subnational
+          - Keywords: 
+		-- region
 		-- state-funded-school
 		-- county
-		-- region
 		-- children-out-of-school
-        - Contact Point: None
-        - Identifier: Persistent absences for all pupils
-        - Comment: Percentage of pupils in state-funded primary, state funded secondary and special schools that were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded schools), academic years 2008/09 - 2021/22.
-        - Description: This dataset shows the percentage of pupils in state-funded primary, state funded secondary and special schools that were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded schools), for academic years 2008/09 - 2021/22. 
+		-- subnational
+          - Contact Point: None
+          - Identifier: Persistent absences for all pupils
+          - Comment: Percentage of pupils in state-funded primary, state funded secondary and special schools that were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded schools), academic years 2008/09 - 2021/22.
+          - Description: This dataset shows the percentage of pupils in state-funded primary, state funded secondary and special schools that were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded schools), for academic years 2008/09 - 2021/22. 
 		
 		### Coverage 
 		

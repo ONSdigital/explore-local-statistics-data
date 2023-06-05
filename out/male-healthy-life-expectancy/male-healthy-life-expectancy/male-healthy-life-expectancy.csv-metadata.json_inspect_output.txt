@@ -1,28 +1,29 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Male healthy life expectancy
-        - Label: Male healthy life expectancy
-        - Issued: 2023-05-11T11:59:21.947197
-        - Modified: 2023-05-11T11:59:21.947197
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Male healthy life expectancy
+          - Label: Male healthy life expectancy
+          - Issued: 2023-06-05T13:26:31.295470
+          - Modified: 2023-06-05T13:26:31.295470
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
-        - Keywords: 
+          - Keywords: 
+		-- good-health
+		-- annual-population-survey
 		-- subnational
 		-- men
-		-- good-health
-		-- region
-		-- annual-population-survey
 		-- county
-        - Contact Point: None
-        - Identifier: Male healthy life expectancy
-        - Comment: Average years expected to be lived in good health for males born during the reference period, United Kingdom, from calendar years 2011 - 2013 to 2018 - 2020
-        - Description: This dataset shows the average years expected to be lived in good health for males born during the reference period, in the United Kingdom, for calendar years 2011 - 2013 to 2018 - 2020.
+		-- region
+          - Contact Point: None
+          - Identifier: Male healthy life expectancy
+          - Comment: Average years expected to be lived in good health for males born during the reference period, United Kingdom, from calendar years 2011 - 2013 to 2018 - 2020
+          - Description: This dataset shows the average years expected to be lived in good health for males born during the reference period, in the United Kingdom, for calendar years 2011 - 2013 to 2018 - 2020.
 		
 		### Coverage 
 		

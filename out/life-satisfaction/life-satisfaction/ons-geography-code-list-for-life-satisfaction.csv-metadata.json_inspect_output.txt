@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Life satisfaction
           - Label: ONS Geography Code List for Life satisfaction
-          - Issued: 2023-05-18T10:23:14.076271
-          - Modified: 2023-05-18T10:23:14.076271
+          - Issued: 2023-06-05T13:26:21.493400
+          - Modified: 2023-06-05T13:26:21.493400
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

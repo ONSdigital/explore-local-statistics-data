@@ -199,151 +199,60 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#structure",
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/measure-type"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/unit"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/observation-status"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Travel time to employment centre with 500 to 4999 jobs by driving"
+                    "@value": "Upper Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#travel-time"
-                }
             ]
         },
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/statistical-geography",
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/measure-type",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
+                    "@value": 3
                 }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/unit",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
@@ -368,22 +277,168 @@
             ]
         },
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#csvcubed-build-activity",
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/observation-status"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/measure-type"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/year"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/unit"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
                 }
             ]
         },
         {
             "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
@@ -408,109 +463,64 @@
             ]
         },
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#slice/cross-measures",
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
-                },
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography",
-            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "ons-geography-code-list-for-drive-to-employment-centre-with-500-to-4999-jobs.csv#code-list"
+                    "@id": "year.csv#code-list"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Statistical Geography"
+                    "@value": "Year"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/statistical-geography"
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/year",
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 5
                 }
             ]
         },
         {
             "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/observation-status",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
@@ -535,99 +545,13 @@
             ]
         },
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
             "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#DataSet"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -648,7 +572,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-18T15:45:26.752950"
+                    "@value": "2023-06-05T13:24:26.209633"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -659,7 +583,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-18T15:45:26.752950"
+                    "@value": "2023-06-05T13:24:26.209633"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -697,11 +621,7 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "travel-to-work"
-                },
-                {
-                    "@language": "en",
-                    "@value": "journey-time"
+                    "@value": "subnational"
                 },
                 {
                     "@language": "en",
@@ -709,7 +629,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "subnational"
+                    "@value": "journey-time"
+                },
+                {
+                    "@language": "en",
+                    "@value": "travel-to-work"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -724,33 +648,109 @@
             ]
         },
         {
-            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year",
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#slice/cross-measures",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/year"
+                },
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#dimension/statistical-geography",
+            "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "year.csv#code-list"
+                    "@id": "ons-geography-code-list-for-drive-to-employment-centre-with-500-to-4999-jobs.csv#code-list"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Year"
+                    "@value": "Statistical Geography"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/year"
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#measure/travel-time-to-employment-centre-with-500-to-4999-jobs-by-driving",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Travel time to employment centre with 500 to 4999 jobs by driving"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                    "@id": "https://purl.org/csv-cubed/resources/measures#travel-time"
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "drive-to-employment-centre-with-500-to-4999-jobs.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         },

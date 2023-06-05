@@ -199,219 +199,22 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#csvcubed-build-activity",
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gcses-and-equivalent-in-english-and-maths-by-age-19",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/unit",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "GCSEs (and equivalent) in English and maths by age 19"
+                    "@value": "Upper Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
                 }
             ]
         },
@@ -419,9 +222,9 @@
             "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -447,13 +250,174 @@
             ]
         },
         {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gcses-and-equivalent-in-english-and-maths-by-age-19",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
             "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dataset",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
                 "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://purl.org/linked-data/cube#Attachable"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -474,7 +438,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:40:52.061692"
+                    "@value": "2023-06-05T13:25:04.667080"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -485,7 +449,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:40:52.061692"
+                    "@value": "2023-06-05T13:25:04.667080"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -519,6 +483,14 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "level-2-attainment"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
                     "@value": "county"
                 },
                 {
@@ -527,23 +499,15 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "English"
-                },
-                {
-                    "@language": "en",
-                    "@value": "level-2-attainment"
-                },
-                {
-                    "@language": "en",
-                    "@value": "maths"
-                },
-                {
-                    "@language": "en",
                     "@value": "local-authority"
                 },
                 {
                     "@language": "en",
-                    "@value": "region"
+                    "@value": "English"
+                },
+                {
+                    "@language": "en",
+                    "@value": "maths"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -558,39 +522,114 @@
             ]
         },
         {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "GCSEs (and equivalent) in English and maths by age 19"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
             "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#structure",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gcses-and-equivalent-in-english-and-maths-by-age-19"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/unit"
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/observation-status"
                 },
                 {
                     "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/upper-confidence-interval"
                 },
                 {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/observation-status"
-                },
-                {
                     "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/measure-type"
                 },
                 {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/lower-confidence-interval"
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gregorian-time-interval"
                 },
                 {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gregorian-time-interval"
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/unit"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/gcses-and-equivalent-in-english-and-maths-by-age-19"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/lower-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19"
+                },
                 {
                     "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 },
@@ -598,22 +637,7 @@
                     "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status"
                 },
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
                     "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#measure/gcses-and-equivalent-in-english-and-maths-by-age-19"
                 }
             ],
             "http://purl.org/linked-data/cube#sliceKey": [
@@ -623,58 +647,10 @@
             ]
         },
         {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
             "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/measure-type",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
@@ -694,32 +670,12 @@
             ]
         },
         {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
             "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -740,25 +696,69 @@
             ]
         },
         {
-            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/statistical-geography",
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#class/statistical-geography",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
+            "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#component/observation-status",
+            "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
+                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#dimension/statistical-geography"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
+                    "@value": 8
                 }
             ]
         },
@@ -799,9 +799,9 @@
         {
             "@id": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv#unit/percent",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Inward foreign direct investment (FDI)
           - Label: Inward foreign direct investment (FDI)
-          - Issued: 2023-05-23T13:05:45.899938
-          - Modified: 2023-05-23T13:05:45.899938
+          - Issued: 2023-06-05T13:26:12.933183
+          - Modified: 2023-06-05T13:26:12.933183
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/internationaltrade
           - Keywords: 
-		-- investment-flows
-		-- subnational
 		-- international-territorial-level
-		-- stocks
+		-- investment-flows
 		-- business-investment
+		-- subnational
+		-- stocks
           - Contact Point: None
           - Identifier: Inward foreign direct investment (FDI)
           - Comment: Total foreign FDI international investment position at end period (experimental statistics), Great Britain (Northern Ireland national figure included), 2015-2021.

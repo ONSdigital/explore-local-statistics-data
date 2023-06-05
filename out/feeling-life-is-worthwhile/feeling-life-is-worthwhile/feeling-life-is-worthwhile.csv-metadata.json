@@ -46,8 +46,8 @@
                     {
                         "titles": "Period",
                         "name": "period",
-                        "propertyUrl": "feeling-life-is-worthwhile.csv#dimension/goverment-year",
-                        "valueUrl": "goverment-year.csv#{+period}",
+                        "propertyUrl": "feeling-life-is-worthwhile.csv#dimension/government-year",
+                        "valueUrl": "government-year.csv#{+period}",
                         "required": true
                     },
                     {
@@ -145,8 +145,8 @@
                         "name": "virt_dim_value_period",
                         "virtual": true,
                         "aboutUrl": "feeling-life-is-worthwhile.csv#obs/{areacd},{period}@mean-adults-self-reported-feeling-that-life-is-worthwhile-score",
-                        "propertyUrl": "feeling-life-is-worthwhile.csv#dimension/goverment-year",
-                        "valueUrl": "goverment-year.csv#{+period}"
+                        "propertyUrl": "feeling-life-is-worthwhile.csv#dimension/government-year",
+                        "valueUrl": "government-year.csv#{+period}"
                     },
                     {
                         "name": "virt_obs_value_type",
@@ -174,7 +174,7 @@
                     {
                         "columnReference": "period",
                         "reference": {
-                            "resource": "goverment-year.csv",
+                            "resource": "government-year.csv",
                             "columnReference": "uri_identifier"
                         }
                     }
@@ -192,127 +192,20 @@
             "suppressOutput": true
         },
         {
-            "url": "goverment-year.csv",
-            "tableSchema": "goverment-year.table.json",
+            "url": "government-year.csv",
+            "tableSchema": "government-year.table.json",
             "suppressOutput": true
         }
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code-list-for-feeling-life-is-worthwhile.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#class/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#component/goverment-year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/goverment-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/goverment-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#component/mean-adults-self-reported-feeling-that-life-is-worthwhile-score",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
             "@id": "feeling-life-is-worthwhile.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://purl.org/linked-data/cube#Attachable"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -333,7 +226,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-18T09:03:09.040086"
+                    "@value": "2023-06-05T13:24:46.236822"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -344,7 +237,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-18T09:03:09.040086"
+                    "@value": "2023-06-05T13:24:46.236822"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -378,18 +271,6 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "regions"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authorities"
-                },
-                {
-                    "@language": "en",
                     "@value": "counties"
                 },
                 {
@@ -398,11 +279,23 @@
                 },
                 {
                     "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
                     "@value": "personal-wellbeing"
                 },
                 {
                     "@language": "en",
+                    "@value": "regions"
+                },
+                {
+                    "@language": "en",
                     "@value": "quality-of-life"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local-authorities"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -417,11 +310,46 @@
             ]
         },
         {
+            "@id": "feeling-life-is-worthwhile.csv#component/mean-adults-self-reported-feeling-that-life-is-worthwhile-score",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
+                }
+            ]
+        },
+        {
             "@id": "feeling-life-is-worthwhile.csv#component/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -445,139 +373,34 @@
             ]
         },
         {
-            "@id": "feeling-life-is-worthwhile.csv#structure",
+            "@id": "feeling-life-is-worthwhile.csv#component/statistical-geography",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/measure-type"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/observation-status"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/goverment-year"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#component/unit"
-                }
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/goverment-year"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "feeling-life-is-worthwhile.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 6
+                    "@value": 1
                 }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#class/goverment-year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
             "@id": "feeling-life-is-worthwhile.csv#component/unit",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -601,12 +424,19 @@
             ]
         },
         {
+            "@id": "feeling-life-is-worthwhile.csv#class/government-year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
             "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score",
             "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -626,79 +456,12 @@
             ]
         },
         {
-            "@id": "feeling-life-is-worthwhile.csv#dimension/goverment-year",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "goverment-year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Goverment Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#class/goverment-year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/goverment-year"
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
             "@id": "feeling-life-is-worthwhile.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -713,12 +476,279 @@
             ]
         },
         {
+            "@id": "feeling-life-is-worthwhile.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/unit"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/observation-status"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/government-year"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#component/measure-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/government-year"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#measure/mean-adults-self-reported-feeling-that-life-is-worthwhile-score"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#component/government-year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/government-year"
+                },
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code-list-for-feeling-life-is-worthwhile.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#class/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#dimension/government-year",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "government-year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "government Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#class/government-year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "feeling-life-is-worthwhile.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
             "@id": "feeling-life-is-worthwhile.csv#attribute/observation-status",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -733,40 +763,10 @@
             ]
         },
         {
-            "@id": "feeling-life-is-worthwhile.csv#component/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "feeling-life-is-worthwhile.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "feeling-life-is-worthwhile.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "feeling-life-is-worthwhile.csv#dependency/ons-geography-code-list-for-feeling-life-is-worthwhile",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -780,28 +780,28 @@
             ]
         },
         {
-            "@id": "feeling-life-is-worthwhile.csv#dependency/goverment-year",
+            "@id": "feeling-life-is-worthwhile.csv#dependency/government-year",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
-                    "@id": "./goverment-year.csv-metadata.json"
+                    "@id": "./government-year.csv-metadata.json"
                 }
             ],
             "http://rdfs.org/ns/void#uriSpace": [
                 {
-                    "@value": "goverment-year.csv#"
+                    "@value": "government-year.csv#"
                 }
             ]
         },
         {
             "@id": "feeling-life-is-worthwhile.csv#unit/score",
             "@type": [
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

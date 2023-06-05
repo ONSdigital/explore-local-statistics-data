@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Gross Value Added per hour worked
           - Label: Gross Value Added per hour worked
-          - Issued: 2023-05-19T09:29:33.324488
-          - Modified: 2023-05-19T09:29:33.324488
+          - Issued: 2023-06-05T13:25:44.303938
+          - Modified: 2023-06-05T13:25:44.303938
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,9 +15,9 @@
 		-- https://www.ons.gov.uk/economy/economicoutputandproductivity
           - Keywords: 
 		-- subregional-productivity
-		-- region
-		-- local-authority
 		-- subnational
+		-- local-authority
+		-- region
 		-- international-territorial-level
           - Contact Point: None
           - Identifier: Gross Value Added per hour worked

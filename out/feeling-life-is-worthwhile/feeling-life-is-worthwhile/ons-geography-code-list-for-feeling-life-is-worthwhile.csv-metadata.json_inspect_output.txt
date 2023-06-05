@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Feeling life is worthwhile
           - Label: ONS Geography Code List for Feeling life is worthwhile
-          - Issued: 2023-05-18T09:03:09.019445
-          - Modified: 2023-05-18T09:03:09.019445
+          - Issued: 2023-06-05T13:24:46.221016
+          - Modified: 2023-06-05T13:24:46.221016
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

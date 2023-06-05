@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: ONS Geography Code List for additions-to-the-housing-stock.csv
-        - Label: ONS Geography Code List for additions-to-the-housing-stock.csv
-        - Issued: 2023-05-05T08:59:11.412822
-        - Modified: 2023-05-05T08:59:11.412822
-        - License: https://creativecommons.org/licenses/by/4.0/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: ONS Geography Code List for additions-to-the-housing-stock.csv
-        - Comment: List of ONS geographical codes
-        - Description: Automated non-hierarchical geography code list
+
+        - The code list has the following catalog metadata:
+          - Title: ONS Geography Code List for additions-to-the-housing-stock.csv
+          - Label: ONS Geography Code List for additions-to-the-housing-stock.csv
+          - Issued: 2023-06-05T13:22:02.673777
+          - Modified: 2023-06-05T13:22:02.673777
+          - License: https://creativecommons.org/licenses/by/4.0/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: ONS Geography Code List for additions-to-the-housing-stock.csv
+          - Comment: List of ONS geographical codes
+          - Description: Automated non-hierarchical geography code list
         
 
 - The code list has the following dataset information:

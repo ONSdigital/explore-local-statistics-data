@@ -199,56 +199,102 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "gregorian-time-interval.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Gregorian Time Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#class/gregorian-time-interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#component/gregorian-time-interval",
+            "@id": "male-healthy-life-expectancy.csv#component/observation-status",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                    "@id": "male-healthy-life-expectancy.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "male-healthy-life-expectancy.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "male-healthy-life-expectancy.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/measure-type"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/male-healthy-life-expectancy"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/observation-status"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#component/unit"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#measure/male-healthy-life-expectancy"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#slice/cross-measures"
                 }
             ]
         },
@@ -278,6 +324,37 @@
             ]
         },
         {
+            "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "gregorian-time-interval.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Gregorian Time Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#class/gregorian-time-interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
             "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -298,20 +375,13 @@
             ]
         },
         {
-            "@id": "male-healthy-life-expectancy.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -331,48 +401,25 @@
             ]
         },
         {
-            "@id": "male-healthy-life-expectancy.csv#component/male-healthy-life-expectancy",
+            "@id": "male-healthy-life-expectancy.csv#component/statistical-geography",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "male-healthy-life-expectancy.csv#measure/male-healthy-life-expectancy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#measure/male-healthy-life-expectancy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 3
+                    "@value": 1
                 }
             ]
         },
@@ -397,46 +444,25 @@
             ]
         },
         {
-            "@id": "male-healthy-life-expectancy.csv#component/unit",
+            "@id": "male-healthy-life-expectancy.csv#component/gregorian-time-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
-                },
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
+                    "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
                 }
             ]
         },
@@ -461,6 +487,41 @@
             ]
         },
         {
+            "@id": "male-healthy-life-expectancy.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "male-healthy-life-expectancy.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
             "@id": "male-healthy-life-expectancy.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -468,48 +529,136 @@
             ],
             "http://www.w3.org/ns/prov#used": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.1"
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         },
         {
-            "@id": "male-healthy-life-expectancy.csv#component/statistical-geography",
+            "@id": "male-healthy-life-expectancy.csv#component/male-healthy-life-expectancy",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
+                    "@id": "male-healthy-life-expectancy.csv#measure/male-healthy-life-expectancy"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
+                    "@id": "male-healthy-life-expectancy.csv#measure/male-healthy-life-expectancy"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
+                    "@value": 5
                 }
             ]
         },
         {
-            "@id": "male-healthy-life-expectancy.csv#class/statistical-geography",
+            "@id": "male-healthy-life-expectancy.csv#component/lower-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "male-healthy-life-expectancy.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "male-healthy-life-expectancy.csv#slice/cross-measures",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
+                }
+            ]
+        },
+        {
+            "@id": "male-healthy-life-expectancy.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "male-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
             ]
         },
         {
             "@id": "male-healthy-life-expectancy.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#DataSet",
                 "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -530,7 +679,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-11T11:59:21.947197"
+                    "@value": "2023-06-05T13:26:31.295470"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -541,7 +690,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-11T11:59:21.947197"
+                    "@value": "2023-06-05T13:26:31.295470"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -575,6 +724,14 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "good-health"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
                     "@value": "men"
                 },
                 {
@@ -583,15 +740,7 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "good-health"
-                },
-                {
-                    "@language": "en",
                     "@value": "county"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
                 },
                 {
                     "@language": "en",
@@ -606,155 +755,6 @@
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
                     "@id": "male-healthy-life-expectancy.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#structure",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/male-healthy-life-expectancy"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/observation-status"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/measure-type"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/unit"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#component/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#measure/male-healthy-life-expectancy"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "male-healthy-life-expectancy.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "male-healthy-life-expectancy.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
                 }
             ]
         },
@@ -796,8 +796,8 @@
             "@id": "male-healthy-life-expectancy.csv#unit/years",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://qudt.org/schema/qudt/Unit"
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

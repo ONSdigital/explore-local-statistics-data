@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Employment rate for 16 to 64 year olds
           - Label: Employment rate for 16 to 64 year olds
-          - Issued: 2023-05-19T09:29:16.693959
-          - Modified: 2023-05-19T09:29:16.693959
+          - Issued: 2023-06-05T13:24:35.197979
+          - Modified: 2023-06-05T13:24:35.197979
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,10 +15,10 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
 		-- region
-		-- labour-market
 		-- local-authority
 		-- subnational
 		-- paid-work
+		-- labour-market
 		-- annual-population-survey
           - Contact Point: None
           - Identifier: Employment rate for 16 to 64 year olds

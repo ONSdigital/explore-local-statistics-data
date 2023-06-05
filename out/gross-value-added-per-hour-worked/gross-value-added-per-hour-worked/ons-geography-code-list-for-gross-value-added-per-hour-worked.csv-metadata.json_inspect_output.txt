@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Gross Value Added per hour worked
           - Label: ONS Geography Code List for Gross Value Added per hour worked
-          - Issued: 2023-05-19T09:29:33.306744
-          - Modified: 2023-05-19T09:29:33.306744
+          - Issued: 2023-06-05T13:25:44.287869
+          - Modified: 2023-06-05T13:25:44.287869
           - License: https://creativecommons.org/licenses/by/4.0/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics

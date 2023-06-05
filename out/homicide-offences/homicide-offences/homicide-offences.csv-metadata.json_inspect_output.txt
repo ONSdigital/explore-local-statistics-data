@@ -1,26 +1,27 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Homicide Offences
-        - Label: Homicide Offences
-        - Issued: 2023-05-11T11:56:05.595427
-        - Modified: 2023-05-11T11:56:05.595427
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Homicide Offences
+          - Label: Homicide Offences
+          - Issued: 2023-06-05T13:26:04.910874
+          - Modified: 2023-06-05T13:26:04.910874
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice
-        - Keywords: 
-		-- police-force-area
-		-- region
-		-- subnational
+          - Keywords: 
 		-- home-office-homicide-index
-        - Contact Point: None
-        - Identifier: Homicide Offences
-        - Comment: Rate of Homicide offences per million population, England and Wales, 04/2019-03/2022.
-        - Description: This dataset shows the rate of Homicide offences per million population, in England and Wales, for period 04/2019-03/2022.
+		-- subnational
+		-- region
+		-- police-force-area
+          - Contact Point: None
+          - Identifier: Homicide Offences
+          - Comment: Rate of Homicide offences per million population, England and Wales, 04/2019-03/2022.
+          - Description: This dataset shows the rate of Homicide offences per million population, in England and Wales, for period 04/2019-03/2022.
 		
 		### Coverage 
 		

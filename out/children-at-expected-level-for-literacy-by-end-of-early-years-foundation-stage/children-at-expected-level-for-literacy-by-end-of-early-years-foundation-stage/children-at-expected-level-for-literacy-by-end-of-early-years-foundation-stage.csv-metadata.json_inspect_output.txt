@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Children at expected level for literacy by end of early years foundation stage
           - Label: Children at expected level for literacy by end of early years foundation stage
-          - Issued: 2023-06-05T13:10:51.047924
-          - Modified: 2023-06-05T13:10:51.047924
+          - Issued: 2023-06-05T13:23:49.805589
+          - Modified: 2023-06-05T13:23:49.805589
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- local-authority
-		-- county
-		-- state-funded-school
-		-- subnational
-		-- region
 		-- children-development
+		-- county
+		-- subnational
+		-- local-authority
+		-- state-funded-school
+		-- region
           - Contact Point: None
           - Identifier: Children at expected level for literacy by end of early years foundation stage
           - Comment: Early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all literacy learning goals, England (state-funded schools), academic year 2021/22.

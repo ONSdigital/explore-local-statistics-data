@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Happiness
           - Label: Happiness
-          - Issued: 2023-05-18T12:55:15.941398
-          - Modified: 2023-05-18T12:55:15.941398
+          - Issued: 2023-06-05T13:25:55.083723
+          - Modified: 2023-06-05T13:25:55.083723
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- annual-population-survey
-		-- counties
-		-- local-authorities
-		-- subnational
 		-- quality-of-life
-		-- personal-wellbeing
+		-- counties
+		-- subnational
+		-- local-authorities
+		-- annual-population-survey
 		-- regions
+		-- personal-wellbeing
           - Contact Point: None
           - Identifier: Happiness
           - Comment: The average rating of those that felt happy yesterday for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.
@@ -61,7 +61,7 @@
                           Indicator   Suppressed     False                                                                None                           
                             Mission   Suppressed     False                                                                None                           
                            Category   Suppressed     False                                                                None                           
-                             Period    Dimension      True                              happiness.csv#dimension/goverment-year                      Value
+                             Period    Dimension      True                             happiness.csv#dimension/government-year                      Value
                               Value Observations     False happiness.csv#measure/mean-adults-self-reported-feeling-happy-score                      Value
                             Measure   Suppressed     False                                                                None                           
                                Unit   Suppressed     False                                                                None                           
@@ -86,7 +86,7 @@
         - Number of Code Lists: 2
         - Code Lists:
                                           Code List                       Code List Label Columns Used In
-                       goverment-year.csv#code-list                        Goverment Year          Period
+                      government-year.csv#code-list                       government Year          Period
 ons-geography-code-list-for-happiness.csv#code-list ONS Geography Code List for Happiness          AREACD
 
 - The data cube has the following dataset information:

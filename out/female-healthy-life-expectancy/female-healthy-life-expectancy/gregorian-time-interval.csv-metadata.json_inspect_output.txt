@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: Gregorian Time Interval
-        - Label: Gregorian Time Interval
-        - Issued: 2023-05-11T11:44:11.028708
-        - Modified: 2023-05-11T11:44:11.028708
-        - License: None
-        - Creator: None
-        - Publisher: None
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: Gregorian Time Interval
-        - Comment: None
-        - Description: None
+
+        - The code list has the following catalog metadata:
+          - Title: Gregorian Time Interval
+          - Label: Gregorian Time Interval
+          - Issued: 2023-06-05T13:24:55.879415
+          - Modified: 2023-06-05T13:24:55.879415
+          - License: None
+          - Creator: None
+          - Publisher: None
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: Gregorian Time Interval
+          - Comment: None
+          - Description: None
         
 
 - The code list has the following dataset information:

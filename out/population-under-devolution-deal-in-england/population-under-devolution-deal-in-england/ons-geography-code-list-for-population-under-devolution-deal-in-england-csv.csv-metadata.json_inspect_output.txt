@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: ONS Geography Code List for population-under-devolution-deal-in-england.csv
-        - Label: ONS Geography Code List for population-under-devolution-deal-in-england.csv
-        - Issued: 2023-05-11T12:05:26.540560
-        - Modified: 2023-05-11T12:05:26.540560
-        - License: https://creativecommons.org/licenses/by/4.0/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: ONS Geography Code List for population-under-devolution-deal-in-england.csv
-        - Comment: List of ONS geographical codes
-        - Description: Automated non-hierarchical geography code list
+
+        - The code list has the following catalog metadata:
+          - Title: ONS Geography Code List for population-under-devolution-deal-in-england.csv
+          - Label: ONS Geography Code List for population-under-devolution-deal-in-england.csv
+          - Issued: 2023-06-05T13:28:01.650789
+          - Modified: 2023-06-05T13:28:01.650789
+          - License: https://creativecommons.org/licenses/by/4.0/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: ONS Geography Code List for population-under-devolution-deal-in-england.csv
+          - Comment: List of ONS geographical codes
+          - Description: Automated non-hierarchical geography code list
         
 
 - The code list has the following dataset information:

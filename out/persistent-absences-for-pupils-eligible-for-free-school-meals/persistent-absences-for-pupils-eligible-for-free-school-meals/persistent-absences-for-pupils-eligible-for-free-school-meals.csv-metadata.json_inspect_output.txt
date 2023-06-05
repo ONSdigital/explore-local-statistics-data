@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Persistent absences for pupils eligible for free school meals
           - Label: Persistent absences for pupils eligible for free school meals
-          - Issued: 2023-05-22T14:17:55.572050
-          - Modified: 2023-05-22T14:17:55.572050
+          - Issued: 2023-06-05T13:27:40.405170
+          - Modified: 2023-06-05T13:27:40.405170
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- children-out-of-school
-		-- state-funded-school
 		-- county
-		-- subnational
-		-- region
 		-- local-authority
+		-- subnational
+		-- state-funded-school
+		-- region
+		-- children-out-of-school
           - Contact Point: None
           - Identifier: Persistent absences for pupils eligible for free school meals
           - Comment: Percentage of pupils in state-funded primary, state funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded schools), academic years 2017/18 - 2021/22.

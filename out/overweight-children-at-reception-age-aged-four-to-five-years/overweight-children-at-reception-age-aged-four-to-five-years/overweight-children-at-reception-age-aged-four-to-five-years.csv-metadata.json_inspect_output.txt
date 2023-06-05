@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Overweight children at reception age (aged four to five years)
           - Label: Overweight children at reception age (aged four to five years)
-          - Issued: 2023-05-25T11:20:33.054777
-          - Modified: 2023-05-25T11:20:33.054777
+          - Issued: 2023-06-05T13:27:04.723764
+          - Modified: 2023-06-05T13:27:04.723764
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- obesity
 		-- subnational
-		-- state-funded-school
-		-- region
 		-- national-child-measurement-programme
+		-- obesity
+		-- region
+		-- state-funded-school
 		-- local-authority
 		-- county
           - Contact Point: None

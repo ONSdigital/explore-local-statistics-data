@@ -1,28 +1,29 @@
 
 - This file is a data cube.
 
-- The data cube has the following catalog metadata:
-        - Title: Female healthy life expectancy
-        - Label: Female healthy life expectancy
-        - Issued: 2023-05-11T11:44:11.032574
-        - Modified: 2023-05-11T11:44:11.032574
-        - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: 
+
+        - The data cube has the following catalog metadata:
+          - Title: Female healthy life expectancy
+          - Label: Female healthy life expectancy
+          - Issued: 2023-06-05T13:24:55.882998
+          - Modified: 2023-06-05T13:24:55.882998
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
-        - Keywords: 
+          - Keywords: 
+		-- subnational
 		-- annual-population-survey
-		-- good-health
 		-- county
+		-- good-health
 		-- women
 		-- region
-		-- subnational
-        - Contact Point: None
-        - Identifier: Female healthy life expectancy
-        - Comment: Average years expected to be lived in good health for females born during the reference period, United Kingdom, from calendar years 2011 - 2013 to 2018 - 2020
-        - Description: This dataset shows the average years expected to be lived in good health for females born during the reference period, in the United Kingdom, for calendar years 2011 - 2013 to 2018 - 2020.
+          - Contact Point: None
+          - Identifier: Female healthy life expectancy
+          - Comment: Average years expected to be lived in good health for females born during the reference period, United Kingdom, from calendar years 2011 - 2013 to 2018 - 2020
+          - Description: This dataset shows the average years expected to be lived in good health for females born during the reference period, in the United Kingdom, for calendar years 2011 - 2013 to 2018 - 2020.
 		
 		### Coverage 
 		

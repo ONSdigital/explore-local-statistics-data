@@ -5,25 +5,13 @@
     "tableSchema": "ons-geography-code-list-for-pupils-at-expected-standards-by-end-of-primary-school.table.json",
     "rdfs:seeAlso": [
         {
-            "@id": "ons-geography-code-list-for-pupils-at-expected-standards-by-end-of-primary-school.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
-                }
-            ]
-        },
-        {
             "@id": "ons-geography-code-list-for-pupils-at-expected-standards-by-end-of-primary-school.csv#code-list",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/prov#Entity",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+                "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -44,7 +32,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-16T13:36:03.119339"
+                    "@value": "2023-06-05T13:28:22.390025"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -55,7 +43,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-16T13:36:03.119339"
+                    "@value": "2023-06-05T13:28:22.390025"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -84,6 +72,18 @@
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
                     "@id": "ons-geography-code-list-for-pupils-at-expected-standards-by-end-of-primary-school.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "ons-geography-code-list-for-pupils-at-expected-standards-by-end-of-primary-school.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.2"
                 }
             ]
         }

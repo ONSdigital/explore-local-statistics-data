@@ -7,11 +7,11 @@
         {
             "@id": "ons-geography-code-list-for-gross-median-weekly-pay.csv#code-list",
             "@type": [
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
-                "http://www.w3.org/ns/prov#Entity",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/prov#Entity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -32,7 +32,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:41:11.452673"
+                    "@value": "2023-06-05T13:25:33.731621"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -43,7 +43,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:41:11.452673"
+                    "@value": "2023-06-05T13:25:33.731621"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [

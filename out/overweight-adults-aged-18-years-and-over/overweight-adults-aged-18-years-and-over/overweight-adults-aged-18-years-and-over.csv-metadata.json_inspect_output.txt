@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Overweight adults (aged 18 years and over)
           - Label: Overweight adults (aged 18 years and over)
-          - Issued: 2023-05-17T12:41:34.475144
-          - Modified: 2023-05-17T12:41:34.475144
+          - Issued: 2023-06-05T13:26:53.609806
+          - Modified: 2023-06-05T13:26:53.609806
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- county
-		-- local-authority
 		-- obesity
-		-- subnational
 		-- region
+		-- local-authority
+		-- county
+		-- subnational
           - Contact Point: None
           - Identifier: Overweight adults (aged 18 years and over)
           - Comment: Percentage of adults aged 18 and over classified as overweight or obese, England, financial years 2015/16 to 2021/22
@@ -55,7 +55,7 @@
                           Indicator   Suppressed     False                                                                                                  None                           
                             Mission   Suppressed     False                                                                                                  None                           
                            Category   Suppressed     False                                                                                                  None                           
-                             Period    Dimension      True                                 overweight-adults-aged-18-years-and-over.csv#dimension/goverment-year                      Value
+                             Period    Dimension      True                                overweight-adults-aged-18-years-and-over.csv#dimension/government-year                      Value
                               Value Observations     False overweight-adults-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-overweight                      Value
                             Measure   Suppressed     False                                                                                                  None                           
                                Unit   Suppressed     False                                                                                                  None                           
@@ -80,7 +80,7 @@
         - Number of Code Lists: 2
         - Code Lists:
                                                                          Code List                                                        Code List Label Columns Used In
-                                                      goverment-year.csv#code-list                                                         Goverment Year          Period
+                                                     government-year.csv#code-list                                                        government Year          Period
 ons-geography-code-list-for-overweight-adults-aged-18-years-and-over.csv#code-list ONS Geography Code List for Overweight adults (aged 18 years and over)          AREACD
 
 - The data cube has the following dataset information:

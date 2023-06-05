@@ -1,21 +1,22 @@
 
 - This file is a code list.
 
-- The code list has the following catalog metadata:
-        - Title: ONS Geography Code List for persistent-absences-for-all-pupils.csv
-        - Label: ONS Geography Code List for persistent-absences-for-all-pupils.csv
-        - Issued: 2023-05-05T09:06:00.956320
-        - Modified: 2023-05-05T09:06:00.956320
-        - License: https://creativecommons.org/licenses/by/4.0/
-        - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
-        - Landing Pages: None
-        - Themes: None
-        - Keywords: None
-        - Contact Point: None
-        - Identifier: ONS Geography Code List for persistent-absences-for-all-pupils.csv
-        - Comment: List of ONS geographical codes
-        - Description: Automated non-hierarchical geography code list
+
+        - The code list has the following catalog metadata:
+          - Title: ONS Geography Code List for persistent-absences-for-all-pupils.csv
+          - Label: ONS Geography Code List for persistent-absences-for-all-pupils.csv
+          - Issued: 2023-06-05T13:27:30.749484
+          - Modified: 2023-06-05T13:27:30.749484
+          - License: https://creativecommons.org/licenses/by/4.0/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Landing Pages: None
+          - Themes: None
+          - Keywords: None
+          - Contact Point: None
+          - Identifier: ONS Geography Code List for persistent-absences-for-all-pupils.csv
+          - Comment: List of ONS geographical codes
+          - Description: Automated non-hierarchical geography code list
         
 
 - The code list has the following dataset information:
