@@ -13,7 +13,7 @@
         "region"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "published": "2023-05-16T13:36:24.493825",
+    "dataset_issued": "2023-05-16T13:36:24.493825",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
     "columns": {
         "Period": {
