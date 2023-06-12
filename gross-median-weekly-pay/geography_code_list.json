@@ -5,7 +5,7 @@
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "sort": {
         "by": "label",
         "method": "ascending"
