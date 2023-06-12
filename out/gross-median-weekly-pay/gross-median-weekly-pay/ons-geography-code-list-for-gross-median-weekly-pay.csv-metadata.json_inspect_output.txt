@@ -5,9 +5,9 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Gross median weekly pay
           - Label: ONS Geography Code List for Gross median weekly pay
-          - Issued: 2023-06-05T14:06:11.044151
-          - Modified: 2023-06-05T14:06:11.044151
-          - License: https://creativecommons.org/licenses/by/4.0/
+          - Issued: 2023-06-12T11:53:47.050886
+          - Modified: 2023-06-12T11:53:47.050886
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Landing Pages: None

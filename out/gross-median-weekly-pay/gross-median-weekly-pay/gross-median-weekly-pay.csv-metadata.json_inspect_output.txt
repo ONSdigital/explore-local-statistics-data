@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- subnational
-		-- annual-survey-for-hours-and-earnings
-		-- local-authority
-		-- employee-earnings
 		-- region
+		-- employee-earnings
+		-- subnational
+		-- local-authority
+		-- annual-survey-for-hours-and-earnings
           - Contact Point: None
           - Identifier: Gross median weekly pay
           - Comment: Average (median) weekly pay based on where people live, UK, 2002-2022.
@@ -94,16 +94,16 @@ ons-geography-code-list-for-gross-median-weekly-pay.csv#code-list ONS Geography 
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography           Variable Name               Indicator   Mission                                              Category  Period  Value Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2002  324.8  Pounds    £                            324.6                            325.0                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2022  532.5  Pounds    £                            532.3                            532.7                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2021  505.1  Pounds    £                            504.9                            505.3                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2020  479.1  Pounds    £                            479.0                            479.2                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2019  479.1  Pounds    £                            479.0                            479.2                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2018  460.0  Pounds    £                            459.9                            460.1                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2016  438.4  Pounds    £                            438.2                            438.6                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2015  425.1  Pounds    £                            424.9                            425.3                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2014  417.9  Pounds    £                            417.8                            418.0                NaN         1   NaN
-k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2013  415.3  Pounds    £                            415.1                            415.5                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2002  324.8  Pounds    £                       323.526784                       326.073216                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2022  532.5  Pounds    £                       530.412600                       534.587400                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2021  505.1  Pounds    £                       503.120008                       507.079992                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2020  479.1  Pounds    £                       478.160964                       480.039036                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2019  479.1  Pounds    £                       478.160964                       480.039036                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2018  460.0  Pounds    £                       459.098400                       460.901600                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2016  438.4  Pounds    £                       436.681472                       440.118528                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2015  425.1  Pounds    £                       423.433608                       426.766392                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2014  417.9  Pounds    £                       417.080916                       418.719084                NaN         1   NaN
+k02000001 United Kingdom   Country Gross median weekly pay Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2013  415.3  Pounds    £                       413.672024                       416.927976                NaN         1   NaN
         - Last 10 Rows: 
    AREACD                 AREANM                Geography Variable Name               Indicator   Mission                                              Category  Period  Value Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
 n09000010 Newry, Mourne and Down Local Authority District           NaN Gross median weekly pay Mission 1 Boosting productivity, pay, jobs and living standards    2017  368.0  Pounds    £                              NaN                              NaN                NaN         1   NaN
