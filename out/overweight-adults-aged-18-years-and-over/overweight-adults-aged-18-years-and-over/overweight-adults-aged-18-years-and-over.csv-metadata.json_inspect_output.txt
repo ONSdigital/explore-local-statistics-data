@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
+		-- county
+		-- region
+		-- local-authority
 		-- subnational
 		-- obesity
-		-- county
-		-- local-authority
-		-- region
           - Contact Point: None
           - Identifier: Overweight adults (aged 18 years and over)
           - Comment: Percentage of adults aged 18 and over classified as overweight or obese, England, 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022.
@@ -59,7 +59,7 @@
                           Indicator   Suppressed     False                                                                                                  None                           
                             Mission   Suppressed     False                                                                                                  None                           
                            Category   Suppressed     False                                                                                                  None                           
-                             Period    Dimension      True                                overweight-adults-aged-18-years-and-over.csv#dimension/government-year                      Value
+                             Period    Dimension      True                        overweight-adults-aged-18-years-and-over.csv#dimension/gregorian-time-interval                      Value
                               Value Observations     False overweight-adults-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-overweight                      Value
                             Measure   Suppressed     False                                                                                                  None                           
                                Unit   Suppressed     False                                                                                                  None                           
@@ -84,7 +84,7 @@
         - Number of Code Lists: 2
         - Code Lists:
                                                                          Code List                                                        Code List Label Columns Used In
-                                                     government-year.csv#code-list                                                        government Year          Period
+                                             gregorian-time-interval.csv#code-list                                                Gregorian Time Interval          Period
 ons-geography-code-list-for-overweight-adults-aged-18-years-and-over.csv#code-list ONS Geography Code List for Overweight adults (aged 18 years and over)          AREACD
 
 - The data cube has the following dataset information:
