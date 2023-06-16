@@ -5,9 +5,9 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code List for Overweight adults (aged 18 years and over)
           - Label: ONS Geography Code List for Overweight adults (aged 18 years and over)
-          - Issued: 2023-06-05T14:08:06.225850
-          - Modified: 2023-06-05T14:08:06.225850
-          - License: https://creativecommons.org/licenses/by/4.0/
+          - Issued: 2023-06-16T11:22:39.296710
+          - Modified: 2023-06-16T11:22:39.296710
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Landing Pages: None

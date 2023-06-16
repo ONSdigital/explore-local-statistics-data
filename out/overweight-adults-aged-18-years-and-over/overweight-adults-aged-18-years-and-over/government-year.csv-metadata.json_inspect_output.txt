@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: government Year
           - Label: government Year
-          - Issued: 2023-06-05T14:08:06.240255
-          - Modified: 2023-06-05T14:08:06.240255
+          - Issued: 2023-06-16T11:22:39.308938
+          - Modified: 2023-06-16T11:22:39.308938
           - License: None
           - Creator: None
           - Publisher: None
@@ -23,26 +23,26 @@
         - Number of Concepts: 7
         - Number of Duplicates: 0
         - Concepts: 
-Uri Identifier     Label  Notation  Parent Uri Identifier  Sort Priority  Description                                      Original Concept URI
-     2015-2016 2015-2016 2015-2016                    NaN              0          NaN http://reference.data.gov.uk/id/government-year/2015-2016
-     2016-2017 2016-2017 2016-2017                    NaN              1          NaN http://reference.data.gov.uk/id/government-year/2016-2017
-     2017-2018 2017-2018 2017-2018                    NaN              2          NaN http://reference.data.gov.uk/id/government-year/2017-2018
-     2018-2019 2018-2019 2018-2019                    NaN              3          NaN http://reference.data.gov.uk/id/government-year/2018-2019
-     2019-2020 2019-2020 2019-2020                    NaN              4          NaN http://reference.data.gov.uk/id/government-year/2019-2020
-     2020-2021 2020-2021 2020-2021                    NaN              5          NaN http://reference.data.gov.uk/id/government-year/2020-2021
-     2021-2022 2021-2022 2021-2022                    NaN              6          NaN http://reference.data.gov.uk/id/government-year/2021-2022
+         Uri Identifier                   Label                Notation  Parent Uri Identifier  Sort Priority  Description                                                    Original Concept URI
+2015-11-16t00-00-00/p1y 2015-11-16T00:00:00/P1Y 2015-11-16t00-00-00/p1y                    NaN              0          NaN http://reference.data.gov.uk/id/government-year/2015-11-16T00:00:00/P1Y
+2016-11-16t00-00-00/p1y 2016-11-16T00:00:00/P1Y 2016-11-16t00-00-00/p1y                    NaN              1          NaN http://reference.data.gov.uk/id/government-year/2016-11-16T00:00:00/P1Y
+2017-11-16t00-00-00/p1y 2017-11-16T00:00:00/P1Y 2017-11-16t00-00-00/p1y                    NaN              2          NaN http://reference.data.gov.uk/id/government-year/2017-11-16T00:00:00/P1Y
+2018-11-16t00-00-00/p1y 2018-11-16T00:00:00/P1Y 2018-11-16t00-00-00/p1y                    NaN              3          NaN http://reference.data.gov.uk/id/government-year/2018-11-16T00:00:00/P1Y
+2019-11-16t00-00-00/p1y 2019-11-16T00:00:00/P1Y 2019-11-16t00-00-00/p1y                    NaN              4          NaN http://reference.data.gov.uk/id/government-year/2019-11-16T00:00:00/P1Y
+2020-11-16t00-00-00/p1y 2020-11-16T00:00:00/P1Y 2020-11-16t00-00-00/p1y                    NaN              5          NaN http://reference.data.gov.uk/id/government-year/2020-11-16T00:00:00/P1Y
+2021-11-16t00-00-00/p1y 2021-11-16T00:00:00/P1Y 2021-11-16t00-00-00/p1y                    NaN              6          NaN http://reference.data.gov.uk/id/government-year/2021-11-16T00:00:00/P1Y
         
 
 - The code list has the following concepts information:
         - Concepts hierarchy depth: 1
         - Concepts hierarchy:
 root
-├── 2015-2016
-├── 2016-2017
-├── 2017-2018
-├── 2018-2019
-├── 2019-2020
-├── 2020-2021
-└── 2021-2022
+├── 2015-11-16T00:00:00/P1Y
+├── 2016-11-16T00:00:00/P1Y
+├── 2017-11-16T00:00:00/P1Y
+├── 2018-11-16T00:00:00/P1Y
+├── 2019-11-16T00:00:00/P1Y
+├── 2020-11-16T00:00:00/P1Y
+└── 2021-11-16T00:00:00/P1Y
 
         
