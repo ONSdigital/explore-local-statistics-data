@@ -5,7 +5,7 @@
     "description": "Automated non-hierarchical geography code list",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "sort": {
         "by": "label",
         "method": "ascending"
@@ -387,7 +387,7 @@
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E07000169"
         },
         {
-            "label": "South Yorkshire",
+            "label": "Sheffield City Region",
             "notation": "E47000002",
             "same_as": "http://statistics.data.gov.uk/id/statistical-geography/E47000002"
         },
