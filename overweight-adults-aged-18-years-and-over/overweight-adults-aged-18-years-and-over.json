@@ -18,7 +18,7 @@
     "columns": {
         "Period": {
             "type": "dimension",
-            "from_template": "government-year"
+            "from_template": "gregorian-interval"
         },
         "AREACD": {
             "label": "Statistical Geography",
@@ -68,5 +68,5 @@
         "Polarity": false,
         "Notes": false
     }
-    
+
 }
