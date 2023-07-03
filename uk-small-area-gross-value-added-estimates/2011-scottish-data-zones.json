@@ -18,6 +18,10 @@
         "Period": {
             "from_template": "year"
         },
+        "AREANM": {
+            "type": "attribute",
+            "data_type": "string"
+        },
         "AREACD": {
             "from_template": "statistical-geography"
         },
