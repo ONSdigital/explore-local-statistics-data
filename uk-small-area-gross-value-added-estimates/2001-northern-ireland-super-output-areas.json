@@ -29,15 +29,15 @@
             "label": "Statistical Geography",
             "code_list": false
         },
-        "Gross value added in pounds (million)": {
+        "Value": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
-                "label": "Pounds Sterling",
+                "label": "Pounds Sterling, Millions",
                 "from_existing": "http://qudt.org/vocab/unit/PoundSterling"
             },
             "measure": {
-                "label": "Gross value added in pounds (million)",
+                "label": "Gross value added",
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#monetary-count"
             }
         }
