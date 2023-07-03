@@ -7,10 +7,18 @@
             "tableSchema": {
                 "columns": [
                     {
+                        "titles": "AREANM",
+                        "name": "areanm",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
+                        "propertyUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#attribute/attribute-not-assigned-to-an-observation",
+                        "datatype": "string",
+                        "required": false
+                    },
+                    {
                         "titles": "AREACD",
                         "name": "areacd",
                         "propertyUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography",
-                        "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{+areacd}",
+                        "valueUrl": "{+areacd}",
                         "required": true
                     },
                     {
@@ -21,10 +29,10 @@
                         "required": true
                     },
                     {
-                        "titles": "Gross value added in pounds (million)",
-                        "name": "gross_value_added_in_pounds_million",
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
-                        "propertyUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added-in-pounds-million",
+                        "titles": "Value",
+                        "name": "value",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
+                        "propertyUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added",
                         "datatype": "decimal",
                         "required": true
                     },
@@ -41,50 +49,50 @@
                         "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#slice/cross-measures"
                     },
                     {
-                        "name": "virt_obs_gross_value_added_in_pounds_million_",
+                        "name": "virt_obs_value",
                         "virtual": true,
                         "propertyUrl": "qb:observation",
-                        "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million"
+                        "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added"
                     },
                     {
-                        "name": "virt_obs_gross_value_added_in_pounds_million__meas",
+                        "name": "virt_obs_value_meas",
                         "virtual": true,
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "qb:measureType",
-                        "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added-in-pounds-million"
+                        "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added"
                     },
                     {
-                        "name": "virt_obs_gross_value_added_in_pounds_million__unit",
+                        "name": "virt_obs_value_unit",
                         "virtual": true,
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
-                        "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#unit/pounds-sterling"
+                        "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#unit/pounds-sterling-millions"
                     },
                     {
-                        "name": "virt_dim_gross_value_added_in_pounds_million__areacd",
+                        "name": "virt_dim_value_areacd",
                         "virtual": true,
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography",
-                        "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{+areacd}"
+                        "valueUrl": "{+areacd}"
                     },
                     {
-                        "name": "virt_dim_gross_value_added_in_pounds_million__period",
+                        "name": "virt_dim_value_period",
                         "virtual": true,
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year",
                         "valueUrl": "year.csv#{+period}"
                     },
                     {
-                        "name": "virt_obs_gross_value_added_in_pounds_million__type",
+                        "name": "virt_obs_value_type",
                         "virtual": true,
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "rdf:type",
                         "valueUrl": "qb:Observation"
                     },
                     {
-                        "name": "virt_dataSet_gross_value_added_in_pounds_million_",
+                        "name": "virt_dataSet_value",
                         "virtual": true,
-                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added-in-pounds-million",
+                        "aboutUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "qb:dataSet",
                         "valueUrl": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dataset"
                     }
@@ -113,142 +121,11 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/measure-type"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/unit"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/gross-value-added-in-pounds-million"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added-in-pounds-million"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Statistical Geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/statistical-geography"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
-                }
-            ]
-        },
-        {
             "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -258,73 +135,6 @@
             "http://purl.org/linked-data/cube#dimension": [
                 {
                     "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added-in-pounds-million",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Gross value added in pounds (million)"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
@@ -334,72 +144,30 @@
             ]
         },
         {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
-                },
-                {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
-                }
-            ]
-        },
-        {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/gross-value-added-in-pounds-million",
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/attribute-not-assigned-to-an-observation",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#attribute/attribute-not-assigned-to-an-observation"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added-in-pounds-million"
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#attribute/attribute-not-assigned-to-an-observation"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added-in-pounds-million"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 5
+                    "@value": 1
                 }
             ]
         },
@@ -407,10 +175,10 @@
             "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dataset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
                 "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://purl.org/linked-data/cube#Attachable"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -431,7 +199,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-30T10:49:03.306996"
+                    "@value": "2023-07-03T13:51:52.091968"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -442,7 +210,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-06-30T10:49:03.306996"
+                    "@value": "2023-07-03T13:51:52.091968"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -476,11 +244,15 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "subnational"
+                    "@value": "region"
                 },
                 {
                     "@language": "en",
                     "@value": "international-territorial-level"
+                },
+                {
+                    "@language": "en",
+                    "@value": "subnational"
                 },
                 {
                     "@language": "en",
@@ -489,10 +261,6 @@
                 {
                     "@language": "en",
                     "@value": "subregional-productivity"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -507,10 +275,304 @@
             ]
         },
         {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#attribute/attribute-not-assigned-to-an-observation",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Attribute not assigned to an observation."
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#string"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/gross-value-added",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Gross value added"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/statistical-geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/year"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/unit"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/gross-value-added"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/attribute-not-assigned-to-an-observation"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/measure-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#attribute/attribute-not-assigned-to-an-observation"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#measure/gross-value-added"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#component/year",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
             "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#dependency/year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -524,11 +586,11 @@
             ]
         },
         {
-            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#unit/pounds-sterling",
+            "@id": "northern-ireland-super-output-areas-gross-value-added-gva-estimates.csv#unit/pounds-sterling-millions",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
@@ -554,7 +616,7 @@
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Pounds Sterling"
+                    "@value": "Pounds Sterling, Millions"
                 }
             ]
         }
