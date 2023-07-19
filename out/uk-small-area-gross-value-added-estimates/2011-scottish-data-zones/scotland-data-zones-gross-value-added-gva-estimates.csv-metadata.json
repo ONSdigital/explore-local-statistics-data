@@ -10,7 +10,7 @@
                         "titles": "AREANM",
                         "name": "areanm",
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
-                        "propertyUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/areanm",
+                        "propertyUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/area-name",
                         "datatype": "string",
                         "required": false
                     },
@@ -29,8 +29,8 @@
                         "required": true
                     },
                     {
-                        "titles": "Value",
-                        "name": "value",
+                        "titles": "Gross Value Added",
+                        "name": "gross_value_added",
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#measure/gross-value-added",
                         "datatype": "decimal",
@@ -49,48 +49,48 @@
                         "valueUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#slice/cross-measures"
                     },
                     {
-                        "name": "virt_obs_value",
+                        "name": "virt_obs_gross_value_added",
                         "virtual": true,
                         "propertyUrl": "qb:observation",
                         "valueUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added"
                     },
                     {
-                        "name": "virt_obs_value_meas",
+                        "name": "virt_obs_gross_value_added_meas",
                         "virtual": true,
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "qb:measureType",
                         "valueUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#measure/gross-value-added"
                     },
                     {
-                        "name": "virt_obs_value_unit",
+                        "name": "virt_obs_gross_value_added_unit",
                         "virtual": true,
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
                         "valueUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#unit/pounds-sterling-millions"
                     },
                     {
-                        "name": "virt_dim_value_areacd",
+                        "name": "virt_dim_gross_value_added_areacd",
                         "virtual": true,
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/statistical-geography",
                         "valueUrl": "http://statistics.data.gov.uk/id/statistical-geography/{+areacd}"
                     },
                     {
-                        "name": "virt_dim_value_period",
+                        "name": "virt_dim_gross_value_added_period",
                         "virtual": true,
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year",
                         "valueUrl": "year.csv#{+period}"
                     },
                     {
-                        "name": "virt_obs_value_type",
+                        "name": "virt_obs_gross_value_added_type",
                         "virtual": true,
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "rdf:type",
                         "valueUrl": "qb:Observation"
                     },
                     {
-                        "name": "virt_dataSet_value",
+                        "name": "virt_dataSet_gross_value_added",
                         "virtual": true,
                         "aboutUrl": "scotland-data-zones-gross-value-added-gva-estimates.csv#obs/{areacd},{period}@gross-value-added",
                         "propertyUrl": "qb:dataSet",
@@ -121,116 +121,6 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dataset",
-            "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#DataSet"
-            ],
-            "http://purl.org/dc/terms/creator": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/description": [
-                {
-                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "Gross value added (GVA) is the value generated by any economic unit that produces good and services. It reflects the value of goods and services produced, less the cost of any inputs used up in that production process. GVA is a standard measure of the economic activity taking place in an area. It comprises the majority of gross domestic product (GDP), only excluding taxes and subsidies on products (such as Value Added Tax and duty on fuel or alcohol). GVA for the UK as a whole is measured by the UK National Accounts and published each year in the annual Blue Book. The GVA is then broken down to individual countries, regions, and local authority districts. These experimental statistics continue the disaggregation of GVA figures to lower-layer super output area (LSOA, England and Wales), data zone (DZ, Scotland) and super output area (SOA, Northern Ireland) levels. The LSOA, DZ and SOA data are building blocks that allow users the flexibility to build their own geographies for analysis. We do not recommend comparing the LSOA, DZ and SOA data directly. Instead, we recommend using the building blocks to build up other areas of interest and/or to analyse small areas within larger areas of interest."
-                }
-            ],
-            "http://purl.org/dc/terms/identifier": [
-                {
-                    "@value": "Scotland data zones gross value added (GVA) estimates"
-                }
-            ],
-            "http://purl.org/dc/terms/issued": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-07-03T13:52:09.701229"
-                }
-            ],
-            "http://purl.org/dc/terms/license": [
-                {
-                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-                }
-            ],
-            "http://purl.org/dc/terms/modified": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-07-03T13:52:09.701229"
-                }
-            ],
-            "http://purl.org/dc/terms/publisher": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/title": [
-                {
-                    "@language": "en",
-                    "@value": "Scotland data zones gross value added (GVA) estimates"
-                }
-            ],
-            "http://purl.org/linked-data/cube#structure": [
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#structure"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Provides GVA estimates for data zones (DZ, Scotland), between 1998-2020."
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Scotland data zones gross value added (GVA) estimates"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#keyword": [
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subregional-productivity"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
-                    "@value": "international-territorial-level"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#theme": [
-                {
-                    "@id": "https://www.ons.gov.uk/economy/economicoutputandproductivity"
-                }
-            ],
-            "http://www.w3.org/ns/prov#wasGeneratedBy": [
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/year",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -254,13 +144,41 @@
             ]
         },
         {
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/unit",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
             "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/statistical-geography",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -280,57 +198,23 @@
             ]
         },
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#slice/cross-measures",
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/area-name",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year"
-                }
-            ]
-        },
-        {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Year"
+                    "@value": "Area Name"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#class/year"
+                    "@id": "http://www.w3.org/2001/XMLSchema#string"
                 }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#class/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
@@ -380,56 +264,48 @@
             ]
         },
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#structure",
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#class/statistical-geography",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
-            "http://purl.org/linked-data/cube#component": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/statistical-geography"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/year"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/areanm"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/measure-type"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/unit"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/gross-value-added"
+                    "@id": "year.csv#code-list"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#measure/gross-value-added"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/areanm"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                    "@language": "en",
+                    "@value": "Year"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#slice/cross-measures"
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#class/year"
                 }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#class/year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
@@ -456,7 +332,23 @@
             ]
         },
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/areanm",
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#slice/cross-measures",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                }
+            ]
+        },
+        {
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/area-name",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
@@ -464,12 +356,12 @@
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/areanm"
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/area-name"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/areanm"
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/area-name"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -484,12 +376,24 @@
             ]
         },
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#measure/gross-value-added",
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.6"
+                }
+            ]
+        },
+        {
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#measure/gross-value-added",
+            "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -509,62 +413,158 @@
             ]
         },
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/unit",
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#structure",
             "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/year"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/area-name"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/gross-value-added"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/measure-type"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#component/unit"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/year"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/area-name"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dimension/statistical-geography"
+                },
+                {
                     "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#measure/gross-value-added"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#sliceKey": [
                 {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#slice/cross-measures"
                 }
             ]
         },
         {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#csvcubed-build-activity",
+            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#dataset",
             "@type": [
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Dataset",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
+                "http://purl.org/linked-data/cube#Attachable"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/dc/terms/creator": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.4"
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
                 }
-            ]
-        },
-        {
-            "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#attribute/areanm",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "Gross value added (GVA) is the value generated by any economic unit that produces good and services. It reflects the value of goods and services produced, less the cost of any inputs used up in that production process. GVA is a standard measure of the economic activity taking place in an area. It comprises the majority of gross domestic product (GDP), only excluding taxes and subsidies on products (such as Value Added Tax and duty on fuel or alcohol). GVA for the UK as a whole is measured by the UK National Accounts and published each year in the annual Blue Book. The GVA is then broken down to individual countries, regions, and local authority districts.\nThese experimental statistics continue the disaggregation of GVA figures to data zone (DZ, Scotland) level. The DZ data are building blocks that allow users the flexibility to build their own geographies for analysis. We do not recommend comparing the DZ data directly. Instead, we recommend using the building blocks to build up other areas of interest and/or to analyse small areas within larger areas of interest.\n\n### Coverage \n\nScotland\n\n#### Geography definition\n\nData zones (DZ). These data are based on 2011 Census Geography. Users must use the appropriate lookup table.\n\n### Source\n\n - Scotland GVA estimates: [Office for National Statistics](https://www.ons.gov.uk/economy/grossvalueaddedgva/articles/disaggregatingannualsubnationalgrossvalueaddedgvatolowerlevelsofgeography/1998to2020)\n\n - 2011 Census geography lookup tables: [2011 Data Zone Lookup](https://statistics.gov.scot/data/data-zone-lookup) \n\n\n"
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Scotland data zones gross value added (GVA) estimates"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-07-19T13:24:19.244702"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-07-19T13:24:19.244702"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Scotland data zones gross value added (GVA) estimates"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Provides GVA estimates for data zones (DZ, Scotland), 1998 to 2020."
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "AREANM"
+                    "@value": "Scotland data zones gross value added (GVA) estimates"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://www.w3.org/ns/dcat#keyword": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#string"
+                    "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "international-territorial-level"
+                },
+                {
+                    "@language": "en",
+                    "@value": "subregional-productivity"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#theme": [
+                {
+                    "@id": "https://www.ons.gov.uk/economy/economicoutputandproductivity"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#csvcubed-build-activity"
                 }
             ]
         },
@@ -588,8 +588,8 @@
         {
             "@id": "scotland-data-zones-gross-value-added-gva-estimates.csv#unit/pounds-sterling-millions",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
