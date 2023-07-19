@@ -31,7 +31,7 @@
             "label": "Statistical Geography",
             "code_list": true
         },
-        "Value": {
+        "Gross Value Added": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {

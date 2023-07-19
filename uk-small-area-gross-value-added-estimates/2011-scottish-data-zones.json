@@ -26,7 +26,7 @@
         "AREACD": {
             "from_template": "statistical-geography"
         },
-        "Value": {
+        "Gross Value Added": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
