@@ -20,7 +20,8 @@
         },
         "AREANM": {
             "type": "attribute",
-            "data_type": "string"
+            "data_type": "string",
+            "label": "Area Name"
         },
         "AREACD": {
             "from_template": "statistical-geography"
