@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Annual personal well-being estimates
           - Label: Annual personal well-being estimates
-          - Issued: 2023-08-03T11:00:27.595724
-          - Modified: 2023-08-03T11:00:27.595724
+          - Issued: 2023-08-03T13:47:24.663356
+          - Modified: 2023-08-03T13:47:24.663356
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,16 +14,16 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- local-authorities
-		-- annual-population-survey
-		-- life-satisfaction
-		-- happiness
-		-- regions
-		-- quality-of-life
-		-- anxiety
 		-- personal-wellbeing
-		-- subnational
+		-- life-satisfaction
+		-- local-authorities
+		-- anxiety
 		-- counties
+		-- annual-population-survey
+		-- subnational
+		-- quality-of-life
+		-- regions
+		-- happiness
           - Contact Point: None
           - Identifier: Annual personal well-being estimates
           - Comment: Estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.
@@ -58,8 +58,8 @@
     - Columns: 
                               Title         Type  Required                                                                 Property URL Observations Column Titles
                              AREACD    Dimension      True     annual-personal-well-being-estimates.csv#dimension/statistical-geography                           
-                             AREANM    Attribute     False                    annual-personal-well-being-estimates.csv#attribute/areanm                           
-                          Geography    Attribute     False                 annual-personal-well-being-estimates.csv#attribute/geography                           
+                             AREANM   Suppressed     False                                                                         None                           
+                          Geography   Suppressed     False                                                                         None                           
                              Period    Dimension      True           annual-personal-well-being-estimates.csv#dimension/government-year                           
                               Value Observations     False                  annual-personal-well-being-estimates.csv#measure/{+measure}                           
                             Measure     Measures      True                                 http://purl.org/linked-data/cube#measureType                           
@@ -68,6 +68,8 @@
     Upper Confidence Interval (95%)    Attribute     False annual-personal-well-being-estimates.csv#attribute/upper-confidence-interval                           
                  Observation Status    Attribute     False        annual-personal-well-being-estimates.csv#attribute/observation-status                           
     - Columns where suppress output is true: 
+    		-- AREANM
+    		-- Geography
     		-- Unit
 
 - The data cube has the following code list information:
@@ -81,28 +83,28 @@ government-year.csv#code-list government Year          Period
         - Number of Duplicates: 0
         - First 10 Observations: 
    AREACD         AREANM Geography    Period  Value                                                         Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status
-K02000001 united-kingdom   country 2011-2012   3.13 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.11                             3.15                NaN
-K02000001 united-kingdom   country 2012-2013   3.03 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.01                             3.05                NaN
-K02000001 united-kingdom   country 2013-2014   2.92 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.91                             2.94                NaN
-K02000001 united-kingdom   country 2014-2015   2.86 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.84                             2.88                NaN
-K02000001 united-kingdom   country 2015-2016   2.87 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.85                             2.89                NaN
-K02000001 united-kingdom   country 2016-2017   2.90 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.88                             2.92                NaN
-K02000001 united-kingdom   country 2017-2018   2.89 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.87                             2.91                NaN
-K02000001 united-kingdom   country 2018-2019   2.87 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.84                             2.89                NaN
-K02000001 united-kingdom   country 2019-2020   3.05 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.03                             3.07                NaN
-K02000001 united-kingdom   country 2020-2021   3.31 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.28                             3.33                NaN
+K02000001 United Kingdom   Country 2011-2012   3.13 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.11                             3.15                NaN
+K02000001 United Kingdom   Country 2012-2013   3.03 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.01                             3.05                NaN
+K02000001 United Kingdom   Country 2013-2014   2.92 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.91                             2.94                NaN
+K02000001 United Kingdom   Country 2014-2015   2.86 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.84                             2.88                NaN
+K02000001 United Kingdom   Country 2015-2016   2.87 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.85                             2.89                NaN
+K02000001 United Kingdom   Country 2016-2017   2.90 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.88                             2.92                NaN
+K02000001 United Kingdom   Country 2017-2018   2.89 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.87                             2.91                NaN
+K02000001 United Kingdom   Country 2018-2019   2.87 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.84                             2.89                NaN
+K02000001 United Kingdom   Country 2019-2020   3.05 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.03                             3.07                NaN
+K02000001 United Kingdom   Country 2020-2021   3.31 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.28                             3.33                NaN
         - Last 10 Observations: 
    AREACD              AREANM                Geography    Period  Value                                                             Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status
-N09000011 ards-and-north-down local-authority-district 2011-2012    NaN mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                              NaN                              NaN                  x
-N09000011 ards-and-north-down local-authority-district 2012-2013   7.91 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.71                             8.10                NaN
-N09000011 ards-and-north-down local-authority-district 2013-2014   7.78 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.52                             8.04                NaN
-N09000011 ards-and-north-down local-authority-district 2014-2015   7.54 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.27                             7.82                NaN
-N09000011 ards-and-north-down local-authority-district 2015-2016   7.79 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.51                             8.07                NaN
-N09000011 ards-and-north-down local-authority-district 2016-2017   8.04 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.83                             8.25                NaN
-N09000011 ards-and-north-down local-authority-district 2017-2018   7.96 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.77                             8.15                NaN
-N09000011 ards-and-north-down local-authority-district 2018-2019   7.91 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.74                             8.09                NaN
-N09000011 ards-and-north-down local-authority-district 2019-2020   7.90 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.71                             8.09                NaN
-N09000011 ards-and-north-down local-authority-district 2021-2022   7.71 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.49                             7.94                NaN
+N09000011 Ards and North Down Local Authority District 2011-2012    NaN mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                              NaN                              NaN                  x
+N09000011 Ards and North Down Local Authority District 2012-2013   7.91 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.71                             8.10                NaN
+N09000011 Ards and North Down Local Authority District 2013-2014   7.78 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.52                             8.04                NaN
+N09000011 Ards and North Down Local Authority District 2014-2015   7.54 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.27                             7.82                NaN
+N09000011 Ards and North Down Local Authority District 2015-2016   7.79 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.51                             8.07                NaN
+N09000011 Ards and North Down Local Authority District 2016-2017   8.04 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.83                             8.25                NaN
+N09000011 Ards and North Down Local Authority District 2017-2018   7.96 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.77                             8.15                NaN
+N09000011 Ards and North Down Local Authority District 2018-2019   7.91 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.74                             8.09                NaN
+N09000011 Ards and North Down Local Authority District 2019-2020   7.90 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.71                             8.09                NaN
+N09000011 Ards and North Down Local Authority District 2021-2022   7.71 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.49                             7.94                NaN
         
 
 - The data cube has the following value counts:
