@@ -82,4 +82,5 @@
             "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
         }
     }
+    
 }
