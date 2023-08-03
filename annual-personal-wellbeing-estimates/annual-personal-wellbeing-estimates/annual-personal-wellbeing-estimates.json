@@ -23,12 +23,8 @@
         "AREACD": {
             "from_template": "statistical-geography"
         },
-        "AREANM": {
-            "type": "attribute"
-        },
-        "Geography": {
-            "type": "attribute"
-        },
+        "AREANM": false,
+        "Geography": false,
         "Period": {
             "type": "dimension",
             "from_template": "government-year"
