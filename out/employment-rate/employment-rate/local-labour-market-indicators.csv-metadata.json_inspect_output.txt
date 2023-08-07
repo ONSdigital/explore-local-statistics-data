@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Local labour market indicators
           - Label: Local labour market indicators
-          - Issued: 2023-08-07T15:04:24.000886
-          - Modified: 2023-08-07T15:04:24.000886
+          - Issued: 2023-08-07T15:26:05.386223
+          - Modified: 2023-08-07T15:26:05.386223
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- region
-		-- labour-market
-		-- paid-work
-		-- subnational
 		-- annual-population-survey
 		-- local-authority
+		-- region
+		-- labour-market
+		-- subnational
+		-- paid-work
           - Contact Point: None
           - Identifier: Local labour market indicators
           - Comment: Employment rate, unemployment rate, economic activity rate and economic inactivity rate for people aged between 16 and 64 years, Great Britain (Northern Ireland national figure included), 01/2004-12/2004 to 01/2022-12/2022.
@@ -75,7 +75,7 @@
     - Columns: 
                            Title         Type  Required                                                           Property URL Observations Column Titles
                           areacd    Dimension      True     local-labour-market-indicators.csv#dimension/statistical-geography                           
-                          areanm    Attribute     False                    local-labour-market-indicators.csv#attribute/areanm                           
+                          areanm    Attribute     False                 local-labour-market-indicators.csv#attribute/area-name                           
                        geography    Attribute     False                 local-labour-market-indicators.csv#attribute/geography                           
                           period    Dimension      True   local-labour-market-indicators.csv#dimension/gregorian-time-interval                           
                        indicator     Measures      True                           http://purl.org/linked-data/cube#measureType                      value
