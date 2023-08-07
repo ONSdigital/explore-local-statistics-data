@@ -74,8 +74,8 @@
             "required": false
         },
         "observation_status": {
-            "type": "attribute",
             "label": "Observation Status",
+            "type": "attribute",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
             "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
         }
