@@ -25,7 +25,7 @@
             "type": "attribute"
         },
         "geography": {
-            "label": "Geography",
+            "label": "Geography Type",
             "type": "attribute"
         },
         "period": {
