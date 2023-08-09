@@ -16,8 +16,8 @@
                     {
                         "titles": "areanm",
                         "name": "areanm",
-                        "propertyUrl": "local-labour-market-indicators.csv#attribute/areanm",
-                        "valueUrl": "local-labour-market-indicators.csv#attribute/areanm/{+areanm}",
+                        "propertyUrl": "local-labour-market-indicators.csv#attribute/area-name",
+                        "valueUrl": "local-labour-market-indicators.csv#attribute/area-name/{+areanm}",
                         "required": false
                     },
                     {
@@ -123,69 +123,45 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "local-labour-market-indicators.csv#dimension/statistical-geography",
+            "@id": "local-labour-market-indicators.csv#measure/economically-inactive",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Statistical Geography"
+                    "@value": "Economically Inactive"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "local-labour-market-indicators.csv#class/statistical-geography"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/measure-type",
+            "@id": "local-labour-market-indicators.csv#component/area-name",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/areanm",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/areanm"
+                    "@id": "local-labour-market-indicators.csv#attribute/area-name"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/areanm"
+                    "@id": "local-labour-market-indicators.csv#attribute/area-name"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -200,406 +176,13 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/unemployment-activity-rate",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#structure",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "local-labour-market-indicators.csv#component/unit"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/observation-status"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/geography"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/areanm"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/measure-type"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/employment-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/economic-activity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/unemployment-activity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/economically-inactive"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/statistical-geography"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economically-inactive"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/areanm"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/geography"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "gregorian-time-interval.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Gregorian Time Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Unemployment Activity Rate"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 12
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#attribute/geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "geography"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#class/statistical-geography",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/economically-inactive",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economically-inactive"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economically-inactive"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Economic Activity Rate"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/statistical-geography",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/statistical-geography"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
-                }
-            ]
-        },
-        {
             "@id": "local-labour-market-indicators.csv#dataset",
             "@type": [
+                "http://purl.org/linked-data/cube#DataSet",
                 "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataSet"
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -620,7 +203,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-08-07T15:04:24.000886"
+                    "@value": "2023-08-07T15:26:05.386223"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -631,7 +214,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-08-07T15:04:24.000886"
+                    "@value": "2023-08-07T15:26:05.386223"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -665,15 +248,7 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
                     "@value": "labour-market"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
                 },
                 {
                     "@language": "en",
@@ -681,11 +256,19 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "annual-population-survey"
+                    "@value": "local-authority"
                 },
                 {
                     "@language": "en",
                     "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "annual-population-survey"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -700,43 +283,20 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/economic-activity-rate",
+            "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
+                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
+                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -746,47 +306,38 @@
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 11
+                    "@value": 12
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm",
+            "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@language": "en",
-                    "@value": "areanm"
+                    "@id": "gregorian-time-interval.csv#code-list"
                 }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#measure/economically-inactive",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Economically Inactive"
+                    "@value": "Gregorian Time Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
@@ -794,8 +345,8 @@
             "@id": "local-labour-market-indicators.csv#component/employment-rate",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -814,18 +365,156 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval",
+            "@id": "local-labour-market-indicators.csv#component/unemployment-activity-rate",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/statistical-geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/geography"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#dimension/statistical-geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Statistical Geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "local-labour-market-indicators.csv#class/statistical-geography"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Unemployment Activity Rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
             ]
         },
         {
             "@id": "local-labour-market-indicators.csv#component/observation-status",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -849,11 +538,177 @@
             ]
         },
         {
+            "@id": "local-labour-market-indicators.csv#attribute/geography",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 11
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#class/statistical-geography",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/economically-inactive",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economically-inactive"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economically-inactive"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
             "@id": "local-labour-market-indicators.csv#component/unit",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -877,12 +732,132 @@
             ]
         },
         {
+            "@id": "local-labour-market-indicators.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "local-labour-market-indicators.csv#component/statistical-geography"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/measure-type"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/employment-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/economic-activity-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/unemployment-activity-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/economically-inactive"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/observation-status"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/unit"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/geography"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/area-name"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economically-inactive"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/area-name"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/geography"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/statistical-geography"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/unemployment-activity-rate"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/economic-activity-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
             "@id": "local-labour-market-indicators.csv#measure/employment-rate",
             "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -902,22 +877,47 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/observation-status",
+            "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate",
             "@type": [
-                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Observation Status"
+                    "@value": "Economic Activity Rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
@@ -939,7 +939,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/aberdeen-city",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/aberdeen-city",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -951,7 +951,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/aberdeenshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/aberdeenshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -963,7 +963,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/adur",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/adur",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -975,7 +975,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/allerdale",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/allerdale",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -987,7 +987,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/amber-valley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/amber-valley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -999,7 +999,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/angus",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/angus",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1011,7 +1011,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/argyll-and-bute",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/argyll-and-bute",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1023,7 +1023,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/arun",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/arun",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1035,7 +1035,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/ashfield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/ashfield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1047,7 +1047,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/ashford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/ashford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1059,7 +1059,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/babergh",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/babergh",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1071,7 +1071,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/barking-and-dagenham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/barking-and-dagenham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1083,7 +1083,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/barnet",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/barnet",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1095,7 +1095,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/barnsley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/barnsley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1107,7 +1107,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/barrow-in-furness",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/barrow-in-furness",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1119,7 +1119,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/basildon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/basildon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1131,7 +1131,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/basingstoke-and-deane",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/basingstoke-and-deane",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1143,7 +1143,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bassetlaw",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bassetlaw",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1155,7 +1155,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bath-and-north-east-somerset",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bath-and-north-east-somerset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1167,7 +1167,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bedford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bedford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1179,7 +1179,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bexley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bexley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1191,7 +1191,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/birmingham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/birmingham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1203,7 +1203,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/blaby",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/blaby",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1215,7 +1215,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/blackburn-with-darwen",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/blackburn-with-darwen",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1227,7 +1227,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/blackpool",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/blackpool",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1239,7 +1239,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/blaenau-gwent",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/blaenau-gwent",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1251,7 +1251,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bolsover",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bolsover",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1263,7 +1263,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bolton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bolton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1275,7 +1275,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/boston",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/boston",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1287,7 +1287,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bournemouth-christchurch-and-poole",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bournemouth-christchurch-and-poole",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1299,7 +1299,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bracknell-forest",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bracknell-forest",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1311,7 +1311,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bradford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bradford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1323,7 +1323,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/braintree",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/braintree",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1335,7 +1335,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/breckland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/breckland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1347,7 +1347,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/brent",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/brent",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1359,7 +1359,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/brentwood",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/brentwood",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1371,7 +1371,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bridgend",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bridgend",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1383,7 +1383,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/brighton-and-hove",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/brighton-and-hove",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1395,7 +1395,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bristol-city-of",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bristol-city-of",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1407,7 +1407,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/broadland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/broadland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1419,7 +1419,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bromley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bromley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1431,7 +1431,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bromsgrove",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bromsgrove",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1443,7 +1443,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/broxbourne",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/broxbourne",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1455,7 +1455,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/broxtowe",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/broxtowe",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1467,7 +1467,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/buckinghamshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/buckinghamshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1479,7 +1479,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/burnley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/burnley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1491,7 +1491,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/bury",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/bury",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1503,7 +1503,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/caerphilly",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/caerphilly",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1515,7 +1515,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/calderdale",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/calderdale",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1527,7 +1527,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cambridge",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cambridge",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1539,7 +1539,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cambridgeshire-and-peterborough",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cambridgeshire-and-peterborough",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1551,7 +1551,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/camden",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/camden",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1563,7 +1563,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cannock-chase",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cannock-chase",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1575,7 +1575,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/canterbury",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/canterbury",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1587,7 +1587,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cardiff",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cardiff",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1599,7 +1599,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/carlisle",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/carlisle",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1611,7 +1611,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/carmarthenshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/carmarthenshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1623,7 +1623,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/castle-point",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/castle-point",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1635,7 +1635,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/central-bedfordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/central-bedfordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1647,7 +1647,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/ceredigion",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/ceredigion",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1659,7 +1659,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/charnwood",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/charnwood",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1671,7 +1671,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/chelmsford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/chelmsford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1683,7 +1683,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cheltenham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cheltenham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1695,7 +1695,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cherwell",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cherwell",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1707,7 +1707,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cheshire-east",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cheshire-east",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1719,7 +1719,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cheshire-west-and-chester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cheshire-west-and-chester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1731,7 +1731,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/chesterfield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/chesterfield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1743,7 +1743,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/chichester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/chichester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1755,7 +1755,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/chorley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/chorley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1767,7 +1767,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/city-of-edinburgh",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/city-of-edinburgh",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1779,7 +1779,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/city-of-london",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/city-of-london",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1791,7 +1791,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/clackmannanshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/clackmannanshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1803,7 +1803,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/colchester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/colchester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1815,7 +1815,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/conwy",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/conwy",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1827,7 +1827,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/copeland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/copeland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1839,7 +1839,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cornwall",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cornwall",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1851,7 +1851,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/cotswold",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/cotswold",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1863,7 +1863,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/county-durham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/county-durham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1875,7 +1875,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/coventry",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/coventry",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1887,7 +1887,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/craven",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/craven",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1899,7 +1899,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/crawley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/crawley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1911,7 +1911,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/croydon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/croydon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1923,7 +1923,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dacorum",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dacorum",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1935,7 +1935,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/darlington",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/darlington",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1947,7 +1947,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dartford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dartford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1959,7 +1959,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/denbighshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/denbighshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1971,7 +1971,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/derby",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/derby",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1983,7 +1983,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/derbyshire-dales",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/derbyshire-dales",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -1995,7 +1995,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/doncaster",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/doncaster",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2007,7 +2007,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dorset",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dorset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2019,7 +2019,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dover",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dover",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2031,7 +2031,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dudley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dudley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2043,7 +2043,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dumfries-and-galloway",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dumfries-and-galloway",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2055,7 +2055,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/dundee-city",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/dundee-city",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2067,7 +2067,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/ealing",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/ealing",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2079,7 +2079,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-ayrshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-ayrshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2091,7 +2091,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-cambridgeshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-cambridgeshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2103,7 +2103,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-devon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-devon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2115,7 +2115,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-dunbartonshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-dunbartonshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2127,7 +2127,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-hampshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-hampshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2139,7 +2139,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-hertfordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-hertfordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2151,7 +2151,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-lindsey",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-lindsey",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2163,7 +2163,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-lothian",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-lothian",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2175,7 +2175,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-midlands",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-midlands",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2187,7 +2187,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-renfrewshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-renfrewshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2199,7 +2199,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-riding-of-yorkshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-riding-of-yorkshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2211,7 +2211,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-staffordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-staffordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2223,7 +2223,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-suffolk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-suffolk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2235,7 +2235,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/east-of-england",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/east-of-england",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2247,7 +2247,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/eastbourne",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/eastbourne",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2259,7 +2259,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/eastleigh",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/eastleigh",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2271,7 +2271,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/elmbridge",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/elmbridge",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2283,7 +2283,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/enfield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/enfield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2295,7 +2295,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/england",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/england",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2307,7 +2307,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/england-and-wales",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/england-and-wales",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2319,7 +2319,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/epping-forest",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/epping-forest",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2331,7 +2331,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/epsom-and-ewell",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/epsom-and-ewell",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2343,7 +2343,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/erewash",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/erewash",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2355,7 +2355,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/exeter",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/exeter",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2367,7 +2367,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/falkirk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/falkirk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2379,7 +2379,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/fareham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/fareham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2391,7 +2391,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/fenland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/fenland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2403,7 +2403,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/fife",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/fife",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2415,7 +2415,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/flintshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/flintshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2427,7 +2427,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/folkestone-and-hythe",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/folkestone-and-hythe",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2439,7 +2439,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/forest-of-dean",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/forest-of-dean",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2451,7 +2451,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/fylde",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/fylde",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2463,7 +2463,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/gateshead",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/gateshead",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2475,7 +2475,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/gedling",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/gedling",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2487,7 +2487,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/glasgow-city",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/glasgow-city",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2499,7 +2499,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/gloucester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/gloucester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2511,7 +2511,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/gosport",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/gosport",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2523,7 +2523,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/gravesham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/gravesham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2535,7 +2535,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/great-britain",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/great-britain",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2547,7 +2547,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/great-yarmouth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/great-yarmouth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2559,7 +2559,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/greater-manchester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/greater-manchester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2571,7 +2571,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/greater-manchester-met-county",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/greater-manchester-met-county",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2583,7 +2583,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/greenwich",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/greenwich",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2595,7 +2595,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/guildford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/guildford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2607,7 +2607,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/gwynedd",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/gwynedd",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2619,7 +2619,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hackney",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hackney",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2631,7 +2631,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/halton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/halton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2643,7 +2643,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hammersmith-and-fulham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hammersmith-and-fulham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2655,7 +2655,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/harborough",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/harborough",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2667,7 +2667,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/haringey",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/haringey",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2679,7 +2679,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/harlow",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/harlow",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2691,7 +2691,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/harrogate",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/harrogate",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2703,7 +2703,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/harrow",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/harrow",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2715,7 +2715,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hart",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hart",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2727,7 +2727,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hartlepool",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hartlepool",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2739,7 +2739,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hastings",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hastings",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2751,7 +2751,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/havant",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/havant",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2763,7 +2763,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/havering",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/havering",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2775,7 +2775,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/herefordshire-county-of",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/herefordshire-county-of",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2787,7 +2787,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hertsmere",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hertsmere",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2799,7 +2799,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/high-peak",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/high-peak",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2811,7 +2811,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/highland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/highland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2823,7 +2823,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hillingdon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hillingdon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2835,7 +2835,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hinckley-and-bosworth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hinckley-and-bosworth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2847,7 +2847,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/horsham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/horsham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2859,7 +2859,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hounslow",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hounslow",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2871,7 +2871,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/huntingdonshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/huntingdonshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2883,7 +2883,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/hyndburn",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/hyndburn",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2895,7 +2895,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/inner-london",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/inner-london",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2907,7 +2907,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/inverclyde",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/inverclyde",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2919,7 +2919,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/ipswich",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/ipswich",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2931,7 +2931,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/isle-of-anglesey",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/isle-of-anglesey",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2943,7 +2943,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/isle-of-wight",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/isle-of-wight",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2955,7 +2955,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/isles-of-scilly",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/isles-of-scilly",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2967,7 +2967,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/islington",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/islington",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2979,7 +2979,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/kensington-and-chelsea",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/kensington-and-chelsea",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -2991,7 +2991,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/king-s-lynn-and-west-norfolk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/king-s-lynn-and-west-norfolk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3003,7 +3003,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/kingston-upon-hull-city-of",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/kingston-upon-hull-city-of",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3015,7 +3015,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/kingston-upon-thames",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/kingston-upon-thames",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3027,7 +3027,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/kirklees",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/kirklees",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3039,7 +3039,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/knowsley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/knowsley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3051,7 +3051,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/lambeth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/lambeth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3063,7 +3063,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/lancaster",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/lancaster",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3075,7 +3075,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/leeds",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/leeds",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3087,7 +3087,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/leicester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/leicester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3099,7 +3099,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/lewes",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/lewes",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3111,7 +3111,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/lewisham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/lewisham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3123,7 +3123,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/lichfield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/lichfield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3135,7 +3135,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/lincoln",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/lincoln",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3147,7 +3147,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/liverpool",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/liverpool",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3159,7 +3159,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/liverpool-city-region",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/liverpool-city-region",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3171,7 +3171,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/london",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/london",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3183,7 +3183,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/luton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/luton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3195,7 +3195,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/maidstone",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/maidstone",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3207,7 +3207,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/maldon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/maldon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3219,7 +3219,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/malvern-hills",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/malvern-hills",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3231,7 +3231,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/manchester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/manchester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3243,7 +3243,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/mansfield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/mansfield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3255,7 +3255,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/medway",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/medway",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3267,7 +3267,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/melton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/melton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3279,7 +3279,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/mendip",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/mendip",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3291,7 +3291,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/merseyside-met-county",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/merseyside-met-county",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3303,7 +3303,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/merthyr-tydfil",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/merthyr-tydfil",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3315,7 +3315,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/merton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/merton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3327,7 +3327,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/mid-devon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/mid-devon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3339,7 +3339,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/mid-suffolk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/mid-suffolk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3351,7 +3351,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/mid-sussex",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/mid-sussex",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3363,7 +3363,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/middlesbrough",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/middlesbrough",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3375,7 +3375,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/midlothian",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/midlothian",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3387,7 +3387,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/milton-keynes",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/milton-keynes",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3399,7 +3399,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/mole-valley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/mole-valley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3411,7 +3411,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/monmouthshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/monmouthshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3423,7 +3423,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/moray",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/moray",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3435,7 +3435,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/na-h-eileanan-siar",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/na-h-eileanan-siar",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3447,7 +3447,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/neath-port-talbot",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/neath-port-talbot",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3459,7 +3459,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/new-forest",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/new-forest",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3471,7 +3471,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/newark-and-sherwood",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/newark-and-sherwood",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3483,7 +3483,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/newcastle-upon-tyne",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/newcastle-upon-tyne",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3495,7 +3495,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/newcastle-under-lyme",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/newcastle-under-lyme",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3507,7 +3507,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/newham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/newham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3519,7 +3519,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/newport",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/newport",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3531,7 +3531,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-ayrshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-ayrshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3543,7 +3543,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-devon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-devon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3555,7 +3555,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-east",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-east",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3567,7 +3567,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-east-derbyshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-east-derbyshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3579,7 +3579,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-east-lincolnshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-east-lincolnshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3591,7 +3591,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-hertfordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-hertfordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3603,7 +3603,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-kesteven",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-kesteven",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3615,7 +3615,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-lanarkshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-lanarkshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3627,7 +3627,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-lincolnshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-lincolnshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3639,7 +3639,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-norfolk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-norfolk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3651,7 +3651,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-northamptonshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-northamptonshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3663,7 +3663,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-somerset",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-somerset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3675,7 +3675,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-tyneside",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-tyneside",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3687,7 +3687,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-warwickshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-warwickshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3699,7 +3699,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-west",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-west",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3711,7 +3711,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-west-leicestershire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-west-leicestershire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3723,7 +3723,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/north-of-tyne",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/north-of-tyne",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3735,7 +3735,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/northern-ireland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/northern-ireland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3747,7 +3747,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/northumberland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/northumberland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3759,7 +3759,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/norwich",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/norwich",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3771,7 +3771,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/nottingham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/nottingham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3783,7 +3783,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/nuneaton-and-bedworth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/nuneaton-and-bedworth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3795,7 +3795,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/oadby-and-wigston",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/oadby-and-wigston",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3807,7 +3807,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/oldham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/oldham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3819,7 +3819,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/outer-london",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/outer-london",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3831,7 +3831,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/oxford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/oxford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3843,7 +3843,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/pembrokeshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/pembrokeshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3855,7 +3855,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/pendle",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/pendle",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3867,7 +3867,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/perth-and-kinross",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/perth-and-kinross",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3879,7 +3879,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/peterborough",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/peterborough",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3891,7 +3891,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/plymouth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/plymouth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3903,7 +3903,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/portsmouth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/portsmouth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3915,7 +3915,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/powys",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/powys",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3927,7 +3927,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/preston",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/preston",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3939,7 +3939,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/reading",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/reading",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3951,7 +3951,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/redbridge",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/redbridge",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3963,7 +3963,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/redcar-and-cleveland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/redcar-and-cleveland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3975,7 +3975,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/redditch",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/redditch",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3987,7 +3987,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/reigate-and-banstead",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/reigate-and-banstead",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -3999,7 +3999,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/renfrewshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/renfrewshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4011,7 +4011,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rhondda-cynon-taf",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rhondda-cynon-taf",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4023,7 +4023,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/ribble-valley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/ribble-valley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4035,7 +4035,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/richmond-upon-thames",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/richmond-upon-thames",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4047,7 +4047,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/richmondshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/richmondshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4059,7 +4059,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rochdale",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rochdale",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4071,7 +4071,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rochford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rochford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4083,7 +4083,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rossendale",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rossendale",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4095,7 +4095,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rother",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rother",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4107,7 +4107,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rotherham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rotherham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4119,7 +4119,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rugby",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rugby",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4131,7 +4131,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/runnymede",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/runnymede",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4143,7 +4143,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rushcliffe",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rushcliffe",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4155,7 +4155,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rushmoor",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rushmoor",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4167,7 +4167,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/rutland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/rutland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4179,7 +4179,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/salford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/salford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4191,7 +4191,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sandwell",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sandwell",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4203,7 +4203,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/scarborough",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/scarborough",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4215,7 +4215,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/scotland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/scotland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4227,7 +4227,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/scottish-borders",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/scottish-borders",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4239,7 +4239,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sedgemoor",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sedgemoor",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4251,7 +4251,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sefton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sefton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4263,7 +4263,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/selby",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/selby",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4275,7 +4275,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sevenoaks",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sevenoaks",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4287,7 +4287,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sheffield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sheffield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4299,7 +4299,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/shetland-islands",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/shetland-islands",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4311,7 +4311,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/shropshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/shropshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4323,7 +4323,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/slough",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/slough",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4335,7 +4335,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/solihull",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/solihull",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4347,7 +4347,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/somerset-west-and-taunton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/somerset-west-and-taunton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4359,7 +4359,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-ayrshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-ayrshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4371,7 +4371,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-cambridgeshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-cambridgeshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4383,7 +4383,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-derbyshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-derbyshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4395,7 +4395,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-east",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-east",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4407,7 +4407,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-gloucestershire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-gloucestershire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4419,7 +4419,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-hams",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-hams",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4431,7 +4431,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-holland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-holland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4443,7 +4443,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-kesteven",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-kesteven",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4455,7 +4455,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-lakeland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-lakeland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4467,7 +4467,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-lanarkshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-lanarkshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4479,7 +4479,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-norfolk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-norfolk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4491,7 +4491,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-oxfordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-oxfordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4503,7 +4503,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-ribble",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-ribble",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4515,7 +4515,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-somerset",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-somerset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4527,7 +4527,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-staffordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-staffordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4539,7 +4539,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-tyneside",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-tyneside",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4551,7 +4551,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-west",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-west",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4563,7 +4563,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-yorkshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-yorkshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4575,7 +4575,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/south-yorkshire-met-county",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/south-yorkshire-met-county",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4587,7 +4587,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/southampton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/southampton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4599,7 +4599,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/southend-on-sea",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/southend-on-sea",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4611,7 +4611,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/southwark",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/southwark",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4623,7 +4623,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/spelthorne",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/spelthorne",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4635,7 +4635,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/st-albans",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/st-albans",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4647,7 +4647,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/st-helens",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/st-helens",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4659,7 +4659,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stafford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stafford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4671,7 +4671,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/staffordshire-moorlands",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/staffordshire-moorlands",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4683,7 +4683,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stevenage",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stevenage",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4695,7 +4695,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stirling",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stirling",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4707,7 +4707,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stockport",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stockport",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4719,7 +4719,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stockton-on-tees",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stockton-on-tees",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4731,7 +4731,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stoke-on-trent",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stoke-on-trent",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4743,7 +4743,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stratford-on-avon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stratford-on-avon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4755,7 +4755,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/stroud",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/stroud",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4767,7 +4767,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sunderland",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sunderland",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4779,7 +4779,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/surrey-heath",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/surrey-heath",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4791,7 +4791,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/sutton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/sutton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4803,7 +4803,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/swale",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/swale",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4815,7 +4815,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/swansea",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/swansea",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4827,7 +4827,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/swindon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/swindon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4839,7 +4839,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tameside",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tameside",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4851,7 +4851,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tamworth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tamworth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4863,7 +4863,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tandridge",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tandridge",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4875,7 +4875,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tees-valley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tees-valley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4887,7 +4887,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/teignbridge",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/teignbridge",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4899,7 +4899,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/telford-and-wrekin",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/telford-and-wrekin",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4911,7 +4911,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tendring",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tendring",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4923,7 +4923,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tewkesbury",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tewkesbury",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4935,7 +4935,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/thanet",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/thanet",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4947,7 +4947,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/three-rivers",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/three-rivers",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4959,7 +4959,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/thurrock",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/thurrock",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4971,7 +4971,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tonbridge-and-malling",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tonbridge-and-malling",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4983,7 +4983,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/torbay",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/torbay",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -4995,7 +4995,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/torfaen",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/torfaen",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5007,7 +5007,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/torridge",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/torridge",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5019,7 +5019,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tower-hamlets",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tower-hamlets",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5031,7 +5031,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/trafford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/trafford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5043,7 +5043,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tunbridge-wells",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tunbridge-wells",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5055,7 +5055,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/tyne-and-wear-met-county",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/tyne-and-wear-met-county",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5067,7 +5067,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/united-kingdom",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/united-kingdom",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5079,7 +5079,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/uttlesford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/uttlesford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5091,7 +5091,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/vale-of-glamorgan",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/vale-of-glamorgan",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5103,7 +5103,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/vale-of-white-horse",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/vale-of-white-horse",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5115,7 +5115,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wakefield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wakefield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5127,7 +5127,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wales",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wales",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5139,7 +5139,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/walsall",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/walsall",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5151,7 +5151,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/waltham-forest",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/waltham-forest",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5163,7 +5163,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wandsworth",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wandsworth",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5175,7 +5175,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/warrington",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/warrington",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5187,7 +5187,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/warwick",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/warwick",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5199,7 +5199,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/watford",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/watford",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5211,7 +5211,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/waverley",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/waverley",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5223,7 +5223,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wealden",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wealden",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5235,7 +5235,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/welwyn-hatfield",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/welwyn-hatfield",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5247,7 +5247,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-berkshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-berkshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5259,7 +5259,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-devon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-devon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5271,7 +5271,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-dunbartonshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-dunbartonshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5283,7 +5283,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-lancashire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-lancashire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5295,7 +5295,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-lindsey",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-lindsey",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5307,7 +5307,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-lothian",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-lothian",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5319,7 +5319,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-midlands",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-midlands",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5331,7 +5331,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-midlands-met-county",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-midlands-met-county",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5343,7 +5343,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-northamptonshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-northamptonshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5355,7 +5355,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-oxfordshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-oxfordshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5367,7 +5367,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-suffolk",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-suffolk",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5379,7 +5379,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-yorkshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-yorkshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5391,7 +5391,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-yorkshire-met-county",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-yorkshire-met-county",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5403,7 +5403,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/west-of-england",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/west-of-england",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5415,7 +5415,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/westminster",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/westminster",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5427,7 +5427,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wigan",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wigan",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5439,7 +5439,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wiltshire",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wiltshire",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5451,7 +5451,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/winchester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/winchester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5463,7 +5463,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/windsor-and-maidenhead",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/windsor-and-maidenhead",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5475,7 +5475,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wirral",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wirral",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5487,7 +5487,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/woking",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/woking",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5499,7 +5499,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wokingham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wokingham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5511,7 +5511,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wolverhampton",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wolverhampton",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5523,7 +5523,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/worcester",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/worcester",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5535,7 +5535,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/worthing",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/worthing",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5547,7 +5547,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wrexham",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wrexham",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5559,7 +5559,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wychavon",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wychavon",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5571,7 +5571,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wyre",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wyre",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5583,7 +5583,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/wyre-forest",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/wyre-forest",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5595,7 +5595,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/york",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/york",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5607,7 +5607,7 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/areanm/yorkshire-and-the-humber",
+            "@id": "local-labour-market-indicators.csv#attribute/area-name/yorkshire-and-the-humber",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
@@ -5693,9 +5693,9 @@
         {
             "@id": "local-labour-market-indicators.csv#unit/percent",
             "@type": [
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
