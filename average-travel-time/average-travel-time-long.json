@@ -20,11 +20,11 @@
             "from_template": "statistical-geography"
         },
         "areanm": {
-            "type": "attribute",
+            "type": "dimension",
             "label": "Area Name"
         },
         "geography": {
-            "type": "attribute",
+            "type": "dimension",
             "label": "Geography Type"
         },
         "period": {
