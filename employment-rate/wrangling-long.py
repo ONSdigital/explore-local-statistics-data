@@ -151,9 +151,6 @@ df = df[
     ]
 ]
 
-df["numerator"] = df["numerator"].astype(int)
-df["denominator"] = df["denominator"].astype(int)
-
 # Replace 'na' values in dataframe with empty strings
 df.replace(r"^na$", "", regex=True, inplace=True)
 
