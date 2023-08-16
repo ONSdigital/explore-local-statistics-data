@@ -63,6 +63,16 @@
             }
         },
         "measure": false,
+        "numerator": {
+            "label": "Numerator",
+            "type": "attribute",
+            "data_type": "integer"
+        },
+        "denominator": {
+            "label": "Denominator",
+            "type": "attribute",
+            "data_type": "integer"
+        },
         "lower_confidence_interval_95": {
             "label": "Lower Confidence Interval",
             "type": "attribute",
