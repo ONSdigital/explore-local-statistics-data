@@ -44,6 +44,12 @@
             }
         },
         "economic_activity_rate_measure": false,
+        "economic_activity_rate_numerator": {
+            "type": "attribute"
+        },
+        "economic_activity_rate_denominator": {
+            "type": "attribute"
+        },
         "economic_activity_rate_lower_confidence_interval_95": {
             "label": "Economic Activity Rate Lower Confidence Interval",
             "type": "attribute",
@@ -78,6 +84,12 @@
             }
         },
         "employment_rate_measure": false,
+        "employment_rate_numerator": {
+            "type": "attribute"
+        },
+        "employment_rate_denominator": {
+            "type": "attribute"
+        },
         "employment_rate_lower_confidence_interval_95": {
             "label": "Employment Rate Lower Confidence Interval",
             "type": "attribute",
@@ -112,6 +124,12 @@
             }
         },
         "unemployment_activity_rate_measure": false,
+        "unemployment_activity_rate_numerator": {
+            "type": "attribute"
+        },
+        "unemployment_activity_rate_denominator": {
+            "type": "attribute"
+        },
         "unemployment_activity_rate_lower_confidence_interval_95": {
             "label": "Unemployment Activity Rate Lower Confidence Interval",
             "type": "attribute",
@@ -146,6 +164,12 @@
             }
         },
         "economically_inactive_rate_measure": false,
+        "economically_inactive_rate_numerator": {
+            "type": "attribute"
+        },
+        "economically_inactive_rate_denominator": {
+            "type": "attribute"
+        },
         "economically_inactive_rate_lower_confidence_interval_95": {
             "label": "Economically Inactive Rate Lower Confidence Interval",
             "type": "attribute",
