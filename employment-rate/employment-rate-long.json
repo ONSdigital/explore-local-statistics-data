@@ -41,15 +41,15 @@
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
+                    "label": "Unemployment Rate",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                },
+                {
                     "label": "Economic Activity Rate",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
-                    "label": "Unemployment Activity Rate",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                },
-                {
-                    "label": "Economically Inactive",
+                    "label": "Economic Inactivity Rate",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 }
             ]

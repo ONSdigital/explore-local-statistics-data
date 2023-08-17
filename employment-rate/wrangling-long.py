@@ -3,11 +3,11 @@ import pandas as pd
 df = pd.read_csv("employment-rate/employment-rate.csv")
 
 # Setup columns to use as indicators
-df["employment"], df["economic"], df["unemployment"], df["economically"] = [
+df["employment"], df["unemployment"], df["activity"], df["inactivity"] = [
     "Employment Rate",
+    "Unemployment Rate",
     "Economic Activity Rate",
-    "Unemployment Activity Rate",
-    "Economically Inactive",
+    "Economic Inactivity Rate",
 ]
 
 # Concatenate wide dataframe to long format, using above indicator columns to keep track of value sources
@@ -50,35 +50,6 @@ df = pd.concat(
                 "geography",
                 "period",
                 "unit",
-                "economic",
-                "economic_activity_rate",
-                "economic_activity_rate_measure",
-                "economic_activity_rate_numerator",
-                "economic_activity_rate_denominator",
-                "economic_activity_rate_lower_confidence_interval_95",
-                "economic_activity_rate_upper_confidence_interval_95",
-                "economic_activity_rate_observation_status",
-            ],
-        ].rename(
-            columns={
-                "economic": "indicator",
-                "economic_activity_rate": "value",
-                "economic_activity_rate_measure": "measure",
-                "economic_activity_rate_numerator": "numerator",
-                "economic_activity_rate_denominator": "denominator",
-                "economic_activity_rate_lower_confidence_interval_95": "lower_confidence_interval_95",
-                "economic_activity_rate_upper_confidence_interval_95": "upper_confidence_interval_95",
-                "economic_activity_rate_observation_status": "observation_status",
-            }
-        ),
-        df.loc[
-            :,
-            [
-                "areacd",
-                "areanm",
-                "geography",
-                "period",
-                "unit",
                 "unemployment",
                 "unemployment_activity_rate",
                 "unemployment_activity_rate_measure",
@@ -108,7 +79,36 @@ df = pd.concat(
                 "geography",
                 "period",
                 "unit",
-                "economically",
+                "activity",
+                "economic_activity_rate",
+                "economic_activity_rate_measure",
+                "economic_activity_rate_numerator",
+                "economic_activity_rate_denominator",
+                "economic_activity_rate_lower_confidence_interval_95",
+                "economic_activity_rate_upper_confidence_interval_95",
+                "economic_activity_rate_observation_status",
+            ],
+        ].rename(
+            columns={
+                "activity": "indicator",
+                "economic_activity_rate": "value",
+                "economic_activity_rate_measure": "measure",
+                "economic_activity_rate_numerator": "numerator",
+                "economic_activity_rate_denominator": "denominator",
+                "economic_activity_rate_lower_confidence_interval_95": "lower_confidence_interval_95",
+                "economic_activity_rate_upper_confidence_interval_95": "upper_confidence_interval_95",
+                "economic_activity_rate_observation_status": "observation_status",
+            }
+        ),
+        df.loc[
+            :,
+            [
+                "areacd",
+                "areanm",
+                "geography",
+                "period",
+                "unit",
+                "inactivity",
                 "economically_inactive",
                 "economically_inactive_measure",
                 "economically_inactive_numerator",
@@ -119,7 +119,7 @@ df = pd.concat(
             ],
         ].rename(
             columns={
-                "economically": "indicator",
+                "inactivity": "indicator",
                 "economically_inactive": "value",
                 "economically_inactive_measure": "measure",
                 "economically_inactive_numerator": "numerator",
