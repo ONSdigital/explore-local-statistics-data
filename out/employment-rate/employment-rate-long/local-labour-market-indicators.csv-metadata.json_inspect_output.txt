@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Local labour market indicators
           - Label: Local labour market indicators
-          - Issued: 2023-08-16T16:44:23.650219
-          - Modified: 2023-08-16T16:44:23.650219
+          - Issued: 2023-08-17T06:53:57.696201
+          - Modified: 2023-08-17T06:53:57.696201
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- region
+		-- labour-market
 		-- paid-work
 		-- local-authority
-		-- annual-population-survey
+		-- region
 		-- subnational
-		-- labour-market
+		-- annual-population-survey
           - Contact Point: None
           - Identifier: Local labour market indicators
           - Comment: Employment rate, unemployment rate, economic activity rate and economic inactivity rate for people aged between 16 and 64 years, Great Britain (Northern Ireland national figure included), 01/2004-12/2004 to 01/2022-12/2022.
@@ -113,24 +113,24 @@ K02000001 united-kingdom   country 2021-01-01t00-00-00/p1y employment-rate   74.
 K02000001 united-kingdom   country 2013-01-01t00-00-00/p1y employment-rate   71.2    % Percentage 28846200.0   40529800.0                          71.0                          71.4                NaN
 K02000001 united-kingdom   country 2020-01-01t00-00-00/p1y employment-rate   75.1    % Percentage 31074300.0   41369600.0                          74.9                          75.3                NaN
         - Last 10 Observations: 
-   areacd           areanm geography                  period             indicator  value unit    measure  numerator  denominator  lower_confidence_interval_95  upper_confidence_interval_95 observation_status
-N92000002 northern-ireland    nation 2019-01-01t00-00-00/p1y economically-inactive   26.2    % Percentage   305500.0    1167600.0                          25.1                          27.3                NaN
-N92000002 northern-ireland    nation 2006-01-01t00-00-00/p1y economically-inactive   29.6    % Percentage   330900.0    1119000.0                          28.3                          30.9                NaN
-N92000002 northern-ireland    nation 2007-01-01t00-00-00/p1y economically-inactive   28.5    % Percentage   323400.0    1133900.0                          27.2                          29.8                NaN
-N92000002 northern-ireland    nation 2008-01-01t00-00-00/p1y economically-inactive   29.2    % Percentage   334100.0    1145300.0                          27.9                          30.5                NaN
-N92000002 northern-ireland    nation 2005-01-01t00-00-00/p1y economically-inactive   29.8    % Percentage   328900.0    1105000.0                          28.5                          31.1                NaN
-N92000002 northern-ireland    nation 2004-01-01t00-00-00/p1y economically-inactive   30.3    % Percentage   331000.0    1091500.0                          29.0                          31.6                NaN
-N92000002 northern-ireland    nation 2011-01-01t00-00-00/p1y economically-inactive   27.6    % Percentage   319900.0    1159700.0                          26.3                          28.9                NaN
-N92000002 northern-ireland    nation 2012-01-01t00-00-00/p1y economically-inactive   27.6    % Percentage   320000.0    1158600.0                          26.3                          28.9                NaN
-N92000002 northern-ireland    nation 2010-01-01t00-00-00/p1y economically-inactive   29.1    % Percentage   336800.0    1157000.0                          27.7                          30.5                NaN
-N92000002 northern-ireland    nation 2009-01-01t00-00-00/p1y economically-inactive   30.1    % Percentage   347000.0    1152000.0                          28.8                          31.4                NaN
+   areacd           areanm geography                  period                indicator  value unit    measure  numerator  denominator  lower_confidence_interval_95  upper_confidence_interval_95 observation_status
+N92000002 northern-ireland    nation 2019-01-01t00-00-00/p1y economic-inactivity-rate   26.2    % Percentage   305500.0    1167600.0                          25.1                          27.3                NaN
+N92000002 northern-ireland    nation 2006-01-01t00-00-00/p1y economic-inactivity-rate   29.6    % Percentage   330900.0    1119000.0                          28.3                          30.9                NaN
+N92000002 northern-ireland    nation 2007-01-01t00-00-00/p1y economic-inactivity-rate   28.5    % Percentage   323400.0    1133900.0                          27.2                          29.8                NaN
+N92000002 northern-ireland    nation 2008-01-01t00-00-00/p1y economic-inactivity-rate   29.2    % Percentage   334100.0    1145300.0                          27.9                          30.5                NaN
+N92000002 northern-ireland    nation 2005-01-01t00-00-00/p1y economic-inactivity-rate   29.8    % Percentage   328900.0    1105000.0                          28.5                          31.1                NaN
+N92000002 northern-ireland    nation 2004-01-01t00-00-00/p1y economic-inactivity-rate   30.3    % Percentage   331000.0    1091500.0                          29.0                          31.6                NaN
+N92000002 northern-ireland    nation 2011-01-01t00-00-00/p1y economic-inactivity-rate   27.6    % Percentage   319900.0    1159700.0                          26.3                          28.9                NaN
+N92000002 northern-ireland    nation 2012-01-01t00-00-00/p1y economic-inactivity-rate   27.6    % Percentage   320000.0    1158600.0                          26.3                          28.9                NaN
+N92000002 northern-ireland    nation 2010-01-01t00-00-00/p1y economic-inactivity-rate   29.1    % Percentage   336800.0    1157000.0                          27.7                          30.5                NaN
+N92000002 northern-ireland    nation 2009-01-01t00-00-00/p1y economic-inactivity-rate   30.1    % Percentage   347000.0    1152000.0                          28.8                          31.4                NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-                   Measure    Unit  Count
-    economic-activity-rate Percent   7543
-     economically-inactive Percent   7543
-           employment-rate Percent   7543
-unemployment-activity-rate Percent   7543
+                 Measure    Unit  Count
+  economic-activity-rate Percent   7543
+economic-inactivity-rate Percent   7543
+         employment-rate Percent   7543
+       unemployment-rate Percent   7543
         
