@@ -18,15 +18,17 @@
     "columns": {
         "areacd": {
             "type": "dimension",
-            "from_template": "statistical-geography"
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
         },
         "areanm": {
             "label": "Area Name",
-            "type": "attribute"
+            "type": "dimension"
         },
         "geography": {
             "label": "Geography Type",
-            "type": "attribute"
+            "type": "dimension"
         },
         "period": {
             "type": "dimension",
