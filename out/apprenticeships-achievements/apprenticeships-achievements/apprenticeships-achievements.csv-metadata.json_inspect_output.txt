@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- apprenticeship
-		-- county
-		-- local-authority
-		-- subnational
-		-- community-learning
 		-- education-and-training
+		-- county
+		-- community-learning
+		-- local-authority
+		-- apprenticeship
+		-- subnational
           - Contact Point: None
           - Identifier: Apprenticeships achievements
           - Comment: Apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, England, academic years 2017/18 to 2022/23
@@ -42,7 +42,9 @@
 		
 		
 		### Source Notes and Caveats 
-		Figures for 2022/23 are available for August 2022 to January 2023, other years (2017/18 to 2021/22) are available for full academic years. 
+		- Achievements for 2022/23 are provisional and cover August 2022 to January 2023. 2021/22 achievements are finalised and cover the full academic year.
+		- Achievements are the count of apprenticeships achieved at any point during the stated academic period. Learners achieving more than one apprenticeship will appear more than once.
+		- Geography is based upon the home postcode of the learner.
 		
 		
 		
