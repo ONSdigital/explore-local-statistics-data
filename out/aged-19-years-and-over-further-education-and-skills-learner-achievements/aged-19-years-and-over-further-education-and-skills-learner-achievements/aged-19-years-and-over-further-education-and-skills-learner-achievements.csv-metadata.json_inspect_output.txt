@@ -14,15 +14,15 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- subnational
-		-- county
-		-- community-learning
-		-- education-and-training
 		-- apprenticeship
+		-- education-and-training
+		-- county
+		-- subnational
+		-- community-learning
           - Contact Point: None
           - Identifier: Aged 19 years and over further education and skills learner achievements
-          - Comment: Count of learners achieving a funded further education and skills learning aim, with the exception of community learning, England, academic years 2016/17 to 2021/22
-          - Description: This dataset shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, in England, for academic years 2016/17 to 2021/22.
+          - Comment: Count of learners achieving a funded further education and skills learning aim, with the exception of community learning, non-qualification parts of the Multiply programme and bootcamps, England, academic years 2016/17 to 2021/22
+          - Description: This dataset shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, non-qualification parts of the Multiply programme and bootcamps, in England, for academic years 2016/17 to 2021/22.
 		
 		### Coverage 
 		
