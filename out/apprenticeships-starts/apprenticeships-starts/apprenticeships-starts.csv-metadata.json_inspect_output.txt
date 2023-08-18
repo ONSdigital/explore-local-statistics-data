@@ -15,10 +15,10 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
 		-- county
+		-- education-and-training
 		-- apprenticeship
 		-- subnational
 		-- community-learning
-		-- education-and-training
 		-- local-authority
           - Contact Point: None
           - Identifier: Apprenticeships starts
@@ -42,7 +42,9 @@
 		
 		
 		### Source Notes and Caveats 
-		Figures for 2022/23 are available for August 2022 to January 2023, other years (2017/18 to 2021/22) are available for full academic years. 
+		- Starts for 2022/23 are provisional and cover August 2022 to January 2023. 2021/22 starts are finalised and cover the full academic year.
+		- Starts are the count of apprenticeships started at any point during the stated academic period. Learners starting more than one apprenticeship will appear more than once.
+		- Geography is based upon the home postcode of the learner. 
 		
 		
 		
