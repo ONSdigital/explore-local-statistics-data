@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- region
-		-- county
 		-- local-authority
-		-- subnational
 		-- tumor
+		-- subnational
+		-- county
+		-- region
           - Contact Point: None
           - Identifier: Cancer diagnosis at stage 1 and 2
           - Comment: New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, England, 2013 to 2020
@@ -42,7 +42,8 @@
 		
 		
 		### Source Notes and Caveats 
-		Values for Cornwall and Isles of Scilly are in a combined code (E67000002).  
+		- Due to the impact of the COVID-19 pandemic on both clinical and data quality arrangements, the ability to obtain stage data for cancer registrations was reduced for the 2019 and 2020 diagnosis years. In 2019, the proportion of stageable cancer diagnoses with a registered stage fell from 85% in 2018 to 76%. For the 2020 diagnosis year, stage completeness increased to 81%.
+		- Values for Cornwall and Isles of Scilly are in a combined code (E67000002).  
 		
 		
 		
