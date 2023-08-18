@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Local labour market indicators
           - Label: Local labour market indicators
-          - Issued: 2023-08-17T09:29:24.665353
-          - Modified: 2023-08-17T09:29:24.665353
+          - Issued: 2023-08-18T12:03:53.499385
+          - Modified: 2023-08-18T12:03:53.499385
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- labour-market
-		-- local-authority
-		-- annual-population-survey
-		-- paid-work
 		-- subnational
+		-- local-authority
+		-- paid-work
+		-- labour-market
 		-- region
+		-- annual-population-survey
           - Contact Point: None
           - Identifier: Local labour market indicators
           - Comment: Employment rate, unemployment rate, economic activity rate and economic inactivity rate for people aged between 16 and 64 years, Great Britain (Northern Ireland national figure included), 01/2004-12/2004 to 01/2022-12/2022.
@@ -77,7 +77,7 @@
                           areacd    Dimension      True        local-labour-market-indicators.csv#dimension/ons-geography-code                           
                           areanm    Dimension      True                 local-labour-market-indicators.csv#dimension/area-name                           
                        geography    Dimension      True            local-labour-market-indicators.csv#dimension/geography-type                           
-                          period    Dimension      True   local-labour-market-indicators.csv#dimension/gregorian-time-interval                           
+                          period    Dimension      True                      local-labour-market-indicators.csv#dimension/year                           
                        indicator     Measures      True                           http://purl.org/linked-data/cube#measureType                      value
                            value Observations     False                local-labour-market-indicators.csv#measure/{+indicator}                           
                             unit   Suppressed     False                                                                   None                           
@@ -94,11 +94,11 @@
 - The data cube has the following code list information:
         - Number of Code Lists: 4
         - Code Lists:
-                            Code List         Code List Label Columns Used In
-              area-name.csv#code-list               Area Name          areanm
-         geography-type.csv#code-list          Geography Type       geography
-gregorian-time-interval.csv#code-list Gregorian Time Interval          period
-     ons-geography-code.csv#code-list      ONS Geography Code          areacd
+                       Code List    Code List Label Columns Used In
+         area-name.csv#code-list          Area Name          areanm
+    geography-type.csv#code-list     Geography Type       geography
+ons-geography-code.csv#code-list ONS Geography Code          areacd
+              year.csv#code-list               Year          period
 
 - The data cube has the following dataset information:
         - Number of Observations: 30172
