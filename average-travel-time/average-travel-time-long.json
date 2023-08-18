@@ -45,9 +45,9 @@
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#travel-time"
             }
         },
-        "type-of-travel": {
+        "mode-of-travel": {
             "type": "dimension",
-            "label": "Type of travel"
+            "label": "Mode of travel"
         },
         "lower_confidence_interval_95": false,
         "upper_confidence_interval_95": false,
