@@ -151,6 +151,9 @@ df = df[
     ]
 ]
 
+# Just use the year from the gregorian interval provided
+df.period = df.period.str[:4]
+
 # Replace 'na' values in dataframe with empty strings
 df.replace(r"^na$", "", regex=True, inplace=True)
 
