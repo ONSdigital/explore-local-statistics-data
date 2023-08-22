@@ -2,8 +2,8 @@
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
     "title": "Gigabit capable broadband",
     "creator": "https://www.gov.uk/government/organisations/ofcom",
-    "summary": "Percentage of premises with 125 megabytes (MB) or greater, UK, September 2022.",
-    "description": "This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for September 2022.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2022#) \n\n\n",
+    "summary": "Percentage of premises with 125 megabytes (MB) or greater, UK, January 2023.",
+    "description": "This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for January 2023.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/spring-2023) \n\n\n",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "broadband-mobile-coverage",
