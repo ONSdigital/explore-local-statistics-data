@@ -14,14 +14,14 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
+		-- broadband-mobile-coverage
+		-- local-authority
 		-- subnational
 		-- connectivity
-		-- local-authority
-		-- broadband-mobile-coverage
           - Contact Point: None
           - Identifier: 4G coverage
-          - Comment: Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, September 2022.
-          - Description: This dataset shows the percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), in the UK, for September 2022.
+          - Comment: Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, January 2023.
+          - Description: This dataset shows the percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), in the UK, for January 2023.
 		
 		### Coverage 
 		
@@ -33,7 +33,7 @@
 		
 		### Source
 		
-		 - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2022) 
+		 - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/spring-2023) 
 		
 		
 		
