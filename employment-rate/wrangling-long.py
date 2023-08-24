@@ -152,7 +152,7 @@ df = df[
 ]
 
 # Use the year from the gregorian interval provided
-df.period = df.period.str[:4]
+#df.period = df.period.str[:4]
 
 # Replace 'na' values in dataframe with empty strings
 df.replace(r"^na$", "", regex=True, inplace=True)
@@ -164,5 +164,7 @@ df.loc[df.value != "", "observation_status"] = df.observation_status.fillna(
     "x", inplace=True
 )
 """
+df['lower_confidence_interval_95'] = df['lower_confidence_interval_95'].astype(float).round(2)
+df['upper_confidence_interval_95'] = df['upper_confidence_interval_95'].astype(float).round(2)
 
 df.to_csv("employment-rate/employment-rate-long.csv", index=False)
