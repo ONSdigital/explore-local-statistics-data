@@ -14,14 +14,14 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- broadband-mobile-coverage
-		-- local-authority
 		-- subnational
+		-- local-authority
 		-- connectivity
+		-- broadband-mobile-coverage
           - Contact Point: None
           - Identifier: Gigabit capable broadband
-          - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, September 2022.
-          - Description: This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for September 2022.
+          - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, January 2023.
+          - Description: This dataset shows the percentage of premises with 125 megabytes (MB) or greater, in the UK, for January 2023.
 		
 		### Coverage 
 		
@@ -33,7 +33,7 @@
 		
 		### Source
 		
-		 - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-2022#) 
+		 - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/spring-2023) 
 		
 		
 		

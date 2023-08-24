@@ -23,12 +23,12 @@
             "code_list": true
         },
         "areanm": {
-            "label": "Area Name",
-            "type": "dimension"
+            "type": "dimension",
+            "label": "Area Name"
         },
         "geography": {
-            "label": "Geography Type",
-            "type": "dimension"
+            "type": "dimension",
+            "label": "Geography Type"
         },
         "period": {
             "type": "dimension",
@@ -66,30 +66,30 @@
         },
         "measure": false,
         "numerator": {
-            "label": "Numerator",
             "type": "attribute",
+            "label": "Numerator",
             "data_type": "integer"
         },
         "denominator": {
-            "label": "Denominator",
             "type": "attribute",
+            "label": "Denominator",
             "data_type": "integer"
         },
         "lower_confidence_interval_95": {
-            "label": "Lower Confidence Interval",
             "type": "attribute",
+            "label": "Lower Confidence Interval",
             "data_type": "decimal",
             "required": false
         },
         "upper_confidence_interval_95": {
-            "label": "Upper Confidence Interval",
             "type": "attribute",
+            "label": "Upper Confidence Interval",
             "data_type": "decimal",
             "required": false
         },
         "observation_status": {
-            "label": "Observation Status",
             "type": "attribute",
+            "label": "Observation Status",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
             "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
         }
