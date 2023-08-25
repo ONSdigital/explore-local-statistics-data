@@ -159,11 +159,9 @@ df.replace(r"^na$", "", regex=True, inplace=True)
 
 # Replace empty observation_status cells only if value cell is also empty
 # Not necessary if base csv has already been updated to fix this issue
-"""
-df.loc[df.value != "", "observation_status"] = df.observation_status.fillna(
-    "x", inplace=True
-)
-"""
+
+df['observation_status'] = df.apply(lambda x: 'x' if pd.isna(x.value) else x['observation_status'], axis = 1 )
+
 df['lower_confidence_interval_95'] = df['lower_confidence_interval_95'].astype(float).round(2)
 df['upper_confidence_interval_95'] = df['upper_confidence_interval_95'].astype(float).round(2)
 
