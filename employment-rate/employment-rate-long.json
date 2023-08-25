@@ -79,12 +79,14 @@
             "type": "attribute",
             "label": "Lower Confidence Interval",
             "data_type": "decimal",
+            "describes_observations": "value",
             "required": false
         },
         "upper_confidence_interval_95": {
             "type": "attribute",
             "label": "Upper Confidence Interval",
             "data_type": "decimal",
+            "describes_observations": "value",
             "required": false
         },
         "observation_status": {
