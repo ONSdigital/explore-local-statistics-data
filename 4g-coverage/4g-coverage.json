@@ -1,5 +1,5 @@
 {
-    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1.5",
     "title": "4G coverage",
     "creator": "https://www.gov.uk/government/organisations/ofcom",
     "summary": "Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, January 2023.",
