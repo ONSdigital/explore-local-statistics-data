@@ -1,5 +1,5 @@
 {
-    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1.5",
     "title": "Cardiovascular mortality considered preventable in persons aged under 75, based on 2021 Census mid-year population estimates",
     "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
     "summary": "Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, England, 2021",
@@ -21,13 +21,22 @@
             "type": "dimension",
             "from_template": "mixed-period"
         },
+
         "AREACD": {
-            "label": "Statistical Geography",
             "type": "dimension",
-            "code_list": "./geography_code_list.json"
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
         },
-        "AREANM": false,
-        "Geography": false,
+        
+        "AREANM": {
+            "type": "dimension",
+            "label": "Area Name"
+        },
+        "Geography": {
+            "type": "dimension",
+            "label": "Geography Type"
+        },
         "Variable Name": false,
         "Indicator": false,
         "Mission": false,
