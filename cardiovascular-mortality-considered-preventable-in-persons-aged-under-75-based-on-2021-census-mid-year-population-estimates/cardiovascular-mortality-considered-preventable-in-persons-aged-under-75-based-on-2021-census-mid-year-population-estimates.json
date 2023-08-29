@@ -1,5 +1,5 @@
 {
-    "$schema": "https://purl.org/csv-cubed/qube-config/v1.5",
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
     "title": "Cardiovascular mortality considered preventable in persons aged under 75, based on 2021 Census mid-year population estimates",
     "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
     "summary": "Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, England, 2021",

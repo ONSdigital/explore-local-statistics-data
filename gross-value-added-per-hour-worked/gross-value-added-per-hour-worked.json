@@ -1,5 +1,5 @@
 {
-    "$schema": "https://purl.org/csv-cubed/qube-config/v1.5",
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
     "title": "Gross Value Added per hour worked",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "summary": "Measure of business productivity (estimate of the volume of goods and services produced) in \u00a3 per hour worked (experimental statistics), in the UK, 2004-2021.",

@@ -1,5 +1,5 @@
 {
-    "$schema": "https://purl.org/csv-cubed/qube-config/v1.5",
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",
     "title": "Schools and nursery schools rated good or outstanding",
     "creator": "https://www.gov.uk/government/organisations/ofsted",
     "summary": "Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated \u2018Good\u2019 or \u2018Outstanding\u2019 by Ofsted, England (state-funded schools), as at 31 July 2023",
