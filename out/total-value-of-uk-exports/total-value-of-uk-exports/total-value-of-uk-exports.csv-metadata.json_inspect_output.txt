@@ -14,17 +14,17 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/internationaltrade
           - Keywords: 
-		-- goods-and-services
-		-- exports
-		-- international-territorial-level
-		-- trade-deficit
-		-- imports
-		-- subnational
 		-- economic-growth
+		-- international-territorial-level
+		-- exports
+		-- imports
+		-- trade-deficit
+		-- goods-and-services
+		-- subnational
           - Contact Point: None
           - Identifier: Total value of UK exports
-          - Comment: Estimated total value of UK exports including trade in both goods and services (experimental statistics), Great Britain (Northern Ireland national figure included), 2020.
-          - Description: This dataset shows the estimated total value of UK exports including trade in both goods and services (experimental statistics), in Great Britain (Northern Ireland national figure included), for 2020.
+          - Comment: Estimated total value of UK exports including trade in both goods and services (experimental statistics), UK, 2021
+          - Description: This dataset shows the estimated total value of UK exports including trade in both goods and services (experimental statistics), in the UK, for 2021.
 		
 		### Coverage 
 		
@@ -38,7 +38,7 @@
 		
 		### Source
 		
-		 - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousReleases) 
+		 - UK: [Office for National Statistics](https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousReleases) 
 		
 		
 		
@@ -48,9 +48,9 @@
     - Dataset Label: Total value of UK exports
     - Columns: 
                               Title         Type  Required                                                      Property URL Observations Column Titles
-                             AREACD    Dimension      True     total-value-of-uk-exports.csv#dimension/statistical-geography                      Value
-                             AREANM   Suppressed     False                                                              None                           
-                          Geography   Suppressed     False                                                              None                           
+                             AREACD    Dimension      True        total-value-of-uk-exports.csv#dimension/ons-geography-code                      Value
+                             AREANM    Dimension      True                 total-value-of-uk-exports.csv#dimension/area-name                      Value
+                          Geography    Dimension      True            total-value-of-uk-exports.csv#dimension/geography-type                      Value
                       Variable Name   Suppressed     False                                                              None                           
                           Indicator   Suppressed     False                                                              None                           
                             Mission   Suppressed     False                                                              None                           
@@ -65,8 +65,6 @@
                            Polarity   Suppressed     False                                                              None                           
                               Notes   Suppressed     False                                                              None                           
     - Columns where suppress output is true: 
-    		-- AREANM
-    		-- Geography
     		-- Variable Name
     		-- Indicator
     		-- Mission
@@ -77,43 +75,45 @@
     		-- Notes
 
 - The data cube has the following code list information:
-        - Number of Code Lists: 2
+        - Number of Code Lists: 4
         - Code Lists:
-                                                          Code List                                       Code List Label Columns Used In
-ons-geography-code-list-for-total-value-of-uk-exports.csv#code-list ONS Geography Code List for Total value of UK exports          AREACD
-                                                 year.csv#code-list                                                  Year          Period
+                       Code List    Code List Label Columns Used In
+         area-name.csv#code-list          Area Name          AREANM
+    geography-type.csv#code-list     Geography Type       Geography
+ons-geography-code.csv#code-list ONS Geography Code          AREACD
+              year.csv#code-list               Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 235
+        - Number of Rows: 250
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD                            AREANM                         Geography             Variable Name                 Indicator   Mission                                              Category  Period    Value Measure      Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
-k02000001                    United Kingdom                           Country Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020 609667.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-      tlb                           England                       ITL Level 1 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020 490922.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-      tlc                        North East                       ITL Level 1 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020  17962.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-     tlc1            Tees Valley and Durham                       ITL Level 2 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   9298.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-e47000006                       Tees Valley Combined Authority or City Region Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   6340.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-    tlc11   Hartlepool and Stockton-on-Tees                       ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   5028.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-    tlc12                    South Teesside                       ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   1092.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-    tlc13                        Darlington                       ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020    220.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-    tlc14                            Durham                       ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   2957.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-     tlc2 Northumberland, and Tyne and Wear                       ITL Level 2 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   8665.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+   AREACD                           AREANM                         Geography             Variable Name                 Indicator   Mission                                              Category  Period    Value Measure      Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
+k02000001                   united-kingdom                           country Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021 654014.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+e92000001                          england                            nation Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021 539232.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+      tlc                       north-east                       itl-level-1 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021  18630.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+     tlc1           tees-valley-and-durham                       itl-level-2 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021      NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
+e47000006                      tees-valley combined-authority-or-city-region Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021      NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
+    tlc11  hartlepool-and-stockton-on-tees                       itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021   4529.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+    tlc12                   south-teesside                       itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021      NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
+    tlc13                       darlington                       itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021      NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
+    tlc14                           durham                       itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021   3154.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+     tlc2 northumberland-and-tyne-and-wear                       itl-level-2 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021      NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
         - Last 10 Rows: 
-AREACD                                          AREANM   Geography             Variable Name                 Indicator   Mission                                              Category  Period   Value Measure      Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
- tlm82                                    Glasgow City ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020  5549.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm83 Inverclyde, East Renfrewshire, and Renfrewshire ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020  2908.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm84                               North Lanarkshire ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020  1461.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-  tlm9                               Southern Scotland ITL Level 2 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020  4611.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm91                                Scottish Borders ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   582.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm92                           Dumfries and Galloway ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   600.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm93       East Ayrshire and North Ayrshire mainland ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   934.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm94                                  South Ayrshire ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020  1522.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
- tlm95                               South Lanarkshire ITL Level 3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020   974.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
-   tln                                Northern Ireland ITL Level 1 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2020 12016.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+AREACD                              AREANM   Geography             Variable Name                 Indicator   Mission                                              Category  Period  Value Measure      Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
+ tln07 armagh-city-banbridge-and-craigavon itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021 1878.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln08               newry-mourne-and-down itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021  886.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln09                 ards-and-north-down itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021    NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
+ tln0a             derry-city-and-strabane itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021 1176.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln0b                          mid-ulster itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021 1786.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln0c            causeway-coast-and-glens itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021    NaN  Pounds £ million                              NaN                              NaN                  x         1    NaN
+ tln0d             antrim-and-newtownabbey itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021  748.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln0e             lisburn-and-castlereagh itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021  616.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln0f                 mid-and-east-antrim itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021  596.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
+ tln0g                 fermanagh-and-omagh itl-level-3 Total value of UK exports Total value of UK exports Mission 1 Boosting productivity, pay, jobs and living standards    2021  801.0  Pounds £ million                              NaN                              NaN                NaN         1    NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                   Measure                      Unit  Count
-Total value of UK exports Pounds Sterling, Millions    235
+Total value of UK exports Pounds Sterling, Millions    250
         
