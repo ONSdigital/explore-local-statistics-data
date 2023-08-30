@@ -21,14 +21,12 @@
             "type": "dimension",
             "from_template": "mixed-period"
         },
-        
         "AREACD": {
             "type": "dimension",
             "from_template": "statistical-geography",
             "label": "ONS Geography Code",
             "code_list": true
         },
-        
         "AREANM": {
             "type": "dimension",
             "label": "Area Name"
@@ -79,5 +77,4 @@
         "Polarity": false,
         "Notes": false
     }
-    
 }
