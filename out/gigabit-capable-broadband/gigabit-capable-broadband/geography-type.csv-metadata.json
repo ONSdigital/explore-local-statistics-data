@@ -1,11 +1,11 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "month.csv#code-list",
-    "url": "month.csv",
-    "tableSchema": "month.table.json",
+    "@id": "geography-type.csv#code-list",
+    "url": "geography-type.csv",
+    "tableSchema": "geography-type.table.json",
     "rdfs:seeAlso": [
         {
-            "@id": "month.csv#csvcubed-build-activity",
+            "@id": "geography-type.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/ns/prov#Activity",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "@id": "month.csv#code-list",
+            "@id": "geography-type.csv#code-list",
             "@type": [
                 "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset",
@@ -27,36 +27,36 @@
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
-                    "@value": "Month"
+                    "@value": "Geography Type"
                 }
             ],
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-08-30T16:29:18.539171"
+                    "@value": "2023-08-30T16:29:18.535927"
                 }
             ],
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-08-30T16:29:18.539171"
+                    "@value": "2023-08-30T16:29:18.535927"
                 }
             ],
             "http://purl.org/dc/terms/title": [
                 {
                     "@language": "en",
-                    "@value": "Month"
+                    "@value": "Geography Type"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Month"
+                    "@value": "Geography Type"
                 }
             ],
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
-                    "@id": "month.csv#csvcubed-build-activity"
+                    "@id": "geography-type.csv#csvcubed-build-activity"
                 }
             ]
         }

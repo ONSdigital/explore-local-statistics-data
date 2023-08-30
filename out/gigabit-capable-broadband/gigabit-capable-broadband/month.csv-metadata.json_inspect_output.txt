@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Month
           - Label: Month
-          - Issued: 2023-08-22T14:15:00.859829
-          - Modified: 2023-08-22T14:15:00.859829
+          - Issued: 2023-08-30T16:29:18.539171
+          - Modified: 2023-08-30T16:29:18.539171
           - License: None
           - Creator: None
           - Publisher: None
@@ -24,13 +24,13 @@
         - Number of Duplicates: 0
         - Concepts: 
 Uri Identifier   Label Notation  Parent Uri Identifier  Sort Priority  Description                          Original Concept URI
-       2022-09 2022-09  2022-09                    NaN              0          NaN http://reference.data.gov.uk/id/month/2022-09
+       2023-01 2023-01  2023-01                    NaN              0          NaN http://reference.data.gov.uk/id/month/2023-01
         
 
 - The code list has the following concepts information:
         - Concepts hierarchy depth: 1
         - Concepts hierarchy:
 root
-└── 2022-09
+└── 2023-01
 
         

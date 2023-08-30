@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
+		-- broadband-mobile-coverage
 		-- subnational
 		-- local-authority
 		-- connectivity
-		-- broadband-mobile-coverage
           - Contact Point: None
           - Identifier: Gigabit capable broadband
           - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, January 2023.
@@ -43,9 +43,9 @@
     - Dataset Label: Gigabit capable broadband
     - Columns: 
                               Title         Type  Required                                                                  Property URL Observations Column Titles
-                             AREACD    Dimension      True                 gigabit-capable-broadband.csv#dimension/statistical-geography                      Value
-                             AREANM   Suppressed     False                                                                          None                           
-                          Geography   Suppressed     False                                                                          None                           
+                             AREACD    Dimension      True                    gigabit-capable-broadband.csv#dimension/ons-geography-code                      Value
+                             AREANM    Dimension      True                             gigabit-capable-broadband.csv#dimension/area-name                      Value
+                          Geography    Dimension      True                        gigabit-capable-broadband.csv#dimension/geography-type                      Value
                       Variable Name   Suppressed     False                                                                          None                           
                           Indicator   Suppressed     False                                                                          None                           
                             Mission   Suppressed     False                                                                          None                           
@@ -60,8 +60,6 @@
                            Polarity   Suppressed     False                                                                          None                           
                               Notes   Suppressed     False                                                                          None                           
     - Columns where suppress output is true: 
-    		-- AREANM
-    		-- Geography
     		-- Variable Name
     		-- Indicator
     		-- Mission
@@ -72,39 +70,41 @@
     		-- Notes
 
 - The data cube has the following code list information:
-        - Number of Code Lists: 2
+        - Number of Code Lists: 4
         - Code Lists:
-                                                          Code List                                       Code List Label Columns Used In
-                                                month.csv#code-list                                                 Month          Period
-ons-geography-code-list-for-gigabit-capable-broadband.csv#code-list ONS Geography Code List for Gigabit capable broadband          AREACD
+                       Code List    Code List Label Columns Used In
+         area-name.csv#code-list          Area Name          AREANM
+    geography-type.csv#code-list     Geography Type       Geography
+             month.csv#code-list              Month          Period
+ons-geography-code.csv#code-list ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
         - Number of Rows: 374
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD               AREANM                   Geography                           Variable Name                 Indicator   Mission                                              Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-e06000047        County Durham County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   49.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000005           Darlington County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   85.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000001           Hartlepool County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   89.8 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000002        Middlesbrough County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   93.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000057       Northumberland County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   32.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000003 Redcar and Cleveland County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   87.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000004     Stockton-on-Tees County or Unitary Authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   89.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e08000037            Gateshead    Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   70.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e08000021  Newcastle upon Tyne    Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   77.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e08000022       North Tyneside    Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   82.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000047        county-durham county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   52.8 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000005           darlington county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   86.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000001           hartlepool county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   90.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000002        middlesbrough county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   94.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000057       northumberland county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   39.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000003 redcar-and-cleveland county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   87.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000004     stockton-on-tees county-or-unitary-authority Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   92.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e08000037            gateshead    local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   72.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e08000021  newcastle-upon-tyne    local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   79.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e08000022       north-tyneside    local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   84.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
         - Last 10 Rows: 
-   AREACD                               AREANM                Geography                           Variable Name                 Indicator   Mission                                              Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-n09000002 Armagh City, Banbridge and Craigavon Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   83.2 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000003                              Belfast Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   94.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000004             Causeway Coast and Glens Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   82.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000005              Derry City and Strabane Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   87.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000006                  Fermanagh and Omagh Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   71.2 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000007              Lisburn and Castlereagh Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   87.6 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000008                  Mid and East Antrim Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   85.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000009                           Mid Ulster Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   74.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000010               Newry, Mourne and Down Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   82.6 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-n09000011                  Ards and North Down Local Authority District Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2022-09   88.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+   AREACD                              AREANM                Geography                           Variable Name                 Indicator   Mission                                              Category  Period  Value    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+n09000002 armagh-city-banbridge-and-craigavon local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   87.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000003                             belfast local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   95.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000004            causeway-coast-and-glens local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   86.6 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000005             derry-city-and-strabane local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   89.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000006                 fermanagh-and-omagh local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   79.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000007             lisburn-and-castlereagh local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   92.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000008                 mid-and-east-antrim local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   88.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000009                          mid-ulster local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   76.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000010               newry-mourne-and-down local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   90.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+n09000011                 ards-and-north-down local-authority-district Premises with gigabit capable broadband Gigabit capable broadband Mission 4 Boosting productivity, pay, jobs and living standards 2023-01   89.8 Percentage    %                              NaN                              NaN                 NaN         1   NaN
         
 
 - The data cube has the following value counts:
