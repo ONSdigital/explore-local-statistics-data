@@ -21,14 +21,22 @@
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
     "columns": {
         "AREACD": {
-            "from_template": "statistical-geography"
+            "type": "dimension",
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
         },
+
         "AREANM": {
-            "type": "attribute"
+            "type": "dimension",
+            "label": "Area Name"
         },
+
         "Geography": {
-            "type": "attribute"
+            "type": "dimension",
+            "label": "Geography Type"
         },
+        
         "Period": {
             "type": "dimension",
             "from_template": "government-year"
