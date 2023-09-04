@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/internationaltrade
           - Keywords: 
-		-- economic-growth
 		-- international-territorial-level
-		-- exports
-		-- imports
 		-- trade-deficit
 		-- goods-and-services
+		-- economic-growth
+		-- exports
 		-- subnational
+		-- imports
           - Contact Point: None
           - Identifier: Total value of UK exports
           - Comment: Estimated total value of UK exports including trade in both goods and services (experimental statistics), UK, 2021
@@ -28,7 +28,7 @@
 		
 		### Coverage 
 		
-		GB (England, Wales and Scotland). Northern Ireland national figure included.
+		UK 
 		
 		#### Geography definition
 		
