@@ -15,18 +15,18 @@
 		-- https://www.ons.gov.uk/economy/economicoutputandproductivity
           - Keywords: 
 		-- subnational
-		-- international-territorial-level
+		-- subregional-productivity
 		-- region
 		-- local-authority
-		-- subregional-productivity
+		-- international-territorial-level
           - Contact Point: None
           - Identifier: Gross Value Added per hour worked
-          - Comment: Measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (experimental statistics), in the UK, 2004-2021.
-          - Description: This dataset shows the measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (experimental statistics), UK, for 2004-2021.
+          - Comment: Measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (experimental statistics), UK, 2004-2021.
+          - Description: This dataset shows the measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (experimental statistics), in the UK, for 2004-2021.
 		
 		### Coverage 
 		
-		GB (England, Wales and Scotland). Northern Ireland national figure included.
+		UK 
 		
 		#### Geography definition
 		
