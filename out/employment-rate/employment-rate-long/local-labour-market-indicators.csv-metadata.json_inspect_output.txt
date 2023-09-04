@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Local labour market indicators
           - Label: Local labour market indicators
-          - Issued: 2023-08-30T16:23:29.878743
-          - Modified: 2023-08-30T16:23:29.878743
+          - Issued: 2023-09-04T09:27:38.706077
+          - Modified: 2023-09-04T09:27:38.706077
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,10 +15,10 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
 		-- subnational
-		-- local-authority
-		-- paid-work
 		-- labour-market
 		-- region
+		-- local-authority
+		-- paid-work
 		-- annual-population-survey
           - Contact Point: None
           - Identifier: Local labour market indicators
@@ -36,7 +36,7 @@
 		Economic inactivity rate age 16 to 64 
 		 - the proportion of people aged between 16 and 64 years who are not in employment but do not meet the internationally accepted definition of unemployment because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks 
 		
-		 In Great Britain (Northern Ireland national figure included), for periods 01/2004-12/2004 to 01/2022-12/2022.
+		 In Great Britain (Northern Ireland national figure included), for periods 04/2004-03/2005 to 04/2022-03/2023.
 		
 		### Coverage 
 		
@@ -58,8 +58,8 @@
 		
 		### Source Notes and Caveats 
 		Calculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. 
-		Calculation of unemployment rate: number of unemployed people aged 16 to 64 years divided by the sum of employed people aged 16 to 64 years plus unemployed people aged 16 to 64 years.
-		Calculation of economic activity rate: number of economically active people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.
+		Calculation of unemployment rate: number of unemployed people aged 16 to 64 years divided by the sum of employed people aged 16 to 64 years plus unemployed people aged 16 to 64 years. 
+		Calculation of economic activity rate: number of economically active people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. 
 		Calculation of economic inactivity rate: number of economically inactive people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. 
 		
 		
