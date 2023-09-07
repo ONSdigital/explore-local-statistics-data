@@ -3,8 +3,8 @@
 
 
         - The data cube has the following catalog metadata:
-          - Title: Cardiovascular mortality considered preventable in persons aged under 75, 2011 Census population estimates
-          - Label: Cardiovascular mortality considered preventable in persons aged under 75, 2011 Census population estimates
+          - Title: Under 75 cardiovascular mortality considered preventable, 2011 Census mid-year population estimates
+          - Label: Under 75 cardiovascular mortality considered preventable, 2011 Census mid-year population estimates
           - Issued: 2023-05-17T12:26:10.462689
           - Modified: 2023-05-17T12:26:10.462689
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
@@ -14,14 +14,14 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
+		-- region
 		-- county
 		-- heart-disease
-		-- region
-		-- premature-death
 		-- subnational
+		-- premature-death
 		-- local-authority
           - Contact Point: None
-          - Identifier: Cardiovascular mortality considered preventable in persons aged under 75, 2011 Census population estimates
+          - Identifier: Under 75 cardiovascular mortality considered preventable, 2011 Census mid-year population estimates
           - Comment: Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2011 Census mid-year population estimates, England, 2001 to 2020
           - Description: This dataset shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2011 Census mid-year population estimates, in England, for 2001 to 2020.
 		
@@ -55,25 +55,25 @@
         
 
  - The data cube has the following column component information: 
-    - Dataset Label: Cardiovascular mortality considered preventable in persons aged under 75, 2011 Census population estimates
+    - Dataset Label: Under 75 cardiovascular mortality considered preventable, 2011 Census mid-year population estimates
     - Columns: 
-                              Title         Type  Required                                                                                                                                                                                     Property URL Observations Column Titles
-                             AREACD    Dimension      True                                                       cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#dimension/ons-geography-code                      Value
-                             AREANM    Dimension      True                                                                cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#dimension/area-name                      Value
-                          Geography    Dimension      True                                                           cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#dimension/geography-type                      Value
-                      Variable Name   Suppressed     False                                                                                                                                                                                             None                           
-                          Indicator   Suppressed     False                                                                                                                                                                                             None                           
-                            Mission   Suppressed     False                                                                                                                                                                                             None                           
-                           Category   Suppressed     False                                                                                                                                                                                             None                           
-                             Period    Dimension      True                                                        cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#dimension/mixed-time-period                      Value
-                              Value Observations     False cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#measure/persons-aged-under-75-with-cardiovascular-mortality-considered-preventable                      Value
-                            Measure   Suppressed     False                                                                                                                                                                                             None                           
-                               Unit   Suppressed     False                                                                                                                                                                                             None                           
-    Lower Confidence Interval (95%)    Attribute     False                                                cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#attribute/lower-confidence-interval                      Value
-    Upper Confidence Interval (95%)    Attribute     False                                                cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#attribute/upper-confidence-interval                      Value
-                 Observation Status    Attribute     False                                                       cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2011-census-population-estimates.csv#attribute/observation-status                      Value
-                           Polarity   Suppressed     False                                                                                                                                                                                             None                           
-                              Notes   Suppressed     False                                                                                                                                                                                             None                           
+                              Title         Type  Required                                                                                                                                                                                            Property URL Observations Column Titles
+                             AREACD    Dimension      True                                                                     under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#dimension/ons-geography-code                      Value
+                             AREANM    Dimension      True                                                                              under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#dimension/area-name                      Value
+                          Geography    Dimension      True                                                                         under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#dimension/geography-type                      Value
+                      Variable Name   Suppressed     False                                                                                                                                                                                                    None                           
+                          Indicator   Suppressed     False                                                                                                                                                                                                    None                           
+                            Mission   Suppressed     False                                                                                                                                                                                                    None                           
+                           Category   Suppressed     False                                                                                                                                                                                                    None                           
+                             Period    Dimension      True                                                                      under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#dimension/mixed-time-period                      Value
+                              Value Observations     False under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#measure/persons-aged-under-75-mortality-rate-from-cardiovascular-diseases-considered-preventable                      Value
+                            Measure   Suppressed     False                                                                                                                                                                                                    None                           
+                               Unit   Suppressed     False                                                                                                                                                                                                    None                           
+    Lower Confidence Interval (95%)    Attribute     False                                                              under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#attribute/lower-confidence-interval                      Value
+    Upper Confidence Interval (95%)    Attribute     False                                                              under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#attribute/upper-confidence-interval                      Value
+                 Observation Status    Attribute     False                                                                     under-75-cardiovascular-mortality-considered-preventable-2011-census-mid-year-population-estimates.csv#attribute/observation-status                      Value
+                           Polarity   Suppressed     False                                                                                                                                                                                                    None                           
+                              Notes   Suppressed     False                                                                                                                                                                                                    None                           
     - Columns where suppress output is true: 
     		-- Variable Name
     		-- Indicator
@@ -124,6 +124,6 @@ e07000189 south-somerset local-authority-district Under 75 mortality rate from c
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-                                                                   Measure        Unit  Count
-Persons aged under 75 with cardiovascular mortality considered preventable per 100,000  12987
+                                                                                 Measure        Unit  Count
+Persons aged under 75 mortality rate from cardiovascular diseases considered preventable per 100,000  12987
         
