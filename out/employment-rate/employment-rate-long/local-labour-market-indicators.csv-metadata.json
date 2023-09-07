@@ -175,6 +175,126 @@
     ],
     "rdfs:seeAlso": [
         {
+            "@id": "local-labour-market-indicators.csv#attribute/denominator",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Denominator"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/employment-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "gregorian-time-interval.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Gregorian Time Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#dimension/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "local-labour-market-indicators.csv#class/area-name"
+                }
+            ]
+        },
+        {
             "@id": "local-labour-market-indicators.csv#component/economic-activity-rate",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
@@ -198,65 +318,82 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/unit",
+            "@id": "local-labour-market-indicators.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@value": true
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 10
+                    "@value": 9
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#measure/employment-rate",
+            "@id": "local-labour-market-indicators.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.8"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Employment Rate"
+                    "@value": "Economic Inactivity Rate"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -299,30 +436,42 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/employment-rate",
+            "@id": "local-labour-market-indicators.csv#component/observation-status",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
+                    "@id": "local-labour-market-indicators.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
+                    "@id": "local-labour-market-indicators.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 5
+                    "@value": 15
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/denominator",
+            "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -332,38 +481,12 @@
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Denominator"
+                    "@value": "Upper Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#dimension/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography-type.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Geography Type"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "local-labour-market-indicators.csv#class/geography-type"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
@@ -391,64 +514,200 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval",
+            "@id": "local-labour-market-indicators.csv#component/denominator",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/denominator"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/denominator"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 12
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "gregorian-time-interval.csv#code-list"
+                    "@id": "ons-geography-code.csv#code-list"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Gregorian Time Interval"
+                    "@value": "ONS Geography Code"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval"
+                    "@id": "local-labour-market-indicators.csv#class/ons-geography-code"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#dimension/area-name",
+            "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 14
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#dimension/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "area-name.csv#code-list"
+                    "@id": "geography-type.csv#code-list"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Area Name"
+                    "@value": "Geography Type"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "local-labour-market-indicators.csv#class/area-name"
+                    "@id": "local-labour-market-indicators.csv#class/geography-type"
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/measure-type",
+            "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#measure/employment-rate",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Employment Rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/economic-inactivity-rate",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -456,39 +715,93 @@
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 9
+                    "@value": 8
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#csvcubed-build-activity",
+            "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://www.w3.org/ns/prov#used": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.8"
+                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "local-labour-market-indicators.csv#attribute/numerator",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Numerator"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
                 }
             ]
         },
         {
             "@id": "local-labour-market-indicators.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
@@ -499,7 +812,7 @@
             "http://purl.org/dc/terms/description": [
                 {
                     "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "This dataset shows:\nEmployment rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from \n\nUnemployment rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years without a job who have been actively seeking work within the last four weeks and are available to start work within the next two weeks \n\nEconomic activity rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years who are active participants in the labour market \n\nEconomic inactivity rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years who are not in employment but do not meet the internationally accepted definition of unemployment because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks \n\n In Great Britain (Northern Ireland national figure included), for periods 04/2004-03/2005 to 04/2022-03/2023.\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n### Geography definition\n\nLocal Authority Districts and Unitary Authorities, \nMetropolitan Counties, \nRegions, \nCombined Authorities, \nNations (England, Wales, Scotland, Northern Ireland), \nCountries (UK, GB, England and Wales)\n\n### Source\n\n - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/regionallabourmarket/previousReleases) \n\n\n### Source Notes and Caveats \nCalculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. \nCalculation of unemployment rate: number of unemployed people aged 16 to 64 years divided by the sum of employed people aged 16 to 64 years plus unemployed people aged 16 to 64 years. \nCalculation of economic activity rate: number of economically active people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. \nCalculation of economic inactivity rate: number of economically inactive people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. \n\n\n"
+                    "@value": "This dataset shows:\nEmployment rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from \n\nUnemployment rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years without a job who have been actively seeking work within the last four weeks and are available to start work within the next two weeks \n\nEconomic activity rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years who are active participants in the labour market \n\nEconomic inactivity rate age 16 to 64 \n - the proportion of people aged between 16 and 64 years who are not in employment but do not meet the internationally accepted definition of unemployment because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks \n\n In Great Britain (Northern Ireland national figure included), for periods 04/2004-03/2005 to 04/2022-03/2023.\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n### Geography definition\n\nLocal Authority Districts and Unitary Authorities, \nMetropolitan Counties, \nRegions, \nCombined Authorities, \nNations (England, Wales, Scotland, Northern Ireland), \nCountries (UK, GB, England and Wales)\n\n### Source\n\n - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/regionallabourmarket/previousReleases) \n\nData is also available on [NOMIS](https://www.nomisweb.co.uk/query/construct/summary.asp?mode=construct&version=0&dataset=17) \n\n\n### Source Notes and Caveats \nCalculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. \n\nCalculation of unemployment rate: number of unemployed people aged 16 to 64 years divided by the sum of employed people aged 16 to 64 years plus unemployed people aged 16 to 64 years. \n\nCalculation of economic activity rate: number of economically active people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. \n\nCalculation of economic inactivity rate: number of economically inactive people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive. \n\n\n\n### How to read time intervals in ISO8601 format \nThis dataset uses custom time intervals format for periods, YYYY-MM-DDT00:00:00/PnI, where P tells that this is period; n is the number of intervals and I is interval type which can be Y(year), M(month), W(week), D(day). \nFor example, from April 2019 to March 2022 is represented as 2019-04-01T00:00:00/P3Y, which can be read as '3 years period starts from 1st of April 2019 and ends on 31st March 2022'. \nFor more instructions on how to read this, please visit [Time intervals on Wikipedia](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals)."
                 }
             ],
             "http://purl.org/dc/terms/identifier": [
@@ -510,7 +823,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-09-04T09:27:38.706077"
+                    "@value": "2023-09-07T15:48:51.417271"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -521,7 +834,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-09-04T09:27:38.706077"
+                    "@value": "2023-09-07T15:48:51.417271"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -555,6 +868,18 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "paid-work"
+                },
+                {
+                    "@language": "en",
+                    "@value": "annual-population-survey"
+                },
+                {
+                    "@language": "en",
                     "@value": "subnational"
                 },
                 {
@@ -564,18 +889,6 @@
                 {
                     "@language": "en",
                     "@value": "labour-market"
-                },
-                {
-                    "@language": "en",
-                    "@value": "paid-work"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "annual-population-survey"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -587,372 +900,6 @@
                 {
                     "@id": "local-labour-market-indicators.csv#csvcubed-build-activity"
                 }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/denominator",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/denominator"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/denominator"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 12
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Economic Activity Rate"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/unemployment-rate",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/unemployment-rate"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/unemployment-rate"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#measure/unemployment-rate",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Unemployment Rate"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "ONS Geography Code"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "local-labour-market-indicators.csv#class/ons-geography-code"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#structure",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "local-labour-market-indicators.csv#component/area-name"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/measure-type"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/observation-status"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/economic-inactivity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/economic-activity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/geography-type"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/employment-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/numerator"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/unit"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/unemployment-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/denominator"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#component/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/denominator"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/numerator"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/area-name"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#measure/unemployment-rate"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "local-labour-market-indicators.csv#dimension/geography-type"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Economic Inactivity Rate"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
@@ -984,139 +931,192 @@
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/area-name",
+            "@id": "local-labour-market-indicators.csv#structure",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "local-labour-market-indicators.csv#component/economic-activity-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/economic-inactivity-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/area-name"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/observation-status"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/unit"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/denominator"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/geography-type"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/numerator"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/unemployment-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/employment-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#component/measure-type"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "local-labour-market-indicators.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
                 {
-                    "@id": "local-labour-market-indicators.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
+                    "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate"
+                },
                 {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+                    "@id": "local-labour-market-indicators.csv#dimension/gregorian-time-interval"
+                },
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 14
-                }
-            ]
-        },
-        {
-            "@id": "local-labour-market-indicators.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
+                    "@id": "local-labour-market-indicators.csv#measure/employment-rate"
+                },
                 {
                     "@id": "local-labour-market-indicators.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+                },
                 {
-                    "@id": "local-labour-market-indicators.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+                    "@id": "local-labour-market-indicators.csv#attribute/denominator"
+                },
                 {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
+                    "@id": "local-labour-market-indicators.csv#dimension/ons-geography-code"
+                },
                 {
-                    "@value": 15
+                    "@id": "local-labour-market-indicators.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#attribute/numerator"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/unemployment-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/area-name"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate"
+                },
+                {
+                    "@id": "local-labour-market-indicators.csv#dimension/geography-type"
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#attribute/numerator",
+            "@id": "local-labour-market-indicators.csv#measure/unemployment-rate",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Numerator"
+                    "@value": "Unemployment Rate"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#component/economic-inactivity-rate",
+            "@id": "local-labour-market-indicators.csv#measure/economic-activity-rate",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate"
+                    "@language": "en",
+                    "@value": "Economic Activity Rate"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "local-labour-market-indicators.csv#measure/economic-inactivity-rate"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
-            "http://purl.org/linked-data/cube#order": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@value": 8
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 }
             ]
         },
         {
-            "@id": "local-labour-market-indicators.csv#class/area-name",
+            "@id": "local-labour-market-indicators.csv#class/geography-type",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
+            "@id": "local-labour-market-indicators.csv#component/unemployment-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/unemployment-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "local-labour-market-indicators.csv#measure/unemployment-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
             "@id": "local-labour-market-indicators.csv#dependency/ons-geography-code",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1132,8 +1132,8 @@
         {
             "@id": "local-labour-market-indicators.csv#dependency/area-name",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1149,8 +1149,8 @@
         {
             "@id": "local-labour-market-indicators.csv#dependency/geography-type",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1166,8 +1166,8 @@
         {
             "@id": "local-labour-market-indicators.csv#dependency/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1183,9 +1183,9 @@
         {
             "@id": "local-labour-market-indicators.csv#unit/percent",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://qudt.org/schema/qudt/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
