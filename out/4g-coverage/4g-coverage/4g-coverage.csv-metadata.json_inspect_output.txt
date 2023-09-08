@@ -6,7 +6,7 @@
           - Title: 4G coverage
           - Label: 4G coverage
           - Issued: 2023-03-31T12:10:26.937229
-          - Modified: 2023-03-31T12:10:26.937229
+          - Modified: 2023-08-24T15:55:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- local-authority
-		-- subnational
 		-- connectivity
 		-- broadband-mobile-coverage
+		-- local-authority
+		-- subnational
           - Contact Point: None
           - Identifier: 4G coverage
           - Comment: Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, January 2023.

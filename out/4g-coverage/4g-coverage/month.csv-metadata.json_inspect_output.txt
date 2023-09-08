@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Month
           - Label: Month
-          - Issued: 2023-08-30T15:56:25.471533
-          - Modified: 2023-08-30T15:56:25.471533
+          - Issued: 2023-09-08T11:08:40.452655
+          - Modified: 2023-09-08T11:08:40.452655
           - License: None
           - Creator: None
           - Publisher: None
