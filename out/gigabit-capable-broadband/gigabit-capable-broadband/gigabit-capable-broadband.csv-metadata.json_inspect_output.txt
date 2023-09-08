@@ -6,7 +6,7 @@
           - Title: Gigabit capable broadband
           - Label: Gigabit capable broadband
           - Issued: 2023-03-31T12:12:36.754038
-          - Modified: 2023-03-31T12:12:36.754038
+          - Modified: 2023-08-24T16:26:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,9 +15,9 @@
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
 		-- broadband-mobile-coverage
-		-- subnational
-		-- local-authority
 		-- connectivity
+		-- local-authority
+		-- subnational
           - Contact Point: None
           - Identifier: Gigabit capable broadband
           - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, January 2023.

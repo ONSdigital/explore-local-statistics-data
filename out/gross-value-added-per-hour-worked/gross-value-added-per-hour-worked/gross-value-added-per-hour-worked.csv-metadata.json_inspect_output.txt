@@ -6,7 +6,7 @@
           - Title: Gross Value Added per hour worked
           - Label: Gross Value Added per hour worked
           - Issued: 2023-05-19T09:29:33.324488
-          - Modified: 2023-05-19T09:29:33.324488
+          - Modified: 2023-08-24T16:30:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/economicoutputandproductivity
           - Keywords: 
-		-- subnational
-		-- subregional-productivity
-		-- region
 		-- local-authority
+		-- subregional-productivity
+		-- subnational
 		-- international-territorial-level
+		-- region
           - Contact Point: None
           - Identifier: Gross Value Added per hour worked
           - Comment: Measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (experimental statistics), UK, 2004-2021.

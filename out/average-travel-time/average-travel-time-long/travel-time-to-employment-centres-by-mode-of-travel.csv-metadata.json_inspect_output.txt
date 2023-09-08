@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Travel time to employment centres by mode of travel
           - Label: Travel time to employment centres by mode of travel
-          - Issued: 2023-08-18T08:12:03.136529
-          - Modified: 2023-08-18T08:12:03.136529
+          - Issued: 2023-08-18T09:10:26.937229
+          - Modified: 2023-08-18T09:10:26.937229
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-transport
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- local-authority
+		-- journey-time
 		-- transport
 		-- travel-to-work
-		-- journey-time
 		-- subnational
+		-- local-authority
           - Contact Point: None
           - Identifier: Travel time to employment centres by mode of travel
           - Comment: Average travel time in minutes to nearest employment centre with 500 to 4999 jobs available by public transport or walking, by cycle and by car (experimental statistics), England, 2014-2019.

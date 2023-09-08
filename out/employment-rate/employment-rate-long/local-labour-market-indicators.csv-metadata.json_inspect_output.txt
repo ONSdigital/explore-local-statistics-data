@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Local labour market indicators
           - Label: Local labour market indicators
-          - Issued: 2023-09-07T15:48:51.417271
-          - Modified: 2023-09-07T15:48:51.417271
+          - Issued: 2023-08-25T12:44:00
+          - Modified: 2023-08-25T12:44:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- region
 		-- local-authority
-		-- subnational
-		-- annual-population-survey
 		-- labour-market
+		-- region
+		-- annual-population-survey
 		-- paid-work
+		-- subnational
           - Contact Point: None
           - Identifier: Local labour market indicators
           - Comment: Employment rate, unemployment rate, economic activity rate and economic inactivity rate for people aged between 16 and 64 years, Great Britain (Northern Ireland national figure included), 04/2004-03/2005 to 04/2022-03/2023.

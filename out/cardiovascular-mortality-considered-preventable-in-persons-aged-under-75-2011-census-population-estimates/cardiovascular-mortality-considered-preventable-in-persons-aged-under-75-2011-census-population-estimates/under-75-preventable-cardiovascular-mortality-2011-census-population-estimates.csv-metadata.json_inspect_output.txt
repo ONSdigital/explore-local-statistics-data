@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Under 75 preventable cardiovascular mortality, 2011 Census population estimates
           - Label: Under 75 preventable cardiovascular mortality, 2011 Census population estimates
-          - Issued: 2023-05-17T12:26:10.462689
-          - Modified: 2023-05-17T12:26:10.462689
+          - Issued: 2023-09-05T13:14:10.462689
+          - Modified: 2023-09-05T13:14:10.462689
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- subnational
-		-- county
 		-- local-authority
-		-- region
 		-- heart-disease
+		-- region
+		-- subnational
 		-- premature-death
+		-- county
           - Contact Point: None
           - Identifier: Under 75 preventable cardiovascular mortality, 2011 Census population estimates
           - Comment: Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2011 Census mid-year population estimates, England, 2001 to 2020

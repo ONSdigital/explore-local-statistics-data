@@ -243,377 +243,33 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75",
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Age-standardised mortality rate for those aged under 75"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/mixed-time-period",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/ons-geography-code"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/area-name"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/mixed-time-period"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/geography-type"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/unit"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/measure-type"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/observation-status"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/age-standardised-mortality-rate-for-those-aged-under-75"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Lower Confidence Interval"
+                    "@value": "Upper Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/mixed-time-period",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "ons-geography-code.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "ONS Geography Code"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/ons-geography-code"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "mixed-time-period.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Dimension consisting of mixed time periods, e.g. 2020-Q4 (quarter), 2021-06 (month), 2019-08-06 (day)"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Mixed Time Period"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/mixed-time-period"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 10
                 }
             ]
         },
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dataset",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -634,7 +290,7 @@
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:26:10.462689"
+                    "@value": "2023-09-05T13:14:10.462689"
                 }
             ],
             "http://purl.org/dc/terms/license": [
@@ -645,7 +301,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:26:10.462689"
+                    "@value": "2023-09-05T13:14:10.462689"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -679,18 +335,6 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "county"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
                     "@value": "heart-disease"
                 },
                 {
@@ -699,7 +343,19 @@
                 },
                 {
                     "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
                     "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -714,11 +370,522 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/lower-confidence-interval",
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "ONS Geography Code"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/ons-geography-code"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
                 "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/age-standardised-mortality-rate-for-those-aged-under-75"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/area-name"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/measure-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/unit"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/mixed-time-period"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/observation-status"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/geography-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/age-standardised-mortality-rate-for-those-aged-under-75",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/geography-type"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/mixed-time-period",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Age-standardised mortality rate for those aged under 75"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.8"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/mixed-time-period",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "mixed-time-period.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Dimension consisting of mixed time periods, e.g. 2020-Q4 (quarter), 2021-06 (month), 2019-08-06 (day)"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Mixed Time Period"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/mixed-time-period"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -742,205 +909,38 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status",
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/observation-status",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "area-name.csv#code-list"
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@language": "en",
-                    "@value": "Area Name"
+                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/observation-status"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/area-name"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography-type.csv#code-list"
+                    "@value": false
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@language": "en",
-                    "@value": "Geography Type"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/geography-type"
+                    "@value": 10
                 }
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.8"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/area-name",
+            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#class/geography-type",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Class",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#component/age-standardised-mortality-rate-for-those-aged-under-75",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#slice/cross-measures",
-            "@type": [
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/area-name"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/mixed-time-period"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2011-census-population-estimates.csv#dimension/geography-type"
-                }
             ]
         },
         {
