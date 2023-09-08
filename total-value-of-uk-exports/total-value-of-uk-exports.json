@@ -16,6 +16,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-05-23T15:14:20.820244",
+    "dataset_modified": "2023-08-25T13:09",
     "themes": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade",
     "columns": {
         "Period": {
