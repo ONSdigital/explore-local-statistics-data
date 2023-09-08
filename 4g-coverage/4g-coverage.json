@@ -13,6 +13,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-03-31T12:10:26.937229",
+    "dataset_modified": "2023-08-24T15:55",
     "themes": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry",
     "columns": {
         "Period": {
