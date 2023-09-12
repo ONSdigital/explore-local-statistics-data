@@ -243,248 +243,25 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/lower-confidence-interval",
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/geography-type",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/time-instant",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Schools and nursery rated good or outstanding"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.8"
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Area Name"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/area-name"
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
-                },
                 {
                     "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/schools-and-nursery-rated-good-or-outstanding",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/time-instant",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 4
+                    "@value": 3
                 }
             ]
         },
@@ -492,10 +269,10 @@
             "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -520,28 +297,25 @@
             ]
         },
         {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type",
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/area-name",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "geography-type.csv#code-list"
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@language": "en",
-                    "@value": "Geography Type"
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/geography-type"
+                    "@value": 2
                 }
             ]
         },
@@ -553,17 +327,42 @@
             ]
         },
         {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval",
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Schools and nursery rated good or outstanding"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -573,31 +372,39 @@
             ]
         },
         {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/observation-status",
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/lower-confidence-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@language": "en",
-                    "@value": "Observation Status"
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
                 }
             ]
         },
         {
             "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/unit",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -621,162 +428,11 @@
             ]
         },
         {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/observation-status"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/unit"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/area-name"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/geography-type"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/measure-type"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/schools-and-nursery-rated-good-or-outstanding"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/time-instant"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
-                },
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
             "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/observation-status",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -800,13 +456,180 @@
             ]
         },
         {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/time-instant",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/time-instant"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/unit"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/geography-type"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/observation-status"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/measure-type"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/schools-and-nursery-rated-good-or-outstanding"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/area-name"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/area-name"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
+                }
+            ]
+        },
+        {
             "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant",
             "@type": [
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -831,13 +654,39 @@
             ]
         },
         {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/geography-type",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/geography-type"
+                }
+            ]
+        },
+        {
             "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -903,11 +752,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "region"
+                    "@value": "inspections-and-outcomes"
                 },
                 {
                     "@language": "en",
-                    "@value": "state-funded-school"
+                    "@value": "region"
                 },
                 {
                     "@language": "en",
@@ -915,11 +764,11 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "inspections-and-outcomes"
+                    "@value": "subnational"
                 },
                 {
                     "@language": "en",
-                    "@value": "subnational"
+                    "@value": "state-funded-school"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -930,6 +779,157 @@
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
                     "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/schools-and-nursery-rated-good-or-outstanding",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#measure/schools-and-nursery-rated-good-or-outstanding"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#component/time-instant",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#dimension/time-instant"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.8"
                 }
             ]
         },
@@ -1004,9 +1004,9 @@
         {
             "@id": "schools-and-nursery-schools-rated-good-or-outstanding.csv#unit/percent",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
