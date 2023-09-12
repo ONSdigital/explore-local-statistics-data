@@ -50,7 +50,7 @@
                 "scaling_factor": 1e-05
             },
             "measure": {
-                "label": "Persons aged under 75 mortality rate from cardiovascular diseases considered preventable",
+                "label": "Age-standardised mortality rate for those aged under 75",
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
             }
         },
