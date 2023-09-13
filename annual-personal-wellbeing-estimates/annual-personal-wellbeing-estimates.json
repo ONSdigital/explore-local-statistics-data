@@ -57,7 +57,7 @@
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 },
                 {
-                    "label": "Feeling things done in life are worthwhile mean score (where 10 is 'completely worthwhile')",
+                    "label": "Worthwhile mean score (where 10 is 'completely worthwhile')",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 },
                 {
@@ -65,7 +65,7 @@
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 },
                 {
-                    "label": "Life satisfaction mean score (where 10 is 'completely satisfied')",
+                    "label": "Satisfaction mean score (where 10 is 'completely satisfied')",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 }
             ]
