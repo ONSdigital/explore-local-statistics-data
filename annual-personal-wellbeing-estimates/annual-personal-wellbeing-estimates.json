@@ -53,19 +53,19 @@
             "type": "measures",
             "values" : [
                 {
-                    "label": "Mean (Where 0 is 'not at all anxious' and 10 is 'completely anxious')",
+                    "label": "Anxiety mean score (where 10 is 'completely anxious')",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 },
                 {
-                    "label": "Mean (Where 0 is 'not at all worthwhile' and 10 is 'completely worthwhile')",
+                    "label": "Worthwhile mean score (where 10 is 'completely worthwhile')",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 },
                 {
-                    "label": "Mean (Where 0 is 'not at all happy' and 10 is 'completely happy')",
+                    "label": "Happiness mean score (where 10 is 'completely happy')",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 },
                 {
-                    "label": "Mean (Where 0 is 'not at all satisfied' and 10 is 'completely satisfied')",
+                    "label": "Satisfaction mean score (where 10 is 'completely satisfied')",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#scale"
                 }
             ]
