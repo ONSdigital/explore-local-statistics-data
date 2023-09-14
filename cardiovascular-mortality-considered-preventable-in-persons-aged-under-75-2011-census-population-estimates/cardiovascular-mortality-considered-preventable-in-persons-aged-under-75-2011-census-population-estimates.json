@@ -14,8 +14,8 @@
         "heart-disease"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "dataset_issued": "2023-09-05T13:14:10.462689",
-    "dataset_modified": "2023-09-05T13:14:10.462689",
+    "dataset_issued": "2023-09-05T13:14",
+    "dataset_modified": "2023-09-05T13:14",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
     "columns": {
         "Period": {
