@@ -5,8 +5,8 @@
         - The data cube has the following catalog metadata:
           - Title: Annual personal wellbeing estimates
           - Label: Annual personal wellbeing estimates
-          - Issued: 2023-09-01T13:52:06.400834
-          - Modified: 2023-09-01T13:52:06.400834
+          - Issued: 2023-09-14T11:57:19.655356
+          - Modified: 2023-09-14T11:57:19.655356
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,16 +14,16 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- local-authorities
-		-- anxiety
-		-- quality-of-life
-		-- counties
-		-- happiness
-		-- annual-population-survey
-		-- subnational
 		-- personal-wellbeing
-		-- life-satisfaction
+		-- counties
+		-- subnational
 		-- regions
+		-- local-authorities
+		-- annual-population-survey
+		-- anxiety
+		-- happiness
+		-- life-satisfaction
+		-- quality-of-life
           - Contact Point: None
           - Identifier: Annual personal wellbeing estimates
           - Comment: Estimates of life satisfaction, feeling that the things done in life are worthwhile, happiness and anxiety for adults aged 16 years and over, UK, 04/2011-03/2012 to 04/2021-03/2022.
@@ -83,36 +83,36 @@ ons-geography-code.csv#code-list ONS Geography Code          AREACD
         - Number of Observations: 18436
         - Number of Duplicates: 0
         - First 10 Observations: 
-   AREACD         AREANM Geography    Period  Value                                                         Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status
-k02000001 united-kingdom   country 2011-2012   3.13 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.11                             3.15                NaN
-k02000001 united-kingdom   country 2012-2013   3.03 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.01                             3.05                NaN
-k02000001 united-kingdom   country 2013-2014   2.92 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.91                             2.94                NaN
-k02000001 united-kingdom   country 2014-2015   2.86 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.84                             2.88                NaN
-k02000001 united-kingdom   country 2015-2016   2.87 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.85                             2.89                NaN
-k02000001 united-kingdom   country 2016-2017   2.90 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.88                             2.92                NaN
-k02000001 united-kingdom   country 2017-2018   2.89 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.87                             2.91                NaN
-k02000001 united-kingdom   country 2018-2019   2.87 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             2.84                             2.89                NaN
-k02000001 united-kingdom   country 2019-2020   3.05 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.03                             3.07                NaN
-k02000001 united-kingdom   country 2020-2021   3.31 mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious Score out of 10                             3.28                             3.33                NaN
+   AREACD         AREANM Geography    Period  Value                                           Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status
+k02000001 united-kingdom   country 2011-2012   3.13 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             3.11                             3.15                NaN
+k02000001 united-kingdom   country 2012-2013   3.03 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             3.01                             3.05                NaN
+k02000001 united-kingdom   country 2013-2014   2.92 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             2.91                             2.94                NaN
+k02000001 united-kingdom   country 2014-2015   2.86 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             2.84                             2.88                NaN
+k02000001 united-kingdom   country 2015-2016   2.87 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             2.85                             2.89                NaN
+k02000001 united-kingdom   country 2016-2017   2.90 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             2.88                             2.92                NaN
+k02000001 united-kingdom   country 2017-2018   2.89 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             2.87                             2.91                NaN
+k02000001 united-kingdom   country 2018-2019   2.87 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             2.84                             2.89                NaN
+k02000001 united-kingdom   country 2019-2020   3.05 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             3.03                             3.07                NaN
+k02000001 united-kingdom   country 2020-2021   3.31 anxiety-mean-score-where-10-is-completely-anxious Score out of 10                             3.28                             3.33                NaN
         - Last 10 Observations: 
-   AREACD              AREANM                Geography    Period  Value                                                             Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status
-n09000011 ards-and-north-down local-authority-district 2011-2012    NaN mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                              NaN                              NaN                  x
-n09000011 ards-and-north-down local-authority-district 2012-2013   7.91 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.71                             8.10                NaN
-n09000011 ards-and-north-down local-authority-district 2013-2014   7.78 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.52                             8.04                NaN
-n09000011 ards-and-north-down local-authority-district 2014-2015   7.54 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.27                             7.82                NaN
-n09000011 ards-and-north-down local-authority-district 2015-2016   7.79 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.51                             8.07                NaN
-n09000011 ards-and-north-down local-authority-district 2016-2017   8.04 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.83                             8.25                NaN
-n09000011 ards-and-north-down local-authority-district 2017-2018   7.96 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.77                             8.15                NaN
-n09000011 ards-and-north-down local-authority-district 2018-2019   7.91 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.74                             8.09                NaN
-n09000011 ards-and-north-down local-authority-district 2019-2020   7.90 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.71                             8.09                NaN
-n09000011 ards-and-north-down local-authority-district 2021-2022   7.71 mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied Score out of 10                             7.49                             7.94                NaN
+   AREACD              AREANM                Geography    Period  Value                                                  Measure            Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status
+n09000011 ards-and-north-down local-authority-district 2011-2012    NaN satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                              NaN                              NaN                  x
+n09000011 ards-and-north-down local-authority-district 2012-2013   7.91 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.71                             8.10                NaN
+n09000011 ards-and-north-down local-authority-district 2013-2014   7.78 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.52                             8.04                NaN
+n09000011 ards-and-north-down local-authority-district 2014-2015   7.54 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.27                             7.82                NaN
+n09000011 ards-and-north-down local-authority-district 2015-2016   7.79 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.51                             8.07                NaN
+n09000011 ards-and-north-down local-authority-district 2016-2017   8.04 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.83                             8.25                NaN
+n09000011 ards-and-north-down local-authority-district 2017-2018   7.96 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.77                             8.15                NaN
+n09000011 ards-and-north-down local-authority-district 2018-2019   7.91 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.74                             8.09                NaN
+n09000011 ards-and-north-down local-authority-district 2019-2020   7.90 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.71                             8.09                NaN
+n09000011 ards-and-north-down local-authority-district 2021-2022   7.71 satisfaction-mean-score-where-10-is-completely-satisfied Score out of 10                             7.49                             7.94                NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-                                                              Measure  Unit  Count
-      mean-where-0-is-not-at-all-anxious-and-10-is-completely-anxious score   4609
-          mean-where-0-is-not-at-all-happy-and-10-is-completely-happy score   4609
-  mean-where-0-is-not-at-all-satisfied-and-10-is-completely-satisfied score   4609
-mean-where-0-is-not-at-all-worthwhile-and-10-is-completely-worthwhile score   4609
+                                                 Measure  Unit  Count
+       anxiety-mean-score-where-10-is-completely-anxious score   4609
+       happiness-mean-score-where-10-is-completely-happy score   4609
+satisfaction-mean-score-where-10-is-completely-satisfied score   4609
+ worthwhile-mean-score-where-10-is-completely-worthwhile score   4609
         
