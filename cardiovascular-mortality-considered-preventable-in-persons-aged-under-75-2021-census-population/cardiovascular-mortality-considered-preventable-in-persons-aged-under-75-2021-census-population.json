@@ -42,7 +42,7 @@
         "Indicator": false,
         "Mission": false,
         "Category": false,
-        "Value": {
+        "Rate": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
@@ -61,14 +61,14 @@
             "label": "Lower Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Value",
+            "describes_observations": "Rate",
             "required": false
         },
         "Upper Confidence Interval (95%)": {
             "label": "Upper Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Value",
+            "describes_observations": "Rate",
             "required": false
         },
         "Observation Status": {
