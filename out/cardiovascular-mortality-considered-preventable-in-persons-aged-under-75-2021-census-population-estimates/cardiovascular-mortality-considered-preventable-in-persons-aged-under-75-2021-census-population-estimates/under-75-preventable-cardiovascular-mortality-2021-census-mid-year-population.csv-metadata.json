@@ -55,8 +55,8 @@
                         "required": true
                     },
                     {
-                        "titles": "Value",
-                        "name": "value",
+                        "titles": "Rate",
+                        "name": "rate",
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75",
                         "datatype": "decimal",
@@ -119,62 +119,62 @@
                         "valueUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#slice/cross-measures"
                     },
                     {
-                        "name": "virt_obs_value",
+                        "name": "virt_obs_rate",
                         "virtual": true,
                         "propertyUrl": "qb:observation",
                         "valueUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75"
                     },
                     {
-                        "name": "virt_obs_value_meas",
+                        "name": "virt_obs_rate_meas",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "qb:measureType",
                         "valueUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
                     },
                     {
-                        "name": "virt_obs_value_unit",
+                        "name": "virt_obs_rate_unit",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
                         "valueUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#unit/per-100-000"
                     },
                     {
-                        "name": "virt_dim_value_areacd",
+                        "name": "virt_dim_rate_areacd",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code",
                         "valueUrl": "ons-geography-code.csv#{+areacd}"
                     },
                     {
-                        "name": "virt_dim_value_areanm",
+                        "name": "virt_dim_rate_areanm",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name",
                         "valueUrl": "area-name.csv#{+areanm}"
                     },
                     {
-                        "name": "virt_dim_value_geography",
+                        "name": "virt_dim_rate_geography",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type",
                         "valueUrl": "geography-type.csv#{+geography}"
                     },
                     {
-                        "name": "virt_dim_value_period",
+                        "name": "virt_dim_rate_period",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year",
                         "valueUrl": "year.csv#{+period}"
                     },
                     {
-                        "name": "virt_obs_value_type",
+                        "name": "virt_obs_rate_type",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "rdf:type",
                         "valueUrl": "qb:Observation"
                     },
                     {
-                        "name": "virt_dataSet_value",
+                        "name": "virt_dataSet_rate",
                         "virtual": true,
                         "aboutUrl": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#obs/{areacd},{areanm},{geography},{period}@age-standardised-mortality-rate-for-those-aged-under-75",
                         "propertyUrl": "qb:dataSet",
@@ -243,11 +243,96 @@
     ],
     "rdfs:seeAlso": [
         {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Activity"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.9"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/unit",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -271,91 +356,29 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/area-name",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/year",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/lower-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography-type.csv#code-list"
-                }
+                "http://purl.org/linked-data/cube#AttributeProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Geography Type"
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/geography-type"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 10
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
@@ -364,9 +387,9 @@
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#DataSet"
+                "http://purl.org/linked-data/cube#Attachable"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -420,7 +443,7 @@
             "http://www.w3.org/2000/01/rdf-schema#comment": [
                 {
                     "@language": "en",
-                    "@value": "Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, England, 2021"
+                    "@value": "Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, England, 2021 "
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -432,7 +455,19 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
                     "@value": "county"
+                },
+                {
+                    "@language": "en",
+                    "@value": "heart-disease"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
                 },
                 {
                     "@language": "en",
@@ -441,18 +476,6 @@
                 {
                     "@language": "en",
                     "@value": "premature-death"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
-                    "@value": "heart-disease"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -467,57 +490,25 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#csvcubed-build-activity",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/measure-type",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.7"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@value": 5
                 }
             ]
         },
@@ -527,8 +518,8 @@
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -553,119 +544,116 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/year",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#structure",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/geography-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/year"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/measure-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/area-name"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/age-standardised-mortality-rate-for-those-aged-under-75"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/observation-status"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/unit"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/lower-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#sliceKey": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#slice/cross-measures"
                 }
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/year",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/observation-status",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Age-standardised mortality rate for those aged under 75"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
+                    "@value": 10
                 }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/age-standardised-mortality-rate-for-those-aged-under-75",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -684,76 +672,13 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -773,11 +698,102 @@
             ]
         },
         {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/geography-type"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/lower-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -801,101 +817,27 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#slice/cross-measures",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
-                }
-            ]
-        },
-        {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/area-name"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/unit"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/measure-type"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/observation-status"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/year"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/age-standardised-mortality-rate-for-those-aged-under-75"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/geography-type"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/ons-geography-code"
+                    "@language": "en",
+                    "@value": "Age-standardised mortality rate for those aged under 75"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#measure/age-standardised-mortality-rate-for-those-aged-under-75"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#slice/cross-measures"
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 }
             ]
         },
@@ -905,8 +847,8 @@
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -931,17 +873,75 @@
             ]
         },
         {
-            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#class/geography-type",
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#component/year",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#slice/cross-measures",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/year"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dimension/area-name"
+                }
             ]
         },
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dependency/ons-geography-code",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -957,8 +957,8 @@
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dependency/area-name",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -974,8 +974,8 @@
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dependency/geography-type",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -991,8 +991,8 @@
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#dependency/year",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1008,9 +1008,9 @@
         {
             "@id": "under-75-preventable-cardiovascular-mortality-2021-census-mid-year-population.csv#unit/per-100-000",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
