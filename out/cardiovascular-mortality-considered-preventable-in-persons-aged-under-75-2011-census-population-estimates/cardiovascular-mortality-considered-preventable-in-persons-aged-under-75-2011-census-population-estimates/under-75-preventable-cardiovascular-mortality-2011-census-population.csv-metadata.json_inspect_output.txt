@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- local-authority
-		-- heart-disease
 		-- county
-		-- region
 		-- premature-death
+		-- region
+		-- heart-disease
+		-- local-authority
 		-- subnational
           - Contact Point: None
           - Identifier: Under 75 preventable cardiovascular mortality, 2011 Census population

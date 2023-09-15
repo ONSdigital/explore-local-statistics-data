@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- region
 		-- county
 		-- premature-death
-		-- subnational
-		-- heart-disease
 		-- local-authority
+		-- heart-disease
+		-- subnational
+		-- region
           - Contact Point: None
           - Identifier: Under 75 preventable cardiovascular mortality, 2021 Census mid-year population
           - Comment: Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, England, 2021 
