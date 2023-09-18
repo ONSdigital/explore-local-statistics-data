@@ -5,7 +5,7 @@
         - The data cube has the following catalog metadata:
           - Title: Preventable cardiovascular mortality, 2011 population
           - Label: Preventable cardiovascular mortality, 2011 population
-          - Issued: 2023-09-05T13:14:00
+          - Issued: 2023-09-15T12:41:00
           - Modified: 2023-09-15T13:30:50
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- region
 		-- premature-death
+		-- local-authority
+		-- heart-disease
+		-- region
 		-- county
 		-- subnational
-		-- heart-disease
-		-- local-authority
           - Contact Point: None
           - Identifier: Preventable cardiovascular mortality, 2011 population
           - Comment: Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2011 Census mid-year population estimates, England, 2001 to 2020 

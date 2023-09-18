@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Mixed Time Period
           - Label: Mixed Time Period
-          - Issued: 2023-09-18T09:41:02.319774
-          - Modified: 2023-09-18T09:41:02.319774
+          - Issued: 2023-09-18T10:05:08.948967
+          - Modified: 2023-09-18T10:05:08.948967
           - License: None
           - Creator: None
           - Publisher: None

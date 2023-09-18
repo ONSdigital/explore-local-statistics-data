@@ -5,7 +5,7 @@
         - The data cube has the following catalog metadata:
           - Title: Preventable cardiovascular mortality, 2021 population
           - Label: Preventable cardiovascular mortality, 2021 population
-          - Issued: 2023-09-05T13:14:00
+          - Issued: 2023-09-15T12:41:00
           - Modified: 2023-09-15T13:37:40
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- local-authority
-		-- heart-disease
-		-- premature-death
-		-- subnational
 		-- county
+		-- local-authority
+		-- premature-death
+		-- heart-disease
+		-- subnational
 		-- region
           - Contact Point: None
           - Identifier: Preventable cardiovascular mortality, 2021 population
