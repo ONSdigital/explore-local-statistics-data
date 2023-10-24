@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 K02000001,United Kingdom,Country,"Gross disposable household income, per head",Gross disposable household income per head,Mission 1,"Boosting productivity, pay, jobs and living standards",1997,,Pounds,£,,,These figures are missing.,1,
 K02000001,United Kingdom,Country,"Gross disposable household income, per head",Gross disposable household income per head,Mission 1,"Boosting productivity, pay, jobs and living standards",2021,21679.0,Pounds,£,,,,1,
 K02000001,United Kingdom,Country,"Gross disposable household income, per head",Gross disposable household income per head,Mission 1,"Boosting productivity, pay, jobs and living standards",2020,20907.0,Pounds,£,,,,1,
