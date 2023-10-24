@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 E06000047,County Durham,County or Unitary Authority,Premises with gigabit capable broadband,Gigabit capable broadband,Mission 4,"Boosting productivity, pay, jobs and living standards",2023-05,53.6,Percentage,%,,,,1,
 E06000005,Darlington,County or Unitary Authority,Premises with gigabit capable broadband,Gigabit capable broadband,Mission 4,"Boosting productivity, pay, jobs and living standards",2023-05,87.1,Percentage,%,,,,1,
 E06000001,Hartlepool,County or Unitary Authority,Premises with gigabit capable broadband,Gigabit capable broadband,Mission 4,"Boosting productivity, pay, jobs and living standards",2023-05,90.5,Percentage,%,,,,1,
