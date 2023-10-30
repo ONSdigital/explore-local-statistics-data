@@ -6,14 +6,15 @@
     "description": "This dataset shows the total UK public-funded gross regional capital and non-capital expenditure on research and development (experimental statistics), in the UK, for financial year 2020 - 2021.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1,\nCountry (UK)\n\n### Source\n\n - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/articles/ukpublicfundedgrossregionalcapitalandnoncapitalexpenditureonresearchanddevelopment/financialyearending2021/relateddata) \n\n\n### Source Notes and Caveats \nResearch and development refers to any creative and systematic activity that contains certain amount of novelty – which includes the development of new concepts, products and processes – with the aim of increasing the stock of knowledge. Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).\n\n\n",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
+        "research-and-development",
+        "expenditure" ,
         "subnational",
-        "local-authority",
         "region"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-10-27T10:41:11.468465",
     "dataset_modified": "2023-10-27T10:41:11.468465",
-    "themes": "",
+    "themes": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes",
     "columns": {
         "Period": {
             "type": "dimension",
