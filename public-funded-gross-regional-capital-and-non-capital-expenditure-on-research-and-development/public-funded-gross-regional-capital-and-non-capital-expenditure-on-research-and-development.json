@@ -13,7 +13,7 @@
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-10-27T10:41:11.468465",
     "dataset_modified": "2023-10-27T10:41:11.468465",
-    "themes": "",
+    "themes": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes",
     "columns": {
         "Period": {
             "type": "dimension",
