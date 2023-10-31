@@ -50,7 +50,7 @@
                 }
             ]
         },
-        "value": {
+        "observation": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
@@ -73,14 +73,14 @@
             "type": "attribute",
             "label": "Lower Confidence Interval",
             "data_type": "decimal",
-            "describes_observations": "value",
+            "describes_observations": "observation",
             "required": false
         },
         "upper_confidence_interval_95": {
             "type": "attribute",
             "label": "Upper Confidence Interval",
             "data_type": "decimal",
-            "describes_observations": "value",
+            "describes_observations": "observation",
             "required": false
         },
         "observation_status": {
