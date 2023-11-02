@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Government Year
           - Label: Government Year
-          - Issued: 2023-10-30T10:36:23.653522
-          - Modified: 2023-10-30T10:36:23.653522
+          - Issued: 2023-11-02T15:00:55.887075
+          - Modified: 2023-11-02T15:00:55.887075
           - License: None
           - Creator: None
           - Publisher: None
@@ -24,13 +24,13 @@
         - Number of Duplicates: 0
         - Concepts: 
 Uri Identifier     Label  Notation  Parent Uri Identifier  Sort Priority  Description                                      Original Concept URI
-     2021-2022 2021-2022 2021-2022                    NaN              0          NaN http://reference.data.gov.uk/id/government-year/2021-2022
+     2020-2021 2020-2021 2020-2021                    NaN              0          NaN http://reference.data.gov.uk/id/government-year/2020-2021
         
 
 - The code list has the following concepts information:
         - Concepts hierarchy depth: 1
         - Concepts hierarchy:
 root
-└── 2021-2022
+└── 2020-2021
 
         
