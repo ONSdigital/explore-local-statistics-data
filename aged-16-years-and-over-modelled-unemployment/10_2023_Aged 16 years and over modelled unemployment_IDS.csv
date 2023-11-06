@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Count,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Count,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 K03000001,Great Britain,Country,Modelled unemployment rate aged 16 years and over,Aged 16 years and over modelled unemployment,Mission 1,"Boosting productivity, pay, jobs and living standards",2004-07-01T00:00:00/P1Y,4.8,1391600,Percentage,%,4.7,4.9,,-1,
 K03000001,Great Britain,Country,Modelled unemployment rate aged 16 years and over,Aged 16 years and over modelled unemployment,Mission 1,"Boosting productivity, pay, jobs and living standards",2022-07-01T00:00:00/P1Y,3.8,1242400,Percentage,%,3.7,3.9,,-1,
 K03000001,Great Britain,Country,Modelled unemployment rate aged 16 years and over,Aged 16 years and over modelled unemployment,Mission 1,"Boosting productivity, pay, jobs and living standards",2021-07-01T00:00:00/P1Y,3.8,1256100,Percentage,%,3.7,3.9,,-1,
