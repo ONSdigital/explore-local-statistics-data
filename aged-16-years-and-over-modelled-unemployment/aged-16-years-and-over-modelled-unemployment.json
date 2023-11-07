@@ -38,19 +38,7 @@
             "label": "Geography Type"
         },
         "Variable Name": false,
-        "Indicator": {
-            "type": "measures",
-            "values": [
-                {
-                    "label": "Employment Rate",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                },
-                {
-                    "label": "Economic Inactivity Rate",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
+        "Indicator": false,
         "Mission": false,
         "Category": false,
         "Observation": {
