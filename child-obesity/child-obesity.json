@@ -42,6 +42,7 @@
             "unit": {
                 "label": "percent",
                 "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+                    }
         },
         "measure": {
             "type": "measures",
@@ -61,7 +62,7 @@
                 {
                     "label": "Aged 4 to 5 years obese",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
+                },
                 {
                     "label": "Aged 10 to 11 years underweight",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
@@ -100,5 +101,6 @@
             "label": "Observation Status",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
             "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
-        },
+        }
+    }
 }
