@@ -47,6 +47,10 @@
             "unit": {
                 "label": "Percent",
                 "from_existing": "http://qudt.org/vocab/unit/PERCENT"
+            },
+            "measure":  {
+                "label": "Unemployment Rate",
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
             }
         },
         "Count": {
