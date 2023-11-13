@@ -251,54 +251,339 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#slice/cross-measures",
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#measure/unemployment-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Unemployment Rate"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/lower-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
-                },
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
-                },
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
-                },
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 11
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/geography-type"
                 }
             ]
         },
         {
             "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-rate",
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/geography-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#measure/unemployment-rate"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#measure/unemployment-rate"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 7
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
+                },
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Unemployment Count"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
                 }
             ]
         },
@@ -311,16 +596,13 @@
             ],
             "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/ons-geography-code"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/upper-confidence-interval"
                 },
                 {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/gregorian-time-interval"
                 },
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/observation-status"
-                },
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/lower-confidence-interval"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-count"
                 },
                 {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unit"
@@ -329,30 +611,45 @@
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/area-name"
                 },
                 {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/observation-status"
+                },
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/ons-geography-code"
+                },
+                {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-rate"
                 },
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-count"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/measure-type"
                 },
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/upper-confidence-interval"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/lower-confidence-interval"
                 },
                 {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/geography-type"
-                },
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/measure-type"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status"
                 },
                 {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval"
                 },
                 {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
+                },
+                {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
                 },
                 {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
@@ -364,19 +661,7 @@
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval"
                 },
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
-                },
-                {
                     "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
             "http://purl.org/linked-data/cube#sliceKey": [
@@ -386,12 +671,83 @@
             ]
         },
         {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-count",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
             "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dataset",
             "@type": [
-                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
@@ -424,7 +780,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-11-06T12:25:28.117899"
+                    "@value": "2023-11-10T16:25:00"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -458,23 +814,15 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "county"
-                },
-                {
-                    "@language": "en",
                     "@value": "labour-market"
                 },
                 {
                     "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
-                    "@value": "unemployment"
-                },
-                {
-                    "@language": "en",
                     "@value": "annual-population-survey"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
                 },
                 {
                     "@language": "en",
@@ -483,6 +831,14 @@
                 {
                     "@language": "en",
                     "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "unemployment"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -497,70 +853,12 @@
             ]
         },
         {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
             "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -586,73 +884,78 @@
             ]
         },
         {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#csvcubed-build-activity",
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status",
             "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Area Name"
+                    "@value": "Observation Status"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/area-name"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
                 }
             ]
         },
         {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/gregorian-time-interval",
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/ons-geography-code",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval"
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/ons-geography-code"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 4
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-rate",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#measure/unemployment-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#measure/unemployment-rate"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
                 }
             ]
         },
         {
             "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/gregorian-time-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -678,266 +981,11 @@
             ]
         },
         {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography-type.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Geography Type"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/geography-type"
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 11
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Unemployment Count"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#measure/unemployment-rate",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Unemployment Rate"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 10
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
             "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -952,54 +1000,6 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#component/unemployment-count",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/unemployment-count"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
@@ -1074,8 +1074,8 @@
         {
             "@id": "modelled-unemployment-rate-aged-16-years-and-over.csv#unit/percent",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
