@@ -1,6 +1,6 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Overweight adults (aged 18 years and over)",
+    "title": "Adult obesity prevalence (aged 18 years and over)",
     "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
     "summary": "Percentage of adults aged 18 and over classified as overweight or obese, England, 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022.",
     "description": "This dataset shows the percentage of adults aged 18 and over classified as overweight or obese, in England, for 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data) \n\n\n### Source Notes and Caveats \nEstimates for overweight adults (aged 18 years and over) were fully revised by the Office for Health Improvement and Disparities in May 2023 with all previously published data overwritten. The replacement of all previously published data was required as the adjustments applied to the self-reported height and weight data have been updated and published by NHS Digital in the [Health Survey for England predicting height, weight and body mass index from self-reported data](https://digital.nhs.uk/data-and-information/areas-of-interest/public-health/health-survey-for-england-predicting-height-weight-and-body-mass-index-from-self-reported-data) report. The updated adjustments for height and weight have been applied to the new data point (November 2021 to 2022) and the whole back series (November 2015 to 2016 to November 2020 to 2021). \n\n\n",
@@ -14,6 +14,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-05-17T12:41:34.475144",
+    "dataset_modified": "2023-11-15T12:40",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
     "columns": {
         "Period": {
@@ -21,17 +22,24 @@
             "from_template": "gregorian-interval"
         },
         "AREACD": {
-            "label": "Statistical Geography",
             "type": "dimension",
-            "code_list": "./geography_code_list.json"
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
         },
-        "AREANM": false,
-        "Geography": false,
+        "AREANM": {
+            "type": "dimension",
+            "label": "Area Name"
+        },
+        "Geography": {
+            "type": "dimension",
+            "label": "Geography Type"
+        },
         "Variable Name": false,
         "Indicator": false,
         "Mission": false,
         "Category": false,
-        "Value": {
+        "Observation": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
@@ -49,14 +57,14 @@
             "label": "Lower Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Value",
+            "describes_observations": "Observation",
             "required": false
         },
         "Upper Confidence Interval (95%)": {
             "label": "Upper Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Value",
+            "describes_observations": "Observation",
             "required": false
         },
         "Observation Status": {
