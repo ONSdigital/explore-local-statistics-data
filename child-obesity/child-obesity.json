@@ -48,19 +48,19 @@
             "type": "measures",
             "values" : [
                 {
-                    "label": "Aged 4 to 5 years underweight",
+                    "label": "Aged four to five years underweight",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
-                    "label": "Aged 4 to 5 years healthy weight",
+                    "label": "Aged four to five years healthy weight",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
-                    "label": "Aged 4 to 5 years overweight",
+                    "label": "Aged four to five years overweight",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
-                    "label": "Aged 4 to 5 years obese",
+                    "label": "Aged four to five years obese",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
