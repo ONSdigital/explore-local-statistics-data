@@ -16,8 +16,8 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-11-06T12:25:28.117899",
-    "dataset_modified": "2023-11-10T16:25",
-    "themes": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
+    "dataset_modified": "2023-11-21T10:35",
+    "themes": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork",
     "columns": {
         "Period": {
             "type": "dimension",
