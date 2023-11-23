@@ -97,7 +97,7 @@
             "describes_observations": "observation",
             "required": false
         },
-        "Observation Status": {
+        "observation_status": {
             "type": "attribute",
             "label": "Observation Status",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
