@@ -6,7 +6,7 @@
           - Title: Children prevalence of weight status
           - Label: Children prevalence of weight status
           - Issued: 2023-11-06T11:20:33.054777
-          - Modified: 2023-11-16T11:00:00
+          - Modified: 2023-11-23T11:00:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,12 +15,12 @@
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
 		-- national-child-measurement-programme
-		-- subnational
-		-- local-authority
-		-- state-funded-school
-		-- county
-		-- region
 		-- obesity
+		-- state-funded-school
+		-- subnational
+		-- region
+		-- local-authority
+		-- county
           - Contact Point: None
           - Identifier: Children prevalence of weight status
           - Comment: Proportion of children aged 4-5 years (reception age) and 10-11 years (Year 6 age) classified as underweight, healthy weight, overweight or obese (including severe obesity), England, academic years 2006/07 to 2021/22
