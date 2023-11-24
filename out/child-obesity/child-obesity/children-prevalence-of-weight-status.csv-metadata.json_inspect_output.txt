@@ -14,17 +14,17 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
+		-- county
 		-- national-child-measurement-programme
-		-- obesity
 		-- state-funded-school
-		-- subnational
 		-- region
 		-- local-authority
-		-- county
+		-- subnational
+		-- obesity
           - Contact Point: None
           - Identifier: Children prevalence of weight status
-          - Comment: Proportion of children aged 4-5 years (reception age) and 10-11 years (Year 6 age) classified as underweight, healthy weight, overweight or obese (including severe obesity), England, academic years 2006/07 to 2021/22
-          - Description: This dataset shows the proportion of children aged 4-5 years (reception age) and 10-11 years (Year 6 age) classified as underweight, healthy weight, overweight or obese (including severe obesity), in England, for academic years 2006/07 to 2021/22.
+          - Comment: Proportion of children aged 4-5 years (reception age) and 10-11 years (Year 6 age) classified as underweight, healthy weight, overweight or obese (including severe obesity), England, academic years 2006/07 to 2022/23
+          - Description: This dataset shows the proportion of children aged 4-5 years (reception age) and 10-11 years (Year 6 age) classified as underweight, healthy weight, overweight or obese (including severe obesity), in England, for academic years 2006/07 to 2022/23.
 		
 		### Coverage 
 		
