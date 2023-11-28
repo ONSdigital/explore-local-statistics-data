@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Time Instant
           - Label: Time Instant
-          - Issued: 2023-11-28T10:37:03.258690
-          - Modified: 2023-11-28T10:37:03.258690
+          - Issued: 2023-11-28T10:41:34.079366
+          - Modified: 2023-11-28T10:41:34.079366
           - License: None
           - Creator: None
           - Publisher: None

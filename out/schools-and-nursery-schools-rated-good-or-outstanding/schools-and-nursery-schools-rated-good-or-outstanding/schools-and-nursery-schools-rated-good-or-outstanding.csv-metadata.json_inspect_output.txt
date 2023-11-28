@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- state-funded-school
 		-- region
-		-- subnational
-		-- county
 		-- inspections-and-outcomes
+		-- county
+		-- state-funded-school
+		-- subnational
           - Contact Point: None
           - Identifier: Schools and nursery schools rated good or outstanding
           - Comment: Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated ‘Good’ or ‘Outstanding’ by Ofsted, England (state-funded schools), as at 31 October 2023
