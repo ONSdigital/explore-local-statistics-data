@@ -76,12 +76,14 @@
         "Lower Confidence Interval (95%)": {
             "label": "Lower Confidence Interval",
             "type": "attribute",
+            "describes_observations": "Observation",
             "data_type": "decimal",
             "required": false
         },
         "Upper Confidence Interval (95%)": {
             "label": "Upper Confidence Interval",
             "type": "attribute",
+            "describes_observations": "Observation",
             "data_type": "decimal",
             "required": false
         },
