@@ -36,7 +36,7 @@
             "type": "dimension",
             "from_template": "year"
         },
-        "unit": false,
+        "Unit": false,
         "Indicator": {
             "type": "measures",
             "values": [
