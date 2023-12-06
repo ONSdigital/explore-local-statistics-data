@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 E92000001,England,Nation,Number of achievements on apprenticeships,Apprenticeships achievements,Mission 6,Spreading opportunity and improving public services,2022-08-01T00:00:00/P3M,456,"Rate per 100,000 population","Rate per 100,000 population",,,,1,
 E92000001,England,Nation,Number of achievements on apprenticeships,Apprenticeships achievements,Mission 6,Spreading opportunity and improving public services,2021-08-01T00:00:00/P1Y,385,"Rate per 100,000 population","Rate per 100,000 population",,,,1,
 E92000001,England,Nation,Number of achievements on apprenticeships,Apprenticeships achievements,Mission 6,Spreading opportunity and improving public services,2020-08-01T00:00:00/P1Y,444,"Rate per 100,000 population","Rate per 100,000 population",,,,1,
