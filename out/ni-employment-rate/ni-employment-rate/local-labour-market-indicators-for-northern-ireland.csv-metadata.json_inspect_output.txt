@@ -15,12 +15,12 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
 		-- subnational
-		-- labour-market
-		-- annual-population-survey
-		-- northern-ireland
 		-- local-authority
+		-- labour-market
+		-- northern-ireland
 		-- paid-work
 		-- region
+		-- annual-population-survey
           - Contact Point: None
           - Identifier: Local labour market indicators for Northern Ireland
           - Comment: Employment rate and economic inactivity rate for people aged between 16 and 64 years, Northern Ireland, 2022.
