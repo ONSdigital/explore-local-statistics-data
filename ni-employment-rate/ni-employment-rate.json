@@ -86,6 +86,7 @@
             "data_type": "integer",
             "label": "Number of Population"
         },
+        
         "Observation_status": {
             "type": "attribute",
             "label": "Observation Status",
