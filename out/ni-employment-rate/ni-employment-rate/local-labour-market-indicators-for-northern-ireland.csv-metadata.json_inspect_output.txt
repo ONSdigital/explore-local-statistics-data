@@ -6,7 +6,7 @@
           - Title: Local labour market indicators for Northern Ireland
           - Label: Local labour market indicators for Northern Ireland
           - Issued: 2023-11-28T12:44:00
-          - Modified: 2023-12-06T12:44:00
+          - Modified: 2023-12-07T10:08:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/northern-ireland-statistics-and-research-agency
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- region
-		-- local-authority
 		-- subnational
-		-- paid-work
-		-- northern-ireland
 		-- labour-market
 		-- annual-population-survey
+		-- northern-ireland
+		-- local-authority
+		-- paid-work
+		-- region
           - Contact Point: None
           - Identifier: Local labour market indicators for Northern Ireland
           - Comment: Employment rate and economic inactivity rate for people aged between 16 and 64 years, Northern Ireland, 2022.
@@ -105,16 +105,16 @@ n09000008                 mid-and-east-antrim local-authority-district    2022  
 n09000009                          mid-ulster local-authority-district    2022    % employment-rate         73.8                          70.1                          77.5      68000   92000                 NaN
         - Last 10 Observations: 
    AREACD                              AREANM                Geography  Period Unit                Indicator  Observation  Lower_confidence_interval_95  Upper_confidence_interval_95  Numerator  Total  Observation_status
-n09000002 armagh-city-banbridge-and-craigavon local-authority-district    2022    % economic-inactivity-rate         22.6                           NaN                           NaN      31000 136000                 NaN
-n09000003                             belfast local-authority-district    2022    % economic-inactivity-rate         32.1                           NaN                           NaN      71000 220000                 NaN
-n09000004            causeway-coast-and-glens local-authority-district    2022    % economic-inactivity-rate         30.1                           NaN                           NaN      24000  78000                 NaN
-n09000005             derry-city-and-strabane local-authority-district    2022    % economic-inactivity-rate         30.6                           NaN                           NaN      27000  88000                 NaN
-n09000006                 fermanagh-and-omagh local-authority-district    2022    % economic-inactivity-rate         25.2                           NaN                           NaN      17000  68000                 NaN
-n09000007             lisburn-and-castlereagh local-authority-district    2022    % economic-inactivity-rate         23.4                           NaN                           NaN      23000  98000                 NaN
-n09000008                 mid-and-east-antrim local-authority-district    2022    % economic-inactivity-rate         22.1                           NaN                           NaN      19000  87000                 NaN
-n09000009                          mid-ulster local-authority-district    2022    % economic-inactivity-rate         25.1                           NaN                           NaN      23000  92000                 NaN
-n09000010               newry-mourne-and-down local-authority-district    2022    % economic-inactivity-rate         24.6                           NaN                           NaN      27000 110000                 NaN
-n09000011                 ards-and-north-down local-authority-district    2022    % economic-inactivity-rate         25.2                           NaN                           NaN      25000 100000                 NaN
+n09000002 armagh-city-banbridge-and-craigavon local-authority-district    2022    % economic-inactivity-rate         22.6                          19.6                          25.7      31000 136000                 NaN
+n09000003                             belfast local-authority-district    2022    % economic-inactivity-rate         32.1                          29.5                          34.8      71000 220000                 NaN
+n09000004            causeway-coast-and-glens local-authority-district    2022    % economic-inactivity-rate         30.1                          25.6                          34.5      24000  78000                 NaN
+n09000005             derry-city-and-strabane local-authority-district    2022    % economic-inactivity-rate         30.6                          26.4                          34.8      27000  88000                 NaN
+n09000006                 fermanagh-and-omagh local-authority-district    2022    % economic-inactivity-rate         25.2                          21.0                          29.3      17000  68000                 NaN
+n09000007             lisburn-and-castlereagh local-authority-district    2022    % economic-inactivity-rate         23.4                          20.0                          26.7      23000  98000                 NaN
+n09000008                 mid-and-east-antrim local-authority-district    2022    % economic-inactivity-rate         22.1                          18.5                          25.6      19000  87000                 NaN
+n09000009                          mid-ulster local-authority-district    2022    % economic-inactivity-rate         25.1                          21.5                          28.8      23000  92000                 NaN
+n09000010               newry-mourne-and-down local-authority-district    2022    % economic-inactivity-rate         24.6                          21.2                          27.9      27000 110000                 NaN
+n09000011                 ards-and-north-down local-authority-district    2022    % economic-inactivity-rate         25.2                          21.7                          28.6      25000 100000                 NaN
         
 
 - The data cube has the following value counts:
