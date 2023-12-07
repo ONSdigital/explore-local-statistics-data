@@ -63,8 +63,8 @@ def wrangle(input: Path()) -> None:
             columns={
                 "Inactivity":"Indicator",
                 "Economic_Inactivity_Rate": "Observation",
-                "Economic_Inactivity_Rate_lower_confidence_interval_95": "Lower_confidence_interval_95",
-                "Economic_Inactivity_Rate_upper_confidence_interval_95": "Upper_confidence_interval_95",
+                "Economic_Inactivity_Rate_Lower_Confidence_Interval": "Lower_confidence_interval_95",
+                "Economic_Inactivity_Rate_Upper_Confidence_Interval": "Upper_confidence_interval_95",
                 "Economic_Inactivity_Numerator": "Numerator",
                 "Economic_Inactivity_Total":"Total"
             }
