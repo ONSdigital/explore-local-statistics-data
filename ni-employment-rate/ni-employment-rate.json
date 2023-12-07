@@ -60,26 +60,27 @@
             }
         },
 
-        "Numerator": {
-            "type": "attribute",
-            "label": "Numerator",
-            "data_type": "integer"
-        },
-
         "Lower_confidence_interval_95": {
             "type": "attribute",
             "label": "Lower Confidence Interval",
             "data_type": "decimal",
-            "describes_observations": "observation",
+            "describes_observations": "Observation",
             "required": false
         },
         "Upper_confidence_interval_95": {
             "type": "attribute",
             "label": "Upper Confidence Interval",
             "data_type": "decimal",
-            "describes_observations": "observation",
+            "describes_observations": "Observation",
             "required": false
         },
+
+        "Numerator": {
+            "type": "attribute",
+            "label": "Numerator",
+            "data_type": "integer"
+        },
+
         "Total":{
             "type": "attribute",
             "data_type": "integer",
