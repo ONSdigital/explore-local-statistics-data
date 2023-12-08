@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Area Name
           - Label: Area Name
-          - Issued: 2023-12-06T17:55:04.893889
-          - Modified: 2023-12-06T17:55:04.893889
+          - Issued: 2023-12-08T13:29:30.289352
+          - Modified: 2023-12-08T13:29:30.289352
           - License: None
           - Creator: None
           - Publisher: None
@@ -20,7 +20,7 @@
         
 
 - The code list has the following dataset information:
-        - Number of Concepts: 381
+        - Number of Concepts: 380
         - Number of Duplicates: 0
         - First 10 Concepts: 
       Uri Identifier                Label             Notation  Parent Uri Identifier  Sort Priority  Description
@@ -36,16 +36,16 @@ barking-and-dagenham Barking and Dagenham barking-and-dagenham                  
               barnet               Barnet               barnet                    NaN              9          NaN
         - Last 10 Concepts: 
           Uri Identifier                    Label                 Notation  Parent Uri Identifier  Sort Priority  Description
-           wolverhampton            Wolverhampton            wolverhampton                    NaN            371          NaN
-               worcester                Worcester                worcester                    NaN            372          NaN
-          worcestershire           Worcestershire           worcestershire                    NaN            373          NaN
-                worthing                 Worthing                 worthing                    NaN            374          NaN
-                wychavon                 Wychavon                 wychavon                    NaN            375          NaN
-                 wycombe                  Wycombe                  wycombe                    NaN            376          NaN
-                    wyre                     Wyre                     wyre                    NaN            377          NaN
-             wyre-forest              Wyre Forest              wyre-forest                    NaN            378          NaN
-                    york                     York                     york                    NaN            379          NaN
-yorkshire-and-the-humber Yorkshire and The Humber yorkshire-and-the-humber                    NaN            380          NaN
+           wolverhampton            Wolverhampton            wolverhampton                    NaN            370          NaN
+               worcester                Worcester                worcester                    NaN            371          NaN
+          worcestershire           Worcestershire           worcestershire                    NaN            372          NaN
+                worthing                 Worthing                 worthing                    NaN            373          NaN
+                wychavon                 Wychavon                 wychavon                    NaN            374          NaN
+                 wycombe                  Wycombe                  wycombe                    NaN            375          NaN
+                    wyre                     Wyre                     wyre                    NaN            376          NaN
+             wyre-forest              Wyre Forest              wyre-forest                    NaN            377          NaN
+                    york                     York                     york                    NaN            378          NaN
+yorkshire-and-the-humber Yorkshire and The Humber yorkshire-and-the-humber                    NaN            379          NaN
         
 
 - The code list has the following concepts information:

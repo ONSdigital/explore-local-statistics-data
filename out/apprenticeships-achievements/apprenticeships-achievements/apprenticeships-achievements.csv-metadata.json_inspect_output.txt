@@ -6,7 +6,7 @@
           - Title: Apprenticeships achievements
           - Label: Apprenticeships achievements
           - Issued: 2023-05-17T12:25:28.117899
-          - Modified: 2023-12-06T15:20:00
+          - Modified: 2023-12-08T13:26:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
+		-- community-learning
+		-- education-and-training
 		-- subnational
 		-- local-authority
 		-- apprenticeship
-		-- community-learning
-		-- education-and-training
 		-- county
           - Contact Point: None
           - Identifier: Apprenticeships achievements
@@ -93,20 +93,20 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          Period
      ons-geography-code.csv#code-list      ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 2148
+        - Number of Rows: 2142
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD                         AREANM Geography                             Variable Name                    Indicator   Mission                                            Category                  Period  Observation                     Measure                        Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-e92000001                        england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2022-08-01t00-00-00/p3m        456.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y        385.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y        444.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y        418.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y        528.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y        790.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-       na outside-of-england-and-unknown    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2022-08-01t00-00-00/p3m          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
-       na outside-of-england-and-unknown    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
-       na outside-of-england-and-unknown    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
-       na outside-of-england-and-unknown    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
+   AREACD     AREANM Geography                             Variable Name                    Indicator   Mission                                            Category                  Period  Observation                     Measure                        Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+e92000001    england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2022-08-01t00-00-00/p3m        456.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y        385.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y        444.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y        418.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y        528.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y        790.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y       1206.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y        746.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y        557.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y        543.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
         - Last 10 Rows: 
    AREACD                    AREANM                Geography                             Variable Name                    Indicator   Mission                                            Category                  Period  Observation                     Measure                        Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity                                                                      Notes
 e07000191             west-somerset local-authority-district Number of achievements on apprenticeships Apprenticeships achievements Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y        804.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1 Obsolete code since 2019 (replaced by E07000246 Somerset West and Taunton)
@@ -124,5 +124,5 @@ e07000189            south-somerset local-authority-district Number of achieveme
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                               Measure        Unit  Count
-Number of apprenticeship achievements per 100,000   2148
+Number of apprenticeship achievements per 100,000   2142
         
