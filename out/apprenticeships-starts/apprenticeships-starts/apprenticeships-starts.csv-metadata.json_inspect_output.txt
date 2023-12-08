@@ -6,7 +6,7 @@
           - Title: Apprenticeships starts
           - Label: Apprenticeships starts
           - Issued: 2023-05-17T12:25:40.277755
-          - Modified: 2023-12-06T15:30:00
+          - Modified: 2023-12-08T14:06:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- community-learning
-		-- local-authority
-		-- apprenticeship
-		-- subnational
 		-- education-and-training
 		-- county
+		-- local-authority
+		-- subnational
+		-- apprenticeship
+		-- community-learning
           - Contact Point: None
           - Identifier: Apprenticeships starts
           - Comment: Apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, England, academic years  2017/18 to 2022/23
@@ -93,20 +93,20 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          Period
      ons-geography-code.csv#code-list      ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 2148
+        - Number of Rows: 2142
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD                         AREANM Geography                       Variable Name              Indicator   Mission                                            Category                  Period  Observation                     Measure                        Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-e92000001                        england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2022-08-01t00-00-00/p3m        947.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y        981.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y        912.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y        918.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y       1122.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-e92000001                        england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y       1075.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
-       na outside-of-england-and-unknown    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2022-08-01t00-00-00/p3m          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
-       na outside-of-england-and-unknown    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
-       na outside-of-england-and-unknown    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
-       na outside-of-england-and-unknown    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y          NaN Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                  x         1   NaN
+   AREACD     AREANM Geography                       Variable Name              Indicator   Mission                                            Category                  Period  Observation                     Measure                        Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+e92000001    england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2022-08-01t00-00-00/p3m        947.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2021-08-01t00-00-00/p1y        981.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y        912.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y        918.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y       1122.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e92000001    england    nation Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y       1075.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y       1365.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2018-08-01t00-00-00/p1y       1401.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2019-08-01t00-00-00/p1y       1085.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
+e12000001 north-east    region Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2020-08-01t00-00-00/p1y       1039.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1   NaN
         - Last 10 Rows: 
    AREACD                    AREANM                Geography                       Variable Name              Indicator   Mission                                            Category                  Period  Observation                     Measure                        Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity                                                                      Notes
 e07000191             west-somerset local-authority-district Number of starts on apprenticeships Apprenticeships starts Mission 6 Spreading opportunity and improving public services 2017-08-01t00-00-00/p1y       1054.0 Rate per 100,000 population Rate per 100,000 population                              NaN                              NaN                NaN         1 Obsolete code since 2019 (replaced by E07000246 Somerset West and Taunton)
@@ -124,5 +124,5 @@ e07000189            south-somerset local-authority-district Number of starts on
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                         Measure        Unit  Count
-Number of apprenticeship starts per 100,000   2148
+Number of apprenticeship starts per 100,000   2142
         
