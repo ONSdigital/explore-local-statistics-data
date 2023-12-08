@@ -6,7 +6,7 @@
           - Title: Children at expected level for communication and language by end of early years foundation stage
           - Label: Children at expected level for communication and language by end of early years foundation stage
           - Issued: 2023-05-19T09:29:46.906234
-          - Modified: 2023-12-06T14:48:00
+          - Modified: 2023-12-08T12:47:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- region
-		-- county
-		-- subnational
-		-- state-funded-school
-		-- local-authority
 		-- children-development
+		-- local-authority
+		-- subnational
+		-- county
+		-- state-funded-school
+		-- region
           - Contact Point: None
           - Identifier: Children at expected level for communication and language by end of early years foundation stage
           - Comment: Early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all communication and language learning goals, England (state-funded schools), academic year 2022/23.
@@ -93,20 +93,20 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          Period
      ons-geography-code.csv#code-list      ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 341
+        - Number of Rows: 340
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD                         AREANM                   Geography                                                                       Variable Name                                                                                        Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-e92000001                        england                      nation 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         79.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-       na outside-of-england-and-unknown                      region 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         76.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e12000001                     north-east                      region 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         78.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000047                  county-durham county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         77.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000005                     darlington county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         76.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000001                     hartlepool county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         76.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000002                  middlesbrough county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         71.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000057                 northumberland county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         81.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000003           redcar-and-cleveland county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         79.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000004               stockton-on-tees county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         80.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+   AREACD               AREANM                   Geography                                                                       Variable Name                                                                                        Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+e92000001              england                      nation 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         79.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e12000001           north-east                      region 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         78.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000047        county-durham county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         77.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000005           darlington county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         76.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000001           hartlepool county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         76.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000002        middlesbrough county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         71.1 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000057       northumberland county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         81.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000003 redcar-and-cleveland county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         79.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000004     stockton-on-tees county-or-unitary-authority 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         80.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e08000037            gateshead    local-authority-district 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         85.0 Percentage    %                              NaN                              NaN                 NaN         1   NaN
         - Last 10 Rows: 
    AREACD                    AREANM                   Geography                                                                       Variable Name                                                                                        Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                     Notes
 e07000079                  cotswold    local-authority-district 5 year olds at 'expected level' for communication and language early learning goals Children at expected level for communication and language by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         84.6 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
@@ -124,5 +124,5 @@ e07000189            south-somerset    local-authority-district 5 year olds at '
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                                                          Measure    Unit  Count
-Children at end of early years foundation stage at expected level for language and communication percent    341
+Children at end of early years foundation stage at expected level for language and communication percent    340
         
