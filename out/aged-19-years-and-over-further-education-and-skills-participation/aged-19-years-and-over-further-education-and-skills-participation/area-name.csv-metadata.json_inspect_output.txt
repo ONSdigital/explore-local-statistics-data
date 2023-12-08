@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Area Name
           - Label: Area Name
-          - Issued: 2023-12-08T12:26:33.166218
-          - Modified: 2023-12-08T12:26:33.166218
+          - Issued: 2023-12-08T12:36:16.025524
+          - Modified: 2023-12-08T12:36:16.025524
           - License: None
           - Creator: None
           - Publisher: None
