@@ -6,7 +6,7 @@
           - Title: Aged 19 years and over further education and skills participation
           - Label: Aged 19 years and over further education and skills participation
           - Issued: 2023-05-17T12:25:15.996450
-          - Modified: 2023-12-06T14:55:00
+          - Modified: 2023-12-08T11:55:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- community-learning
 		-- local-authority
-		-- subnational
-		-- education-and-training
 		-- apprenticeship
+		-- community-learning
+		-- education-and-training
+		-- subnational
           - Contact Point: None
           - Identifier: Aged 19 years and over further education and skills participation
           - Comment: 19+ further education and skills participation rate per 100,000 population, England, academic years 2017/18 to 2022/23
