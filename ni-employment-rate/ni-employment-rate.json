@@ -17,7 +17,7 @@
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "themes": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
     "dataset_issued": "2023-11-28T12:44",
-    "dataset_modified": "2023-12-07T12:18",
+    "dataset_modified": "2023-12-07T18:18",
     "columns": {
         "AREACD": {
             "type": "dimension",
