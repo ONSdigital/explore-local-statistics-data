@@ -243,88 +243,71 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#structure",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#component": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/ons-geography-code"
-                },
+                    "@language": "en",
+                    "@value": "Children at end of early years foundation stage for literacy"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/unit"
-                },
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/upper-confidence-interval"
-                },
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/area-name"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/children-at-end-of-early-years-foundation-stage-for-literacy"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/measure-type"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/observation-status"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/geography-type"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/lower-confidence-interval"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/lower-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#slice/cross-measures"
+                    "@value": false
                 }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -348,11 +331,37 @@
             ]
         },
         {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/area-name"
+                }
+            ]
+        },
+        {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/unit",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -376,47 +385,13 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
-                }
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
-                }
-            ]
-        },
-        {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval",
             "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -441,37 +416,129 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#slice/cross-measures",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "area-name.csv#code-list"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
                 }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Area Name"
+                    "@value": "Observation Status"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/area-name"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
                 }
             ]
         },
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/observation-status",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -495,20 +562,25 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/ons-geography-code",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#csvcubed-build-activity",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
+                }
             ]
         },
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type",
             "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -528,41 +600,33 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/lower-confidence-interval",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/lower-confidence-interval"
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code",
             "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -587,94 +651,172 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/ons-geography-code",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#MeasureProperty"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@language": "en",
-                    "@value": "Children at end of early years foundation stage for literacy"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                    "@value": 1
                 }
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/upper-confidence-interval",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#structure",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/measure-type"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/unit"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/geography-type"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/children-at-end-of-early-years-foundation-stage-for-literacy"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/area-name"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/observation-status"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
+                },
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/children-at-end-of-early-years-foundation-stage-for-literacy",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
                 }
             ]
         },
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/area-name",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/geography-type",
+            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/area-name"
+                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 4
                 }
             ]
         },
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -689,40 +831,13 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://purl.org/linked-data/cube#Attachable"
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -754,7 +869,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-12-06T14:44:00"
+                    "@value": "2023-12-08T12:48:00"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -788,15 +903,7 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "state-funded-school"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "county"
+                    "@value": "region"
                 },
                 {
                     "@language": "en",
@@ -808,7 +915,15 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "region"
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
+                },
+                {
+                    "@language": "en",
+                    "@value": "state-funded-school"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -823,125 +938,10 @@
             ]
         },
         {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/children-at-end-of-early-years-foundation-stage-for-literacy",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#measure/children-at-end-of-early-years-foundation-stage-for-literacy"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dependency/ons-geography-code",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -957,8 +957,8 @@
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dependency/area-name",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -974,8 +974,8 @@
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dependency/geography-type",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -991,8 +991,8 @@
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#dependency/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://rdfs.org/ns/void#Dataset"
+                "http://rdfs.org/ns/void#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1008,9 +1008,9 @@
         {
             "@id": "children-at-expected-level-for-literacy-by-end-of-early-years-foundation-stage.csv#unit/percent",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://qudt.org/schema/qudt/Unit",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

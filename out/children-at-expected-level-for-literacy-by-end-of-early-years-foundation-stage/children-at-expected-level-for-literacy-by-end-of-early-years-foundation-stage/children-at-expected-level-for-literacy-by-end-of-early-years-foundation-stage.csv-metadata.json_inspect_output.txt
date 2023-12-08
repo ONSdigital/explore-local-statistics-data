@@ -6,7 +6,7 @@
           - Title: Children at expected level for literacy by end of early years foundation stage
           - Label: Children at expected level for literacy by end of early years foundation stage
           - Issued: 2023-05-17T12:26:38.382511
-          - Modified: 2023-12-06T14:44:00
+          - Modified: 2023-12-08T12:48:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- county
 		-- subnational
-		-- local-authority
 		-- children-development
+		-- local-authority
+		-- county
 		-- region
 		-- state-funded-school
           - Contact Point: None
@@ -93,20 +93,20 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          Period
      ons-geography-code.csv#code-list      ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 341
+        - Number of Rows: 340
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD                         AREANM                   Geography                                                     Variable Name                                                                      Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-e92000001                        england                      nation 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         69.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-       na outside-of-england-and-unknown                      region 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         60.9 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e12000001                     north-east                      region 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         68.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000047                  county-durham county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         68.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000005                     darlington county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         66.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000001                     hartlepool county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         66.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000002                  middlesbrough county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         62.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000057                 northumberland county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         71.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000003           redcar-and-cleveland county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         69.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
-e06000004               stockton-on-tees county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         71.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+   AREACD               AREANM                   Geography                                                     Variable Name                                                                      Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+e92000001              england                      nation 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         69.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e12000001           north-east                      region 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         68.4 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000047        county-durham county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         68.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000005           darlington county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         66.7 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000001           hartlepool county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         66.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000002        middlesbrough county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         62.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000057       northumberland county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         71.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000003 redcar-and-cleveland county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         69.3 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e06000004     stockton-on-tees county-or-unitary-authority 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         71.5 Percentage    %                              NaN                              NaN                 NaN         1   NaN
+e08000037            gateshead    local-authority-district 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         69.8 Percentage    %                              NaN                              NaN                 NaN         1   NaN
         - Last 10 Rows: 
    AREACD                    AREANM                   Geography                                                     Variable Name                                                                      Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                     Notes
 e07000079                  cotswold    local-authority-district 5 year olds at 'expected level' for literacy early learning goals Children at expected level for literacy by end of early years foundation stage Mission 5 Spreading opportunity and improving public services  202223         74.8 Percentage    %                              NaN                              NaN                 NaN         1                                                       NaN
@@ -124,5 +124,5 @@ e07000189            south-somerset    local-authority-district 5 year olds at '
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                      Measure    Unit  Count
-Children at end of early years foundation stage for literacy percent    341
+Children at end of early years foundation stage for literacy percent    340
         
