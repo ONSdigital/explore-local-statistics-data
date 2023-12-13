@@ -250,341 +250,13 @@
             ]
         },
         {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dataset",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://purl.org/linked-data/cube#DataSet"
-            ],
-            "http://purl.org/dc/terms/creator": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities"
-                }
-            ],
-            "http://purl.org/dc/terms/description": [
-                {
-                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "This dataset shows the percentage of adults aged 18 and over classified as obese, in England, for 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data#page/1/gid/1938133368/pat/159/par/K02000001/ati/15/are/E92000001/yrr/1/cid/4/tbm/1) \n\n\n### Source Notes and Caveats \nAdults are defined as obese if their body mass index (BMI) is greater than or equal to 30kg/m\u00b2.\n\nEstimates for adults (aged 18 years and over) classified as obese were fully revised by the Office for Health Improvement and Disparities in May 2023 with all previously published data overwritten. The replacement of all previously published data was required as the adjustments applied to the self-reported height and weight data have been updated and published by NHS Digital in the [Health Survey for England predicting height, weight and body mass index from self-reported data](https://digital.nhs.uk/data-and-information/areas-of-interest/public-health/health-survey-for-england-predicting-height-weight-and-body-mass-index-from-self-reported-data) report. The updated adjustments for height and weight have been applied to the new data point (November 2021 to 2022) and the whole back series (November 2015 to 2016 to November 2020 to 2021). \n\n\n"
-                }
-            ],
-            "http://purl.org/dc/terms/identifier": [
-                {
-                    "@value": "Adult obesity prevalence (aged 18 years and over)"
-                }
-            ],
-            "http://purl.org/dc/terms/issued": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-05-17T12:41:34.475144"
-                }
-            ],
-            "http://purl.org/dc/terms/license": [
-                {
-                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-                }
-            ],
-            "http://purl.org/dc/terms/modified": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2023-11-21T12:40:00"
-                }
-            ],
-            "http://purl.org/dc/terms/publisher": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/title": [
-                {
-                    "@language": "en",
-                    "@value": "Adult obesity prevalence (aged 18 years and over)"
-                }
-            ],
-            "http://purl.org/linked-data/cube#structure": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#structure"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Percentage of adults aged 18 and over classified as obese, England, 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022."
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Adult obesity prevalence (aged 18 years and over)"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#keyword": [
-                {
-                    "@language": "en",
-                    "@value": "obesity"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "county"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#theme": [
-                {
-                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare"
-                }
-            ],
-            "http://www.w3.org/ns/prov#wasGeneratedBy": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/measure-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/gregorian-time-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 10
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/adults-aged-18-years-and-over-who-are-obese",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#slice/cross-measures",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography-type.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Geography Type"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/geography-type"
-                }
-            ]
-        },
-        {
             "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -609,11 +281,268 @@
             ]
         },
         {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/unit",
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/geography-type"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 8
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/gregorian-time-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/measure-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/measure-type"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/geography-type"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/observation-status"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/adults-aged-18-years-and-over-who-are-obese"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/area-name"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/gregorian-time-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/unit"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese",
+            "@type": [
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Adults (aged 18 years and over) who are obese"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -637,25 +566,98 @@
             ]
         },
         {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/area-name",
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
                 }
             ]
         },
@@ -669,9 +671,9 @@
         {
             "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/gregorian-time-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -692,11 +694,11 @@
         {
             "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -721,10 +723,71 @@
             ]
         },
         {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/ons-geography-code",
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#slice/cross-measures",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/gregorian-time-interval"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/adults-aged-18-years-and-over-who-are-obese",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 7
+                }
             ]
         },
         {
@@ -740,196 +803,133 @@
             ]
         },
         {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#structure",
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/upper-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/area-name"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/ons-geography-code"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/adults-aged-18-years-and-over-who-are-obese"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/unit"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/measure-type"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/observation-status"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/geography-type"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/gregorian-time-interval"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/gregorian-time-interval"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name"
-                },
+            "http://purl.org/linked-data/cube#attribute": [
                 {
                     "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/ons-geography-code"
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
+                    "@value": 9
                 }
             ]
         },
         {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#component/geography-type",
+            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dataset",
             "@type": [
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/dc/terms/creator": [
                 {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
+                    "@id": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/dc/terms/description": [
                 {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/geography-type"
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "This dataset shows the percentage of adults aged 18 and over classified as living with obesity, in England, for 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/national-child-measurement-programme/data#page/1/gid/1938133368/pat/159/par/K02000001/ati/15/are/E92000001/yrr/1/cid/4/tbm/1) \n\n\n### Source Notes and Caveats \nAdults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m\u00b2.\n\nEstimates for adults (aged 18 years and over) classified as living with obesity were fully revised by the Office for Health Improvement and Disparities in May 2023 with all previously published data overwritten. The replacement of all previously published data was required as the adjustments applied to the self-reported height and weight data have been updated and published by NHS England in the [Health Survey for England predicting height, weight and body mass index from self-reported data](https://digital.nhs.uk/data-and-information/areas-of-interest/public-health/health-survey-for-england-predicting-height-weight-and-body-mass-index-from-self-reported-data) report. The updated adjustments for height and weight have been applied to the new data point (November 2021 to 2022) and the whole back series (November 2015 to 2016 to November 2020 to 2021). \n\n\n"
                 }
             ],
-            "http://purl.org/linked-data/cube#order": [
+            "http://purl.org/dc/terms/identifier": [
                 {
-                    "@value": 3
+                    "@value": "Adult obesity prevalence (aged 18 years and over)"
                 }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#dimension/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/dc/terms/issued": [
                 {
-                    "@id": "area-name.csv#code-list"
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-05-17T12:41:34.475144"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2023-12-13T09:01:00"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Adult obesity prevalence (aged 18 years and over)"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Percentage of adults aged 18 and over classified as living with obesity, England, 16/11/2015-15/11/2016 to 16/11/2021-15/11/2022."
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Area Name"
+                    "@value": "Adult obesity prevalence (aged 18 years and over)"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#class/area-name"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#measure/adults-aged-18-years-and-over-who-are-obese",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "@value": "county"
+                },
                 {
                     "@language": "en",
-                    "@value": "Adults (aged 18 years and over) who are obese"
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
+                    "@value": "obesity"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://www.w3.org/ns/dcat#theme": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
+                    "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#csvcubed-build-activity"
                 }
             ]
         },
@@ -1004,9 +1004,9 @@
         {
             "@id": "adult-obesity-prevalence-aged-18-years-and-over.csv#unit/percent",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
