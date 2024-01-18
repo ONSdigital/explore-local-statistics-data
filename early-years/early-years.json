@@ -1,6 +1,6 @@
 {
-    "$schema": "https://json-schema.org/draft-07/schema",
-    "id": "https://purl.org/csv-cubed/qube-config/v1.0",
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1.0",
+    
     "title": "Children at expected level for early learning goals",
     "creator": "https://www.gov.uk/government/organisations/department-for-education",
     "summary": "Early years foundation stage profile outcomes of five year olds. Percentage at 'expected level' across all communication and language, literacy and mathematics early learning goals, England (state-funded schools), academic years 2021/22 to 2022/23.",
@@ -16,10 +16,10 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2024-01-04T12:26:49.62668",
-    "dataset_modified": "2024-01-05T12:26:49.62668",
+    "dataset_modified": "2024-01-12T12:26:49.62668",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
     "columns": {
-        "Period": {
+        "period": {
             "type": "dimension",
             "from_template": "gregorian-interval"
         },
