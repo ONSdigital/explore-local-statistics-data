@@ -29,8 +29,8 @@ E08000023,South Tyneside,Local Authority District,2021-09-01T00:00:00/P1Y,%,Comm
 E08000023,South Tyneside,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.3,,,nan
 E08000024,Sunderland,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.4,,,nan
 E08000024,Sunderland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.2,,,nan
-E12000002,North West ,Region,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.1,,,nan
-E12000002,North West ,Region,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.5,,,nan
+E12000002,North West,Region,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.1,,,nan
+E12000002,North West,Region,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.5,,,nan
 E06000008,Blackburn with Darwen,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,74.6,,,nan
 E06000008,Blackburn with Darwen,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,74.7,,,nan
 E06000009,Blackpool,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.6,,,nan
@@ -43,7 +43,7 @@ E06000006,Halton,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communica
 E06000006,Halton,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.5,,,nan
 E06000007,Warrington,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.4,,,nan
 E06000007,Warrington,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.9,,,nan
-E10000006,Cumbria ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.2,,,nan
+E10000006,Cumbria,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.2,,,nan
 E06000063,Cumberland,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,82.1,,,nan
 E06000064,Westmorland and Furness,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.9,,,nan
 E07000026,Allerdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.7,,,nan
@@ -58,8 +58,8 @@ E08000002,Bury,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication 
 E08000002,Bury,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.0,,,nan
 E08000003,Manchester,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,68.0,,,nan
 E08000003,Manchester,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,69.7,,,nan
-E08000004,Oldham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.0,,,nan
-E08000004,Oldham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.4,,,nan
+E08000004,Oldham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.0,,,nan
+E08000004,Oldham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.4,,,nan
 E08000005,Rochdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.9,,,nan
 E08000005,Rochdale,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,74.3,,,nan
 E08000006,Salford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.4,,,nan
@@ -98,8 +98,8 @@ E07000127,West Lancashire,Local Authority District,2022-09-01T00:00:00/P1Y,%,Com
 E07000127,West Lancashire,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.8,,,nan
 E07000128,Wyre,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,83.5,,,nan
 E07000128,Wyre,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.6,,,nan
-E08000011,Knowsley ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.6,,,nan
-E08000011,Knowsley ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.8,,,nan
+E08000011,Knowsley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.6,,,nan
+E08000011,Knowsley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.8,,,nan
 E08000012,Liverpool,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.6,,,nan
 E08000012,Liverpool,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,75.1,,,nan
 E08000014,Sefton,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.4,,,nan
@@ -140,32 +140,32 @@ E08000016,Barnsley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communicat
 E08000016,Barnsley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.5,,,nan
 E08000017,Doncaster,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.2,,,nan
 E08000017,Doncaster,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.2,,,nan
-E08000018,Rotherham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.3,,,nan
-E08000018,Rotherham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.7,,,nan
+E08000018,Rotherham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.3,,,nan
+E08000018,Rotherham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.7,,,nan
 E08000019,Sheffield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.8,,,nan
 E08000019,Sheffield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.8,,,nan
-E08000032,Bradford ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.1,,,nan
-E08000032,Bradford ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.0,,,nan
+E08000032,Bradford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.1,,,nan
+E08000032,Bradford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.0,,,nan
 E08000033,Calderdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.5,,,nan
 E08000033,Calderdale,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.7,,,nan
-E08000034,Kirklees ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.9,,,nan
-E08000034,Kirklees ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.7,,,nan
-E08000035,Leeds ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.7,,,nan
-E08000035,Leeds ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.7,,,nan
+E08000034,Kirklees,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.9,,,nan
+E08000034,Kirklees,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.7,,,nan
+E08000035,Leeds,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.7,,,nan
+E08000035,Leeds,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.7,,,nan
 E08000036,Wakefield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.4,,,nan
 E08000036,Wakefield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.0,,,nan
 E12000004,East Midlands,Region,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.4,,,nan
 E12000004,East Midlands,Region,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.3,,,nan
-E06000015,Derby ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.5,,,nan
-E06000015,Derby ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.8,,,nan
+E06000015,Derby,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.5,,,nan
+E06000015,Derby,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.8,,,nan
 E06000016,Leicester,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,73.3,,,nan
 E06000016,Leicester,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,73.9,,,nan
 E06000061,North Northamptonshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.6,,,nan
 E06000061,North Northamptonshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.9,,,nan
 E06000018,Nottingham,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.5,,,nan
 E06000018,Nottingham,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,75.2,,,nan
-E06000017,Rutland ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,84.7,,,nan
-E06000017,Rutland ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,86.2,,,nan
+E06000017,Rutland,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,84.7,,,nan
+E06000017,Rutland,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,86.2,,,nan
 E06000062,West Northamptonshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.3,,,nan
 E06000062,West Northamptonshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.6,,,nan
 E10000007,Derbyshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.1,,,nan
@@ -202,8 +202,8 @@ E07000134,North West Leicestershire,Local Authority District,2021-09-01T00:00:00
 E07000134,North West Leicestershire,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.6,,,nan
 E07000135,Oadby and Wigston,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.3,,,nan
 E07000135,Oadby and Wigston,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.1,,,nan
-E10000019,Lincolnshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.6,,,nan
-E10000019,Lincolnshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.1,,,nan
+E10000019,Lincolnshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.6,,,nan
+E10000019,Lincolnshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.1,,,nan
 E07000136,Boston,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.0,,,nan
 E07000136,Boston,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.0,,,nan
 E07000137,East Lindsey,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.6,,,nan
@@ -278,10 +278,10 @@ E08000025,Birmingham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communic
 E08000025,Birmingham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,75.4,,,nan
 E08000026,Coventry,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,76.1,,,nan
 E08000026,Coventry,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,74.3,,,nan
-E08000027,Dudley ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.8,,,nan
-E08000027,Dudley ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.7,,,nan
-E08000028,Sandwell ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.2,,,nan
-E08000028,Sandwell ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,74.1,,,nan
+E08000027,Dudley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.8,,,nan
+E08000027,Dudley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.7,,,nan
+E08000028,Sandwell,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.2,,,nan
+E08000028,Sandwell,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,74.1,,,nan
 E08000029,Solihull,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.6,,,nan
 E08000029,Solihull,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,82.5,,,nan
 E08000030,Walsall,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,74.3,,,nan
@@ -354,8 +354,8 @@ E07000076,Tendring,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communicat
 E07000076,Tendring,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.7,,,nan
 E07000077,Uttlesford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,84.7,,,nan
 E07000077,Uttlesford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,83.9,,,nan
-E10000015,Hertfordshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.2,,,nan
-E10000015,Hertfordshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.0,,,nan
+E10000015,Hertfordshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.2,,,nan
+E10000015,Hertfordshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.0,,,nan
 E07000095,Broxbourne,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.3,,,nan
 E07000095,Broxbourne,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.6,,,nan
 E07000096,Dacorum,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.5,,,nan
@@ -376,8 +376,8 @@ E07000103,Watford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communicati
 E07000103,Watford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.3,,,nan
 E07000241,Welwyn Hatfield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,82.7,,,nan
 E07000241,Welwyn Hatfield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,82.1,,,nan
-E10000020,Norfolk ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.7,,,nan
-E10000020,Norfolk ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.8,,,nan
+E10000020,Norfolk,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.7,,,nan
+E10000020,Norfolk,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.8,,,nan
 E07000143,Breckland,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.9,,,nan
 E07000143,Breckland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,76.5,,,nan
 E07000144,Broadland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,86.4,,,nan
@@ -414,20 +414,20 @@ E09000001,City of London,Local Authority District,2021-09-01T00:00:00/P1Y,%,Comm
 E09000001,City of London,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,87.7,,,nan
 E09000012,Hackney,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.7,,,nan
 E09000012,Hackney,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.2,,,nan
-E09000013,Hammersmith and Fulham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.1,,,nan
-E09000013,Hammersmith and Fulham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.4,,,nan
+E09000013,Hammersmith and Fulham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.1,,,nan
+E09000013,Hammersmith and Fulham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.4,,,nan
 E09000014,Haringey,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,79.7,,,nan
 E09000014,Haringey,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.2,,,nan
 E09000019,Islington,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.3,,,nan
 E09000019,Islington,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,79.4,,,nan
 E09000020,Kensington and Chelsea,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.6,,,nan
 E09000020,Kensington and Chelsea,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.8,,,nan
-E09000022,Lambeth ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.6,,,nan
-E09000022,Lambeth ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.5,,,nan
-E09000023,Lewisham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.7,,,nan
-E09000023,Lewisham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.3,,,nan
-E09000025,Newham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.8,,,nan
-E09000025,Newham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.8,,,nan
+E09000022,Lambeth,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.6,,,nan
+E09000022,Lambeth,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.5,,,nan
+E09000023,Lewisham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.7,,,nan
+E09000023,Lewisham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.3,,,nan
+E09000025,Newham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,77.8,,,nan
+E09000025,Newham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,77.8,,,nan
 E09000028,Southwark,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,78.1,,,nan
 E09000028,Southwark,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.2,,,nan
 E09000030,Tower Hamlets,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.3,,,nan
@@ -444,8 +444,8 @@ E09000003,Barnet,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communicatio
 E09000003,Barnet,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.7,,,nan
 E09000004,Bexley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,80.9,,,nan
 E09000004,Bexley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,80.3,,,nan
-E09000005,Brent ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.1,,,nan
-E09000005,Brent ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,75.7,,,nan
+E09000005,Brent,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,75.1,,,nan
+E09000005,Brent,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,75.7,,,nan
 E09000006,Bromley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,82.7,,,nan
 E09000006,Bromley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,83.2,,,nan
 E09000008,Croydon,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.6,,,nan
@@ -566,8 +566,8 @@ E07000115,Tonbridge and Malling,Local Authority District,2021-09-01T00:00:00/P1Y
 E07000115,Tonbridge and Malling,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,82.7,,,nan
 E07000116,Tunbridge Wells,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,82.7,,,nan
 E07000116,Tunbridge Wells,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,85.1,,,nan
-E10000025,Oxfordshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,82.5,,,nan
-E10000025,Oxfordshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,83.0,,,nan
+E10000025,Oxfordshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,82.5,,,nan
+E10000025,Oxfordshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,83.0,,,nan
 E07000177,Cherwell,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.6,,,nan
 E07000177,Cherwell,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.2,,,nan
 E07000178,Oxford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.1,,,nan
@@ -676,8 +676,8 @@ E07000082,Stroud,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communicatio
 E07000082,Stroud,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,84.8,,,nan
 E07000083,Tewkesbury,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,86.4,,,nan
 E07000083,Tewkesbury,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,83.8,,,nan
-E10000027,Somerset ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.1,,,nan
-E10000027,Somerset ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.1,,,nan
+E10000027,Somerset,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Communication and Language,81.1,,,nan
+E10000027,Somerset,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Communication and Language,81.1,,,nan
 E07000187,Mendip,Local Authority District,2022-09-01T00:00:00/P1Y,%,Communication and Language,83.2,,,nan
 E07000187,Mendip,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,84.9,,,nan
 E07000188,Sedgemoor,Local Authority District,2021-09-01T00:00:00/P1Y,%,Communication and Language,78.9,,,nan
@@ -716,8 +716,8 @@ E08000023,South Tyneside,Local Authority District,2021-09-01T00:00:00/P1Y,%,Lite
 E08000023,South Tyneside,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,71.4,,,nan
 E08000024,Sunderland,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.8,,,nan
 E08000024,Sunderland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.2,,,nan
-E12000002,North West ,Region,2022-09-01T00:00:00/P1Y,%,Literacy,66.7,,,nan
-E12000002,North West ,Region,2021-09-01T00:00:00/P1Y,%,Literacy,64.6,,,nan
+E12000002,North West,Region,2022-09-01T00:00:00/P1Y,%,Literacy,66.7,,,nan
+E12000002,North West,Region,2021-09-01T00:00:00/P1Y,%,Literacy,64.6,,,nan
 E06000008,Blackburn with Darwen,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,66.0,,,nan
 E06000008,Blackburn with Darwen,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,65.9,,,nan
 E06000009,Blackpool,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,66.2,,,nan
@@ -730,7 +730,7 @@ E06000006,Halton,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,
 E06000006,Halton,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,64.2,,,nan
 E06000007,Warrington,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,71.5,,,nan
 E06000007,Warrington,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,71.7,,,nan
-E10000006,Cumbria ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,65.5,,,nan
+E10000006,Cumbria,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,65.5,,,nan
 E06000063,Cumberland,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,69.0,,,nan
 E06000064,Westmorland and Furness,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,69.0,,,nan
 E07000026,Allerdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.1,,,nan
@@ -745,8 +745,8 @@ E08000002,Bury,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,68.0,
 E08000002,Bury,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.1,,,nan
 E08000003,Manchester,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,55.4,,,nan
 E08000003,Manchester,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,60.2,,,nan
-E08000004,Oldham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,62.5,,,nan
-E08000004,Oldham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,64.4,,,nan
+E08000004,Oldham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,62.5,,,nan
+E08000004,Oldham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,64.4,,,nan
 E08000005,Rochdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,61.8,,,nan
 E08000005,Rochdale,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,64.2,,,nan
 E08000006,Salford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,60.5,,,nan
@@ -785,8 +785,8 @@ E07000127,West Lancashire,Local Authority District,2022-09-01T00:00:00/P1Y,%,Lit
 E07000127,West Lancashire,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,65.4,,,nan
 E07000128,Wyre,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.6,,,nan
 E07000128,Wyre,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.3,,,nan
-E08000011,Knowsley ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.0,,,nan
-E08000011,Knowsley ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,60.7,,,nan
+E08000011,Knowsley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.0,,,nan
+E08000011,Knowsley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,60.7,,,nan
 E08000012,Liverpool,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,63.5,,,nan
 E08000012,Liverpool,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,61.6,,,nan
 E08000014,Sefton,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.3,,,nan
@@ -827,32 +827,32 @@ E08000016,Barnsley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,7
 E08000016,Barnsley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,68.2,,,nan
 E08000017,Doncaster,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,68.5,,,nan
 E08000017,Doncaster,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.4,,,nan
-E08000018,Rotherham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.2,,,nan
-E08000018,Rotherham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,67.5,,,nan
+E08000018,Rotherham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.2,,,nan
+E08000018,Rotherham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,67.5,,,nan
 E08000019,Sheffield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.1,,,nan
 E08000019,Sheffield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.2,,,nan
-E08000032,Bradford ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.7,,,nan
-E08000032,Bradford ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,63.8,,,nan
+E08000032,Bradford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.7,,,nan
+E08000032,Bradford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,63.8,,,nan
 E08000033,Calderdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,67.4,,,nan
 E08000033,Calderdale,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,69.0,,,nan
-E08000034,Kirklees ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.5,,,nan
-E08000034,Kirklees ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,65.3,,,nan
-E08000035,Leeds ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.3,,,nan
-E08000035,Leeds ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.2,,,nan
+E08000034,Kirklees,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.5,,,nan
+E08000034,Kirklees,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,65.3,,,nan
+E08000035,Leeds,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.3,,,nan
+E08000035,Leeds,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.2,,,nan
 E08000036,Wakefield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.0,,,nan
 E08000036,Wakefield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,67.9,,,nan
 E12000004,East Midlands,Region,2021-09-01T00:00:00/P1Y,%,Literacy,67.2,,,nan
 E12000004,East Midlands,Region,2022-09-01T00:00:00/P1Y,%,Literacy,69.1,,,nan
-E06000015,Derby ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,65.5,,,nan
-E06000015,Derby ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,65.6,,,nan
+E06000015,Derby,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,65.5,,,nan
+E06000015,Derby,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,65.6,,,nan
 E06000016,Leicester,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,62.8,,,nan
 E06000016,Leicester,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,65.0,,,nan
 E06000061,North Northamptonshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,68.5,,,nan
 E06000061,North Northamptonshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,65.0,,,nan
 E06000018,Nottingham,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,64.4,,,nan
 E06000018,Nottingham,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,62.0,,,nan
-E06000017,Rutland ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,76.9,,,nan
-E06000017,Rutland ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,74.3,,,nan
+E06000017,Rutland,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,76.9,,,nan
+E06000017,Rutland,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,74.3,,,nan
 E06000062,West Northamptonshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,71.1,,,nan
 E06000062,West Northamptonshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,68.4,,,nan
 E10000007,Derbyshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,69.6,,,nan
@@ -889,8 +889,8 @@ E07000134,North West Leicestershire,Local Authority District,2021-09-01T00:00:00
 E07000134,North West Leicestershire,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,71.4,,,nan
 E07000135,Oadby and Wigston,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.4,,,nan
 E07000135,Oadby and Wigston,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.2,,,nan
-E10000019,Lincolnshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.0,,,nan
-E10000019,Lincolnshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,66.8,,,nan
+E10000019,Lincolnshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.0,,,nan
+E10000019,Lincolnshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,66.8,,,nan
 E07000136,Boston,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.4,,,nan
 E07000136,Boston,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,62.3,,,nan
 E07000137,East Lindsey,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.3,,,nan
@@ -965,10 +965,10 @@ E08000025,Birmingham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy
 E08000025,Birmingham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,65.1,,,nan
 E08000026,Coventry,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.9,,,nan
 E08000026,Coventry,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.8,,,nan
-E08000027,Dudley ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.5,,,nan
-E08000027,Dudley ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,65.7,,,nan
-E08000028,Sandwell ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,62.3,,,nan
-E08000028,Sandwell ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,60.7,,,nan
+E08000027,Dudley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.5,,,nan
+E08000027,Dudley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,65.7,,,nan
+E08000028,Sandwell,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,62.3,,,nan
+E08000028,Sandwell,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,60.7,,,nan
 E08000029,Solihull,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,70.5,,,nan
 E08000029,Solihull,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.7,,,nan
 E08000030,Walsall,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,65.1,,,nan
@@ -1041,8 +1041,8 @@ E07000076,Tendring,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,7
 E07000076,Tendring,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,68.4,,,nan
 E07000077,Uttlesford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,75.6,,,nan
 E07000077,Uttlesford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,75.2,,,nan
-E10000015,Hertfordshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
-E10000015,Hertfordshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,67.9,,,nan
+E10000015,Hertfordshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
+E10000015,Hertfordshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,67.9,,,nan
 E07000095,Broxbourne,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,68.7,,,nan
 E07000095,Broxbourne,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.9,,,nan
 E07000096,Dacorum,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.1,,,nan
@@ -1063,8 +1063,8 @@ E07000103,Watford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67
 E07000103,Watford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,63.6,,,nan
 E07000241,Welwyn Hatfield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,68.4,,,nan
 E07000241,Welwyn Hatfield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,71.4,,,nan
-E10000020,Norfolk ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.4,,,nan
-E10000020,Norfolk ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,68.4,,,nan
+E10000020,Norfolk,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.4,,,nan
+E10000020,Norfolk,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,68.4,,,nan
 E07000143,Breckland,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.3,,,nan
 E07000143,Breckland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,67.9,,,nan
 E07000144,Broadland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,74.1,,,nan
@@ -1101,20 +1101,20 @@ E09000001,City of London,Local Authority District,2021-09-01T00:00:00/P1Y,%,Lite
 E09000001,City of London,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,84.2,,,nan
 E09000012,Hackney,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,72.6,,,nan
 E09000012,Hackney,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,73.9,,,nan
-E09000013,Hammersmith and Fulham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.7,,,nan
-E09000013,Hammersmith and Fulham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,71.7,,,nan
+E09000013,Hammersmith and Fulham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.7,,,nan
+E09000013,Hammersmith and Fulham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,71.7,,,nan
 E09000014,Haringey,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,73.0,,,nan
 E09000014,Haringey,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,75.4,,,nan
 E09000019,Islington,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.5,,,nan
 E09000019,Islington,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,68.6,,,nan
 E09000020,Kensington and Chelsea,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,73.7,,,nan
 E09000020,Kensington and Chelsea,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
-E09000022,Lambeth ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.5,,,nan
-E09000022,Lambeth ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,69.9,,,nan
-E09000023,Lewisham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.2,,,nan
-E09000023,Lewisham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,72.8,,,nan
-E09000025,Newham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.3,,,nan
-E09000025,Newham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
+E09000022,Lambeth,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.5,,,nan
+E09000022,Lambeth,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,69.9,,,nan
+E09000023,Lewisham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.2,,,nan
+E09000023,Lewisham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,72.8,,,nan
+E09000025,Newham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.3,,,nan
+E09000025,Newham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
 E09000028,Southwark,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,71.8,,,nan
 E09000028,Southwark,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,71.2,,,nan
 E09000030,Tower Hamlets,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,67.7,,,nan
@@ -1131,8 +1131,8 @@ E09000003,Barnet,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.
 E09000003,Barnet,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,67.5,,,nan
 E09000004,Bexley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,74.2,,,nan
 E09000004,Bexley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,72.6,,,nan
-E09000005,Brent ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,68.7,,,nan
-E09000005,Brent ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,68.9,,,nan
+E09000005,Brent,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,68.7,,,nan
+E09000005,Brent,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,68.9,,,nan
 E09000006,Bromley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,75.3,,,nan
 E09000006,Bromley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,74.6,,,nan
 E09000008,Croydon,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.9,,,nan
@@ -1253,8 +1253,8 @@ E07000115,Tonbridge and Malling,Local Authority District,2021-09-01T00:00:00/P1Y
 E07000115,Tonbridge and Malling,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.1,,,nan
 E07000116,Tunbridge Wells,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.6,,,nan
 E07000116,Tunbridge Wells,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,71.1,,,nan
-E10000025,Oxfordshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,70.5,,,nan
-E10000025,Oxfordshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,72.2,,,nan
+E10000025,Oxfordshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,70.5,,,nan
+E10000025,Oxfordshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,72.2,,,nan
 E07000177,Cherwell,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,71.2,,,nan
 E07000177,Cherwell,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,70.5,,,nan
 E07000178,Oxford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.7,,,nan
@@ -1363,8 +1363,8 @@ E07000082,Stroud,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.
 E07000082,Stroud,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,72.2,,,nan
 E07000083,Tewkesbury,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,75.2,,,nan
 E07000083,Tewkesbury,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,74.4,,,nan
-E10000027,Somerset ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,67.8,,,nan
-E10000027,Somerset ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
+E10000027,Somerset,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Literacy,67.8,,,nan
+E10000027,Somerset,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Literacy,70.7,,,nan
 E07000187,Mendip,Local Authority District,2022-09-01T00:00:00/P1Y,%,Literacy,72.4,,,nan
 E07000187,Mendip,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,69.4,,,nan
 E07000188,Sedgemoor,Local Authority District,2021-09-01T00:00:00/P1Y,%,Literacy,66.6,,,nan
@@ -1403,8 +1403,8 @@ E08000023,South Tyneside,Local Authority District,2021-09-01T00:00:00/P1Y,%,Math
 E08000023,South Tyneside,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.1,,,nan
 E08000024,Sunderland,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.2,,,nan
 E08000024,Sunderland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.0,,,nan
-E12000002,North West ,Region,2022-09-01T00:00:00/P1Y,%,Mathematics,74.3,,,nan
-E12000002,North West ,Region,2021-09-01T00:00:00/P1Y,%,Mathematics,72.9,,,nan
+E12000002,North West,Region,2022-09-01T00:00:00/P1Y,%,Mathematics,74.3,,,nan
+E12000002,North West,Region,2021-09-01T00:00:00/P1Y,%,Mathematics,72.9,,,nan
 E06000008,Blackburn with Darwen,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,72.4,,,nan
 E06000008,Blackburn with Darwen,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,72.2,,,nan
 E06000009,Blackpool,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,72.5,,,nan
@@ -1417,7 +1417,7 @@ E06000006,Halton,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathemati
 E06000006,Halton,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,71.8,,,nan
 E06000007,Warrington,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,79.8,,,nan
 E06000007,Warrington,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.9,,,nan
-E10000006,Cumbria ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,74.2,,,nan
+E10000006,Cumbria,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,74.2,,,nan
 E06000063,Cumberland,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,75.3,,,nan
 E06000064,Westmorland and Furness,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,77.1,,,nan
 E07000026,Allerdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.3,,,nan
@@ -1432,8 +1432,8 @@ E08000002,Bury,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75
 E08000002,Bury,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.5,,,nan
 E08000003,Manchester,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,63.9,,,nan
 E08000003,Manchester,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,67.4,,,nan
-E08000004,Oldham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,69.1,,,nan
-E08000004,Oldham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,71.2,,,nan
+E08000004,Oldham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,69.1,,,nan
+E08000004,Oldham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,71.2,,,nan
 E08000005,Rochdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,69.7,,,nan
 E08000005,Rochdale,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,72.3,,,nan
 E08000006,Salford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,71.0,,,nan
@@ -1472,8 +1472,8 @@ E07000127,West Lancashire,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mat
 E07000127,West Lancashire,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.8,,,nan
 E07000128,Wyre,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.4,,,nan
 E07000128,Wyre,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.6,,,nan
-E08000011,Knowsley ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,72.8,,,nan
-E08000011,Knowsley ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,69.4,,,nan
+E08000011,Knowsley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,72.8,,,nan
+E08000011,Knowsley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,69.4,,,nan
 E08000012,Liverpool,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,71.0,,,nan
 E08000012,Liverpool,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,70.3,,,nan
 E08000014,Sefton,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.3,,,nan
@@ -1514,32 +1514,32 @@ E08000016,Barnsley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematic
 E08000016,Barnsley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.0,,,nan
 E08000017,Doncaster,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,74.6,,,nan
 E08000017,Doncaster,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.4,,,nan
-E08000018,Rotherham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,76.2,,,nan
-E08000018,Rotherham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.2,,,nan
+E08000018,Rotherham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,76.2,,,nan
+E08000018,Rotherham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.2,,,nan
 E08000019,Sheffield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.0,,,nan
 E08000019,Sheffield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.9,,,nan
-E08000032,Bradford ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,71.0,,,nan
-E08000032,Bradford ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,70.7,,,nan
+E08000032,Bradford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,71.0,,,nan
+E08000032,Bradford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,70.7,,,nan
 E08000033,Calderdale,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.7,,,nan
 E08000033,Calderdale,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,76.5,,,nan
-E08000034,Kirklees ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.0,,,nan
-E08000034,Kirklees ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.2,,,nan
-E08000035,Leeds ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,73.7,,,nan
-E08000035,Leeds ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,72.6,,,nan
+E08000034,Kirklees,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.0,,,nan
+E08000034,Kirklees,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.2,,,nan
+E08000035,Leeds,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,73.7,,,nan
+E08000035,Leeds,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,72.6,,,nan
 E08000036,Wakefield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,76.8,,,nan
 E08000036,Wakefield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.7,,,nan
 E12000004,East Midlands,Region,2021-09-01T00:00:00/P1Y,%,Mathematics,75.2,,,nan
 E12000004,East Midlands,Region,2022-09-01T00:00:00/P1Y,%,Mathematics,76.3,,,nan
-E06000015,Derby ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,73.2,,,nan
-E06000015,Derby ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,72.2,,,nan
+E06000015,Derby,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,73.2,,,nan
+E06000015,Derby,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,72.2,,,nan
 E06000016,Leicester,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,68.1,,,nan
 E06000016,Leicester,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,70.7,,,nan
 E06000061,North Northamptonshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,77.3,,,nan
 E06000061,North Northamptonshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,73.9,,,nan
 E06000018,Nottingham,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,71.4,,,nan
 E06000018,Nottingham,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,70.6,,,nan
-E06000017,Rutland ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,82.8,,,nan
-E06000017,Rutland ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,82.6,,,nan
+E06000017,Rutland,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,82.8,,,nan
+E06000017,Rutland,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,82.6,,,nan
 E06000062,West Northamptonshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.8,,,nan
 E06000062,West Northamptonshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,77.8,,,nan
 E10000007,Derbyshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,77.4,,,nan
@@ -1576,8 +1576,8 @@ E07000134,North West Leicestershire,Local Authority District,2021-09-01T00:00:00
 E07000134,North West Leicestershire,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.7,,,nan
 E07000135,Oadby and Wigston,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.9,,,nan
 E07000135,Oadby and Wigston,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,76.7,,,nan
-E10000019,Lincolnshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,76.7,,,nan
-E10000019,Lincolnshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,74.7,,,nan
+E10000019,Lincolnshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,76.7,,,nan
+E10000019,Lincolnshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,74.7,,,nan
 E07000136,Boston,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,74.1,,,nan
 E07000136,Boston,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,71.9,,,nan
 E07000137,East Lindsey,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.4,,,nan
@@ -1652,10 +1652,10 @@ E08000025,Birmingham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathemat
 E08000025,Birmingham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,70.9,,,nan
 E08000026,Coventry,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,73.3,,,nan
 E08000026,Coventry,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,72.2,,,nan
-E08000027,Dudley ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,73.0,,,nan
-E08000027,Dudley ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.7,,,nan
-E08000028,Sandwell ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,68.6,,,nan
-E08000028,Sandwell ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,68.3,,,nan
+E08000027,Dudley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,73.0,,,nan
+E08000027,Dudley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.7,,,nan
+E08000028,Sandwell,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,68.6,,,nan
+E08000028,Sandwell,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,68.3,,,nan
 E08000029,Solihull,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.1,,,nan
 E08000029,Solihull,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.6,,,nan
 E08000030,Walsall,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,71.5,,,nan
@@ -1728,8 +1728,8 @@ E07000076,Tendring,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematic
 E07000076,Tendring,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,74.1,,,nan
 E07000077,Uttlesford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,82.3,,,nan
 E07000077,Uttlesford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,83.8,,,nan
-E10000015,Hertfordshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.7,,,nan
-E10000015,Hertfordshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,77.4,,,nan
+E10000015,Hertfordshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.7,,,nan
+E10000015,Hertfordshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,77.4,,,nan
 E07000095,Broxbourne,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.1,,,nan
 E07000095,Broxbourne,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.4,,,nan
 E07000096,Dacorum,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.1,,,nan
@@ -1750,8 +1750,8 @@ E07000103,Watford,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics
 E07000103,Watford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,73.6,,,nan
 E07000241,Welwyn Hatfield,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.9,,,nan
 E07000241,Welwyn Hatfield,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,80.7,,,nan
-E10000020,Norfolk ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.0,,,nan
-E10000020,Norfolk ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,76.7,,,nan
+E10000020,Norfolk,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.0,,,nan
+E10000020,Norfolk,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,76.7,,,nan
 E07000143,Breckland,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.4,,,nan
 E07000143,Breckland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.9,,,nan
 E07000144,Broadland,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,82.6,,,nan
@@ -1788,20 +1788,20 @@ E09000001,City of London,Local Authority District,2021-09-01T00:00:00/P1Y,%,Math
 E09000001,City of London,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,87.7,,,nan
 E09000012,Hackney,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,78.7,,,nan
 E09000012,Hackney,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.1,,,nan
-E09000013,Hammersmith and Fulham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,76.6,,,nan
-E09000013,Hammersmith and Fulham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.3,,,nan
+E09000013,Hammersmith and Fulham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,76.6,,,nan
+E09000013,Hammersmith and Fulham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.3,,,nan
 E09000014,Haringey,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,78.0,,,nan
 E09000014,Haringey,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,80.5,,,nan
 E09000019,Islington,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.6,,,nan
 E09000019,Islington,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,75.4,,,nan
 E09000020,Kensington and Chelsea,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.8,,,nan
 E09000020,Kensington and Chelsea,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.1,,,nan
-E09000022,Lambeth ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.4,,,nan
-E09000022,Lambeth ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.5,,,nan
-E09000023,Lewisham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.3,,,nan
-E09000023,Lewisham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,79.7,,,nan
-E09000025,Newham ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.0,,,nan
-E09000025,Newham ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,76.0,,,nan
+E09000022,Lambeth,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.4,,,nan
+E09000022,Lambeth,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.5,,,nan
+E09000023,Lewisham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.3,,,nan
+E09000023,Lewisham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,79.7,,,nan
+E09000025,Newham,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,77.0,,,nan
+E09000025,Newham,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,76.0,,,nan
 E09000028,Southwark,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.3,,,nan
 E09000028,Southwark,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.3,,,nan
 E09000030,Tower Hamlets,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,74.0,,,nan
@@ -1818,8 +1818,8 @@ E09000003,Barnet,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,
 E09000003,Barnet,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,76.7,,,nan
 E09000004,Bexley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.5,,,nan
 E09000004,Bexley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.9,,,nan
-E09000005,Brent ,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,74.7,,,nan
-E09000005,Brent ,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.5,,,nan
+E09000005,Brent,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,74.7,,,nan
+E09000005,Brent,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.5,,,nan
 E09000006,Bromley,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,81.6,,,nan
 E09000006,Bromley,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,81.6,,,nan
 E09000008,Croydon,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,77.9,,,nan
@@ -1940,8 +1940,8 @@ E07000115,Tonbridge and Malling,Local Authority District,2021-09-01T00:00:00/P1Y
 E07000115,Tonbridge and Malling,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,81.9,,,nan
 E07000116,Tunbridge Wells,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,81.3,,,nan
 E07000116,Tunbridge Wells,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,82.4,,,nan
-E10000025,Oxfordshire ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,79.2,,,nan
-E10000025,Oxfordshire ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,80.5,,,nan
+E10000025,Oxfordshire,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,79.2,,,nan
+E10000025,Oxfordshire,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,80.5,,,nan
 E07000177,Cherwell,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,79.2,,,nan
 E07000177,Cherwell,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,79.6,,,nan
 E07000178,Oxford,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.5,,,nan
@@ -2050,8 +2050,8 @@ E07000082,Stroud,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,
 E07000082,Stroud,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,80.1,,,nan
 E07000083,Tewkesbury,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,82.8,,,nan
 E07000083,Tewkesbury,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,80.7,,,nan
-E10000027,Somerset ,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,76.8,,,nan
-E10000027,Somerset ,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.2,,,nan
+E10000027,Somerset,County or Unitary Authority,2021-09-01T00:00:00/P1Y,%,Mathematics,76.8,,,nan
+E10000027,Somerset,County or Unitary Authority,2022-09-01T00:00:00/P1Y,%,Mathematics,78.2,,,nan
 E07000187,Mendip,Local Authority District,2022-09-01T00:00:00/P1Y,%,Mathematics,78.5,,,nan
 E07000187,Mendip,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,78.6,,,nan
 E07000188,Sedgemoor,Local Authority District,2021-09-01T00:00:00/P1Y,%,Mathematics,75.8,,,nan
