@@ -113,16 +113,17 @@ def wrangle(input: Path()) -> None:
     
 
     # Replace 'na' values in dataframe with empty strings
-    #df.replace(r"^na$", "", regex=True, inplace=True)
+    
+    df.replace(r"^na$", "", regex=True, inplace=True)
 
     # Replace empty observation_status cells only if value cell is also empty
     # Not necessary if base csv has already been updated to fix this issue
 
-    #df['observation_status'] = df.apply(lambda x: 'x' if pd.isna(x.observation) else x['observation_status'], axis = 1 )
+    df['observation_status'] = df.apply(lambda x: 'x' if pd.isna(x.observation) else x['observation_status'], axis = 1 )
 
     df['lower_confidence_interval_95'] = df['lower_confidence_interval_95'].astype("Float64").round(2)
     df['upper_confidence_interval_95'] = df['upper_confidence_interval_95'].astype("Float64").round(2)
-    df = df.astype({"observation_status": str})
+    #df = df.astype({"observation_status": str})
 
     df.to_csv("early-years.csv", index=False)
     

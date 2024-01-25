@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- children-development
 		-- state-funded-school
-		-- subnational
 		-- local-authority
-		-- county
 		-- region
+		-- subnational
+		-- county
+		-- children-development
           - Contact Point: None
           - Identifier: Children at expected level for early learning goals
           - Comment: Early years foundation stage profile outcomes of five year olds. Percentage at 'expected level' across all communication and language, literacy and mathematics early learning goals, England (state-funded schools), academic years 2021/22 to 2022/23.
@@ -83,29 +83,29 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          period
         - Number of Observations: 2061
         - Number of Duplicates: 0
         - First 10 Observations: 
-   areacd                         areanm                   geography                  period unit                    measure  observation  lower_confidence_interval_95  upper_confidence_interval_95 observation_status
-e92000001                        england                      nation 2022-09-01t00-00-00/p1y    % communication-and-language         79.7                           NaN                           NaN                nan
-e92000001                        england                      nation 2021-09-01t00-00-00/p1y    % communication-and-language         79.5                           NaN                           NaN                nan
-k99000004 outside-of-england-and-unknown                      region 2022-09-01t00-00-00/p1y    % communication-and-language         76.0                           NaN                           NaN                nan
-k99000004 outside-of-england-and-unknown                      region 2021-09-01t00-00-00/p1y    % communication-and-language         75.8                           NaN                           NaN                nan
-e12000001                     north-east                      region 2022-09-01t00-00-00/p1y    % communication-and-language         78.9                           NaN                           NaN                nan
-e12000001                     north-east                      region 2021-09-01t00-00-00/p1y    % communication-and-language         79.0                           NaN                           NaN                nan
-e06000047                  county-durham county-or-unitary-authority 2022-09-01t00-00-00/p1y    % communication-and-language         77.9                           NaN                           NaN                nan
-e06000047                  county-durham county-or-unitary-authority 2021-09-01t00-00-00/p1y    % communication-and-language         79.1                           NaN                           NaN                nan
-e06000005                     darlington county-or-unitary-authority 2022-09-01t00-00-00/p1y    % communication-and-language         76.4                           NaN                           NaN                nan
-e06000005                     darlington county-or-unitary-authority 2021-09-01t00-00-00/p1y    % communication-and-language         76.7                           NaN                           NaN                nan
+   areacd                         areanm                   geography                  period unit                    measure  observation  lower_confidence_interval_95  upper_confidence_interval_95  observation_status
+e92000001                        england                      nation 2022-09-01t00-00-00/p1y    % communication-and-language         79.7                           NaN                           NaN                 NaN
+e92000001                        england                      nation 2021-09-01t00-00-00/p1y    % communication-and-language         79.5                           NaN                           NaN                 NaN
+k99000004 outside-of-england-and-unknown                      region 2022-09-01t00-00-00/p1y    % communication-and-language         76.0                           NaN                           NaN                 NaN
+k99000004 outside-of-england-and-unknown                      region 2021-09-01t00-00-00/p1y    % communication-and-language         75.8                           NaN                           NaN                 NaN
+e12000001                     north-east                      region 2022-09-01t00-00-00/p1y    % communication-and-language         78.9                           NaN                           NaN                 NaN
+e12000001                     north-east                      region 2021-09-01t00-00-00/p1y    % communication-and-language         79.0                           NaN                           NaN                 NaN
+e06000047                  county-durham county-or-unitary-authority 2022-09-01t00-00-00/p1y    % communication-and-language         77.9                           NaN                           NaN                 NaN
+e06000047                  county-durham county-or-unitary-authority 2021-09-01t00-00-00/p1y    % communication-and-language         79.1                           NaN                           NaN                 NaN
+e06000005                     darlington county-or-unitary-authority 2022-09-01t00-00-00/p1y    % communication-and-language         76.4                           NaN                           NaN                 NaN
+e06000005                     darlington county-or-unitary-authority 2021-09-01t00-00-00/p1y    % communication-and-language         76.7                           NaN                           NaN                 NaN
         - Last 10 Observations: 
-   areacd                    areanm                   geography                  period unit     measure  observation  lower_confidence_interval_95  upper_confidence_interval_95 observation_status
-e10000027                  somerset county-or-unitary-authority 2021-09-01t00-00-00/p1y    % mathematics         76.8                           NaN                           NaN                nan
-e10000027                  somerset county-or-unitary-authority 2022-09-01t00-00-00/p1y    % mathematics         78.2                           NaN                           NaN                nan
-e07000187                    mendip    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         78.5                           NaN                           NaN                nan
-e07000187                    mendip    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         78.6                           NaN                           NaN                nan
-e07000188                 sedgemoor    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         75.8                           NaN                           NaN                nan
-e07000188                 sedgemoor    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         77.4                           NaN                           NaN                nan
-e07000246 somerset-west-and-taunton    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         77.2                           NaN                           NaN                nan
-e07000246 somerset-west-and-taunton    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         76.3                           NaN                           NaN                nan
-e07000189            south-somerset    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         79.6                           NaN                           NaN                nan
-e07000189            south-somerset    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         76.6                           NaN                           NaN                nan
+   areacd                    areanm                   geography                  period unit     measure  observation  lower_confidence_interval_95  upper_confidence_interval_95  observation_status
+e10000027                  somerset county-or-unitary-authority 2021-09-01t00-00-00/p1y    % mathematics         76.8                           NaN                           NaN                 NaN
+e10000027                  somerset county-or-unitary-authority 2022-09-01t00-00-00/p1y    % mathematics         78.2                           NaN                           NaN                 NaN
+e07000187                    mendip    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         78.5                           NaN                           NaN                 NaN
+e07000187                    mendip    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         78.6                           NaN                           NaN                 NaN
+e07000188                 sedgemoor    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         75.8                           NaN                           NaN                 NaN
+e07000188                 sedgemoor    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         77.4                           NaN                           NaN                 NaN
+e07000246 somerset-west-and-taunton    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         77.2                           NaN                           NaN                 NaN
+e07000246 somerset-west-and-taunton    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         76.3                           NaN                           NaN                 NaN
+e07000189            south-somerset    local-authority-district 2022-09-01t00-00-00/p1y    % mathematics         79.6                           NaN                           NaN                 NaN
+e07000189            south-somerset    local-authority-district 2021-09-01t00-00-00/p1y    % mathematics         76.6                           NaN                           NaN                 NaN
         
 
 - The data cube has the following value counts:
