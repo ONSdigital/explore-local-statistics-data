@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 E92000001,England,Nation,Adult (18+) obesity prevalence,Obese adults (aged 18 years and over),Mission 7,Spreading opportunity and improving public services,2015-11-16T00:00:00/P1Y,61.24163,Percentage,%,61.00672,61.4707,,-1,
 E92000001,England,Nation,Adult (18+) obesity prevalence,Obese adults (aged 18 years and over),Mission 7,Spreading opportunity and improving public services,2016-11-16T00:00:00/P1Y,61.31358,Percentage,%,61.07826,61.54753,,-1,
 E92000001,England,Nation,Adult (18+) obesity prevalence,Obese adults (aged 18 years and over),Mission 7,Spreading opportunity and improving public services,2017-11-16T00:00:00/P1Y,61.86629,Percentage,%,61.61842,62.10961,,-1,

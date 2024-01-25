@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 K02000001,United Kingdom,Country,Adults that currently smoke cigarettes,Cigarette smokers,Mission 7,Spreading opportunity and improving public services,2012,19.6,Percentage,%,19.4,19.8,,-1,
 K02000001,United Kingdom,Country,Adults that currently smoke cigarettes,Cigarette smokers,Mission 7,Spreading opportunity and improving public services,2013,18.8,Percentage,%,18.5,19,,-1,
 K02000001,United Kingdom,Country,Adults that currently smoke cigarettes,Cigarette smokers,Mission 7,Spreading opportunity and improving public services,2014,18.1,Percentage,%,17.9,18.4,,-1,

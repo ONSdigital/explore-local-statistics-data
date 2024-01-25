@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 E92000001,England,Nation,Number of starts on apprenticeships,Apprenticeships starts,Mission 6,Spreading opportunity and improving public services,202223,549,"Rate per 100,000 population","per 100,000 population",na,na,,1,
 E92000001,England,Nation,Number of starts on apprenticeships,Apprenticeships starts,Mission 6,Spreading opportunity and improving public services,201819,1122,"Rate per 100,000 population","per 100,000 population",na,na,,1,
 E92000001,England,Nation,Number of starts on apprenticeships,Apprenticeships starts,Mission 6,Spreading opportunity and improving public services,201718,1075,"Rate per 100,000 population","per 100,000 population",na,na,,1,

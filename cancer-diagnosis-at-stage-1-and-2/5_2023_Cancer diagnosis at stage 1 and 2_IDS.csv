@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 E92000001,England,Nation,Proportion of cancers diagnosed at stages 1 and 2,Cancer diagnosis at stage 1 and 2,Mission 7,Spreading opportunity and improving public services,2013,54.80494,Percentage,%,54.58269,55.027,,1,
 E92000001,England,Nation,Proportion of cancers diagnosed at stages 1 and 2,Cancer diagnosis at stage 1 and 2,Mission 7,Spreading opportunity and improving public services,2014,55.135,Percentage,%,54.92196,55.347840000000005,,1,
 E92000001,England,Nation,Proportion of cancers diagnosed at stages 1 and 2,Cancer diagnosis at stage 1 and 2,Mission 7,Spreading opportunity and improving public services,2015,54.8145,Percentage,%,54.606840000000005,55.022,,1,

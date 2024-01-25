@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 E06000047,County Durham,County or Unitary Authority,4G coverage provided by at least one mobile network provider,4G coverage,Mission 4,"Boosting productivity, pay, jobs and living standards",2023-04,94.7,Percentage,%,,,,1,
 E06000005,Darlington,County or Unitary Authority,4G coverage provided by at least one mobile network provider,4G coverage,Mission 4,"Boosting productivity, pay, jobs and living standards",2023-04,99.99,Percentage,%,,,,1,
 E06000001,Hartlepool,County or Unitary Authority,4G coverage provided by at least one mobile network provider,4G coverage,Mission 4,"Boosting productivity, pay, jobs and living standards",2023-04,99.98,Percentage,%,,,,1,

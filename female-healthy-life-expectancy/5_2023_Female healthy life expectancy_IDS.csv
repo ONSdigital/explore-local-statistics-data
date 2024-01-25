@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
+AREACD,AREANM,Geography,Variable Name,Indicator,Mission,Category,Period,Value,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 K02000001,United Kingdom,Country,Female healthy life expectancy,Female healthy life expectancy,Mission 7,Spreading opportunity and improving public services,2011-13,63.67,Years,yrs,63.52,63.82,,1,
 K02000001,United Kingdom,Country,Female healthy life expectancy,Female healthy life expectancy,Mission 7,Spreading opportunity and improving public services,2012-14,63.7,Years,yrs,63.55,63.85,,1,
 K02000001,United Kingdom,Country,Female healthy life expectancy,Female healthy life expectancy,Mission 7,Spreading opportunity and improving public services,2013-15,63.82,Years,yrs,63.66,63.97,,1,
