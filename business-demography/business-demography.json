@@ -1,0 +1,95 @@
+{
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1.0",
+    
+    "title": "",
+    "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "summary": "",
+    "description": "",
+    "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "keywords": [
+        
+        "subnational",
+        
+        "county",
+        "region"
+    ],
+    "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+    "dataset_issued": "2024-01-30T12:26:49.62668",
+    "dataset_modified": "2024-01-30T14:26:49.62668",
+    "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
+    "columns": {
+        "period": {
+            "type": "dimension",
+            "from_template": "year"
+        },
+        "areacd": {
+            "type": "dimension",
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
+        },
+        "areanm": {
+            "type": "dimension",
+            "label": "Area Name"
+        },
+        "geography": {
+            "type": "dimension",
+            "label": "Geography Type"
+        },
+        
+        "observation": {
+            "type": "observations",
+            "data_type": "integer",
+            "unit": {
+                "label": "Number of Enterprise",
+                "from_existing": "http://qudt.org/vocab/unit/NUM"
+                    }
+            },
+        "measure": {
+            "type": "measures",
+            "values": [
+                {
+                    "label": "New Enterprise Births",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
+                },
+                {
+                    "label": "Enterprise Deaths",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
+                },
+                {
+                    "label": "Active Enterprises",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
+                }
+                ,
+                {
+                    "label": "High Growth Enterprises",
+                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
+                }
+            ]
+        },
+    
+        "unit": false,
+        "lower_confidence_interval_95": {
+            "label": "Lower Confidence Interval (95%)",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "observation",
+            "required": false
+        },
+        "upper_confidence_interval_95": {
+            "label": "Upper Confidence Interval (95%)",
+            "type": "attribute",
+            "data_type": "decimal",
+            "describes_observations": "observation",
+            "required": false
+        },
+        "observation_status": {
+            "type": "attribute",
+            "label": "Observation Status",
+            "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
+            "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
+        }
+        
+    }
+    
+}
