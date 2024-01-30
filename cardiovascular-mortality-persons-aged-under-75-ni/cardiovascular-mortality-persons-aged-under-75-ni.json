@@ -1,13 +1,13 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
     "title": "Preventable cardiovascular mortality, Northern Ireland",
-    "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
-    "summary": "Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, England, 2021 ",
-    "description": "This dataset shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), based on 2021 Census mid-year population estimates, in England, for 2021.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/4/gid/1000044/pat/159/par/K02000001/ati/15/are/E92000001/iid/93722/age/163/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-do-0) \n\n\n### Source Notes and Caveats \nThe data included in this dataset are based on 2021 Census mid-year population estimates and therefore should not be used to make comparisons with data for previous years, which are based on Census 2011 mid-year population estimates. \nValues for Cornwall and Isles of Scilly are in a combined code (E67000002). Values for Hackney and City of London are in a combined code (E67000001).",
+    "creator": "https://www.gov.uk/government/organisations/northern-ireland-statistics-and-research-agency",
+    "summary": "Age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), Northern Ireland, 2001 to 2021",
+    "description": "This dataset shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), in Northern Ireland, for 2001 to 2021.\n\n### Coverage \n\nNorthern Ireland\n\n#### Geography definition\n\nLocal Government Districts,\nNation (Northern Ireland) \n\n### Source\n\n - Northern Ireland: [Northern Ireland Statistics and Research Agency (NISRA)](https://www.health-ni.gov.uk/publications/age-standardised-death-rate-preventable-cardiovascular-disease-by-local-government-2001-2021) \n\n\n### Source Notes and Caveats \nAs the latest data point for this indicator covers the COVID-19 pandemic period, it will include any effects of the COVID-19 pandemic. The data included uses 2021 census mid-year population estimates. Rates presented are based on year of death registration, not year of occurrence.",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "local-authority",
-        "county",
+        "northern-ireland",
         "region",
         "subnational",
         "premature-death",
