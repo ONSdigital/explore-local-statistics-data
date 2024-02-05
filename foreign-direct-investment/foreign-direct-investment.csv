@@ -1,4 +1,4 @@
-﻿indicator,areacd,areanm,geography,value,unit,measure,period,lower_confidence_interval_95,upper_confidence_interval_95,observation_status
+﻿indicator,areacd,areanm,geography,observation,unit,measure,period,lower_confidence_interval_95,upper_confidence_interval_95,observation_status
 Inward foreign direct investment (FDI),K02000001,United Kingdom,Country,2002355,£ million,Pounds,2021,,,
 Inward foreign direct investment (FDI),K02000001,United Kingdom,Country,1919232,£ million,Pounds,2020,,,
 Inward foreign direct investment (FDI),K02000001,United Kingdom,Country,1640641,£ million,Pounds,2019,,,
