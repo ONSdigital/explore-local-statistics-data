@@ -37,16 +37,19 @@
             "type": "dimension",
             "label": "Geography Type"
         },
-        "indicator": false,
+        "indicator": {
+            "type": "dimension",
+            "label": "Indicator"
+        },
         "observation": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
-                "label": "years",
+                "label": "Years",
                 "from_existing": "http://qudt.org/vocab/unit/YR"
             },
             "measure": {
-                "label": "Male healthy life expectancy",
+                "label": "Healthy life expectancy",
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#life-expectancy"
             }
         },
