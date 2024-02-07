@@ -35,7 +35,10 @@
             "type": "dimension",
             "label": "Geography Type"
         },
-        "indicator": false,
+        "indicator": {
+            "type": "dimension",
+            "label": "Indicator"
+        },
         "observation": {
             "type": "observations",
             "data_type": "decimal",
@@ -64,9 +67,9 @@
             "describes_observations": "observation",
             "required": false
         },
-        "Observation Status": {
+        "observation_status": {
             "type": "attribute",
-            "label": "observation_status Status",
+            "label": "Observation Status",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
             "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
         }
