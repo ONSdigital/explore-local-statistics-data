@@ -42,31 +42,17 @@
             "type": "observations",
             "data_type": "integer",
             "unit": {
-                "label": "Number of Enterprise",
+                "label": "Count",
                 "from_existing": "http://qudt.org/vocab/unit/NUM"
+                    },
+                    "measure": {
+                        "label": "Number of Enterprise",
+                        "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
                     }
             },
         "indicator": {
-            "type": "measures",
-            "values": [
-                {
-                    "label": "New Enterprise Births",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
-                },
-                {
-                    "label": "Enterprise Deaths",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
-                },
-                {
-                    "label": "Active Enterprises",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
-                }
-                ,
-                {
-                    "label": "High Growth Enterprises",
-                    "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
-                }
-            ]
+            "type": "dimension",
+            "label": "Indicator"
         },
     
         "unit": false,
