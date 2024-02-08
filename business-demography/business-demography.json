@@ -56,6 +56,7 @@
         },
     
         "unit": false,
+        "measure":false,
         "lower_confidence_interval_95": {
             "label": "Lower Confidence Interval (95%)",
             "type": "attribute",
