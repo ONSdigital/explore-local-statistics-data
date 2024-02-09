@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/business
           - Keywords: 
-		-- business-demography
 		-- county
+		-- enterprises
 		-- subnational
 		-- region
 		-- local-authority
-		-- enterprises
+		-- business-demography
           - Contact Point: None
           - Identifier: Business demography
           - Comment: Count of business births, deaths, actives, and high growth, UK, 2017 to 2022.
@@ -34,7 +34,7 @@
 		 Local Authority Districts and Unitary Authorities, 
 		English counties, 
 		Regions, 
-		Nations (England, Wales, Scotland, Northern Ireland) 
+		Nations (England, Wales, Scotland, Northern Ireland), 
 		Countries (UK, GB, England and Wales)
 		
 		### Source
