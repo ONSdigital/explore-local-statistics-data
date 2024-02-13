@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- subnational
-		-- local-authority
 		-- education-and-training
-		-- county
+		-- subnational
 		-- community-learning
+		-- county
 		-- apprenticeship
+		-- local-authority
           - Contact Point: None
           - Identifier: Apprenticeships starts and achievements
           - Comment: Apprenticeships started and achieved by adults aged 16+ based on home address, rate per 100,000 population, England, academic years 2017/18 to 2022/23
@@ -32,8 +32,9 @@
 		#### Geography definition
 		
 		Local Authority Districts and Unitary Authorities,
-		Regions,
 		Counties,
+		Regions,
+		Combined Authorities,
 		Nation (England)
 		
 		### Source
@@ -57,18 +58,18 @@
  - The data cube has the following column component information: 
     - Dataset Label: Apprenticeships starts and achievements
     - Columns: 
-                           Title         Type  Required                                                                              Property URL Observations Column Titles
-                       indicator    Dimension      True                           apprenticeships-starts-and-achievements.csv#dimension/indicator                observation
-                          areacd    Dimension      True                  apprenticeships-starts-and-achievements.csv#dimension/ons-geography-code                observation
-                          areanm    Dimension      True                           apprenticeships-starts-and-achievements.csv#dimension/area-name                observation
-                       geography    Dimension      True                      apprenticeships-starts-and-achievements.csv#dimension/geography-type                observation
-                     observation Observations     False apprenticeships-starts-and-achievements.csv#measure/number-of-apprenticeship-achievements                observation
-                            unit   Suppressed     False                                                                                      None                           
-                         measure   Suppressed     False                                                                                      None                           
-                          period    Dimension      True             apprenticeships-starts-and-achievements.csv#dimension/gregorian-time-interval                observation
-    lower_confidence_interval_95    Attribute     False           apprenticeships-starts-and-achievements.csv#attribute/lower-confidence-interval                observation
-    upper_confidence_interval_95    Attribute     False           apprenticeships-starts-and-achievements.csv#attribute/upper-confidence-interval                observation
-              observation_status    Attribute     False                  apprenticeships-starts-and-achievements.csv#attribute/observation-status                observation
+                           Title         Type  Required                                                                    Property URL Observations Column Titles
+                       indicator    Dimension      True                 apprenticeships-starts-and-achievements.csv#dimension/indicator                observation
+                          areacd    Dimension      True        apprenticeships-starts-and-achievements.csv#dimension/ons-geography-code                observation
+                          areanm    Dimension      True                 apprenticeships-starts-and-achievements.csv#dimension/area-name                observation
+                       geography    Dimension      True            apprenticeships-starts-and-achievements.csv#dimension/geography-type                observation
+                     observation Observations     False   apprenticeships-starts-and-achievements.csv#measure/number-of-apprenticeships                observation
+                            unit   Suppressed     False                                                                            None                           
+                         measure   Suppressed     False                                                                            None                           
+                          period    Dimension      True   apprenticeships-starts-and-achievements.csv#dimension/gregorian-time-interval                observation
+    lower_confidence_interval_95    Attribute     False apprenticeships-starts-and-achievements.csv#attribute/lower-confidence-interval                observation
+    upper_confidence_interval_95    Attribute     False apprenticeships-starts-and-achievements.csv#attribute/upper-confidence-interval                observation
+              observation_status    Attribute     False        apprenticeships-starts-and-achievements.csv#attribute/observation-status                observation
     - Columns where suppress output is true: 
     		-- unit
     		-- measure
@@ -114,6 +115,6 @@ apprenticeships-achievements e07000189            south-somerset local-authority
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-                              Measure        Unit  Count
-Number of apprenticeship achievements Per 100,000   4284
+                  Measure        Unit  Count
+Number of apprenticeships per 100,000   4284
         
