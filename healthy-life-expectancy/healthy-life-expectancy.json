@@ -16,8 +16,9 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2024-01-12T12:13:33.91261",
-    "dataset_modified": "2024-02-05T12:13:33.91261",
+    "dataset_modified": "2024-02-13T13:23:23.91261",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+    
     "columns": {
         "period": {
             "type": "dimension",
@@ -66,7 +67,7 @@
             "label": "Upper Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Value",
+            "describes_observations": "observation",
             "required": false
         },
         "observation_status": {
