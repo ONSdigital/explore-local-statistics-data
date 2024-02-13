@@ -6,7 +6,7 @@
           - Title: Apprenticeships starts and achievements
           - Label: Apprenticeships starts and achievements
           - Issued: 2023-05-17T12:25:28.117899
-          - Modified: 2024-02-09T09:26:00
+          - Modified: 2024-02-12T09:26:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,11 +15,11 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
 		-- subnational
-		-- apprenticeship
 		-- local-authority
 		-- education-and-training
 		-- county
 		-- community-learning
+		-- apprenticeship
           - Contact Point: None
           - Identifier: Apprenticeships starts and achievements
           - Comment: Apprenticeships started and achieved by adults aged 16+ based on home address, rate per 100,000 population, England, academic years 2017/18 to 2022/23
