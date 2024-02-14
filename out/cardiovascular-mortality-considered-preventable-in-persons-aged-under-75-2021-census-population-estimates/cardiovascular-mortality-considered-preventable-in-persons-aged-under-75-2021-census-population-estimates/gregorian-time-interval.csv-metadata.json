@@ -1,11 +1,11 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "geography-type.csv#code-list",
-    "url": "geography-type.csv",
-    "tableSchema": "geography-type.table.json",
+    "@id": "gregorian-time-interval.csv#code-list",
+    "url": "gregorian-time-interval.csv",
+    "tableSchema": "gregorian-time-interval.table.json",
     "rdfs:seeAlso": [
         {
-            "@id": "geography-type.csv#code-list",
+            "@id": "gregorian-time-interval.csv#code-list",
             "@type": [
                 "http://www.w3.org/2004/02/skos/core#ConceptScheme",
                 "http://www.w3.org/ns/prov#Entity",
@@ -15,41 +15,41 @@
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
-                    "@value": "Geography Type"
+                    "@value": "Gregorian Time Interval"
                 }
             ],
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-02-14T12:31:28.981948"
+                    "@value": "2024-02-14T12:31:28.984541"
                 }
             ],
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-02-14T12:31:28.981948"
+                    "@value": "2024-02-14T12:31:28.984541"
                 }
             ],
             "http://purl.org/dc/terms/title": [
                 {
                     "@language": "en",
-                    "@value": "Geography Type"
+                    "@value": "Gregorian Time Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Geography Type"
+                    "@value": "Gregorian Time Interval"
                 }
             ],
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
-                    "@id": "geography-type.csv#csvcubed-build-activity"
+                    "@id": "gregorian-time-interval.csv#csvcubed-build-activity"
                 }
             ]
         },
         {
-            "@id": "geography-type.csv#csvcubed-build-activity",
+            "@id": "gregorian-time-interval.csv#csvcubed-build-activity",
             "@type": [
                 "http://www.w3.org/ns/prov#Activity",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
