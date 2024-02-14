@@ -15,7 +15,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-09-15T12:41",
-    "dataset_modified": "2023-09-15T13:37:40",
+    "dataset_modified": "2024-02-14T12:20:40",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
     "columns": {
         "Period": {
@@ -61,14 +61,14 @@
             "label": "Lower Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Rate",
+            "describes_observations": "Observation",
             "required": false
         },
         "Upper Confidence Interval (95%)": {
             "label": "Upper Confidence Interval",
             "type": "attribute",
             "data_type": "decimal",
-            "describes_observations": "Rate",
+            "describes_observations": "Observation",
             "required": false
         },
         "Observation Status": {
