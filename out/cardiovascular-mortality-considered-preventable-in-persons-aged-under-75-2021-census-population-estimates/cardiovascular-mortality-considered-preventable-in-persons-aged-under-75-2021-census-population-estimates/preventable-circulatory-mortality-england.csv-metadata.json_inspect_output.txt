@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare
           - Keywords: 
-		-- region
 		-- local-authority
-		-- subnational
+		-- county
+		-- region
 		-- premature-death
 		-- heart-disease
-		-- county
+		-- subnational
           - Contact Point: None
           - Identifier: Preventable circulatory mortality, England
           - Comment: Age-standardised mortality rate from circulatory diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), England, 2001-2003 to 2020-2022.
@@ -34,7 +34,6 @@
 		Local Authority Districts and Unitary Authorities,
 		Counties,
 		Regions,
-		Combined Authorities,
 		Nation (England) 
 		
 		### Source
@@ -45,6 +44,13 @@
 		### Source Notes and Caveats 
 		- Data have been updated for years 2001 to 2022, and therefore cover the COVID-19 pandemic. The official population estimates for mid-2012 to mid-2020 have been revised, to incorporate the data now available from Census 2021. The data for this indicator has been revised to use the rebased population estimates from 2012 onwards. 
 		- Values for Cornwall and Isles of Scilly are in a combined code (E67000002). Values for Hackney and City of London are in a combined code (E67000001).
+		
+		
+		
+		### How to read time intervals in ISO8601 format 
+		This dataset uses custom time intervals format for periods, YYYY-MM-DDT00:00:00/PnI, where P tells that this is period; n is the number of intervals and I is interval type which can be Y(year), M(month), W(week), D(day). 
+		For example, from April 2019 to March 2022 is represented as 2019-04-01T00:00:00/P3Y, which can be read as '3 years period starts from 1st of April 2019 and ends on 31st March 2022'. 
+		For more instructions on how to read this, please visit [Time intervals on Wikipedia](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals).
         
 
  - The data cube has the following column component information: 
