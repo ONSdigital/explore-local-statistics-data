@@ -6,7 +6,7 @@
           - Title: Local labour market indicators
           - Label: Local labour market indicators
           - Issued: 2023-08-25T12:44:00
-          - Modified: 2024-02-14T12:40:00
+          - Modified: 2024-04-16T15:32:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,15 +14,15 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- local-authority
-		-- annual-population-survey
 		-- region
-		-- subnational
+		-- annual-population-survey
 		-- paid-work
+		-- subnational
+		-- local-authority
 		-- labour-market
           - Contact Point: None
           - Identifier: Local labour market indicators
-          - Comment: Employment rate and economic inactivity rate for people aged between 16 and 64 years, Great Britain (Northern Ireland national figure included), 10/2004-09/2005 to 10/2022-09/2023.
+          - Comment: Employment rate and economic inactivity rate for people aged between 16 and 64 years, Great Britain (Northern Ireland national figure included), 2004 to 2023.
           - Description: This dataset shows:
 		
 		Employment rate age 16 to 64 
@@ -31,7 +31,7 @@
 		Economic inactivity rate age 16 to 64 
 		 - the proportion of people aged between 16 and 64 years who are not in employment but do not meet the internationally accepted definition of unemployment because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks 
 		
-		 In Great Britain (Northern Ireland national figure included), for periods 10/2004-09/2005 to 10/2022-09/2023.
+		 In Great Britain (Northern Ireland national figure included), for periods 2004 to 2023.
 		
 		### Coverage 
 		
@@ -40,8 +40,9 @@
 		### Geography definition
 		
 		Local Authority Districts and Unitary Authorities, 
-		Regions, 
+		Counties, 
 		Combined Authorities, 
+		Regions, 
 		Nations (England, Wales, Scotland, Northern Ireland), 
 		Countries (UK, GB, England and Wales)
 		
