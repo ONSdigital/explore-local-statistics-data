@@ -1,9 +1,9 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Net additions to the housing stock",
-    "creator": "https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities",
-    "summary": "Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, England, financial year 2022 - 2023.",
-    "description": "This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in England, for financial year 2022 - 2023.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nMetropolitan Counties,\nNation (England) \n\n### Source\n\n - England: [Department for Levelling Up, Housing and Communities](https://www.gov.uk/government/statistical-data-sets/live-tables-on-dwelling-stock-including-vacants#) \n\n\n### Source Notes and Caveats \nNet additional dwellings per 1,000 stock are available at an England, regional and local authority district level in DLUHC [net additional dwellings interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTE5YWQ3MDYtZmFjMC00N2YwLWIxM2EtYWY2NTk1NjExYjgwIiwidCI6ImJmMzQ2ODEwLTljN2QtNDNkZS1hODcyLTI0YTJlZjM5OTVhOCJ9). \n\n\n",
+    "title": "Net additions to the housing stock (Northern Ireland)",
+    "creator": "https://www.gov.uk/government/organisations/northern-ireland-statistics-and-research-agency",
+    "summary": "Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, Northern Ireland, 2009 to 2023.",
+    "description": "This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Northern Ireland, for 2009 to 2023.\n\n### Coverage \n\nNorthern Ireland\n\n#### Geography definition\n\nLocal Government Districts, \nNation (Northern Ireland) \n\n### Source\n\n - Northern Ireland: [Northern Ireland Statistics and Research Agency (NISRA)](https://www.finance-ni.gov.uk/publications/annual-housing-stock-statistics) \n\n\n### Source Notes and Caveats \nIn line with The Rates (Northern Ireland) Order 1977, Housing Stock is defined as a count of properties which are valued as domestic or mixed for the purposes of rating. This refers to properties in the Valuation List which are used for the purposes of a private dwelling. This excludes caravans, domestic garages, domestic stores and car parking spaces.\n\nPrivate refers to a self-contained dwelling and not the ownership or build type of the dwelling. Housing Stock includes both social sector and private sector dwellings in the Valuation List. \n\n\n",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "new-building",
@@ -12,16 +12,16 @@
         "dwelling",
         "subnational",
         "local-authority",
-        "county"
+        "northern-ireland"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "dataset_issued": "2023-05-05T08:59:11.430214",
-    "dataset_modified": "2023-12-06T15:10",
+    "dataset_issued": "2024-05-13T10:18:11.430214",
+    "dataset_modified": "2024-05-13T10:18",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
     "columns": {
         "Period": {
             "type": "dimension",
-            "from_template": "government-year"
+            "from_template": "year"
         },
         "AREACD": {
             "type": "dimension",
