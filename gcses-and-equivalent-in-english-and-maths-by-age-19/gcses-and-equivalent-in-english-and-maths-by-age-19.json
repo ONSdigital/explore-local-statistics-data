@@ -23,13 +23,20 @@
             "type": "dimension",
             "from_template": "gregorian-interval"
         },
-        "AREACD": {
-            "label": "Statistical Geography",
+         "AREACD": {
             "type": "dimension",
-            "code_list": "./geography_code_list.json"
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
         },
-        "AREANM": false,
-        "Geography": false,
+        "AREANM": {
+            "type": "dimension",
+            "label": "Area Name"
+        },
+        "Geography": {
+            "type": "dimension",
+            "label": "Geography Type"
+        },
         "Variable Name": false,
         "Indicator": false,
         "Mission": false,
