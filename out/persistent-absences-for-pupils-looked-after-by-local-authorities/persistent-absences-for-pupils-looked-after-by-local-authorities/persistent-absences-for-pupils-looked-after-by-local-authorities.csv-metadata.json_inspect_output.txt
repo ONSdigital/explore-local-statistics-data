@@ -6,7 +6,7 @@
           - Title: Persistent absences for pupils looked after by local authorities
           - Label: Persistent absences for pupils looked after by local authorities
           - Issued: 2023-05-16T13:35:25.395087
-          - Modified: 2024-05-14T08:34:00
+          - Modified: 2024-05-14T14:34:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- region
-		-- children-out-of-school
 		-- subnational
-		-- state-funded-school
 		-- county
+		-- region
+		-- state-funded-school
+		-- children-out-of-school
           - Contact Point: None
           - Identifier: Persistent absences for pupils looked after by local authorities
           - Comment: Percentage of pupils in state-funded primary, state funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, England (state-funded primary and secondary schools, special schools and pupil referral units), financial years 2016/17 - 2022/23.
