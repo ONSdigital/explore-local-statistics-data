@@ -24,7 +24,7 @@
             "name": "parent_uri_identifier",
             "required": false,
             "propertyUrl": "skos:broader",
-            "valueUrl": "gregorian-time-interval.csv#{+parent_uri_identifier}"
+            "valueUrl": "geography-type.csv#{+parent_uri_identifier}"
         },
         {
             "titles": "Sort Priority",
@@ -40,18 +40,11 @@
             "propertyUrl": "rdfs:comment"
         },
         {
-            "titles": "Original Concept URI",
-            "name": "uri",
-            "required": true,
-            "propertyUrl": "skos:exactMatch",
-            "valueUrl": "{+uri}"
-        },
-        {
             "virtual": true,
             "name": "virt_inScheme",
             "required": true,
             "propertyUrl": "skos:inScheme",
-            "valueUrl": "gregorian-time-interval.csv#code-list"
+            "valueUrl": "geography-type.csv#code-list"
         },
         {
             "virtual": true,
@@ -61,6 +54,6 @@
             "valueUrl": "skos:Concept"
         }
     ],
-    "aboutUrl": "gregorian-time-interval.csv#{+uri_identifier}",
+    "aboutUrl": "geography-type.csv#{+uri_identifier}",
     "primaryKey": "uri_identifier"
 }
