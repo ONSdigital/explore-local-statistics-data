@@ -20,7 +20,7 @@
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
     "dataset_issued": "2023-09-13T13:32",
-    "dataset_modified": "2023-11-28T14:40",
+    "dataset_modified": "2024-02-05T14:40",
     "columns": {
         "AREACD": {
             "type": "dimension",
