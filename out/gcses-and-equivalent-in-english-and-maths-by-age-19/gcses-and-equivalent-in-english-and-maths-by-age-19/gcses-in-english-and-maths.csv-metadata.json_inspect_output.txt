@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- level-2-attainment
-		-- local-authority
-		-- region
-		-- maths
-		-- county
 		-- subnational
 		-- English
+		-- level-2-attainment
+		-- maths
+		-- local-authority
+		-- county
+		-- region
           - Contact Point: None
           - Identifier: GCSEs in English and Maths
           - Comment: GCSEs (and equivalent) in English and maths by age 19, England, academic years 2016/17 to 2022/23.
