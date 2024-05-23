@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- connectivity
-		-- broadband-mobile-coverage
 		-- subnational
 		-- local-authority
+		-- connectivity
+		-- broadband-mobile-coverage
           - Contact Point: None
           - Identifier: Gigabit capable broadband
           - Comment: Percentage of premises with 125 megabytes (MB) or greater, UK, as of January 2024.
