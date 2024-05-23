@@ -1,11 +1,23 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "time-instant.csv#code-list",
-    "url": "time-instant.csv",
-    "tableSchema": "time-instant.table.json",
+    "@id": "area-name.csv#code-list",
+    "url": "area-name.csv",
+    "tableSchema": "area-name.table.json",
     "rdfs:seeAlso": [
         {
-            "@id": "time-instant.csv#code-list",
+            "@id": "area-name.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
+                }
+            ]
+        },
+        {
+            "@id": "area-name.csv#code-list",
             "@type": [
                 "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -15,48 +27,36 @@
             ],
             "http://purl.org/dc/terms/identifier": [
                 {
-                    "@value": "Time Instant"
+                    "@value": "Area Name"
                 }
             ],
             "http://purl.org/dc/terms/issued": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-05-23T10:04:56.917830"
+                    "@value": "2024-05-23T10:04:56.912476"
                 }
             ],
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-05-23T10:04:56.917830"
+                    "@value": "2024-05-23T10:04:56.912476"
                 }
             ],
             "http://purl.org/dc/terms/title": [
                 {
                     "@language": "en",
-                    "@value": "Time Instant"
+                    "@value": "Area Name"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Time Instant"
+                    "@value": "Area Name"
                 }
             ],
             "http://www.w3.org/ns/prov#wasGeneratedBy": [
                 {
-                    "@id": "time-instant.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "time-instant.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/ns/prov#Activity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
+                    "@id": "area-name.csv#csvcubed-build-activity"
                 }
             ]
         }
