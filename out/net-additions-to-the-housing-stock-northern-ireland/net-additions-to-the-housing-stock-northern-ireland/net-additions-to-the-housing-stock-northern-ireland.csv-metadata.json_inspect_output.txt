@@ -14,17 +14,17 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/housing
           - Keywords: 
-		-- conversion
+		-- northern-ireland
 		-- dwelling
 		-- new-building
-		-- northern-ireland
 		-- subnational
+		-- conversion
 		-- local-authority
 		-- demolition
           - Contact Point: None
           - Identifier: Net additions to the housing stock (Northern Ireland)
-          - Comment: Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, Northern Ireland, 2009 to 2023.
-          - Description: This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Northern Ireland, for 2009 to 2023.
+          - Comment: Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, Northern Ireland, financial years 2012/13 to 2022/23.
+          - Description: This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Northern Ireland, for financial years 2012/13 to 2022/23.
 		
 		### Coverage 
 		
@@ -43,7 +43,9 @@
 		### Source Notes and Caveats 
 		In line with The Rates (Northern Ireland) Order 1977, Housing Stock is defined as a count of properties which are valued as domestic or mixed for the purposes of rating. This refers to properties in the Valuation List which are used for the purposes of a private dwelling. This excludes caravans, domestic garages, domestic stores and car parking spaces.
 		
-		Private refers to a self-contained dwelling and not the ownership or build type of the dwelling. Housing Stock includes both social sector and private sector dwellings in the Valuation List. 
+		Private refers to a self-contained dwelling and not the ownership or build type of the dwelling. Housing Stock includes both social sector and private sector dwellings in the Valuation List.
+		
+		Figures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable. 
 		
 		
 		
@@ -60,7 +62,7 @@
                           Indicator   Suppressed     False                                                                                           None                           
                             Mission   Suppressed     False                                                                                           None                           
                            Category   Suppressed     False                                                                                           None                           
-                             Period    Dimension      True                         net-additions-to-the-housing-stock-northern-ireland.csv#dimension/year                Observation
+                             Period    Dimension      True              net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year                Observation
                         Observation Observations     False net-additions-to-the-housing-stock-northern-ireland.csv#measure/net-additions-to-housing-stock                Observation
                             Measure   Suppressed     False                                                                                           None                           
                                Unit   Suppressed     False                                                                                           None                           
@@ -85,8 +87,8 @@
                        Code List    Code List Label Columns Used In
          area-name.csv#code-list          Area Name          AREANM
     geography-type.csv#code-list     Geography Type       Geography
+   government-year.csv#code-list    Government Year          Period
 ons-geography-code.csv#code-list ONS Geography Code          AREACD
-              year.csv#code-list               Year          Period
 
 - The data cube has the following dataset information:
         - Number of Rows: 132
