@@ -1,21 +1,20 @@
 {
     "$schema": "https://purl.org/csv-cubed/qube-config/v1",
-    "title": "Preventable circulatory mortality, Northern Ireland",
-    "creator": "https://www.gov.uk/government/organisations/department-of-health-northern-ireland",
-    "summary": "Age-standardised mortality rate from circulatory diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), Northern Ireland, 2001 to 2022.",
-    "description": "This dataset shows the age-standardised mortality rate from circulatory diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), in Northern Ireland, for 2001 to 2022.\n\n### Coverage \n\nNorthern Ireland\n\n#### Geography definition\n\nLocal Government Districts,\nNation (Northern Ireland) \n\n### Source\n\n - Northern Ireland: [Northern Ireland Statistics and Research Agency (NISRA)](https://www.health-ni.gov.uk/publications/age-standardised-death-rate-preventable-cardiovascular-disease-by-local-government-2001-2022) \n\n\n### Source Notes and Caveats \n- Data have been updated for years 2001 to 2022, and therefore cover the COVID-19 pandemic. The official population estimates for mid-2012 to mid-2020 have been revised, to incorporate the data now available from Census 2021. The data for this indicator has been revised to use the rebased population estimates from 2012 onwards. \n- Rates presented are based on year of death registration, not year of occurrence.",
+    "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+    "creator": "https://www.gov.uk/government/organisations/the-scottish-government",
+    "summary": "Age-standardised mortality rate from coronary heart disease or cerebrovascular disease for those aged under 75 per 100,000 population (2019 definition), Scotland, 2001 to 2022.",
+    "description": "This dataset shows the age-standardised mortality rate from coronary heart disease or cerebrovascular disease for those aged under 75 per 100,000 population (2019 definition), in Scotland, for 2001 to 2022.\n\n### Coverage \n\nScotland\n\n#### Geography definition\n\nCouncil Areas,\nNation (Scotland) \n\n### Source\n\n - Scotland: [Public Health Scotland Heart disease statistics]https://publichealthscotland.scot/publications/scottish-heart-disease-statistics/scottish-heart-disease-statistics-year-ending-31-march-2022/) and [Public Health Scotland Stroke statistics]https://publichealthscotland.scot/publications/scottish-stroke-statistics/scottish-stroke-statistics-year-ending-31-march-2022/) \n\n\n### Source Notes and Caveats \n- Data are based on year of death registration.\n- Data relate to all deaths that occurred in Scotland. This includes those who are resident outwith Scotland, those with no fixed abode and those with unknown residence.\n- Data includes underlying cause of death from coronary heart disease (ICD-10 code I20-I25) or cerebrovascular disease (ICD-10 code I60-I69).\n- Age standardised rates calculated using the direct method, standardised to the 2013 European Standard Population (ESP2013). National Records of Scotland Population Estimates were used in the calculation of the crude and standardised rates.",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "local-authority",
-        "northern-ireland",
+        "scotland",
         "region",
         "subnational",
-        "premature-death",
         "heart-disease"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "dataset_issued": "2024-01-26T12:41",
-    "dataset_modified": "2024-02-14T10:07:40",
+    "dataset_issued": "2024-06-13T14:43",
+    "dataset_modified": "2024-06-13T14:43",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
     "columns": {
         "Period": {
@@ -81,18 +80,18 @@
         "Notes": false
     },
     "ess-beta-metadata": {
-      "label": "Preventable circulatory mortality (Northern Ireland)",
+      "label": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
       "prefix": null,
       "suffix": null,
       "subText": "per 100,000 population",
       "decimalPlaces": 1,
-      "subtitle": "Age-standardised mortality from circulatory diseases considered preventable for people aged under 75",
+      "subtitle": "Age-standardised mortality rate from coronary heart disease or cerebrovascular disease for people aged under 75",
       "experimentalStatistic": "F",
-      "sourceDate": "05/02/2024",
-      "sourceURL": "https://www.health-ni.gov.uk/publications/age-standardised-death-rate-preventable-cardiovascular-disease-by-local-government-2001-2022",
-      "sourceOrg": "Northern Ireland Department of Health",
-      "longDescription": "This indicator shows the age-standardised mortality rate from circulatory diseases considered preventable for those aged under 75 per 100,000 population (2019 definition), in Northern Ireland, for 2001 to 2022.",
-      "caveats": "All figures up to and including 2011 are based on the 2011 Census mid-year population estimates.\n\nAll figures from 2012 onward are based on the 2021 Census mid-year population estimates.\n\nThe 2021 data point for this indicator covers the COVID-19 pandemic period, it will include any effects of the COVID-19 pandemic.\n\nRates presented are based on year of death registration, not year of occurrence.",
+      "sourceDate": "24/01/2023|24/01/2023",
+      "sourceURL": "https://publichealthscotland.scot/publications/scottish-heart-disease-statistics/scottish-heart-disease-statistics-year-ending-31-march-2022/|https://publichealthscotland.scot/publications/scottish-stroke-statistics/scottish-stroke-statistics-year-ending-31-march-2022/",
+      "sourceOrg": "Public Health Scotland Heart disease statistics|Public Health Scotland Stroke statistics",
+      "longDescription": "This indicator shows the age-standardised mortality rate from coronary heart disease or cerebrovascular disease for those aged under 75 per 100,000 population (2019 definition), in Scotland, for 2001 to 2022.",
+      "caveats": "Data are based on year of death registration.\n\nData relate to all deaths that occurred in Scotland. This includes those who are resident outwith Scotland, those with no fixed abode and those with unknown residence.\n\nData includes underlying cause of death from coronary heart disease (ICD-10 code I20-I25) or cerebrovascular disease (ICD-10 code I60-I69).\n\nAge standardised rates calculated using the direct method, standardised to the 2013 European Standard Population (ESP2013). National Records of Scotland Population Estimates were used in the calculation of the crude and standardised rates.",
       "standardised": "T"
   }
     
