@@ -54,14 +54,14 @@
             "type": "attribute",
             "label": "Lower Confidence Interval",
             "data_type": "decimal",
-            "describes_observations": "observation",
+            "describes_observations": "Observation",
             "required": false
         },
         "Upper Confidence Interval (95%)": {
             "type": "attribute",
             "label": "Upper Confidence Interval",
             "data_type": "decimal",
-            "describes_observations": "observation",
+            "describes_observations": "Observation",
             "required": false
         },
         "Observation Status": {
