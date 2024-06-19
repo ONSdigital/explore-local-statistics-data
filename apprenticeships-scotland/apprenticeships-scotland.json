@@ -90,13 +90,13 @@
         "caveats": "Geography is based upon the home postcode of the learner.\n\nThe [Scotland population time series data](https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/population/population-estimates/mid-year-population-estimates/population-estimates-time-series-data) is used to create a rate per 100,000 population and are currently available for the years up to mid-2021. It is standard procedure to revise the annual population estimates once new census data becomes available. The population estimates for mid-2022 will be added to the time series, alongside revised figures for mid-2011 to mid-2021, later in 2024.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable."
       },
   
-      "Apprenticeships starts": {
+      "Apprenticeships starts (Scotland)": {
         "label": "Apprenticeship starts (Scotland)",
         "subtitle": "Modern apprenticeship programme starts by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows modern apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years 2013/14 to 2023/24."
       },
   
-      "Apprenticeships achievements": {
+      "Apprenticeships achievements (Scotland)": {
         "label": "Apprenticeship achievements (Scotland)",
         "subtitle": "Modern apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows modern apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years 2013/14 to 2023/24."
