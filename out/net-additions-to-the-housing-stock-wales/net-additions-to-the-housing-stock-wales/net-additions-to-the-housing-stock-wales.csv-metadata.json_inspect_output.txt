@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/housing
           - Keywords: 
-		-- demolition
-		-- conversion
-		-- dwelling
-		-- subnational
-		-- wales
 		-- new-building
+		-- demolition
+		-- wales
+		-- dwelling
+		-- conversion
+		-- subnational
 		-- local-authority
           - Contact Point: None
           - Identifier: Net additions to the housing stock (Wales)
