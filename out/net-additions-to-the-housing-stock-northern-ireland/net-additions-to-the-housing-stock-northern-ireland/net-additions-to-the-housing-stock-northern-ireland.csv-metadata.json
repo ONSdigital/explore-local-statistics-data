@@ -243,7 +243,7 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/ons-geography-code",
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/area-name",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -251,194 +251,27 @@
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 10
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#csvcubed-build-activity",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Activity"
-            ],
-            "http://www.w3.org/ns/prov#used": [
-                {
-                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.10"
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Area Name"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/area-name"
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#measure/net-additions-to-housing-stock",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#MeasureProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Net additions to housing stock"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                    "@value": 2
                 }
             ]
         },
         {
             "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/geography-type",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -482,102 +315,136 @@
             ]
         },
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#structure",
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year",
             "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition"
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
-            "http://purl.org/linked-data/cube#component": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/area-name"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/measure-type"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/government-year"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/ons-geography-code"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/unit"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/net-additions-to-housing-stock"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/geography-type"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/observation-status"
+                    "@id": "government-year.csv#code-list"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#measure/net-additions-to-housing-stock"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval"
+                    "@language": "en",
+                    "@value": "Government Year"
                 }
             ],
-            "http://purl.org/linked-data/cube#sliceKey": [
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#slice/cross-measures"
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/government-year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
                 }
             ]
         },
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/measure-type",
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/government-year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/upper-confidence-interval",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 5
+                    "@value": 9
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
                 }
             ]
         },
@@ -601,6 +468,193 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#structure",
+            "@type": [
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/net-additions-to-housing-stock"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/measure-type"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/government-year"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/unit"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/area-name"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/observation-status"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/geography-type"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/lower-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#measure/net-additions-to-housing-stock"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#csvcubed-build-activity",
+            "@type": [
+                "http://www.w3.org/ns/prov#Activity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://www.w3.org/ns/prov#used": [
+                {
+                    "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.4.12"
                 }
             ]
         },
@@ -633,29 +687,6 @@
             ]
         },
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 2
-                }
-            ]
-        },
-        {
             "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/government-year",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
@@ -679,195 +710,12 @@
             ]
         },
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year",
-            "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "government-year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Government Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/government-year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dataset",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/dc/terms/creator": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/department-of-finance-northern-ireland"
-                }
-            ],
-            "http://purl.org/dc/terms/description": [
-                {
-                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
-                    "@value": "This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Northern Ireland, for financial years 2012/13 to 2022/23.\n\n### Coverage \n\nNorthern Ireland\n\n#### Geography definition\n\nLocal Government Districts, \nNation (Northern Ireland) \n\n### Source\n\n - Northern Ireland: [Northern Ireland Department of Finance](https://www.finance-ni.gov.uk/publications/annual-housing-stock-statistics) \n\n\n### Source Notes and Caveats \nIn line with The Rates (Northern Ireland) Order 1977, Housing Stock is defined as a count of properties which are valued as domestic or mixed for the purposes of rating. This refers to properties in the Valuation List which are used for the purposes of a private dwelling. This excludes caravans, domestic garages, domestic stores and car parking spaces.\n\nPrivate refers to a self-contained dwelling and not the ownership or build type of the dwelling. Housing Stock includes both social sector and private sector dwellings in the Valuation List.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable. \n\n\n"
-                }
-            ],
-            "http://purl.org/dc/terms/identifier": [
-                {
-                    "@value": "Net additions to the housing stock (Northern Ireland)"
-                }
-            ],
-            "http://purl.org/dc/terms/issued": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-05-13T10:18:11.430214"
-                }
-            ],
-            "http://purl.org/dc/terms/license": [
-                {
-                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
-                }
-            ],
-            "http://purl.org/dc/terms/modified": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-05-13T10:18:00"
-                }
-            ],
-            "http://purl.org/dc/terms/publisher": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/title": [
-                {
-                    "@language": "en",
-                    "@value": "Net additions to the housing stock (Northern Ireland)"
-                }
-            ],
-            "http://purl.org/linked-data/cube#structure": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#structure"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#comment": [
-                {
-                    "@language": "en",
-                    "@value": "Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, Northern Ireland, financial years 2012/13 to 2022/23."
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Net additions to the housing stock (Northern Ireland)"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#keyword": [
-                {
-                    "@language": "en",
-                    "@value": "demolition"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "conversion"
-                },
-                {
-                    "@language": "en",
-                    "@value": "northern-ireland"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "new-building"
-                },
-                {
-                    "@language": "en",
-                    "@value": "dwelling"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#theme": [
-                {
-                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing"
-                }
-            ],
-            "http://www.w3.org/ns/prov#wasGeneratedBy": [
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/government-year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#attribute/upper-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -882,34 +730,35 @@
             ]
         },
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#slice/cross-measures",
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#component/measure-type",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
-                },
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year"
-                },
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                    "@value": 5
                 }
             ]
         },
         {
             "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code",
             "@type": [
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
@@ -935,10 +784,161 @@
             ]
         },
         {
-            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#class/area-name",
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#slice/cross-measures",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/area-name"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/government-year"
+                },
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dimension/geography-type"
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#measure/net-additions-to-housing-stock",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Net additions to housing stock"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#dataset",
+            "@type": [
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#Attachable"
+            ],
+            "http://purl.org/dc/terms/creator": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/department-of-finance-northern-ireland"
+                }
+            ],
+            "http://purl.org/dc/terms/description": [
+                {
+                    "@type": "https://www.w3.org/ns/iana/media-types/text/markdown#Resource",
+                    "@value": "This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Northern Ireland, for financial years 2012/13 to 2023/24.\n\n### Coverage \n\nNorthern Ireland\n\n#### Geography definition\n\nLocal Government Districts, \nNation (Northern Ireland) \n\n### Source\n\n - Northern Ireland: [Northern Ireland Department of Finance](https://www.finance-ni.gov.uk/publications/annual-housing-stock-statistics) \n\n\n### Source Notes and Caveats \nIn line with The Rates (Northern Ireland) Order 1977, Housing Stock is defined as a count of properties which are valued as domestic or mixed for the purposes of rating. This refers to properties in the Valuation List which are used for the purposes of a private dwelling. This excludes caravans, domestic garages, domestic stores and car parking spaces.\n\nPrivate refers to a self-contained dwelling and not the ownership or build type of the dwelling. Housing Stock includes both social sector and private sector dwellings in the Valuation List.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable. \n\n\n"
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Net additions to the housing stock (Northern Ireland)"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2024-05-13T10:18:11.430214"
+                }
+            ],
+            "http://purl.org/dc/terms/license": [
+                {
+                    "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+                }
+            ],
+            "http://purl.org/dc/terms/modified": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2024-07-10T13:41:00"
+                }
+            ],
+            "http://purl.org/dc/terms/publisher": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Net additions to the housing stock (Northern Ireland)"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#comment": [
+                {
+                    "@language": "en",
+                    "@value": "Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, Northern Ireland, financial years 2012/13 to 2023/24."
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Net additions to the housing stock (Northern Ireland)"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#keyword": [
+                {
+                    "@language": "en",
+                    "@value": "demolition"
+                },
+                {
+                    "@language": "en",
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "new-building"
+                },
+                {
+                    "@language": "en",
+                    "@value": "dwelling"
+                },
+                {
+                    "@language": "en",
+                    "@value": "conversion"
+                },
+                {
+                    "@language": "en",
+                    "@value": "northern-ireland"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local-authority"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#theme": [
+                {
+                    "@id": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#csvcubed-build-activity"
+                }
             ]
         },
         {
@@ -1012,8 +1012,8 @@
         {
             "@id": "net-additions-to-the-housing-stock-northern-ireland.csv#unit/per-1-000",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
