@@ -14,9 +14,9 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes
           - Keywords: 
-		-- region
-		-- research-and-development
 		-- expenditure
+		-- research-and-development
+		-- region
 		-- subnational
           - Contact Point: None
           - Identifier: Business expenditure on research and development
