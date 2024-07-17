@@ -79,7 +79,7 @@
       "label": "Public-funded expenditure on research and development",
       "prefix": "GBPSign",
       "suffix": null,
-      "subText": "in millions",
+      "subText": "in £ millions",
       "decimalPlaces": 0,
       "subtitle": "Public-funded gross expenditure within each region",
       "experimentalStatistic": "T",
