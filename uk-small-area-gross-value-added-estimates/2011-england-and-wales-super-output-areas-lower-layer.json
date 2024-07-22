@@ -14,17 +14,25 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "themes": "https://www.ons.gov.uk/economy/economicoutputandproductivity",
+    "dataset_issued": "2023-07-26T14:30",
+    "dataset_modified": "2023-07-26T14:30",
     "columns": {
         "Period": {
             "from_template": "year"
         },
+        "AREACD": {
+            "type": "dimension",
+            "from_template": "statistical-geography",
+            "label": "ONS Geography Code",
+            "code_list": true
+        },
         "AREANM": {
-            "type": "attribute",
-            "data_type": "string",
+            "type": "dimension",
             "label": "Area Name"
         },
-        "AREACD": {
-            "from_template": "statistical-geography"
+        "Geography": {
+            "type": "dimension",
+            "label": "Geography Type"
         },
         "Gross Value Added": {
             "type": "observations",
