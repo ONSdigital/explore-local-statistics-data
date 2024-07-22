@@ -34,7 +34,7 @@
             "type": "dimension",
             "label": "Geography Type"
         },
-        "Gross Value Added": {
+        "Observation": {
             "type": "observations",
             "data_type": "decimal",
             "unit": {
