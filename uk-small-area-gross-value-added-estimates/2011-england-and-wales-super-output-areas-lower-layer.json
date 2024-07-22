@@ -15,7 +15,7 @@
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "themes": "https://www.ons.gov.uk/economy/economicoutputandproductivity",
     "dataset_issued": "2023-07-26T14:30",
-    "dataset_modified": "2023-07-26T14:30",
+    "dataset_modified": "2023-07-26T14:35",
     "columns": {
         "Period": {
             "from_template": "year"
