@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: ONS Geography Code
           - Label: ONS Geography Code
-          - Issued: 2024-07-17T11:06:06.199524
-          - Modified: 2024-07-17T11:06:06.199524
+          - Issued: 2024-07-30T12:14:09.625856
+          - Modified: 2024-07-30T12:14:09.625856
           - License: None
           - Creator: None
           - Publisher: None
