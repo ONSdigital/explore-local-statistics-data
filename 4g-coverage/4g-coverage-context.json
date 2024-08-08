@@ -1,0 +1,56 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2023-Q1/versions/2",
+    "@type": "ons:Version",
+    "title": "4G coverage",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/4g-coverage/4g-coverage.csv",
+            "title": "4G coverage",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/4g-coverage/4g-coverage.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/4g-coverage/4g-coverage/4g-coverage.csv",
+            "title": "4G coverage",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/4g-coverage/4g-coverage/4g-coverage.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/4g-coverage/4g-coverage/4g-coverage.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/cla01/editions/2019-Q4",
+            "@type": "ons:Edition",
+            "title": "4G coverage",
+            "abstract": "Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, as of January 2024.",
+            "description": "This dataset shows the percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), in the UK, as of January 2024.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-update-spring-2024) \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/ofcom",
+            "issued": "2023-03-31T12:10:26.937229",
+            "modified": "2024-05-09T10:50",
+            "wrds:caveat": "",
+            "keyword": [
+                "broadband-mobile-coverage",
+                "connectivity",
+                "local-authority",
+                "subnational"
+            ],
+            "theme": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry",
+            "spatial_coverage": "K02000001",
+            "spatial_resolution": [
+                "K02"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2024-01-01T00:00:00+00:00",
+                "end": "2024-01-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1M"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
