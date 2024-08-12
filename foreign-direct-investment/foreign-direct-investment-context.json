@@ -1,6 +1,6 @@
 {
     "@context": "json-ld-context/test_context.json",
-    "@id": "https://ons.gov.uk/datasets/foreign-direct-investment/editions/2024-Q4/versions/2",
+    "@id": "https://ons.gov.uk/datasets/foreign-direct-investment/editions/2024-Q1/versions/2",
     "@type": "ons:Version",
     "title": "Foreign direct investment (FDI)",
     "dcat:distribution": [
@@ -20,7 +20,7 @@
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/foreign-direct-investment/editions/2024-Q4",
+            "@id": "https://ons.gov.uk/datasets/foreign-direct-investment/editions/2024-Q1",
             "@type": "ons:Edition",
             "title": "Foreign direct investment (FDI)",
             "abstract": "Total FDI international investment position in the UK (inward) and abroad (outward) at end period (Official Statistics in Development), Great Britain (Northern Ireland national figure included), 2015-2021.",
