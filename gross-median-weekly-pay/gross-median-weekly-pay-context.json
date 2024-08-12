@@ -1,0 +1,57 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/gross-median-weekly-pay/editions/2023-Q2/versions/2",
+    "@type": "ons:Version",
+    "title": "Gross median weekly pay",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-median-weekly-pay/gross-median-weekly-pay.csv",
+            "title": "Gross median weekly pay",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-median-weekly-pay.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/gross-median-weekly-pay/gross-median-weekly-pay/gross-median-weekly-pay.csv",
+            "title": "Gross median weekly pay",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/gross-median-weekly-pay/gross-median-weekly-pay/gross-median-weekly-pay.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/gross-median-weekly-pay/gross-median-weekly-pay/gross-median-weekly-pay.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/gross-median-weekly-pay/editions/2023-Q2",
+            "@type": "ons:Edition",
+            "title": "Gross median weekly pay",
+            "abstract": "Average (median) weekly pay based on where people live, UK, 2002-2023.",
+            "description": "This dataset shows the average (median) weekly pay based on where people live, in the UK, for 2002-2023.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nMetropolitan Counties,\nCounties,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountries (UK, GB, England and Wales)\n\n### Source\n\n - Great Britain: [Office for National Statistics](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/annualsurveyofhoursandearnings/previousReleases) \n - Northern Ireland: [Northern Ireland Statistics and Research Agency](https://www.nisra.gov.uk/statistics/labour-market-and-social-welfare/annual-survey-hours-and-earnings) \n\n\n### Source Notes and Caveats \nThe country level figure for Northern Ireland has been sourced from NOMIS rather than NISRA. This is to allow for confidence intervals. \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2023-05-17T12:41:11",
+            "modified": "2024-06-13T14:55",
+            "wrds:caveat": "",
+            "keyword": [
+                "employee-earnings",
+                "annual-survey-for-hours-and-earnings",
+                "subnational",
+                "local-authority",
+                "region"
+            ],
+            "theme": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
+            "spatial_coverage": "K02000001",
+            "spatial_resolution": [
+                "K02"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2002-01-01T00:00:00+00:00",
+                "end": "2023-01-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
