@@ -38,9 +38,20 @@
                 "subnational"
             ],
             "theme": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade",
-            "spatial_coverage": "",
+            "spatial_coverage": [
+                "E92000001",
+                "N92000002",
+                "S92000003",
+                "W92000004"
+            ],
             "spatial_resolution": [
-                ""
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "N09",
+                "S12",
+                "W06"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
