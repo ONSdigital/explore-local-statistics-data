@@ -15,7 +15,7 @@
             "title": "Homicide Offences (Northern Ireland)",
             "download_url": "https://gss-cogs.github.io/family-ess/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-nicsv-metadata.json"
+            "described_by": "https://gss-cogs.github.io/family-ess/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv-metadata.json"
         }
     ],
     "@reverse": {
