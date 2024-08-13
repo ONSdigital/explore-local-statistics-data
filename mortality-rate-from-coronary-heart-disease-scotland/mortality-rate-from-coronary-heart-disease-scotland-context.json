@@ -1,0 +1,59 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/mortality-rate-from-coronary-heart-disease-scotland/editions/2024-Q2/versions/2",
+    "@type": "ons:Version",
+    "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/mortality-rate-from-coronary-heart-disease-scotland/editions/2024-Q2",
+            "@type": "ons:Edition",
+            "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+            "abstract": "Age-standardised mortality rate from coronary heart disease or cerebrovascular disease for those aged under 75 per 100,000 population, Scotland, 2001 to 2022",
+            "description": "This dataset shows the age-standardised mortality rate from coronary heart disease or cerebrovascular disease for those aged under 75 per 100,000 population, in Scotland, for 2001 to 2022.\n\n### Coverage \n\nScotland\n\n#### Geography definition\n\nCouncil Areas,\nNation (Scotland) \n\n### Source\n\n - Scotland: [Public Health Scotland Heart disease statistics](https://publichealthscotland.scot/publications/scottish-heart-disease-statistics/scottish-heart-disease-statistics-year-ending-31-march-2022/) and [Public Health Scotland Stroke statistics](https://publichealthscotland.scot/publications/scottish-stroke-statistics/scottish-stroke-statistics-year-ending-31-march-2022/) \n\n\n### Source Notes and Caveats \n- Data are based on year of death registration.\n- Data relate to all deaths that occurred in Scotland. This includes those who are resident outwith Scotland, those with no fixed abode and those with unknown residence.\n- Data includes underlying cause of death from coronary heart disease (ICD-10 code I20-I25) or cerebrovascular disease (ICD-10 code I60-I69).\n- Age standardised rates calculated using the direct method, standardised to the 2013 European Standard Population (ESP2013). National Records of Scotland Population Estimates were used in the calculation of the crude and standardised rates.",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2024-06-13T14:43",
+            "modified": "2024-06-13T14:43",
+            "wrds:caveat": "",
+            "keyword": [
+                "local-authority",
+                "scotland",
+                "region",
+                "subnational",
+                "heart-disease"
+            ],
+            "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+            "spatial_coverage": [
+                "S92000003"
+            ],
+            "spatial_resolution": [
+                "S12"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2001-01-01T00:00:00+00:00",
+                "end": "2022-01-01T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
