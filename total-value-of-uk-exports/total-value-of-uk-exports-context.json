@@ -1,0 +1,64 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/total-value-of-uk-exports/editions/2023-Q2/versions/2",
+    "@type": "ons:Version",
+    "title": "Total value of UK exports",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "title": "Total value of UK exports",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/total-value-of-uk-exports.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "title": "Total value of UK exports",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/total-value-of-uk-exports/editions/2023-Q2",
+            "@type": "ons:Edition",
+            "title": "Total value of UK exports",
+            "abstract": "Estimated total value of UK exports including trade in both goods and services (official statistics in development), UK, 2021",
+            "description": "This dataset shows the estimated total value of UK exports including trade in both goods and services (official statistics in development), in the UK, for 2021.\n\n### Coverage \n\nUK \n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1, 2 and 3,\nCity Regions,\nCountry (UK)\n\n### Source\n\n - UK: [Office for National Statistics](https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousReleases) \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2023-05-23T15:14:20",
+            "modified": "2024-02-05T13:09",
+            "wrds:caveat": "",
+            "keyword": [
+                "economic-growth",
+                "exports",
+                "goods-and-services",
+                "imports",
+                "trade-deficit",
+                "subnational",
+                "international-territorial-level"
+            ],
+            "theme": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade",
+            "spatial_coverage": [
+                "K02000001"
+            ],
+            "spatial_resolution": [
+                "E13",
+                "E47",
+                "N34",
+                "W42"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2021-01-01T00:00:00+00:00",
+                "end": "2021-12-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
