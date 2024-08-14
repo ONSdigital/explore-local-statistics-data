@@ -13,7 +13,7 @@
         {
             "@id": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals.csv",
             "title": "Persistent absences for pupils eligible for free school meals",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals.csv",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals.csv",
             "media_type": "application/csvm+json",
             "described_by": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals.csv-metadata.json"
         }
