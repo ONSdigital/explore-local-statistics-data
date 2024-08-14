@@ -1,0 +1,56 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/aged-16-to-64-years-with-no-qualifications-great-britain/editions/2024-Q2/versions/1",
+    "@type": "ons:Version",
+    "title": "No qualifications",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
+            "title": "No qualifications",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv",
+            "title": "No qualifications",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/aged-16-to-64-years-with-no-qualifications-great-britain/editions/2024-Q2",
+            "@type": "ons:Edition",
+            "title": "No qualifications",
+            "abstract": "Percentage of the population aged 16 to 64 with no qualifications, Great Britain (Northern Ireland national figure included), 2022 and 2023.",
+            "description": "This dataset shows the percentage of the population aged 16 to 64 with no qualifications, in Great Britain (Northern Ireland national figure included), for 2022 and 2023.\n\n### Coverage \n\nGB (England, Wales and Scotland). Northern Ireland national figure included.\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities, \nCounties, \nCombined Authorities, \nRegions, \nNations (England, Wales, Scotland, Northern Ireland), \nCountries (UK, GB, England and Wales)\n\n### Source\n\n - Great Britain: [Nomis](https://www.nomisweb.co.uk/datasets/apsnew) \n\n\n### Source Notes and Caveats \nThis indicator is based on re-weighted Annual Population Survey datasets updated on 16 August 2022. For more information, see [Impact of reweighting on Labour Force Survey key indicators: 2022](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/impactofreweightingonlabourforcesurveykeyindicators/2022).\n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/northern-ireland-statistics-and-research-agency",
+            "issued": "2024-06-13T14:14",
+            "modified": "2024-06-13T14:14",
+            "wrds:caveat": "",
+            "keyword": [
+                "annual-population-survey",
+                "no-qualifications",
+                "subnational",
+                "local-authority"
+            ],
+            "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
+            "spatial_coverage": "K03000001",
+            "spatial_resolution": [
+                "K03"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2022-01-01T00:00:00+00:00",
+                "end": "2023-12-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
