@@ -1,0 +1,62 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/net-additions-to-the-housing-stock-wales/editions/2024-Q2/versions/2",
+    "@type": "ons:Version",
+    "title": "Net additions to the housing stock (Wales)",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "title": "Net additions to the housing stock (Wales)",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/net-additions-to-the-housing-stock-wales.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "title": "Net additions to the housing stock (Wales)",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/net-additions-to-the-housing-stock-wales/editions/2024-Q2",
+            "@type": "ons:Edition",
+            "title": "Net additions to the housing stock (Wales)",
+            "abstract": "Net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, Wales, financial years 2001/02 to 2021/22.",
+            "description": "This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Wales, for financial years 2001/02 to 2021/22.\n\n### Coverage \n\nWales\n\n#### Geography definition\n\nLocal Authority Districts, \nNation (Wales) \n\n### Source\n\n - Wales: [Welsh Government](https://statswales.gov.wales/Catalogue/Housing/Dwelling-Stock-Estimates/dwellingstockestimates-by-localauthority-tenure) \n\n\n### Source Notes and Caveats \nIn Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use. \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2024-05-30T15:03",
+            "modified": "2024-05-31T11:10",
+            "wrds:caveat": "",
+            "keyword": [
+                "new-building",
+                "conversion",
+                "demolition",
+                "dwelling",
+                "subnational",
+                "local-authority",
+                "wales"
+            ],
+            "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
+            "spatial_coverage": [
+                "W92000004"
+            ],
+            "spatial_resolution": [
+                "W06",
+                "W15"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2001-01-01T00:00:00+00:00",
+                "end": "2022-01-01T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
