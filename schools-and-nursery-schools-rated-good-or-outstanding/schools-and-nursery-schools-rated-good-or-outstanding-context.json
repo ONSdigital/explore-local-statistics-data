@@ -1,0 +1,63 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/schools-and-nursery-schools-rated-good-or-outstanding/editions/2023-Q2/versions/2",
+    "@type": "ons:Version",
+    "title": "State-funded schools rated good or outstanding",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding.csv",
+            "title": "State-funded schools rated good or outstanding",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/schools-and-nursery-schools-rated-good-or-outstanding.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding.csv",
+            "title": "State-funded schools rated good or outstanding",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/schools-and-nursery-schools-rated-good-or-outstanding/editions/2023-Q2",
+            "@type": "ons:Edition",
+            "title": "State-funded schools rated good or outstanding",
+            "abstract": "Percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated \u2018Good\u2019 or \u2018Outstanding\u2019 by Ofsted, England (state-funded schools), as at 30 April 2024",
+            "description": "This dataset shows the percentage of state-funded Nursery schools, Primary schools, Secondary schools, Alternative Provision (AP) schools and Special schools that are rated \u2018Good\u2019 or \u2018Outstanding\u2019 by Ofsted, in England (state-funded schools), as at 30 April 2024.\n\n### Coverage \n\nEngland (state-funded schools)\n\n#### Geography definition\n\nCounties and Unitary Authorities,\nRegions,\nNation (England)\n\n### Source\n\n - England: [Ofsted](https://www.gov.uk/government/statistical-data-sets/monthly-management-information-ofsteds-school-inspections-outcomes) \n\n\n### Source Notes and Caveats \nThese figures cover all state-funded schools in England and are updated on a rolling basis. \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2023-05-16T13:36",
+            "modified": "2024-05-30T14:40",
+            "wrds:caveat": "",
+            "keyword": [
+                "state-funded-school",
+                "inspections-and-outcomes",
+                "subnational",
+                "county",
+                "region"
+            ],
+            "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
+            "spatial_coverage": [
+                "E92000001"
+            ],
+            "spatial_resolution": [
+                "E06",
+                "E08",
+                "E09",
+                "E10",
+                "E12"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2024-04-30T00:00:00+00:00",
+                "end": "2024-04-30T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}

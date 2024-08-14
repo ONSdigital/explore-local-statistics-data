@@ -1,0 +1,67 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/gigabit-capable-broadband/editions/2023-Q1/versions/2",
+    "@type": "ons:Version",
+    "title": "Gigabit capable broadband",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "title": "Gigabit capable broadband",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gigabit-capable-broadband.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "title": "Gigabit capable broadband",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/gigabit-capable-broadband/editions/2023-Q1",
+            "@type": "ons:Edition",
+            "title": "Gigabit capable broadband",
+            "abstract": "Percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), UK, as of January 2024.",
+            "description": "This dataset shows the percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), in the UK, as of January 2024.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-update-spring-2024) \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2023-03-31T12:12:36",
+            "modified": "2024-05-31T09:58",
+            "wrds:caveat": "",
+            "keyword": [
+                "broadband-mobile-coverage",
+                "connectivity",
+                "local-authority",
+                "subnational"
+            ],
+            "theme": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade",
+            "spatial_coverage": [
+                "E92000001",
+                "N92000002",
+                "S92000003",
+                "W92000004"
+            ],
+            "spatial_resolution": [
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "N09",
+                "S12",
+                "W06"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2024-01-01T00:00:00+00:00",
+                "end": "2024-01-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1M"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}

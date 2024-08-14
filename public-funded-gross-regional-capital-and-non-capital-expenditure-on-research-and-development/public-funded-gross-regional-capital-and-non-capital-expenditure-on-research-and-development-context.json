@@ -1,0 +1,58 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/editions/2023-Q4/versions/2",
+    "@type": "ons:Version",
+    "title": "Public-funded gross regional capital and non-capital expenditure on research and development",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development.csv",
+            "title": "Public-funded gross regional capital and non-capital expenditure on research and development",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development.csv",
+            "title": "Public-funded gross regional capital and non-capital expenditure on research and development",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development/editions/2023-Q4",
+            "@type": "ons:Edition",
+            "title": "Public-funded gross regional capital and non-capital expenditure on research and development",
+            "abstract": "Total UK public-funded gross regional capital and non-capital expenditure on research and development (official statistics in development), UK, financial years ending 2021 and 2022.",
+            "description": "This dataset shows the total UK public-funded gross regional capital and non-capital expenditure on research and development (official statistics in development), in the UK, for financial years ending 2021 and 2022.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1,\nCountry (UK)\n\n### Source\n\n - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/datasets/ukpublicfundedgrossregionalcapitalandnoncapitalexpenditureonresearchanddevelopment) \n\n\n### Source Notes and Caveats \nResearch and development refers to any creative and systematic activity that contains a certain amount of novelty – which includes the development of new concepts, products and processes – with the aim of increasing the stock of knowledge. Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).\n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2023-10-27T10:41:11",
+            "modified": "2024-07-15T12:16",
+            "wrds:caveat": "",
+            "keyword": [
+                "research-and-development",
+                "expenditure",
+                "subnational",
+                "region"
+            ],
+            "theme": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes",
+            "spatial_coverage": [
+                "K02000001"
+            ],
+            "spatial_resolution": [
+                "E12"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2020-01-01T00:00:00+00:00",
+                "end": "2022-12-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
