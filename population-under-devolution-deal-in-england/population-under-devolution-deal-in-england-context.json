@@ -1,0 +1,58 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/population-under-devolution-deal-in-england/editions/2023-Q2/versions/2",
+    "@type": "ons:Version",
+    "title": "Population under devolution deal in England",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
+            "title": "Population under devolution deal in England",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/population-under-devolution-deal-in-england.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
+            "title": "Population under devolution deal in England",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/population-under-devolution-deal-in-england/editions/2023-Q2",
+            "@type": "ons:Edition",
+            "title": "Population under devolution deal in England",
+            "abstract": "Percentage of the population living in an area covered by the highest level of devolution, England, as of 13 January 2023.",
+            "description": "This dataset shows the percentage of the population living in an area covered by the highest level of devolution, in England, as of 13 January 2023.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nRegions,\nNation (England)\n\n### Source\n\n - England: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/adhocs/15439populationlivinginanareacoveredbyacombinedauthorityorregionalgovernancebodythathasadevolutiondealwithadirectlyelectedmayorenglandasof13january2023) \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2023-03-31T12:14:51",
+            "modified": "2024-02-05T14:14",
+            "wrds:caveat": "",
+            "keyword": [
+                "combined-authority",
+                "mayor",
+                "subnational",
+                "region"
+            ],
+            "theme": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes",
+            "spatial_coverage": [
+                "E92000001"
+            ],
+            "spatial_resolution": [
+                "E12"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2023-01-13T00:00:00+00:00",
+                "end": "2023-01-13T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
