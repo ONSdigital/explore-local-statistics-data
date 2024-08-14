@@ -1,6 +1,6 @@
 {
     "@context": "json-ld-context/test_context.json",
-    "@id": "https://ons.gov.uk/datasets/pupils-at-expected-standards-by-end-of-primary-school/editions/2023-Q4/versions/2",
+    "@id": "https://ons.gov.uk/datasets/pupils-at-expected-standards-by-end-of-primary-school/editions/2023-Q1/versions/2",
     "@type": "ons:Version",
     "title": "Pupils meeting the expected standard in reading, writing and maths at the end of key stage 2",
     "dcat:distribution": [
@@ -20,7 +20,7 @@
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/pupils-at-expected-standards-by-end-of-primary-school/editions/2023-Q4",
+            "@id": "https://ons.gov.uk/datasets/pupils-at-expected-standards-by-end-of-primary-school/editions/2023-Q1",
             "@type": "ons:Edition",
             "title": "Pupils meeting the expected standard in reading, writing and maths at the end of key stage 2",
             "abstract": "Percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of key stage 2, England (state-funded schools), academic years 2015/16 - 2022/23",
