@@ -7,11 +7,11 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities.csv",
             "title": "Persistent absences for pupils looked after by local authorities",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/persistent-absences-for-pupils-looked-after-by-local-authorities.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities.csv",
+            "@id": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities.csv",
             "title": "Persistent absences for pupils looked after by local authorities",
             "download_url": "https://gss-cogs.github.io/family-ess/out/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities/persistent-absences-for-pupils-looked-after-by-local-authorities.csv",
             "media_type": "application/csvm+json",

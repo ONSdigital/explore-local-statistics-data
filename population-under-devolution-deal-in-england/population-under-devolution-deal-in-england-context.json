@@ -7,11 +7,11 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
             "title": "Population under devolution deal in England",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/population-under-devolution-deal-in-england.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
+            "@id": "https://gss-cogs.github.io/family-ess/out/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
             "title": "Population under devolution deal in England",
             "download_url": "https://gss-cogs.github.io/family-ess/out/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england/population-under-devolution-deal-in-england.csv",
             "media_type": "application/csvm+json",

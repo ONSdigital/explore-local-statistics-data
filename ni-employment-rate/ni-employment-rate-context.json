@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/ni-employment-rate/ni-employment-rate.csv",
             "title": "Local labour market indicators for Northern Ireland",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/ni-employment-rate.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/ni-employment-rate/ni-employment-rate.csv",
             "media_type": "text/csv"
         },
         {

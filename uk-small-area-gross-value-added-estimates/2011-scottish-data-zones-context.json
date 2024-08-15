@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones.csv",
             "title": "Scotland data zones gross value added (GVA) estimates",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/2011-scottish-data-zones.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones.csv",
             "media_type": "text/csv"
         },
         {

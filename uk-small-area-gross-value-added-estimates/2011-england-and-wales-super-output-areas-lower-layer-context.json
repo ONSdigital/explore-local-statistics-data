@@ -7,11 +7,11 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/uk-small-area-gross-value-added-estimates/2011-england-and-wales-super-output-areas-lower-layer.csv",
             "title": "England and Wales lower layer super output areas gross value added (GVA) estimates",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/2011-england-and-wales-super-output-areas-lower-layer.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/uk-small-area-gross-value-added-estimates/2011-england-and-wales-super-output-areas-lower-layer.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/uk-small-area-gross-value-added-estimates/2011-england-and-wales-super-output-areas-lower-layer.csv",
+            "@id": "https://gss-cogs.github.io/family-ess/out/uk-small-area-gross-value-added-estimates/2011-england-and-wales-super-output-areas-lower-layer/2011-england-and-wales-super-output-areas-lower-layer.csv",
             "title": "England and Wales lower layer super output areas gross value added (GVA) estimates",
             "download_url": "https://gss-cogs.github.io/family-ess/out/uk-small-area-gross-value-added-estimates/2011-england-and-wales-super-output-areas-lower-layer/2011-england-and-wales-super-output-areas-lower-layer.csv",
             "media_type": "application/csvm+json",

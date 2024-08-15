@@ -7,11 +7,11 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
             "title": "Economically inactive people due to long-term sickness",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
+            "@id": "https://gss-cogs.github.io/family-ess/out/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
             "title": "Economically inactive people due to long-term sickness",
             "download_url": "https://gss-cogs.github.io/family-ess/out/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
             "media_type": "application/csvm+json",

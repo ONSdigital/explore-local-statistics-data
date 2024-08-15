@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-median-weekly-pay/gross-median-weekly-pay.csv",
             "title": "Gross median weekly pay",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-median-weekly-pay.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-median-weekly-pay/gross-median-weekly-pay.csv",
             "media_type": "text/csv"
         },
         {

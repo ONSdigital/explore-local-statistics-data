@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/healthy-life-expectancy/healthy-life-expectancy.csv",
             "title": "Healthy life expectancy",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/healthy-life-expectancy.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/healthy-life-expectancy/healthy-life-expectancy.csv",
             "media_type": "text/csv"
         },
         {

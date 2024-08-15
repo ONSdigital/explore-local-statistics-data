@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
             "title": "Gross disposable household income per head",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-disposable-household-income-per-head.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
             "media_type": "text/csv"
         },
         {

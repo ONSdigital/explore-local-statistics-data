@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences-ni/homicide-offences-ni.csv",
             "title": "Homicide Offences (Northern Ireland)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences-ni.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences-ni/homicide-offences-ni.csv",
             "media_type": "text/csv"
         },
         {

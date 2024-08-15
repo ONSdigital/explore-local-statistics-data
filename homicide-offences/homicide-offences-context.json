@@ -7,7 +7,7 @@
         {
             "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences/homicide-offences.csv",
             "title": "Homicide Offences (England and Wales)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences.csv",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences/homicide-offences.csv",
             "media_type": "text/csv"
         },
         {
