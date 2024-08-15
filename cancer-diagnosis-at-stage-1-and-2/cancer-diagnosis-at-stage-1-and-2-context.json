@@ -1,51 +1,52 @@
 {
     "@context": "json-ld-context/test_context.json",
-    "@id": "https://ons.gov.uk/datasets/business-expenditure-on-research-and-development/editions/2024-Q2/versions/1",
+    "@id": "https://ons.gov.uk/datasets/cancer-diagnosis-at-stage-1-and-2/editions/2023-Q2/versions/2",
     "@type": "ons:Version",
-    "title": "Business expenditure on research and development",
+    "title": "Cancer diagnosis at stage 1 and 2",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
-            "title": "Business expenditure on research and development",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+            "title": "Cancer diagnosis at stage 1 and 2",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
-            "title": "Business expenditure on research and development",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+            "@id": "https://gss-cogs.github.io/family-ess/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+            "title": "Cancer diagnosis at stage 1 and 2",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv-metadata.json"
+            "described_by": "https://gss-cogs.github.io/family-ess/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv-metadata.json"
         }
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/business-expenditure-on-research-and-development/editions/2024-Q2",
+            "@id": "https://ons.gov.uk/datasets/cancer-diagnosis-at-stage-1-and-2/editions/2023-Q2",
             "@type": "ons:Edition",
-            "title": "Business expenditure on research and development",
-            "abstract": "Total business expenditure on research and development, UK, 2022.",
-            "description": "This dataset shows the total business expenditure on research and development, in the UK, for 2022.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nInternational Territorial Level (ITL) 1,\nCountry (UK)\n\n### Source\n\n - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/bulletins/businessenterpriseresearchanddevelopment/previousReleases) \n\n\n### Source Notes and Caveats \nStatistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).\n\n\n",
+            "title": "Cancer diagnosis at stage 1 and 2",
+            "abstract": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, England, 2013 to 2021.",
+            "description": "This dataset shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2021.\n\n### Coverage \n\nEngland\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nRegions,\nCombined Authorities,\nNation (England) \n\n### Source\n\n - England: [Office for Health Improvement and Disparities](https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/4/gid/1000042/pat/15/par/E92000001/ati/6/are/E12000004/iid/93671/age/1/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-ao-0_car-do-0_tre-ao-1) \n\n\n### Source Notes and Caveats \n- Due to the impact of the COVID-19 pandemic on both clinical and data quality arrangements, the ability to obtain stage data for cancer registrations was reduced for the 2019 and 2020 diagnosis years. In 2019, the proportion of stageable cancer diagnoses with a registered stage fell from 85% in 2018 to 76%. For the 2020 diagnosis year, stage completeness increased to 81%.\n- Values for Cornwall and Isles of Scilly are in a combined code (E67000002).  \n\n\n",
             "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-            "issued": "2024-05-15T16:25:11.468465",
-            "modified": "2024-05-15T16:25:11.468465",
+            "creator": "https://www.gov.uk/government/organisations/office-for-health-improvement-and-disparities",
+            "issued": "2023-05-17T12:25:53.759812",
+            "modified": "2024-02-12T16:11",
             "wrds:caveat": "",
             "keyword": [
-                "research-and-development",
-                "expenditure",
+                "tumor",
                 "subnational",
+                "local-authority",
+                "county",
                 "region"
             ],
-            "theme": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes",
-            "spatial_coverage": "K02000001",
+            "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+            "spatial_coverage": "E92000001",
             "spatial_resolution": [
-                "K02"
+                "E92"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
-                "start": "2022-01-01T00:00:00+00:00",
-                "end": "2022-12-31T00:00:00+00:00"
+                "start": "2013-01-01T00:00:00+00:00",
+                "end": "2021-12-31T00:00:00+00:00"
             },
             "temporal_resolution": [
                 "P1Y"
