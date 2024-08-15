@@ -27,7 +27,7 @@
             "description": "This dataset shows the percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), in the UK, as of January 2024.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/research-and-data/multi-sector-research/infrastructure-research/connected-nations-update-spring-2024) \n\n\n",
             "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "creator": "https://www.gov.uk/government/organisations/ofcom",
             "issued": "2023-03-31T12:12:36",
             "modified": "2024-05-31T09:58",
             "wrds:caveat": "",

@@ -27,7 +27,7 @@
             "description": "This dataset shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Wales, for financial years 2001/02 to 2021/22.\n\n### Coverage \n\nWales\n\n#### Geography definition\n\nLocal Authority Districts, \nNation (Wales) \n\n### Source\n\n - Wales: [Welsh Government](https://statswales.gov.wales/Catalogue/Housing/Dwelling-Stock-Estimates/dwellingstockestimates-by-localauthority-tenure) \n\n\n### Source Notes and Caveats \nIn Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use. \n\n\n",
             "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "creator": "https://www.gov.uk/government/organisations/welsh-government",
             "issued": "2024-05-30T15:03",
             "modified": "2024-05-31T11:10",
             "wrds:caveat": "",
