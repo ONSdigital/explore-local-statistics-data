@@ -1,0 +1,58 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/cardiovascular-mortality-persons-aged-under-75-ni/editions/2024-Q1/versions/2",
+    "@type": "ons:Version",
+    "title": "Preventable circulatory mortality (Northern Ireland)",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
+            "title": "Preventable circulatory mortality (Northern Ireland)",
+            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv",
+            "title": "Preventable circulatory mortality (Northern Ireland)",
+            "download_url": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/cardiovascular-mortality-persons-aged-under-75-ni/editions/2024-Q1",
+            "@type": "ons:Edition",
+            "title": "Preventable circulatory mortality (Northern Ireland)",
+            "abstract": "Age-standardised mortality rate from circulatory diseases considered preventable for those aged under 75 per 100,000 population, Northern Ireland, 2001 to 2022.",
+            "description": "This dataset shows the age-standardised mortality rate from circulatory diseases considered preventable for those aged under 75 per 100,000 population, in Northern Ireland, for 2001 to 2022.\n\n### Coverage \n\nNorthern Ireland\n\n#### Geography definition\n\nLocal Government Districts,\nNation (Northern Ireland) \n\n### Source\n\n - Northern Ireland: [Northern Ireland Statistics and Research Agency (NISRA)](https://www.health-ni.gov.uk/publications/age-standardised-death-rate-preventable-cardiovascular-disease-by-local-government-2001-2022) \n\n\n### Source Notes and Caveats \n- Data have been updated for years 2001 to 2022, and therefore cover the COVID-19 pandemic. The official population estimates for mid-2012 to mid-2020 have been revised, to incorporate the data now available from Census 2021. The data for this indicator has been revised to use the rebased population estimates from 2012 onwards. \n- Rates presented are based on year of death registration, not year of occurrence.",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/department-of-health-northern-ireland",
+            "issued": "2024-01-26T12:41",
+            "modified": "2024-02-14T10:07:40",
+            "wrds:caveat": "",
+            "keyword": [
+                "local-authority",
+                "northern-ireland",
+                "region",
+                "subnational",
+                "premature-death",
+                "heart-disease"
+            ],
+            "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
+            "spatial_coverage": "N92000002",
+            "spatial_resolution": [
+                "N92"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2001-01-01T00:00:00+00:00",
+                "end": "2022-12-31T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+        }
+    }
+}
