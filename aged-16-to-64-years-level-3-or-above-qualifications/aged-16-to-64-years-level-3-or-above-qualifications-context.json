@@ -39,9 +39,18 @@
                 "region"
             ],
             "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
-            "spatial_coverage": "K03000001",
+            "spatial_coverage": "K02000001",
             "spatial_resolution": [
-                "K03"
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E10",
+                "E12",
+                "E13",
+                "E47",
+                "S12",
+                "W06"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",

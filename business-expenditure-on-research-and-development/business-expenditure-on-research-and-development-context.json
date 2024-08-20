@@ -40,7 +40,7 @@
             "theme": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes",
             "spatial_coverage": "K02000001",
             "spatial_resolution": [
-                "K02"
+                "E12"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",

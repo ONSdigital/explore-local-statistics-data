@@ -42,12 +42,18 @@
             "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
             "spatial_coverage": "E92000001",
             "spatial_resolution": [
-                "E92"
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E10",
+                "E12",
+                "E13"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
-                "start": "2021-08-01T00:00:00+00:00",
-                "end": "2023-07-31T00:00:00+00:00"
+                "start": "2021-09-01T00:00:00+00:00",
+                "end": "2023-08-31T00:00:00+00:00"
             },
             "temporal_resolution": [
                 "P1Y"

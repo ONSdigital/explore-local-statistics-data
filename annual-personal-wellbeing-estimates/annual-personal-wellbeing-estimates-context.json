@@ -46,7 +46,17 @@
             "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
             "spatial_coverage": "K02000001",
             "spatial_resolution": [
-                "K02"
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E10",
+                "E11",
+                "E12",
+                "E13",
+                "N09",
+                "S12",
+                "W06"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",

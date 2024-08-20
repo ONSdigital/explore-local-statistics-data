@@ -42,7 +42,7 @@
             "theme": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
             "spatial_coverage": "S92000003",
             "spatial_resolution": [
-                "S92"
+                "S12"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",

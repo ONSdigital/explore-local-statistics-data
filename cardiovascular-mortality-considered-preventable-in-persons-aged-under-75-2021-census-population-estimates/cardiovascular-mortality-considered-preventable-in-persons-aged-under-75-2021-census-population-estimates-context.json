@@ -42,7 +42,13 @@
             "theme": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare",
             "spatial_coverage": "E92000001",
             "spatial_resolution": [
-                "E92"
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E10",
+                "E12",
+                "E67"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",

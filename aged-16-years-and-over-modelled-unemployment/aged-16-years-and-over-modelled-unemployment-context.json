@@ -43,7 +43,14 @@
             "theme": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork",
             "spatial_coverage": "K03000001",
             "spatial_resolution": [
-                "K03"
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E12",
+                "E47",
+                "S12",
+                "W06"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
