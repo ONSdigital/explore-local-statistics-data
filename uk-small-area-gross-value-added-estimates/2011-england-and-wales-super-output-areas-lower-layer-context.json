@@ -40,7 +40,7 @@
             ],
             "theme": "https://www.ons.gov.uk/economy/economicoutputandproductivity",
             "spatial_coverage": [
-                ""
+                "K04000001"
             ],
             "spatial_resolution": [
                 "E01",

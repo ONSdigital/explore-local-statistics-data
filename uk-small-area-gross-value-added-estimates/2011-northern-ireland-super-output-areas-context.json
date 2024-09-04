@@ -40,10 +40,36 @@
             ],
             "theme": "https://www.ons.gov.uk/economy/economicoutputandproductivity",
             "spatial_coverage": [
-                ""
+                "N92000002"
             ],
             "spatial_resolution": [
-                ""
+                "95A",
+                "95B",
+                "95C",
+                "95D",
+                "95E",
+                "95F",
+                "95G",
+                "95H",
+                "95I",
+                "95J",
+                "95K",
+                "95L",
+                "95M",
+                "95N",
+                "95O",
+                "95P",
+                "95Q",
+                "95R",
+                "95S",
+                "95T",
+                "95U",
+                "95V",
+                "95W",
+                "95X",
+                "95Y",
+                "95Z"
+
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
