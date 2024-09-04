@@ -1,6 +1,6 @@
 {
     "@context": "json-ld-context/test_context.json",
-    "@id": "https://ons.gov.uk/datasets/proportion-of-people-who-are-economically-inactive-due-to-sickness/editions/2024-Q2/versions/2",
+    "@id": "https://ons.gov.uk/datasets/proportion-of-people-who-are-economically-inactive-due-to-sickness/editions/2024-Q2/versions/1",
     "@type": "ons:Version",
     "title": "Economically inactive people due to long-term sickness",
     "dcat:distribution": [
@@ -56,7 +56,7 @@
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
                 "start": "2004-01-01T00:00:00+00:00",
-                "end": "2022-01-01T00:00:00+00:00"
+                "end": "2022-12-31T00:00:00+00:00"
             },
             "temporal_resolution": [
                 "P1Y"

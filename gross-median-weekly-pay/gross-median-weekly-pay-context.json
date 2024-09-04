@@ -41,12 +41,21 @@
             "theme": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
             "spatial_coverage": "K02000001",
             "spatial_resolution": [
-                "K02"
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E10",
+                "E11",
+                "E12",
+                "N09",
+                "S12",
+                "W06"
             ],
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
                 "start": "2002-01-01T00:00:00+00:00",
-                "end": "2023-01-31T00:00:00+00:00"
+                "end": "2023-12-31T00:00:00+00:00"
             },
             "temporal_resolution": [
                 "P1Y"
