@@ -60,7 +60,96 @@
             "temporal_resolution": [
                 "P1Y"
             ],
-            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "areacd",
+                        "titles": "area_code",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "areanm",
+                        "titles": "area_name",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "geography",
+                        "titles": "geography",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "variable_name",
+                        "titles": "variable_name",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "indicator",
+                        "titles": "indicator",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "mission",
+                        "titles": "mission",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "category",
+                        "titles": "category",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "period",
+                        "titles": "period",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "observation",
+                        "titles": "observation",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "count",
+                        "titles": "count",
+                        "datatype": "integer"
+                    },
+                    {
+                        "name": "measure",
+                        "titles": "measure",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "unit",
+                        "titles": "unit",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "lower_confidence_interval_95",
+                        "titles": "lower_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "upper_confidence_interval_95",
+                        "titles": "upper_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "observation_status",
+                        "titles": "observation_status",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "polarity",
+                        "titles": "polarity",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "notes",
+                        "titles": "notes",
+                        "datatype": "string"
+                    }
+                ]
+            }
         }
     }
 }

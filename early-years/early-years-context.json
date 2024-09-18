@@ -58,7 +58,91 @@
             "temporal_resolution": [
                 "P1Y"
             ],
-            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/"
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "areacd",
+                        "titles": "area_code",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "areanm",
+                        "titles": "area_name",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "geography",
+                        "titles": "geography",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "period",
+                        "titles": "period",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "communication_and_language",
+                        "titles": "communication_and_language",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "communication_lower_confidence_interval_95",
+                        "titles": "communication_lower_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "communication_upper_confidence_interval_95",
+                        "titles": "communication_upper_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "communication_observation_status",
+                        "titles": "communication_observation_status",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "literacy",
+                        "titles": "literacy",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "literacy_lower_confidence_interval_95",
+                        "titles": "literacy_lower_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "literacy_upper_confidence_interval_95",
+                        "titles": "literacy_upper_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "literacy_observation_status",
+                        "titles": "literacy_observation_status",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "mathematics",
+                        "titles": "mathematics",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "mathematics_lower_confidence_interval_95",
+                        "titles": "mathematics_lower_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "mathematics_upper_confidence_interval_95",
+                        "titles": "mathematics_upper_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "mathematics_observation_status",
+                        "titles": "mathematics_observation_status",
+                        "datatype": "string"
+                    }
+                ]
+            }
         }
     }
 }
