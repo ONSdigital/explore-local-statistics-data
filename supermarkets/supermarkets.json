@@ -44,7 +44,7 @@
             "unit": {
                 "label": "per 10,000",
                 "from_existing": "http://qudt.org/vocab/unit/PERCENT",
-                "scaling_factor": 0.1
+                "scaling_factor": 0.01
             },
             "measure": {
                 "label": "Number of supermarkets",
