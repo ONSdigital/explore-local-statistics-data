@@ -5,17 +5,17 @@
     "title": "Net additions to the housing stock (Wales)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
             "title": "Net additions to the housing stock (Wales)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
             "title": "Net additions to the housing stock (Wales)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "GCSEs in English and Maths",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
             "title": "GCSEs in English and Maths",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
             "title": "GCSEs in English and Maths",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv-metadata.json"
         }
     ],
     "@reverse": {

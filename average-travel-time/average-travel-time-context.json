@@ -5,17 +5,17 @@
     "title": "Travel time to employment centres by mode of travel",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/average-travel-time/average-travel-time-long.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/average-travel-time/average-travel-time-long.csv",
             "title": "Travel time to employment centres by mode of travel",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/average-travel-time/average-travel-time-long.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/average-travel-time/average-travel-time-long.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/average-travel-time/average-travel-time-long/travel-time-to-employment-centres-by-mode-of-travel.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/average-travel-time/average-travel-time-long/travel-time-to-employment-centres-by-mode-of-travel.csv",
             "title": "Travel time to employment centres by mode of travel",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/average-travel-time/average-travel-time-long/travel-time-to-employment-centres-by-mode-of-travel.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/average-travel-time/average-travel-time-long/travel-time-to-employment-centres-by-mode-of-travel.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/average-travel-time/average-travel-time-long/travel-time-to-employment-centres-by-mode-of-travel.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/average-travel-time/average-travel-time-long/travel-time-to-employment-centres-by-mode-of-travel.csv-metadata.json"
         }
     ],
     "@reverse": {

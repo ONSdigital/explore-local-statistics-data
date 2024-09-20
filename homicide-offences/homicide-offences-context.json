@@ -5,17 +5,17 @@
     "title": "Homicide Offences (England and Wales)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences/homicide-offences.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/homicide-offences/homicide-offences.csv",
             "title": "Homicide Offences (England and Wales)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences/homicide-offences.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/homicide-offences/homicide-offences.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/homicide-offences/homicide-offences/homicide-offences.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/homicide-offences/homicide-offences/homicide-offences.csv",
             "title": "Homicide Offences (England and Wales)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/homicide-offences/homicide-offences/homicide-offences.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/homicide-offences/homicide-offences/homicide-offences.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/homicide-offences/homicide-offences/homicide-offences.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/homicide-offences/homicide-offences/homicide-offences.csv-metadata.json"
         }
     ],
     "@reverse": {

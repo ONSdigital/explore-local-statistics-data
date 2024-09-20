@@ -5,17 +5,17 @@
     "title": "Apprenticeships starts and achievements (England)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/apprenticeship/apprenticeship.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/apprenticeship/apprenticeship.csv",
             "title": "Apprenticeships starts and achievements (England)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/apprenticeship/apprenticeship.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/apprenticeship/apprenticeship.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/apprenticeship/apprenticeship/apprenticeships-starts-and-achievements-england.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/apprenticeship/apprenticeship/apprenticeships-starts-and-achievements-england.csv",
             "title": "Apprenticeships starts and achievements (England)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/apprenticeship/apprenticeship/apprenticeships-starts-and-achievements-england.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/apprenticeship/apprenticeship/apprenticeships-starts-and-achievements-england.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/apprenticeship/apprenticeship/apprenticeships-starts-and-achievements-england.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/apprenticeship/apprenticeship/apprenticeships-starts-and-achievements-england.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "Adult obesity prevalence",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
             "title": "Adult obesity prevalence",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
             "title": "Adult obesity prevalence",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv-metadata.json"
         }
     ],
     "@reverse": {

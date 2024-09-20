@@ -11,11 +11,11 @@
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/5g-coverage/5g-coverage/5g-coverage.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/5g-coverage/5g-coverage/5g-coverage.csv",
             "title": "5G Coverage",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/5g-coverage/5g-coverage/5g-coverage.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/5g-coverage/5g-coverage/5g-coverage.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/5g-coverage/5g-coverage/5g-coverage.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/5g-coverage/5g-coverage/5g-coverage.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "Gross disposable household income per head",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
             "title": "Gross disposable household income per head",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
             "title": "Gross disposable household income per head",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "Cancer diagnosis at stage 1 and 2",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
             "title": "Cancer diagnosis at stage 1 and 2",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
             "title": "Cancer diagnosis at stage 1 and 2",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "Homicide Offences (Northern Ireland)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences-ni/homicide-offences-ni.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/homicide-offences-ni/homicide-offences-ni.csv",
             "title": "Homicide Offences (Northern Ireland)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/homicide-offences-ni/homicide-offences-ni.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/homicide-offences-ni/homicide-offences-ni.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv",
             "title": "Homicide Offences (Northern Ireland)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/homicide-offences-ni/homicide-offences-ni/homicide-offences-ni.csv-metadata.json"
         }
     ],
     "@reverse": {

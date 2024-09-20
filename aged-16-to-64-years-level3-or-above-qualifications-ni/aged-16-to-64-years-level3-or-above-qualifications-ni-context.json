@@ -5,17 +5,17 @@
     "title": "Aged 16 to 64 years level 3 or above qualifications, Northern Ireland",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni.csv",
             "title": "Aged 16 to 64 years level 3 or above qualifications, Northern Ireland",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level-3-or-above-qualifications-northern-ireland.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level-3-or-above-qualifications-northern-ireland.csv",
             "title": "Aged 16 to 64 years level 3 or above qualifications, Northern Ireland",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level-3-or-above-qualifications-northern-ireland.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level-3-or-above-qualifications-northern-ireland.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level-3-or-above-qualifications-northern-ireland.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level-3-or-above-qualifications-northern-ireland.csv-metadata.json"
         }
     ],
     "@reverse": {

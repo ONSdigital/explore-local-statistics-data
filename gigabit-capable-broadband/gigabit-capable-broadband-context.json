@@ -5,17 +5,17 @@
     "title": "Gigabit capable broadband",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/gigabit-capable-broadband/gigabit-capable-broadband.csv",
             "title": "Gigabit capable broadband",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/gigabit-capable-broadband/gigabit-capable-broadband.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv",
             "title": "Gigabit capable broadband",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/gigabit-capable-broadband/gigabit-capable-broadband/gigabit-capable-broadband.csv-metadata.json"
         }
     ],
     "@reverse": {

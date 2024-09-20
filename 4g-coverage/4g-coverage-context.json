@@ -5,17 +5,17 @@
     "title": "4G coverage",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/4g-coverage/4g-coverage.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/4g-coverage/4g-coverage.csv",
             "title": "4G coverage",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/4g-coverage/4g-coverage.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/4g-coverage/4g-coverage.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/4g-coverage/4g-coverage/4g-coverage.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/4g-coverage/4g-coverage/4g-coverage.csv",
             "title": "4G coverage",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/4g-coverage/4g-coverage/4g-coverage.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/4g-coverage/4g-coverage/4g-coverage.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/4g-coverage/4g-coverage/4g-coverage.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/4g-coverage/4g-coverage/4g-coverage.csv-metadata.json"
         }
     ],
     "@reverse": {

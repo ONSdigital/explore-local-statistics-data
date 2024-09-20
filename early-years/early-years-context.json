@@ -5,17 +5,17 @@
     "title": "Children at expected level for early learning goals",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/early-years/early-years.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/early-years/early-years.csv",
             "title": "Children at expected level for early learning goals",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/early-years/early-years.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/early-years/early-years.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/early-years/early-years/children-at-expected-level-for-early-learning-goals.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/early-years/early-years/children-at-expected-level-for-early-learning-goals.csv",
             "title": "Children at expected level for early learning goals",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/early-years/early-years/children-at-expected-level-for-early-learning-goals.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/early-years/early-years/children-at-expected-level-for-early-learning-goals.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/early-years/early-years/children-at-expected-level-for-early-learning-goals.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/early-years/early-years/children-at-expected-level-for-early-learning-goals.csv-metadata.json"
         }
     ],
     "@reverse": {

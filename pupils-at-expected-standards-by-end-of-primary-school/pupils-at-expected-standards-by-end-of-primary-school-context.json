@@ -5,17 +5,17 @@
     "title": "Pupils meeting the expected standard in reading, writing and maths at the end of key stage 2",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
             "title": "Pupils meeting the expected standard in reading, writing and maths at the end of key stage 2",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
             "title": "Pupils meeting the expected standard in reading, writing and maths at the end of key stage 2",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv-metadata.json"
         }
     ],
     "@reverse": {

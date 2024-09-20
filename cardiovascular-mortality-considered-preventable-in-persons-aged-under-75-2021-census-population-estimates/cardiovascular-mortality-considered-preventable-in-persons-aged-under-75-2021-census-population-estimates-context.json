@@ -5,17 +5,17 @@
     "title": "Preventable circulatory mortality (England)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
             "title": "Preventable circulatory mortality (England)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/preventable-cardiovascular-mortality-2021-population.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/preventable-cardiovascular-mortality-2021-population.csv",
             "title": "Preventable circulatory mortality (England)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/preventable-cardiovascular-mortality-2021-population.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/preventable-cardiovascular-mortality-2021-population.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/preventable-cardiovascular-mortality-2021-population.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/preventable-cardiovascular-mortality-2021-population.csv-metadata.json"
         }
     ],
     "@reverse": {

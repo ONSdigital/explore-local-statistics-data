@@ -5,17 +5,17 @@
     "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
             "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
             "title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv-metadata.json"
         }
     ],
     "@reverse": {

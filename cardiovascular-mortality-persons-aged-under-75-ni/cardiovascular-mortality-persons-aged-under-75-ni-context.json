@@ -5,17 +5,17 @@
     "title": "Preventable circulatory mortality (Northern Ireland)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
             "title": "Preventable circulatory mortality (Northern Ireland)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv",
             "title": "Preventable circulatory mortality (Northern Ireland)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni/preventable-cardiovascular-mortality-northern-ireland.csv-metadata.json"
         }
     ],
     "@reverse": {

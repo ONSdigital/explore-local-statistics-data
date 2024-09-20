@@ -5,17 +5,17 @@
     "title": "Total value of UK exports",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv",
             "title": "Total value of UK exports",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv",
             "title": "Total value of UK exports",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/total-value-of-uk-exports/total-value-of-uk-exports/total-value-of-uk-exports.csv-metadata.json"
         }
     ],
     "@reverse": {

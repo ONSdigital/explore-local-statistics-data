@@ -5,17 +5,17 @@
     "title": "Business expenditure on research and development",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
             "title": "Business expenditure on research and development",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
             "title": "Business expenditure on research and development",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv-metadata.json"
         }
     ],
     "@reverse": {

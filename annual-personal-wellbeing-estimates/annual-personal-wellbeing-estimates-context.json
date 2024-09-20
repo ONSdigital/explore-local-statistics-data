@@ -5,17 +5,17 @@
     "title": "Annual personal wellbeing estimates",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
             "title": "Annual personal wellbeing estimates",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
             "title": "Annual personal wellbeing estimates",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "Apprenticeships starts and achievements (Scotland)",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/apprenticeships-scotland/apprenticeships-scotland.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/apprenticeships-scotland/apprenticeships-scotland.csv",
             "title": "Apprenticeships starts and achievements (Scotland)",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/apprenticeships-scotland/apprenticeships-scotland.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/apprenticeships-scotland/apprenticeships-scotland.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/apprenticeships-scotland/apprenticeships-scotland/apprenticeships-starts-and-achievements-scotland.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/apprenticeships-scotland/apprenticeships-scotland/apprenticeships-starts-and-achievements-scotland.csv",
             "title": "Apprenticeships starts and achievements (Scotland)",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/apprenticeships-scotland/apprenticeships-scotland/apprenticeships-starts-and-achievements-scotland.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/apprenticeships-scotland/apprenticeships-scotland/apprenticeships-starts-and-achievements-scotland.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/apprenticeships-scotland/apprenticeships-scotland/apprenticeships-starts-and-achievements-scotland.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/apprenticeships-scotland/apprenticeships-scotland/apprenticeships-starts-and-achievements-scotland.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "Scotland data zones gross value added (GVA) estimates",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones.csv",
             "title": "Scotland data zones gross value added (GVA) estimates",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones/2011-scottish-data-zones.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones/2011-scottish-data-zones.csv",
             "title": "Scotland data zones gross value added (GVA) estimates",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones/2011-scottish-data-zones.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones/2011-scottish-data-zones.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones/2011-scottish-data-zones.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/uk-small-area-gross-value-added-estimates/2011-scottish-data-zones/2011-scottish-data-zones.csv-metadata.json"
         }
     ],
     "@reverse": {

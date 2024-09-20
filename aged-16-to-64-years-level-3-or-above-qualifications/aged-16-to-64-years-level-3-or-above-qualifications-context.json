@@ -5,17 +5,17 @@
     "title": "Aged 16 to 64 years level 3 or above qualifications",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
             "title": "Aged 16 to 64 years level 3 or above qualifications",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
             "title": "Aged 16 to 64 years level 3 or above qualifications",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv-metadata.json"
         }
     ],
     "@reverse": {

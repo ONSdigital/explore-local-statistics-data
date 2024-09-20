@@ -5,17 +5,17 @@
     "title": "Aged 19 years and over further education and skills participation",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
             "title": "Aged 19 years and over further education and skills participation",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
             "title": "Aged 19 years and over further education and skills participation",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv-metadata.json"
         }
     ],
     "@reverse": {

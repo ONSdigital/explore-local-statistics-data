@@ -5,17 +5,17 @@
     "title": "Modelled unemployment rate",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment.csv",
             "title": "Modelled unemployment rate",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment/modelled-unemployment-rate.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment/modelled-unemployment-rate.csv",
             "title": "Modelled unemployment rate",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment/modelled-unemployment-rate.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment/modelled-unemployment-rate.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment/modelled-unemployment-rate.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment/modelled-unemployment-rate.csv-metadata.json"
         }
     ],
     "@reverse": {

@@ -5,17 +5,17 @@
     "title": "No qualifications",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
             "title": "No qualifications",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv",
             "title": "No qualifications",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain/no-qualifications-great-britain.csv-metadata.json"
         }
     ],
     "@reverse": {

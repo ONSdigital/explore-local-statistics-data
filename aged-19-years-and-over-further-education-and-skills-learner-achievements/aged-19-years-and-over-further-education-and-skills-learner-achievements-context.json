@@ -5,17 +5,17 @@
     "title": "Aged 19 years and over further education and skills learner achievements",
     "dcat:distribution": [
         {
-            "@id": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
             "title": "Aged 19 years and over further education and skills learner achievements",
-            "download_url": "https://github.com/GSS-Cogs/family-ess/blob/main/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
             "media_type": "text/csv"
         },
         {
-            "@id": "https://gss-cogs.github.io/family-ess/out/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
             "title": "Aged 19 years and over further education and skills learner achievements",
-            "download_url": "https://gss-cogs.github.io/family-ess/out/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
             "media_type": "application/csvm+json",
-            "described_by": "https://gss-cogs.github.io/family-ess/out/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv-metadata.json"
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv-metadata.json"
         }
     ],
     "@reverse": {
