@@ -20,7 +20,7 @@
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2019-Q4",
+            "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2023-Q1",
             "@type": "ons:Edition",
             "title": "4G coverage",
             "abstract": "Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, as of January 2024.",
