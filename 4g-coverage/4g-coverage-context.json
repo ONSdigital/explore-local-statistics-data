@@ -1,6 +1,6 @@
 {
     "@context": "json-ld-context/test_context.json",
-    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2023-Q1/versions/2",
+    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2023-Q1/versions/3",
     "@type": "ons:Version",
     "title": "4G coverage",
     "dcat:distribution": [
@@ -29,7 +29,7 @@
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
             "creator": "https://www.gov.uk/government/organisations/ofcom",
             "issued": "2023-03-31T12:10:26.937229",
-            "modified": "2024-05-09T10:50",
+            "modified": "2024-09-23T19:30",
             "wrds:caveat": "",
             "keyword": [
                 "broadband-mobile-coverage",

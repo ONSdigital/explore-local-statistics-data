@@ -1,6 +1,6 @@
 {
     "@context": "json-ld-context/test_context.json",
-    "@id": "https://ons.gov.uk/datasets/5g-coverage/editions/2024-Q2/versions/1",
+    "@id": "https://ons.gov.uk/datasets/5g-coverage/editions/2024-Q2/versions/2",
     "@type": "ons:Version",
     "title": "5G Coverage",
     "dcat:distribution": [
@@ -29,7 +29,7 @@
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
             "creator": "https://www.gov.uk/government/organisations/ofcom",
             "issued": "2024-06-13T13:14",
-            "modified": "2024-06-13T13:14",
+            "modified": "2024-09-20T12:00",
             "wrds:caveat": "",
             "keyword": [
                 "broadband-mobile-coverage",
