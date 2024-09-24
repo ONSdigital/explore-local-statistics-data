@@ -12,7 +12,7 @@
         "subnational",
         "local-authority",
         "county",
-        "combined-authority"
+        "combined-authority",
         "region"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
