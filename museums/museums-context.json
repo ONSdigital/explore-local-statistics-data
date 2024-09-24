@@ -1,0 +1,151 @@
+{
+    "@context": "json-ld-context/test_context.json",
+    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3/versions/2",
+    "@type": "ons:Version",
+    "title": "Museums",
+    "dcat:distribution": [
+        {
+            "@id": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/museums/museums.csv",
+            "title": "Museums",
+            "download_url": "https://github.com/ONSdigital/explore-local-statistics-data/blob/main/museums/museums.csv",
+            "media_type": "text/csv"
+        },
+        {
+            "@id": "https://onsdigital.github.io/explore-local-statistics-data/out/museums/museums/museums.csv",
+            "title": "Museums",
+            "download_url": "https://onsdigital.github.io/explore-local-statistics-data/out/museums/museums/museums.csv",
+            "media_type": "application/csvm+json",
+            "described_by": "https://onsdigital.github.io/explore-local-statistics-data/out/museums/museums/museums.csv-metadata.json"
+        }
+    ],
+    "@reverse": {
+        "dcat:hasVersion": {
+            "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3",
+            "@type": "ons:Edition",
+            "title": "Museums",
+            "abstract": "Museums per 100,000 people, UK, as at 30 September 2021.",
+            "description": "This dataset shows museums per 100,000 people, in the UK, as at 30 September 2021.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nCombined Authorities,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountries (UK, GB, England and Wales) \n\n### Source\n\n - United Kingdom: [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/numberofmuseumsacrosslocalauthoritydistrictsladintheunitedkingdom \n\n\n### Source Notes and Caveats \nPer capita estimates are calculated using the usual resident population estimates from the most recent Census. These per capita estimates are not directly comparable between the different countries because of the non-consistent census dates that the population estimates were taken on. Some of this data has been aggregated and may show differences to other published figures. \n\n\n",
+            "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+            "issued": "2024-09-18T15:07",
+            "modified": "2024-09-20T16:36",
+            "wrds:caveat": "",
+            "keyword": [
+                "museums",
+                "subnational",
+                "local-authority",
+                "county",
+                "combined-authority",
+                "region"
+            ],
+            "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
+            "spatial_coverage": "K02000001",
+            "spatial_resolution": [
+                "E06",
+                "E07",
+                "E08",
+                "E09",
+                "E10",
+                "E12",
+                "E47",
+                "N09",
+                "S12",
+                "W06"
+            ],
+            "temporal_coverage": {
+                "@type": "dcterms:PeriodOfTime",
+                "start": "2021-09-30T00:00:00+00:00",
+                "end": "2021-09-30T00:00:00+00:00"
+            },
+            "temporal_resolution": [
+                "P1Y"
+            ],
+            "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/",
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "areacd",
+                        "titles": "area_code",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "areanm",
+                        "titles": "area_name",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "geography",
+                        "titles": "geography",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "variable_name",
+                        "titles": "variable_name",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "indicator",
+                        "titles": "indicator",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "mission",
+                        "titles": "mission",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "category",
+                        "titles": "category",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "period",
+                        "titles": "period",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "observation",
+                        "titles": "observation",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "measure",
+                        "titles": "measure",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "unit",
+                        "titles": "unit",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "lower_confidence_interval_95",
+                        "titles": "lower_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "upper_confidence_interval_95",
+                        "titles": "upper_confidence_interval_95",
+                        "datatype": "decimal"
+                    },
+                    {
+                        "name": "observation_status",
+                        "titles": "observation_status",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "polarity",
+                        "titles": "polarity",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "notes",
+                        "titles": "notes",
+                        "datatype": "string"
+                    }
+                ]
+            }
+        }
+    }
+}
