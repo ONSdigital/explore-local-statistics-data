@@ -1,5 +1,5 @@
 {
-    "@context": "json-ld-context/test_context.json",
+    "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
     "@id": "https://ons.gov.uk/datasets/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/editions/2023-Q3/versions/2",
     "@type": "ons:Version",
     "title": "Preventable circulatory mortality (England)",

@@ -1,5 +1,5 @@
 {
-    "@context": "json-ld-context/test_context.json",
+    "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
     "@id": "https://ons.gov.uk/datasets/2011-england-and-wales-super-output-areas-lower-layer/editions/2023-Q3/versions/2",
     "@type": "ons:Version",
     "title": "England and Wales lower layer super output areas gross value added (GVA) estimates",

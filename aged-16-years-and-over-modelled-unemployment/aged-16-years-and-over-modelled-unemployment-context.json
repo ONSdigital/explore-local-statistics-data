@@ -1,5 +1,5 @@
 {
-    "@context": "json-ld-context/test_context.json",
+    "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
     "@id": "https://ons.gov.uk/datasets/aged-16-years-and-over-modelled-unemployment/editions/2024-Q2/versions/1",
     "@type": "ons:Version",
     "title": "Modelled unemployment rate",

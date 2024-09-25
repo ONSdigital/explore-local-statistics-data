@@ -1,5 +1,5 @@
 {
-    "@context": "json-ld-context/test_context.json",
+    "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
     "@id": "https://ons.gov.uk/datasets/aged-16-to-64-years-level3-or-above-qualifications-ni/editions/2023-Q2/versions/2",
     "@type": "ons:Version",
     "title": "Aged 16 to 64 years level 3 or above qualifications, Northern Ireland",

@@ -1,5 +1,5 @@
 {
-    "@context": "json-ld-context/test_context.json",
+    "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
     "@id": "https://ons.gov.uk/datasets/population-under-devolution-deal-in-england/editions/2023-Q1/versions/2",
     "@type": "ons:Version",
     "title": "Population under devolution deal in England",
