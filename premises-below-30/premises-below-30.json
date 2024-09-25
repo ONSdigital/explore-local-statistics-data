@@ -16,7 +16,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2024-09-25T11:35:00",
-    "dataset_modified": "2024-09-25T11:35:00",
+    "dataset_modified": "2024-09-25T16:41:00",
     "themes": "https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry",
     "columns": {
         "Period": {
@@ -49,7 +49,7 @@
                 "from_existing": "http://qudt.org/vocab/unit/PERCENT"
             },
             "measure": {
-                "label": "Premises that do not have access to services above 30Mbit/s",
+                "label": "Premises that do not have access to services above 30Mbps",
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#portion"
             }
         },
