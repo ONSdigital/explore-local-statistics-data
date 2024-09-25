@@ -57,8 +57,8 @@
                     {
                         "titles": "Observation",
                         "name": "observation",
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
-                        "propertyUrl": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
+                        "propertyUrl": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps",
                         "datatype": "decimal",
                         "required": false
                     },
@@ -75,7 +75,7 @@
                     {
                         "titles": "Lower Confidence Interval (95%)",
                         "name": "lower_confidence_interval_95",
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#attribute/lower-confidence-interval",
                         "datatype": "decimal",
                         "required": false
@@ -83,7 +83,7 @@
                     {
                         "titles": "Upper Confidence Interval (95%)",
                         "name": "upper_confidence_interval_95",
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#attribute/upper-confidence-interval",
                         "datatype": "decimal",
                         "required": false
@@ -91,7 +91,7 @@
                     {
                         "titles": "Observation Status",
                         "name": "observation_status",
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#attribute/observation-status",
                         "valueUrl": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}",
                         "required": false
@@ -122,61 +122,61 @@
                         "name": "virt_obs_observation",
                         "virtual": true,
                         "propertyUrl": "qb:observation",
-                        "valueUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s"
+                        "valueUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps"
                     },
                     {
                         "name": "virt_obs_observation_meas",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "qb:measureType",
-                        "valueUrl": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s"
+                        "valueUrl": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps"
                     },
                     {
                         "name": "virt_obs_observation_unit",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure",
                         "valueUrl": "premises-below-30mbps.csv#unit/percent"
                     },
                     {
                         "name": "virt_dim_observation_areacd",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#dimension/ons-geography-code",
                         "valueUrl": "ons-geography-code.csv#{+areacd}"
                     },
                     {
                         "name": "virt_dim_observation_areanm",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#dimension/area-name",
                         "valueUrl": "area-name.csv#{+areanm}"
                     },
                     {
                         "name": "virt_dim_observation_geography",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#dimension/geography-type",
                         "valueUrl": "geography-type.csv#{+geography}"
                     },
                     {
                         "name": "virt_dim_observation_period",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "premises-below-30mbps.csv#dimension/month",
                         "valueUrl": "month.csv#{+period}"
                     },
                     {
                         "name": "virt_obs_observation_type",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "rdf:type",
                         "valueUrl": "qb:Observation"
                     },
                     {
                         "name": "virt_dataSet_observation",
                         "virtual": true,
-                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbit/s",
+                        "aboutUrl": "premises-below-30mbps.csv#obs/{areacd},{areanm},{geography},{period}@premises-that-do-not-have-access-to-services-above-30mbps",
                         "propertyUrl": "qb:dataSet",
                         "valueUrl": "premises-below-30mbps.csv#qbDataSet"
                     }
@@ -243,68 +243,148 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "premises-below-30mbps.csv#component/upper-confidence-interval",
+            "@id": "premises-below-30mbps.csv#class/ons-geography-code",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DataStructureDefinition"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
+            "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval"
+                    "@id": "premises-below-30mbps.csv#component/measure-type"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/premises-that-do-not-have-access-to-services-above-30mbps"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/unit"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/geography-type"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/month"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/observation-status"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/lower-confidence-interval"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/area-name"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#component/ons-geography-code"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
+                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/area-name"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/month"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
                     "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#sliceKey": [
                 {
-                    "@value": false
+                    "@id": "premises-below-30mbps.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#component/premises-that-do-not-have-access-to-services-above-30mbps",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps"
+                }
+            ],
+            "http://purl.org/linked-data/cube#measure": [
+                {
+                    "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 9
+                    "@value": 7
                 }
             ]
         },
         {
-            "@id": "premises-below-30mbps.csv#attribute/observation-status",
+            "@id": "premises-below-30mbps.csv#component/unit",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@language": "en",
-                    "@value": "Observation Status"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 6
+                }
             ]
         },
         {
             "@id": "premises-below-30mbps.csv#dimension/geography-type",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -324,159 +404,39 @@
             ]
         },
         {
-            "@id": "premises-below-30mbps.csv#slice/cross-measures",
+            "@id": "premises-below-30mbps.csv#dimension/area-name",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/month"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/area-name"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#class/month",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/month",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/month"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/month"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Area Name"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "premises-below-30mbps.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "premises-below-30mbps.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 10
+                    "@id": "premises-below-30mbps.csv#class/area-name"
                 }
             ]
         },
         {
             "@id": "premises-below-30mbps.csv#dimension/month",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -501,41 +461,158 @@
             ]
         },
         {
-            "@id": "premises-below-30mbps.csv#component/lower-confidence-interval",
+            "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval"
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval"
                 }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#class/month",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#component/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval"
+                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@value": false
+                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 8
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Premises that do not have access to services above 30Mbps"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#attribute/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#component/measure-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 5
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
             ]
         },
         {
             "@id": "premises-below-30mbps.csv#dimension/ons-geography-code",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -560,36 +637,144 @@
             ]
         },
         {
-            "@id": "premises-below-30mbps.csv#component/area-name",
+            "@id": "premises-below-30mbps.csv#component/geography-type",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "premises-below-30mbps.csv#dimension/area-name"
+                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "premises-below-30mbps.csv#dimension/area-name"
+                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 2
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#component/month",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/month"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/month"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#component/observation-status",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "premises-below-30mbps.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "premises-below-30mbps.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#slice/cross-measures",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/month"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/area-name"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
+                }
+            ]
+        },
+        {
+            "@id": "premises-below-30mbps.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 9
                 }
             ]
         },
         {
             "@id": "premises-below-30mbps.csv#qbDataSet",
             "@type": [
+                "http://purl.org/linked-data/cube#Attachable",
+                "http://purl.org/linked-data/cube#DataSet",
                 "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Distribution",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://purl.org/linked-data/cube#DataSet"
+                "http://www.w3.org/ns/dcat#Distribution"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -636,246 +821,61 @@
             ]
         },
         {
-            "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval",
+            "@id": "premises-below-30mbps.csv#component/area-name",
             "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
+                    "@id": "premises-below-30mbps.csv#dimension/area-name"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "premises-below-30mbps.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@value": 2
                 }
             ]
         },
         {
-            "@id": "premises-below-30mbps.csv#structure",
+            "@id": "premises-below-30mbps.csv#component/lower-confidence-interval",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://purl.org/linked-data/cube#ComponentSpecification"
             ],
-            "http://purl.org/linked-data/cube#component": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "premises-below-30mbps.csv#component/month"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/unit"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/observation-status"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/premises-that-do-not-have-access-to-services-above-30mbit/s"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/geography-type"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/upper-confidence-interval"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/measure-type"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/area-name"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#component/ons-geography-code"
+                    "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
                     "@id": "premises-below-30mbps.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/month"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/area-name"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "premises-below-30mbps.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/premises-that-do-not-have-access-to-services-above-30mbit/s",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s"
-                }
-            ],
-            "http://purl.org/linked-data/cube#measure": [
-                {
-                    "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 7
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s",
-            "@type": [
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Premises that do not have access to services above 30Mbit/s"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#portion"
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#dimension/area-name",
-            "@type": [
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Area Name"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "premises-below-30mbps.csv#class/area-name"
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#class/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@value": true
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "premises-below-30mbps.csv#component/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "premises-below-30mbps.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@value": 3
+                    "@value": 8
                 }
             ]
         },
         {
             "@id": "premises-below-30mbps.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
@@ -908,7 +908,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-09-25T11:35:00"
+                    "@value": "2024-09-25T16:41:00"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -942,19 +942,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "connectivity"
+                },
+                {
+                    "@language": "en",
                     "@value": "subnational"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "combined-authority"
                 },
                 {
                     "@language": "en",
@@ -962,11 +954,19 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "connectivity"
+                    "@value": "combined-authority"
                 },
                 {
                     "@language": "en",
                     "@value": "broadband-mobile-coverage"
+                },
+                {
+                    "@language": "en",
+                    "@value": "local-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -990,8 +990,8 @@
         {
             "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.5.1",
             "@type": [
-                "http://www.w3.org/ns/prov#Entity",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/prov#Entity"
             ],
             "http://purl.org/dc/terms/title": [
                 {
@@ -1008,8 +1008,8 @@
         {
             "@id": "premises-below-30mbps.csv#dependency/ons-geography-code",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1025,8 +1025,8 @@
         {
             "@id": "premises-below-30mbps.csv#dependency/area-name",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1042,8 +1042,8 @@
         {
             "@id": "premises-below-30mbps.csv#dependency/geography-type",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1059,8 +1059,8 @@
         {
             "@id": "premises-below-30mbps.csv#dependency/month",
             "@type": [
-                "http://rdfs.org/ns/void#Dataset",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://rdfs.org/ns/void#Dataset"
             ],
             "http://rdfs.org/ns/void#dataDump": [
                 {
@@ -1076,9 +1076,9 @@
         {
             "@id": "premises-below-30mbps.csv#unit/percent",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {

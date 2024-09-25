@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Geography Type
           - Label: Geography Type
-          - Issued: 2024-09-25T15:02:45.185440
-          - Modified: 2024-09-25T15:02:45.185440
+          - Issued: 2024-09-25T16:16:43.638179
+          - Modified: 2024-09-25T16:16:43.638179
           - License: None
           - Creator: None
           - Publisher: None

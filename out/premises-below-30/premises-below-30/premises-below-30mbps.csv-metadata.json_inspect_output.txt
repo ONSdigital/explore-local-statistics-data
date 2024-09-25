@@ -6,7 +6,7 @@
           - Title: Premises below 30Mbps
           - Label: Premises below 30Mbps
           - Issued: 2024-09-25T11:35:00
-          - Modified: 2024-09-25T11:35:00
+          - Modified: 2024-09-25T16:41:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- subnational
-		-- county
-		-- combined-authority
 		-- region
-		-- broadband-mobile-coverage
+		-- county
 		-- local-authority
 		-- connectivity
+		-- broadband-mobile-coverage
+		-- subnational
+		-- combined-authority
           - Contact Point: None
           - Identifier: Premises below 30Mbps
           - Comment: Percentage of premises that do not have access to services above 30Mbps, UK, as of January 2024.
@@ -54,23 +54,23 @@
  - The data cube has the following column component information: 
     - Dataset Label: Premises below 30Mbps
     - Columns: 
-                              Title         Type  Required                                                                                  Property URL Observations Column Titles
-                             AREACD    Dimension      True                                        premises-below-30mbps.csv#dimension/ons-geography-code                Observation
-                             AREANM    Dimension      True                                                 premises-below-30mbps.csv#dimension/area-name                Observation
-                          Geography    Dimension      True                                            premises-below-30mbps.csv#dimension/geography-type                Observation
-                      Variable Name   Suppressed     False                                                                                          None                           
-                          Indicator   Suppressed     False                                                                                          None                           
-                            Mission   Suppressed     False                                                                                          None                           
-                           Category   Suppressed     False                                                                                          None                           
-                             Period    Dimension      True                                                     premises-below-30mbps.csv#dimension/month                Observation
-                        Observation Observations     False premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbit/s                Observation
-                            Measure   Suppressed     False                                                                                          None                           
-                               Unit   Suppressed     False                                                                                          None                           
-    Lower Confidence Interval (95%)    Attribute     False                                 premises-below-30mbps.csv#attribute/lower-confidence-interval                Observation
-    Upper Confidence Interval (95%)    Attribute     False                                 premises-below-30mbps.csv#attribute/upper-confidence-interval                Observation
-                 Observation Status    Attribute     False                                        premises-below-30mbps.csv#attribute/observation-status                Observation
-                           Polarity   Suppressed     False                                                                                          None                           
-                              Notes   Suppressed     False                                                                                          None                           
+                              Title         Type  Required                                                                                Property URL Observations Column Titles
+                             AREACD    Dimension      True                                      premises-below-30mbps.csv#dimension/ons-geography-code                Observation
+                             AREANM    Dimension      True                                               premises-below-30mbps.csv#dimension/area-name                Observation
+                          Geography    Dimension      True                                          premises-below-30mbps.csv#dimension/geography-type                Observation
+                      Variable Name   Suppressed     False                                                                                        None                           
+                          Indicator   Suppressed     False                                                                                        None                           
+                            Mission   Suppressed     False                                                                                        None                           
+                           Category   Suppressed     False                                                                                        None                           
+                             Period    Dimension      True                                                   premises-below-30mbps.csv#dimension/month                Observation
+                        Observation Observations     False premises-below-30mbps.csv#measure/premises-that-do-not-have-access-to-services-above-30mbps                Observation
+                            Measure   Suppressed     False                                                                                        None                           
+                               Unit   Suppressed     False                                                                                        None                           
+    Lower Confidence Interval (95%)    Attribute     False                               premises-below-30mbps.csv#attribute/lower-confidence-interval                Observation
+    Upper Confidence Interval (95%)    Attribute     False                               premises-below-30mbps.csv#attribute/upper-confidence-interval                Observation
+                 Observation Status    Attribute     False                                      premises-below-30mbps.csv#attribute/observation-status                Observation
+                           Polarity   Suppressed     False                                                                                        None                           
+                              Notes   Suppressed     False                                                                                        None                           
     - Columns where suppress output is true: 
     		-- Variable Name
     		-- Indicator
@@ -121,6 +121,6 @@ n09000011                 ards-and-north-down local-authority-district Premises 
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
-                                                    Measure    Unit  Count
-Premises that do not have access to services above 30Mbit/s Percent    426
+                                                  Measure    Unit  Count
+Premises that do not have access to services above 30Mbps Percent    426
         
