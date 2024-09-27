@@ -15,12 +15,12 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2024-09-23T15:31",
-    "dataset_modified": "2024-09-23T15:31",
+    "dataset_modified": "2024-09-27T17:35",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing",
     "columns": {
         "Period": {
             "type": "dimension",
-            "from_template": "gregorian-interval"
+            "from_template": "gregorian-instant"
         },
         "AREACD": {
             "type": "dimension",
