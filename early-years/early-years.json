@@ -51,7 +51,7 @@
             "type": "measures",
             "values": [
                 {
-                    "label": "Communication and Language",
+                    "label": "Communication and language",
                     "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
                 },
                 {
