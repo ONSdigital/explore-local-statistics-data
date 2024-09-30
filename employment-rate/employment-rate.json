@@ -109,7 +109,7 @@
         "longDescription": "This indicator shows the proportion of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from (official statistics in development), in Great Britain (Northern Ireland national figure included), for periods 2004 to 2023.",
         "caveats": "Calculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive."
         },
-  
+ 
       "Economic Inactivity Rate": {
         "label": "Economic inactivity rate (Great Britain)",
         "subtitle": "Percentage of people aged 16 to 64 who are not in employment and are not actively seeking work",
