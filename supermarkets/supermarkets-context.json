@@ -1,6 +1,6 @@
 {
     "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
-    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3/versions/1",
+    "@id": "https://ons.gov.uk/datasets/supermarkets/editions/2024-Q3/versions/1",
     "@type": "ons:Version",
     "title": "Supermarkets",
     "dcat:distribution": [
@@ -20,7 +20,7 @@
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3",
+            "@id": "https://ons.gov.uk/datasets/supermarkets/editions/2024-Q3",
             "@type": "ons:Edition",
             "title": "Supermarkets",
             "abstract": "Supermarkets per 10,000 people, UK, as at August 2023.",

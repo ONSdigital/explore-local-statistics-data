@@ -1,6 +1,6 @@
 {
     "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
-    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3/versions/2",
+    "@id": "https://ons.gov.uk/datasets/museums/editions/2024-Q3/versions/2",
     "@type": "ons:Version",
     "title": "Museums",
     "dcat:distribution": [
@@ -20,7 +20,7 @@
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3",
+            "@id": "https://ons.gov.uk/datasets/museums/editions/2024-Q3",
             "@type": "ons:Edition",
             "title": "Museums",
             "abstract": "Museums per 100,000 people, UK, as at 30 September 2021.",

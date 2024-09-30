@@ -1,6 +1,6 @@
 {
     "@context": "https://github.com/ONSdigital/application-profile/blob/draft/ons_context_v0.1.json",
-    "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3/versions/1",
+    "@id": "https://ons.gov.uk/datasets/sports-facilities/editions/2024-Q3/versions/1",
     "@type": "ons:Version",
     "title": "Sports facilities",
     "dcat:distribution": [
@@ -20,7 +20,7 @@
     ],
     "@reverse": {
         "dcat:hasVersion": {
-            "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/2024-Q3",
+            "@id": "https://ons.gov.uk/datasets/sports-facilities/editions/2024-Q3",
             "@type": "ons:Edition",
             "title": "Sports facilities",
             "abstract": "Sports facilities per 10,000 people, England, as at 5 October 2023",
