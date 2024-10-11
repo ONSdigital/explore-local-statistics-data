@@ -39,16 +39,16 @@
             ],
             "theme": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade",
             "spatial_coverage": [
-                "E92000001",
-                "N92000002",
-                "S92000003",
-                "W92000004"
+                "K02000001"
             ],
             "spatial_resolution": [
                 "E06",
                 "E07",
                 "E08",
                 "E09",
+                "E10",
+                "E12",
+                "E47",
                 "N09",
                 "S12",
                 "W06"
