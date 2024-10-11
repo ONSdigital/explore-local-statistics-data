@@ -23,7 +23,7 @@
             "@id": "https://ons.gov.uk/datasets/pupils-at-expected-standards-by-end-of-primary-school/editions/2023-Q1",
             "@type": "ons:Edition",
             "title": "Pupils meeting the expected standard in reading, writing and maths at the end of key stage 2",
-            "abstract": "Percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of key stage 2, England (state-funded schools), academic years 2015/16 - 2022/23",
+            "abstract": "Percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of key stage 2, England (state-funded schools), academic years 2015/16 - 2023/24",
             "description": "This dataset shows the percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of key stage 2, in England state-funded schools, for academic years 2015/16 - 2022/23.\n\n### Coverage \n\nEngland (state-funded schools)\n\n#### Geography definition\n\nCounties and Unitary Authorities,\nRegions,\nNation (England)\n\n### Source\n\n - England: [Department for Education](https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-2-attainment) \n\n\n### Source Notes and Caveats \n- State-funded schools' includes LA maintained schools, sponsored academies, converter academies, free schools and state-funded special schools (including hospital schools).\n- Figures for 2023 are based on revised data. Figures for other years are based on final data.\n- Data is not available for 2020 and 2021 as assessments were cancelled in these years due to the COVID-19 pandemic.\n- Writing teacher assessment and reading, writing and maths (combined) measures from 2018 onwards are not directly comparable to previous years due to changes in the writing teacher assessment frameworks. \n\n\n\n### How to read time intervals in ISO8601 format \nThis dataset uses custom time intervals format for periods, YYYY-MM-DDT00:00:00/PnI, where P tells that this is period; n is the number of intervals and I is interval type which can be Y(year), M(month), W(week), D(day). \nFor example, from April 2019 to March 2022 is represented as 2019-04-01T00:00:00/P3Y, which can be read as '3 years period starts from 1st of April 2019 and ends on 31st March 2022'. \nFor more instructions on how to read this, please visit [Time intervals on Wikipedia](https://en.wikipedia.org/wiki/ISO_8601#Time_intervals).",
             "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
             "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
@@ -56,7 +56,7 @@
             "temporal_coverage": {
                 "@type": "dcterms:PeriodOfTime",
                 "start": "2015-09-01T00:00:00+00:00",
-                "end": "2023-08-31T00:00:00+00:00"
+                "end": "2024-08-31T00:00:00+00:00"
             },
             "temporal_resolution": [
                 "P1Y"
@@ -65,83 +65,83 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "name": "areacd",
-                        "titles": "area_code",
+                        "name": "AREACD",
+                        "titles": "Area Code",
                         "datatype": "string"
                     },
                     {
-                        "name": "areanm",
-                        "titles": "area_name",
+                        "name": "AREANM",
+                        "titles": "Area Name",
                         "datatype": "string"
                     },
                     {
-                        "name": "geography",
-                        "titles": "geography",
+                        "name": "Geography",
+                        "titles": "Geography",
                         "datatype": "string"
                     },
                     {
-                        "name": "variable_name",
-                        "titles": "variable_name",
+                        "name": "Variable Name",
+                        "titles": "Variable Name",
                         "datatype": "string"
                     },
                     {
-                        "name": "indicator",
-                        "titles": "indicator",
+                        "name": "Indicator",
+                        "titles": "Indicator",
                         "datatype": "string"
                     },
                     {
-                        "name": "mission",
-                        "titles": "mission",
+                        "name": "Mission",
+                        "titles": "Mission",
                         "datatype": "string"
                     },
                     {
-                        "name": "category",
-                        "titles": "category",
+                        "name": "Category",
+                        "titles": "Category",
                         "datatype": "string"
                     },
                     {
-                        "name": "period",
-                        "titles": "period",
+                        "name": "Period",
+                        "titles": "Period",
                         "datatype": "string"
                     },
                     {
-                        "name": "observation",
-                        "titles": "observation",
+                        "name": "Observation",
+                        "titles": "Observation",
                         "datatype": "decimal"
                     },
                     {
-                        "name": "measure",
-                        "titles": "measure",
+                        "name": "Measure",
+                        "titles": "Measure",
                         "datatype": "string"
                     },
                     {
-                        "name": "unit",
-                        "titles": "unit",
+                        "name": "Unit",
+                        "titles": "Unit",
                         "datatype": "string"
                     },
                     {
-                        "name": "lower_confidence_interval_95",
-                        "titles": "lower_confidence_interval_95",
+                        "name": "Lower Confidence Interval (95%)",
+                        "titles": "Lower Confidence Interval",
                         "datatype": "decimal"
                     },
                     {
-                        "name": "upper_confidence_interval_95",
-                        "titles": "upper_confidence_interval_95",
+                        "name": "Upper Confidence Interval (95%)",
+                        "titles": "Upper Confidence Interval",
                         "datatype": "decimal"
                     },
                     {
-                        "name": "observation_status",
-                        "titles": "observation_status",
+                        "name": "Observation Status",
+                        "titles": "Observation Status",
                         "datatype": "string"
                     },
                     {
-                        "name": "polarity",
-                        "titles": "polarity",
+                        "name": "Polarity",
+                        "titles": "Polarity",
                         "datatype": "string"
                     },
                     {
-                        "name": "notes",
-                        "titles": "notes",
+                        "name": "Notes",
+                        "titles": "Notes",
                         "datatype": "string"
                     }
                 ]

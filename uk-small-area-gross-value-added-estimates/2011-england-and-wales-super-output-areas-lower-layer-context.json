@@ -58,23 +58,23 @@
             "tableSchema": {
                 "columns": [
                     {
-                        "name": "areanm",
-                        "titles": "area_name",
+                        "name": "AREANM",
+                        "titles": "Area Name",
                         "datatype": "string"
                     },
                     {
-                        "name": "areacd",
-                        "titles": "area_code",
+                        "name": "AREACD",
+                        "titles": "Area Code",
                         "datatype": "string"
                     },
                     {
-                        "name": "period",
-                        "titles": "period",
+                        "name": "Period",
+                        "titles": "Period",
                         "datatype": "string"
                     },
                     {
-                        "name": "observation",
-                        "titles": "observation",
+                        "name": "Observation",
+                        "titles": "Observation",
                         "datatype": "decimal"
                     }
                 ]

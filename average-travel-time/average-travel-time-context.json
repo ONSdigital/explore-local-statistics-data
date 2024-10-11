@@ -63,47 +63,47 @@
                 "columns": [
                     {
                         "name": "areacd",
-                        "titles": "area_code",
+                        "titles": "Area Code",
                         "datatype": "string"
                     },
                     {
                         "name": "areanm",
-                        "titles": "area_name",
+                        "titles": "Area Name",
                         "datatype": "string"
                     },
                     {
                         "name": "geography",
-                        "titles": "geography",
+                        "titles": "Geography",
                         "datatype": "string"
                     },
                     {
                         "name": "period",
-                        "titles": "period",
+                        "titles": "Period",
                         "datatype": "string"
                     },
                     {
                         "name": "observation",
-                        "titles": "observation",
+                        "titles": "Observation",
                         "datatype": "decimal"
                     },
                     {
                         "name": "lower_confidence_interval_95",
-                        "titles": "lower_confidence_interval_95",
+                        "titles": "Lower Confidence Interval",
                         "datatype": "decimal"
                     },
                     {
                         "name": "upper_confidence_interval_95",
-                        "titles": "upper_confidence_interval_95",
+                        "titles": "Upper Confidence Interval",
                         "datatype": "decimal"
                     },
                     {
                         "name": "observation_status",
-                        "titles": "observation_status",
+                        "titles": "Observation Status",
                         "datatype": "string"
                     },
                     {
                         "name": "mode-of-travel",
-                        "titles": "mode-of-travel",
+                        "titles": "Mode of Travel",
                         "datatype": "string"
                     }
                 ]

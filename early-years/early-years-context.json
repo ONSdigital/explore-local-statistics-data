@@ -63,82 +63,52 @@
                 "columns": [
                     {
                         "name": "areacd",
-                        "titles": "area_code",
+                        "titles": "Area Code",
                         "datatype": "string"
                     },
                     {
                         "name": "areanm",
-                        "titles": "area_name",
+                        "titles": "Area Name",
                         "datatype": "string"
                     },
                     {
                         "name": "geography",
-                        "titles": "geography",
+                        "titles": "Geography",
                         "datatype": "string"
                     },
                     {
                         "name": "period",
-                        "titles": "period",
+                        "titles": "Period",
                         "datatype": "string"
                     },
                     {
-                        "name": "communication_and_language",
-                        "titles": "communication_and_language",
+                        "name": "observation",
+                        "titles": "Observation",
                         "datatype": "decimal"
                     },
                     {
-                        "name": "communication_lower_confidence_interval_95",
-                        "titles": "communication_lower_confidence_interval_95",
-                        "datatype": "decimal"
-                    },
-                    {
-                        "name": "communication_upper_confidence_interval_95",
-                        "titles": "communication_upper_confidence_interval_95",
-                        "datatype": "decimal"
-                    },
-                    {
-                        "name": "communication_observation_status",
-                        "titles": "communication_observation_status",
+                        "name": "measure",
+                        "titles": "Measure",
                         "datatype": "string"
                     },
                     {
-                        "name": "literacy",
-                        "titles": "literacy",
-                        "datatype": "decimal"
-                    },
-                    {
-                        "name": "literacy_lower_confidence_interval_95",
-                        "titles": "literacy_lower_confidence_interval_95",
-                        "datatype": "decimal"
-                    },
-                    {
-                        "name": "literacy_upper_confidence_interval_95",
-                        "titles": "literacy_upper_confidence_interval_95",
-                        "datatype": "decimal"
-                    },
-                    {
-                        "name": "literacy_observation_status",
-                        "titles": "literacy_observation_status",
+                        "name": "unit",
+                        "titles": "Unit",
                         "datatype": "string"
                     },
                     {
-                        "name": "mathematics",
-                        "titles": "mathematics",
+                        "name": "lower_confidence_interval_95",
+                        "titles": "Lower Confidence Interval",
                         "datatype": "decimal"
                     },
                     {
-                        "name": "mathematics_lower_confidence_interval_95",
-                        "titles": "mathematics_lower_confidence_interval_95",
+                        "name": "upper_confidence_interval_95",
+                        "titles": "Upper Confidence Interval",
                         "datatype": "decimal"
                     },
                     {
-                        "name": "mathematics_upper_confidence_interval_95",
-                        "titles": "mathematics_upper_confidence_interval_95",
-                        "datatype": "decimal"
-                    },
-                    {
-                        "name": "mathematics_observation_status",
-                        "titles": "mathematics_observation_status",
+                        "name": "observation_status",
+                        "titles": "Observation Status",
                         "datatype": "string"
                     }
                 ]
