@@ -59,7 +59,7 @@
                 "end": "2021-09-30T00:00:00+00:00"
             },
             "temporal_resolution": [
-                "P1Y"
+                "P"
             ],
             "quality": "https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/",
             "tableSchema": {
