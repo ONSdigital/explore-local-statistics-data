@@ -48,7 +48,8 @@
             "measure":  {
                 "label": "Aged 16 to 64 years Claimant Count",
                 "from_existing": "https://purl.org/csv-cubed/resources/measures#portion-of-population"
-            },
+            }
+        },
         "Measure": false,
         "Unit": false,
         "Lower Confidence Interval (95%)": {
