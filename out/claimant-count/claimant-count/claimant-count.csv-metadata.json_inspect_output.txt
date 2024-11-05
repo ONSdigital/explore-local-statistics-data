@@ -6,20 +6,20 @@
           - Title: Claimant Count
           - Label: Claimant Count
           - Issued: 2024-10-31T13:47:00
-          - Modified: 2024-11-04T13:47:00
+          - Modified: 2024-11-05T10:45:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Landing Pages: None
           - Themes: 
-		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
+		-- https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork
           - Keywords: 
+		-- subnational
+		-- local-authority
 		-- claimant-count
 		-- county
-		-- local-authority
 		-- labour-market
 		-- region
-		-- subnational
           - Contact Point: None
           - Identifier: Claimant Count
           - Comment: Claimant Count as a percentage of residents aged 16 to 64 (official statistics in development), UK, monthly periods between 01/2001 - 09/2024.
