@@ -14,9 +14,9 @@
         "region"
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
-    "dataset_issued": "2024-10-31T13:47",
+    "dataset_issued": "2024-11-05T10:45",
     "dataset_modified": "2024-11-04T13:47",
-    "themes": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork",
+    "themes": "https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork",
     "columns": {
         "Period": {
             "type": "dimension",
