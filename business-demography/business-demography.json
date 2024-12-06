@@ -83,7 +83,7 @@
     "ess-beta-metadata": {
       "shared": {
         "prefix": null,
-        "suffix": %,
+        "suffix": "%",
         "subText": null,
         "decimalPlaces": 1,
         "experimentalStatistic": "F",
