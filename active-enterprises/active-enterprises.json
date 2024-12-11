@@ -19,26 +19,26 @@
     "dataset_modified": "2024-12-11T12:20:49.62668",
     "themes": "https://www.ons.gov.uk/businessindustryandtrade/business",
     "columns": {
-        "period": {
+        "Period": {
             "type": "dimension",
             "from_template": "year"
         },
-        "areacd": {
+        "AREACD": {
             "type": "dimension",
             "from_template": "statistical-geography",
             "label": "ONS Geography Code",
             "code_list": true
         },
-        "areanm": {
+        "AREANM": {
             "type": "dimension",
             "label": "Area Name"
         },
-        "geography": {
+        "Geography": {
             "type": "dimension",
             "label": "Geography Type"
         },
         
-        "observation": {
+        "Observation": {
             "type": "observations",
             "data_type": "integer",
             "unit": {
@@ -50,28 +50,28 @@
                         "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
                     }
             },
-        "indicator": {
+        "Indicator": {
             "type": "dimension",
             "label": "Indicator"
         },
 
-        "unit": false,
-        "measure":false,
-        "lower_confidence_interval_95": {
+        "Unit": false,
+        "Measure":false,
+        "Lower Confidence Interval (95%)": {
             "label": "Lower Confidence Interval (95%)",
             "type": "attribute",
             "data_type": "integer",
             "describes_observations": "observation",
             "required": false
         },
-        "upper_confidence_interval_95": {
+        "Upper Confidence Interval (95%)": {
             "label": "Upper Confidence Interval (95%)",
             "type": "attribute",
             "data_type": "integer",
             "describes_observations": "observation",
             "required": false
         },
-        "observation_status": {
+        "Observation Status": {
             "type": "attribute",
             "label": "Observation Status",
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
