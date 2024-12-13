@@ -1,5 +1,5 @@
 {
-    "$schema": "https://purl.org/csv-cubed/qube-config/v1.0",    
+    "$schema": "https://purl.org/csv-cubed/qube-config/v1",    
     "title": "Active businesses",
     "creator": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "summary": "Count of active businesses, UK, 2018 to 2023.",
@@ -61,14 +61,14 @@
             "label": "Lower Confidence Interval (95%)",
             "type": "attribute",
             "data_type": "integer",
-            "describes_observations": "observation",
+            "describes_observations": "Observation",
             "required": false
         },
         "Upper Confidence Interval (95%)": {
             "label": "Upper Confidence Interval (95%)",
             "type": "attribute",
             "data_type": "integer",
-            "describes_observations": "observation",
+            "describes_observations": "Observation",
             "required": false
         },
         "Observation Status": {
@@ -77,7 +77,7 @@
             "from_existing": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus",
             "cell_uri_template": "https://purl.org/csv-cubed/resources/attributes/af-obs-marker#{+observation_status}"
         },
-        "Polarity": 1,
+        "Polarity": false,
         "Notes": false
     },
     
