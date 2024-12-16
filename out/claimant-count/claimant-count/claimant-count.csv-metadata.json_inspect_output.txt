@@ -6,7 +6,7 @@
           - Title: Claimant Count
           - Label: Claimant Count
           - Issued: 2024-10-31T13:47:00
-          - Modified: 2024-11-15T15:47:00
+          - Modified: 2024-12-16T08:16:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork
           - Keywords: 
-		-- county
+		-- local-authority
 		-- region
 		-- claimant-count
+		-- county
 		-- labour-market
-		-- local-authority
 		-- subnational
           - Contact Point: None
           - Identifier: Claimant Count
