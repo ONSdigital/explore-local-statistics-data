@@ -50,6 +50,7 @@
                         "from_existing": "https://purl.org/csv-cubed/resources/measures#count-of-companies"
                     }
             },
+
         "Indicator": false,
         "Variable Name": false,
         "Unit": false,
