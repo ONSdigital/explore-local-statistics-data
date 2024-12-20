@@ -6,7 +6,7 @@
           - Title: 4G coverage
           - Label: 4G coverage
           - Issued: 2023-03-31T12:10:26.937229
-          - Modified: 2024-12-17T19:27:00
+          - Modified: 2024-12-19T13:27:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- county
-		-- region
 		-- combined-authority
-		-- connectivity
 		-- broadband-mobile-coverage
 		-- local-authority
+		-- region
+		-- county
+		-- connectivity
 		-- subnational
           - Contact Point: None
           - Identifier: 4G coverage
