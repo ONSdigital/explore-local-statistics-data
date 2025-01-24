@@ -16,12 +16,12 @@
           - Keywords: 
 		-- county
 		-- region
-		-- reading
-		-- maths
-		-- state-funded-school
 		-- writing
+		-- state-funded-school
+		-- maths
 		-- subnational
 		-- key-stage-2-attainment
+		-- reading
           - Contact Point: None
           - Identifier: Pupils meeting the expected standard in reading, writing and maths at the end of Key Stage 2
           - Comment: Percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of key stage 2, England (state-funded schools), academic years 2018/19 - 2023/24
