@@ -16,7 +16,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
     "dataset_issued": "2025-02-11T11:35",
-    "dataset_modified": "2025-02-11T11:35",
+    "dataset_modified": "2025-02-12T11:31",
     "themes": "https://www.ons.gov.uk/economy/environmentalaccounts",
     "columns": {
         "Period": {
@@ -50,7 +50,7 @@
             },
             "measure": {
                 "label": "Per capita emissions (tCO2e)",
-                "from_existing": "https://purl.org/csv-cubed/resources/measures#count"
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#per-capita-emissions"
             }
         },
         "Measure": false,
