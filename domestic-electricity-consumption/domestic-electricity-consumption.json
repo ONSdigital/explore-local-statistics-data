@@ -13,8 +13,8 @@
         "subnational"
     ],
     "publisher": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
-    "dataset_issued": "2025-02-11T10:27",
-    "dataset_modified": "2025-02-11T10:27",
+    "dataset_issued": "2025-02-12T13:47",
+    "dataset_modified": "2025-02-12T13:47",
     "themes": "https://www.ons.gov.uk/economy/environmentalaccounts",
     "columns": {
         "Period": {
@@ -46,7 +46,7 @@
             },
             "measure": {
                 "label": "Median domestic electricity consumption",
-                "from_existing": "https://purl.org/csv-cubed/resources/measures#monetary-count"
+                "from_existing": "https://purl.org/csv-cubed/resources/measures#consumption-per-meter-point"
             }
         },
         "Measure": false,
