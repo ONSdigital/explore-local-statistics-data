@@ -7,7 +7,11 @@
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
     "keywords": [
         "emissions",
+<<<<<<< HEAD
+        "carbon-dioxide",
+=======
         "carbon-dioxide"
+>>>>>>> main
         "subnational",
         "local-authority",
         "county",
@@ -16,7 +20,11 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero",
     "dataset_issued": "2025-02-11T11:35",
+<<<<<<< HEAD
+    "dataset_modified": "2025-02-15T10:31",
+=======
     "dataset_modified": "2025-02-12T11:31",
+>>>>>>> main
     "themes": "https://www.ons.gov.uk/economy/environmentalaccounts",
     "columns": {
         "Period": {
