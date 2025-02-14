@@ -46,7 +46,7 @@
             "data_type": "decimal",
             "unit": {
                 "label": "Tonnes of CO2 equivalent",
-                "from_existing": "http://qudt.org/vocab/unit/TONNE",
+                "from_existing": "http://qudt.org/vocab/unit/TONNE"
             },
             "measure": {
                 "label": "Per capita emissions (tCO2e)",
