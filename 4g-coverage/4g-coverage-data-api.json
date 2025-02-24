@@ -12,10 +12,10 @@
     "dcterms:identifier": "4G coverage",
     "dcterms:title": "4G coverage",
     "dcterms:description": "This dataset shows the percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), in the UK, as of September 2024.\n\n### Coverage \n\nUK\n\n#### Geography definition\n\nLocal Authority Districts and Unitary Authorities,\nCounties,\nCombined Authorities,\nRegions,\nNations (England, Wales, Scotland, Northern Ireland),\nCountries (UK, GB, England and Wales)\n\n### Source\n\n - United Kingdom: [Ofcom](https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-2024/)\n\n\n### Source Notes and Caveats \nSome of this data has been aggregated and may show differences to other published figures. \n\n\n",
-    "last_updated":"",
+    "last_updated": "",
     "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-    "next_release":"",
-    "keyword":[
+    "next_release": "",
+    "keyword": [
         "broadband-mobile-coverage",
         "connectivity",
         "local-authority",
@@ -46,6 +46,8 @@
             "@id": "https://ons.gov.uk/datasets/4g-coverage/editions/",
             "@type": "dcat:Dataset",
             "dcterms:identifier": "4G coverage",
+            "release_date": "",
+            "last_updated":"",
             "TBC:usage_notes": [
                 {
                     "TBC:title": "usage_notes.title_string",
