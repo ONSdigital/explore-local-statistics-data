@@ -37,6 +37,7 @@
         },
         "Variable Name": false,
         "Indicator": false,
+        "Category": false,
         "Observation": {
             "type": "observations",
             "data_type": "decimal",
