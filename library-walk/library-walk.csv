@@ -1,4 +1,4 @@
-﻿AREACD,AREANM,Geography,Variable Name,Indicator,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes,
+﻿AREACD,AREANM,Geography,Variable Name,Indicator,Period,Observation,Measure,Unit,Lower Confidence Interval (95%),Upper Confidence Interval (95%),Observation Status,Polarity,Notes
 K04000001,England and Wales,Country,Percentage of resident population within a 30 minute walk of their nearest library,Residents within a 30 minute walk of their nearest library,2024-05,78,Percentage,%,,,,1,
 E92000001,England,Nation,Percentage of resident population within a 30 minute walk of their nearest library,Residents within a 30 minute walk of their nearest library,2024-05,78,Percentage,%,,,,1,
 E12000001,North East,Region,Percentage of resident population within a 30 minute walk of their nearest library,Residents within a 30 minute walk of their nearest library,2024-05,79,Percentage,%,,,,1,
