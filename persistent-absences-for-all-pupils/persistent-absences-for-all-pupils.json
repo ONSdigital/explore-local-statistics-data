@@ -14,7 +14,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2023-03-31T12:14:18.517953",
-    "dataset_modified": "2025-03-31T15:20",
+    "dataset_modified": "2025-04-03T15:15",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare",
     "columns": {
         "Period": {
@@ -37,8 +37,6 @@
         },
         "Variable Name": false,
         "Indicator": false,
-        "Mission": false,
-        "Category": false,
         "Observation": {
             "type": "observations",
             "data_type": "decimal",
