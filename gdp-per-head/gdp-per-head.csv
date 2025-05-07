@@ -9121,7 +9121,7 @@ N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic produc
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,26452,£,Pounds,2020,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,28255,£,Pounds,2021,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,29653,£,Pounds,2022,,,
-N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,21564,£,Pounds,2012,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,14335,£,Pounds,1998,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head at current market price,20373,£,Pounds,2010,,,
@@ -9146,7 +9146,7 @@ N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross 
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,20950,£,Pounds,2020,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,23145,£,Pounds,2021,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,24868,£,Pounds,2022,,,
-N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,11824,£,Pounds,1999,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,16623,£,Pounds,2011,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head at current market price,11224,£,Pounds,1998,,,
@@ -9174,7 +9174,7 @@ N09000003,Belfast,Local Authority District,Gross domestic product per head at cu
 N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,46739,£,Pounds,2021,,,
 N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,50785,£,Pounds,2022,,,
 N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,19464,£,Pounds,1999,,,
-N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,32218,£,Pounds,2011,,,
 N09000003,Belfast,Local Authority District,Gross domestic product per head at current market price,18106,£,Pounds,1998,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,17847,£,Pounds,2016,,,
@@ -9189,7 +9189,7 @@ N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic produ
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,21846,£,Pounds,2022,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,18496,£,Pounds,2018,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,15915,£,Pounds,2011,,,
-N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,14822,£,Pounds,2009,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,10289,£,Pounds,1998,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head at current market price,10928,£,Pounds,1999,,,
@@ -9211,7 +9211,7 @@ N09000005,Derry City and Strabane,Local Authority District,Gross domestic produc
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,24284,£,Pounds,2021,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,22560,£,Pounds,2020,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,26650,£,Pounds,2022,,,
-N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,17783,£,Pounds,2012,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,22759,£,Pounds,2019,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head at current market price,17170,£,Pounds,2011,,,
@@ -9245,7 +9245,7 @@ N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product pe
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,17941,£,Pounds,2013,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,19019,£,Pounds,2014,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,19198,£,Pounds,2015,,,
-N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,22265,£,Pounds,2018,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,23222,£,Pounds,2019,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head at current market price,22487,£,Pounds,2020,,,
@@ -9280,13 +9280,13 @@ N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic produc
 N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head at current market price,29271,£,Pounds,2022,,,
 N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head at current market price,13198,£,Pounds,1998,,,
 N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head at current market price,20089,£,Pounds,2011,,,
-N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,23077,£,Pounds,2009,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,19152,£,Pounds,2000,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,18525,£,Pounds,2001,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,18953,£,Pounds,2002,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,19219,£,Pounds,2003,,,
-N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,20169,£,Pounds,2005,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,20969,£,Pounds,2006,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head at current market price,21165,£,Pounds,2007,,,
@@ -9332,7 +9332,7 @@ N09000009,Mid Ulster,Local Authority District,Gross domestic product per head at
 N09000009,Mid Ulster,Local Authority District,Gross domestic product per head at current market price,15727,£,Pounds,1999,,,
 N09000009,Mid Ulster,Local Authority District,Gross domestic product per head at current market price,20076,£,Pounds,2011,,,
 N09000009,Mid Ulster,Local Authority District,Gross domestic product per head at current market price,14808,£,Pounds,1998,,,
-N09000009,Mid Ulster,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000009,Mid Ulster,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,15619,£,Pounds,2008,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,15462,£,Pounds,2007,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,15190,£,Pounds,2006,,,
@@ -9358,13 +9358,13 @@ N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic produ
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,23773,£,Pounds,2022,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,10335,£,Pounds,1998,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,15604,£,Pounds,2011,,,
-N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,12584,£,Pounds,2009,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,9664,£,Pounds,2000,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,10102,£,Pounds,2001,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,10447,£,Pounds,2002,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,11144,£,Pounds,2003,,,
-N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,12158,£,Pounds,2005,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,12862,£,Pounds,2006,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head at current market price,13278,£,Pounds,2007,,,
@@ -14819,18 +14819,18 @@ TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per hea
 TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per head at current market price,29662,£,Pounds,2006,,,
 TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per head at current market price,32613,£,Pounds,2007,,,
 TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per head at current market price,23965,£,Pounds,2003,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2017,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2014,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2015,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2016,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2018,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2013,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2020,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2021,,,
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2017,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2014,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2015,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2016,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2018,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2013,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2020,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2021,,,u
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,32036,£,Pounds,2022,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2019,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2012,,,
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2019,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2012,,,u
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,23431,£,Pounds,2011,,,
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,22203,£,Pounds,2010,,,
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head at current market price,14480,£,Pounds,1999,,,
@@ -15105,18 +15105,18 @@ TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head at curren
 TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head at current market price,23049,£,Pounds,2007,,,
 TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head at current market price,23884,£,Pounds,2008,,,
 TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head at current market price,18761,£,Pounds,2003,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2016,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2013,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2014,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2015,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2017,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2019,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2020,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2021,,,
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2016,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2013,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2014,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2015,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2017,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2019,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2020,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2021,,,u
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,32036,£,Pounds,2022,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2012,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2018,,,
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2012,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2018,,,u
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,23431,£,Pounds,2011,,,
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,20413,£,Pounds,2006,,,
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head at current market price,21603,£,Pounds,2009,,,
@@ -15235,19 +15235,19 @@ TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head at current m
 TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head at current market price,19206,£,Pounds,2007,,,
 TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head at current market price,20178,£,Pounds,2008,,,
 TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head at current market price,17193,£,Pounds,2004,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2013,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2014,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2015,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2016,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2017,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2019,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2020,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2021,,,
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2013,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2014,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2015,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2016,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2017,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2019,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2020,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2021,,,u
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,26132,£,Pounds,2022,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2012,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2018,,,
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2012,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2018,,,u
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,19453,£,Pounds,2011,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,18669,£,Pounds,2009,,,
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,12702,£,Pounds,1998,,,
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head at current market price,13075,£,Pounds,1999,,,
@@ -15313,19 +15313,19 @@ TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head at curre
 TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head at current market price,21505,£,Pounds,2008,,,
 TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head at current market price,20836,£,Pounds,2009,,,
 TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head at current market price,18439,£,Pounds,2004,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2013,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2014,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2015,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2016,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2017,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2020,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2019,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2021,,,
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2013,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2014,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2015,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2016,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2017,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2020,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2019,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2021,,,u
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,22538,£,Pounds,2022,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2012,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2018,,,
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2012,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2018,,,u
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,16156,£,Pounds,2011,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,15475,£,Pounds,2009,,,
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,10583,£,Pounds,1998,,,
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head at current market price,11053,£,Pounds,1999,,,
@@ -15447,7 +15447,7 @@ N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic p
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,23964,£,Pounds,2013,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,24425,£,Pounds,2014,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,25281,£,Pounds,2015,,,
-N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,23306,£,Pounds,2012,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,27550,£,Pounds,2018,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head at current market price,28650,£,Pounds,2019,,,
@@ -15481,7 +15481,7 @@ TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market pric
 TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,32942,£,Pounds,2012,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,41613,£,Pounds,2018,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,32218,£,Pounds,2011,,,
-TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,31928,£,Pounds,2009,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,18106,£,Pounds,1998,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head at current market price,19464,£,Pounds,1999,,,
@@ -15507,7 +15507,7 @@ TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product 
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,24868,£,Pounds,2022,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,16623,£,Pounds,2011,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,20618,£,Pounds,2017,,,
-TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,16136,£,Pounds,2010,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,16727,£,Pounds,2008,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head at current market price,15873,£,Pounds,2009,,,
@@ -15530,7 +15530,7 @@ TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at cu
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,20153,£,Pounds,2020,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,21883,£,Pounds,2021,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,23773,£,Pounds,2022,,,
-TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,21276,£,Pounds,2019,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,16093,£,Pounds,2012,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head at current market price,15604,£,Pounds,2011,,,
@@ -15552,7 +15552,7 @@ TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,13825,£,Pounds,2014,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,13909,£,Pounds,2015,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,15792,£,Pounds,2017,,,
-TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,15872,£,Pounds,2020,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,17124,£,Pounds,2021,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head at current market price,18253,£,Pounds,2022,,,
@@ -15583,7 +15583,7 @@ TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at cur
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,24284,£,Pounds,2021,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,26650,£,Pounds,2022,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,17783,£,Pounds,2012,,,
-TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,21289,£,Pounds,2018,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,17170,£,Pounds,2011,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head at current market price,16298,£,Pounds,2006,,,
@@ -15603,7 +15603,7 @@ TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market p
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,21528,£,Pounds,2013,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,22392,£,Pounds,2014,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,23097,£,Pounds,2015,,,
-TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,20299,£,Pounds,2012,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,26449,£,Pounds,2018,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head at current market price,28228,£,Pounds,2019,,,
@@ -15633,7 +15633,7 @@ TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at cu
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,17773,£,Pounds,2020,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,20077,£,Pounds,2021,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,21846,£,Pounds,2022,,,
-TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,16486,£,Pounds,2013,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,19111,£,Pounds,2019,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head at current market price,16315,£,Pounds,2012,,,
@@ -15661,7 +15661,7 @@ TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at cur
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,26452,£,Pounds,2020,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,28255,£,Pounds,2021,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,29653,£,Pounds,2022,,,
-TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,25755,£,Pounds,2018,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,21181,£,Pounds,2011,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head at current market price,14335,£,Pounds,1998,,,
@@ -15681,7 +15681,7 @@ TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at cur
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,21232,£,Pounds,2013,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,21661,£,Pounds,2014,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,22348,£,Pounds,2015,,,
-TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,29271,£,Pounds,2022,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,24826,£,Pounds,2018,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head at current market price,26044,£,Pounds,2019,,,
@@ -15707,7 +15707,7 @@ TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,23957,£,Pounds,2014,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,26240,£,Pounds,2015,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,25645,£,Pounds,2016,,,
-TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,21194,£,Pounds,2019,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,20203,£,Pounds,2020,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head at current market price,21966,£,Pounds,2021,,,
@@ -15754,7 +15754,7 @@ TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head at current
 TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head at current market price,11901,£,Pounds,1998,,,
 TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head at current market price,26405,£,Pounds,2022,,,
 TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head at current market price,17453,£,Pounds,2009,,,
-TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head at current market price,[u],£,Pounds,2023,,,
+TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head at current market price,,£,Pounds,2023,,,u
 E06000047,County Durham,County or Unitary Authority,Gross domestic product per head in chained volume measure,18781,£,Pounds,1998,,,
 E06000047,County Durham,County or Unitary Authority,Gross domestic product per head in chained volume measure,23775,£,Pounds,2023,,,
 E06000047,County Durham,County or Unitary Authority,Gross domestic product per head in chained volume measure,23140,£,Pounds,2022,,,
@@ -24877,7 +24877,7 @@ N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic produc
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,26302,£,Pounds,2020,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,28807,£,Pounds,2021,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,29653,£,Pounds,2022,,,
-N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,26816,£,Pounds,2012,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,22890,£,Pounds,1998,,,
 N09000001,Antrim and Newtownabbey,Local Authority District,Gross domestic product per head in chained volume measure,25599,£,Pounds,2010,,,
@@ -24902,7 +24902,7 @@ N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross 
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,21548,£,Pounds,2020,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,24386,£,Pounds,2021,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,24868,£,Pounds,2022,,,
-N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,20286,£,Pounds,1999,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,21406,£,Pounds,2011,,,
 N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,Gross domestic product per head in chained volume measure,19298,£,Pounds,1998,,,
@@ -24930,7 +24930,7 @@ N09000003,Belfast,Local Authority District,Gross domestic product per head in ch
 N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,49479,£,Pounds,2021,,,
 N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,50785,£,Pounds,2022,,,
 N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,34440,£,Pounds,1999,,,
-N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,42133,£,Pounds,2011,,,
 N09000003,Belfast,Local Authority District,Gross domestic product per head in chained volume measure,32313,£,Pounds,1998,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,21505,£,Pounds,2016,,,
@@ -24945,7 +24945,7 @@ N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic produ
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,21846,£,Pounds,2022,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,21333,£,Pounds,2018,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,20737,£,Pounds,2011,,,
-N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,19384,£,Pounds,2009,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,16724,£,Pounds,1998,,,
 N09000004,Causeway Coast and Glens,Local Authority District,Gross domestic product per head in chained volume measure,17869,£,Pounds,1999,,,
@@ -24967,7 +24967,7 @@ N09000005,Derry City and Strabane,Local Authority District,Gross domestic produc
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,25674,£,Pounds,2021,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,23138,£,Pounds,2020,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,26650,£,Pounds,2022,,,
-N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,21671,£,Pounds,2012,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,25390,£,Pounds,2019,,,
 N09000005,Derry City and Strabane,Local Authority District,Gross domestic product per head in chained volume measure,21116,£,Pounds,2011,,,
@@ -25001,7 +25001,7 @@ N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product pe
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,21993,£,Pounds,2013,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,23289,£,Pounds,2014,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,23113,£,Pounds,2015,,,
-N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,25734,£,Pounds,2018,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,26224,£,Pounds,2019,,,
 N09000006,Fermanagh and Omagh,Local Authority District,Gross domestic product per head in chained volume measure,23619,£,Pounds,2020,,,
@@ -25036,13 +25036,13 @@ N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic produc
 N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head in chained volume measure,29271,£,Pounds,2022,,,
 N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head in chained volume measure,23099,£,Pounds,1998,,,
 N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head in chained volume measure,25959,£,Pounds,2011,,,
-N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000007,Lisburn and Castlereagh,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,37526,£,Pounds,2009,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,41859,£,Pounds,2000,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,40288,£,Pounds,2001,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,41222,£,Pounds,2002,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,40498,£,Pounds,2003,,,
-N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,41635,£,Pounds,2005,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,41253,£,Pounds,2006,,,
 N09000008,Mid and East Antrim,Local Authority District,Gross domestic product per head in chained volume measure,38901,£,Pounds,2007,,,
@@ -25088,7 +25088,7 @@ N09000009,Mid Ulster,Local Authority District,Gross domestic product per head in
 N09000009,Mid Ulster,Local Authority District,Gross domestic product per head in chained volume measure,26629,£,Pounds,1999,,,
 N09000009,Mid Ulster,Local Authority District,Gross domestic product per head in chained volume measure,26145,£,Pounds,2011,,,
 N09000009,Mid Ulster,Local Authority District,Gross domestic product per head in chained volume measure,24954,£,Pounds,1998,,,
-N09000009,Mid Ulster,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000009,Mid Ulster,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,20981,£,Pounds,2008,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,21764,£,Pounds,2007,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,22554,£,Pounds,2006,,,
@@ -25114,13 +25114,13 @@ N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic produ
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,23773,£,Pounds,2022,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,19146,£,Pounds,1998,,,
 N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,20215,£,Pounds,2011,,,
-N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000010,"Newry, Mourne and Down",Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,16643,£,Pounds,2009,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,16687,£,Pounds,2000,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,17113,£,Pounds,2001,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,17177,£,Pounds,2002,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,17637,£,Pounds,2003,,,
-N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,18392,£,Pounds,2005,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,18940,£,Pounds,2006,,,
 N09000011,Ards and North Down,Local Authority District,Gross domestic product per head in chained volume measure,18561,£,Pounds,2007,,,
@@ -30575,18 +30575,18 @@ TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per hea
 TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per head in chained volume measure,39259,£,Pounds,2006,,,
 TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per head in chained volume measure,41569,£,Pounds,2007,,,
 TLM50,Aberdeen City and Aberdeenshire,ITL Level 3,Gross domestic product per head in chained volume measure,33253,£,Pounds,2003,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2017,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2014,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2015,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2016,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2018,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2013,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2020,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2021,,,
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2017,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2014,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2015,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2016,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2018,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2013,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2020,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2021,,,u
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,32035.665660691415,£,Pounds,2022,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2019,,,
-TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2012,,,
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2019,,,u
+TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2012,,,u
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,29363.040920912714,£,Pounds,2011,,,
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,28355.841826520547,£,Pounds,2010,,,
 TLM2,Highlands and Islands,ITL Level 2,Gross domestic product per head in chained volume measure,24751.581419205195,£,Pounds,1999,,,
@@ -30861,18 +30861,18 @@ TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head in chaine
 TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,30522,£,Pounds,2007,,,
 TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,30672,£,Pounds,2008,,,
 TLM3,West Central Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,27473,£,Pounds,2003,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2016,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2013,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2014,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2015,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2017,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2019,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2020,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2021,,,
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2016,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2013,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2014,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2015,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2017,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2019,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2020,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2021,,,u
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,32035.665660691415,£,Pounds,2022,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2012,,,
-TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2018,,,
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2012,,,u
+TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2018,,,u
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,29363.040920912714,£,Pounds,2011,,,
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,28589.491253383312,£,Pounds,2006,,,
 TLM20,Highlands and Islands,ITL Level 3,Gross domestic product per head in chained volume measure,27662.146318114752,£,Pounds,2009,,,
@@ -30991,19 +30991,19 @@ TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head in chained v
 TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head in chained volume measure,25787,£,Pounds,2007,,,
 TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head in chained volume measure,25900,£,Pounds,2008,,,
 TLM34,North Lanarkshire,ITL Level 3,Gross domestic product per head in chained volume measure,25391,£,Pounds,2004,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2013,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2014,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2015,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2016,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2017,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2019,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2020,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2021,,,
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2013,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2014,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2015,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2016,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2017,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2019,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2020,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2021,,,u
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,26132,£,Pounds,2022,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2012,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2018,,,
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2012,,,u
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2018,,,u
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,25152,£,Pounds,2011,,,
-TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,24193,£,Pounds,2009,,,
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,21516,£,Pounds,1998,,,
 TLM9,Southern Scotland,ITL Level 2,Gross domestic product per head in chained volume measure,22260,£,Pounds,1999,,,
@@ -31069,19 +31069,19 @@ TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head in chain
 TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head in chained volume measure,28890,£,Pounds,2008,,,
 TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head in chained volume measure,27459,£,Pounds,2009,,,
 TLM92,Dumfries and Galloway,ITL Level 3,Gross domestic product per head in chained volume measure,28178,£,Pounds,2004,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2013,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2014,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2015,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2016,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2017,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2020,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2019,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2021,,,
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2013,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2014,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2015,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2016,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2017,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2020,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2019,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2021,,,u
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,22538,£,Pounds,2022,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2012,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2018,,,
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2012,,,u
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2018,,,u
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,20511,£,Pounds,2011,,,
-TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,19830,£,Pounds,2009,,,
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,18946,£,Pounds,1998,,,
 TLM93,North Ayrshire and East Ayrshire,ITL Level 3,Gross domestic product per head in chained volume measure,19713,£,Pounds,1999,,,
@@ -31203,7 +31203,7 @@ N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic p
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,30483,£,Pounds,2013,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,30520,£,Pounds,2014,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,30904,£,Pounds,2015,,,
-N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,30218,£,Pounds,2012,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,31681,£,Pounds,2018,,,
 N34000001,Belfast City Region,Combined Authority or City Region,Gross domestic product per head in chained volume measure,32135,£,Pounds,2019,,,
@@ -31237,7 +31237,7 @@ TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume meas
 TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,42201,£,Pounds,2012,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,48327,£,Pounds,2018,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,42133,£,Pounds,2011,,,
-TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,42047,£,Pounds,2009,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,32313,£,Pounds,1998,,,
 TLN06,Belfast,ITL Level 3,Gross domestic product per head in chained volume measure,34440,£,Pounds,1999,,,
@@ -31263,7 +31263,7 @@ TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product 
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,24868,£,Pounds,2022,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,21406,£,Pounds,2011,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,24058,£,Pounds,2017,,,
-TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,20848,£,Pounds,2010,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,22249,£,Pounds,2008,,,
 TLN07,"Armagh City, Banbridge and Craigavon",ITL Level 3,Gross domestic product per head in chained volume measure,20623,£,Pounds,2009,,,
@@ -31286,7 +31286,7 @@ TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in ch
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,20982,£,Pounds,2020,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,23107,£,Pounds,2021,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,23773,£,Pounds,2022,,,
-TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,23622,£,Pounds,2019,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,20469,£,Pounds,2012,,,
 TLN08,"Newry, Mourne and Down",ITL Level 3,Gross domestic product per head in chained volume measure,20215,£,Pounds,2011,,,
@@ -31308,7 +31308,7 @@ TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,17096,£,Pounds,2014,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,16860,£,Pounds,2015,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,18462,£,Pounds,2017,,,
-TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,16589,£,Pounds,2020,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,17933,£,Pounds,2021,,,
 TLN09,Ards and North Down,ITL Level 3,Gross domestic product per head in chained volume measure,18253,£,Pounds,2022,,,
@@ -31339,7 +31339,7 @@ TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in cha
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,25674,£,Pounds,2021,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,26650,£,Pounds,2022,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,21671,£,Pounds,2012,,,
-TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,24292,£,Pounds,2018,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,21116,£,Pounds,2011,,,
 TLN0A,Derry City and Strabane,ITL Level 3,Gross domestic product per head in chained volume measure,22053,£,Pounds,2006,,,
@@ -31359,7 +31359,7 @@ TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume m
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,26816,£,Pounds,2013,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,27775,£,Pounds,2014,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,27643,£,Pounds,2015,,,
-TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,25975,£,Pounds,2012,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,29958,£,Pounds,2018,,,
 TLN0B,Mid Ulster,ITL Level 3,Gross domestic product per head in chained volume measure,31058,£,Pounds,2019,,,
@@ -31389,7 +31389,7 @@ TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in ch
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,18454,£,Pounds,2020,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,21063,£,Pounds,2021,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,21846,£,Pounds,2022,,,
-TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,20792,£,Pounds,2013,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,21445,£,Pounds,2019,,,
 TLN0C,Causeway Coast and Glens,ITL Level 3,Gross domestic product per head in chained volume measure,20836,£,Pounds,2012,,,
@@ -31417,7 +31417,7 @@ TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in cha
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,26302,£,Pounds,2020,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,28807,£,Pounds,2021,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,29653,£,Pounds,2022,,,
-TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,29224,£,Pounds,2018,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,26620,£,Pounds,2011,,,
 TLN0D,Antrim and Newtownabbey,ITL Level 3,Gross domestic product per head in chained volume measure,22890,£,Pounds,1998,,,
@@ -31437,7 +31437,7 @@ TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in cha
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,26379,£,Pounds,2013,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,26649,£,Pounds,2014,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,27092,£,Pounds,2015,,,
-TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,29271,£,Pounds,2022,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,28475,£,Pounds,2018,,,
 TLN0E,Lisburn and Castlereagh,ITL Level 3,Gross domestic product per head in chained volume measure,29135,£,Pounds,2019,,,
@@ -31463,7 +31463,7 @@ TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,32822,£,Pounds,2014,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,34195,£,Pounds,2015,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,31544,£,Pounds,2016,,,
-TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,23516,£,Pounds,2019,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,21715,£,Pounds,2020,,,
 TLN0F,Mid and East Antrim,ITL Level 3,Gross domestic product per head in chained volume measure,23930,£,Pounds,2021,,,
@@ -31510,4 +31510,4 @@ TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head in chained
 TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head in chained volume measure,18929,£,Pounds,1998,,,
 TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head in chained volume measure,26405,£,Pounds,2022,,,
 TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head in chained volume measure,21730,£,Pounds,2009,,,
-TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head in chained volume measure,[u],£,Pounds,2023,,,
+TLN0G,Fermanagh and Omagh,ITL Level 3,Gross domestic product per head in chained volume measure,,£,Pounds,2023,,,u
