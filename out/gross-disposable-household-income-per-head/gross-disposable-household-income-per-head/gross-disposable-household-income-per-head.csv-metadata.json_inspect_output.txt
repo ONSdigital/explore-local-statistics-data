@@ -6,7 +6,7 @@
           - Title: Gross disposable household income per head
           - Label: Gross disposable household income per head
           - Issued: 2023-03-31T12:12:48.541529
-          - Modified: 2025-05-19T11:05:00
+          - Modified: 2025-05-28T11:31:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,16 +14,16 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/regionalaccounts
           - Keywords: 
-		-- local-authority
-		-- subnational
-		-- region
 		-- spending
-		-- saving
+		-- local-authority
 		-- money
+		-- region
+		-- subnational
+		-- saving
           - Contact Point: None
           - Identifier: Gross disposable household income per head
-          - Comment: Estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, UK, 1997 to 2022.
-          - Description: This dataset shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in the UK, for 1997 to 2022.
+          - Comment: Estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, UK, 1997 to 2022.
+          - Description: This dataset shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2022.
 		
 		### Coverage 
 		
