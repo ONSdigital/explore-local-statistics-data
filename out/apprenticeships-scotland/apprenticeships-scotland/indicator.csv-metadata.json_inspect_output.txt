@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Indicator
           - Label: Indicator
-          - Issued: 2025-05-16T08:25:50.061360
-          - Modified: 2025-05-16T08:25:50.061360
+          - Issued: 2025-05-28T11:06:05.022300
+          - Modified: 2025-05-28T11:06:05.022300
           - License: None
           - Creator: None
           - Publisher: None
