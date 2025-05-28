@@ -6,7 +6,7 @@
           - Title: Value of UK exports
           - Label: Value of UK exports
           - Issued: 2023-05-23T15:14:20.820244
-          - Modified: 2025-05-19T11:12:00
+          - Modified: 2025-05-28T11:35:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/internationaltrade
           - Keywords: 
-		-- trade-deficit
 		-- subnational
+		-- trade-deficit
 		-- imports
-		-- economic-growth
 		-- international-territorial-level
+		-- economic-growth
 		-- exports
 		-- goods-and-services
           - Contact Point: None
@@ -39,6 +39,10 @@
 		### Source
 		
 		 - UK: [Office for National Statistics](https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousReleases) 
+		
+		
+		### Source Notes and Caveats 
+		Data for lower levels of geography (ITL2 and ITL3) can be found in the original data source or in the [CSV file](https://github.com/ONSdigital/explore-local-statistics-data/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv) on ONS Digital GitHub.
 		
 		
 		
