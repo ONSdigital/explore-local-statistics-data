@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Indicator
           - Label: Indicator
-          - Issued: 2025-05-28T11:06:05.022300
-          - Modified: 2025-05-28T11:06:05.022300
+          - Issued: 2025-05-29T06:27:06.917988
+          - Modified: 2025-05-29T06:27:06.917988
           - License: None
           - Creator: None
           - Publisher: None
@@ -24,15 +24,15 @@
         - Number of Duplicates: 0
         - Concepts: 
                        Uri Identifier                                   Label                              Notation  Parent Uri Identifier  Sort Priority  Description
-       apprenticeship-starts-scotland        Apprenticeship starts (Scotland)        apprenticeship-starts-scotland                    NaN              0          NaN
-apprenticeships-achievements-scotland Apprenticeships achievements (Scotland) apprenticeships-achievements-scotland                    NaN              1          NaN
+apprenticeships-achievements-scotland Apprenticeships achievements (Scotland) apprenticeships-achievements-scotland                    NaN              0          NaN
+      apprenticeships-starts-scotland       Apprenticeships starts (Scotland)       apprenticeships-starts-scotland                    NaN              1          NaN
         
 
 - The code list has the following concepts information:
         - Concepts hierarchy depth: 1
         - Concepts hierarchy:
 root
-├── Apprenticeship starts (Scotland)
-└── Apprenticeships achievements (Scotland)
+├── Apprenticeships achievements (Scotland)
+└── Apprenticeships starts (Scotland)
 
         

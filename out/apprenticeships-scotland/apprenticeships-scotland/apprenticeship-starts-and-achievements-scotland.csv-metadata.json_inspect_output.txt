@@ -14,11 +14,11 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
+		-- local-authority
 		-- education-and-training
+		-- modern-apprenticeships
 		-- scotland
 		-- apprenticeship
-		-- local-authority
-		-- modern-apprenticeships
 		-- subnational
           - Contact Point: None
           - Identifier: Apprenticeship starts and achievements (Scotland)
@@ -79,17 +79,17 @@ ons-geography-code.csv#code-list ONS Geography Code          AREACD
         - Number of Rows: 792
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD   AREANM Geography                      Indicator  Observation                        Unit                     Measure    Period  Lower_confidence_interval_95  Upper_confidence_interval_95  Observation_status
-s92000003 scotland    nation apprenticeship-starts-scotland   573.441130 Rate per 100,000 population Rate per 100,000 population 2013-2014                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   555.054451 Rate per 100,000 population Rate per 100,000 population 2024-2025                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   551.964408 Rate per 100,000 population Rate per 100,000 population 2023-2024                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   558.639963 Rate per 100,000 population Rate per 100,000 population 2022-2023                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   413.689382 Rate per 100,000 population Rate per 100,000 population 2020-2021                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   618.802952 Rate per 100,000 population Rate per 100,000 population 2019-2020                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   562.050723 Rate per 100,000 population Rate per 100,000 population 2021-2022                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   606.125158 Rate per 100,000 population Rate per 100,000 population 2017-2018                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   588.322926 Rate per 100,000 population Rate per 100,000 population 2016-2017                           NaN                           NaN                 NaN
-s92000003 scotland    nation apprenticeship-starts-scotland   581.068484 Rate per 100,000 population Rate per 100,000 population 2015-2016                           NaN                           NaN                 NaN
+   AREACD   AREANM Geography                       Indicator  Observation                        Unit                     Measure    Period  Lower_confidence_interval_95  Upper_confidence_interval_95  Observation_status
+s92000003 scotland    nation apprenticeships-starts-scotland   573.441130 Rate per 100,000 population Rate per 100,000 population 2013-2014                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   555.054451 Rate per 100,000 population Rate per 100,000 population 2024-2025                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   551.964408 Rate per 100,000 population Rate per 100,000 population 2023-2024                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   558.639963 Rate per 100,000 population Rate per 100,000 population 2022-2023                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   413.689382 Rate per 100,000 population Rate per 100,000 population 2020-2021                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   618.802952 Rate per 100,000 population Rate per 100,000 population 2019-2020                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   562.050723 Rate per 100,000 population Rate per 100,000 population 2021-2022                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   606.125158 Rate per 100,000 population Rate per 100,000 population 2017-2018                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   588.322926 Rate per 100,000 population Rate per 100,000 population 2016-2017                           NaN                           NaN                 NaN
+s92000003 scotland    nation apprenticeships-starts-scotland   581.068484 Rate per 100,000 population Rate per 100,000 population 2015-2016                           NaN                           NaN                 NaN
         - Last 10 Rows: 
    AREACD       AREANM                Geography                             Indicator  Observation                        Unit                     Measure    Period  Lower_confidence_interval_95  Upper_confidence_interval_95  Observation_status
 s12000040 west-lothian local-authority-district apprenticeships-achievements-scotland   471.656677 Rate per 100,000 population Rate per 100,000 population 2022-2023                           NaN                           NaN                 NaN

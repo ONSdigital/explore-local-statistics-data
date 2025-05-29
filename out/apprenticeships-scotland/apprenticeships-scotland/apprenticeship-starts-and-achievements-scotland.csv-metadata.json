@@ -240,71 +240,98 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/upper-confidence-interval",
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name",
             "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 10
-                }
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/lower-confidence-interval",
-            "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Lower Confidence Interval"
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/indicator",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -314,40 +341,10 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/observation-status",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 11
-                }
-            ]
-        },
-        {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/lower-confidence-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
@@ -374,67 +371,10 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/area-name",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/indicator",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "indicator.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Indicator"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/indicator"
-                }
-            ]
-        },
-        {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/measure-type",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
@@ -455,127 +395,60 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/government-year",
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator",
             "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#structure",
-            "@type": [
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/lower-confidence-interval"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/government-year"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/measure-type"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/geography-type"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/observation-status"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/unit"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/ons-geography-code"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/area-name"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/indicator"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/number-of-apprenticeships"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/lower-confidence-interval"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#measure/number-of-apprenticeships"
-                },
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval",
-            "@type": [
                 "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "indicator.csv#code-list"
+                }
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Indicator"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/indicator"
                 }
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/area-name",
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/government-year",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 8
+                }
             ]
         },
         {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/unit",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#attribute": [
@@ -602,37 +475,165 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/indicator",
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/government-year",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#measure/number-of-apprenticeships",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#MeasureProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Number of apprenticeships"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#structure",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
                 "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/observation-status"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/geography-type"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/unit"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/upper-confidence-interval"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/indicator"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/number-of-apprenticeships"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/measure-type"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/government-year"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/area-name"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/lower-confidence-interval"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#measure/number-of-apprenticeships"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/lower-confidence-interval"
+                },
                 {
                     "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#slice/cross-measures"
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 4
+                    "@value": 11
                 }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/area-name",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year",
             "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -657,28 +658,22 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name",
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Area Name"
+                    "@value": "Observation Status"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
                 {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/area-name"
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
                 }
             ]
         },
@@ -691,10 +686,10 @@
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
                 },
                 {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
                 },
                 {
                     "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
@@ -703,18 +698,18 @@
                     "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
                 },
                 {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/indicator"
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
                 }
             ]
         },
         {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code",
             "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -739,71 +734,13 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Observation Status"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
-                }
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/government-year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/government-year"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 8
-                }
-            ]
-        },
-        {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#qbDataSet",
             "@type": [
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Distribution",
+                "http://purl.org/linked-data/cube#Attachable",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#Attachable"
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -850,10 +787,95 @@
             ]
         },
         {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/upper-confidence-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+                    "@value": false
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 10
+                }
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/indicator",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 3
+                }
+            ]
+        },
+        {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/number-of-apprenticeships",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
@@ -874,38 +896,40 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#measure/number-of-apprenticeships",
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#class/ons-geography-code",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "apprenticeship-starts-and-achievements-scotland.csv#attribute/lower-confidence-interval",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#AttributeProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Number of apprenticeships"
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
                     "@id": "http://www.w3.org/2001/XMLSchema#decimal"
                 }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "https://purl.org/csv-cubed/resources/measures#count"
-                }
             ]
         },
         {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/geography-type",
             "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -925,35 +949,11 @@
             ]
         },
         {
-            "@id": "apprenticeship-starts-and-achievements-scotland.csv#component/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "apprenticeship-starts-and-achievements-scotland.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 1
-                }
-            ]
-        },
-        {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#dataset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Dataset",
-                "http://www.w3.org/ns/dcat#Resource"
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -1023,10 +1023,6 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
                     "@value": "subnational"
                 },
                 {
@@ -1035,11 +1031,15 @@
                 },
                 {
                     "@language": "en",
+                    "@value": "apprenticeship"
+                },
+                {
+                    "@language": "en",
                     "@value": "scotland"
                 },
                 {
                     "@language": "en",
-                    "@value": "apprenticeship"
+                    "@value": "local-authority"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -1166,8 +1166,8 @@
         {
             "@id": "apprenticeship-starts-and-achievements-scotland.csv#unit/per-100-000",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
