@@ -6,7 +6,7 @@
           - Title: Electric vehicle public charging devices
           - Label: Electric vehicle public charging devices
           - Issued: 2025-06-02T10:34:00
-          - Modified: 2025-06-02T10:34:00
+          - Modified: 2025-06-04T07:35:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/department-for-transport
@@ -16,9 +16,9 @@
           - Keywords: 
 		-- transport
 		-- electric-vehicle
-		-- region
-		-- local-authority
 		-- subnational
+		-- local-authority
+		-- region
           - Contact Point: None
           - Identifier: Electric vehicle public charging devices
           - Comment: Publicly available electric vehicle charging devices at all speeds per 100,000 population (official statistics in development), United Kingdom, as of 00:00 on the first day of each quarter from October 2019 to April 2025.
