@@ -14,7 +14,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/department-for-transport",
     "dataset_issued": "2025-06-02T10:34",
-    "dataset_modified": "2025-06-02T10:34",
+    "dataset_modified": "2025-06-02T07:35",
     "themes": "https://www.ons.gov.uk/economy/environmentalaccounts",
     "columns": {
         "Period": {
@@ -83,7 +83,7 @@
       "decimalPlaces": 1,
       "subtitle": "Publicly available electric vehicle charging devices at all speeds per 100,000 people",
       "experimentalStatistic": "T",
-      "sourceDate": "01/10/2024",
+      "sourceDate": "30/04/2025",
       "sourceURL": "https://www.gov.uk/government/collections/electric-vehicle-charging-infrastructure-statistics",
       "sourceOrg": "Department for Transport, sourced from Zapmap",
       "longDescription": "This indicator shows publicly available electric vehicle charging devices at all speeds per 100,000 population (official statistics in development), in the UK, as of 00:00 on the first day of each quarter from October 2019 to April 2025.",
