@@ -16,7 +16,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
     "dataset_issued": "2025-07-07T14:29",
-    "dataset_modified": "2025-07-07T14:29",
+    "dataset_modified": "2025-07-08T11:30",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing",
     "columns": {
         "Period": {
@@ -41,7 +41,7 @@
         "Indicator": false,
         "Observation": {
             "type": "observations",
-            "data_type": "integer",
+            "data_type": "decimal",
             "unit": {
                 "label": "Average length of stay in nights",
                 "from_existing": "http://qudt.org/vocab/unit/COUNT"
