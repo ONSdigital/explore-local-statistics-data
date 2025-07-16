@@ -6,7 +6,7 @@
           - Title: 5G coverage
           - Label: 5G coverage
           - Issued: 2024-06-13T13:14:00
-          - Modified: 2024-06-03T15:25:00
+          - Modified: 2025-07-15T17:25:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- connectivity
-		-- broadband-mobile-coverage
-		-- subnational
+		-- region
 		-- local-authority
 		-- combined-authority
-		-- region
+		-- connectivity
+		-- subnational
+		-- broadband-mobile-coverage
 		-- county
           - Contact Point: None
           - Identifier: 5G coverage
@@ -87,7 +87,7 @@
 ons-geography-code.csv#code-list ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 409
+        - Number of Rows: 415
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD            AREANM                         Geography Variable Name                                                    Indicator  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                             Notes
@@ -118,5 +118,5 @@ n09000011                 ards-and-north-down local-authority-district   5G cove
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                   Measure    Unit  Count
-Geographic area with 5G coverage by at least one provider percent    409
+Geographic area with 5G coverage by at least one provider percent    415
         

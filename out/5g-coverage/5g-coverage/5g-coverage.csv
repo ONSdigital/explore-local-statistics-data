@@ -18,7 +18,7 @@ e08000021,newcastle-upon-tyne,local-authority-district,5G coverage,5G coverage p
 e08000022,north-tyneside,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,100.0,Percentage,%,,,,1,
 e08000023,south-tyneside,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.38,Percentage,%,,,,1,
 e08000024,sunderland,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.88,Percentage,%,,,,1,
-e12000002,north-west,region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,90.26,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e12000002,north-west,region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,75.3,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000008,blackburn-with-darwen,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,88.89,Percentage,%,,,,1,
 e06000009,blackpool,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,100.0,Percentage,%,,,,1,
 e06000049,cheshire-east,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,87.82,Percentage,%,,,,1,
@@ -38,6 +38,7 @@ e08000007,stockport,local-authority-district,5G coverage,5G coverage provided by
 e08000008,tameside,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,98.83,Percentage,%,,,,1,
 e08000009,trafford,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,100.0,Percentage,%,,,,1,
 e08000010,wigan,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.98,Percentage,%,,,,1,
+e47000018,lancashire,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,85.66,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e10000017,lancashire,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,85.34,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e07000117,burnley,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,91.73,Percentage,%,,,,1,
 e07000118,chorley,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,97.64,Percentage,%,,,,1,
@@ -57,19 +58,23 @@ e08000012,liverpool,local-authority-district,5G coverage,5G coverage provided by
 e08000014,sefton,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,97.83,Percentage,%,,,,1,
 e08000013,st-helens,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.98,Percentage,%,,,,1,
 e08000015,wirral,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,98.99,Percentage,%,,,,1,
-e12000003,yorkshire-and-the-humber,region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,72.88,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e12000003,yorkshire-and-the-humber,region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,78.94,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e47000016,hull-and-east-yorkshire,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,93.13,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000011,east-riding-of-yorkshire,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,92.93,Percentage,%,,,,1,
 e06000010,kingston-upon-hull-city-of,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,100.0,Percentage,%,,,,1,
+e47000017,greater-lincolnshire,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,90.99,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000012,north-east-lincolnshire,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,94.4,Percentage,%,,,,1,
 e06000013,north-lincolnshire,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,95.3,Percentage,%,,,,1,
 e47000012,york-and-north-yorkshire,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,66.47,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000014,york,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.45,Percentage,%,,,,1,
 e06000065,north-yorkshire,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,65.35,Percentage,%,,,,1,
 e47000002,south-yorkshire,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,93.83,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
-e08000016,barnsley,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,90.16,Percentage,%,,,,1,
+e08000038,barnsley,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,90.16,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e08000016,barnsley,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,90.16,Percentage,%,,,,1,Obsolete code since 2025 (replaced by E08000038 Barnsley)
 e08000017,doncaster,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,97.98,Percentage,%,,,,1,
 e08000018,rotherham,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,98.41,Percentage,%,,,,1,
-e08000019,sheffield,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,87.12,Percentage,%,,,,1,
+e08000039,sheffield,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,87.12,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e08000019,sheffield,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,87.12,Percentage,%,,,,1,Obsolete code since 2025 (replaced by E08000039 Sheffield)
 e47000003,west-yorkshire,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,93.02,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e08000032,bradford,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,98.25,Percentage,%,,,,1,
 e08000033,calderdale,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,78.73,Percentage,%,,,,1,
@@ -311,6 +316,7 @@ e07000228,mid-sussex,local-authority-district,5G coverage,5G coverage provided b
 e07000229,worthing,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.63,Percentage,%,,,,1,
 e12000009,south-west,region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,70.05,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e47000009,west-of-england,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,95.55,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e47000015,devon-and-torbay,combined-authority-or-city-region,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,58.06,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000022,bath-and-north-east-somerset,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,92.19,Percentage,%,,,,1,
 e06000058,bournemouth-christchurch-and-poole,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,98.07,Percentage,%,,,,1,
 e06000023,bristol-city-of,county-or-unitary-authority,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,99.99,Percentage,%,,,,1,
@@ -339,7 +345,7 @@ e07000079,cotswold,local-authority-district,5G coverage,5G coverage provided by 
 e07000080,forest-of-dean,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,79.96,Percentage,%,,,,1,
 e07000081,gloucester,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,100.0,Percentage,%,,,,1,
 e07000082,stroud,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,89.1,Percentage,%,,,,1,
-e07000083,tewkesbury,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,89.46,Percentage,%,,,,1,
+e07000083,north-gloucestershire,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,89.46,Percentage,%,,,,1,Tewkesbury renamed to North Gloucestershire in 2025
 w92000004,wales,nation,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,54.73,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 w06000001,isle-of-anglesey,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,62.81,Percentage,%,,,,1,
 w06000002,gwynedd,local-authority-district,5G coverage,5G coverage provided by at least one mobile network provider,2025-01,49.49,Percentage,%,,,,1,
