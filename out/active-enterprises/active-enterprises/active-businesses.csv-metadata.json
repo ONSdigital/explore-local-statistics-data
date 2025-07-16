@@ -235,60 +235,31 @@
         {
             "@id": "active-businesses.csv#class/area-name",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#class/year",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#attribute/upper-confidence-interval-95",
-            "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Upper Confidence Interval (95%)"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Class"
             ]
         },
         {
-            "@id": "active-businesses.csv#dimension/geography-type",
+            "@id": "active-businesses.csv#component/number-of-enterprises",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "geography-type.csv#code-list"
+                    "@id": "active-businesses.csv#measure/number-of-enterprises"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#measure": [
                 {
-                    "@language": "en",
-                    "@value": "Geography Type"
+                    "@id": "active-businesses.csv#measure/number-of-enterprises"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+            "http://purl.org/linked-data/cube#order": [
                 {
-                    "@id": "active-businesses.csv#class/geography-type"
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 7
                 }
             ]
         },
@@ -313,289 +284,6 @@
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
                     "@value": 4
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#structure",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#DataStructureDefinition",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#component": [
-                {
-                    "@id": "active-businesses.csv#component/number-of-enterprises"
-                },
-                {
-                    "@id": "active-businesses.csv#component/measure-type"
-                },
-                {
-                    "@id": "active-businesses.csv#component/unit"
-                },
-                {
-                    "@id": "active-businesses.csv#component/geography-type"
-                },
-                {
-                    "@id": "active-businesses.csv#component/year"
-                },
-                {
-                    "@id": "active-businesses.csv#component/ons-geography-code"
-                },
-                {
-                    "@id": "active-businesses.csv#component/area-name"
-                },
-                {
-                    "@id": "active-businesses.csv#component/upper-confidence-interval-95"
-                },
-                {
-                    "@id": "active-businesses.csv#component/lower-confidence-interval-95"
-                },
-                {
-                    "@id": "active-businesses.csv#component/observation-status"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "active-businesses.csv#attribute/observation-status"
-                },
-                {
-                    "@id": "active-businesses.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "active-businesses.csv#attribute/lower-confidence-interval-95"
-                },
-                {
-                    "@id": "active-businesses.csv#dimension/year"
-                },
-                {
-                    "@id": "active-businesses.csv#dimension/area-name"
-                },
-                {
-                    "@id": "active-businesses.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "active-businesses.csv#attribute/upper-confidence-interval-95"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                },
-                {
-                    "@id": "active-businesses.csv#measure/number-of-enterprises"
-                }
-            ],
-            "http://purl.org/linked-data/cube#sliceKey": [
-                {
-                    "@id": "active-businesses.csv#slice/cross-measures"
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#qbDataSet",
-            "@type": [
-                "http://www.w3.org/ns/dcat#Distribution",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/ns/dcat#Resource"
-            ],
-            "http://purl.org/dc/terms/creator": [
-                {
-                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
-                }
-            ],
-            "http://purl.org/dc/terms/identifier": [
-                {
-                    "@value": "Active businesses"
-                }
-            ],
-            "http://purl.org/dc/terms/issued": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-01-30T12:26:49.626680"
-                }
-            ],
-            "http://purl.org/dc/terms/title": [
-                {
-                    "@language": "en",
-                    "@value": "Active businesses"
-                }
-            ],
-            "http://purl.org/linked-data/cube#structure": [
-                {
-                    "@id": "active-businesses.csv#structure"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Active businesses"
-                }
-            ],
-            "http://www.w3.org/ns/dcat#isDistributionOf": [
-                {
-                    "@id": "active-businesses.csv#dataset"
-                }
-            ],
-            "http://www.w3.org/ns/prov#wasGeneratedBy": [
-                {
-                    "@id": "active-businesses.csv#csvcubed-build-activity"
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 6
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#dimension/year",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "year.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "active-businesses.csv#class/year"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#attribute/lower-confidence-interval-95",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#AttributeProperty"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval (95%)"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#component/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "active-businesses.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "active-businesses.csv#dimension/geography-type"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 3
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSpecification",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSet"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "active-businesses.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "active-businesses.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 1
                 }
             ]
         },
@@ -630,55 +318,109 @@
             ]
         },
         {
-            "@id": "active-businesses.csv#component/number-of-enterprises",
+            "@id": "active-businesses.csv#component/upper-confidence-interval-95",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "active-businesses.csv#measure/number-of-enterprises"
+                    "@id": "active-businesses.csv#attribute/upper-confidence-interval-95"
                 }
             ],
-            "http://purl.org/linked-data/cube#measure": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "active-businesses.csv#measure/number-of-enterprises"
+                    "@id": "active-businesses.csv#attribute/upper-confidence-interval-95"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 7
+                    "@value": 9
                 }
             ]
         },
         {
-            "@id": "active-businesses.csv#class/geography-type",
+            "@id": "active-businesses.csv#dimension/year",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "year.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "active-businesses.csv#class/year"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+                }
             ]
         },
         {
-            "@id": "active-businesses.csv#slice/cross-measures",
+            "@id": "active-businesses.csv#dimension/geography-type",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey",
-                "http://purl.org/linked-data/cube#ComponentSet"
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://purl.org/linked-data/cube#componentProperty": [
+            "http://purl.org/linked-data/cube#codeList": [
                 {
-                    "@id": "active-businesses.csv#dimension/year"
-                },
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "active-businesses.csv#dimension/area-name"
-                },
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
                 {
-                    "@id": "active-businesses.csv#dimension/geography-type"
-                },
+                    "@id": "active-businesses.csv#class/geography-type"
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#attribute/upper-confidence-interval-95",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
-                    "@id": "active-businesses.csv#dimension/ons-geography-code"
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval (95%)"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
                 }
             ]
         },
@@ -686,8 +428,8 @@
             "@id": "active-businesses.csv#measure/number-of-enterprises",
             "@type": [
                 "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -708,38 +450,56 @@
             ]
         },
         {
-            "@id": "active-businesses.csv#dimension/ons-geography-code",
+            "@id": "active-businesses.csv#class/year",
             "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#SliceKey",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#codeList": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "ons-geography-code.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+                    "@id": "active-businesses.csv#dimension/area-name"
+                },
                 {
-                    "@language": "en",
-                    "@value": "ONS Geography Code"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
+                    "@id": "active-businesses.csv#dimension/geography-type"
+                },
                 {
-                    "@id": "active-businesses.csv#class/ons-geography-code"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                    "@id": "active-businesses.csv#dimension/ons-geography-code"
+                },
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                    "@id": "active-businesses.csv#dimension/year"
                 }
             ]
         },
         {
-            "@id": "active-businesses.csv#component/area-name",
+            "@id": "active-businesses.csv#attribute/lower-confidence-interval-95",
+            "@type": [
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#AttributeProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Lower Confidence Interval (95%)"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#integer"
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#component/measure-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
@@ -747,59 +507,87 @@
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "active-businesses.csv#dimension/area-name"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "active-businesses.csv#dimension/area-name"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "active-businesses.csv#dimension/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://purl.org/linked-data/cube#ComponentProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Area Name"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "active-businesses.csv#class/area-name"
+                    "@value": 5
                 }
             ]
         },
         {
             "@id": "active-businesses.csv#class/ons-geography-code",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Class",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "active-businesses.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "active-businesses.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 6
+                }
             ]
         },
         {
             "@id": "active-businesses.csv#attribute/observation-status",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentProperty",
                 "http://purl.org/linked-data/cube#AttributeProperty"
             ],
@@ -846,32 +634,244 @@
             ]
         },
         {
-            "@id": "active-businesses.csv#component/upper-confidence-interval-95",
+            "@id": "active-businesses.csv#component/geography-type",
             "@type": [
                 "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#ComponentSet"
             ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "active-businesses.csv#attribute/upper-confidence-interval-95"
-                }
-            ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "active-businesses.csv#attribute/upper-confidence-interval-95"
+                    "@id": "active-businesses.csv#dimension/geography-type"
                 }
             ],
-            "http://purl.org/linked-data/cube#componentRequired": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-                    "@value": false
+                    "@id": "active-businesses.csv#dimension/geography-type"
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 9
+                    "@value": 3
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#qbDataSet",
+            "@type": [
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://purl.org/linked-data/cube#DataSet",
+                "http://www.w3.org/ns/dcat#Distribution",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#Attachable"
+            ],
+            "http://purl.org/dc/terms/creator": [
+                {
+                    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+                }
+            ],
+            "http://purl.org/dc/terms/identifier": [
+                {
+                    "@value": "Active businesses"
+                }
+            ],
+            "http://purl.org/dc/terms/issued": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+                    "@value": "2024-01-30T12:26:49.626680"
+                }
+            ],
+            "http://purl.org/dc/terms/title": [
+                {
+                    "@language": "en",
+                    "@value": "Active businesses"
+                }
+            ],
+            "http://purl.org/linked-data/cube#structure": [
+                {
+                    "@id": "active-businesses.csv#structure"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Active businesses"
+                }
+            ],
+            "http://www.w3.org/ns/dcat#isDistributionOf": [
+                {
+                    "@id": "active-businesses.csv#dataset"
+                }
+            ],
+            "http://www.w3.org/ns/prov#wasGeneratedBy": [
+                {
+                    "@id": "active-businesses.csv#csvcubed-build-activity"
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#dimension/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "ons-geography-code.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "ONS Geography Code"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "active-businesses.csv#class/ons-geography-code"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#dimension/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "active-businesses.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "active-businesses.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "active-businesses.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 2
+                }
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Class"
+            ]
+        },
+        {
+            "@id": "active-businesses.csv#structure",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#DataStructureDefinition",
+                "http://purl.org/linked-data/cube#ComponentSet"
+            ],
+            "http://purl.org/linked-data/cube#component": [
+                {
+                    "@id": "active-businesses.csv#component/ons-geography-code"
+                },
+                {
+                    "@id": "active-businesses.csv#component/year"
+                },
+                {
+                    "@id": "active-businesses.csv#component/upper-confidence-interval-95"
+                },
+                {
+                    "@id": "active-businesses.csv#component/geography-type"
+                },
+                {
+                    "@id": "active-businesses.csv#component/area-name"
+                },
+                {
+                    "@id": "active-businesses.csv#component/observation-status"
+                },
+                {
+                    "@id": "active-businesses.csv#component/lower-confidence-interval-95"
+                },
+                {
+                    "@id": "active-businesses.csv#component/number-of-enterprises"
+                },
+                {
+                    "@id": "active-businesses.csv#component/unit"
+                },
+                {
+                    "@id": "active-businesses.csv#component/measure-type"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "active-businesses.csv#attribute/lower-confidence-interval-95"
+                },
+                {
+                    "@id": "active-businesses.csv#dimension/year"
+                },
+                {
+                    "@id": "active-businesses.csv#dimension/area-name"
+                },
+                {
+                    "@id": "active-businesses.csv#measure/number-of-enterprises"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
+                    "@id": "active-businesses.csv#attribute/observation-status"
+                },
+                {
+                    "@id": "active-businesses.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "active-businesses.csv#attribute/upper-confidence-interval-95"
+                },
+                {
+                    "@id": "active-businesses.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#sliceKey": [
+                {
+                    "@id": "active-businesses.csv#slice/cross-measures"
                 }
             ]
         },
@@ -879,8 +879,8 @@
             "@id": "active-businesses.csv#dataset",
             "@type": [
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Dataset"
+                "http://www.w3.org/ns/dcat#Dataset",
+                "http://www.w3.org/ns/dcat#Resource"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -912,7 +912,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2024-12-18T09:33:49.626680"
+                    "@value": "2025-07-15T16:33:49.626680"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -946,6 +946,18 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
+                    "@value": "combined-authority"
+                },
+                {
+                    "@language": "en",
+                    "@value": "business-demography"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
+                },
+                {
+                    "@language": "en",
                     "@value": "enterprises"
                 },
                 {
@@ -955,18 +967,6 @@
                 {
                     "@language": "en",
                     "@value": "local-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "combined-authority"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
-                },
-                {
-                    "@language": "en",
-                    "@value": "business-demography"
                 },
                 {
                     "@language": "en",
@@ -1080,9 +1080,9 @@
         {
             "@id": "active-businesses.csv#unit/number",
             "@type": [
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://qudt.org/schema/qudt/Unit"
+                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
