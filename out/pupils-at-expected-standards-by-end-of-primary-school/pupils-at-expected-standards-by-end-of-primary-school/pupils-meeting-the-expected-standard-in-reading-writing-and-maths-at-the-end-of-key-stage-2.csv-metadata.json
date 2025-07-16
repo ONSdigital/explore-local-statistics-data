@@ -233,61 +233,41 @@
     ],
     "rdfs:seeAlso": [
         {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/area-name",
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/observation-status",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status"
+                }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status"
                 }
             ],
-            "http://purl.org/linked-data/cube#dimension": [
+            "http://purl.org/linked-data/cube#componentRequired": [
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
+                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+                    "@value": false
                 }
             ],
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 2
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "area-name.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Area Name"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/area-name"
+                    "@value": 10
                 }
             ]
         },
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/lower-confidence-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
@@ -321,19 +301,10 @@
             ],
             "http://purl.org/linked-data/cube#component": [
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/pupils-at-expected-standards-by-end-of-primary-school"
-                },
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/ons-geography-code"
-                },
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/observation-status"
-                },
-                {
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/area-name"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/unit"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/lower-confidence-interval"
                 },
                 {
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/gregorian-time-interval"
@@ -342,45 +313,54 @@
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/geography-type"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/upper-confidence-interval"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/ons-geography-code"
                 },
                 {
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/measure-type"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/lower-confidence-interval"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/pupils-at-expected-standards-by-end-of-primary-school"
+                },
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/observation-status"
+                },
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/unit"
+                },
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/geography-type"
                 },
                 {
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/geography-type"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
                 },
                 {
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/lower-confidence-interval"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/lower-confidence-interval"
                 },
                 {
                     "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#measure/pupils-at-expected-standards-by-end-of-primary-school"
                 },
                 {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                },
+                {
                     "@id": "http://purl.org/linked-data/cube#measureType"
                 },
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#sliceKey": [
@@ -390,12 +370,67 @@
             ]
         },
         {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "area-name.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Area Name"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/area-name"
+                }
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/geography-type",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#slice/cross-measures",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#SliceKey"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
+                },
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
+                },
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/geography-type"
+                },
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
+                }
+            ]
+        },
+        {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#measure/pupils-at-expected-standards-by-end-of-primary-school",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#MeasureProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
@@ -415,17 +450,17 @@
             ]
         },
         {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval",
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/lower-confidence-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
                 "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://www.w3.org/2000/01/rdf-schema#label": [
                 {
                     "@language": "en",
-                    "@value": "Upper Confidence Interval"
+                    "@value": "Lower Confidence Interval"
                 }
             ],
             "http://www.w3.org/2000/01/rdf-schema#range": [
@@ -435,42 +470,20 @@
             ]
         },
         {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#slice/cross-measures",
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/upper-confidence-interval",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#SliceKey"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
-                },
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/geography-type"
-                },
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
-                },
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/observation-status",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#attribute": [
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status"
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval"
                 }
             ],
             "http://purl.org/linked-data/cube#componentRequired": [
@@ -482,45 +495,75 @@
             "http://purl.org/linked-data/cube#order": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 10
+                    "@value": 9
                 }
             ]
         },
         {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status",
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/measure-type",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
+            "http://purl.org/linked-data/cube#componentProperty": [
                 {
-                    "@language": "en",
-                    "@value": "Observation Status"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
                 }
             ],
-            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+            "http://purl.org/linked-data/cube#dimension": [
                 {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                    "@id": "http://purl.org/linked-data/cube#measureType"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 5
                 }
             ]
         },
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/area-name",
             "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/geography-type",
+            "@type": [
+                "http://purl.org/linked-data/cube#CodedProperty",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://purl.org/linked-data/cube#codeList": [
+                {
+                    "@id": "geography-type.csv#code-list"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Geography Type"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/geography-type"
+                }
             ]
         },
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -547,66 +590,18 @@
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/gregorian-time-interval",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/measure-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "http://purl.org/linked-data/cube#measureType"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 5
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/gregorian-time-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 4
-                }
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ]
         },
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval",
             "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
+                "http://purl.org/linked-data/cube#CodedProperty",
                 "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#DimensionProperty",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
+                "http://purl.org/linked-data/cube#ComponentProperty"
             ],
             "http://purl.org/linked-data/cube#codeList": [
                 {
@@ -633,9 +628,9 @@
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/geography-type",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -655,141 +650,11 @@
             ]
         },
         {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/geography-type",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://purl.org/linked-data/cube#DimensionProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#CodedProperty"
-            ],
-            "http://purl.org/linked-data/cube#codeList": [
-                {
-                    "@id": "geography-type.csv#code-list"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Geography Type"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/geography-type"
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/lower-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentProperty",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#AttributeProperty",
-                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#label": [
-                {
-                    "@language": "en",
-                    "@value": "Lower Confidence Interval"
-                }
-            ],
-            "http://www.w3.org/2000/01/rdf-schema#range": [
-                {
-                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/upper-confidence-interval",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-                    "@value": false
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 9
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/ons-geography-code",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#dimension": [
-                {
-                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 1
-                }
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/unit",
-            "@type": [
-                "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
-            ],
-            "http://purl.org/linked-data/cube#attribute": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentProperty": [
-                {
-                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
-                }
-            ],
-            "http://purl.org/linked-data/cube#componentRequired": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-                    "@value": true
-                }
-            ],
-            "http://purl.org/linked-data/cube#order": [
-                {
-                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
-                    "@value": 6
-                }
-            ]
-        },
-        {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/pupils-at-expected-standards-by-end-of-primary-school",
             "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
                 "http://purl.org/linked-data/cube#ComponentSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://purl.org/linked-data/cube#ComponentSpecification"
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/linked-data/cube#componentProperty": [
                 {
@@ -809,27 +674,13 @@
             ]
         },
         {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/ons-geography-code",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
-            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/geography-type",
-            "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/2000/01/rdf-schema#Class"
-            ]
-        },
-        {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#qbDataSet",
             "@type": [
-                "http://purl.org/linked-data/cube#Attachable",
-                "http://www.w3.org/ns/dcat#Resource",
-                "http://www.w3.org/ns/dcat#Distribution",
                 "http://purl.org/linked-data/cube#DataSet",
-                "http://www.w3.org/2000/01/rdf-schema#Resource"
+                "http://www.w3.org/ns/dcat#Distribution",
+                "http://www.w3.org/ns/dcat#Resource",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://purl.org/linked-data/cube#Attachable"
             ],
             "http://purl.org/dc/terms/creator": [
                 {
@@ -876,10 +727,159 @@
             ]
         },
         {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/ons-geography-code",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/ons-geography-code"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 1
+                }
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/unit",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#attribute": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+                }
+            ],
+            "http://purl.org/linked-data/cube#componentRequired": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+                    "@value": true
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 6
+                }
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/observation-status",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Observation Status"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+                {
+                    "@id": "http://purl.org/linked-data/sdmx/2009/attribute#obsStatus"
+                }
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/gregorian-time-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/gregorian-time-interval"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 4
+                }
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#attribute/upper-confidence-interval",
+            "@type": [
+                "http://purl.org/linked-data/cube#AttributeProperty",
+                "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+                "http://purl.org/linked-data/cube#ComponentProperty"
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#label": [
+                {
+                    "@language": "en",
+                    "@value": "Upper Confidence Interval"
+                }
+            ],
+            "http://www.w3.org/2000/01/rdf-schema#range": [
+                {
+                    "@id": "http://www.w3.org/2001/XMLSchema#decimal"
+                }
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#class/ons-geography-code",
+            "@type": [
+                "http://www.w3.org/2000/01/rdf-schema#Class",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ]
+        },
+        {
+            "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#component/area-name",
+            "@type": [
+                "http://purl.org/linked-data/cube#ComponentSpecification",
+                "http://purl.org/linked-data/cube#ComponentSet",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
+            ],
+            "http://purl.org/linked-data/cube#componentProperty": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#dimension": [
+                {
+                    "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dimension/area-name"
+                }
+            ],
+            "http://purl.org/linked-data/cube#order": [
+                {
+                    "@type": "http://www.w3.org/2001/XMLSchema#integer",
+                    "@value": 2
+                }
+            ]
+        },
+        {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#dataset",
             "@type": [
-                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
+                "http://www.w3.org/ns/dcat#Resource",
                 "http://www.w3.org/ns/dcat#Dataset"
             ],
             "http://purl.org/dc/terms/creator": [
@@ -912,7 +912,7 @@
             "http://purl.org/dc/terms/modified": [
                 {
                     "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-                    "@value": "2025-01-22T17:42:00"
+                    "@value": "2025-07-16T10:42:00"
                 }
             ],
             "http://purl.org/dc/terms/publisher": [
@@ -946,15 +946,11 @@
             "http://www.w3.org/ns/dcat#keyword": [
                 {
                     "@language": "en",
-                    "@value": "county"
-                },
-                {
-                    "@language": "en",
-                    "@value": "subnational"
-                },
-                {
-                    "@language": "en",
                     "@value": "state-funded-school"
+                },
+                {
+                    "@language": "en",
+                    "@value": "key-stage-2-attainment"
                 },
                 {
                     "@language": "en",
@@ -962,7 +958,15 @@
                 },
                 {
                     "@language": "en",
-                    "@value": "key-stage-2-attainment"
+                    "@value": "subnational"
+                },
+                {
+                    "@language": "en",
+                    "@value": "county"
+                },
+                {
+                    "@language": "en",
+                    "@value": "region"
                 },
                 {
                     "@language": "en",
@@ -971,10 +975,6 @@
                 {
                     "@language": "en",
                     "@value": "writing"
-                },
-                {
-                    "@language": "en",
-                    "@value": "region"
                 }
             ],
             "http://www.w3.org/ns/dcat#theme": [
@@ -998,8 +998,8 @@
         {
             "@id": "https://github.com/GSS-Cogs/csvcubed/releases/tag/v0.5.1",
             "@type": [
-                "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.w3.org/ns/prov#Entity"
+                "http://www.w3.org/ns/prov#Entity",
+                "http://www.w3.org/2000/01/rdf-schema#Resource"
             ],
             "http://purl.org/dc/terms/title": [
                 {
@@ -1084,9 +1084,9 @@
         {
             "@id": "pupils-meeting-the-expected-standard-in-reading-writing-and-maths-at-the-end-of-key-stage-2.csv#unit/percent",
             "@type": [
-                "http://qudt.org/schema/qudt/Unit",
+                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit",
                 "http://www.w3.org/2000/01/rdf-schema#Resource",
-                "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
+                "http://qudt.org/schema/qudt/Unit"
             ],
             "http://qudt.org/schema/qudt/isScalingOf": [
                 {
