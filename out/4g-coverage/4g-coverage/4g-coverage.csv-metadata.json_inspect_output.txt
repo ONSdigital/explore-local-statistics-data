@@ -6,7 +6,7 @@
           - Title: 4G coverage
           - Label: 4G coverage
           - Issued: 2023-03-31T12:10:26.937229
-          - Modified: 2024-06-03T14:20:00
+          - Modified: 2025-07-15T17:20:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- subnational
-		-- combined-authority
-		-- local-authority
-		-- county
 		-- connectivity
 		-- broadband-mobile-coverage
 		-- region
+		-- subnational
+		-- local-authority
+		-- combined-authority
+		-- county
           - Contact Point: None
           - Identifier: 4G coverage
           - Comment: Percentage of geographic areas with 4G signal outdoors from at least 1 operator (signal threshold: 105dBm), UK, as of January 2025.
@@ -87,7 +87,7 @@
 ons-geography-code.csv#code-list ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 409
+        - Number of Rows: 415
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD            AREANM                         Geography Variable Name                                                    Indicator  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                             Notes
@@ -118,5 +118,5 @@ n09000011                 ards-and-north-down local-authority-district   4G cove
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                   Measure    Unit  Count
-Geographic area with 4G coverage by at least one provider percent    409
+Geographic area with 4G coverage by at least one provider percent    415
         
