@@ -18,7 +18,7 @@ E08000021,Newcastle upon Tyne,Local Authority District,Gigabit capable broadband
 E08000022,North Tyneside,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,92.7,Percentage,%,,,,1,
 E08000023,South Tyneside,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,89.7,Percentage,%,,,,1,
 E08000024,Sunderland,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,90.9,Percentage,%,,,,1,
-E12000002,North West,Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,90.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+E12000002,North West,Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,88.1,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E06000008,Blackburn with Darwen,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,89.0,Percentage,%,,,,1,
 E06000009,Blackpool,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,87.9,Percentage,%,,,,1,
 E06000049,Cheshire East,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,81.6,Percentage,%,,,,1,
@@ -38,6 +38,7 @@ E08000007,Stockport,Local Authority District,Gigabit capable broadband,Premises 
 E08000008,Tameside,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.3,Percentage,%,,,,1,
 E08000009,Trafford,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.0,Percentage,%,,,,1,
 E08000010,Wigan,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,95.3,Percentage,%,,,,1,
+E47000018,Lancashire,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,87.6,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E10000017,Lancashire,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,87.4,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E07000117,Burnley,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,92.7,Percentage,%,,,,1,
 E07000118,Chorley,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,90.2,Percentage,%,,,,1,
@@ -57,19 +58,23 @@ E08000012,Liverpool,Local Authority District,Gigabit capable broadband,Premises 
 E08000014,Sefton,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,77.7,Percentage,%,,,,1,
 E08000013,St. Helens,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,95.1,Percentage,%,,,,1,
 E08000015,Wirral,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,95.8,Percentage,%,,,,1,
-E12000003,Yorkshire and The Humber,Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,87.3,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+E12000003,Yorkshire and The Humber,Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,89.5,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+E47000016,Hull and East Yorkshire,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.9,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E06000011,East Riding of Yorkshire,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,89.7,Percentage,%,,,,1,
 E06000010,"Kingston upon Hull, City of",County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,99.5,Percentage,%,,,,1,
+E47000017,Greater Lincolnshire,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,79.7,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E06000012,North East Lincolnshire,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.4,Percentage,%,,,,1,
 E06000013,North Lincolnshire,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,90.9,Percentage,%,,,,1,
 E47000012,York and North Yorkshire,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,77.2,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E06000014,York,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,87.2,Percentage,%,,,,1,
 E06000065,North Yorkshire,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,74.2,Percentage,%,,,,1,
 E47000002,South Yorkshire,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,91.3,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
-E08000016,Barnsley,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,83.7,Percentage,%,,,,1,
+E08000038,Barnsley,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,83.7,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+E08000016,Barnsley,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,83.7,Percentage,%,,,,1,Obsolete code since 2025 (replaced by E08000038 Barnsley)
 E08000017,Doncaster,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,91.6,Percentage,%,,,,1,
 E08000018,Rotherham,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,94.5,Percentage,%,,,,1,
-E08000019,Sheffield,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.0,Percentage,%,,,,1,
+E08000039,Sheffield,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+E08000019,Sheffield,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.0,Percentage,%,,,,1,Obsolete code since 2025 (replaced by E08000039 Sheffield)
 E47000003,West Yorkshire,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,91.6,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E08000032,Bradford,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,91.4,Percentage,%,,,,1,
 E08000033,Calderdale,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,72.4,Percentage,%,,,,1,
@@ -311,6 +316,7 @@ E07000228,Mid Sussex,Local Authority District,Gigabit capable broadband,Premises
 E07000229,Worthing,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,97.7,Percentage,%,,,,1,
 E12000009,South West,Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,77.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E47000009,West of England,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,87.7,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+E47000015,Devon and Torbay,Combined Authority or City Region,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,72.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 E06000022,Bath and North East Somerset,County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,76.5,Percentage,%,,,,1,
 E06000058,"Bournemouth, Christchurch and Poole",County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,89.5,Percentage,%,,,,1,
 E06000023,"Bristol, City of",County or Unitary Authority,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,94.1,Percentage,%,,,,1,
@@ -339,7 +345,7 @@ E07000079,Cotswold,Local Authority District,Gigabit capable broadband,Premises w
 E07000080,Forest of Dean,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,74.7,Percentage,%,,,,1,
 E07000081,Gloucester,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,93.5,Percentage,%,,,,1,
 E07000082,Stroud,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,60.2,Percentage,%,,,,1,
-E07000083,Tewkesbury,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,84.9,Percentage,%,,,,1,
+E07000083,North Gloucestershire,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,84.9,Percentage,%,,,,1,Tewkesbury renamed to North Gloucestershire in 2025
 W92000004,Wales,Nation,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,76.4,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 W06000001,Isle of Anglesey,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,48.1,Percentage,%,,,,1,
 W06000002,Gwynedd,Local Authority District,Gigabit capable broadband,Premises with gigabit capable broadband,2025-01,57.2,Percentage,%,,,,1,
