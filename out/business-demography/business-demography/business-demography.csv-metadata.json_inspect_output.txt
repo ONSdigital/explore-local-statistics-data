@@ -6,7 +6,7 @@
           - Title: Business demography
           - Label: Business demography
           - Issued: 2024-01-30T12:26:49.626680
-          - Modified: 2024-12-17T14:00:00
+          - Modified: 2025-07-15T16:00:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/business
           - Keywords: 
-		-- enterprises
-		-- subnational
-		-- county
-		-- business-demography
-		-- local-authority
-		-- combined-authority
 		-- region
+		-- subnational
+		-- local-authority
+		-- county
+		-- combined-authority
+		-- business-demography
+		-- enterprises
           - Contact Point: None
           - Identifier: Business demography
           - Comment: Percentage of business births, deaths and high growth, UK, 2018 to 2023.
@@ -86,36 +86,36 @@ ons-geography-code.csv#code-list ONS Geography Code          areacd
               year.csv#code-list               Year          period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 8010
+        - Number of Rows: 8118
         - Number of Duplicates: 0
         - First 10 Rows: 
       indicator    areacd         areanm geography  observation unit    measure  period  lower_confidence_interval_95  upper_confidence_interval_95  observation_status
-business-births k02000001 united-kingdom   country    11.494884    % Percentage    2020                           NaN                           NaN                 NaN
 business-births k02000001 united-kingdom   country    12.271275    % Percentage    2018                           NaN                           NaN                 NaN
-business-births k02000001 united-kingdom   country    12.592957    % Percentage    2019                           NaN                           NaN                 NaN
 business-births k02000001 united-kingdom   country    12.382151    % Percentage    2021                           NaN                           NaN                 NaN
 business-births k02000001 united-kingdom   country    11.520044    % Percentage    2022                           NaN                           NaN                 NaN
 business-births k02000001 united-kingdom   country    11.010192    % Percentage    2023                           NaN                           NaN                 NaN
+business-births k02000001 united-kingdom   country    12.592957    % Percentage    2019                           NaN                           NaN                 NaN
+business-births k02000001 united-kingdom   country    11.494884    % Percentage    2020                           NaN                           NaN                 NaN
+business-births k03000001  great-britain   country    11.547593    % Percentage    2020                           NaN                           NaN                 NaN
+business-births k03000001  great-britain   country    12.654096    % Percentage    2019                           NaN                           NaN                 NaN
 business-births k03000001  great-britain   country    11.072716    % Percentage    2023                           NaN                           NaN                 NaN
 business-births k03000001  great-britain   country    12.429196    % Percentage    2021                           NaN                           NaN                 NaN
-business-births k03000001  great-britain   country    11.592551    % Percentage    2022                           NaN                           NaN                 NaN
-business-births k03000001  great-britain   country    12.336993    % Percentage    2018                           NaN                           NaN                 NaN
         - Last 10 Rows: 
              indicator    areacd                areanm                geography  observation unit    measure  period  lower_confidence_interval_95  upper_confidence_interval_95  observation_status
-high-growth-businesses n09000010 newry-mourne-and-down local-authority-district     3.289474    % Percentage    2022                           NaN                           NaN                 NaN
-high-growth-businesses n09000010 newry-mourne-and-down local-authority-district     3.896104    % Percentage    2023                           NaN                           NaN                 NaN
+high-growth-businesses n09000010 newry-mourne-and-down local-authority-district     2.777778    % Percentage    2021                           NaN                           NaN                 NaN
+high-growth-businesses n09000010 newry-mourne-and-down local-authority-district     3.521127    % Percentage    2018                           NaN                           NaN                 NaN
 high-growth-businesses n09000010 newry-mourne-and-down local-authority-district     3.472222    % Percentage    2019                           NaN                           NaN                 NaN
 high-growth-businesses n09000010 newry-mourne-and-down local-authority-district     4.166667    % Percentage    2020                           NaN                           NaN                 NaN
-high-growth-businesses n09000011   ards-and-north-down local-authority-district     4.040404    % Percentage    2023                           NaN                           NaN                 NaN
 high-growth-businesses n09000011   ards-and-north-down local-authority-district     3.157895    % Percentage    2022                           NaN                           NaN                 NaN
 high-growth-businesses n09000011   ards-and-north-down local-authority-district     2.061856    % Percentage    2019                           NaN                           NaN                 NaN
 high-growth-businesses n09000011   ards-and-north-down local-authority-district     3.030303    % Percentage    2018                           NaN                           NaN                 NaN
-high-growth-businesses n09000011   ards-and-north-down local-authority-district     2.127660    % Percentage    2021                           NaN                           NaN                 NaN
 high-growth-businesses n09000011   ards-and-north-down local-authority-district     3.157895    % Percentage    2020                           NaN                           NaN                 NaN
+high-growth-businesses n09000011   ards-and-north-down local-authority-district     2.127660    % Percentage    2021                           NaN                           NaN                 NaN
+high-growth-businesses n09000011   ards-and-north-down local-authority-district     4.040404    % Percentage    2023                           NaN                           NaN                 NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
    Measure    Unit  Count
-Percentage percent   8010
+Percentage percent   8118
         
