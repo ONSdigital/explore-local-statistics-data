@@ -5,8 +5,8 @@
         - The code list has the following catalog metadata:
           - Title: Gregorian Time Interval
           - Label: Gregorian Time Interval
-          - Issued: 2025-05-12T13:24:01.237851
-          - Modified: 2025-05-12T13:24:01.237851
+          - Issued: 2025-07-16T14:03:36.633545
+          - Modified: 2025-07-16T14:03:36.633545
           - License: None
           - Creator: None
           - Publisher: None
