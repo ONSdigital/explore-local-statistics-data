@@ -6,7 +6,7 @@
           - Title: Active businesses
           - Label: Active businesses
           - Issued: 2024-01-30T12:26:49.626680
-          - Modified: 2024-12-18T09:33:49.626680
+          - Modified: 2025-07-15T16:33:49.626680
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,13 +14,13 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/business
           - Keywords: 
-		-- business-demography
-		-- local-authority
-		-- region
 		-- county
+		-- business-demography
+		-- region
+		-- local-authority
+		-- subnational
 		-- combined-authority
 		-- enterprises
-		-- subnational
           - Contact Point: None
           - Identifier: Active businesses
           - Comment: Count of active businesses, UK, 2018 to 2023.
@@ -89,36 +89,36 @@ ons-geography-code.csv#code-list ONS Geography Code          AREACD
               year.csv#code-list               Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 2670
+        - Number of Rows: 2706
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography     Variable Name         Indicator  Period  Observation               Measure                  Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+k02000001 united-kingdom   country Active businesses Active businesses    2018      2841025 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+k02000001 united-kingdom   country Active businesses Active businesses    2019      2889115 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 k02000001 united-kingdom   country Active businesses Active businesses    2021      2939675 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 k02000001 united-kingdom   country Active businesses Active businesses    2022      2924685 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 k02000001 united-kingdom   country Active businesses Active businesses    2023      2870295 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-k02000001 united-kingdom   country Active businesses Active businesses    2018      2841025 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 k02000001 united-kingdom   country Active businesses Active businesses    2020      2897115 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-k02000001 united-kingdom   country Active businesses Active businesses    2019      2889115 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-k03000001  great-britain   country Active businesses Active businesses    2019      2827385 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-k03000001  great-britain   country Active businesses Active businesses    2018      2780945 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 k03000001  great-britain   country Active businesses Active businesses    2020      2834790 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+k03000001  great-britain   country Active businesses Active businesses    2023      2805590 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 k03000001  great-britain   country Active businesses Active businesses    2022      2859940 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+k03000001  great-britain   country Active businesses Active businesses    2019      2827385 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
         - Last 10 Rows: 
    AREACD                AREANM                Geography     Variable Name         Indicator  Period  Observation               Measure                  Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2023         7645 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2018         6855 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2020         7120 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2022         7530 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2019         7075 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2018         4430 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2018         6855 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+n09000010 newry-mourne-and-down local-authority-district Active businesses Active businesses    2021         7385 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2023         4530 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2020         4505 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2018         4430 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2019         4505 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2021         4670 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
 n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2022         4645 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
-n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2019         4505 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
+n09000011   ards-and-north-down local-authority-district Active businesses Active businesses    2020         4505 Number of enterprises Number of enterprises                              NaN                              NaN                 NaN         1   NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
               Measure   Unit  Count
-Number of Enterprises number   2670
+Number of Enterprises number   2706
         
