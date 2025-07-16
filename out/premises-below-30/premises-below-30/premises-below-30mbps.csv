@@ -18,7 +18,7 @@ e08000021,newcastle-upon-tyne,local-authority-district,Premises below 30Mbps,Pre
 e08000022,north-tyneside,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.4,Percentage,%,,,,1,
 e08000023,south-tyneside,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.3,Percentage,%,,,,1,
 e08000024,sunderland,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.7,Percentage,%,,,,1,
-e12000002,north-west,region,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.5,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e12000002,north-west,region,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.8,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000008,blackburn-with-darwen,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.4,Percentage,%,,,,1,
 e06000009,blackpool,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.4,Percentage,%,,,,1,
 e06000049,cheshire-east,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,3.3,Percentage,%,,,,1,
@@ -38,6 +38,7 @@ e08000007,stockport,local-authority-district,Premises below 30Mbps,Premises belo
 e08000008,tameside,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.7,Percentage,%,,,,1,
 e08000009,trafford,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.7,Percentage,%,,,,1,
 e08000010,wigan,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.7,Percentage,%,,,,1,
+e47000018,lancashire,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.7,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e10000017,lancashire,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e07000117,burnley,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.0,Percentage,%,,,,1,
 e07000118,chorley,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.9,Percentage,%,,,,1,
@@ -57,19 +58,23 @@ e08000012,liverpool,local-authority-district,Premises below 30Mbps,Premises belo
 e08000014,sefton,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.5,Percentage,%,,,,1,
 e08000013,st-helens,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.3,Percentage,%,,,,1,
 e08000015,wirral,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.5,Percentage,%,,,,1,
-e12000003,yorkshire-and-the-humber,region,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.2,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e12000003,yorkshire-and-the-humber,region,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e47000016,hull-and-east-yorkshire,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.1,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000011,east-riding-of-yorkshire,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.9,Percentage,%,,,,1,
 e06000010,kingston-upon-hull-city-of,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.0,Percentage,%,,,,1,
+e47000017,greater-lincolnshire,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,4.6,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000012,north-east-lincolnshire,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.2,Percentage,%,,,,1,
 e06000013,north-lincolnshire,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.1,Percentage,%,,,,1,
 e47000012,york-and-north-yorkshire,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,4.5,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000014,york,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.9,Percentage,%,,,,1,
 e06000065,north-yorkshire,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,4.9,Percentage,%,,,,1,
 e47000002,south-yorkshire,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.3,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
-e08000016,barnsley,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.0,Percentage,%,,,,1,
+e08000038,barnsley,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.0,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e08000016,barnsley,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.0,Percentage,%,,,,1,Obsolete code since 2025 (replaced by E08000038 Barnsley)
 e08000017,doncaster,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.0,Percentage,%,,,,1,
 e08000018,rotherham,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.8,Percentage,%,,,,1,
-e08000019,sheffield,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.9,Percentage,%,,,,1,
+e08000039,sheffield,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.9,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e08000019,sheffield,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.9,Percentage,%,,,,1,Obsolete code since 2025 (replaced by E08000039 Sheffield)
 e47000003,west-yorkshire,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.6,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e08000032,bradford,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,1.7,Percentage,%,,,,1,
 e08000033,calderdale,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,3.4,Percentage,%,,,,1,
@@ -311,6 +316,7 @@ e07000228,mid-sussex,local-authority-district,Premises below 30Mbps,Premises bel
 e07000229,worthing,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.3,Percentage,%,,,,1,
 e12000009,south-west,region,Premises below 30Mbps,Premises below 30Mbps,2025-01,4.2,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e47000009,west-of-england,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.1,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
+e47000015,devon-and-torbay,combined-authority-or-city-region,Premises below 30Mbps,Premises below 30Mbps,2025-01,7.7,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 e06000022,bath-and-north-east-somerset,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,3.5,Percentage,%,,,,1,
 e06000058,bournemouth-christchurch-and-poole,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.8,Percentage,%,,,,1,
 e06000023,bristol-city-of,county-or-unitary-authority,Premises below 30Mbps,Premises below 30Mbps,2025-01,2.1,Percentage,%,,,,1,
@@ -339,7 +345,7 @@ e07000079,cotswold,local-authority-district,Premises below 30Mbps,Premises below
 e07000080,forest-of-dean,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,5.7,Percentage,%,,,,1,
 e07000081,gloucester,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,0.7,Percentage,%,,,,1,
 e07000082,stroud,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,3.1,Percentage,%,,,,1,
-e07000083,tewkesbury,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,5.2,Percentage,%,,,,1,
+e07000083,north-gloucestershire,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,5.2,Percentage,%,,,,1,Tewkesbury renamed to North Gloucestershire in 2025
 w92000004,wales,nation,Premises below 30Mbps,Premises below 30Mbps,2025-01,3.5,Percentage,%,,,,1,This data has been aggregated and may show differences to other published figures
 w06000001,isle-of-anglesey,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,5.7,Percentage,%,,,,1,
 w06000002,gwynedd,local-authority-district,Premises below 30Mbps,Premises below 30Mbps,2025-01,6.3,Percentage,%,,,,1,

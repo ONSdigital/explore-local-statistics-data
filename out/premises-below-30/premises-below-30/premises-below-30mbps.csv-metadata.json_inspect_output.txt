@@ -6,7 +6,7 @@
           - Title: Premises below 30Mbps
           - Label: Premises below 30Mbps
           - Issued: 2024-09-25T11:35:00
-          - Modified: 2024-06-03T16:50:00
+          - Modified: 2025-07-15T16:50:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/ofcom
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/businessindustryandtrade/itandinternetindustry
           - Keywords: 
-		-- county
-		-- broadband-mobile-coverage
+		-- subnational
+		-- region
 		-- local-authority
 		-- connectivity
-		-- region
-		-- subnational
+		-- broadband-mobile-coverage
+		-- county
 		-- combined-authority
           - Contact Point: None
           - Identifier: Premises below 30Mbps
@@ -87,7 +87,7 @@
 ons-geography-code.csv#code-list ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 409
+        - Number of Rows: 415
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD            AREANM                         Geography         Variable Name             Indicator  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                             Notes
@@ -118,5 +118,5 @@ n09000011                 ards-and-north-down local-authority-district Premises 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                                   Measure    Unit  Count
-Premises that do not have access to services above 30Mbps Percent    409
+Premises that do not have access to services above 30Mbps Percent    415
         
