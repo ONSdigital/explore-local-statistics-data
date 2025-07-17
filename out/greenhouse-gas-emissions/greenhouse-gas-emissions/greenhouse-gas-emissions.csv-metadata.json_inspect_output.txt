@@ -6,7 +6,7 @@
           - Title: Greenhouse gas emissions
           - Label: Greenhouse gas emissions
           - Issued: 2025-02-11T11:35:00
-          - Modified: 2025-02-26T12:50:00
+          - Modified: 2025-07-17T09:59:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero
@@ -14,17 +14,17 @@
           - Themes: 
 		-- https://www.ons.gov.uk/economy/environmentalaccounts
           - Keywords: 
-		-- emissions
-		-- combined-authority
 		-- greenhouse-gas
+		-- emissions
+		-- region
 		-- local-authority
 		-- subnational
+		-- combined-authority
 		-- county
-		-- region
           - Contact Point: None
           - Identifier: Greenhouse gas emissions
-          - Comment: This indicator shows greenhouse gas emissions (tCO2e) per capita, in the UK, for 2005 to 2022.
-          - Description: This dataset shows greenhouse gas emissions (tCO2e) per capita, in the UK, for 2005 to 2022.
+          - Comment: This indicator shows greenhouse gas emissions (tCO2e) per capita, in the UK, for 2005 to 2023.
+          - Description: This dataset shows greenhouse gas emissions (tCO2e) per capita, in the UK, for 2005 to 2023.
 		
 		### Coverage 
 		
@@ -97,36 +97,36 @@ ons-geography-code.csv#code-list ONS Geography Code          AREACD
               year.csv#code-list               Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 7362
+        - Number of Rows: 7885
         - Number of Duplicates: 0
         - First 10 Rows: 
    AREACD         AREANM Geography            Variable Name                Indicator  Period  Observation                      Measure                     Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                             Notes
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2005        10.61 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2022         5.55 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2021         5.91 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2020         5.62 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2019         6.24 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2018         6.49 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2016         6.80 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2015         7.31 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2014         7.58 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
-k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2017         6.59 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2005        10.62 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2023         5.22 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2022         5.51 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2021         5.92 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2020         5.69 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2019         6.23 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2017         6.62 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2016         6.83 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2015         7.29 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
+k02000001 united-kingdom   country Greenhouse gas emissions Greenhouse gas emissions    2018         6.50 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1 This data has been aggregated and may show differences to other published figures
         - Last 10 Rows: 
    AREACD              AREANM                Geography            Variable Name                Indicator  Period  Observation                      Measure                     Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2009         8.81 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2011         8.44 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2010         8.96 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2008         9.40 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2007         9.63 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2006         9.74 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2005         9.71 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2021         7.28 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2012         8.79 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
-n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2022         7.01 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2012         8.59 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2011         8.22 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2010         8.67 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2008         9.15 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2007         9.35 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2006         9.49 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2005         9.43 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2022         6.63 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2013         8.50 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Greenhouse gas emissions Greenhouse gas emissions    2023         6.45 Emissions (tCO2e) per capita Tonnes of CO2 equivalent                              NaN                              NaN                 NaN        -1   NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                      Measure                     Unit  Count
-Emissions (tCO2e) per capita Tonnes of CO2 equivalent   7362
+Emissions (tCO2e) per capita Tonnes of CO2 equivalent   7885
         
