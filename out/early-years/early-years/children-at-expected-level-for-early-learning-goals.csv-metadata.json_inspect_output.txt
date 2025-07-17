@@ -6,7 +6,7 @@
           - Title: Children at expected level for early learning goals
           - Label: Children at expected level for early learning goals
           - Issued: 2024-01-04T12:26:49.626680
-          - Modified: 2024-12-13T16:26:49.626680
+          - Modified: 2025-07-17T13:55:49.626680
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/department-for-education
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- region
-		-- children-development
 		-- local-authority
-		-- state-funded-school
 		-- county
 		-- subnational
+		-- children-development
+		-- region
+		-- state-funded-school
 		-- combined-authority
           - Contact Point: None
           - Identifier: Children at expected level for early learning goals
@@ -83,7 +83,7 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          period
      ons-geography-code.csv#code-list      ONS Geography Code          areacd
 
 - The data cube has the following dataset information:
-        - Number of Observations: 3150
+        - Number of Observations: 3204
         - Number of Duplicates: 0
         - First 10 Observations: 
    areacd                         areanm                         geography                  period unit                    measure  observation  lower_confidence_interval_95  upper_confidence_interval_95  observation_status
@@ -114,7 +114,7 @@ e07000189            south-somerset    local-authority-district 2021-09-01t00-00
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                    Measure    Unit  Count
-communication-and-language Percent   1050
-                  literacy Percent   1050
-               mathematics Percent   1050
+communication-and-language Percent   1068
+                  literacy Percent   1068
+               mathematics Percent   1068
         
