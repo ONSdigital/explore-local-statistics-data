@@ -6,7 +6,7 @@
           - Title: Museums
           - Label: Museums
           - Issued: 2024-09-18T15:07:00
-          - Modified: 2024-09-20T16:36:00
+          - Modified: 2025-07-17T13:28:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,12 +14,12 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing
           - Keywords: 
-		-- county
-		-- subnational
-		-- museums
-		-- local-authority
-		-- combined-authority
 		-- region
+		-- combined-authority
+		-- local-authority
+		-- county
+		-- museums
+		-- subnational
           - Contact Point: None
           - Identifier: Museums
           - Comment: Museums per 100,000 people, UK, as at 30 September 2021.
@@ -61,8 +61,6 @@
                           Geography    Dimension      True            museums.csv#dimension/geography-type                Observation
                       Variable Name   Suppressed     False                                            None                           
                           Indicator   Suppressed     False                                            None                           
-                            Mission   Suppressed     False                                            None                           
-                           Category   Suppressed     False                                            None                           
                              Period    Dimension      True              museums.csv#dimension/time-instant                Observation
                         Observation Observations     False           museums.csv#measure/number-of-museums                Observation
                             Measure   Suppressed     False                                            None                           
@@ -75,8 +73,6 @@
     - Columns where suppress output is true: 
     		-- Variable Name
     		-- Indicator
-    		-- Mission
-    		-- Category
     		-- Measure
     		-- Unit
     		-- Polarity
@@ -92,36 +88,36 @@ ons-geography-code.csv#code-list ONS Geography Code          AREACD
       time-instant.csv#code-list       Time Instant          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 426
+        - Number of Rows: 432
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD            AREANM                         Geography                  Variable Name                      Indicator   Mission                                                  Category              Period  Observation                              Measure                     Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                        Notes
-k02000001    united-kingdom                           country Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.94 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-k03000001     great-britain                           country Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.94 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-k04000001 england-and-wales                           country Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.56 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-e92000001           england                            nation Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.45 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-e12000001        north-east                            region Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         3.97 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-e47000006       tees-valley combined-authority-or-city-region Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         2.51 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-e47000014        north-east combined-authority-or-city-region Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.47 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data was aggregated and may show differences to other published figures
-e06000047     county-durham       county-or-unitary-authority Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         3.45 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1                                                                          NaN
-e06000005        darlington       county-or-unitary-authority Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         1.86 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1                                                                          NaN
-e06000001        hartlepool       county-or-unitary-authority Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.33 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1                                                                          NaN
+   AREACD            AREANM                         Geography Variable Name                      Indicator              Period  Observation                              Measure                     Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity                                                                             Notes
+k02000001    united-kingdom                           country       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.94 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+k03000001     great-britain                           country       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.94 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+k04000001 england-and-wales                           country       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.56 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+e92000001           england                            nation       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.45 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+e12000001        north-east                            region       Museums Museums per 100,000 population 2021-09-30t00-00-00         3.97 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+e47000006       tees-valley combined-authority-or-city-region       Museums Museums per 100,000 population 2021-09-30t00-00-00         2.51 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+e47000014        north-east combined-authority-or-city-region       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.47 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1 This data has been aggregated and may show differences to other published figures
+e06000047     county-durham       county-or-unitary-authority       Museums Museums per 100,000 population 2021-09-30t00-00-00         3.45 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1                                                                               NaN
+e06000005        darlington       county-or-unitary-authority       Museums Museums per 100,000 population 2021-09-30t00-00-00         1.86 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1                                                                               NaN
+e06000001        hartlepool       county-or-unitary-authority       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.33 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1                                                                               NaN
         - Last 10 Rows: 
-   AREACD                              AREANM                Geography                  Variable Name                      Indicator   Mission                                                  Category              Period  Observation                              Measure                     Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
-n09000002 armagh-city-banbridge-and-craigavon local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         7.77 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000003                             belfast local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         5.50 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000004            causeway-coast-and-glens local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         4.94 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000005             derry-city-and-strabane local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         3.32 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000006                 fermanagh-and-omagh local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         7.70 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000007             lisburn-and-castlereagh local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         2.68 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000008                 mid-and-east-antrim local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         7.19 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000009                          mid-ulster local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         6.65 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000010               newry-mourne-and-down local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         2.20 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
-n09000011                 ards-and-north-down local-authority-district Museums per 100,000 population Museums per 100,000 population Mission 9 Restoring a sense of community, local pride and belonging 2021-09-30t00-00-00         3.67 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+   AREACD                              AREANM                Geography Variable Name                      Indicator              Period  Observation                              Measure                     Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+n09000002 armagh-city-banbridge-and-craigavon local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         7.77 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000003                             belfast local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         5.50 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000004            causeway-coast-and-glens local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         4.94 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000005             derry-city-and-strabane local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         3.32 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000006                 fermanagh-and-omagh local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         7.70 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000007             lisburn-and-castlereagh local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         2.68 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000008                 mid-and-east-antrim local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         7.19 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000009                          mid-ulster local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         6.65 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000010               newry-mourne-and-down local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         2.20 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
+n09000011                 ards-and-north-down local-authority-district       Museums Museums per 100,000 population 2021-09-30t00-00-00         3.67 Counts of museums per 100,000 people Count per 100,000 people                              NaN                              NaN                 NaN         1   NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
           Measure        Unit  Count
-Number of museums per 100,000    426
+Number of museums per 100,000    432
         
