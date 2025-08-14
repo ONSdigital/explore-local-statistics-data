@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 14/08/2025 at 14:20",
+
+  "ess-beta-metadata": {
+    "label": "Population by age and sex",
+    "prefix": null,
+    "suffix": "%",
+    "subText": null,
+    "decimalPlaces": 1,
+    "subtitle": "Percentage of females and males by five-year age band",
+    "experimentalStatistic": "F",
+    "sourceDate": "30/07/2025",
+    "sourceURL": "https://www.nomisweb.co.uk/datasets/pestsyoala",
+    "sourceOrg": "Office for National Statistics",
+    "longDescription": "This indicator shows the percentage distribution of females and males across five-year age bands, in the United Kingdom, for 1991 to 2024.",
+    "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn.",
+    "standardised": "T"
+    }
+}
