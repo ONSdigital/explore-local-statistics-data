@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 14/08/2025 at 14:25",
+  "_note": "This file was last modified on 20/08/2025 at 09:56",
 
     "ess-beta-metadata": {
       "shared": {
@@ -10,14 +10,38 @@
       },
   
       "Population count": {
-        "label": "Population count",
+        "label": "Total population",
         "prefix": null,
         "suffix": null,
         "subText": "people",
         "decimalPlaces": 0,
         "standardised": "F",
         "subtitle": "Mid-year estimate of the total number of people",
-        "longDescription": "This indicator shows the mid-year total population estimate, in the United Kingdom, for 1991 to 2024.",
+        "longDescription": "This indicator shows the mid-year estimate of the total population, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Population count - Female": {
+        "label": "Total female population",
+        "prefix": null,
+        "suffix": null,
+        "subText": "people",
+        "decimalPlaces": 0,
+        "standardised": "F",
+        "subtitle": "Mid-year estimate of the total number of females",
+        "longDescription": "This indicator shows the mid-year estimate of the total female population, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Population count - Male": {
+        "label": "Total male population",
+        "prefix": null,
+        "suffix": null,
+        "subText": "people",
+        "decimalPlaces": 0,
+        "standardised": "F",
+        "subtitle": "Mid-year estimate of the total number of males",
+        "longDescription": "This indicator shows the mid-year estimate of the total male population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
       },
   
@@ -26,10 +50,34 @@
         "prefix": null,
         "suffix": null,
         "subText": "years",
-        "decimalPlaces": 1,
+        "decimalPlaces": 0,
         "standardised": "T",
         "subtitle": "Median age of people",
         "longDescription": "This indicator shows the median age of people, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nNOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Median age - Female": {
+        "label": "Female median age",
+        "prefix": null,
+        "suffix": null,
+        "subText": "years",
+        "decimalPlaces": 0,
+        "standardised": "T",
+        "subtitle": "Median age of the female population",
+        "longDescription": "This indicator shows the median age of the female population, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nNOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Median age - Male": {
+        "label": "Male median age",
+        "prefix": null,
+        "suffix": null,
+        "subText": "years",
+        "decimalPlaces": 0,
+        "standardised": "T",
+        "subtitle": "Median age of the male population",
+        "longDescription": "This indicator shows the median age of the male population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nNOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
       },
   
@@ -44,6 +92,30 @@
         "longDescription": "This indicator shows the number of usual residents per square kilometre, calculated based on total land area excluding inland water, in the United Kingdom, for 1991 to 2024.",
         "caveats": "(Standard Area Measurements for Administrative Areas (December 2023) in the UK)[https://geoportal.statistics.gov.uk/datasets/da8590c5f55f4664b32ad4339f43419c/about] was used to calculate population density by dividing the total population by the area in square kilometres.\n\nNOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
       },
+
+      "Population density - Female": {
+        "label": "Female population density",
+        "prefix": null,
+        "suffix": null,
+        "subText": "females per square kilometre",
+        "decimalPlaces": 0,
+        "standardised": "T",
+        "subtitle": "Number of females resident per square kilometre",
+        "longDescription": "This indicator shows the number of usual female residents per square kilometre, calculated based on total land area excluding inland water, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "(Standard Area Measurements for Administrative Areas (December 2023) in the UK)[https://geoportal.statistics.gov.uk/datasets/da8590c5f55f4664b32ad4339f43419c/about] was used to calculate population density by dividing the female population by the area in square kilometres.\n\nNOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Population density - Male": {
+        "label": "Male population density",
+        "prefix": null,
+        "suffix": null,
+        "subText": "males per square kilometre",
+        "decimalPlaces": 0,
+        "standardised": "T",
+        "subtitle": "Number of males resident per square kilometre",
+        "longDescription": "This indicator shows the number of usual male residents per square kilometre, calculated based on total land area excluding inland water, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "(Standard Area Measurements for Administrative Areas (December 2023) in the UK)[https://geoportal.statistics.gov.uk/datasets/da8590c5f55f4664b32ad4339f43419c/about] was used to calculate population density by dividing the male population by the area in square kilometres.\n\nNOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
   
       "5-year population change": {
         "label": "Five-year change in population",
@@ -54,6 +126,114 @@
         "standardised": "T",
         "subtitle": "Population growth or decline over five years",
         "longDescription": "This indicator shows the five-year change in population, in the United Kingdom.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 0 to 15": {
+        "label": "Population aged 0 to 15",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the population aged 0 to 15",
+        "longDescription": "This indicator shows the percentage of the population aged 0 to 15, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 0 to 15 - Female": {
+        "label": "Female population aged 0 to 15",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the female population aged 0 to 15",
+        "longDescription": "This indicator shows the percentage of the female population aged 0 to 15, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 0 to 15 - Male": {
+        "label": "Male population aged 0 to 15",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the male population aged 0 to 15",
+        "longDescription": "This indicator shows the percentage of the male population aged 0 to 15, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 16 to 64": {
+        "label": "Population aged 16 to 64",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the population aged 16 to 64",
+        "longDescription": "This indicator shows the percentage of the population aged 16 to 64, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 16 to 64 - Female": {
+        "label": "Female population aged 16 to 64",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the female population aged 16 to 64",
+        "longDescription": "This indicator shows the percentage of the female population aged 16 to 64, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 16 to 64 - Male": {
+        "label": "Male population aged 16 to 64",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the male population aged 16 to 64",
+        "longDescription": "This indicator shows the percentage of the male population aged 16 to 64, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 65+": {
+        "label": "Population aged 65 and over",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the population aged 65 and over",
+        "longDescription": "This indicator shows the percentage of the population aged 65 and over, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 65+ - Female": {
+        "label": "Female population aged 65 and over",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the female population aged 65 and over",
+        "longDescription": "This indicator shows the percentage of the female population aged 65 and over, in the United Kingdom, for 1991 to 2024.",
+        "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
+      },
+
+      "Percentage of the population aged 65+ - Male": {
+        "label": "Male population aged 65 and over",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
+        "subtitle": "Percentage of the male population aged 65 and over",
+        "longDescription": "This indicator shows the percentage of the male population aged 65 and over, in the United Kingdom, for 1991 to 2024.",
         "caveats": "NOMIS data for Scotland is taken from National Records of Scotland and includes revisions for 2011 to 2022 data that are not currently reflected in the Office for National Statistics population estimates. These revisions will be included in the Mid-2024 UK estimates, scheduled for release in the Autumn."
       }
     }
