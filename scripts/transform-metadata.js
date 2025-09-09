@@ -80,7 +80,7 @@ function makeIndicators(ds, meta, data, cols) {
       caveats: base.caveats,
       // The below are usually calculated at the data processing stage
       confidenceIntervals: cols.find(col => col?.transform?.key === "lci") ? true : false,
-      canBeNegative: Math.min(...rows.map(d => d[valueCol.key])) < 0
+      canBeNegative: rows.map(d => d[valueCol.key]).sort((a, b) => a - b)[0] < 0
     };
     // These seem to be the inverse of each other. Mybe can get rid of one?
     // (Current usage also seems to be inconsistent with the definition)
