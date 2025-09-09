@@ -8,7 +8,7 @@
   "dc:title": "Greenhouse gas emissions",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./greenhouse-gas-emissions/greenhouse-gas-emissions.csv",
+      "url": "greenhouse-gas-emissions.csv",
       "tableSchema": {
         "columns": [
           {

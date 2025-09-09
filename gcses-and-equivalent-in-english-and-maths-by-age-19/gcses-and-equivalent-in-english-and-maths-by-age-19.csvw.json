@@ -8,7 +8,7 @@
   "dc:title": "GCSEs in English and Maths",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./gcses-and-equivalent-in-english-and-maths-by-age-19/gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
+      "url": "gcses-and-equivalent-in-english-and-maths-by-age-19.csv",
       "tableSchema": {
         "columns": [
           {

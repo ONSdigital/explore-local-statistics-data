@@ -8,7 +8,7 @@
   "dc:title": "Preventable cardiovascular mortality (England)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates/cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
+      "url": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
       "tableSchema": {
         "columns": [
           {

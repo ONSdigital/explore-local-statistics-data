@@ -8,7 +8,7 @@
   "dc:title": "4G coverage",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./4g-coverage/4g-coverage.csv",
+      "url": "4g-coverage.csv",
       "tableSchema": {
         "columns": [
           {

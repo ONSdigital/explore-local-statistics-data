@@ -8,7 +8,7 @@
   "dc:title": "Homicide Offences (Northern Ireland)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./homicide-offences-ni/homicide-offences-ni.csv",
+      "url": "homicide-offences-ni.csv",
       "tableSchema": {
         "columns": [
           {

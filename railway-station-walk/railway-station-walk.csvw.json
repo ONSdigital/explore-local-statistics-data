@@ -8,7 +8,7 @@
   "dc:title": "Residents within a 30 minute walk of their nearest railway station",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./railway-station-walk/railway-station-walk.csv",
+      "url": "railway-station-walk.csv",
       "tableSchema": {
         "columns": [
           {

@@ -8,7 +8,7 @@
   "dc:title": "Apprenticeship starts and achievements (Scotland)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./apprenticeships-scotland/apprenticeships-scotland.csv",
+      "url": "apprenticeships-scotland.csv",
       "tableSchema": {
         "columns": [
           {

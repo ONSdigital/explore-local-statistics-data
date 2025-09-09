@@ -8,7 +8,7 @@
   "dc:title": "Domestic electricity consumption",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./domestic-electricity-consumption/domestic-electricity-consumption.csv",
+      "url": "domestic-electricity-consumption.csv",
       "tableSchema": {
         "columns": [
           {

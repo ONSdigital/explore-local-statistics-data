@@ -8,7 +8,7 @@
   "dc:title": "Net additions to the housing stock (England)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./additions-to-the-housing-stock/additions-to-the-housing-stock.csv",
+      "url": "additions-to-the-housing-stock.csv",
       "tableSchema": {
         "columns": [
           {

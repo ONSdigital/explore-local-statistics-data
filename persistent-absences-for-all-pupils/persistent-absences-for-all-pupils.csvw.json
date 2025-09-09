@@ -8,7 +8,7 @@
   "dc:title": "Persistent absences for all pupils",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./persistent-absences-for-all-pupils/persistent-absences-for-all-pupils.csv",
+      "url": "persistent-absences-for-all-pupils.csv",
       "tableSchema": {
         "columns": [
           {

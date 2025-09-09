@@ -8,7 +8,7 @@
   "dc:title": "Annual personal wellbeing estimates",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./annual-personal-wellbeing-estimates/annual-personal-wellbeing-estimates.csv",
+      "url": "annual-personal-wellbeing-estimates.csv",
       "tableSchema": {
         "columns": [
           {

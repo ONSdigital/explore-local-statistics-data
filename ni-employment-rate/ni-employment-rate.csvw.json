@@ -8,7 +8,7 @@
   "dc:title": "Local labour market indicators for Northern Ireland",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./ni-employment-rate/ni-employment-rate.csv",
+      "url": "ni-employment-rate.csv",
       "tableSchema": {
         "columns": [
           {

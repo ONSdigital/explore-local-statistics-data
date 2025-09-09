@@ -8,7 +8,7 @@
   "dc:title": "Adult obesity prevalence",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./adult-obesity-prevalence-aged-18-years-and-over/adult-obesity-prevalence-aged-18-years-and-over.csv",
+      "url": "adult-obesity-prevalence-aged-18-years-and-over.csv",
       "tableSchema": {
         "columns": [
           {

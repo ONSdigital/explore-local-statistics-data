@@ -8,7 +8,7 @@
   "dc:title": "Homicide offences",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./homicide-offences/homicide-offences.csv",
+      "url": "homicide-offences.csv",
       "tableSchema": {
         "columns": [
           {

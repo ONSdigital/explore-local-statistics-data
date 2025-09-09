@@ -8,7 +8,7 @@
   "dc:title": "Gross median weekly pay",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./gross-median-weekly-pay/gross-median-weekly-pay.csv",
+      "url": "gross-median-weekly-pay.csv",
       "tableSchema": {
         "columns": [
           {

@@ -8,7 +8,7 @@
   "dc:title": "Claimant Count",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./claimant-count/claimant-count.csv",
+      "url": "claimant-count.csv",
       "tableSchema": {
         "columns": [
           {

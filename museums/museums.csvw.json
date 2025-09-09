@@ -8,7 +8,7 @@
   "dc:title": "Museums",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./museums/museums.csv",
+      "url": "museums.csv",
       "tableSchema": {
         "columns": [
           {

@@ -8,7 +8,7 @@
   "dc:title": "Economically inactive people due to long-term sickness",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./proportion-of-people-who-are-economically-inactive-due-to-sickness/proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
+      "url": "proportion-of-people-who-are-economically-inactive-due-to-sickness.csv",
       "tableSchema": {
         "columns": [
           {

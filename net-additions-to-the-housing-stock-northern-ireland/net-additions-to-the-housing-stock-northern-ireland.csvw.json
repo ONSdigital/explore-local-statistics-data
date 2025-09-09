@@ -8,7 +8,7 @@
   "dc:title": "Net additions to the housing stock (Northern Ireland)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./net-additions-to-the-housing-stock-northern-ireland/net-additions-to-the-housing-stock-northern-ireland.csv",
+      "url": "net-additions-to-the-housing-stock-northern-ireland.csv",
       "tableSchema": {
         "columns": [
           {

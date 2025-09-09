@@ -8,7 +8,7 @@
   "dc:title": "Value of UK exports",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./total-value-of-uk-exports/total-value-of-uk-exports.csv",
+      "url": "total-value-of-uk-exports.csv",
       "tableSchema": {
         "columns": [
           {

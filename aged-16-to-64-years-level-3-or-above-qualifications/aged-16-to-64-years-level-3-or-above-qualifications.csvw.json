@@ -8,7 +8,7 @@
   "dc:title": "Aged 16 to 64 years level 3 or above qualifications",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-16-to-64-years-level-3-or-above-qualifications/aged-16-to-64-years-level-3-or-above-qualifications.csv",
+      "url": "aged-16-to-64-years-level-3-or-above-qualifications.csv",
       "tableSchema": {
         "columns": [
           {

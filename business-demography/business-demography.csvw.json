@@ -8,7 +8,7 @@
   "dc:title": "Business demography",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./business-demography/business-demography.csv",
+      "url": "business-demography.csv",
       "tableSchema": {
         "columns": [
           {

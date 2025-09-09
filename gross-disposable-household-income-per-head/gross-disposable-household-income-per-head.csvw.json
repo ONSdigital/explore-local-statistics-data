@@ -8,7 +8,7 @@
   "dc:title": "Gross disposable household income per head",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./gross-disposable-household-income-per-head/gross-disposable-household-income-per-head.csv",
+      "url": "gross-disposable-household-income-per-head.csv",
       "tableSchema": {
         "columns": [
           {

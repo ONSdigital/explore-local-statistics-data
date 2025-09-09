@@ -8,7 +8,7 @@
   "dc:title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+      "url": "mortality-rate-from-coronary-heart-disease-scotland.csv",
       "tableSchema": {
         "columns": [
           {

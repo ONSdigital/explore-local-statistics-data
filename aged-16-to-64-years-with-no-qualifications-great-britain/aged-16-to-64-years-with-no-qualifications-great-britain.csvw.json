@@ -8,7 +8,7 @@
   "dc:title": "No qualifications",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-16-to-64-years-with-no-qualifications-great-britain/aged-16-to-64-years-with-no-qualifications-great-britain.csv",
+      "url": "aged-16-to-64-years-with-no-qualifications-great-britain.csv",
       "tableSchema": {
         "columns": [
           {

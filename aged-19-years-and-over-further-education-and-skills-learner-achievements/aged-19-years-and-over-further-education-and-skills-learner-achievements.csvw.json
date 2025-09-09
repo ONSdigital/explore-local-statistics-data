@@ -8,7 +8,7 @@
   "dc:title": "Aged 19 years and over further education and skills learner achievements",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-19-years-and-over-further-education-and-skills-learner-achievements/aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
+      "url": "aged-19-years-and-over-further-education-and-skills-learner-achievements.csv",
       "tableSchema": {
         "columns": [
           {

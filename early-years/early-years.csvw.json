@@ -8,7 +8,7 @@
   "dc:title": "Children at expected level for early learning goals",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./early-years/early-years.csv",
+      "url": "early-years.csv",
       "tableSchema": {
         "columns": [
           {

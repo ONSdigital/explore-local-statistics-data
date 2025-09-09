@@ -8,7 +8,7 @@
   "dc:title": "Average length of short-term let stay",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./average-length-of-short-term-let-stay/average-length-of-short-term-let-stay.csv",
+      "url": "average-length-of-short-term-let-stay.csv",
       "tableSchema": {
         "columns": [
           {

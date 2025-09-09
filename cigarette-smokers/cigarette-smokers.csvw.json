@@ -8,7 +8,7 @@
   "dc:title": "Cigarette smokers",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./cigarette-smokers/cigarette-smokers.csv",
+      "url": "cigarette-smokers.csv",
       "tableSchema": {
         "columns": [
           {

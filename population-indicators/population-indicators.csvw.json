@@ -8,7 +8,7 @@
   "dc:title": "Population indicators",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./population-indicators/population-indicators.csv",
+      "url": "population-indicators.csv",
       "tableSchema": {
         "columns": [
           {

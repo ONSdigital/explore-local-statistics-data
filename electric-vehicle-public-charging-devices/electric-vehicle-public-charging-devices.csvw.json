@@ -8,7 +8,7 @@
   "dc:title": "Electric vehicle public charging devices",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./electric-vehicle-public-charging-devices/electric-vehicle-public-charging-devices.csv",
+      "url": "electric-vehicle-public-charging-devices.csv",
       "tableSchema": {
         "columns": [
           {

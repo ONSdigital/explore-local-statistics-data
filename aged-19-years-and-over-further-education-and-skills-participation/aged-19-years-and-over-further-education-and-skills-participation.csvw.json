@@ -8,7 +8,7 @@
   "dc:title": "Aged 19 years and over further education and skills participation",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
+      "url": "aged-19-years-and-over-further-education-and-skills-participation.csv",
       "tableSchema": {
         "columns": [
           {

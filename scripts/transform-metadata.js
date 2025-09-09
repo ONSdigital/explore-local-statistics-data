@@ -127,7 +127,7 @@ for (const ds of datasets) {
     "dc:title": meta.title || titleFromSlug(ds),
     tables: [
       {
-        url: `${baseUrl}/${dataPath}`,
+        url: `${ds}.csv`,
         tableSchema: {
           columns: formatCols(data.columns),
         },

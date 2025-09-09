@@ -8,7 +8,7 @@
   "dc:title": "Apprenticeship starts (Northern Ireland)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./apprenticeships-starts-ni/apprenticeships-starts-ni.csv",
+      "url": "apprenticeships-starts-ni.csv",
       "tableSchema": {
         "columns": [
           {

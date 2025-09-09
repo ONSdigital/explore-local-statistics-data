@@ -8,7 +8,7 @@
   "dc:title": "Active businesses",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./active-enterprises/active-enterprises.csv",
+      "url": "active-enterprises.csv",
       "tableSchema": {
         "columns": [
           {

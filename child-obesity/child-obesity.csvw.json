@@ -8,7 +8,7 @@
   "dc:title": "Children prevalence of weight status",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./child-obesity/child-obesity.csv",
+      "url": "child-obesity.csv",
       "tableSchema": {
         "columns": [
           {

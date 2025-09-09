@@ -8,7 +8,7 @@
   "dc:title": "Persistent absences for pupils eligible for free school meals",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./persistent-absences-for-pupils-eligible-for-free-school-meals/persistent-absences-for-pupils-eligible-for-free-school-meals.csv",
+      "url": "persistent-absences-for-pupils-eligible-for-free-school-meals.csv",
       "tableSchema": {
         "columns": [
           {

@@ -8,7 +8,7 @@
   "dc:title": "Cancer diagnosis at stage 1 and 2",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+      "url": "cancer-diagnosis-at-stage-1-and-2.csv",
       "tableSchema": {
         "columns": [
           {

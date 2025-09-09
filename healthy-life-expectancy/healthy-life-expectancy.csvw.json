@@ -8,7 +8,7 @@
   "dc:title": "Healthy life expectancy",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./healthy-life-expectancy/healthy-life-expectancy.csv",
+      "url": "healthy-life-expectancy.csv",
       "tableSchema": {
         "columns": [
           {

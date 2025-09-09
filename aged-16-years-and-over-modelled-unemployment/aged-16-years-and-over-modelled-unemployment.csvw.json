@@ -8,7 +8,7 @@
   "dc:title": "Modelled unemployment rate",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-16-years-and-over-modelled-unemployment/aged-16-years-and-over-modelled-unemployment.csv",
+      "url": "aged-16-years-and-over-modelled-unemployment.csv",
       "tableSchema": {
         "columns": [
           {

@@ -8,7 +8,7 @@
   "dc:title": "Net additions to the housing stock (Wales)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./net-additions-to-the-housing-stock-wales/net-additions-to-the-housing-stock-wales.csv",
+      "url": "net-additions-to-the-housing-stock-wales.csv",
       "tableSchema": {
         "columns": [
           {

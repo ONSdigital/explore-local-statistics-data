@@ -8,7 +8,7 @@
   "dc:title": "Aged 16 to 64 years level 3 or above qualifications, Northern Ireland",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-16-to-64-years-level3-or-above-qualifications-ni/aged-16-to-64-years-level3-or-above-qualifications-ni.csv",
+      "url": "aged-16-to-64-years-level3-or-above-qualifications-ni.csv",
       "tableSchema": {
         "columns": [
           {

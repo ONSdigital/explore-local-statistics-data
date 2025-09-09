@@ -8,7 +8,7 @@
   "dc:title": "Engagement with culture and heritage",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./engagement-with-culture-and-heritage/engagement-with-culture-and-heritage.csv",
+      "url": "engagement-with-culture-and-heritage.csv",
       "tableSchema": {
         "columns": [
           {

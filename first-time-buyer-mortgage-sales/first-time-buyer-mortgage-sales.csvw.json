@@ -8,7 +8,7 @@
   "dc:title": "First-time buyer mortgage sales",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./first-time-buyer-mortgage-sales/first-time-buyer-mortgage-sales.csv",
+      "url": "first-time-buyer-mortgage-sales.csv",
       "tableSchema": {
         "columns": [
           {

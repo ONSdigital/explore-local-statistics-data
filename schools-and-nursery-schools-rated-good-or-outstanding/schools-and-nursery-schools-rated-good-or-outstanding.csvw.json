@@ -8,7 +8,7 @@
   "dc:title": "State-funded schools rated good or outstanding",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./schools-and-nursery-schools-rated-good-or-outstanding/schools-and-nursery-schools-rated-good-or-outstanding.csv",
+      "url": "schools-and-nursery-schools-rated-good-or-outstanding.csv",
       "tableSchema": {
         "columns": [
           {

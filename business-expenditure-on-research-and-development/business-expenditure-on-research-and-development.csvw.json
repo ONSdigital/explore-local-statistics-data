@@ -8,7 +8,7 @@
   "dc:title": "Business expenditure on research and development",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./business-expenditure-on-research-and-development/business-expenditure-on-research-and-development.csv",
+      "url": "business-expenditure-on-research-and-development.csv",
       "tableSchema": {
         "columns": [
           {

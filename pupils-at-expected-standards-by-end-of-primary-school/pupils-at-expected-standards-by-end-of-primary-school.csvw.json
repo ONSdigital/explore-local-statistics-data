@@ -8,7 +8,7 @@
   "dc:title": "Pupils meeting the expected standard in reading, writing and maths at the end of Key Stage 2",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./pupils-at-expected-standards-by-end-of-primary-school/pupils-at-expected-standards-by-end-of-primary-school.csv",
+      "url": "pupils-at-expected-standards-by-end-of-primary-school.csv",
       "tableSchema": {
         "columns": [
           {

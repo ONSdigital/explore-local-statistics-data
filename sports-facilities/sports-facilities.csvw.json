@@ -8,7 +8,7 @@
   "dc:title": "Sports facilities",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./sports-facilities/sports-facilities.csv",
+      "url": "sports-facilities.csv",
       "tableSchema": {
         "columns": [
           {

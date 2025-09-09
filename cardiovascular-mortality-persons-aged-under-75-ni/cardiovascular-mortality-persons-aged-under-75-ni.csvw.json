@@ -8,7 +8,7 @@
   "dc:title": "Preventable cardiovascular mortality (Northern Ireland)",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
+      "url": "cardiovascular-mortality-persons-aged-under-75-ni.csv",
       "tableSchema": {
         "columns": [
           {

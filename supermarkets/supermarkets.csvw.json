@@ -8,7 +8,7 @@
   "dc:title": "Supermarkets",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./supermarkets/supermarkets.csv",
+      "url": "supermarkets.csv",
       "tableSchema": {
         "columns": [
           {

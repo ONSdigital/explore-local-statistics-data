@@ -8,7 +8,7 @@
   "dc:title": "Number of guest nights at a short-term let",
   "tables": [
     {
-      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./number-of-guest-nights-at-a-short-term-let/number-of-guest-nights-at-a-short-term-let.csv",
+      "url": "number-of-guest-nights-at-a-short-term-let.csv",
       "tableSchema": {
         "columns": [
           {
