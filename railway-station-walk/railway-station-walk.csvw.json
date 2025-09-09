@@ -1,0 +1,179 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Residents within a 30 minute walk of their nearest railway station",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./railway-station-walk/railway-station-walk.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Office for National Statistics",
+        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/traveltimetorailwaystationsinlocalareasenglandandwales",
+        "date": "2024-10-17"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "E",
+      "W"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "cauth",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E12",
+      "E47",
+      "E92",
+      "K04",
+      "W06",
+      "W92"
+    ],
+    "geographyYear": 2024,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "railway-station-walk",
+        "slug": "railway-station-walk",
+        "label": "Residents within a 30 minute walk of their nearest railway station",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 0,
+        "standardised": true,
+        "subtitle": "Percentage of resident population within a 30 minute walk of their nearest railway station",
+        "longDescription": "This indicator shows the percentage of the resident population living within a 30 minute walk of their nearest railway station, in England and Wales, as at June 2024.",
+        "caveats": "Travel time to railway stations analysis was performed in collaboration with Ordnance Survey (OS). This analysis contains the locations of 2,808 rail stations in England and Wales in June 2024. Some stations within the National Public Transport Access Nodes (NaPTAN) dataset have been excluded from this analysis. For example, stations on heritage lines that have a seasonal service and stations having a parliamentary service.\n\nAnalysis parameters, including walking speed of 4.8 kilometres per hour, closely follow those of the [Department for Transport Journey Time Statistics (2019)](https://www.gov.uk/government/publications/journey-time-statistics-guidance/journey-time-statistics-notes-and-definitions-2019#model-params).\n\nPlease see the ['More quality and methodology information'](https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/accesstolocalamenitiesinenglandandwales/october2024#data-sources-and-quality) section of the publication for further details.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Electric vehicle public charging devices",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./electric-vehicle-public-charging-devices/electric-vehicle-public-charging-devices.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Department for Transport, sourced from Zapmap",
+        "href": "https://www.gov.uk/government/collections/electric-vehicle-charging-infrastructure-statistics",
+        "date": "2025-07-24"
+      }
+    ],
+    "experimentalStatistic": true,
+    "geographyCountries": [
+      "E",
+      "N",
+      "S",
+      "W"
+    ],
+    "geographyGroups": [
+      "uk",
+      "ctry",
+      "rgn",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E92",
+      "K02",
+      "K03",
+      "N09",
+      "N92",
+      "S12",
+      "S92",
+      "W06",
+      "W92"
+    ],
+    "geographyYear": 2020,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "electric-vehicle-public-charging-devices",
+        "slug": "electric-vehicle-public-charging-devices",
+        "label": "Electric vehicle public charging devices",
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 1,
+        "standardised": true,
+        "subtitle": "Publicly available electric vehicle charging devices at all speeds per 100,000 people",
+        "longDescription": "This indicator shows publicly available electric vehicle charging devices at all speeds per 100,000 population (official statistics in development), in the UK, as of 00:00 on the first day of each quarter from October 2019 to July 2025.",
+        "caveats": "Data is provided by the electric vehicle and charging point platform [Zapmap](https://www.zapmap.com/) and represents devices reported as operational at 00:00 on the first day of each quarter.\n\n‘Total devices’ represent publicly available charging devices at all speeds. A device can have a number of connectors of varying speeds.\n\nThere may be large increases or reductions seen at local authority level in these statistics when comparing to a previous quarter and these should be considered in the context of longer-term trends. This can be caused by a number of factors, including a large group of devices being added to or decommissioned from source Zapmap data at a time. This can in turn be caused by delays between chargepoint operator activity and this information filtering through to Zapmap data.\n\nA specific example of this is Hammersmith and Fulham, which shows a sharp increase in mid-2023. This was due to the completion of a large On-Street Residential Chargepoint Scheme (ORCS) project, which significantly boosted the number of devices recorded in that area during that period.\n\nThe most recent population figures by Local Authority are sourced from the Office for National Statistics Population estimates for mid-year 2022. For quarters from July 2020 (2020-07) to April 2021 (2021-04), the population figures were sourced from 2019 estimates. Prior to July 2020 (2020-07), the population figures were sourced from the 2018 estimates.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

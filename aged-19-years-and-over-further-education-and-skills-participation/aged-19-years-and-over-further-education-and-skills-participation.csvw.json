@@ -1,0 +1,176 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Aged 19 years and over further education and skills participation",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./aged-19-years-and-over-further-education-and-skills-participation/aged-19-years-and-over-further-education-and-skills-participation.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Department for Education",
+        "href": "https://explore-education-statistics.service.gov.uk/data-catalogue/further-education-and-skills/2023-24",
+        "date": "2024-11-28"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "E"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "cauth",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E12",
+      "E47",
+      "E61",
+      "E92"
+    ],
+    "geographyYear": 2019,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "aged-19-years-and-over-further-education-and-skills-participation",
+        "slug": "aged-19-years-and-over-further-education-and-skills-participation",
+        "label": "Further education and skills participation",
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 0,
+        "standardised": true,
+        "subtitle": "People aged 19 and above participating in further education and skills learning (including apprenticeships), per 100,000 people",
+        "longDescription": "This indicator shows aged 19 years and over further education and skills participation rate per 100,000 population, in England, for full academic years 2018/19 to 2023/24.",
+        "caveats": "Participation is the count of learners that participated at any point during the stated academic period. Learners undertaking more than one course will be counted only once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

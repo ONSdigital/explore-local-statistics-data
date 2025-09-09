@@ -1,0 +1,186 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Cancer diagnosis at stage 1 and 2",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./cancer-diagnosis-at-stage-1-and-2/cancer-diagnosis-at-stage-1-and-2.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Mission",
+            "name": "Mission",
+            "datatype": "string"
+          },
+          {
+            "titles": "Category",
+            "name": "Category",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Office for Health Improvement and Disparities",
+        "href": "https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/4/gid/1000042/pat/15/par/E92000001/ati/6/are/E12000004/iid/93671/age/1/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-ao-0_car-do-0_tre-ao-1",
+        "date": "2024-02-06"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "E"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "cauth",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E12",
+      "E47",
+      "E67",
+      "E92"
+    ],
+    "geographyYear": 2024,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "cancer-diagnosis-at-stage-1-and-2",
+        "slug": "cancer-diagnosis-at-stage-1-and-2",
+        "label": "Cancer diagnosis at stage 1 and 2",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": true,
+        "subtitle": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage",
+        "longDescription": "This indicator shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2021.",
+        "caveats": "Due to the impact of the COVID-19 pandemic on both clinical and data quality arrangements, the ability to obtain stage data for cancer registrations was reduced for the 2019 and 2020 diagnosis years. In 2019, the proportion of stageable cancer diagnoses with a registered stage fell from 85% in 2018 to 76%. For the 2020 diagnosis year, stage completeness increased to 81%.\n\nValues for Cornwall and Isles of Scilly are in a combined code (E67000002).",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./mortality-rate-from-coronary-heart-disease-scotland/mortality-rate-from-coronary-heart-disease-scotland.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Public Health Scotland Cardiac Audit Programme",
+        "href": "https://publichealthscotland.scot/publications/show-all-releases?id=114742",
+        "date": "2024-10-29"
+      },
+      {
+        "name": "Public Health Scotland Stroke statistics",
+        "href": "https://publichealthscotland.scot/publications/show-all-releases?id=20500",
+        "date": "2025-01-28"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "S"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "S12",
+      "S92"
+    ],
+    "geographyYear": 2025,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "mortality-rate-from-coronary-heart-disease-scotland",
+        "slug": "mortality-rate-from-coronary-heart-disease-scotland",
+        "label": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 1,
+        "standardised": true,
+        "subtitle": "Age-standardised mortality rate from coronary heart disease or cerebrovascular disease for people aged under 75, per 100,000 people",
+        "longDescription": "This indicator shows the age-standardised mortality rate from coronary heart disease or cerebrovascular disease for those aged under 75 per 100,000 population, in Scotland, for 2001 to 2023.",
+        "caveats": "Data are based on year of death registration.\n\nData relate to all deaths that occurred in Scotland. This includes those who are resident outwith Scotland, those with no fixed abode and those with unknown residence.\n\nData includes underlying cause of death from coronary heart disease (ICD-10 code I20-I25) or cerebrovascular disease (ICD-10 code I60-I69).\n\nAge standardised rates calculated using the direct method, standardised to the 2013 European Standard Population (ESP2013). National Records of Scotland Population Estimates were used in the calculation of the crude and standardised rates.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

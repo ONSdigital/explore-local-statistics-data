@@ -1,0 +1,176 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Local labour market indicators for Northern Ireland",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./ni-employment-rate/ni-employment-rate.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Lower_confidence_interval_95",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper_confidence_interval_95",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Numerator",
+            "name": "Numerator",
+            "datatype": "number"
+          },
+          {
+            "titles": "Total",
+            "name": "Denominator",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation_status",
+            "name": "Observation status",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower_confidence_interval_95",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper_confidence_interval_95",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Numerator",
+          "key": "numerator",
+          "type": "measure"
+        },
+        {
+          "titles": "Total",
+          "key": "denominator",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation_status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Northern Ireland Statistics and Research Agency",
+        "href": "https://www.nisra.gov.uk/statistics/labour-market-and-social-welfare/labour-force-survey",
+        "date": "2024-07-09"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "N"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "N09",
+      "N92"
+    ],
+    "geographyYear": 2025,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "Employment Rate",
+        "slug": "employment-rate",
+        "label": "Employment rate (Northern Ireland)",
+        "standardised": false,
+        "subtitle": "Percentage of people aged 16 to 64 in employment",
+        "longDescription": "This indicator shows the percentage of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from, in Northern Ireland, for 2023.",
+        "caveats": "Calculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.\n\nTime series data is available at [NISRA](https://www.nisra.gov.uk/publications/labour-market-status-sub-population-tables).\n\nBecause the Labour Force Survey (LFS) is a sample survey, results are subject to sampling error, i.e. the actual percentage of the population in private households with a particular characteristic may differ from the percentage of the LFS sample with that characteristic.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      },
+      {
+        "code": "Economic Inactivity Rate",
+        "slug": "economic-inactivity rate",
+        "label": "Economic inactivity rate (Northern Ireland)",
+        "standardised": false,
+        "subtitle": "Percentage of people aged 16 to 64 who are not in employment and are not actively seeking work",
+        "longDescription": "This indicator shows the percentage of people aged between 16 and 64 years who are not in employment but do not meet the internationally accepted definition of unemployment because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks, in Northern Ireland, for 2023.",
+        "caveats": "Calculation of economic inactivity rate: number of economically inactive people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.\n\nTime series data is available at [NISRA](https://www.nisra.gov.uk/publications/labour-market-status-sub-population-tables).\n\nBecause the Labour Force Survey (LFS) is a sample survey, results are subject to sampling error, i.e. the actual percentage of the population in private households with a particular characteristic may differ from the percentage of the LFS sample with that characteristic.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

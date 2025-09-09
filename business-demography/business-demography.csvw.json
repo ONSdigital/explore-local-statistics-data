@@ -1,0 +1,195 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Business demography",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./business-demography/business-demography.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "areacd",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "areanm",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "lower_confidence_interval_95",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "upper_confidence_interval_95",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "observation_status",
+            "name": "Observation status",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "areacd",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "lower_confidence_interval_95",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "upper_confidence_interval_95",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "observation_status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Office for National Statistics",
+        "href": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousReleases",
+        "date": "2024-11-18"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "E",
+      "N",
+      "S",
+      "W"
+    ],
+    "geographyGroups": [
+      "uk",
+      "ctry",
+      "rgn",
+      "cauth",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E11",
+      "E12",
+      "E13",
+      "E47",
+      "E92",
+      "K02",
+      "K03",
+      "K04",
+      "N09",
+      "N92",
+      "S12",
+      "S92",
+      "W06",
+      "W92"
+    ],
+    "geographyYear": 2018,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "Business births",
+        "slug": "business-births",
+        "label": "Business births",
+        "standardised": false,
+        "subtitle": "Percentage of businesses newly registered for VAT and/or PAYE",
+        "longDescription": "This indicator shows the business births as a percentage of all active businesses, in the UK, for 2018 to 2023.",
+        "caveats": "A birth is identified as a business that was present in year t, but did not exist in year t-1 or t-2. Births are identified by making comparison of annual active population files and identifying those present in the latest file, but not the two previous ones. The birth rate is calculated using the number of births as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      },
+      {
+        "code": "Business deaths",
+        "slug": "business-deaths",
+        "label": "Business deaths",
+        "standardised": false,
+        "subtitle": "Percentage of businesses ceasing activity",
+        "longDescription": "This indicator shows the business deaths as a percentage of all active businesses, in the UK, for 2018 to 2023.",
+        "caveats": "A death is defined as a business that was on the active file in year t, but was no longer present in the active file in t+1 and t+2. In order to provide an early estimate of deaths, an adjustment has been made to the latest two years deaths to allow for reactivations. These figures are provisional and subject to revision. The death rate is calculated using the number of deaths as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      },
+      {
+        "code": "High growth businesses",
+        "slug": "high-growth businesses",
+        "label": "High growth businesses",
+        "standardised": false,
+        "subtitle": "Percentage of businesses with an average growth in employment of greater than 20% per year over a three-year period",
+        "longDescription": "This indicator shows the high growth businesses as a percentage of active businesses with 10 or more employees, in the UK, for 2018 to 2023.",
+        "caveats": "High growth measures all businesses with an average growth in employment of greater than 20%, per annum, over a three-year period. The size threshold used to identify these businesses is that they have 10 or more employees. The rate of high growth businesses is calculated using the number of high growth businesses as a proportion of the active businesses with 10 or more employees. Some of this data has been aggregated and may show differences to other published figures.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

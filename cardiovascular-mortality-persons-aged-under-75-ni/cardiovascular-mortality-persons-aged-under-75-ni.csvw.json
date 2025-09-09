@@ -1,0 +1,178 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Preventable cardiovascular mortality (Northern Ireland)",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./cardiovascular-mortality-persons-aged-under-75-ni/cardiovascular-mortality-persons-aged-under-75-ni.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Mission",
+            "name": "Mission",
+            "datatype": "string"
+          },
+          {
+            "titles": "Category",
+            "name": "Category",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Northern Ireland Department of Health",
+        "href": "https://www.health-ni.gov.uk/publications/age-standardised-death-rate-preventable-cardiovascular-disease-by-local-government-2001-2022",
+        "date": "2024-02-05"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "N"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "N09",
+      "N92"
+    ],
+    "geographyYear": 2025,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "cardiovascular-mortality-persons-aged-under-75-ni",
+        "slug": "cardiovascular-mortality-persons-aged-under-75-ni",
+        "label": "Preventable cardiovascular mortality (Northern Ireland)",
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 1,
+        "standardised": true,
+        "subtitle": "Age-standardised mortality from cardiovascular diseases considered preventable for people aged under 75, per 100,000 people",
+        "longDescription": "This indicator shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population, in Northern Ireland, for 2001 to 2022.",
+        "caveats": "All figures up to and including 2011 are based on the 2011 Census mid-year population estimates.\n\nAll figures from 2012 onward are based on the 2021 Census mid-year population estimates.\n\nThe 2021 data point for this indicator covers the COVID-19 pandemic period, it will include any effects of the COVID-19 pandemic.\n\nRates presented are based on year of death registration, not year of occurrence.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

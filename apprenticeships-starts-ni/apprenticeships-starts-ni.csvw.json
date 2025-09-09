@@ -1,0 +1,178 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Apprenticeship starts (Northern Ireland)",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./apprenticeships-starts-ni/apprenticeships-starts-ni.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "AREACD",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "AREANM",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "Variable Name",
+            "name": "Variable name",
+            "datatype": "string"
+          },
+          {
+            "titles": "Indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "Period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "Observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "Measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "Unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "Lower Confidence Interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Upper Confidence Interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "Observation Status",
+            "name": "Observation status",
+            "datatype": "string"
+          },
+          {
+            "titles": "Polarity",
+            "name": "Polarity",
+            "datatype": "number"
+          },
+          {
+            "titles": "Notes",
+            "name": "Notes",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "AREACD",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "Indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "Period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "Observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "Lower Confidence Interval (95%)",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "Upper Confidence Interval (95%)",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "Observation Status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Department for the Economy (Northern Ireland) ApprenticeshipsNI",
+        "href": "https://www.economy-ni.gov.uk/publications/apprenticeshipsni-ad-hoc-tables",
+        "date": "2025-06-12"
+      },
+      {
+        "name": "Further Education colleges and CAFRE",
+        "href": "https://www.economy-ni.gov.uk/publications/higher-level-apprenticeships-further-education-academic-year-202324",
+        "date": "2025-01-31"
+      },
+      {
+        "name": "Higher Education Institutions",
+        "href": "https://www.economy-ni.gov.uk/articles/higher-level-apprenticeships-northern-ireland-heis-statistical-fact-sheets",
+        "date": "2025-05-28"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "N"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "N09",
+      "N92"
+    ],
+    "geographyYear": 2025,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "apprenticeships-starts-ni",
+        "slug": "apprenticeships-starts-ni",
+        "label": "Apprenticeship starts (Northern Ireland)",
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 0,
+        "standardised": true,
+        "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Northern Ireland, for full academic years 2019/20 to 2022/23",
+        "caveats": "Starts refer to the number of participants who are in the first year of an apprenticeship programme.\n\nData relate to participants who have been on their course 28 days or more.\n\nGeography is based upon the home postcode of the learner.\n\nApprenticeshipsNI includes levels 2 and 3.\n\nHigher Level Apprenticeships (HLA) at further education (FE) colleges in Northern Ireland and the College of Agriculture, Food and Rural Enterprise (CAFRE) includes levels 4, 5 and 6.\n\nHLA at Higher Education Institutions (HEIs) in Northern Ireland includes levels 6 and 7.\n\n[2023 mid-year population estimates for Northern Ireland](https://www.nisra.gov.uk/publications/2023-mid-year-population-estimates-northern-ireland-and-estimates-population-aged-85) have been used to create a rate per 100,000 population.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

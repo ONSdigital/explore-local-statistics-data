@@ -1,0 +1,175 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Foreign direct investment (FDI)",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./foreign-direct-investment/foreign-direct-investment.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "areacd",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "areanm",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "lower_confidence_interval_95",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "upper_confidence_interval_95",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "observation_status",
+            "name": "Observation status",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "areacd",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "lower_confidence_interval_95",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "upper_confidence_interval_95",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "observation_status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Office for National Statistics",
+        "href": "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/articles/foreigndirectinvestmentexperimentaluksubnationalstatistics/previousReleases",
+        "date": "2023-04-24"
+      }
+    ],
+    "experimentalStatistic": true,
+    "geographyCountries": [
+      "E",
+      "W"
+    ],
+    "geographyGroups": [
+      "uk",
+      "cauth"
+    ],
+    "geographyTypes": [
+      "E47",
+      "K02",
+      "K99",
+      "na",
+      "TLC",
+      "TLD",
+      "TLE",
+      "TLF",
+      "TLG",
+      "TLH",
+      "TLI",
+      "TLJ",
+      "TLK",
+      "TLL",
+      "TLM",
+      "TLN",
+      "W42"
+    ],
+    "geographyYear": 2023,
+    "geographyInitialLevel": "cauth",
+    "indicators": [
+      {
+        "code": "Inward foreign direct investment (FDI)",
+        "slug": "inward-foreign direct investment",
+        "label": "Inward foreign direct investment",
+        "standardised": false,
+        "subtitle": "Value of foreign direct investments (FDI) in the UK from non-resident companies",
+        "longDescription": "This indicator shows the total FDI international investment position in the UK (inward) at end period (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2015-2021.",
+        "caveats": "Foreign direct investment (FDI) is cross-border investment made with the objective of establishing a lasting interest in the host economy. FDI is also defined by control relationships, where the direct investor (parent company) controls at least 10% of the voting power (ordinary shares) of the direct investment enterprise. These relationships can be measured in two directions:\n\n- outward: the direct investments of UK-resident companies in other countries \n\n- inward: the direct investments in the UK from non-resident companies",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      },
+      {
+        "code": "Outward foreign direct investment (FDI)",
+        "slug": "outward-foreign direct investment",
+        "label": "Outward foreign direct investment",
+        "standardised": false,
+        "subtitle": "Value of foreign direct investments (FDI) of UK-resident companies in other countries",
+        "longDescription": "This indicator shows the total FDI international investment position abroad (outward) at end period (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2015-2021.",
+        "caveats": "Foreign direct investment (FDI) is cross-border investment made with the objective of establishing a lasting interest in the host economy. FDI is also defined by control relationships, where the direct investor (parent company) controls at least 10% of the voting power (ordinary shares) of the direct investment enterprise. These relationships can be measured in two directions:\n\n- outward: the direct investments of UK-resident companies in other countries \n\n- inward: the direct investments in the UK from non-resident companies",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:title": "Apprenticeships starts and achievements (England)",
+  "tables": [
+    {
+      "url": "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main/./apprenticeship/apprenticeship.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "titles": "indicator",
+            "name": "Indicator",
+            "datatype": "string"
+          },
+          {
+            "titles": "areacd",
+            "name": "Area code",
+            "datatype": "string"
+          },
+          {
+            "titles": "areanm",
+            "name": "Area name",
+            "datatype": "string"
+          },
+          {
+            "titles": "geography",
+            "name": "Geography type",
+            "datatype": "string"
+          },
+          {
+            "titles": "observation",
+            "name": "Observation value",
+            "datatype": "number"
+          },
+          {
+            "titles": "unit",
+            "name": "Unit",
+            "datatype": "string"
+          },
+          {
+            "titles": "measure",
+            "name": "Measure",
+            "datatype": "string"
+          },
+          {
+            "titles": "period",
+            "name": "Time period",
+            "datatype": "string"
+          },
+          {
+            "titles": "lower_confidence_interval_95",
+            "name": "Lower Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "upper_confidence_interval_95",
+            "name": "Upper Confidence Interval (95%)",
+            "datatype": "number"
+          },
+          {
+            "titles": "observation_status",
+            "name": "Observation status",
+            "datatype": "string"
+          }
+        ]
+      },
+      "transformations": [
+        {
+          "titles": "indicator",
+          "key": "indicator",
+          "type": "indicator"
+        },
+        {
+          "titles": "areacd",
+          "key": "areacd",
+          "type": "dimension"
+        },
+        {
+          "titles": "observation",
+          "key": "value",
+          "type": "measure"
+        },
+        {
+          "titles": "period",
+          "key": "period",
+          "type": "dimension"
+        },
+        {
+          "titles": "lower_confidence_interval_95",
+          "key": "lci",
+          "type": "measure"
+        },
+        {
+          "titles": "upper_confidence_interval_95",
+          "key": "uci",
+          "type": "measure"
+        },
+        {
+          "titles": "observation_status",
+          "key": "status",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "source": [
+      {
+        "name": "Department for Education",
+        "href": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills",
+        "date": "2024-11-28"
+      }
+    ],
+    "experimentalStatistic": false,
+    "geographyCountries": [
+      "E"
+    ],
+    "geographyGroups": [
+      "ctry",
+      "rgn",
+      "cauth",
+      "utla",
+      "ltla"
+    ],
+    "geographyTypes": [
+      "E06",
+      "E07",
+      "E08",
+      "E09",
+      "E10",
+      "E12",
+      "E47",
+      "E61",
+      "E92"
+    ],
+    "geographyYear": 2019,
+    "geographyInitialLevel": "ltla",
+    "indicators": [
+      {
+        "code": "Apprenticeship starts (England)",
+        "slug": "apprenticeship-starts",
+        "label": "Apprenticeship starts (England)",
+        "standardised": false,
+        "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2018/19 to 2023/24.",
+        "caveats": "Starts are the count of apprenticeships started at any point during the stated academic period. Learners starting more than one apprenticeship will appear more than once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      },
+      {
+        "code": "Apprenticeship achievements (England)",
+        "slug": "apprenticeship-achievements",
+        "label": "Apprenticeship achievements (England)",
+        "standardised": false,
+        "subtitle": "Apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2018/19 to 2023/24.",
+        "caveats": "Achievements are the count of apprenticeships achieved at any point during the stated academic period. Learners achieving more than one apprenticeship will appear more than once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true
+      }
+    ]
+  }
+}
