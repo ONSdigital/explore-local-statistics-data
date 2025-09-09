@@ -1,6 +1,3 @@
-export const baseUrl =
-  "https://raw.githubusercontent.com/ONSdigital/explore-local-statistics-data/refs/heads/main";
-
 export const skipDatasets = ["population-under-devolution-deal-in-england"];
 
 const cols = {

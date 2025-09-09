@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "fs";
 import { csvParse, autoType } from "d3-dsv";
 import { reverseDate, stripBom, slugifyCode, titleFromSlug } from "./utils.js";
-import { baseUrl, skipDatasets, colLookup } from "./config.js";
+import { skipDatasets, colLookup } from "./config.js";
 import inferGeos from "./infer-geos.js";
 
 function formatCols(cols) {
