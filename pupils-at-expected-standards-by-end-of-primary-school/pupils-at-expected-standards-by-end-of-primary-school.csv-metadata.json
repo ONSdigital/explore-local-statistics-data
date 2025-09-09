@@ -169,7 +169,10 @@
         "caveats": "'State-funded schools' includes LA maintained schools, sponsored academies, converter academies, free schools and state-funded special schools (including hospital schools).\n\nData is not available for 2019/20 and 2020/21 academic years as assessments were cancelled due to the COVID-19 pandemic.\n\nWriting teacher assessment and reading, writing and maths (combined) measures from 2018 onwards are not directly comparable to previous years due to changes in the writing teacher assessment frameworks.\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%",
+        "polarity": 1
       }
     ]
   }

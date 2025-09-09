@@ -168,7 +168,10 @@
         "caveats": "Adults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m².",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%",
+        "polarity": -1
       }
     ]
   }

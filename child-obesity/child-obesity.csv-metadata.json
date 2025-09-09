@@ -139,7 +139,9 @@
         "longDescription": "This indicator shows the percentage of children aged 4-5 years (reception age) classified as underweight, in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged four to five years healthy weight",
@@ -150,7 +152,9 @@
         "longDescription": "This indicator shows the percentage of children aged 4-5 years (reception age) classified as healthy weight, in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged four to five years overweight",
@@ -161,7 +165,9 @@
         "longDescription": "This indicator shows the percentage of children aged 4-5 years (reception age) classified as overweight, in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged four to five years obese",
@@ -172,7 +178,9 @@
         "longDescription": "This indicator shows the percentage of children aged 4-5 years (reception age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged 10 to 11 years underweight",
@@ -183,7 +191,9 @@
         "longDescription": "This indicator shows the percentage of children aged 10-11 years (Year 6 age) classified as underweight, in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged 10 to 11 years healthy weight",
@@ -194,7 +204,9 @@
         "longDescription": "This indicator shows the percentage of children aged 10-11 years (Year 6 age) classified as healthy weight, in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged 10 to 11 years overweight",
@@ -205,7 +217,9 @@
         "longDescription": "This indicator shows the percentage of children aged 10-11 years (Year 6 age) classified as overweight, in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       },
       {
         "code": "Aged 10 to 11 years obese",
@@ -216,7 +230,9 @@
         "longDescription": "This indicator shows the percentage of children aged 10-11 years (Year 6 age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2023/24.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Aged four to five years underweight",
+        "unit": "%"
       }
     ]
   }

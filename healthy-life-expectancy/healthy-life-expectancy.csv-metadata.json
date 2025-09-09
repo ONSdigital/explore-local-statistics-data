@@ -149,7 +149,9 @@
         "longDescription": "This indicator shows the average years expected to be lived in good health for females born during the reference period (official statistics in development), in England and Wales, for three-year rolling periods between 2011 to 2013 and 2021 to 2023.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "yrs",
+        "measure": "Years"
       },
       {
         "code": "Male healthy life expectancy",
@@ -160,7 +162,9 @@
         "longDescription": "This indicator shows the average years expected to be lived in good health for males born during the reference period (official statistics in development), in England and Wales, for three-year rolling periods between 2011 to 2013 and 2021 to 2023.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "yrs",
+        "measure": "Years"
       }
     ]
   }

@@ -165,7 +165,10 @@
         "caveats": "Data is not available for academic year 2019/20.\n\nSessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%",
+        "polarity": -1
       }
     ]
   }

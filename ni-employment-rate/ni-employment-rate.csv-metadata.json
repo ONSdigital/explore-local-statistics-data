@@ -157,7 +157,8 @@
         "caveats": "Calculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.\n\nTime series data is available at [NISRA](https://www.nisra.gov.uk/publications/labour-market-status-sub-population-tables).\n\nBecause the Labour Force Survey (LFS) is a sample survey, results are subject to sampling error, i.e. the actual percentage of the population in private households with a particular characteristic may differ from the percentage of the LFS sample with that characteristic.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "%"
       },
       {
         "code": "Economic Inactivity Rate",
@@ -169,7 +170,8 @@
         "caveats": "Calculation of economic inactivity rate: number of economically inactive people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.\n\nTime series data is available at [NISRA](https://www.nisra.gov.uk/publications/labour-market-status-sub-population-tables).\n\nBecause the Labour Force Survey (LFS) is a sample survey, results are subject to sampling error, i.e. the actual percentage of the population in private households with a particular characteristic may differ from the percentage of the LFS sample with that characteristic.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "%"
       }
     ]
   }

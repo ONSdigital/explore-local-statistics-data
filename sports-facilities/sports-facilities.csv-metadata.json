@@ -168,7 +168,10 @@
         "caveats": "Per capita estimates are calculated using the usual resident population estimates from the most recent Census.\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Counts of sports facilities per 10,000 people",
+        "unit": "Count per 10,000 people",
+        "polarity": 1
       }
     ]
   }

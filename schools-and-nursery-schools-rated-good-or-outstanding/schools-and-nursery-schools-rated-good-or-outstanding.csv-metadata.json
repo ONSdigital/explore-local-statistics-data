@@ -165,7 +165,10 @@
         "caveats": "These figures cover all state-funded schools in England and are updated on a rolling basis.\n\nThe data covers inspections carried out between 01 September 2023 to 31 August 2024 and published by 30 September 2024.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%",
+        "polarity": 1
       }
     ]
   }

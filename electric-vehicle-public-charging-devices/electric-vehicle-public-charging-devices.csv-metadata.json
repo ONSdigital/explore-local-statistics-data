@@ -180,7 +180,10 @@
         "caveats": "Data is provided by the electric vehicle and charging point platform [Zapmap](https://www.zapmap.com/) and represents devices reported as operational at 00:00 on the first day of each quarter.\n\n‘Total devices’ represent publicly available charging devices at all speeds. A device can have a number of connectors of varying speeds.\n\nThere may be large increases or reductions seen at local authority level in these statistics when comparing to a previous quarter and these should be considered in the context of longer-term trends. This can be caused by a number of factors, including a large group of devices being added to or decommissioned from source Zapmap data at a time. This can in turn be caused by delays between chargepoint operator activity and this information filtering through to Zapmap data.\n\nA specific example of this is Hammersmith and Fulham, which shows a sharp increase in mid-2023. This was due to the completion of a large On-Street Residential Chargepoint Scheme (ORCS) project, which significantly boosted the number of devices recorded in that area during that period.\n\nThe most recent population figures by Local Authority are sourced from the Office for National Statistics Population estimates for mid-year 2022. For quarters from July 2020 (2020-07) to April 2021 (2021-04), the population figures were sourced from 2019 estimates. Prior to July 2020 (2020-07), the population figures were sourced from the 2018 estimates.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Rate per 100,000 population",
+        "unit": "Rate per 100,000 population",
+        "polarity": 1
       }
     ]
   }

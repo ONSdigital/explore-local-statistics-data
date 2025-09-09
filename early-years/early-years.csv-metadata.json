@@ -140,7 +140,9 @@
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "%",
+        "measure": "Communication and language"
       },
       {
         "code": "Literacy",
@@ -152,7 +154,9 @@
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "%",
+        "measure": "Communication and language"
       },
       {
         "code": "Mathematics",
@@ -164,7 +168,9 @@
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "%",
+        "measure": "Communication and language"
       }
     ]
   }

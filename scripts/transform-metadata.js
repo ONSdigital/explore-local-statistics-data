@@ -60,9 +60,8 @@ function makeIndicators(ds, meta, data, cols) {
     : [ds];
   const valueCol = cols.find(col => col?.transform?.key === "value");
   const indicatorCol = cols.find(col => col?.transform?.type === "indicator");
-  const metaCols = data.columns
-    .map(col => colLookup[col])
-    .filter(col => col?.transform?.type === "metadata");
+  const metaCols = cols.filter(col => col?.transform?.type === "metadata");
+  
   for (const code of codes) {
     const base = code === ds ? meta : meta[code];
     const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.key] === code) : data;

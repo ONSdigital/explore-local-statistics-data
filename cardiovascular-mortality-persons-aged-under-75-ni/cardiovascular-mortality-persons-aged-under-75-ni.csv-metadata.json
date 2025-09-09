@@ -171,7 +171,10 @@
         "caveats": "All figures up to and including 2011 are based on the 2011 Census mid-year population estimates.\n\nAll figures from 2012 onward are based on the 2021 Census mid-year population estimates.\n\nThe 2021 data point for this indicator covers the COVID-19 pandemic period, it will include any effects of the COVID-19 pandemic.\n\nRates presented are based on year of death registration, not year of occurrence.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Rate per 100,000 population",
+        "unit": "Rate per 100,000 population",
+        "polarity": 1
       }
     ]
   }

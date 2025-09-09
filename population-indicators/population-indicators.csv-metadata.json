@@ -166,7 +166,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Observations",
+        "unit": "Persons"
       },
       {
         "code": "Population count - Female",
@@ -182,7 +184,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Observations",
+        "unit": "Persons"
       },
       {
         "code": "Population count - Male",
@@ -198,7 +202,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Observations",
+        "unit": "Persons"
       },
       {
         "code": "Median age",
@@ -214,7 +220,9 @@
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Median",
+        "unit": "Years"
       },
       {
         "code": "Median age - Female",
@@ -230,7 +238,9 @@
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Median",
+        "unit": "Years"
       },
       {
         "code": "Median age - Male",
@@ -246,7 +256,9 @@
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Median",
+        "unit": "Years"
       },
       {
         "code": "Population density",
@@ -262,7 +274,9 @@
         "caveats": "[Standard Area Measurements for Administrative Areas (December 2023) in the UK](https://geoportal.statistics.gov.uk/datasets/da8590c5f55f4664b32ad4339f43419c/about) was used to calculate population density by dividing the total population by the area in square kilometres.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Population per km2",
+        "unit": "Persons"
       },
       {
         "code": "Population density - Female",
@@ -278,7 +292,9 @@
         "caveats": "[Standard Area Measurements for Administrative Areas (December 2023) in the UK](https://geoportal.statistics.gov.uk/datasets/da8590c5f55f4664b32ad4339f43419c/about) was used to calculate population density by dividing the female population by the area in square kilometres.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Population per km2",
+        "unit": "Persons"
       },
       {
         "code": "Population density - Male",
@@ -294,7 +310,9 @@
         "caveats": "[Standard Area Measurements for Administrative Areas (December 2023) in the UK](https://geoportal.statistics.gov.uk/datasets/da8590c5f55f4664b32ad4339f43419c/about) was used to calculate population density by dividing the male population by the area in square kilometres.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Population per km2",
+        "unit": "Persons"
       },
       {
         "code": "5-year population change",
@@ -310,7 +328,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": true,
-        "zeroBaseline": false
+        "zeroBaseline": false,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 0 to 15",
@@ -326,7 +346,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 0 to 15 - Female",
@@ -342,7 +364,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 0 to 15 - Male",
@@ -358,7 +382,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 16 to 64",
@@ -374,7 +400,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 16 to 64 - Female",
@@ -390,7 +418,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 16 to 64 - Male",
@@ -406,7 +436,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 65+",
@@ -422,7 +454,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 65+ - Female",
@@ -438,7 +472,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Percentage of the population aged 65+ - Male",
@@ -454,7 +490,9 @@
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025.",
         "confidenceIntervals": false,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Percentage",
+        "unit": "%"
       }
     ]
   }

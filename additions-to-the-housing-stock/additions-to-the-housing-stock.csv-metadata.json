@@ -167,7 +167,10 @@
         "caveats": "Net additional dwellings per 1,000 stock are available at an England, regional and local authority district level in DLUHC [net additional dwellings interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTE5YWQ3MDYtZmFjMC00N2YwLWIxM2EtYWY2NTk1NjExYjgwIiwidCI6ImJmMzQ2ODEwLTljN2QtNDNkZS1hODcyLTI0YTJlZjM5OTVhOCJ9).",
         "confidenceIntervals": true,
         "canBeNegative": true,
-        "zeroBaseline": false
+        "zeroBaseline": false,
+        "measure": "Net additional dwellings per 1,000 stock",
+        "unit": "Net additional dwellings per 1,000 stock",
+        "polarity": 1
       }
     ]
   }

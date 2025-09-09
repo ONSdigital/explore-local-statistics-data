@@ -181,7 +181,10 @@
         "caveats": "Per capita estimates are calculated using the usual resident population estimates from the most recent Census. These per capita estimates are not directly comparable between the different countries because of the non-consistent census dates that the population estimates were taken on.\n\nSome of this data has been aggregated and may show differences to other published figures. ",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Counts of museums per 100,000 people",
+        "unit": "Count per 100,000 people",
+        "polarity": 1
       }
     ]
   }

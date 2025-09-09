@@ -95,11 +95,7 @@ const cols = {
   },
   Notes: {
     name: "Notes",
-    datatype: "string",
-    transform: {
-      key: "notes",
-      type: "metadata",
-    },
+    datatype: "string"
   },
   Mission: {
     name: "Mission",

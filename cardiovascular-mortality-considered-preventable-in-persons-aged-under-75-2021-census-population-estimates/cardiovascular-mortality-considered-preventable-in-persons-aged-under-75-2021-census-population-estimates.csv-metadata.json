@@ -167,7 +167,10 @@
         "caveats": "Population estimates produced by the Office for National Statistics for mid-2022 have been revised, to account for updated estimates of international migration for England and Wales. Data for all geographies covering the 2022 period have been revised to use the revised population estimates. The resultant revisions to rates are very small and do not introduce any meaningful changes to results previously presented. \n\nValues for Cornwall and Isles of Scilly are in a combined code (E67000002). Values for Hackney and City of London are in a combined code (E67000001).",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Rate per 100,000 population",
+        "unit": "Rate per 100,000 population",
+        "polarity": -1
       }
     ]
   }

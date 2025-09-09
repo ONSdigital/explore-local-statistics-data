@@ -141,7 +141,9 @@
         "longDescription": "This indicator shows modern apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years 2013/14 to 2024/25.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "Rate per 100,000 population",
+        "measure": "Rate per 100,000 population"
       },
       {
         "code": "Apprenticeships achievements (Scotland)",
@@ -152,7 +154,9 @@
         "longDescription": "This indicator shows modern apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years 2013/14 to 2024/25.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "unit": "Rate per 100,000 population",
+        "measure": "Rate per 100,000 population"
       }
     ]
   }

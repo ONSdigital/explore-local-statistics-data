@@ -184,7 +184,10 @@
         "caveats": "For Great Britain data, 2024 estimates are provisional and relate to the pay period that includes 17 April 2024. Estimates for 2023 have been revised and relate to the pay period that includes 19 April 2023.\n\nThe country level figure for Northern Ireland has been sourced from Nomis rather than NISRA. This is to allow for confidence intervals.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Pounds",
+        "unit": "£",
+        "polarity": 1
       }
     ]
   }

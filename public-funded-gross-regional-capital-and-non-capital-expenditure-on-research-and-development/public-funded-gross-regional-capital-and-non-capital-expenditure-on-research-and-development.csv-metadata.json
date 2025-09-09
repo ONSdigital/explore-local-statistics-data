@@ -177,7 +177,10 @@
         "caveats": "Research and development refers to any creative and systematic activity that contains a certain amount of novelty – which includes the development of new concepts, products and processes – with the aim of increasing the stock of knowledge. Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Pounds",
+        "unit": "£ million",
+        "polarity": 1
       }
     ]
   }

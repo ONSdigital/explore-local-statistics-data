@@ -161,7 +161,10 @@
         "caveats": "In Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use.\n\nPlease note that data is rounded to even.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Net additional dwellings per 1,000 stock",
+        "unit": "Net additional dwellings per 1,000 stock",
+        "polarity": -1
       }
     ]
   }

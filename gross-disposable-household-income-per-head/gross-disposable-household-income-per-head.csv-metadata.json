@@ -185,7 +185,10 @@
         "caveats": "Figures for 2022 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "measure": "Pounds",
+        "unit": "£",
+        "polarity": 1
       }
     ]
   }
