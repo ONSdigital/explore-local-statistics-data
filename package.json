@@ -1,0 +1,15 @@
+{
+  "name": "explore-local-statistics-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "transform-metadata": "node ./scripts/transform-metadata.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "d3-dsv": "^3.0.1"
+  }
+}
