@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 09/09/2025 at 15:00",
+
+  "ess-beta-metadata": {
+    "experimentalStatistic": "F",
+    "sourceDate": "30/07/2025",
+    "sourceURL": "https://www.nomisweb.co.uk/datasets/pestsyoala",
+    "sourceOrg": "Office for National Statistics",
+    "label": "Population by age and sex",
+    "prefix": null,
+    "suffix": "%",
+    "subText": null,
+    "decimalPlaces": 1,
+    "standardised": "T",
+    "subtitle": "Percentage of the population by sex in 5 year age bands",
+    "longDescription": "This indicator shows the percentage of the population by sex in 5 year age bands, in the United Kingdom, for 1991 to 2024. Ages 85 and over are combined into a single category.",
+    "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nFor Northern Ireland, estimates for mid-2024 are not yet available and are planned for publication on Nomis in September 2025. For Scotland, Nomis does not yet include estimates for mid-2024 or reflect revisions for mid-2023 published in August 2025. These are also planned for publication on Nomis in September 2025 and will be updated in ELS in October 2025.\n\nMid-2011 to mid-2022 revisions for Scotland published in January 2025 are available in Nomis and ELS. These are due to be updated in the Office for National Statistics UK population estimates in September 2025."
+  }
+}
