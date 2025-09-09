@@ -114,7 +114,7 @@ const datasets = readdirSync("./")
 for (const ds of datasets) {
   const dataPath = `./${ds}/${ds}.csv`;
   const metaPath = `./${ds}/${ds}.json`;
-  const csvwPath = `./${ds}/${ds}.csvw.json`;
+  const csvwPath = `./${ds}/${ds}.csv-metadata.json`;
 
   const data = csvParse(
     stripBom(readFileSync(dataPath, { encoding: "utf-8" })),
