@@ -6,7 +6,7 @@
           - Title: Modelled unemployment rate
           - Label: Modelled unemployment rate
           - Issued: 2023-11-06T12:25:28.117899
-          - Modified: 2024-11-09T08:18:00
+          - Modified: 2025-08-13T15:58:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -15,11 +15,11 @@
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork
           - Keywords: 
 		-- subnational
+		-- annual-population-survey
 		-- labour-market
+		-- region
 		-- unemployment
 		-- local-authority
-		-- annual-population-survey
-		-- region
 		-- county
           - Contact Point: None
           - Identifier: Modelled unemployment rate
@@ -73,8 +73,6 @@
                           Geography    Dimension      True            modelled-unemployment-rate.csv#dimension/geography-type                Observation
                       Variable Name   Suppressed     False                                                               None                           
                           Indicator   Suppressed     False                                                               None                           
-                            Mission   Suppressed     False                                                               None                           
-                           Category   Suppressed     False                                                               None                           
                              Period    Dimension      True   modelled-unemployment-rate.csv#dimension/gregorian-time-interval                Observation
                         Observation Observations     False           modelled-unemployment-rate.csv#measure/unemployment-rate                Observation
                               Count    Attribute     False        modelled-unemployment-rate.csv#attribute/unemployment-count                Observation
@@ -88,8 +86,6 @@
     - Columns where suppress output is true: 
     		-- Variable Name
     		-- Indicator
-    		-- Mission
-    		-- Category
     		-- Measure
     		-- Unit
     		-- Polarity
@@ -105,36 +101,36 @@ gregorian-time-interval.csv#code-list Gregorian Time Interval          Period
      ons-geography-code.csv#code-list      ONS Geography Code          AREACD
 
 - The data cube has the following dataset information:
-        - Number of Rows: 7736
+        - Number of Rows: 7580
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD        AREANM Geography                                     Variable Name                                    Indicator Mission Category                  Period  Observation     Count    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2004-01-01t00-00-00/p1y          4.8 1379000.0 Percentage    %                              4.7                              4.9                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2023-01-01t00-00-00/p1y          3.7 1235100.0 Percentage    %                              3.5                              3.9                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2022-01-01t00-00-00/p1y          3.6 1179600.0 Percentage    %                              3.5                              3.7                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2021-01-01t00-00-00/p1y          4.4 1454900.0 Percentage    %                              4.3                              4.5                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2020-01-01t00-00-00/p1y          4.7 1537800.0 Percentage    %                              4.6                              4.8                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2019-01-01t00-00-00/p1y          3.9 1287300.0 Percentage    %                              3.8                              4.0                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2017-01-01t00-00-00/p1y          4.4 1422600.0 Percentage    %                              4.3                              4.5                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2016-01-01t00-00-00/p1y          4.8 1552000.0 Percentage    %                              4.7                              4.9                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2015-01-01t00-00-00/p1y          5.2 1675200.0 Percentage    %                              5.1                              5.3                NaN        -1   NaN
-k03000001 great-britain   country Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2014-01-01t00-00-00/p1y          6.2 1971400.0 Percentage    %                              6.1                              6.3                NaN        -1   NaN
+   AREACD        AREANM Geography              Variable Name                  Indicator                  Period  Observation     Count    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2013-01-01t00-00-00/p1y          7.5 2362500.0 Percentage    %                              7.4                              7.6                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2022-01-01t00-00-00/p1y          3.6 1179600.0 Percentage    %                              3.5                              3.7                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2021-01-01t00-00-00/p1y          4.4 1454900.0 Percentage    %                              4.3                              4.5                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2020-01-01t00-00-00/p1y          4.7 1537800.0 Percentage    %                              4.6                              4.8                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2019-01-01t00-00-00/p1y          3.9 1287300.0 Percentage    %                              3.8                              4.0                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2018-01-01t00-00-00/p1y          4.2 1360800.0 Percentage    %                              4.1                              4.3                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2017-01-01t00-00-00/p1y          4.4 1422600.0 Percentage    %                              4.3                              4.5                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2016-01-01t00-00-00/p1y          4.8 1552000.0 Percentage    %                              4.7                              4.9                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2015-01-01t00-00-00/p1y          5.2 1675200.0 Percentage    %                              5.1                              5.3                NaN        -1   NaN
+k03000001 great-britain   country Modelled unemployment rate Modelled unemployment rate 2014-01-01t00-00-00/p1y          6.2 1971400.0 Percentage    %                              6.1                              6.3                NaN        -1   NaN
         - Last 10 Rows: 
-   AREACD       AREANM                Geography                                     Variable Name                                    Indicator Mission Category                  Period  Observation  Count    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2011-01-01t00-00-00/p1y          8.2 7400.0 Percentage    %                              6.9                              9.5                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2010-01-01t00-00-00/p1y          7.1 6600.0 Percentage    %                              5.9                              8.3                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2008-01-01t00-00-00/p1y          4.7 4300.0 Percentage    %                              3.8                              5.6                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2007-01-01t00-00-00/p1y          4.8 4300.0 Percentage    %                              3.9                              5.7                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2006-01-01t00-00-00/p1y          4.8 4400.0 Percentage    %                              3.8                              5.8                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2005-01-01t00-00-00/p1y          4.7 4000.0 Percentage    %                              3.9                              5.5                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2004-01-01t00-00-00/p1y          4.3 3900.0 Percentage    %                              3.5                              5.1                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2022-01-01t00-00-00/p1y          2.9 2700.0 Percentage    %                              1.9                              3.9                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2012-01-01t00-00-00/p1y          6.6 6100.0 Percentage    %                              5.3                              7.9                NaN        -1   NaN
-s12000040 west-lothian local-authority-district Modelled unemployment rate aged 16 years and over Aged 16 years and over modelled unemployment   Other    Other 2023-01-01t00-00-00/p1y          3.0 2800.0 Percentage    %                              2.0                              4.0                NaN        -1   NaN
+   AREACD       AREANM                Geography              Variable Name                  Indicator                  Period  Observation  Count    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2016-01-01t00-00-00/p1y          4.3 4000.0 Percentage    %                              3.4                              5.2                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2017-01-01t00-00-00/p1y          3.4 3200.0 Percentage    %                              2.5                              4.3                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2018-01-01t00-00-00/p1y          4.0 3700.0 Percentage    %                              3.0                              5.0                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2004-01-01t00-00-00/p1y          4.3 3900.0 Percentage    %                              3.5                              5.1                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2020-01-01t00-00-00/p1y          4.0 3800.0 Percentage    %                              3.1                              4.9                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2021-01-01t00-00-00/p1y          3.3 3000.0 Percentage    %                              2.5                              4.1                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2022-01-01t00-00-00/p1y          2.9 2700.0 Percentage    %                              1.9                              3.9                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2023-01-01t00-00-00/p1y          3.0 2800.0 Percentage    %                              2.0                              4.0                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2015-01-01t00-00-00/p1y          5.6 5100.0 Percentage    %                              4.6                              6.6                NaN        -1   NaN
+s12000040 west-lothian local-authority-district Modelled unemployment rate Modelled unemployment rate 2005-01-01t00-00-00/p1y          4.7 4000.0 Percentage    %                              3.9                              5.5                NaN        -1   NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
           Measure    Unit  Count
-Unemployment Rate Percent   7736
+Unemployment Rate Percent   7580
         
