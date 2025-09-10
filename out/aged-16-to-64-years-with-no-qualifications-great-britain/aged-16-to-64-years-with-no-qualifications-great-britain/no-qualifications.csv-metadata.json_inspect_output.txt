@@ -6,7 +6,7 @@
           - Title: No qualifications
           - Label: No qualifications
           - Issued: 2024-06-13T14:14:00
-          - Modified: 2024-11-13T15:24:00
+          - Modified: 2025-08-13T16:02:00
           - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
           - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
           - Publisher: https://www.gov.uk/government/organisations/office-for-national-statistics
@@ -14,10 +14,10 @@
           - Themes: 
 		-- https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare
           - Keywords: 
-		-- local-authority
-		-- subnational
-		-- annual-population-survey
 		-- no-qualifications
+		-- local-authority
+		-- annual-population-survey
+		-- subnational
           - Contact Point: None
           - Identifier: No qualifications
           - Comment: Percentage of the population aged 16 to 64 with no qualifications (official statistics in development), Great Britain (Northern Ireland national figure included), 2022 and 2023.
@@ -57,8 +57,6 @@
                           Geography    Dimension      True                           no-qualifications.csv#dimension/geography-type                Observation
                       Variable Name   Suppressed     False                                                                     None                           
                           Indicator   Suppressed     False                                                                     None                           
-                            Mission   Suppressed     False                                                                     None                           
-                           Category   Suppressed     False                                                                     None                           
                              Period    Dimension      True                                     no-qualifications.csv#dimension/year                Observation
                         Observation Observations     False no-qualifications.csv#measure/aged-16-to-64-years-with-no-qualifications                Observation
                             Measure   Suppressed     False                                                                     None                           
@@ -71,8 +69,6 @@
     - Columns where suppress output is true: 
     		-- Variable Name
     		-- Indicator
-    		-- Mission
-    		-- Category
     		-- Measure
     		-- Unit
     		-- Polarity
@@ -88,36 +84,36 @@ ons-geography-code.csv#code-list ONS Geography Code          AREACD
               year.csv#code-list               Year          Period
 
 - The data cube has the following dataset information:
-        - Number of Rows: 796
+        - Number of Rows: 804
         - Number of Duplicates: 0
         - First 10 Rows: 
-   AREACD        AREANM                         Geography                                                                     Variable Name                                                  Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
-e47000006   tees-valley combined-authority-or-city-region Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022         8.22 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e47000006   tees-valley combined-authority-or-city-region Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023         8.03 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e47000014    north-east combined-authority-or-city-region Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022          NaN Percentage    %                              NaN                              NaN                  x        -1    NaN
-e47000014    north-east combined-authority-or-city-region Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          NaN Percentage    %                              NaN                              NaN                  x        -1    NaN
-e06000047 county-durham       county-or-unitary-authority Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022         8.00 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e06000047 county-durham       county-or-unitary-authority Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023         8.34 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e06000005    darlington       county-or-unitary-authority Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023         5.56 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e06000005    darlington       county-or-unitary-authority Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022         5.11 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e06000001    hartlepool       county-or-unitary-authority Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023        11.13 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e06000001    hartlepool       county-or-unitary-authority Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022         8.33 Percentage    %                              NaN                              NaN                NaN        -1    NaN
+   AREACD            AREANM Geography     Variable Name                                                        Indicator  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+k02000001    united-kingdom   country No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          7.0 Percentage    %                              6.8                              7.2                NaN         1   NaN
+k02000001    united-kingdom   country No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          6.6 Percentage    %                              6.4                              6.8                NaN         1   NaN
+k03000001     great-britain   country No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          6.8 Percentage    %                              6.6                              7.0                NaN         1   NaN
+k03000001     great-britain   country No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          6.5 Percentage    %                              6.3                              6.7                NaN         1   NaN
+k04000001 england-and-wales   country No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          6.7 Percentage    %                              6.5                              6.9                NaN         1   NaN
+k04000001 england-and-wales   country No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          6.3 Percentage    %                              6.1                              6.5                NaN         1   NaN
+e92000001           england    nation No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          6.6 Percentage    %                              6.4                              6.8                NaN         1   NaN
+e92000001           england    nation No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          6.2 Percentage    %                              6.0                              6.4                NaN         1   NaN
+e12000001        north-east    region No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          8.0 Percentage    %                              7.3                              8.7                NaN         1   NaN
+e12000001        north-east    region No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          8.5 Percentage    %                              7.7                              9.3                NaN         1   NaN
         - Last 10 Rows: 
-   AREACD            AREANM Geography                                                                     Variable Name                                                  Indicator   Mission                                            Category  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity  Notes
-s92000003          scotland    nation Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022          8.0 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-n92000002  northern-ireland    nation Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022         13.6 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-k04000001 england-and-wales   country Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2022          6.7 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-k02000001    united-kingdom   country Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          6.6 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-k03000001     great-britain   country Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          6.5 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-e92000001           england    nation Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          6.2 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-w92000004             wales    nation Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          8.6 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-s92000003          scotland    nation Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          8.2 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-n92000002  northern-ireland    nation Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023         12.3 Percentage    %                              NaN                              NaN                NaN        -1    NaN
-k04000001 england-and-wales   country Proportion of the population aged 16 to 64 with no qualifications (Great Britain) Aged 16 to 64 years with no qualifications (Great Britain) Mission 6 Spreading opportunity and improving public services    2023          6.3 Percentage    %                              NaN                              NaN                NaN        -1    NaN
+   AREACD              AREANM                Geography     Variable Name                                                        Indicator  Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%) Observation Status  Polarity Notes
+s12000029   south-lanarkshire local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          9.5 Percentage    %                              6.7                             12.3                NaN         1   NaN
+s12000029   south-lanarkshire local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023         10.6 Percentage    %                              7.0                             14.2                NaN         1   NaN
+s12000030            stirling local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          4.7 Percentage    %                              2.4                              7.0                NaN         1   NaN
+s12000030            stirling local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          5.9 Percentage    %                              3.6                              8.2                NaN         1   NaN
+s12000039 west-dunbartonshire local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022         10.1 Percentage    %                              7.1                             13.1                NaN         1   NaN
+s12000039 west-dunbartonshire local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023          8.5 Percentage    %                              5.3                             11.7                NaN         1   NaN
+s12000040        west-lothian local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023         12.2 Percentage    %                              8.3                             16.1                NaN         1   NaN
+s12000040        west-lothian local-authority-district No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022          9.0 Percentage    %                              6.1                             11.9                NaN         1   NaN
+n92000002    northern-ireland                   nation No qualifications Proportion of the population aged 16 – 64 with no qualifications    2023         12.3 Percentage    %                             11.5                             13.1                NaN         1   NaN
+n92000002    northern-ireland                   nation No qualifications Proportion of the population aged 16 – 64 with no qualifications    2022         13.6 Percentage    %                             12.8                             14.4                NaN         1   NaN
         
 
 - The data cube has the following value counts:
         - Value counts broken-down by measure and unit (of measure):
                                    Measure    Unit  Count
-Aged 16 to 64 years with no qualifications percent    796
+Aged 16 to 64 years with no qualifications percent    804
         
