@@ -14,9 +14,9 @@
           - Themes: 
 		-- https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork
           - Keywords: 
-		-- region
 		-- employee-earnings
 		-- annual-survey-for-hours-and-earnings
+		-- region
 		-- subnational
 		-- local-authority
           - Contact Point: None
