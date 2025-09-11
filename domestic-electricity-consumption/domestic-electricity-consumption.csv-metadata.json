@@ -171,6 +171,7 @@
       {
         "code": "domestic-electricity-consumption",
         "slug": "domestic-electricity-consumption",
+        "dataset": "domestic-electricity-consumption",
         "label": "Domestic electricity consumption",
         "prefix": null,
         "suffix": null,

@@ -125,8 +125,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "average-travel-time-cycling",
+        "code": "cycling",
         "slug": "cycling",
+        "dataset": "average-travel-time",
         "label": "Travel time to employment centre by bicycle",
         "standardised": false,
         "subtitle": "Average travel time in minutes to nearest employment centre with 500+ jobs available",
@@ -137,8 +138,9 @@
         "zeroBaseline": true
       },
       {
-        "code": "average-travel-time-driving",
+        "code": "driving",
         "slug": "driving",
+        "dataset": "average-travel-time",
         "label": "Travel time to employment centre by car",
         "standardised": false,
         "subtitle": "Average travel time in minutes to nearest employment centre with 500+ jobs available",
@@ -149,8 +151,9 @@
         "zeroBaseline": true
       },
       {
-        "code": "average-travel-time-public transport or walking",
+        "code": "public transport or walking",
         "slug": "public-transport-or-walking",
+        "dataset": "average-travel-time",
         "label": "Travel time to employment centre by public transport and walking",
         "standardised": false,
         "subtitle": "Average travel time in minutes to nearest employment centre with 500+ jobs available",

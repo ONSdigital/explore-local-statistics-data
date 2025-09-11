@@ -141,8 +141,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "healthy-life-expectancy-Female healthy life expectancy",
+        "code": "Female healthy life expectancy",
         "slug": "female-healthy-life-expectancy",
+        "dataset": "healthy-life-expectancy",
         "label": "Female healthy life expectancy",
         "standardised": false,
         "subtitle": "Average years expected to be lived in good health for females born during year",
@@ -154,8 +155,9 @@
         "measure": "Years"
       },
       {
-        "code": "healthy-life-expectancy-Male healthy life expectancy",
+        "code": "Male healthy life expectancy",
         "slug": "male-healthy-life-expectancy",
+        "dataset": "healthy-life-expectancy",
         "label": "Male healthy life expectancy",
         "standardised": false,
         "subtitle": "Average years expected to be lived in good health for males born during year",

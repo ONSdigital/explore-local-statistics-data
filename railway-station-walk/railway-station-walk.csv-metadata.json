@@ -161,6 +161,7 @@
       {
         "code": "railway-station-walk",
         "slug": "railway-station-walk",
+        "dataset": "railway-station-walk",
         "label": "Residents within a 30 minute walk of their nearest railway station",
         "prefix": null,
         "suffix": "%",

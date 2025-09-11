@@ -163,6 +163,7 @@
       {
         "code": "domestic-gas-consumption",
         "slug": "domestic-gas-consumption",
+        "dataset": "domestic-gas-consumption",
         "label": "Domestic gas consumption",
         "prefix": null,
         "suffix": null,

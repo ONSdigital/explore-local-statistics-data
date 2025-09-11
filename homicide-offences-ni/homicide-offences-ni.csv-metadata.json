@@ -160,6 +160,7 @@
       {
         "code": "homicide-offences-ni",
         "slug": "homicide-offences-ni",
+        "dataset": "homicide-offences-ni",
         "label": "Homicide Offences (Northern Ireland)",
         "prefix": null,
         "suffix": null,

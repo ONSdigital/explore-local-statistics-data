@@ -141,8 +141,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "annual-personal-wellbeing-estimates-Satisfaction mean score (where 10 is 'completely satisfied')",
+        "code": "Satisfaction mean score (where 10 is 'completely satisfied')",
         "slug": "satisfaction-mean-score",
+        "dataset": "annual-personal-wellbeing-estimates",
         "label": "Life satisfaction",
         "standardised": false,
         "subtitle": "Average rating of life satisfaction (0 = 'not at all satisfied', 10 = 'completely satisfied') for people aged 16 and over",
@@ -155,8 +156,9 @@
         "unit": "Score out of 10"
       },
       {
-        "code": "annual-personal-wellbeing-estimates-Happiness mean score (where 10 is 'completely happy')",
+        "code": "Happiness mean score (where 10 is 'completely happy')",
         "slug": "happiness-mean-score",
+        "dataset": "annual-personal-wellbeing-estimates",
         "label": "Happiness",
         "standardised": false,
         "subtitle": "Average rating of happiness (0 = 'not at all happy', 10 = 'completely happy') for people aged 16 and over",
@@ -169,8 +171,9 @@
         "unit": "Score out of 10"
       },
       {
-        "code": "annual-personal-wellbeing-estimates-Anxiety mean score (where 10 is 'completely anxious')",
+        "code": "Anxiety mean score (where 10 is 'completely anxious')",
         "slug": "anxiety-mean-score",
+        "dataset": "annual-personal-wellbeing-estimates",
         "label": "Anxiety",
         "standardised": false,
         "subtitle": "Average rating for anxiety during previous day (0 = 'not at all anxious', 10 = 'completely anxious') for people aged 16 and over",
@@ -183,8 +186,9 @@
         "unit": "Score out of 10"
       },
       {
-        "code": "annual-personal-wellbeing-estimates-Worthwhile mean score (where 10 is 'completely worthwhile')",
+        "code": "Worthwhile mean score (where 10 is 'completely worthwhile')",
         "slug": "worthwhile-mean-score",
+        "dataset": "annual-personal-wellbeing-estimates",
         "label": "Feeling life is worthwhile",
         "standardised": false,
         "subtitle": "Average rating that the things they do in life are worthwhile (0 = 'not at all worthwhile', 10 = 'completely worthwhile') for people aged 16 and over",

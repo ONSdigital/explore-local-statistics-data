@@ -169,6 +169,7 @@
       {
         "code": "electric-vehicle-public-charging-devices",
         "slug": "electric-vehicle-public-charging-devices",
+        "dataset": "electric-vehicle-public-charging-devices",
         "label": "Electric vehicle public charging devices",
         "prefix": null,
         "suffix": null,

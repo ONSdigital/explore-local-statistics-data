@@ -160,6 +160,7 @@
       {
         "code": "cardiovascular-mortality-persons-aged-under-75-ni",
         "slug": "cardiovascular-mortality-persons-aged-under-75-ni",
+        "dataset": "cardiovascular-mortality-persons-aged-under-75-ni",
         "label": "Preventable cardiovascular mortality (Northern Ireland)",
         "prefix": null,
         "suffix": null,

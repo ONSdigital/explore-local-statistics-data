@@ -174,6 +174,7 @@
       {
         "code": "gross-disposable-household-income-per-head",
         "slug": "gross-disposable-household-income-per-head",
+        "dataset": "gross-disposable-household-income-per-head",
         "label": "Gross disposable household income",
         "prefix": "GBPSign",
         "suffix": null,

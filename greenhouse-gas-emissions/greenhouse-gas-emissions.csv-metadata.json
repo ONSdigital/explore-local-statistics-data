@@ -170,6 +170,7 @@
       {
         "code": "greenhouse-gas-emissions",
         "slug": "greenhouse-gas-emissions",
+        "dataset": "greenhouse-gas-emissions",
         "label": "Greenhouse gas emissions",
         "prefix": null,
         "suffix": null,

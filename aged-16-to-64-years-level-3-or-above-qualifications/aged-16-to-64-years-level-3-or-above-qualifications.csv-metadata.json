@@ -169,6 +169,7 @@
       {
         "code": "aged-16-to-64-years-level-3-or-above-qualifications",
         "slug": "aged-16-to-64-years-level-3-or-above-qualifications",
+        "dataset": "aged-16-to-64-years-level-3-or-above-qualifications",
         "label": "Level 3 or above qualifications (Great Britain)",
         "prefix": null,
         "suffix": "%",

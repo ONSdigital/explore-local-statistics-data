@@ -170,6 +170,7 @@
       {
         "code": "supermarkets",
         "slug": "supermarkets",
+        "dataset": "supermarkets",
         "label": "Supermarkets",
         "prefix": null,
         "suffix": null,

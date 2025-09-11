@@ -170,6 +170,7 @@
       {
         "code": "claimant-count",
         "slug": "claimant-count",
+        "dataset": "claimant-count",
         "label": "Claimant Count",
         "prefix": null,
         "suffix": "%",

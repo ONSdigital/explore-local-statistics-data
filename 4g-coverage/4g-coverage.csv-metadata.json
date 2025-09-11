@@ -170,6 +170,7 @@
       {
         "code": "4g-coverage",
         "slug": "4g-coverage",
+        "dataset": "4g-coverage",
         "label": "4G coverage",
         "prefix": null,
         "suffix": "%",

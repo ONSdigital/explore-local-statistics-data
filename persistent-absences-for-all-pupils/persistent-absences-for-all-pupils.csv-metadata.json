@@ -154,6 +154,7 @@
       {
         "code": "persistent-absences-for-all-pupils",
         "slug": "persistent-absences-for-all-pupils",
+        "dataset": "persistent-absences-for-all-pupils",
         "label": "Persistent absences for all pupils",
         "prefix": null,
         "suffix": "%",

@@ -155,8 +155,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "business-demography-Business births",
+        "code": "Business births",
         "slug": "business-births",
+        "dataset": "business-demography",
         "label": "Business births",
         "standardised": false,
         "subtitle": "Percentage of businesses newly registered for VAT and/or PAYE",
@@ -169,8 +170,9 @@
         "measure": "Percentage"
       },
       {
-        "code": "business-demography-Business deaths",
+        "code": "Business deaths",
         "slug": "business-deaths",
+        "dataset": "business-demography",
         "label": "Business deaths",
         "standardised": false,
         "subtitle": "Percentage of businesses ceasing activity",
@@ -183,8 +185,9 @@
         "measure": "Percentage"
       },
       {
-        "code": "business-demography-High growth businesses",
+        "code": "High growth businesses",
         "slug": "high-growth-businesses",
+        "dataset": "business-demography",
         "label": "High growth businesses",
         "standardised": false,
         "subtitle": "Percentage of businesses with an average growth in employment of greater than 20% per year over a three-year period",

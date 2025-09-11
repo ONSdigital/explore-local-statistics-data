@@ -156,6 +156,7 @@
       {
         "code": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates",
         "slug": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates",
+        "dataset": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates",
         "label": "Preventable cardiovascular mortality (England)",
         "prefix": null,
         "suffix": null,

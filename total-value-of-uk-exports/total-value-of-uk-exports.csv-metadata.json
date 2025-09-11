@@ -167,6 +167,7 @@
       {
         "code": "total-value-of-uk-exports",
         "slug": "total-value-of-uk-exports",
+        "dataset": "total-value-of-uk-exports",
         "label": "Value of UK exports",
         "prefix": "GBPSign",
         "suffix": null,

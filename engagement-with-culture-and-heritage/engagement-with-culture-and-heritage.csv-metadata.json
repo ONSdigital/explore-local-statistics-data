@@ -146,8 +146,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "engagement-with-culture-and-heritage-Engaged with the arts",
+        "code": "Engaged with the arts",
         "slug": "engaged-with-the-arts",
+        "dataset": "engagement-with-culture-and-heritage",
         "label": "Engaged with the arts",
         "standardised": false,
         "subtitle": "Percentage of adults who reported engaging with the arts physically in the last 12 months",
@@ -160,8 +161,9 @@
         "unit": "%"
       },
       {
-        "code": "engagement-with-culture-and-heritage-Visited a heritage site",
+        "code": "Visited a heritage site",
         "slug": "visited-a-heritage-site",
+        "dataset": "engagement-with-culture-and-heritage",
         "label": "Visited a heritage site",
         "standardised": false,
         "subtitle": "Percentage of adults who reported visiting a heritage site in person in the last 12 months",
@@ -174,8 +176,9 @@
         "unit": "%"
       },
       {
-        "code": "engagement-with-culture-and-heritage-Visited a museum or gallery",
+        "code": "Visited a museum or gallery",
         "slug": "visited-a-museum-or-gallery",
+        "dataset": "engagement-with-culture-and-heritage",
         "label": "Visited a museum or gallery",
         "standardised": false,
         "subtitle": "Percentage of adults who reported visiting a museum or gallery in person in the last 12 months",
@@ -188,8 +191,9 @@
         "unit": "%"
       },
       {
-        "code": "engagement-with-culture-and-heritage-Visited a public library",
+        "code": "Visited a public library",
         "slug": "visited-a-public-library",
+        "dataset": "engagement-with-culture-and-heritage",
         "label": "Visited a public library",
         "standardised": false,
         "subtitle": "Percentage of adults who reported visiting a public library building or mobile library in person in the last 12 months",

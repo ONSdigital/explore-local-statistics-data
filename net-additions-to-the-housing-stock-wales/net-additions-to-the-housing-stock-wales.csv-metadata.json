@@ -150,6 +150,7 @@
       {
         "code": "net-additions-to-the-housing-stock-wales",
         "slug": "net-additions-to-the-housing-stock-wales",
+        "dataset": "net-additions-to-the-housing-stock-wales",
         "label": "Net additions to the housing stock (Wales)",
         "prefix": null,
         "suffix": null,

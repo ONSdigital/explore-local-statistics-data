@@ -157,6 +157,7 @@
       {
         "code": "sports-facilities",
         "slug": "sports-facilities",
+        "dataset": "sports-facilities",
         "label": "Sports facilities",
         "prefix": null,
         "suffix": null,

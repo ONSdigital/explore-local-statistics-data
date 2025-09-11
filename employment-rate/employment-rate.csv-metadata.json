@@ -177,8 +177,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "employment-rate-Employment rate",
+        "code": "Employment rate",
         "slug": "employment-rate",
+        "dataset": "employment-rate",
         "label": "Employment rate (Great Britain)",
         "standardised": false,
         "subtitle": "Percentage of people aged 16 to 64 in employment",
@@ -191,8 +192,9 @@
         "measure": "Percentage"
       },
       {
-        "code": "employment-rate-Economically inactive",
+        "code": "Economically inactive",
         "slug": "economically-inactive",
+        "dataset": "employment-rate",
         "label": "Economic inactivity rate (Great Britain)",
         "standardised": false,
         "subtitle": "Percentage of people aged 16 to 64 who are not in employment and are not actively seeking work",

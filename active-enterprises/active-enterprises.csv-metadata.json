@@ -172,6 +172,7 @@
       {
         "code": "active-enterprises",
         "slug": "active-enterprises",
+        "dataset": "active-enterprises",
         "label": "Active businesses",
         "prefix": null,
         "suffix": null,

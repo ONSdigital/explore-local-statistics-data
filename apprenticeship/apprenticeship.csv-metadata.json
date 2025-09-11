@@ -141,8 +141,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "apprenticeship-Apprenticeship starts (England)",
+        "code": "Apprenticeship starts (England)",
         "slug": "apprenticeship-starts",
+        "dataset": "apprenticeship",
         "label": "Apprenticeship starts (England)",
         "standardised": false,
         "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
@@ -155,8 +156,9 @@
         "measure": "Rate per 100,000 population"
       },
       {
-        "code": "apprenticeship-Apprenticeship achievements (England)",
+        "code": "Apprenticeship achievements (England)",
         "slug": "apprenticeship-achievements",
+        "dataset": "apprenticeship",
         "label": "Apprenticeship achievements (England)",
         "standardised": false,
         "subtitle": "Apprenticeship programme achievements by people aged 16 or above, per 100,000 people",

@@ -159,8 +159,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "gdp-per-head-Gross domestic product per head at current market price",
+        "code": "Gross domestic product per head at current market price",
         "slug": "gross-domestic-product-per-head-at-current-market-price",
+        "dataset": "gdp-per-head",
         "label": "Gross domestic product per head at current market prices",
         "standardised": false,
         "subtitle": "GDP per head including the effects of inflation",
@@ -173,8 +174,9 @@
         "measure": "Pounds"
       },
       {
-        "code": "gdp-per-head-Gross domestic product per head in chained volume measure",
+        "code": "Gross domestic product per head in chained volume measure",
         "slug": "gross-domestic-product-per-head-in-chained-volume-measure",
+        "dataset": "gdp-per-head",
         "label": "Gross domestic product per head in chained volume measures",
         "standardised": false,
         "subtitle": "GDP per head with the effects of inflation removed by considering changes in quantity between consecutive periods, holding prices from previous periods constant",

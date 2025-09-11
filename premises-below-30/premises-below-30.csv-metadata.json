@@ -170,6 +170,7 @@
       {
         "code": "premises-below-30",
         "slug": "premises-below-30",
+        "dataset": "premises-below-30",
         "label": "Premises below 30Mbps",
         "prefix": null,
         "suffix": "%",

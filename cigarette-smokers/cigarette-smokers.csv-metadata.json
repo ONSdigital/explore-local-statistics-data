@@ -166,6 +166,7 @@
       {
         "code": "cigarette-smokers",
         "slug": "cigarette-smokers",
+        "dataset": "cigarette-smokers",
         "label": "Cigarette smokers",
         "prefix": null,
         "suffix": "%",

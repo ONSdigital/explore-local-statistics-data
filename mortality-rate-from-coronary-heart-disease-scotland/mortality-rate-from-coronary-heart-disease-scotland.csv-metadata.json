@@ -155,6 +155,7 @@
       {
         "code": "mortality-rate-from-coronary-heart-disease-scotland",
         "slug": "mortality-rate-from-coronary-heart-disease-scotland",
+        "dataset": "mortality-rate-from-coronary-heart-disease-scotland",
         "label": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
         "prefix": null,
         "suffix": null,

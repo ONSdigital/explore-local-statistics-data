@@ -179,6 +179,7 @@
       {
         "code": "proportion-of-people-who-are-economically-inactive-due-to-sickness",
         "slug": "proportion-of-people-who-are-economically-inactive-due-to-sickness",
+        "dataset": "proportion-of-people-who-are-economically-inactive-due-to-sickness",
         "label": "Economically inactive people due to long-term sickness",
         "prefix": null,
         "suffix": "%",

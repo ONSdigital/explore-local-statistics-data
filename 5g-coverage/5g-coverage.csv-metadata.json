@@ -170,6 +170,7 @@
       {
         "code": "5g-coverage",
         "slug": "5g-coverage",
+        "dataset": "5g-coverage",
         "label": "5G coverage",
         "prefix": null,
         "suffix": "%",

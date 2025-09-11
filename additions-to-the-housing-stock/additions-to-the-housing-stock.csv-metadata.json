@@ -156,6 +156,7 @@
       {
         "code": "additions-to-the-housing-stock",
         "slug": "additions-to-the-housing-stock",
+        "dataset": "additions-to-the-housing-stock",
         "label": "Net additions to the housing stock (England)",
         "prefix": null,
         "suffix": null,

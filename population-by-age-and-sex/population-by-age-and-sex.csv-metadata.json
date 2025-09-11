@@ -155,6 +155,7 @@
       {
         "code": "population-by-age-and-sex",
         "slug": "population-by-age-and-sex",
+        "dataset": "population-by-age-and-sex",
         "label": "Population by age and sex",
         "prefix": null,
         "suffix": "%",

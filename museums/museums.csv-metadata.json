@@ -170,6 +170,7 @@
       {
         "code": "museums",
         "slug": "museums",
+        "dataset": "museums",
         "label": "Museums",
         "prefix": null,
         "suffix": null,

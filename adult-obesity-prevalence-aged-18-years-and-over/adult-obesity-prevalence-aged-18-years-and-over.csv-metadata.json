@@ -157,6 +157,7 @@
       {
         "code": "adult-obesity-prevalence-aged-18-years-and-over",
         "slug": "adult-obesity-prevalence-aged-18-years-and-over",
+        "dataset": "adult-obesity-prevalence-aged-18-years-and-over",
         "label": "Adult obesity prevalence",
         "prefix": null,
         "suffix": "%",

@@ -148,8 +148,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "ni-employment-rate-Employment Rate",
+        "code": "Employment Rate",
         "slug": "employment-rate",
+        "dataset": "ni-employment-rate",
         "label": "Employment rate (Northern Ireland)",
         "standardised": false,
         "subtitle": "Percentage of people aged 16 to 64 in employment",
@@ -161,8 +162,9 @@
         "unit": "%"
       },
       {
-        "code": "ni-employment-rate-Economic Inactivity Rate",
+        "code": "Economic Inactivity Rate",
         "slug": "economic-inactivity-rate",
+        "dataset": "ni-employment-rate",
         "label": "Economic inactivity rate (Northern Ireland)",
         "standardised": false,
         "subtitle": "Percentage of people aged 16 to 64 who are not in employment and are not actively seeking work",

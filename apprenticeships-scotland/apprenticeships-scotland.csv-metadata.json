@@ -133,8 +133,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "apprenticeships-scotland-Apprenticeships starts (Scotland)",
+        "code": "Apprenticeships starts (Scotland)",
         "slug": "apprenticeships-starts",
+        "dataset": "apprenticeships-scotland",
         "label": "Apprenticeship starts (Scotland)",
         "standardised": false,
         "subtitle": "Modern apprenticeship programme starts by people aged 16 or above, per 100,000 people",
@@ -146,8 +147,9 @@
         "measure": "Rate per 100,000 population"
       },
       {
-        "code": "apprenticeships-scotland-Apprenticeships achievements (Scotland)",
+        "code": "Apprenticeships achievements (Scotland)",
         "slug": "apprenticeships-achievements",
+        "dataset": "apprenticeships-scotland",
         "label": "Apprenticeship achievements (Scotland)",
         "standardised": false,
         "subtitle": "Modern apprenticeship programme achievements by people aged 16 or above, per 100,000 people",

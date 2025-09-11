@@ -166,6 +166,7 @@
       {
         "code": "public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development",
         "slug": "public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development",
+        "dataset": "public-funded-gross-regional-capital-and-non-capital-expenditure-on-research-and-development",
         "label": "Public-funded expenditure on research and development",
         "prefix": "GBPSign",
         "suffix": null,

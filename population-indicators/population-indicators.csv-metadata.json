@@ -153,8 +153,9 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "population-indicators-Population count",
+        "code": "Population count",
         "slug": "population-count",
+        "dataset": "population-indicators",
         "label": "Total population",
         "prefix": null,
         "suffix": null,
@@ -171,8 +172,9 @@
         "unit": "Persons"
       },
       {
-        "code": "population-indicators-Population count - Female",
+        "code": "Population count - Female",
         "slug": "population-count-female",
+        "dataset": "population-indicators",
         "label": "Total female population",
         "prefix": null,
         "suffix": null,
@@ -189,8 +191,9 @@
         "unit": "Persons"
       },
       {
-        "code": "population-indicators-Population count - Male",
+        "code": "Population count - Male",
         "slug": "population-count-male",
+        "dataset": "population-indicators",
         "label": "Total male population",
         "prefix": null,
         "suffix": null,
@@ -207,8 +210,9 @@
         "unit": "Persons"
       },
       {
-        "code": "population-indicators-Median age",
+        "code": "Median age",
         "slug": "median-age",
+        "dataset": "population-indicators",
         "label": "Median age",
         "prefix": null,
         "suffix": null,
@@ -225,8 +229,9 @@
         "unit": "Years"
       },
       {
-        "code": "population-indicators-Median age - Female",
+        "code": "Median age - Female",
         "slug": "median-age-female",
+        "dataset": "population-indicators",
         "label": "Female median age",
         "prefix": null,
         "suffix": null,
@@ -243,8 +248,9 @@
         "unit": "Years"
       },
       {
-        "code": "population-indicators-Median age - Male",
+        "code": "Median age - Male",
         "slug": "median-age-male",
+        "dataset": "population-indicators",
         "label": "Male median age",
         "prefix": null,
         "suffix": null,
@@ -261,8 +267,9 @@
         "unit": "Years"
       },
       {
-        "code": "population-indicators-Population density",
+        "code": "Population density",
         "slug": "population-density",
+        "dataset": "population-indicators",
         "label": "Population density",
         "prefix": null,
         "suffix": null,
@@ -279,8 +286,9 @@
         "unit": "Persons"
       },
       {
-        "code": "population-indicators-Population density - Female",
+        "code": "Population density - Female",
         "slug": "population-density-female",
+        "dataset": "population-indicators",
         "label": "Female population density",
         "prefix": null,
         "suffix": null,
@@ -297,8 +305,9 @@
         "unit": "Persons"
       },
       {
-        "code": "population-indicators-Population density - Male",
+        "code": "Population density - Male",
         "slug": "population-density-male",
+        "dataset": "population-indicators",
         "label": "Male population density",
         "prefix": null,
         "suffix": null,
@@ -315,8 +324,9 @@
         "unit": "Persons"
       },
       {
-        "code": "population-indicators-5-year population change",
+        "code": "5-year population change",
         "slug": "5-year-population-change",
+        "dataset": "population-indicators",
         "label": "Five-year population change",
         "prefix": null,
         "suffix": "%",
@@ -333,8 +343,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 0 to 15",
+        "code": "Percentage of the population aged 0 to 15",
         "slug": "percentage-of-the-population-aged-0-to-15",
+        "dataset": "population-indicators",
         "label": "Population aged 0 to 15",
         "prefix": null,
         "suffix": "%",
@@ -351,8 +362,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 0 to 15 - Female",
+        "code": "Percentage of the population aged 0 to 15 - Female",
         "slug": "percentage-of-the-population-aged-0-to-15-female",
+        "dataset": "population-indicators",
         "label": "Female population aged 0 to 15",
         "prefix": null,
         "suffix": "%",
@@ -369,8 +381,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 0 to 15 - Male",
+        "code": "Percentage of the population aged 0 to 15 - Male",
         "slug": "percentage-of-the-population-aged-0-to-15-male",
+        "dataset": "population-indicators",
         "label": "Male population aged 0 to 15",
         "prefix": null,
         "suffix": "%",
@@ -387,8 +400,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 16 to 64",
+        "code": "Percentage of the population aged 16 to 64",
         "slug": "percentage-of-the-population-aged-16-to-64",
+        "dataset": "population-indicators",
         "label": "Population aged 16 to 64",
         "prefix": null,
         "suffix": "%",
@@ -405,8 +419,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 16 to 64 - Female",
+        "code": "Percentage of the population aged 16 to 64 - Female",
         "slug": "percentage-of-the-population-aged-16-to-64-female",
+        "dataset": "population-indicators",
         "label": "Female population aged 16 to 64",
         "prefix": null,
         "suffix": "%",
@@ -423,8 +438,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 16 to 64 - Male",
+        "code": "Percentage of the population aged 16 to 64 - Male",
         "slug": "percentage-of-the-population-aged-16-to-64-male",
+        "dataset": "population-indicators",
         "label": "Male population aged 16 to 64",
         "prefix": null,
         "suffix": "%",
@@ -441,8 +457,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 65+",
+        "code": "Percentage of the population aged 65+",
         "slug": "percentage-of-the-population-aged-65+",
+        "dataset": "population-indicators",
         "label": "Population aged 65 and over",
         "prefix": null,
         "suffix": "%",
@@ -459,8 +476,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 65+ - Female",
+        "code": "Percentage of the population aged 65+ - Female",
         "slug": "percentage-of-the-population-aged-65+-female",
+        "dataset": "population-indicators",
         "label": "Female population aged 65 and over",
         "prefix": null,
         "suffix": "%",
@@ -477,8 +495,9 @@
         "unit": "%"
       },
       {
-        "code": "population-indicators-Percentage of the population aged 65+ - Male",
+        "code": "Percentage of the population aged 65+ - Male",
         "slug": "percentage-of-the-population-aged-65+-male",
+        "dataset": "population-indicators",
         "label": "Male population aged 65 and over",
         "prefix": null,
         "suffix": "%",

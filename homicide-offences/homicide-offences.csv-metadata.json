@@ -160,6 +160,7 @@
       {
         "code": "homicide-offences",
         "slug": "homicide-offences",
+        "dataset": "homicide-offences",
         "label": "Homicide offences",
         "prefix": null,
         "suffix": null,
