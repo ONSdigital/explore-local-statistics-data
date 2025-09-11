@@ -10,8 +10,8 @@ export function reverseDate(str) {
 }
 
 export function slugifyCode(str) {
-  str = str.replace(/\(.*?\)/, "").trim().toLowerCase();
-  return str.replace(/[\s-]+/, "-");
+  str = str.replace(/\(.*?\)/g, "").trim().toLowerCase();
+  return str.replace(/[\s-]+/g, "-");
 }
 
 export function titleFromSlug(str) {

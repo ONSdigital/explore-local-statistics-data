@@ -66,7 +66,7 @@ function makeIndicators(ds, meta, data, cols) {
     const base = code === ds ? meta : meta[code];
     const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.key] === code) : data;
     const indicator = {
-      code,
+      code: code !== ds ? `${ds}-${code}` : code,
       slug: slugifyCode(code), // Usually added at data processing stage
       label: base.label,
       prefix: base.prefix,

@@ -131,8 +131,8 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "Aged four to five years underweight",
-        "slug": "aged-four to five years underweight",
+        "code": "child-obesity-Aged four to five years underweight",
+        "slug": "aged-four-to-five-years-underweight",
         "label": "Underweight prevalence in children at reception age",
         "standardised": false,
         "subtitle": "Percentage of children aged 4-5 classified as underweight",
@@ -144,8 +144,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged four to five years healthy weight",
-        "slug": "aged-four to five years healthy weight",
+        "code": "child-obesity-Aged four to five years healthy weight",
+        "slug": "aged-four-to-five-years-healthy-weight",
         "label": "Healthy weight prevalence in children at reception age",
         "standardised": false,
         "subtitle": "Percentage of children aged 4-5 classified as at a healthy weight",
@@ -157,8 +157,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged four to five years overweight",
-        "slug": "aged-four to five years overweight",
+        "code": "child-obesity-Aged four to five years overweight",
+        "slug": "aged-four-to-five-years-overweight",
         "label": "Overweight prevalence in children at reception age",
         "standardised": false,
         "subtitle": "Percentage of children aged 4-5 classified as overweight",
@@ -170,8 +170,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged four to five years obese",
-        "slug": "aged-four to five years obese",
+        "code": "child-obesity-Aged four to five years obese",
+        "slug": "aged-four-to-five-years-obese",
         "label": "Obesity prevalence in children at reception age",
         "standardised": false,
         "subtitle": "Percentage of children aged 4-5 classified as living with obesity",
@@ -183,8 +183,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged 10 to 11 years underweight",
-        "slug": "aged-10 to 11 years underweight",
+        "code": "child-obesity-Aged 10 to 11 years underweight",
+        "slug": "aged-10-to-11-years-underweight",
         "label": "Underweight prevalence in children at Year 6 age",
         "standardised": false,
         "subtitle": "Percentage of children aged 10-11 classified as underweight",
@@ -196,8 +196,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged 10 to 11 years healthy weight",
-        "slug": "aged-10 to 11 years healthy weight",
+        "code": "child-obesity-Aged 10 to 11 years healthy weight",
+        "slug": "aged-10-to-11-years-healthy-weight",
         "label": "Healthy weight prevalence in children at Year 6 age",
         "standardised": false,
         "subtitle": "Percentage of children aged 10-11 classified as at a healthy weight",
@@ -209,8 +209,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged 10 to 11 years overweight",
-        "slug": "aged-10 to 11 years overweight",
+        "code": "child-obesity-Aged 10 to 11 years overweight",
+        "slug": "aged-10-to-11-years-overweight",
         "label": "Overweight prevalence in children at Year 6 age",
         "standardised": false,
         "subtitle": "Percentage of children aged 10-11 classified as overweight",
@@ -222,8 +222,8 @@
         "unit": "%"
       },
       {
-        "code": "Aged 10 to 11 years obese",
-        "slug": "aged-10 to 11 years obese",
+        "code": "child-obesity-Aged 10 to 11 years obese",
+        "slug": "aged-10-to-11-years-obese",
         "label": "Obesity prevalence in children at Year 6 age",
         "standardised": false,
         "subtitle": "Percentage of children aged 10-11 classified as living with obesity",

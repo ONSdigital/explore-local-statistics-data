@@ -147,8 +147,8 @@
     "geographyInitialLevel": "cauth",
     "indicators": [
       {
-        "code": "Inward foreign direct investment (FDI)",
-        "slug": "inward-foreign direct investment",
+        "code": "foreign-direct-investment-Inward foreign direct investment (FDI)",
+        "slug": "inward-foreign-direct-investment",
         "label": "Inward foreign direct investment",
         "standardised": false,
         "subtitle": "Value of foreign direct investments (FDI) in the UK from non-resident companies",
@@ -161,8 +161,8 @@
         "measure": "Pounds"
       },
       {
-        "code": "Outward foreign direct investment (FDI)",
-        "slug": "outward-foreign direct investment",
+        "code": "foreign-direct-investment-Outward foreign direct investment (FDI)",
+        "slug": "outward-foreign-direct-investment",
         "label": "Outward foreign direct investment",
         "standardised": false,
         "subtitle": "Value of foreign direct investments (FDI) of UK-resident companies in other countries",

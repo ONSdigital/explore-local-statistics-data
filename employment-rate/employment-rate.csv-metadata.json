@@ -177,7 +177,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "Employment rate",
+        "code": "employment-rate-Employment rate",
         "slug": "employment-rate",
         "label": "Employment rate (Great Britain)",
         "standardised": false,
@@ -191,7 +191,7 @@
         "measure": "Percentage"
       },
       {
-        "code": "Economically inactive",
+        "code": "employment-rate-Economically inactive",
         "slug": "economically-inactive",
         "label": "Economic inactivity rate (Great Britain)",
         "standardised": false,

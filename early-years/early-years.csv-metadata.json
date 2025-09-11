@@ -131,8 +131,8 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "Communication and language",
-        "slug": "communication-and language",
+        "code": "early-years-Communication and language",
+        "slug": "communication-and-language",
         "label": "Communication and language skills by end of Early years foundation stage",
         "standardised": false,
         "subtitle": "Percentage of 5 year olds at 'expected level' across all communication and language early learning goals",
@@ -145,7 +145,7 @@
         "measure": "Communication and language"
       },
       {
-        "code": "Literacy",
+        "code": "early-years-Literacy",
         "slug": "literacy",
         "label": "Literacy skills by end of Early years foundation stage",
         "standardised": false,
@@ -159,7 +159,7 @@
         "measure": "Communication and language"
       },
       {
-        "code": "Mathematics",
+        "code": "early-years-Mathematics",
         "slug": "mathematics",
         "label": "Maths skills by end of Early years foundation stage",
         "standardised": false,

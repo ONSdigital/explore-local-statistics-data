@@ -155,7 +155,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "Business births",
+        "code": "business-demography-Business births",
         "slug": "business-births",
         "label": "Business births",
         "standardised": false,
@@ -169,7 +169,7 @@
         "measure": "Percentage"
       },
       {
-        "code": "Business deaths",
+        "code": "business-demography-Business deaths",
         "slug": "business-deaths",
         "label": "Business deaths",
         "standardised": false,
@@ -183,8 +183,8 @@
         "measure": "Percentage"
       },
       {
-        "code": "High growth businesses",
-        "slug": "high-growth businesses",
+        "code": "business-demography-High growth businesses",
+        "slug": "high-growth-businesses",
         "label": "High growth businesses",
         "standardised": false,
         "subtitle": "Percentage of businesses with an average growth in employment of greater than 20% per year over a three-year period",

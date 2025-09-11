@@ -141,7 +141,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "Apprenticeship starts (England)",
+        "code": "apprenticeship-Apprenticeship starts (England)",
         "slug": "apprenticeship-starts",
         "label": "Apprenticeship starts (England)",
         "standardised": false,
@@ -155,7 +155,7 @@
         "measure": "Rate per 100,000 population"
       },
       {
-        "code": "Apprenticeship achievements (England)",
+        "code": "apprenticeship-Apprenticeship achievements (England)",
         "slug": "apprenticeship-achievements",
         "label": "Apprenticeship achievements (England)",
         "standardised": false,
