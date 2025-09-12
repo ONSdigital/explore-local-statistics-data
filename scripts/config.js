@@ -62,7 +62,7 @@ const cols = {
     },
   },
   "Lower Confidence Interval (95%)": {
-    name: "Lower Confidence Interval (95%)",
+    name: "Lower confidence interval (95%)",
     datatype: "number",
     transform: {
       key: "lci",
@@ -70,7 +70,7 @@ const cols = {
     },
   },
   "Upper Confidence Interval (95%)": {
-    name: "Upper Confidence Interval (95%)",
+    name: "Upper confidence interval (95%)",
     datatype: "number",
     transform: {
       key: "uci",

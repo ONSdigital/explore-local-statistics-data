@@ -63,12 +63,12 @@
           },
           {
             "titles": "lower_confidence_interval_95",
-            "name": "Lower Confidence Interval (95%)",
+            "name": "Lower confidence interval (95%)",
             "datatype": "number"
           },
           {
             "titles": "upper_confidence_interval_95",
-            "name": "Upper Confidence Interval (95%)",
+            "name": "Upper confidence interval (95%)",
             "datatype": "number"
           },
           {
