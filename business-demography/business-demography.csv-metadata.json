@@ -27,7 +27,8 @@
               "Area code"
             ],
             "datatype": "string",
-            "type": "dimension"
+            "type": "dimension",
+            "role": "geo"
           },
           {
             "titles": [
@@ -81,7 +82,8 @@
               "Time period"
             ],
             "datatype": "string",
-            "type": "dimension"
+            "type": "dimension",
+            "role": "time"
           },
           {
             "name": "lci",

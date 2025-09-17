@@ -5,7 +5,8 @@ const cols = {
     name: "areacd",
     titles: "Area code",
     datatype: "string",
-    type: "dimension"
+    type: "dimension",
+    role: "geo"
   },
   AREANM: {
     titles: "Area name",
@@ -29,7 +30,8 @@ const cols = {
     name: "period",
     titles: "Time period",
     datatype: "string",
-    type: "dimension"
+    type: "dimension",
+    role: "time"
   },
   Observation: {
     name: "value",
