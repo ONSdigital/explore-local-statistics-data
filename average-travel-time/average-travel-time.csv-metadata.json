@@ -13,61 +13,79 @@
         "columns": [
           {
             "name": "areacd",
-            "titles": "Area code",
+            "titles": [
+              "areacd",
+              "Area code"
+            ],
             "datatype": "string",
-            "key": "areacd",
             "type": "dimension"
           },
           {
-            "name": "areanm",
-            "titles": "Area name",
+            "titles": [
+              "areanm",
+              "Area name"
+            ],
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "name": "geography",
-            "titles": "Geography type",
+            "titles": [
+              "geography",
+              "Geography type"
+            ],
             "datatype": "string",
             "supressOutput": true
           },
           {
             "name": "period",
-            "titles": "Time period",
+            "titles": [
+              "period",
+              "Time period"
+            ],
             "datatype": "string",
-            "key": "period",
             "type": "dimension"
           },
           {
-            "name": "observation",
-            "titles": "Observation value",
+            "name": "value",
+            "titles": [
+              "observation",
+              "Observation value"
+            ],
             "datatype": "number",
-            "key": "value",
             "type": "measure"
           },
           {
-            "name": "lower_confidence_interval_95",
-            "titles": "Lower confidence interval (95%)",
+            "name": "lci",
+            "titles": [
+              "lower_confidence_interval_95",
+              "Lower confidence interval (95%)"
+            ],
             "datatype": "number",
-            "key": "lci",
             "type": "measure"
           },
           {
-            "name": "upper_confidence_interval_95",
-            "titles": "Upper confidence interval (95%)",
+            "name": "uci",
+            "titles": [
+              "upper_confidence_interval_95",
+              "Upper confidence interval (95%)"
+            ],
             "datatype": "number",
-            "key": "uci",
             "type": "measure"
           },
           {
-            "name": "observation_status",
-            "titles": "Observation status",
+            "name": "status",
+            "titles": [
+              "observation_status",
+              "Observation status"
+            ],
             "datatype": "string",
-            "key": "status",
             "type": "status"
           },
           {
-            "name": "mode-of-travel",
-            "titles": "Mode of travel",
+            "titles": [
+              "mode-of-travel",
+              "Mode of travel"
+            ],
             "datatype": "string",
             "supressOutput": true
           }

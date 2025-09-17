@@ -12,86 +12,107 @@
       "tableSchema": {
         "columns": [
           {
-            "name": "AREACD",
-            "titles": "Area code",
+            "name": "areacd",
+            "titles": [
+              "AREACD",
+              "Area code"
+            ],
             "datatype": "string",
-            "key": "areacd",
             "type": "dimension"
           },
           {
-            "name": "AREANM",
-            "titles": "Area name",
+            "titles": [
+              "AREANM",
+              "Area name"
+            ],
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "name": "Geography",
-            "titles": "Geography type",
+            "titles": [
+              "Geography",
+              "Geography type"
+            ],
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "name": "Period",
-            "titles": "Time period",
+            "name": "period",
+            "titles": [
+              "Period",
+              "Time period"
+            ],
             "datatype": "string",
-            "key": "period",
             "type": "dimension"
           },
           {
-            "name": "Unit",
-            "titles": "Unit",
+            "name": "unit",
+            "titles": [
+              "Unit"
+            ],
             "datatype": "string",
-            "key": "unit",
             "type": "metadata",
             "supressOutput": true
           },
           {
-            "name": "Indicator",
-            "titles": "Indicator",
+            "name": "indicator",
+            "titles": [
+              "Indicator"
+            ],
             "datatype": "string",
-            "key": "indicator",
             "type": "indicator"
           },
           {
-            "name": "Observation",
-            "titles": "Observation value",
+            "name": "value",
+            "titles": [
+              "Observation",
+              "Observation value"
+            ],
             "datatype": "number",
-            "key": "value",
             "type": "measure"
           },
           {
-            "name": "Lower_confidence_interval_95",
-            "titles": "Lower confidence interval (95%)",
+            "name": "lci",
+            "titles": [
+              "Lower_confidence_interval_95",
+              "Lower confidence interval (95%)"
+            ],
             "datatype": "number",
-            "key": "lci",
             "type": "measure"
           },
           {
-            "name": "Upper_confidence_interval_95",
-            "titles": "Upper confidence interval (95%)",
+            "name": "uci",
+            "titles": [
+              "Upper_confidence_interval_95",
+              "Upper confidence interval (95%)"
+            ],
             "datatype": "number",
-            "key": "uci",
             "type": "measure"
           },
           {
-            "name": "Numerator",
-            "titles": "Numerator",
+            "name": "numerator",
+            "titles": [
+              "Numerator"
+            ],
             "datatype": "number",
-            "key": "numerator",
             "type": "measure"
           },
           {
-            "name": "Total",
-            "titles": "Denominator",
+            "name": "denominator",
+            "titles": [
+              "Total",
+              "Denominator"
+            ],
             "datatype": "number",
-            "key": "denominator",
             "type": "measure"
           },
           {
-            "name": "Observation_status",
-            "titles": "Observation status",
+            "name": "status",
+            "titles": [
+              "Observation_status",
+              "Observation status"
+            ],
             "datatype": "string",
-            "key": "status",
             "type": "status"
           }
         ]

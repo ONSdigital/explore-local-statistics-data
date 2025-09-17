@@ -12,80 +12,97 @@
       "tableSchema": {
         "columns": [
           {
-            "name": "AREACD",
-            "titles": "Area code",
+            "name": "areacd",
+            "titles": [
+              "AREACD",
+              "Area code"
+            ],
             "datatype": "string",
-            "key": "areacd",
             "type": "dimension"
           },
           {
-            "name": "AREANM",
-            "titles": "Area name",
+            "titles": [
+              "AREANM",
+              "Area name"
+            ],
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "name": "Geography",
-            "titles": "Geography type",
+            "titles": [
+              "Geography",
+              "Geography type"
+            ],
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "name": "Indicator",
-            "titles": "Indicator",
+            "name": "indicator",
+            "titles": [
+              "Indicator"
+            ],
             "datatype": "string",
-            "key": "indicator",
             "type": "indicator"
           },
           {
-            "name": "Period",
-            "titles": "Time period",
+            "name": "period",
+            "titles": [
+              "Period",
+              "Time period"
+            ],
             "datatype": "string",
-            "key": "period",
             "type": "dimension"
           },
           {
-            "name": "Age band",
-            "titles": "Age band",
+            "name": "age",
+            "titles": [
+              "Age band"
+            ],
             "datatype": "string",
-            "key": "age",
             "type": "dimension"
           },
           {
-            "name": "Sex",
-            "titles": "Sex",
+            "name": "sex",
+            "titles": [
+              "Sex"
+            ],
             "datatype": "string",
-            "key": "sex",
             "type": "dimension"
           },
           {
-            "name": "Value",
-            "titles": "Observation value",
+            "name": "value",
+            "titles": [
+              "Value",
+              "Observation value"
+            ],
             "datatype": "number",
-            "key": "value",
             "type": "measure"
           },
           {
-            "name": "Measure",
-            "titles": "Measure",
+            "name": "measure",
+            "titles": [
+              "Measure"
+            ],
             "datatype": "string",
-            "key": "measure",
             "type": "metadata",
             "supressOutput": true
           },
           {
-            "name": "Unit",
-            "titles": "Unit",
+            "name": "unit",
+            "titles": [
+              "Unit"
+            ],
             "datatype": "string",
-            "key": "unit",
             "type": "metadata",
             "supressOutput": true
           },
           {
-            "name": "Observation Status",
-            "titles": "Observation status",
+            "name": "status",
+            "titles": [
+              "Observation Status",
+              "Observation status"
+            ],
             "datatype": "string",
-            "key": "status",
             "type": "status"
           }
         ]

@@ -6,8 +6,9 @@ import inferGeos from "./infer-geos.js";
 
 function formatColumns(cols) {
   return cols.map(col => {
-    const obj = {name: col, ...colLookup[col]};
-    if (!obj.key || obj.type === "metadata") obj.supressOutput = true;
+    const obj = {...colLookup[col]};
+    obj.titles = col === obj.titles ? [col] : [col, obj.titles];
+    if (!obj.name || obj.type === "metadata") obj.supressOutput = true;
     return obj;
   });
 }
@@ -26,8 +27,8 @@ async function makeBaseMetadata(meta, data, cols) {
     experimentalStatistic: shared.experimentalStatistic === "T"
   };
 
-  const geoCol = cols.find(col => col.key === "areacd");
-  const geoCodes = Array.from(new Set(data.map(d => d[geoCol.name])));
+  const geoCol = cols.find(col => col.name === "areacd");
+  const geoCodes = Array.from(new Set(data.map(d => d[geoCol.titles[0]])));
   const geos = await inferGeos(geoCodes);
 
   metadata.geographyCountries = geos.ctrys;
@@ -45,13 +46,13 @@ function makeIndicators(ds, meta, data, cols) {
   const codes = meta.shared
     ? Object.keys(meta).filter((k) => k !== "shared")
     : [ds];
-  const valueCol = cols.find(col => col.key === "value");
+  const valueCol = cols.find(col => col.name === "value");
   const indicatorCol = cols.find(col => col.type === "indicator");
   const metaCols = cols.filter(col => col.type === "metadata");
   
   for (const code of codes) {
     const base = code === ds ? meta : meta[code];
-    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.name] === code) : data;
+    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.titles[0]] === code) : data;
     const indicator = {
       code: code,
       slug: slugifyCode(code), // Usually added at data processing stage
@@ -66,15 +67,15 @@ function makeIndicators(ds, meta, data, cols) {
       longDescription: base.longDescription,
       caveats: base.caveats,
       // The below are usually calculated at the data processing stage
-      confidenceIntervals: cols.find(col => col.key === "lci") ? true : false,
-      canBeNegative: rows.map(d => d[valueCol.name]).sort((a, b) => a - b)[0] < 0
+      confidenceIntervals: cols.find(col => col.name === "lci") ? true : false,
+      canBeNegative: rows.map(d => d[valueCol.titles[0]]).sort((a, b) => a - b)[0] < 0
     };
     // These seem to be the inverse of each other. Mybe can get rid of one?
     // (Current usage also seems to be inconsistent with the definition)
     indicator.zeroBaseline = !indicator.canBeNegative;
 
     for (const col of metaCols) {
-      indicator[col.key] = rows[0][col.name];
+      indicator[col.name] = rows[0][col.titles[0]];
     }
     indicators.push(indicator);
   }

@@ -2,9 +2,9 @@ export const skipDatasets = ["population-under-devolution-deal-in-england"];
 
 const cols = {
   AREACD: {
+    name: "areacd",
     titles: "Area code",
     datatype: "string",
-    key: "areacd",
     type: "dimension"
   },
   AREANM: {
@@ -20,57 +20,57 @@ const cols = {
     datatype: "string",
   },
   Indicator: {
+    name: "indicator",
     titles: "Indicator",
     datatype: "string",
-    key: "indicator",
     type: "indicator"
   },
   Period: {
+    name: "period",
     titles: "Time period",
     datatype: "string",
-    key: "period",
     type: "dimension"
   },
   Observation: {
+    name: "value",
     titles: "Observation value",
     datatype: "number",
-    key: "value",
     type: "measure"
   },
   Measure: {
+    name: "measure",
     titles: "Measure",
     datatype: "string",
-    key: "measure",
     type: "metadata"
   },
   Unit: {
+    name: "unit",
     titles: "Unit",
     datatype: "string",
-    key: "unit",
     type: "metadata",
   },
   "Lower Confidence Interval (95%)": {
+    name: "lci",
     titles: "Lower confidence interval (95%)",
     datatype: "number",
-    key: "lci",
     type: "measure"
   },
   "Upper Confidence Interval (95%)": {
+    name: "uci",
     titles: "Upper confidence interval (95%)",
     datatype: "number",
-    key: "uci",
     type: "measure"
   },
   "Observation Status": {
+    name: "status",
     titles: "Observation status",
     datatype: "string",
-    key: "status",
     type: "status"
   },
   Polarity: {
+    name: "polarity",
     titles: "Polarity",
     datatype: "number",
-    key: "polarity",
     type: "metadata"
   },
   Notes: {
@@ -86,27 +86,27 @@ const cols = {
     datatype: "string",
   },
   Numerator: {
+    name: "numerator",
     titles: "Numerator",
     datatype: "number",
-    key: "numerator",
     type: "measure"
   },
   Denominator: {
+    name: "denominator",
     titles: "Denominator",
     datatype: "number",
-    key: "denominator",
     type: "measure"
   },
   "Age band": {
+    name: "age",
     titles: "Age band",
     datatype: "string",
-    key: "age",
     type: "dimension"
   },
   Sex: {
+    name: "sex",
     titles: "Sex",
     datatype: "string",
-    key: "sex",
     type: "dimension"
   },
   "mode-of-travel": {
