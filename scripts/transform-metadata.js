@@ -6,7 +6,7 @@ import inferGeos from "./infer-geos.js";
 
 function formatColumns(cols) {
   return cols.map(col => {
-    const obj = {titles: col, ...colLookup[col]};
+    const obj = {name: col, ...colLookup[col]};
     if (!obj.key || obj.type === "metadata") obj.supressOutput = true;
     return obj;
   });
@@ -27,7 +27,7 @@ async function makeBaseMetadata(meta, data, cols) {
   };
 
   const geoCol = cols.find(col => col.key === "areacd");
-  const geoCodes = Array.from(new Set(data.map(d => d[geoCol.titles])));
+  const geoCodes = Array.from(new Set(data.map(d => d[geoCol.name])));
   const geos = await inferGeos(geoCodes);
 
   metadata.geographyCountries = geos.ctrys;
@@ -51,7 +51,7 @@ function makeIndicators(ds, meta, data, cols) {
   
   for (const code of codes) {
     const base = code === ds ? meta : meta[code];
-    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.titles] === code) : data;
+    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.name] === code) : data;
     const indicator = {
       code: code,
       slug: slugifyCode(code), // Usually added at data processing stage
@@ -67,14 +67,14 @@ function makeIndicators(ds, meta, data, cols) {
       caveats: base.caveats,
       // The below are usually calculated at the data processing stage
       confidenceIntervals: cols.find(col => col.key === "lci") ? true : false,
-      canBeNegative: rows.map(d => d[valueCol.titles]).sort((a, b) => a - b)[0] < 0
+      canBeNegative: rows.map(d => d[valueCol.name]).sort((a, b) => a - b)[0] < 0
     };
     // These seem to be the inverse of each other. Mybe can get rid of one?
     // (Current usage also seems to be inconsistent with the definition)
     indicator.zeroBaseline = !indicator.canBeNegative;
 
     for (const col of metaCols) {
-      indicator[col.key] = rows[0][col.titles];
+      indicator[col.key] = rows[0][col.name];
     }
     indicators.push(indicator);
   }

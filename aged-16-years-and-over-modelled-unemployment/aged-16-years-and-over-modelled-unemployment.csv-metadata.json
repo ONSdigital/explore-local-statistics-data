@@ -12,106 +12,106 @@
       "tableSchema": {
         "columns": [
           {
-            "titles": "AREACD",
-            "name": "Area code",
+            "name": "AREACD",
+            "titles": "Area code",
             "datatype": "string",
             "key": "areacd",
             "type": "dimension"
           },
           {
-            "titles": "AREANM",
-            "name": "Area name",
+            "name": "AREANM",
+            "titles": "Area name",
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "titles": "Geography",
-            "name": "Geography type",
+            "name": "Geography",
+            "titles": "Geography type",
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "titles": "Variable Name",
-            "name": "Variable name",
+            "name": "Variable Name",
+            "titles": "Variable name",
             "datatype": "string",
             "supressOutput": true
           },
           {
-            "titles": "Indicator",
             "name": "Indicator",
+            "titles": "Indicator",
             "datatype": "string",
             "key": "indicator",
             "type": "indicator"
           },
           {
-            "titles": "Period",
-            "name": "Time period",
+            "name": "Period",
+            "titles": "Time period",
             "datatype": "string",
             "key": "period",
             "type": "dimension"
           },
           {
-            "titles": "Observation",
-            "name": "Observation value",
+            "name": "Observation",
+            "titles": "Observation value",
             "datatype": "number",
             "key": "value",
             "type": "measure"
           },
           {
-            "titles": "Count",
-            "name": "Observation value",
+            "name": "Count",
+            "titles": "Observation value",
             "datatype": "number",
             "key": "value",
             "type": "measure"
           },
           {
-            "titles": "Measure",
             "name": "Measure",
+            "titles": "Measure",
             "datatype": "string",
             "key": "measure",
             "type": "metadata",
             "supressOutput": true
           },
           {
-            "titles": "Unit",
             "name": "Unit",
+            "titles": "Unit",
             "datatype": "string",
             "key": "unit",
             "type": "metadata",
             "supressOutput": true
           },
           {
-            "titles": "Lower Confidence Interval (95%)",
-            "name": "Lower confidence interval (95%)",
+            "name": "Lower Confidence Interval (95%)",
+            "titles": "Lower confidence interval (95%)",
             "datatype": "number",
             "key": "lci",
             "type": "measure"
           },
           {
-            "titles": "Upper Confidence Interval (95%)",
-            "name": "Upper confidence interval (95%)",
+            "name": "Upper Confidence Interval (95%)",
+            "titles": "Upper confidence interval (95%)",
             "datatype": "number",
             "key": "uci",
             "type": "measure"
           },
           {
-            "titles": "Observation Status",
-            "name": "Observation status",
+            "name": "Observation Status",
+            "titles": "Observation status",
             "datatype": "string",
             "key": "status",
             "type": "status"
           },
           {
-            "titles": "Polarity",
             "name": "Polarity",
+            "titles": "Polarity",
             "datatype": "number",
             "key": "polarity",
             "type": "metadata",
             "supressOutput": true
           },
           {
-            "titles": "Notes",
             "name": "Notes",
+            "titles": "Notes",
             "datatype": "string",
             "supressOutput": true
           }

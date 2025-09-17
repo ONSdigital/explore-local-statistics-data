@@ -2,115 +2,115 @@ export const skipDatasets = ["population-under-devolution-deal-in-england"];
 
 const cols = {
   AREACD: {
-    name: "Area code",
+    titles: "Area code",
     datatype: "string",
     key: "areacd",
     type: "dimension"
   },
   AREANM: {
-    name: "Area name",
+    titles: "Area name",
     datatype: "string",
   },
   Geography: {
-    name: "Geography type",
+    titles: "Geography type",
     datatype: "string",
   },
   "Variable Name": {
-    name: "Variable name",
+    titles: "Variable name",
     datatype: "string",
   },
   Indicator: {
-    name: "Indicator",
+    titles: "Indicator",
     datatype: "string",
     key: "indicator",
     type: "indicator"
   },
   Period: {
-    name: "Time period",
+    titles: "Time period",
     datatype: "string",
     key: "period",
     type: "dimension"
   },
   Observation: {
-    name: "Observation value",
+    titles: "Observation value",
     datatype: "number",
     key: "value",
     type: "measure"
   },
   Measure: {
-    name: "Measure",
+    titles: "Measure",
     datatype: "string",
     key: "measure",
     type: "metadata"
   },
   Unit: {
-    name: "Unit",
+    titles: "Unit",
     datatype: "string",
     key: "unit",
     type: "metadata",
   },
   "Lower Confidence Interval (95%)": {
-    name: "Lower confidence interval (95%)",
+    titles: "Lower confidence interval (95%)",
     datatype: "number",
     key: "lci",
     type: "measure"
   },
   "Upper Confidence Interval (95%)": {
-    name: "Upper confidence interval (95%)",
+    titles: "Upper confidence interval (95%)",
     datatype: "number",
     key: "uci",
     type: "measure"
   },
   "Observation Status": {
-    name: "Observation status",
+    titles: "Observation status",
     datatype: "string",
     key: "status",
     type: "status"
   },
   Polarity: {
-    name: "Polarity",
+    titles: "Polarity",
     datatype: "number",
     key: "polarity",
     type: "metadata"
   },
   Notes: {
-    name: "Notes",
+    titles: "Notes",
     datatype: "string"
   },
   Mission: {
-    name: "Mission",
+    titles: "Mission",
     datatype: "string",
   },
   Category: {
-    name: "Category",
+    titles: "Category",
     datatype: "string",
   },
   Numerator: {
-    name: "Numerator",
+    titles: "Numerator",
     datatype: "number",
     key: "numerator",
     type: "measure"
   },
   Denominator: {
-    name: "Denominator",
+    titles: "Denominator",
     datatype: "number",
     key: "denominator",
     type: "measure"
   },
   "Age band": {
-    name: "Age band",
+    titles: "Age band",
     datatype: "string",
     key: "age",
     type: "dimension"
   },
   Sex: {
-    name: "Sex",
+    titles: "Sex",
     datatype: "string",
     key: "sex",
     type: "dimension"
   },
   "mode-of-travel": {
-    name: "Mode of travel",
+    titles: "Mode of travel",
     datatype: "string",
   },
 };
