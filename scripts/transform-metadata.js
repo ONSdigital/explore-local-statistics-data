@@ -4,25 +4,12 @@ import { reverseDate, stripBom, slugifyCode, titleFromSlug } from "./utils.js";
 import { skipDatasets, colLookup } from "./config.js";
 import inferGeos from "./infer-geos.js";
 
-function formatCols(cols) {
-  return cols.map((col) => {
-    const meta = colLookup[col];
-    const obj = { titles: col };
-    for (const key of Object.keys(meta).filter((k) => k !== "transform"))
-      obj[key] = meta[key];
+function formatColumns(cols) {
+  return cols.map(col => {
+    const obj = {titles: col, ...colLookup[col]};
+    if (!obj.key || obj.type === "metadata") obj.supressOutput = true;
     return obj;
   });
-}
-
-function makeTransformations(cols) {
-  const transformations = [];
-  for (const col of cols) {
-    const transform = colLookup[col].transform;
-    if (transform && transform.type !== "metadata") {
-      transformations.push({ titles: col, ...transform });
-    }
-  }
-  return transformations;
 }
 
 async function makeBaseMetadata(meta, data, cols) {
@@ -39,8 +26,8 @@ async function makeBaseMetadata(meta, data, cols) {
     experimentalStatistic: shared.experimentalStatistic === "T"
   };
 
-  const geoCol = cols.find(col => col?.transform?.key === "areacd");
-  const geoCodes = Array.from(new Set(data.map(d => d[geoCol.key])));
+  const geoCol = cols.find(col => col.key === "areacd");
+  const geoCodes = Array.from(new Set(data.map(d => d[geoCol.titles])));
   const geos = await inferGeos(geoCodes);
 
   metadata.geographyCountries = geos.ctrys;
@@ -58,13 +45,13 @@ function makeIndicators(ds, meta, data, cols) {
   const codes = meta.shared
     ? Object.keys(meta).filter((k) => k !== "shared")
     : [ds];
-  const valueCol = cols.find(col => col?.transform?.key === "value");
-  const indicatorCol = cols.find(col => col?.transform?.type === "indicator");
-  const metaCols = cols.filter(col => col?.transform?.type === "metadata");
+  const valueCol = cols.find(col => col.key === "value");
+  const indicatorCol = cols.find(col => col.type === "indicator");
+  const metaCols = cols.filter(col => col.type === "metadata");
   
   for (const code of codes) {
     const base = code === ds ? meta : meta[code];
-    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.key] === code) : data;
+    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.titles] === code) : data;
     const indicator = {
       code: code,
       slug: slugifyCode(code), // Usually added at data processing stage
@@ -79,24 +66,22 @@ function makeIndicators(ds, meta, data, cols) {
       longDescription: base.longDescription,
       caveats: base.caveats,
       // The below are usually calculated at the data processing stage
-      confidenceIntervals: cols.find(col => col?.transform?.key === "lci") ? true : false,
-      canBeNegative: rows.map(d => d[valueCol.key]).sort((a, b) => a - b)[0] < 0
+      confidenceIntervals: cols.find(col => col.key === "lci") ? true : false,
+      canBeNegative: rows.map(d => d[valueCol.titles]).sort((a, b) => a - b)[0] < 0
     };
     // These seem to be the inverse of each other. Mybe can get rid of one?
     // (Current usage also seems to be inconsistent with the definition)
     indicator.zeroBaseline = !indicator.canBeNegative;
 
     for (const col of metaCols) {
-      indicator[col.transform.key] = rows[0][col.key];
+      indicator[col.key] = rows[0][col.titles];
     }
     indicators.push(indicator);
   }
   return indicators;
 }
 
-async function makeMetadata(ds, meta, data) {
-  const cols = data.columns.map(col => ({key: col, ...colLookup[col]}));
-
+async function makeMetadata(ds, meta, data, cols) {
   const metadata = await makeBaseMetadata(meta, data, cols);
   metadata.indicators = makeIndicators(ds, meta, data, cols);
 
@@ -121,6 +106,7 @@ for (const ds of datasets) {
     autoType
   );
   const meta = JSON.parse(readFileSync(metaPath, { encoding: "utf-8" }));
+  const columns = formatColumns(data.columns);
 
   const csvw = {
     "@context": ["http://www.w3.org/ns/csvw", { "@language": "en" }],
@@ -129,13 +115,11 @@ for (const ds of datasets) {
       {
         url: `${ds}.csv`,
         tableSchema: {
-          columns: formatCols(data.columns),
-        },
-        // Note: We're slightly misusing the concept of "transformations" here
-        transformations: makeTransformations(data.columns),
+          columns
+        }
       },
     ],
-    metadata: await makeMetadata(ds, meta["ess-beta-metadata"], data),
+    metadata: await makeMetadata(ds, meta["ess-beta-metadata"], data, columns),
   };
 
   writeFileSync(csvwPath, JSON.stringify(csvw, null, 2));

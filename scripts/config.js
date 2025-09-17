@@ -4,10 +4,8 @@ const cols = {
   AREACD: {
     name: "Area code",
     datatype: "string",
-    transform: {
-      key: "areacd",
-      type: "dimension",
-    },
+    key: "areacd",
+    type: "dimension"
   },
   AREANM: {
     name: "Area name",
@@ -24,74 +22,56 @@ const cols = {
   Indicator: {
     name: "Indicator",
     datatype: "string",
-    transform: {
-      key: "indicator",
-      type: "indicator",
-    },
+    key: "indicator",
+    type: "indicator"
   },
   Period: {
     name: "Time period",
     datatype: "string",
-    transform: {
-      key: "period",
-      type: "dimension",
-    },
+    key: "period",
+    type: "dimension"
   },
   Observation: {
     name: "Observation value",
     datatype: "number",
-    transform: {
-      key: "value",
-      type: "measure",
-    },
+    key: "value",
+    type: "measure"
   },
   Measure: {
     name: "Measure",
     datatype: "string",
-    transform: {
-      key: "measure",
-      type: "metadata",
-    },
+    key: "measure",
+    type: "metadata"
   },
   Unit: {
     name: "Unit",
     datatype: "string",
-    transform: {
-      key: "unit",
-      type: "metadata",
-    },
+    key: "unit",
+    type: "metadata",
   },
   "Lower Confidence Interval (95%)": {
     name: "Lower confidence interval (95%)",
     datatype: "number",
-    transform: {
-      key: "lci",
-      type: "measure",
-    },
+    key: "lci",
+    type: "measure"
   },
   "Upper Confidence Interval (95%)": {
     name: "Upper confidence interval (95%)",
     datatype: "number",
-    transform: {
-      key: "uci",
-      type: "measure",
-    },
+    key: "uci",
+    type: "measure"
   },
   "Observation Status": {
     name: "Observation status",
     datatype: "string",
-    transform: {
-      key: "status",
-      type: "status",
-    },
+    key: "status",
+    type: "status"
   },
   Polarity: {
     name: "Polarity",
     datatype: "number",
-    transform: {
-      key: "polarity",
-      type: "metadata",
-    },
+    key: "polarity",
+    type: "metadata"
   },
   Notes: {
     name: "Notes",
@@ -108,34 +88,26 @@ const cols = {
   Numerator: {
     name: "Numerator",
     datatype: "number",
-    transform: {
-      key: "numerator",
-      type: "measure",
-    },
+    key: "numerator",
+    type: "measure"
   },
   Denominator: {
     name: "Denominator",
     datatype: "number",
-    transform: {
-      key: "denominator",
-      type: "measure",
-    },
+    key: "denominator",
+    type: "measure"
   },
   "Age band": {
     name: "Age band",
     datatype: "string",
-    transform: {
-      key: "age",
-      type: "dimension",
-    },
+    key: "age",
+    type: "dimension"
   },
   Sex: {
     name: "Sex",
     datatype: "string",
-    transform: {
-      key: "sex",
-      type: "dimension",
-    },
+    key: "sex",
+    type: "dimension"
   },
   "mode-of-travel": {
     name: "Mode of travel",

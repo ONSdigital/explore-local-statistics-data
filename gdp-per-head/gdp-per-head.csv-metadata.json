@@ -14,97 +14,82 @@
           {
             "titles": "AREACD",
             "name": "Area code",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "areacd",
+            "type": "dimension"
           },
           {
             "titles": "AREANM",
             "name": "Area name",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Geography",
             "name": "Geography type",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Indicator",
             "name": "Indicator",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "indicator",
+            "type": "indicator"
           },
           {
             "titles": "Observation",
             "name": "Observation value",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "value",
+            "type": "measure"
           },
           {
             "titles": "Unit",
             "name": "Unit",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "unit",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Measure",
             "name": "Measure",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "measure",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Period",
             "name": "Time period",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "period",
+            "type": "dimension"
           },
           {
             "titles": "Lower Confidence Interval (95%)",
             "name": "Lower confidence interval (95%)",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "lci",
+            "type": "measure"
           },
           {
             "titles": "Upper Confidence Interval (95%)",
             "name": "Upper confidence interval (95%)",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "uci",
+            "type": "measure"
           },
           {
             "titles": "Observation Status",
             "name": "Observation status",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "status",
+            "type": "status"
           }
         ]
-      },
-      "transformations": [
-        {
-          "titles": "AREACD",
-          "key": "areacd",
-          "type": "dimension"
-        },
-        {
-          "titles": "Indicator",
-          "key": "indicator",
-          "type": "indicator"
-        },
-        {
-          "titles": "Observation",
-          "key": "value",
-          "type": "measure"
-        },
-        {
-          "titles": "Period",
-          "key": "period",
-          "type": "dimension"
-        },
-        {
-          "titles": "Lower Confidence Interval (95%)",
-          "key": "lci",
-          "type": "measure"
-        },
-        {
-          "titles": "Upper Confidence Interval (95%)",
-          "key": "uci",
-          "type": "measure"
-        },
-        {
-          "titles": "Observation Status",
-          "key": "status",
-          "type": "status"
-        }
-      ]
+      }
     }
   ],
   "metadata": {

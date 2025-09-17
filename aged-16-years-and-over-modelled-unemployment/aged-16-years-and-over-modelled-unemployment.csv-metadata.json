@@ -14,122 +14,109 @@
           {
             "titles": "AREACD",
             "name": "Area code",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "areacd",
+            "type": "dimension"
           },
           {
             "titles": "AREANM",
             "name": "Area name",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Geography",
             "name": "Geography type",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Variable Name",
             "name": "Variable name",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Indicator",
             "name": "Indicator",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "indicator",
+            "type": "indicator"
           },
           {
             "titles": "Period",
             "name": "Time period",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "period",
+            "type": "dimension"
           },
           {
             "titles": "Observation",
             "name": "Observation value",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "value",
+            "type": "measure"
           },
           {
             "titles": "Count",
             "name": "Observation value",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "value",
+            "type": "measure"
           },
           {
             "titles": "Measure",
             "name": "Measure",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "measure",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Unit",
             "name": "Unit",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "unit",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Lower Confidence Interval (95%)",
             "name": "Lower confidence interval (95%)",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "lci",
+            "type": "measure"
           },
           {
             "titles": "Upper Confidence Interval (95%)",
             "name": "Upper confidence interval (95%)",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "uci",
+            "type": "measure"
           },
           {
             "titles": "Observation Status",
             "name": "Observation status",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "status",
+            "type": "status"
           },
           {
             "titles": "Polarity",
             "name": "Polarity",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "polarity",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Notes",
             "name": "Notes",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           }
         ]
-      },
-      "transformations": [
-        {
-          "titles": "AREACD",
-          "key": "areacd",
-          "type": "dimension"
-        },
-        {
-          "titles": "Indicator",
-          "key": "indicator",
-          "type": "indicator"
-        },
-        {
-          "titles": "Period",
-          "key": "period",
-          "type": "dimension"
-        },
-        {
-          "titles": "Observation",
-          "key": "value",
-          "type": "measure"
-        },
-        {
-          "titles": "Count",
-          "key": "value",
-          "type": "measure"
-        },
-        {
-          "titles": "Lower Confidence Interval (95%)",
-          "key": "lci",
-          "type": "measure"
-        },
-        {
-          "titles": "Upper Confidence Interval (95%)",
-          "key": "uci",
-          "type": "measure"
-        },
-        {
-          "titles": "Observation Status",
-          "key": "status",
-          "type": "status"
-        }
-      ]
+      }
     }
   ],
   "metadata": {

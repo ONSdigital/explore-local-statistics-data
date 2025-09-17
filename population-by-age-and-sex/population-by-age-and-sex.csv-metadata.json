@@ -14,97 +14,82 @@
           {
             "titles": "AREACD",
             "name": "Area code",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "areacd",
+            "type": "dimension"
           },
           {
             "titles": "AREANM",
             "name": "Area name",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Geography",
             "name": "Geography type",
-            "datatype": "string"
+            "datatype": "string",
+            "supressOutput": true
           },
           {
             "titles": "Indicator",
             "name": "Indicator",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "indicator",
+            "type": "indicator"
           },
           {
             "titles": "Period",
             "name": "Time period",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "period",
+            "type": "dimension"
           },
           {
             "titles": "Age band",
             "name": "Age band",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "age",
+            "type": "dimension"
           },
           {
             "titles": "Sex",
             "name": "Sex",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "sex",
+            "type": "dimension"
           },
           {
             "titles": "Value",
             "name": "Observation value",
-            "datatype": "number"
+            "datatype": "number",
+            "key": "value",
+            "type": "measure"
           },
           {
             "titles": "Measure",
             "name": "Measure",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "measure",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Unit",
             "name": "Unit",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "unit",
+            "type": "metadata",
+            "supressOutput": true
           },
           {
             "titles": "Observation Status",
             "name": "Observation status",
-            "datatype": "string"
+            "datatype": "string",
+            "key": "status",
+            "type": "status"
           }
         ]
-      },
-      "transformations": [
-        {
-          "titles": "AREACD",
-          "key": "areacd",
-          "type": "dimension"
-        },
-        {
-          "titles": "Indicator",
-          "key": "indicator",
-          "type": "indicator"
-        },
-        {
-          "titles": "Period",
-          "key": "period",
-          "type": "dimension"
-        },
-        {
-          "titles": "Age band",
-          "key": "age",
-          "type": "dimension"
-        },
-        {
-          "titles": "Sex",
-          "key": "sex",
-          "type": "dimension"
-        },
-        {
-          "titles": "Value",
-          "key": "value",
-          "type": "measure"
-        },
-        {
-          "titles": "Observation Status",
-          "key": "status",
-          "type": "status"
-        }
-      ]
+      }
     }
   ],
   "metadata": {
