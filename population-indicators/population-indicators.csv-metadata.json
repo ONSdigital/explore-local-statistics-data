@@ -462,7 +462,7 @@
       },
       {
         "code": "Percentage of the population aged 65+",
-        "slug": "percentage-of-the-population-aged-65+",
+        "slug": "percentage-of-the-population-aged-65",
         "dataset": "population-indicators",
         "label": "Population aged 65 and over",
         "prefix": null,
@@ -481,7 +481,7 @@
       },
       {
         "code": "Percentage of the population aged 65+ - Female",
-        "slug": "percentage-of-the-population-aged-65+-female",
+        "slug": "percentage-of-the-population-aged-65-female",
         "dataset": "population-indicators",
         "label": "Female population aged 65 and over",
         "prefix": null,
@@ -500,7 +500,7 @@
       },
       {
         "code": "Percentage of the population aged 65+ - Male",
-        "slug": "percentage-of-the-population-aged-65+-male",
+        "slug": "percentage-of-the-population-aged-65-male",
         "dataset": "population-indicators",
         "label": "Male population aged 65 and over",
         "prefix": null,
