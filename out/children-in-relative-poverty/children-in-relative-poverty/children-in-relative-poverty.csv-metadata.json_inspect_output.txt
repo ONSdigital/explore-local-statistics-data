@@ -1,0 +1,117 @@
+
+- This file is a data cube.
+
+
+        - The data cube has the following catalog metadata:
+          - Title: Children in relative poverty
+          - Label: Children in relative poverty
+          - Issued: 2025-09-23T13:00:00
+          - Modified: 2025-09-23T13:00:00
+          - License: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+          - Creator: https://www.gov.uk/government/organisations/office-for-national-statistics
+          - Publisher: https://www.gov.uk/government/organisations/department-for-work-pensions
+          - Landing Pages: None
+          - Themes: 
+		-- https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances
+          - Keywords: 
+		-- children-in-relative-poverty
+		-- region
+		-- local-authority
+		-- low-income
+		-- subnational
+          - Contact Point: None
+          - Identifier: Children in relative poverty
+          - Comment: Percentage of children aged 0 to 15 living in relative low income families Before Housing Costs (BHC), UK, for financial years ending 2015 to 2024.
+          - Description: This dataset shows the percentage of children aged 0 to 15 living in relative low income families Before Housing Costs (BHC), in the UK, for financial years ending 2015 to 2024.
+		
+		### Coverage 
+		
+		UK
+		
+		#### Geography definition
+		
+		Local Authority Districts and Unitary Authorities,
+		Regions,
+		Nations (Wales, Scotland, Northern Ireland),
+		Country (UK)
+		
+		### Source
+		
+		 - United Kingdom: [Department for Work and Pensions](https://www.gov.uk/government/collections/children-in-low-income-families-local-area-statistics) 
+		
+		
+		### Source Notes and Caveats 
+		Relative low income is defined as a family in low income Before Housing Costs (BHC) in the reference year. A family must have claimed Child Benefit and at least one other household benefit (Universal Credit, tax credits, or Housing Benefit) at any point in the year to be classed as low income in these statistics.
+		
+		Rates have been derived by dividing the number of children aged 0 to 15 in low income families by the number of all children aged 0-15 (sourced from latest available mid-year population estimates).
+        
+
+ - The data cube has the following column component information: 
+    - Dataset Label: Children in relative poverty
+    - Columns: 
+                              Title         Type  Required                                                          Property URL Observations Column Titles
+                             AREACD    Dimension      True         children-in-relative-poverty.csv#dimension/ons-geography-code                Observation
+                             AREANM    Dimension      True                  children-in-relative-poverty.csv#dimension/area-name                Observation
+                          Geography    Dimension      True             children-in-relative-poverty.csv#dimension/geography-type                Observation
+                      Variable Name   Suppressed     False                                                                  None                           
+                          Indicator   Suppressed     False                                                                  None                           
+                             Period    Dimension      True            children-in-relative-poverty.csv#dimension/government-year                Observation
+                        Observation Observations     False children-in-relative-poverty.csv#measure/children-in-relative-poverty                Observation
+                            Measure   Suppressed     False                                                                  None                           
+                               Unit   Suppressed     False                                                                  None                           
+    Lower Confidence Interval (95%)    Attribute     False  children-in-relative-poverty.csv#attribute/lower-confidence-interval                Observation
+    Upper Confidence Interval (95%)    Attribute     False  children-in-relative-poverty.csv#attribute/upper-confidence-interval                Observation
+                 Observation Status    Attribute     False         children-in-relative-poverty.csv#attribute/observation-status                Observation
+                           Polarity   Suppressed     False                                                                  None                           
+                              Notes   Suppressed     False                                                                  None                           
+    - Columns where suppress output is true: 
+    		-- Variable Name
+    		-- Indicator
+    		-- Measure
+    		-- Unit
+    		-- Polarity
+    		-- Notes
+
+- The data cube has the following code list information:
+        - Number of Code Lists: 4
+        - Code Lists:
+                       Code List    Code List Label Columns Used In
+         area-name.csv#code-list          Area Name          AREANM
+    geography-type.csv#code-list     Geography Type       Geography
+   government-year.csv#code-list    Government Year          Period
+ons-geography-code.csv#code-list ONS Geography Code          AREACD
+
+- The data cube has the following dataset information:
+        - Number of Rows: 3740
+        - Number of Duplicates: 0
+        - First 10 Rows: 
+   AREACD         AREANM Geography       Variable Name           Indicator    Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+k02000001 united-kingdom   country Children in poverty Children in poverty 2014-2015         16.5 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2023-2024         21.8 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2022-2023         21.1 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2021-2022         19.1 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2020-2021         18.4 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2019-2020         21.1 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2018-2019         18.3 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2017-2018         19.7 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2015-2016         17.6 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+k02000001 united-kingdom   country Children in poverty Children in poverty 2016-2017         17.4 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+        - Last 10 Rows: 
+   AREACD              AREANM                Geography       Variable Name           Indicator    Period  Observation    Measure Unit  Lower Confidence Interval (95%)  Upper Confidence Interval (95%)  Observation Status  Polarity Notes
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2022-2023         17.3 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2021-2022         15.0 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2020-2021         14.2 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2019-2020         18.2 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2018-2019         19.8 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2017-2018         21.0 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2016-2017         20.3 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2015-2016         21.7 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2014-2015         20.5 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+n09000011 ards-and-north-down local-authority-district Children in poverty Children in poverty 2023-2024         17.8 Percentage    %                              NaN                              NaN                 NaN        -1   NaN
+        
+
+- The data cube has the following value counts:
+        - Value counts broken-down by measure and unit (of measure):
+                     Measure    Unit  Count
+Children in relative poverty percent   3740
+        
