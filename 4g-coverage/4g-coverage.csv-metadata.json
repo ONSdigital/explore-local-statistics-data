@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "4g-coverage",
+        "code": "4G coverage provided by at least one mobile network provider",
         "slug": "4g-coverage",
         "dataset": "4g-coverage",
         "label": "4G coverage",

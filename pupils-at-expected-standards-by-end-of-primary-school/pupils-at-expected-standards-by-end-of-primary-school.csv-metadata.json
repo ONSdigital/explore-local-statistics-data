@@ -171,7 +171,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "pupils-at-expected-standards-by-end-of-primary-school",
+        "code": "Percentage of pupils at the end of key stage 2 meeting the expected standard in reading, writing and maths",
         "slug": "pupils-at-expected-standards-by-end-of-primary-school",
         "dataset": "pupils-at-expected-standards-by-end-of-primary-school",
         "label": "Pupils meeting the expected standard in reading, writing and maths at the end of Key Stage 2",

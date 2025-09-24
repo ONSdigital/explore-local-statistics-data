@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "gigabit-capable-broadband",
+        "code": "Premises with gigabit capable broadband",
         "slug": "gigabit-capable-broadband",
         "dataset": "gigabit-capable-broadband",
         "label": "Gigabit capable broadband",

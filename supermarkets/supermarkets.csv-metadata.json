@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "supermarkets",
+        "code": "Chain supermarkets per 10,000 population",
         "slug": "supermarkets",
         "dataset": "supermarkets",
         "label": "Supermarkets",

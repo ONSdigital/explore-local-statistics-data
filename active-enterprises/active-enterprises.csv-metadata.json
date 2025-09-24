@@ -185,7 +185,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "active-enterprises",
+        "code": "Active businesses",
         "slug": "active-enterprises",
         "dataset": "active-enterprises",
         "label": "Active businesses",

@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "5g-coverage",
+        "code": "5G coverage provided by at least one mobile network provider",
         "slug": "5g-coverage",
         "dataset": "5g-coverage",
         "label": "5G coverage",

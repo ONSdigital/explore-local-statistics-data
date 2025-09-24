@@ -177,7 +177,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "homicide-offences-ni",
+        "code": "Homicide Offences",
         "slug": "homicide-offences-ni",
         "dataset": "homicide-offences-ni",
         "label": "Homicide Offences (Northern Ireland)",

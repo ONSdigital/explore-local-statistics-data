@@ -110,11 +110,7 @@ const cols = {
     titles: "Sex",
     datatype: "string",
     type: "dimension"
-  },
-  "mode-of-travel": {
-    titles: "Mode of travel",
-    datatype: "string",
-  },
+  }
 };
 
 const duplicateCols = {
@@ -138,6 +134,7 @@ const duplicateCols = {
   notes: "Notes",
   Total: "Denominator",
   Value: "Observation",
+  "mode-of-travel": "Indicator"
 };
 
 export const colLookup = (() => {

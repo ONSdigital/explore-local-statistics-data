@@ -170,7 +170,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "gcses-and-equivalent-in-english-and-maths-by-age-19",
+        "code": "Young people achieving GCSEs (and equivalent qualifications) in English and maths by age 19",
         "slug": "gcses-and-equivalent-in-english-and-maths-by-age-19",
         "dataset": "gcses-and-equivalent-in-english-and-maths-by-age-19",
         "label": "GCSEs in English and Maths",

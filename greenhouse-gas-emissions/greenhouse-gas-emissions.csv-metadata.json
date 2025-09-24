@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "greenhouse-gas-emissions",
+        "code": "Greenhouse gas emissions",
         "slug": "greenhouse-gas-emissions",
         "dataset": "greenhouse-gas-emissions",
         "label": "Greenhouse gas emissions",

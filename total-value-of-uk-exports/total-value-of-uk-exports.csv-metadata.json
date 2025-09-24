@@ -180,7 +180,7 @@
     "geographyInitialLevel": "cauth",
     "indicators": [
       {
-        "code": "total-value-of-uk-exports",
+        "code": "Value of UK exports",
         "slug": "total-value-of-uk-exports",
         "dataset": "total-value-of-uk-exports",
         "label": "Value of UK exports",

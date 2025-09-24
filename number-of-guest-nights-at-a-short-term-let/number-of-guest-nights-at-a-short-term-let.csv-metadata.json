@@ -178,7 +178,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "number-of-guest-nights-at-a-short-term-let",
+        "code": "Number of guest nights at a short-term let",
         "slug": "number-of-guest-nights-at-a-short-term-let",
         "dataset": "number-of-guest-nights-at-a-short-term-let",
         "label": "Number of guest nights at a short-term let",

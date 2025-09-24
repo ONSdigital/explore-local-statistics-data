@@ -186,7 +186,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "aged-16-years-and-over-modelled-unemployment",
+        "code": "Modelled unemployment rate",
         "slug": "aged-16-years-and-over-modelled-unemployment",
         "dataset": "aged-16-years-and-over-modelled-unemployment",
         "label": "Modelled unemployment rate",

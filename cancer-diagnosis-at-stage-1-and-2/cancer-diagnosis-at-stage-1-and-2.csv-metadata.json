@@ -185,7 +185,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "cancer-diagnosis-at-stage-1-and-2",
+        "code": "Cancer diagnosis at stage 1 and 2",
         "slug": "cancer-diagnosis-at-stage-1-and-2",
         "dataset": "cancer-diagnosis-at-stage-1-and-2",
         "label": "Cancer diagnosis at stage 1 and 2",

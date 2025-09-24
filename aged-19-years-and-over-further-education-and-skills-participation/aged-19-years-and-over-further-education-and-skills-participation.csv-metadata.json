@@ -171,7 +171,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "aged-19-years-and-over-further-education-and-skills-participation",
+        "code": "19+ further education and skills participation (per 100,000 population)",
         "slug": "aged-19-years-and-over-further-education-and-skills-participation",
         "dataset": "aged-19-years-and-over-further-education-and-skills-participation",
         "label": "Further education and skills participation",

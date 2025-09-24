@@ -184,7 +184,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "domestic-electricity-consumption",
+        "code": "Electicity consumption",
         "slug": "domestic-electricity-consumption",
         "dataset": "domestic-electricity-consumption",
         "label": "Domestic electricity consumption",

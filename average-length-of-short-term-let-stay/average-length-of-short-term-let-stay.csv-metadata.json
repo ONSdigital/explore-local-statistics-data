@@ -178,7 +178,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "average-length-of-short-term-let-stay",
+        "code": "Average length of short-term let stay",
         "slug": "average-length-of-short-term-let-stay",
         "dataset": "average-length-of-short-term-let-stay",
         "label": "Average length of short-term let stay",

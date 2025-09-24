@@ -179,7 +179,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "cigarette-smokers",
+        "code": "Cigarette smokers",
         "slug": "cigarette-smokers",
         "dataset": "cigarette-smokers",
         "label": "Cigarette smokers",

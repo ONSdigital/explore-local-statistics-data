@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "premises-below-30",
+        "code": "Premises below 30Mbps",
         "slug": "premises-below-30",
         "dataset": "premises-below-30",
         "label": "Premises below 30Mbps",

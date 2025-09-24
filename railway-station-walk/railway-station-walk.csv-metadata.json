@@ -174,7 +174,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "railway-station-walk",
+        "code": "Residents within a 30 minute walk of their nearest railway station",
         "slug": "railway-station-walk",
         "dataset": "railway-station-walk",
         "label": "Residents within a 30 minute walk of their nearest railway station",

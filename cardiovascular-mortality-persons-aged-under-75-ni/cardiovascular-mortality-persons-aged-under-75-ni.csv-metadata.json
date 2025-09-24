@@ -177,7 +177,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "cardiovascular-mortality-persons-aged-under-75-ni",
+        "code": "Circulatory mortality considered preventable in persons aged under 75 (Northern Ireland)",
         "slug": "cardiovascular-mortality-persons-aged-under-75-ni",
         "dataset": "cardiovascular-mortality-persons-aged-under-75-ni",
         "label": "Preventable cardiovascular mortality (Northern Ireland)",

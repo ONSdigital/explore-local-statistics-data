@@ -169,7 +169,7 @@
     "geographyInitialLevel": "rgn",
     "indicators": [
       {
-        "code": "business-expenditure-on-research-and-development",
+        "code": "Business expenditure on research and development",
         "slug": "business-expenditure-on-research-and-development",
         "dataset": "business-expenditure-on-research-and-development",
         "label": "Business expenditure on research and development",

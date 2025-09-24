@@ -167,7 +167,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "persistent-absences-for-pupils-eligible-for-free-school-meals",
+        "code": "Persistent absences for pupils eligible for free school meals in the past 6 years",
         "slug": "persistent-absences-for-pupils-eligible-for-free-school-meals",
         "dataset": "persistent-absences-for-pupils-eligible-for-free-school-meals",
         "label": "Persistent absences for pupils eligible for free school meals",

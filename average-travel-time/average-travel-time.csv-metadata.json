@@ -84,12 +84,13 @@
             "type": "status"
           },
           {
+            "name": "indicator",
             "titles": [
               "mode-of-travel",
-              "Mode of travel"
+              "Indicator"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "type": "indicator"
           }
         ]
       }

@@ -57,13 +57,13 @@
             "type": "measure"
           },
           {
-            "name": "measure",
+            "name": "indicator",
             "titles": [
-              "Measure"
+              "Measure",
+              "Indicator"
             ],
             "datatype": "string",
-            "type": "metadata",
-            "supressOutput": true
+            "type": "indicator"
           },
           {
             "name": "unit",
@@ -160,7 +160,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Anxiety mean score (where 10 is 'completely anxious')",
         "unit": "Score out of 10"
       },
       {
@@ -175,7 +174,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Anxiety mean score (where 10 is 'completely anxious')",
         "unit": "Score out of 10"
       },
       {
@@ -190,7 +188,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Anxiety mean score (where 10 is 'completely anxious')",
         "unit": "Score out of 10"
       },
       {
@@ -205,7 +202,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Anxiety mean score (where 10 is 'completely anxious')",
         "unit": "Score out of 10"
       }
     ]

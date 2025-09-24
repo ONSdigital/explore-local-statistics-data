@@ -167,7 +167,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "schools-and-nursery-schools-rated-good-or-outstanding",
+        "code": "State-funded schools rated good or outstanding",
         "slug": "schools-and-nursery-schools-rated-good-or-outstanding",
         "dataset": "schools-and-nursery-schools-rated-good-or-outstanding",
         "label": "State-funded schools rated good or outstanding",

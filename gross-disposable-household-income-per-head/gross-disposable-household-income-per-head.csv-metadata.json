@@ -187,7 +187,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "gross-disposable-household-income-per-head",
+        "code": "Gross disposable household income",
         "slug": "gross-disposable-household-income-per-head",
         "dataset": "gross-disposable-household-income-per-head",
         "label": "Gross disposable household income",

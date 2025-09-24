@@ -57,14 +57,13 @@
             "type": "measure"
           },
           {
-            "name": "measure",
+            "name": "indicator",
             "titles": [
               "measure",
-              "Measure"
+              "Indicator"
             ],
             "datatype": "string",
-            "type": "metadata",
-            "supressOutput": true
+            "type": "indicator"
           },
           {
             "name": "unit",
@@ -151,7 +150,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -165,7 +163,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -179,7 +176,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -193,7 +189,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -207,7 +202,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -221,7 +215,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -235,7 +228,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       },
       {
@@ -249,7 +241,6 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Aged four to five years underweight",
         "unit": "%"
       }
     ]

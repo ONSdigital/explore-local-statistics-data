@@ -183,7 +183,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "claimant-count",
+        "code": "Claimant Count",
         "slug": "claimant-count",
         "dataset": "claimant-count",
         "label": "Claimant Count",

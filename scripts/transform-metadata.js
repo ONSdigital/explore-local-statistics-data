@@ -5,8 +5,15 @@ import { skipDatasets, colLookup } from "./config.js";
 import inferGeos from "./infer-geos.js";
 
 function formatColumns(cols) {
+  // Some CSVs currently use a "measure" column in place of "indicator"
+  const hasInicatorCol = cols.map(col => colLookup[col]).map(col => col.type).includes("indicator");
+
   return cols.map(col => {
-    const obj = {...colLookup[col]};
+    let obj = {...colLookup[col]};
+
+    // For CSVs where the "measure" column is being used in place of "indicator"
+    if (!hasInicatorCol && obj.name === "measure") obj = {...colLookup["indicator"]};
+
     obj.titles = col === obj.titles ? [col] : [col, obj.titles];
     if (!obj.name || obj.type === "metadata") obj.supressOutput = true;
     return obj;
@@ -43,19 +50,21 @@ async function makeBaseMetadata(meta, data, cols) {
 
 function makeIndicators(ds, meta, data, cols) {
   const indicators = [];
-  const codes = meta.shared
-    ? Object.keys(meta).filter((k) => k !== "shared")
-    : [ds];
   const valueCol = cols.find(col => col.name === "value");
   const indicatorCol = cols.find(col => col.type === "indicator");
   const metaCols = cols.filter(col => col.type === "metadata");
+
+  const isSingleIndicator = !meta.shared;
+  const codes = !isSingleIndicator
+    ? Object.keys(meta).filter((k) => k !== "shared")
+    : [data[0][indicatorCol.titles[0]]];
   
   for (const code of codes) {
-    const base = code === ds ? meta : meta[code];
-    const rows = indicatorCol && code !== ds ? data.filter(d => d[indicatorCol.titles[0]] === code) : data;
+    const base = isSingleIndicator ? meta : meta[code];
+    const rows = isSingleIndicator ? data : data.filter(d => d[indicatorCol.titles[0]] === code);
     const indicator = {
-      code: code,
-      slug: slugifyCode(code), // Usually added at data processing stage
+      code,
+      slug: slugifyCode(isSingleIndicator ? ds : code), // This is a placeholder. Should be defined manually elsewhere
       dataset: ds,
       label: base.label,
       prefix: base.prefix,

@@ -58,14 +58,13 @@
             "supressOutput": true
           },
           {
-            "name": "measure",
+            "name": "indicator",
             "titles": [
               "measure",
-              "Measure"
+              "Indicator"
             ],
             "datatype": "string",
-            "type": "metadata",
-            "supressOutput": true
+            "type": "indicator"
           },
           {
             "name": "value",
@@ -152,8 +151,7 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "%",
-        "measure": "Communication and language"
+        "unit": "%"
       },
       {
         "code": "Literacy",
@@ -167,8 +165,7 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "%",
-        "measure": "Communication and language"
+        "unit": "%"
       },
       {
         "code": "Mathematics",
@@ -182,8 +179,7 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "%",
-        "measure": "Communication and language"
+        "unit": "%"
       }
     ]
   }

@@ -186,7 +186,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "gross-median-weekly-pay",
+        "code": "Gross median weekly pay",
         "slug": "gross-median-weekly-pay",
         "dataset": "gross-median-weekly-pay",
         "label": "Gross median weekly pay",

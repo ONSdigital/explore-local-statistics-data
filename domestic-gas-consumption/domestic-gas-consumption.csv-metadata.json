@@ -176,7 +176,7 @@
     "geographyInitialLevel": "ltla",
     "indicators": [
       {
-        "code": "domestic-gas-consumption",
+        "code": "Gas consumption",
         "slug": "domestic-gas-consumption",
         "dataset": "domestic-gas-consumption",
         "label": "Domestic gas consumption",
