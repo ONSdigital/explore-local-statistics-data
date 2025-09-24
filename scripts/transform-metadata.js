@@ -15,7 +15,7 @@ function formatColumns(cols) {
     if (!hasInicatorCol && obj.name === "measure") obj = {...colLookup["indicator"]};
 
     obj.titles = col === obj.titles ? [col] : [col, obj.titles];
-    if (!obj.name || obj.type === "metadata") obj.supressOutput = true;
+    if (!obj.name || obj.type === "metadata") obj.suppressOutput = true;
     return obj;
   });
 }

@@ -27,7 +27,7 @@
               "Area name"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "titles": [
@@ -35,7 +35,7 @@
               "Geography type"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "indicator",
@@ -87,7 +87,7 @@
             ],
             "datatype": "string",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "unit",
@@ -96,7 +96,7 @@
             ],
             "datatype": "string",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "status",

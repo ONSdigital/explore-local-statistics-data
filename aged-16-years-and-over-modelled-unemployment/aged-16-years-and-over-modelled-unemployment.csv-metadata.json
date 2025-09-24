@@ -27,7 +27,7 @@
               "Area name"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "titles": [
@@ -35,7 +35,7 @@
               "Geography type"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "titles": [
@@ -43,7 +43,7 @@
               "Variable name"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "indicator",
@@ -88,7 +88,7 @@
             ],
             "datatype": "string",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "unit",
@@ -97,7 +97,7 @@
             ],
             "datatype": "string",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "lci",
@@ -133,14 +133,14 @@
             ],
             "datatype": "number",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "titles": [
               "Notes"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           }
         ]
       }

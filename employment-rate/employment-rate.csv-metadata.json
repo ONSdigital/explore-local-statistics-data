@@ -36,7 +36,7 @@
               "Area name"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "titles": [
@@ -44,7 +44,7 @@
               "Geography type"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "value",
@@ -81,7 +81,7 @@
             ],
             "datatype": "string",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "measure",
@@ -91,7 +91,7 @@
             ],
             "datatype": "string",
             "type": "metadata",
-            "supressOutput": true
+            "suppressOutput": true
           },
           {
             "name": "period",
@@ -136,7 +136,7 @@
               "Notes"
             ],
             "datatype": "string",
-            "supressOutput": true
+            "suppressOutput": true
           }
         ]
       }
