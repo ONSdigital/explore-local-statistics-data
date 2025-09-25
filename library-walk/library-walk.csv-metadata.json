@@ -6,6 +6,7 @@
     }
   ],
   "dc:title": "Residents within a 30 minute walk of their nearest library",
+  "dc:publisher": "Office for National Statistics",
   "dc:issued": "2024-10-17",
   "dc:modified": "2025-04-07",
   "tables": [

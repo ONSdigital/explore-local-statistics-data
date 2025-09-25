@@ -125,6 +125,7 @@ for (const ds of datasets) {
   const csvw = {
     "@context": ["http://www.w3.org/ns/csvw", { "@language": "en" }],
     "dc:title": meta.title || titleFromSlug(ds),
+    "dc:publisher": metadata.source.map(s => s.name).join(", "),
     // The most recent publication date of underlying data sources
     "dc:issued": metadata.source.map(s => s.date).sort((a, b) => b.localeCompare(a))[0],
     // The date the CSV file was committed to git
