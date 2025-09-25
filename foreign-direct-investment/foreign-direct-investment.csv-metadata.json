@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Foreign direct investment (FDI)",
+  "dc:issued": "2023-04-24",
+  "dc:modified": "2024-02-09",
   "tables": [
     {
       "url": "foreign-direct-investment.csv",
@@ -81,7 +83,7 @@
               "period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

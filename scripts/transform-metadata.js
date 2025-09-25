@@ -1,4 +1,5 @@
-import { existsSync, readdirSync, readFileSync, writeFileSync } from "fs";
+import { existsSync, readdirSync, readFileSync, writeFileSync, statSync } from "fs";
+import { execSync } from "child_process";
 import { csvParse, autoType } from "d3-dsv";
 import { reverseDate, stripBom, slugifyCode, titleFromSlug } from "./utils.js";
 import { skipDatasets, colLookup } from "./config.js";
@@ -116,11 +117,18 @@ for (const ds of datasets) {
     autoType
   );
   const meta = JSON.parse(readFileSync(metaPath, { encoding: "utf-8" }));
+  const modifedDate = execSync(`git log -1 --pretty="format:%cs" ${dataPath}`, { encoding: "utf-8" });
+
   const columns = formatColumns(data.columns);
+  const metadata = await makeMetadata(ds, meta["ess-beta-metadata"], data, columns);
 
   const csvw = {
     "@context": ["http://www.w3.org/ns/csvw", { "@language": "en" }],
     "dc:title": meta.title || titleFromSlug(ds),
+    // The most recent publication date of underlying data sources
+    "dc:issued": metadata.source.map(s => s.date).sort((a, b) => b.localeCompare(a))[0],
+    // The date the CSV file was committed to git
+    "dc:modified": modifedDate,
     tables: [
       {
         url: `${ds}.csv`,
@@ -129,7 +137,7 @@ for (const ds of datasets) {
         }
       },
     ],
-    metadata: await makeMetadata(ds, meta["ess-beta-metadata"], data, columns),
+    metadata
   };
 
   writeFileSync(csvwPath, JSON.stringify(csvw, null, 2));

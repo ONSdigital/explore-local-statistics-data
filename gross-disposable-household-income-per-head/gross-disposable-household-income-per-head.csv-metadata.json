@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Gross disposable household income per head",
+  "dc:issued": "2024-09-04",
+  "dc:modified": "2025-06-17",
   "tables": [
     {
       "url": "gross-disposable-household-income-per-head.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

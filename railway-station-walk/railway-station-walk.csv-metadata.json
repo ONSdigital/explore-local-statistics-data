@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Residents within a 30 minute walk of their nearest railway station",
+  "dc:issued": "2024-10-17",
+  "dc:modified": "2025-04-07",
   "tables": [
     {
       "url": "railway-station-walk.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

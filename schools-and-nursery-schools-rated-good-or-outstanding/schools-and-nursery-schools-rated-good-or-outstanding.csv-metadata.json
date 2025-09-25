@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "State-funded schools rated good or outstanding",
+  "dc:issued": "2024-10-15",
+  "dc:modified": "2024-10-29",
   "tables": [
     {
       "url": "schools-and-nursery-schools-rated-good-or-outstanding.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

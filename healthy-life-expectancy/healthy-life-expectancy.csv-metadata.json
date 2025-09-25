@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Healthy life expectancy",
+  "dc:issued": "2025-01-16",
+  "dc:modified": "2024-12-19",
   "tables": [
     {
       "url": "healthy-life-expectancy.csv",
@@ -81,7 +83,7 @@
               "period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "First-time buyer mortgage sales",
+  "dc:issued": "2025-06-11",
+  "dc:modified": "2025-07-08",
   "tables": [
     {
       "url": "first-time-buyer-mortgage-sales.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

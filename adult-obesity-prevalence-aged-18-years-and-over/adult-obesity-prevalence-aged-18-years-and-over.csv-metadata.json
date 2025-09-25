@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Adult obesity prevalence",
+  "dc:issued": "2025-05-07",
+  "dc:modified": "2025-05-12",
   "tables": [
     {
       "url": "adult-obesity-prevalence-aged-18-years-and-over.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

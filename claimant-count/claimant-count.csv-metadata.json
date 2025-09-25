@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Claimant Count",
+  "dc:issued": "2025-01-21",
+  "dc:modified": "2025-01-24",
   "tables": [
     {
       "url": "claimant-count.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

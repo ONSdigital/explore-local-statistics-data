@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Apprenticeships starts and achievements (England)",
+  "dc:issued": "2024-11-28",
+  "dc:modified": "2024-12-06",
   "tables": [
     {
       "url": "apprenticeship.csv",
@@ -81,7 +83,7 @@
               "period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

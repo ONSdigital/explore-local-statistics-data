@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Preventable cardiovascular mortality (England)",
+  "dc:issued": "2024-11-05",
+  "dc:modified": "2025-02-12",
   "tables": [
     {
       "url": "cardiovascular-mortality-considered-preventable-in-persons-aged-under-75-2021-census-population-estimates.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

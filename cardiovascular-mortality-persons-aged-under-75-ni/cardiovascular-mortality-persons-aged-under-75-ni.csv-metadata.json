@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Preventable cardiovascular mortality (Northern Ireland)",
+  "dc:issued": "2024-02-05",
+  "dc:modified": "2024-02-14",
   "tables": [
     {
       "url": "cardiovascular-mortality-persons-aged-under-75-ni.csv",
@@ -73,7 +75,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

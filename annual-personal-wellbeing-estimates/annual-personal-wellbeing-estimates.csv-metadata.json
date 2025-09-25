@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Annual personal wellbeing estimates",
+  "dc:issued": "2023-11-07",
+  "dc:modified": "2024-02-05",
   "tables": [
     {
       "url": "annual-personal-wellbeing-estimates.csv",
@@ -43,7 +45,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

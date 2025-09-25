@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Electric vehicle public charging devices",
+  "dc:issued": "2025-07-24",
+  "dc:modified": "2025-07-24",
   "tables": [
     {
       "url": "electric-vehicle-public-charging-devices.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

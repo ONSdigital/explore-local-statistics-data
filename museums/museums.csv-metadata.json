@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Museums",
+  "dc:issued": "2024-03-07",
+  "dc:modified": "2025-07-17",
   "tables": [
     {
       "url": "museums.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

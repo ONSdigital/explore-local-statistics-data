@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Net additions to the housing stock (Wales)",
+  "dc:issued": "2025-04-03",
+  "dc:modified": "2025-05-29",
   "tables": [
     {
       "url": "net-additions-to-the-housing-stock-wales.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

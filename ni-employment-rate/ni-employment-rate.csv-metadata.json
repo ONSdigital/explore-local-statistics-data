@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Local labour market indicators for Northern Ireland",
+  "dc:issued": "2024-07-09",
+  "dc:modified": "2024-11-29",
   "tables": [
     {
       "url": "ni-employment-rate.csv",
@@ -43,7 +45,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

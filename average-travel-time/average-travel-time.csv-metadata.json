@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Travel time to employment centres by mode of travel",
+  "dc:issued": "2021-11-04",
+  "dc:modified": "2024-10-01",
   "tables": [
     {
       "url": "average-travel-time.csv",
@@ -43,7 +45,7 @@
               "period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

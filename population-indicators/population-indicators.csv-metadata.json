@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Population indicators",
+  "dc:issued": "2025-07-30",
+  "dc:modified": "2025-08-20",
   "tables": [
     {
       "url": "population-indicators.csv",
@@ -51,7 +53,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

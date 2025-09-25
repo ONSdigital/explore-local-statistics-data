@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Children prevalence of weight status",
+  "dc:issued": "2024-11-05",
+  "dc:modified": "2024-11-26",
   "tables": [
     {
       "url": "child-obesity.csv",
@@ -43,7 +45,7 @@
               "period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },

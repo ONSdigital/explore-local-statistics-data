@@ -6,6 +6,8 @@
     }
   ],
   "dc:title": "Pupils meeting the expected standard in reading, writing and maths at the end of Key Stage 2",
+  "dc:issued": "2024-12-12",
+  "dc:modified": "2025-07-16",
   "tables": [
     {
       "url": "pupils-at-expected-standards-by-end-of-primary-school.csv",
@@ -59,7 +61,7 @@
               "Period",
               "Time period"
             ],
-            "datatype": "string",
+            "datatype": "date",
             "type": "dimension",
             "role": "time"
           },
