@@ -29,7 +29,7 @@ const cols = {
   Period: {
     name: "period",
     titles: "Time period",
-    datatype: "string",
+    datatype: "date",
     type: "dimension",
     role: "time"
   },
