@@ -128,35 +128,37 @@
       }
     ],
     "experimentalStatistic": true,
-    "geographyCountries": [
-      "E",
-      "W"
-    ],
-    "geographyGroups": [
-      "uk",
-      "cauth"
-    ],
-    "geographyTypes": [
-      "E47",
-      "K02",
-      "K99",
-      "na",
-      "TLC",
-      "TLD",
-      "TLE",
-      "TLF",
-      "TLG",
-      "TLH",
-      "TLI",
-      "TLJ",
-      "TLK",
-      "TLL",
-      "TLM",
-      "TLN",
-      "W42"
-    ],
-    "geographyYear": 2023,
-    "geographyInitialLevel": "cauth",
+    "geography": {
+      "countries": [
+        "E",
+        "W"
+      ],
+      "levels": [
+        "uk",
+        "cauth"
+      ],
+      "types": [
+        "E47",
+        "K02",
+        "K99",
+        "na",
+        "TLC",
+        "TLD",
+        "TLE",
+        "TLF",
+        "TLG",
+        "TLH",
+        "TLI",
+        "TLJ",
+        "TLK",
+        "TLL",
+        "TLM",
+        "TLN",
+        "W42"
+      ],
+      "year": 2023,
+      "initialLevel": "cauth"
+    },
     "indicators": [
       {
         "code": "Inward foreign direct investment (FDI)",

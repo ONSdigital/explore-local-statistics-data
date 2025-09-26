@@ -149,24 +149,26 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E08",
-      "E09",
-      "E10",
-      "E92",
-      "K99"
-    ],
-    "geographyYear": 2024,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E08",
+        "E09",
+        "E10",
+        "E92",
+        "K99"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "19+ further education and skills learner achievements (qualifications) excluding community learning, non-qualification parts of the Multiply programme and bootcamps",

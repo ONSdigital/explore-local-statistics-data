@@ -37,14 +37,9 @@ async function makeBaseMetadata(meta, data, cols) {
 
   const geoCol = cols.find(col => col.name === "areacd");
   const geoCodes = Array.from(new Set(data.map(d => d[geoCol.titles[0]])));
-  const geos = await inferGeos(geoCodes);
 
-  metadata.geographyCountries = geos.ctrys;
-  metadata.geographyGroups = geos.groups;
-  metadata.geographyTypes = geos.types;
-  metadata.geographyYear = geos.year;
-  metadata.geographyInitialLevel = geos.groups[geos.groups.length - 1];
-  // geographyInitialLevel was previously called initialGeographyLevel
+  metadata.geography = await inferGeos(geoCodes);
+  metadata.geography.initialLevel = metadata.geography.levels.slice(-1)[0];
 
   return metadata;
 }

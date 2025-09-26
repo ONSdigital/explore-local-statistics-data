@@ -149,26 +149,28 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E08",
-      "E09",
-      "E10",
-      "E12",
-      "E13",
-      "E92"
-    ],
-    "geographyYear": 2018,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E08",
+        "E09",
+        "E10",
+        "E12",
+        "E13",
+        "E92"
+      ],
+      "year": 2018,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities",

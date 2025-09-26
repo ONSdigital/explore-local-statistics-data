@@ -149,27 +149,29 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E10",
-      "E12",
-      "E67",
-      "E92"
-    ],
-    "geographyYear": 2024,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E12",
+        "E67",
+        "E92"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Under 75 mortality rate from cardiovascular diseases considered preventable (per 100,000 population) (England)",

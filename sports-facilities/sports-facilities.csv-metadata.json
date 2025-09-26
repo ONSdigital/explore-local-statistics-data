@@ -149,28 +149,30 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "cauth",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E10",
-      "E12",
-      "E47",
-      "E92"
-    ],
-    "geographyYear": 2022,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "cauth",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E12",
+        "E47",
+        "E92"
+      ],
+      "year": 2022,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Sports facilities per 10,000 population",

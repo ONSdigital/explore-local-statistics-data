@@ -149,29 +149,31 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "cauth",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E10",
-      "E12",
-      "E13",
-      "E47",
-      "E92"
-    ],
-    "geographyYear": 2018,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "cauth",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E12",
+        "E13",
+        "E47",
+        "E92"
+      ],
+      "year": 2018,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Percentage of pupils at the end of key stage 2 meeting the expected standard in reading, writing and maths",

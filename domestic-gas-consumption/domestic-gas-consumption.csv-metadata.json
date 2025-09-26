@@ -149,34 +149,36 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E",
-      "S",
-      "W"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E12",
-      "E13",
-      "E92",
-      "K03",
-      "K04",
-      "S12",
-      "S92",
-      "W06",
-      "W92"
-    ],
-    "geographyYear": 2017,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E",
+        "S",
+        "W"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E12",
+        "E13",
+        "E92",
+        "K03",
+        "K04",
+        "S12",
+        "S92",
+        "W06",
+        "W92"
+      ],
+      "year": 2017,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Gas consumption",

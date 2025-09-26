@@ -149,27 +149,29 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E10",
-      "E11",
-      "E12",
-      "E92"
-    ],
-    "geographyYear": 2018,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E92"
+      ],
+      "year": 2018,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Net additions to the housing stock (rate per 1,000 stock)",

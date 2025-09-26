@@ -133,21 +133,23 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "N"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "N09",
-      "N92"
-    ],
-    "geographyYear": 2025,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "N"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "N09",
+        "N92"
+      ],
+      "year": 2025,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Employment Rate",

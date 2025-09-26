@@ -149,36 +149,38 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E",
-      "N",
-      "S",
-      "W"
-    ],
-    "geographyGroups": [
-      "uk",
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E12",
-      "E92",
-      "K02",
-      "N09",
-      "N92",
-      "S12",
-      "S92",
-      "W06",
-      "W92"
-    ],
-    "geographyYear": 2024,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E",
+        "N",
+        "S",
+        "W"
+      ],
+      "levels": [
+        "uk",
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E12",
+        "E92",
+        "K02",
+        "N09",
+        "N92",
+        "S12",
+        "S92",
+        "W06",
+        "W92"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Number of guest nights at a short-term let",

@@ -149,43 +149,45 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E",
-      "N",
-      "S",
-      "W"
-    ],
-    "geographyGroups": [
-      "uk",
-      "ctry",
-      "rgn",
-      "cauth",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E10",
-      "E11",
-      "E12",
-      "E13",
-      "E47",
-      "E92",
-      "K02",
-      "K03",
-      "K04",
-      "N09",
-      "N92",
-      "S12",
-      "S92",
-      "W06",
-      "W92"
-    ],
-    "geographyYear": 2018,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E",
+        "N",
+        "S",
+        "W"
+      ],
+      "levels": [
+        "uk",
+        "ctry",
+        "rgn",
+        "cauth",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E47",
+        "E92",
+        "K02",
+        "K03",
+        "K04",
+        "N09",
+        "N92",
+        "S12",
+        "S92",
+        "W06",
+        "W92"
+      ],
+      "year": 2018,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Active businesses",

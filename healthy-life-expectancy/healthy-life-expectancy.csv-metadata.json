@@ -128,29 +128,31 @@
       }
     ],
     "experimentalStatistic": true,
-    "geographyCountries": [
-      "E",
-      "W"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E08",
-      "E09",
-      "E10",
-      "E12",
-      "E92",
-      "W06",
-      "W11",
-      "W92"
-    ],
-    "geographyYear": 2024,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E",
+        "W"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E08",
+        "E09",
+        "E10",
+        "E12",
+        "E92",
+        "W06",
+        "W11",
+        "W92"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Female healthy life expectancy",

@@ -154,21 +154,23 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "S"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "S12",
-      "S92"
-    ],
-    "geographyYear": 2025,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "S"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "S12",
+        "S92"
+      ],
+      "year": 2025,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Under 75 mortality rate from coronary heart disease or cerebrovascular disease (per 100,000 population) (Scotland)",

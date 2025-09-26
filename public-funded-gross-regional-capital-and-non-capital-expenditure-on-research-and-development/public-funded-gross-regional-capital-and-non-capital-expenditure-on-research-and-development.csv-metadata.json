@@ -163,27 +163,29 @@
       }
     ],
     "experimentalStatistic": true,
-    "geographyCountries": [
-      "E",
-      "N",
-      "S",
-      "W"
-    ],
-    "geographyGroups": [
-      "uk",
-      "ctry",
-      "rgn"
-    ],
-    "geographyTypes": [
-      "E12",
-      "E92",
-      "K02",
-      "N92",
-      "S92",
-      "W92"
-    ],
-    "geographyYear": 2025,
-    "geographyInitialLevel": "rgn",
+    "geography": {
+      "countries": [
+        "E",
+        "N",
+        "S",
+        "W"
+      ],
+      "levels": [
+        "uk",
+        "ctry",
+        "rgn"
+      ],
+      "types": [
+        "E12",
+        "E92",
+        "K02",
+        "N92",
+        "S92",
+        "W92"
+      ],
+      "year": 2025,
+      "initialLevel": "rgn"
+    },
     "indicators": [
       {
         "code": "Public-funded gross regional capital and non-capital expenditure on research and development",

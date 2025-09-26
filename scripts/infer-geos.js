@@ -37,7 +37,7 @@ const groups = [
 
 let endDatesCache;
 
-async function getEndDates(groups, ctrys) {
+async function getEndDates(groups, countries) {
 	let endDatesAll;
 	if (endDatesCache) endDatesAll = endDatesCache;
 	else {
@@ -48,7 +48,7 @@ async function getEndDates(groups, ctrys) {
 	
 	const latestYear = Math.max(...endDatesAll.map(d => d.start));
 	const endDatesFiltered = endDatesAll
-		.filter(d => ctrys.includes(
+		.filter(d => countries.includes(
 			d.oldcd[0]) &&
 			d.type !== "new_geo" &&
 			groups[groups.length - 1].codes.includes(d.oldcd.slice(0, 3))
@@ -68,8 +68,8 @@ async function getEndDates(groups, ctrys) {
 	return {endDates, latestYear};
 }
 
-async function getYear(codes, groups, ctrys) {
-	const endDates = await getEndDates(groups, ctrys);
+async function getYear(codes, groups, countries) {
+	const endDates = await getEndDates(groups, countries);
 	if (!endDates.endDates) return endDates.latestYear;
 
 	for (const year of endDates.endDates) {
@@ -82,20 +82,20 @@ function getTypes(codes) {
 	return Array.from(new Set(codes.map((cd) => cd.slice(0, 3)))).sort((a, b) => a.localeCompare(b));
 }
 
-function getCtrys(types) {
+function getCountries(types) {
 	return Array.from(new Set(types.map((t) => t[0])))
 		.filter((t) => ["E", "N", "S", "W"].includes(t))
 		.sort((a, b) => a.localeCompare(b));
 }
 
-function getGroups(types, ctrys) {
+function getGroups(types) {
 	return groups.filter((grp) => grp.codes.some(cd => types.includes(cd)));
 }
 
 export default async function inferGeos(codes) {
 	const types = getTypes(codes);
-	const ctrys = getCtrys(types);
-	const groups = getGroups(types, ctrys);
-	const year = await getYear(codes, groups, ctrys);
-	return { ctrys, groups: groups.map(g => g.key), types, year };
+	const countries = getCountries(types);
+	const groups = getGroups(types, countries);
+	const year = await getYear(codes, groups, countries);
+	return { countries, levels: groups.map(g => g.key), types, year };
 }

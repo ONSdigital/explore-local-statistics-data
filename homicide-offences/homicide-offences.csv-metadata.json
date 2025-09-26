@@ -154,26 +154,28 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E",
-      "N",
-      "W"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn"
-    ],
-    "geographyTypes": [
-      "E12",
-      "E23",
-      "E92",
-      "K04",
-      "N92",
-      "W15",
-      "W92"
-    ],
-    "geographyYear": 2025,
-    "geographyInitialLevel": "rgn",
+    "geography": {
+      "countries": [
+        "E",
+        "N",
+        "W"
+      ],
+      "levels": [
+        "ctry",
+        "rgn"
+      ],
+      "types": [
+        "E12",
+        "E23",
+        "E92",
+        "K04",
+        "N92",
+        "W15",
+        "W92"
+      ],
+      "year": 2025,
+      "initialLevel": "rgn"
+    },
     "indicators": [
       {
         "code": "Homicide Offences",

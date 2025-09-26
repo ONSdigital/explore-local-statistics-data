@@ -149,21 +149,23 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "W"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "rgn",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "W06",
-      "W92"
-    ],
-    "geographyYear": 2025,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "W"
+      ],
+      "levels": [
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "W06",
+        "W92"
+      ],
+      "year": 2025,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Net additions to the housing stock (per 1,000 stock) (Wales)",

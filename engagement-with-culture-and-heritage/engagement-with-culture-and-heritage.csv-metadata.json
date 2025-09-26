@@ -128,34 +128,36 @@
       }
     ],
     "experimentalStatistic": false,
-    "geographyCountries": [
-      "E"
-    ],
-    "geographyGroups": [
-      "ctry",
-      "cauth",
-      "utla",
-      "ltla"
-    ],
-    "geographyTypes": [
-      "E06",
-      "E07",
-      "E08",
-      "E09",
-      "E47",
-      "E92",
-      "TLC",
-      "TLD",
-      "TLE",
-      "TLF",
-      "TLG",
-      "TLH",
-      "TLI",
-      "TLJ",
-      "TLK"
-    ],
-    "geographyYear": 2024,
-    "geographyInitialLevel": "ltla",
+    "geography": {
+      "countries": [
+        "E"
+      ],
+      "levels": [
+        "ctry",
+        "cauth",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E47",
+        "E92",
+        "TLC",
+        "TLD",
+        "TLE",
+        "TLF",
+        "TLG",
+        "TLH",
+        "TLI",
+        "TLJ",
+        "TLK"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
     "indicators": [
       {
         "code": "Engaged with the arts",
