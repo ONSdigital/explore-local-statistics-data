@@ -14,7 +14,7 @@
     ],
     "publisher": "https://www.gov.uk/government/organisations/department-for-work-pensions",
     "dataset_issued": "2025-09-23T13:00",
-    "dataset_modified": "2025-09-23T13:00",
+    "dataset_modified": "2025-10-01T07:44",
     "themes": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances",
     "columns": {
         "Period": {
@@ -80,7 +80,7 @@
       "suffix": "%",
       "subText": null,
       "decimalPlaces": 1,
-      "subtitle": "Percentage of children living in relative low income families Before Housing Costs (BHC)",
+      "subtitle": "Percentage of children aged 0 to 15 living in relative low income families Before Housing Costs (BHC)",
       "experimentalStatistic": "F",
       "sourceDate": "27/03/2025",
       "sourceURL": "https://www.gov.uk/government/collections/children-in-low-income-families-local-area-statistics",
