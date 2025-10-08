@@ -5,12 +5,6 @@ Apprenticeship starts (England),E92000001,England,Nation,980,"Rate per 100,000 p
 Apprenticeship starts (England),E92000001,England,Nation,906,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
 Apprenticeship starts (England),E92000001,England,Nation,911,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship starts (England),E92000001,England,Nation,1115,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
-Apprenticeship starts (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
-Apprenticeship starts (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
-Apprenticeship starts (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
-Apprenticeship starts (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,
-Apprenticeship starts (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,
-Apprenticeship starts (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,
 Apprenticeship starts (England),E12000001,North East,Region,1419,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
 Apprenticeship starts (England),E12000001,North East,Region,1101,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship starts (England),E12000001,North East,Region,1060,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
@@ -1954,12 +1948,12 @@ Apprenticeship starts (England),E06000059,Dorset,County or Unitary Authority,148
 Apprenticeship starts (England),E06000059,Dorset,County or Unitary Authority,1710,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,
 Apprenticeship starts (England),E06000059,Dorset,County or Unitary Authority,1532,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,
 Apprenticeship starts (England),E06000059,Dorset,County or Unitary Authority,1492,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,
-Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
+Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,u
+Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,u
+Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,u
+Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,u
 Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,372,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,
-Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
+Apprenticeship starts (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,u
 Apprenticeship starts (England),E06000024,North Somerset,County or Unitary Authority,1137,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
 Apprenticeship starts (England),E06000024,North Somerset,County or Unitary Authority,955,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship starts (England),E06000024,North Somerset,County or Unitary Authority,877,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
@@ -2120,12 +2114,6 @@ Apprenticeship achievements (England),E92000001,England,Nation,385,"Rate per 100
 Apprenticeship achievements (England),E92000001,England,Nation,441,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
 Apprenticeship achievements (England),E92000001,England,Nation,415,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship achievements (England),E92000001,England,Nation,525,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
-Apprenticeship achievements (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
-Apprenticeship achievements (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
-Apprenticeship achievements (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
-Apprenticeship achievements (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,
-Apprenticeship achievements (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,
-Apprenticeship achievements (England),K99000004,Outside of England and Unknown,Region,z,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,
 Apprenticeship achievements (England),E12000001,North East,Region,756,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
 Apprenticeship achievements (England),E12000001,North East,Region,566,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship achievements (England),E12000001,North East,Region,553,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
@@ -3405,7 +3393,7 @@ Apprenticeship achievements (England),E09000007,Camden,Local Authority District,
 Apprenticeship achievements (England),E09000007,Camden,Local Authority District,220,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,
 Apprenticeship achievements (England),E09000007,Camden,Local Authority District,180,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,
 Apprenticeship achievements (England),E09000007,Camden,Local Authority District,220,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,
-Apprenticeship achievements (England),E09000001,City of London,Local Authority District,u,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
+Apprenticeship achievements (England),E09000001,City of London,Local Authority District,,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,u
 Apprenticeship achievements (England),E09000001,City of London,Local Authority District,203,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship achievements (England),E09000001,City of London,Local Authority District,553,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
 Apprenticeship achievements (England),E09000001,City of London,Local Authority District,1543,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,
@@ -4069,12 +4057,12 @@ Apprenticeship achievements (England),E06000059,Dorset,County or Unitary Authori
 Apprenticeship achievements (England),E06000059,Dorset,County or Unitary Authority,686,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,
 Apprenticeship achievements (England),E06000059,Dorset,County or Unitary Authority,745,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,
 Apprenticeship achievements (England),E06000059,Dorset,County or Unitary Authority,750,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,
-Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
-Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,u,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,Value suppressed due to a base value of fewer than 5
+Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,u
+Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,u
+Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,u
+Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2021-08-01/P1Y,,,u
+Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2022-08-01/P1Y,,,u
+Apprenticeship achievements (England),E06000053,Isles of Scilly,County or Unitary Authority,,"Rate per 100,000 population","Rate per 100,000 population",2023-08-01/P1Y,,,u
 Apprenticeship achievements (England),E06000024,North Somerset,County or Unitary Authority,549,"Rate per 100,000 population","Rate per 100,000 population",2018-08-01/P1Y,,,
 Apprenticeship achievements (England),E06000024,North Somerset,County or Unitary Authority,419,"Rate per 100,000 population","Rate per 100,000 population",2019-08-01/P1Y,,,
 Apprenticeship achievements (England),E06000024,North Somerset,County or Unitary Authority,451,"Rate per 100,000 population","Rate per 100,000 population",2020-08-01/P1Y,,,
