@@ -134,6 +134,7 @@ const duplicateCols = {
   notes: "Notes",
   Total: "Denominator",
   Value: "Observation",
+  value: "Observation",
   "mode-of-travel": "Indicator"
 };
 
