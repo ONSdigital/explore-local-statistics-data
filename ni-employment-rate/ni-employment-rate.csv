@@ -1,25 +1,25 @@
-AREACD,AREANM,Geography,Period,Unit,Indicator,Observation,Lower_confidence_interval_95,Upper_confidence_interval_95,Numerator,Total,Observation_status
-N92000002,Northern Ireland,Nation,2023,%,Employment Rate,73.6,72.5,74.7,863000,1173000,
-N09000001,Antrim and Newtownabbey,Local Authority District,2023,%,Employment Rate,78.5,74.7,82.2,70000,90000,
-N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,2023,%,Employment Rate,76.6,73.4,79.7,109000,143000,
-N09000003,Belfast,Local Authority District,2023,%,Employment Rate,67.9,65.0,70.8,148000,219000,
-N09000004,Causeway Coast and Glens,Local Authority District,2023,%,Employment Rate,68.3,63.9,72.6,55000,80000,
-N09000005,Derry City and Strabane,Local Authority District,2023,%,Employment Rate,65.4,61.1,69.6,60000,92000,
-N09000006,Fermanagh and Omagh,Local Authority District,2023,%,Employment Rate,70.6,66.2,75.0,49000,69000,
-N09000007,Lisburn and Castlereagh,Local Authority District,2023,%,Employment Rate,77.8,74.2,81.4,73000,94000,
-N09000008,Mid and East Antrim,Local Authority District,2023,%,Employment Rate,79.5,76.0,83.0,68000,86000,
-N09000009,Mid Ulster,Local Authority District,2023,%,Employment Rate,74.9,71.2,78.6,69000,92000,
-N09000010,"Newry, Mourne and Down",Local Authority District,2023,%,Employment Rate,78.8,75.5,82.0,87000,111000,
-N09000011,Ards and North Down,Local Authority District,2023,%,Employment Rate,75.5,71.9,79.2,73000,97000,
-N92000002,Northern Ireland,Nation,2023,%,Economic Inactivity Rate,24.7,23.6,25.8,290000,1173000,
-N09000001,Antrim and Newtownabbey,Local Authority District,2023,%,Economic Inactivity Rate,19.8,16.2,23.5,18000,90000,
-N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,2023,%,Economic Inactivity Rate,20.9,17.8,23.9,30000,143000,
-N09000003,Belfast,Local Authority District,2023,%,Economic Inactivity Rate,30.5,27.6,33.3,67000,219000,
-N09000004,Causeway Coast and Glens,Local Authority District,2023,%,Economic Inactivity Rate,30.6,26.3,35.0,25000,80000,
-N09000005,Derry City and Strabane,Local Authority District,2023,%,Economic Inactivity Rate,32.7,28.5,36.9,30000,92000,
-N09000006,Fermanagh and Omagh,Local Authority District,2023,%,Economic Inactivity Rate,26.0,21.8,30.3,18000,69000,
-N09000007,Lisburn and Castlereagh,Local Authority District,2023,%,Economic Inactivity Rate,21.7,18.1,25.3,20000,94000,
-N09000008,Mid and East Antrim,Local Authority District,2023,%,Economic Inactivity Rate,19.3,15.9,22.7,17000,86000,
-N09000009,Mid Ulster,Local Authority District,2023,%,Economic Inactivity Rate,23.3,19.7,26.9,22000,92000,
-N09000010,"Newry, Mourne and Down",Local Authority District,2023,%,Economic Inactivity Rate,19.5,16.3,22.6,22000,111000,
-N09000011,Ards and North Down,Local Authority District,2023,%,Economic Inactivity Rate,23.6,20.0,27.3,23000,97000,
+Indicator,AREACD,AREANM,Geography,Observation,Numerator,Unit,Period,Lower Confidence Interval (95%),Upper Confidence Interval (95%)
+Employment rate,N92000002,Northern Ireland,Nation,73.6,863000,%,2023-01-01/P1Y,72.5,74.7
+Economically inactive,N92000002,Northern Ireland,Nation,24.7,290000,%,2023-01-01/P1Y,23.6,25.8
+Employment rate,N09000001,Antrim and Newtownabbey,Local Authority District,78.5,70000,%,2023-01-01/P1Y,74.7,82.2
+Economically inactive,N09000001,Antrim and Newtownabbey,Local Authority District,19.8,18000,%,2023-01-01/P1Y,16.2,23.5
+Employment rate,N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,76.6,109000,%,2023-01-01/P1Y,73.4,79.7
+Economically inactive,N09000002,"Armagh City, Banbridge and Craigavon",Local Authority District,20.9,30000,%,2023-01-01/P1Y,17.8,23.9
+Employment rate,N09000003,Belfast,Local Authority District,67.9,148000,%,2023-01-01/P1Y,65,70.8
+Economically inactive,N09000003,Belfast,Local Authority District,30.5,67000,%,2023-01-01/P1Y,27.6,33.3
+Employment rate,N09000004,Causeway Coast and Glens,Local Authority District,68.3,55000,%,2023-01-01/P1Y,63.9,72.6
+Economically inactive,N09000004,Causeway Coast and Glens,Local Authority District,30.6,25000,%,2023-01-01/P1Y,26.3,35
+Employment rate,N09000005,Derry City and Strabane,Local Authority District,65.4,60000,%,2023-01-01/P1Y,61.1,69.6
+Economically inactive,N09000005,Derry City and Strabane,Local Authority District,32.7,30000,%,2023-01-01/P1Y,28.5,36.9
+Economically inactive,N09000006,Fermanagh and Omagh,Local Authority District,26,18000,%,2023-01-01/P1Y,21.8,30.3
+Employment rate,N09000006,Fermanagh and Omagh,Local Authority District,70.6,49000,%,2023-01-01/P1Y,66.2,75
+Employment rate,N09000007,Lisburn and Castlereagh,Local Authority District,77.8,73000,%,2023-01-01/P1Y,74.2,81.4
+Economically inactive,N09000007,Lisburn and Castlereagh,Local Authority District,21.7,20000,%,2023-01-01/P1Y,18.1,25.3
+Employment rate,N09000008,Mid and East Antrim,Local Authority District,79.5,68000,%,2023-01-01/P1Y,76,83
+Economically inactive,N09000008,Mid and East Antrim,Local Authority District,19.3,17000,%,2023-01-01/P1Y,15.9,22.7
+Employment rate,N09000009,Mid Ulster,Local Authority District,74.9,69000,%,2023-01-01/P1Y,71.2,78.6
+Economically inactive,N09000009,Mid Ulster,Local Authority District,23.3,22000,%,2023-01-01/P1Y,19.7,26.9
+Employment rate,N09000010,"Newry, Mourne and Down",Local Authority District,78.8,87000,%,2023-01-01/P1Y,75.5,82
+Economically inactive,N09000010,"Newry, Mourne and Down",Local Authority District,19.5,22000,%,2023-01-01/P1Y,16.3,22.6
+Employment rate,N09000011,Ards and North Down,Local Authority District,75.5,73000,%,2023-01-01/P1Y,71.9,79.2
+Economically inactive,N09000011,Ards and North Down,Local Authority District,23.6,23000,%,2023-01-01/P1Y,20,27.3
