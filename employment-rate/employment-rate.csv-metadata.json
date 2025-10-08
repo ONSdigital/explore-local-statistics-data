@@ -5,10 +5,10 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Local labour market indicators",
+  "dc:title": "Employment rate",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2024-04-16",
-  "dc:modified": "2025-08-13",
+  "dc:modified": "2025-09-30",
   "tables": [
     {
       "url": "employment-rate.csv",

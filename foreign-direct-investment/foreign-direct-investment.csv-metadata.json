@@ -5,10 +5,10 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Foreign direct investment (FDI)",
+  "dc:title": "Foreign direct investment",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2023-04-24",
-  "dc:modified": "2024-02-09",
+  "dc:modified": "2025-10-06",
   "tables": [
     {
       "url": "foreign-direct-investment.csv",
@@ -142,6 +142,7 @@
         "K02",
         "K99",
         "na",
+        "TLB",
         "TLC",
         "TLD",
         "TLE",
@@ -161,7 +162,7 @@
     },
     "indicators": [
       {
-        "code": "Inward foreign direct investment (FDI)",
+        "code": "Inward foreign direct investment",
         "slug": "inward-foreign-direct-investment",
         "dataset": "foreign-direct-investment",
         "label": "Inward foreign direct investment",
@@ -176,7 +177,7 @@
         "measure": "Pounds"
       },
       {
-        "code": "Outward foreign direct investment (FDI)",
+        "code": "Outward foreign direct investment",
         "slug": "outward-foreign-direct-investment",
         "dataset": "foreign-direct-investment",
         "label": "Outward foreign direct investment",

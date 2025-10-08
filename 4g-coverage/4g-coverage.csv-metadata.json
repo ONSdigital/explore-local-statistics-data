@@ -5,10 +5,10 @@
       "@language": "en"
     }
   ],
-  "dc:title": "4G coverage",
+  "dc:title": "4g coverage",
   "dc:publisher": "Ofcom",
   "dc:issued": "2025-05-08",
-  "dc:modified": "2025-07-15",
+  "dc:modified": "2025-10-01",
   "tables": [
     {
       "url": "4g-coverage.csv",

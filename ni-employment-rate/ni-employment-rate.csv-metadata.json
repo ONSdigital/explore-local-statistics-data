@@ -5,15 +5,23 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Local labour market indicators for Northern Ireland",
+  "dc:title": "Ni employment rate",
   "dc:publisher": "Northern Ireland Statistics and Research Agency",
   "dc:issued": "2024-07-09",
-  "dc:modified": "2024-11-29",
+  "dc:modified": "2025-09-30",
   "tables": [
     {
       "url": "ni-employment-rate.csv",
       "tableSchema": {
         "columns": [
+          {
+            "name": "indicator",
+            "titles": [
+              "Indicator"
+            ],
+            "datatype": "string",
+            "type": "indicator"
+          },
           {
             "name": "areacd",
             "titles": [
@@ -41,55 +49,10 @@
             "suppressOutput": true
           },
           {
-            "name": "period",
-            "titles": [
-              "Period",
-              "Time period"
-            ],
-            "datatype": "date",
-            "type": "dimension",
-            "role": "time"
-          },
-          {
-            "name": "unit",
-            "titles": [
-              "Unit"
-            ],
-            "datatype": "string",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "name": "indicator",
-            "titles": [
-              "Indicator"
-            ],
-            "datatype": "string",
-            "type": "indicator"
-          },
-          {
             "name": "value",
             "titles": [
               "Observation",
               "Observation value"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "lci",
-            "titles": [
-              "Lower_confidence_interval_95",
-              "Lower confidence interval (95%)"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "uci",
-            "titles": [
-              "Upper_confidence_interval_95",
-              "Upper confidence interval (95%)"
             ],
             "datatype": "number",
             "type": "measure"
@@ -103,22 +66,41 @@
             "type": "measure"
           },
           {
-            "name": "denominator",
+            "name": "unit",
             "titles": [
-              "Total",
-              "Denominator"
+              "Unit"
+            ],
+            "datatype": "string",
+            "type": "metadata",
+            "suppressOutput": true
+          },
+          {
+            "name": "period",
+            "titles": [
+              "Period",
+              "Time period"
+            ],
+            "datatype": "date",
+            "type": "dimension",
+            "role": "time"
+          },
+          {
+            "name": "lci",
+            "titles": [
+              "Lower Confidence Interval (95%)",
+              "Lower confidence interval (95%)"
             ],
             "datatype": "number",
             "type": "measure"
           },
           {
-            "name": "status",
+            "name": "uci",
             "titles": [
-              "Observation_status",
-              "Observation status"
+              "Upper Confidence Interval (95%)",
+              "Upper confidence interval (95%)"
             ],
-            "datatype": "string",
-            "type": "status"
+            "datatype": "number",
+            "type": "measure"
           }
         ]
       }
@@ -152,7 +134,7 @@
     },
     "indicators": [
       {
-        "code": "Employment Rate",
+        "code": "Employment rate",
         "slug": "employment-rate",
         "dataset": "ni-employment-rate",
         "label": "Employment rate (Northern Ireland)",
@@ -166,8 +148,8 @@
         "unit": "%"
       },
       {
-        "code": "Economic Inactivity Rate",
-        "slug": "economic-inactivity-rate",
+        "code": "Economically inactive",
+        "slug": "economically-inactive",
         "dataset": "ni-employment-rate",
         "label": "Economic inactivity rate (Northern Ireland)",
         "standardised": false,

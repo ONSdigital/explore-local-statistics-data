@@ -8,7 +8,7 @@
   "dc:title": "Domestic electricity consumption",
   "dc:publisher": "Department for Energy Security and Net Zero (Great Britain), Department for Energy Security and Net Zero (Northern Ireland)",
   "dc:issued": "2024-12-19",
-  "dc:modified": "2025-02-24",
+  "dc:modified": "2025-10-02",
   "tables": [
     {
       "url": "domestic-electricity-consumption.csv",
@@ -189,7 +189,7 @@
     },
     "indicators": [
       {
-        "code": "Electicity consumption",
+        "code": "Electricity consumption",
         "slug": "domestic-electricity-consumption",
         "dataset": "domestic-electricity-consumption",
         "label": "Domestic electricity consumption",
@@ -204,8 +204,8 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Median domestic electricity consumption",
-        "unit": "kWh",
+        "measure": "Consumption per meter point",
+        "unit": "kWh per meter point",
         "polarity": 1
       }
     ]

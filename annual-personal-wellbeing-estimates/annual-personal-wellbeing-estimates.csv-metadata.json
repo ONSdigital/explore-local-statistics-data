@@ -8,16 +8,25 @@
   "dc:title": "Annual personal wellbeing estimates",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2023-11-07",
-  "dc:modified": "2024-02-05",
+  "dc:modified": "2025-10-02",
   "tables": [
     {
       "url": "annual-personal-wellbeing-estimates.csv",
       "tableSchema": {
         "columns": [
           {
+            "name": "indicator",
+            "titles": [
+              "indicator",
+              "Indicator"
+            ],
+            "datatype": "string",
+            "type": "indicator"
+          },
+          {
             "name": "areacd",
             "titles": [
-              "AREACD",
+              "areacd",
               "Area code"
             ],
             "datatype": "string",
@@ -26,7 +35,7 @@
           },
           {
             "titles": [
-              "AREANM",
+              "areanm",
               "Area name"
             ],
             "datatype": "string",
@@ -34,43 +43,25 @@
           },
           {
             "titles": [
-              "Geography",
+              "geography",
               "Geography type"
             ],
             "datatype": "string",
             "suppressOutput": true
           },
           {
-            "name": "period",
-            "titles": [
-              "Period",
-              "Time period"
-            ],
-            "datatype": "date",
-            "type": "dimension",
-            "role": "time"
-          },
-          {
             "name": "value",
             "titles": [
-              "Observation",
+              "observation",
               "Observation value"
             ],
             "datatype": "number",
             "type": "measure"
           },
           {
-            "name": "indicator",
-            "titles": [
-              "Measure",
-              "Indicator"
-            ],
-            "datatype": "string",
-            "type": "indicator"
-          },
-          {
             "name": "unit",
             "titles": [
+              "unit",
               "Unit"
             ],
             "datatype": "string",
@@ -78,9 +69,29 @@
             "suppressOutput": true
           },
           {
+            "name": "measure",
+            "titles": [
+              "measure",
+              "Measure"
+            ],
+            "datatype": "string",
+            "type": "metadata",
+            "suppressOutput": true
+          },
+          {
+            "name": "period",
+            "titles": [
+              "period",
+              "Time period"
+            ],
+            "datatype": "date",
+            "type": "dimension",
+            "role": "time"
+          },
+          {
             "name": "lci",
             "titles": [
-              "Lower Confidence Interval (95%)",
+              "lower_confidence_interval_95",
               "Lower confidence interval (95%)"
             ],
             "datatype": "number",
@@ -89,7 +100,7 @@
           {
             "name": "uci",
             "titles": [
-              "Upper Confidence Interval (95%)",
+              "upper_confidence_interval_95",
               "Upper confidence interval (95%)"
             ],
             "datatype": "number",
@@ -98,7 +109,7 @@
           {
             "name": "status",
             "titles": [
-              "Observation Status",
+              "observation_status",
               "Observation status"
             ],
             "datatype": "string",
@@ -154,8 +165,8 @@
     },
     "indicators": [
       {
-        "code": "Satisfaction mean score (where 10 is 'completely satisfied')",
-        "slug": "satisfaction-mean-score",
+        "code": "Satisfaction",
+        "slug": "satisfaction",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Life satisfaction",
         "standardised": false,
@@ -165,11 +176,12 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "Score out of 10"
+        "unit": "Score out of 10",
+        "measure": "Mean (Where 0 is 'not at all satisfied' and 10 is 'completely satisfied')"
       },
       {
-        "code": "Happiness mean score (where 10 is 'completely happy')",
-        "slug": "happiness-mean-score",
+        "code": "Happiness",
+        "slug": "happiness",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Happiness",
         "standardised": false,
@@ -179,11 +191,12 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "Score out of 10"
+        "unit": "Score out of 10",
+        "measure": "Mean (Where 0 is 'not at all happy' and 10 is 'completely happy')"
       },
       {
-        "code": "Anxiety mean score (where 10 is 'completely anxious')",
-        "slug": "anxiety-mean-score",
+        "code": "Anxiety",
+        "slug": "anxiety",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Anxiety",
         "standardised": false,
@@ -193,11 +206,12 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "Score out of 10"
+        "unit": "Score out of 10",
+        "measure": "Mean (Where 0 is 'not at all anxious' and 10 is 'completely anxious')"
       },
       {
-        "code": "Worthwhile mean score (where 10 is 'completely worthwhile')",
-        "slug": "worthwhile-mean-score",
+        "code": "Worthwhile",
+        "slug": "worthwhile",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Feeling life is worthwhile",
         "standardised": false,
@@ -207,7 +221,8 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "Score out of 10"
+        "unit": "Score out of 10",
+        "measure": "Mean (Where 0 is 'not at all worthwhile' and 10 is 'completely worthwhile')"
       }
     ]
   }

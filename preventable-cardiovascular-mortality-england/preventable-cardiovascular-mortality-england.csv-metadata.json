@@ -5,13 +5,13 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Homicide offences",
-  "dc:publisher": "Office for National Statistics, Police Service of Northern Ireland",
-  "dc:issued": "2025-02-06",
-  "dc:modified": "2025-10-03",
+  "dc:title": "Preventable cardiovascular mortality england",
+  "dc:publisher": "Office for Health Improvement and Disparities",
+  "dc:issued": "2024-11-05",
+  "dc:modified": "2025-10-02",
   "tables": [
     {
-      "url": "homicide-offences.csv",
+      "url": "preventable-cardiovascular-mortality-england.csv",
       "tableSchema": {
         "columns": [
           {
@@ -143,58 +143,54 @@
   "metadata": {
     "source": [
       {
-        "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/homicideinenglandandwales/previousReleases#",
-        "date": "2025-02-06"
-      },
-      {
-        "name": "Police Service of Northern Ireland",
-        "href": "https://www.psni.police.uk/about-us/our-publications-and-reports/official-statistics/police-recorded-crime-statistics",
-        "date": "2025-01-30"
+        "name": "Office for Health Improvement and Disparities",
+        "href": "https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/4/gid/1000044/pat/159/par/K02000001/ati/15/are/E92000001/iid/93722/age/163/sex/4/cat/-1/ctp/-1/yrr/3/cid/4/tbm/1/page-options/car-do-0",
+        "date": "2024-11-05"
       }
     ],
     "experimentalStatistic": false,
     "geography": {
       "countries": [
-        "E",
-        "N",
-        "W"
+        "E"
       ],
       "levels": [
         "ctry",
-        "rgn"
+        "rgn",
+        "utla",
+        "ltla"
       ],
       "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E10",
         "E12",
-        "E23",
-        "E92",
-        "K04",
-        "N92",
-        "W15",
-        "W92"
+        "E67",
+        "E92"
       ],
-      "year": 2025,
-      "initialLevel": "rgn"
+      "year": 2024,
+      "initialLevel": "ltla"
     },
     "indicators": [
       {
-        "code": "Homicide Offences",
-        "slug": "homicide-offences",
-        "dataset": "homicide-offences",
-        "label": "Homicide offences",
+        "code": "Under 75 mortality rate from cardiovascular diseases considered preventable (per 100,000 population) (England)",
+        "slug": "preventable-cardiovascular-mortality-england",
+        "dataset": "preventable-cardiovascular-mortality-england",
+        "label": "Preventable cardiovascular mortality (England)",
         "prefix": null,
         "suffix": null,
-        "subText": "per million population",
+        "subText": "per 100,000 population",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Homicide offences per million people",
-        "longDescription": "This indicator shows the rate of homicide offences per million population, in England, Wales and Northern Ireland, for three-year rolling periods 04/2013-03/2016 to 04/2021-03/2024.",
-        "caveats": "England and Wales data has been extracted from the Home Office Homicide Index, which contains detailed record-level information about each homicide recorded by police in England and Wales. This index is continually updated with revised information from the police as investigations continue and as cases are heard by the courts. The data refer to the position as at 6 December 2024 and will change as subsequent court hearings take place or as further information is received. In contrast, the Northern Ireland homicide figures represent those initially recorded as homicide, with no revisions based on further police or court decisions.\n\nNorthern Ireland statistics on police recorded crime are collated and produced by statisticians seconded to the Police Service of Northern Ireland (PSNI) from the Northern Ireland Statistics and Research Agency (NISRA). They are recorded in compliance with the Home Office Counting Rules and further details of recording practices are available in the [User Guide to Police Recorded Crime Statistics](https://www.psni.police.uk/sites/default/files/2024-11/Police%20Recorded%20Crime%20User%20Guide.pdf).\n\nMid-year population estimates covering the years 2014 to 2022 have been used to create rate per milion population. The mid-year estimate in the middle of the three-year period  was used, for example the period 04/2021 to 03/2024 used 2022 mid-year population estimates.\n\nSome of this data has been aggregated and may show differences to other published figures.",
+        "subtitle": "Age-standardised mortality from cardiovascular diseases considered preventable for people aged under 75, per 100,000 people",
+        "longDescription": "This indicator shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population, in England, for three-year rolling periods 2001-2003 to 2021-2023.",
+        "caveats": "Population estimates produced by the Office for National Statistics for mid-2022 have been revised, to account for updated estimates of international migration for England and Wales. Data for all geographies covering the 2022 period have been revised to use the revised population estimates. The resultant revisions to rates are very small and do not introduce any meaningful changes to results previously presented. \n\nThis indicator covers the period since March 2020 and includes the impact of the COVID-19 pandemic.",
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Homicide Offences (rate per million population)",
-        "unit": "Rate per 1,000,000 population",
+        "measure": "Rate per 100,000 population",
+        "unit": "Rate per 100,000 population",
         "polarity": -1
       }
     ]

@@ -5,10 +5,10 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Premises below 30Mbps",
+  "dc:title": "Premises below 30",
   "dc:publisher": "Ofcom",
   "dc:issued": "2025-05-08",
-  "dc:modified": "2025-07-15",
+  "dc:modified": "2025-10-01",
   "tables": [
     {
       "url": "premises-below-30.csv",

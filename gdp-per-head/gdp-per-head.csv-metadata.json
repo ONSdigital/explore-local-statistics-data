@@ -5,10 +5,10 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Gross domestic product per head",
+  "dc:title": "Gdp per head",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-04-17",
-  "dc:modified": "2025-05-07",
+  "dc:modified": "2025-09-30",
   "tables": [
     {
       "url": "gdp-per-head.csv",

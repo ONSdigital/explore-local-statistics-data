@@ -5,13 +5,13 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Homicide offences",
-  "dc:publisher": "Office for National Statistics, Police Service of Northern Ireland",
-  "dc:issued": "2025-02-06",
-  "dc:modified": "2025-10-03",
+  "dc:title": "Public funded research and development",
+  "dc:publisher": "Office for National Statistics",
+  "dc:issued": "2024-06-25",
+  "dc:modified": "2025-10-01",
   "tables": [
     {
-      "url": "homicide-offences.csv",
+      "url": "public-funded-research-and-development.csv",
       "tableSchema": {
         "columns": [
           {
@@ -144,33 +144,29 @@
     "source": [
       {
         "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/homicideinenglandandwales/previousReleases#",
-        "date": "2025-02-06"
-      },
-      {
-        "name": "Police Service of Northern Ireland",
-        "href": "https://www.psni.police.uk/about-us/our-publications-and-reports/official-statistics/police-recorded-crime-statistics",
-        "date": "2025-01-30"
+        "href": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/datasets/ukpublicfundedgrossregionalcapitalandnoncapitalexpenditureonresearchanddevelopment",
+        "date": "2024-06-25"
       }
     ],
-    "experimentalStatistic": false,
+    "experimentalStatistic": true,
     "geography": {
       "countries": [
         "E",
         "N",
+        "S",
         "W"
       ],
       "levels": [
+        "uk",
         "ctry",
         "rgn"
       ],
       "types": [
         "E12",
-        "E23",
         "E92",
-        "K04",
+        "K02",
         "N92",
-        "W15",
+        "S92",
         "W92"
       ],
       "year": 2025,
@@ -178,24 +174,24 @@
     },
     "indicators": [
       {
-        "code": "Homicide Offences",
-        "slug": "homicide-offences",
-        "dataset": "homicide-offences",
-        "label": "Homicide offences",
-        "prefix": null,
+        "code": "Public-funded gross regional capital and non-capital expenditure on research and development",
+        "slug": "public-funded-research-and-development",
+        "dataset": "public-funded-research-and-development",
+        "label": "Public-funded expenditure on research and development",
+        "prefix": "GBPSign",
         "suffix": null,
-        "subText": "per million population",
-        "decimalPlaces": 1,
-        "standardised": true,
-        "subtitle": "Homicide offences per million people",
-        "longDescription": "This indicator shows the rate of homicide offences per million population, in England, Wales and Northern Ireland, for three-year rolling periods 04/2013-03/2016 to 04/2021-03/2024.",
-        "caveats": "England and Wales data has been extracted from the Home Office Homicide Index, which contains detailed record-level information about each homicide recorded by police in England and Wales. This index is continually updated with revised information from the police as investigations continue and as cases are heard by the courts. The data refer to the position as at 6 December 2024 and will change as subsequent court hearings take place or as further information is received. In contrast, the Northern Ireland homicide figures represent those initially recorded as homicide, with no revisions based on further police or court decisions.\n\nNorthern Ireland statistics on police recorded crime are collated and produced by statisticians seconded to the Police Service of Northern Ireland (PSNI) from the Northern Ireland Statistics and Research Agency (NISRA). They are recorded in compliance with the Home Office Counting Rules and further details of recording practices are available in the [User Guide to Police Recorded Crime Statistics](https://www.psni.police.uk/sites/default/files/2024-11/Police%20Recorded%20Crime%20User%20Guide.pdf).\n\nMid-year population estimates covering the years 2014 to 2022 have been used to create rate per milion population. The mid-year estimate in the middle of the three-year period  was used, for example the period 04/2021 to 03/2024 used 2022 mid-year population estimates.\n\nSome of this data has been aggregated and may show differences to other published figures.",
+        "subText": "in £ millions",
+        "decimalPlaces": 0,
+        "standardised": false,
+        "subtitle": "Public-funded gross expenditure within each region",
+        "longDescription": "This indicator shows the total UK public-funded gross regional capital and non-capital expenditure on research and development (official statistics in development), in the UK, for financial years ending 2021 and 2022.",
+        "caveats": "Research and development refers to any creative and systematic activity that contains a certain amount of novelty – which includes the development of new concepts, products and processes – with the aim of increasing the stock of knowledge. Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).",
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "measure": "Homicide Offences (rate per million population)",
-        "unit": "Rate per 1,000,000 population",
-        "polarity": -1
+        "measure": "Pounds",
+        "unit": "£ million",
+        "polarity": 1
       }
     ]
   }

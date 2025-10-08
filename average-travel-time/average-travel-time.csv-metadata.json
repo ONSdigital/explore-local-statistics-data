@@ -5,15 +5,24 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Travel time to employment centres by mode of travel",
+  "dc:title": "Average travel time",
   "dc:publisher": "Department for Transport",
   "dc:issued": "2021-11-04",
-  "dc:modified": "2024-10-01",
+  "dc:modified": "2025-10-01",
   "tables": [
     {
       "url": "average-travel-time.csv",
       "tableSchema": {
         "columns": [
+          {
+            "name": "indicator",
+            "titles": [
+              "indicator",
+              "Indicator"
+            ],
+            "datatype": "string",
+            "type": "indicator"
+          },
           {
             "name": "areacd",
             "titles": [
@@ -85,15 +94,6 @@
             ],
             "datatype": "string",
             "type": "status"
-          },
-          {
-            "name": "indicator",
-            "titles": [
-              "mode-of-travel",
-              "Indicator"
-            ],
-            "datatype": "string",
-            "type": "indicator"
           }
         ]
       }
@@ -134,8 +134,8 @@
     },
     "indicators": [
       {
-        "code": "cycling",
-        "slug": "cycling",
+        "code": "Cycle to work",
+        "slug": "cycle-to-work",
         "dataset": "average-travel-time",
         "label": "Travel time to employment centre by bicycle",
         "standardised": false,
@@ -147,8 +147,8 @@
         "zeroBaseline": true
       },
       {
-        "code": "driving",
-        "slug": "driving",
+        "code": "Drive to work",
+        "slug": "drive-to-work",
         "dataset": "average-travel-time",
         "label": "Travel time to employment centre by car",
         "standardised": false,
@@ -160,8 +160,8 @@
         "zeroBaseline": true
       },
       {
-        "code": "public transport or walking",
-        "slug": "public-transport-or-walking",
+        "code": "Public transport or walk to work",
+        "slug": "public-transport-or-walk-to-work",
         "dataset": "average-travel-time",
         "label": "Travel time to employment centre by public transport and walking",
         "standardised": false,

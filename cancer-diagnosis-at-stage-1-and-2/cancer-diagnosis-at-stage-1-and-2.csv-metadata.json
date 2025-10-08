@@ -8,7 +8,7 @@
   "dc:title": "Cancer diagnosis at stage 1 and 2",
   "dc:publisher": "Office for Health Improvement and Disparities",
   "dc:issued": "2024-02-06",
-  "dc:modified": "2024-02-13",
+  "dc:modified": "2025-10-02",
   "tables": [
     {
       "url": "cancer-diagnosis-at-stage-1-and-2.csv",
@@ -55,20 +55,6 @@
             ],
             "datatype": "string",
             "type": "indicator"
-          },
-          {
-            "titles": [
-              "Mission"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "Category"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
           },
           {
             "name": "period",
@@ -190,7 +176,7 @@
     },
     "indicators": [
       {
-        "code": "Cancer diagnosis at stage 1 and 2",
+        "code": "Proportion of cancers diagnosed at stages 1 and 2",
         "slug": "cancer-diagnosis-at-stage-1-and-2",
         "dataset": "cancer-diagnosis-at-stage-1-and-2",
         "label": "Cancer diagnosis at stage 1 and 2",
@@ -201,7 +187,7 @@
         "standardised": true,
         "subtitle": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage",
         "longDescription": "This indicator shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2021.",
-        "caveats": "Due to the impact of the COVID-19 pandemic on both clinical and data quality arrangements, the ability to obtain stage data for cancer registrations was reduced for the 2019 and 2020 diagnosis years. In 2019, the proportion of stageable cancer diagnoses with a registered stage fell from 85% in 2018 to 76%. For the 2020 diagnosis year, stage completeness increased to 81%.\n\nValues for Cornwall and Isles of Scilly are in a combined code (E67000002).",
+        "caveats": "Due to the impact of the COVID-19 pandemic on both clinical and data quality arrangements, the ability to obtain stage data for cancer registrations was reduced for the 2019 and 2020 diagnosis years. In 2019, the proportion of stageable cancer diagnoses with a registered stage fell from 85% in 2018 to 76%. For the 2020 diagnosis year, stage completeness increased to 81%.",
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,

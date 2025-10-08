@@ -8,7 +8,7 @@
   "dc:title": "Electric vehicle public charging devices",
   "dc:publisher": "Department for Transport, sourced from Zapmap",
   "dc:issued": "2025-07-24",
-  "dc:modified": "2025-07-24",
+  "dc:modified": "2025-10-01",
   "tables": [
     {
       "url": "electric-vehicle-public-charging-devices.csv",

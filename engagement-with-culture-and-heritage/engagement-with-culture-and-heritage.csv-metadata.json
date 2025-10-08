@@ -8,7 +8,7 @@
   "dc:title": "Engagement with culture and heritage",
   "dc:publisher": "Department for Culture, Media and Sport",
   "dc:issued": "2024-07-24",
-  "dc:modified": "2025-07-08",
+  "dc:modified": "2025-10-06",
   "tables": [
     {
       "url": "engagement-with-culture-and-heritage.csv",
@@ -82,7 +82,7 @@
           {
             "name": "value",
             "titles": [
-              "observation",
+              "value",
               "Observation value"
             ],
             "datatype": "number",

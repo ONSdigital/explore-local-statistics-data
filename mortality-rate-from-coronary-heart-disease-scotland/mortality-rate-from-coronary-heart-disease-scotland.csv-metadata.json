@@ -5,10 +5,10 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
+  "dc:title": "Mortality rate from coronary heart disease scotland",
   "dc:publisher": "Public Health Scotland Cardiac Audit Programme, Public Health Scotland Stroke statistics",
   "dc:issued": "2025-01-28",
-  "dc:modified": "2025-02-21",
+  "dc:modified": "2025-10-02",
   "tables": [
     {
       "url": "mortality-rate-from-coronary-heart-disease-scotland.csv",

@@ -5,15 +5,24 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Children at expected level for early learning goals",
+  "dc:title": "Early years",
   "dc:publisher": "Department for Education",
   "dc:issued": "2024-11-28",
-  "dc:modified": "2025-07-17",
+  "dc:modified": "2025-10-01",
   "tables": [
     {
       "url": "early-years.csv",
       "tableSchema": {
         "columns": [
+          {
+            "name": "indicator",
+            "titles": [
+              "indicator",
+              "Indicator"
+            ],
+            "datatype": "string",
+            "type": "indicator"
+          },
           {
             "name": "areacd",
             "titles": [
@@ -41,14 +50,13 @@
             "suppressOutput": true
           },
           {
-            "name": "period",
+            "name": "value",
             "titles": [
-              "period",
-              "Time period"
+              "observation",
+              "Observation value"
             ],
-            "datatype": "date",
-            "type": "dimension",
-            "role": "time"
+            "datatype": "number",
+            "type": "measure"
           },
           {
             "name": "unit",
@@ -61,22 +69,24 @@
             "suppressOutput": true
           },
           {
-            "name": "indicator",
+            "name": "measure",
             "titles": [
               "measure",
-              "Indicator"
+              "Measure"
             ],
             "datatype": "string",
-            "type": "indicator"
+            "type": "metadata",
+            "suppressOutput": true
           },
           {
-            "name": "value",
+            "name": "period",
             "titles": [
-              "observation",
-              "Observation value"
+              "period",
+              "Time period"
             ],
-            "datatype": "number",
-            "type": "measure"
+            "datatype": "date",
+            "type": "dimension",
+            "role": "time"
           },
           {
             "name": "lci",
@@ -156,7 +166,8 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "%"
+        "unit": "%",
+        "measure": "Percentage"
       },
       {
         "code": "Literacy",
@@ -170,7 +181,8 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "%"
+        "unit": "%",
+        "measure": "Percentage"
       },
       {
         "code": "Mathematics",
@@ -184,7 +196,8 @@
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "unit": "%"
+        "unit": "%",
+        "measure": "Percentage"
       }
     ]
   }
