@@ -178,7 +178,7 @@
         "slug": "business-expenditure-on-research-and-development",
         "dataset": "business-expenditure-on-research-and-development",
         "label": "Business expenditure on research and development",
-        "prefix": "GBPSign",
+        "prefix": "£",
         "suffix": null,
         "subText": "in £ millions",
         "decimalPlaces": 0,

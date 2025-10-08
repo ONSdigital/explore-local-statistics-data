@@ -178,7 +178,7 @@
         "slug": "public-funded-research-and-development",
         "dataset": "public-funded-research-and-development",
         "label": "Public-funded expenditure on research and development",
-        "prefix": "GBPSign",
+        "prefix": "£",
         "suffix": null,
         "subText": "in £ millions",
         "decimalPlaces": 0,

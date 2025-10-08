@@ -195,7 +195,7 @@
         "slug": "gross-median-weekly-pay",
         "dataset": "gross-median-weekly-pay",
         "label": "Gross median weekly pay",
-        "prefix": "GBPSign",
+        "prefix": "£",
         "suffix": null,
         "subText": null,
         "decimalPlaces": 0,

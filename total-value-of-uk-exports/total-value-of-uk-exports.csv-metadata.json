@@ -189,7 +189,7 @@
         "slug": "total-value-of-uk-exports",
         "dataset": "total-value-of-uk-exports",
         "label": "Value of UK exports",
-        "prefix": "GBPSign",
+        "prefix": "£",
         "suffix": null,
         "subText": "in £ millions",
         "decimalPlaces": 0,

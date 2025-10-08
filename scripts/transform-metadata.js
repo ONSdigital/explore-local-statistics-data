@@ -63,7 +63,7 @@ function makeIndicators(ds, meta, data, cols) {
       slug: slugifyCode(isSingleIndicator ? ds : code), // This is a placeholder. Should be defined manually elsewhere
       dataset: ds,
       label: base.label,
-      prefix: base.prefix,
+      prefix: base.prefix === "GBPSign" ? "£" : base.prefix,
       suffix: base.suffix,
       subText: base.subText,
       decimalPlaces: base.decimalPlaces,

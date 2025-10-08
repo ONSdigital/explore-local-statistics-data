@@ -196,7 +196,7 @@
         "slug": "gross-disposable-household-income-per-head",
         "dataset": "gross-disposable-household-income-per-head",
         "label": "Gross disposable household income",
-        "prefix": "GBPSign",
+        "prefix": "£",
         "suffix": null,
         "subText": null,
         "decimalPlaces": 0,

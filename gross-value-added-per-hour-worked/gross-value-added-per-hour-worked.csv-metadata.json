@@ -195,7 +195,7 @@
         "slug": "gross-value-added-per-hour-worked",
         "dataset": "gross-value-added-per-hour-worked",
         "label": "Gross value added per hour worked",
-        "prefix": "GBPSign",
+        "prefix": "£",
         "suffix": null,
         "subText": null,
         "decimalPlaces": 1,
