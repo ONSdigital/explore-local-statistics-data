@@ -163,9 +163,12 @@
         "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2018/19 to 2023/24.",
         "caveats": "Starts are the count of apprenticeships started at any point during the stated academic period. Learners starting more than one apprenticeship will appear more than once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "academic-year",
         "unit": "Rate per 100,000 population",
         "measure": "Rate per 100,000 population"
       },
@@ -178,9 +181,12 @@
         "subtitle": "Apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2018/19 to 2023/24.",
         "caveats": "Achievements are the count of apprenticeships achieved at any point during the stated academic period. Learners achieving more than one apprenticeship will appear more than once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "academic-year",
         "unit": "Rate per 100,000 population",
         "measure": "Rate per 100,000 population"
       }

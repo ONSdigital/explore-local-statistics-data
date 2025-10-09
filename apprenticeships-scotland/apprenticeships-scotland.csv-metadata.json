@@ -151,9 +151,12 @@
         "standardised": false,
         "subtitle": "Modern apprenticeship programme starts by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows modern apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years ending 2014 to 2025.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "financial-year",
         "unit": "Rate per 100,000 population",
         "measure": "Rate per 100,000 population"
       },
@@ -165,9 +168,12 @@
         "standardised": false,
         "subtitle": "Modern apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows modern apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years ending 2014 to 2025.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "financial-year",
         "unit": "Rate per 100,000 population",
         "measure": "Rate per 100,000 population"
       }

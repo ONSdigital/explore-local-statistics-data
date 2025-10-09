@@ -142,9 +142,12 @@
         "subtitle": "Average travel time in minutes to nearest employment centre with 500+ jobs available",
         "longDescription": "This indicator shows the average travel time in minutes to nearest employment centre with 500 to 4,999 jobs available by cycle (official statistics in development), in England, for periods 2014-2019.",
         "caveats": "Data is not available for 2018.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year"
       },
       {
         "code": "Drive to work",
@@ -155,9 +158,12 @@
         "subtitle": "Average travel time in minutes to nearest employment centre with 500+ jobs available",
         "longDescription": "This indicator shows the average travel time in minutes to nearest employment centre with 500 to 4,999 jobs available by car (official statistics in development), in England, for periods 2014-2019.",
         "caveats": "Data is not available for 2018.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year"
       },
       {
         "code": "Public transport or walk to work",
@@ -168,9 +174,12 @@
         "subtitle": "Average travel time in minutes to nearest employment centre with 500+ jobs available",
         "longDescription": "This indicator shows the average travel time in minutes to nearest employment centre with 500 to 4,999 jobs available by public transport or walking (official statistics in development), in England, for periods 2014-2019.",
         "caveats": "Data is not available for 2018.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
-        "zeroBaseline": true
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year"
       }
     ]
   }

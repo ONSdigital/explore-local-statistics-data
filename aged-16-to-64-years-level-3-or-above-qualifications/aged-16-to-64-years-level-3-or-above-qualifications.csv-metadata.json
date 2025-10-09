@@ -199,9 +199,12 @@
         "subtitle": "Percentage of people aged 16 to 64 with Level 3 or above qualifications",
         "longDescription": "This indicator shows the percentage of the population aged 16 to 64 with Regulated Qualifications Framework (RQF) level 3+ qualifications (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2022 to 2023.",
         "caveats": "The ongoing challenges with response rates, response levels and weighting approach mean that labour market statistics based on both the Labour Force Survey (LFS) and Annual Population Survey (APS) will be considered [official statistics in development](https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/) until further review. Because of increased volatility of LFS and APS estimates, estimates of change should be treated with additional caution.\n\nPlease note that this indicator previously used National Vocational Qualification (NVQ) level 3+ qualifications data but has been updated to the Regulated Qualifications Framework (RQF) level 3+ qualifications data.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
         "measure": "Percentage",
         "unit": "%",
         "polarity": 1

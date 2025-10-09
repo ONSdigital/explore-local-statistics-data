@@ -203,9 +203,12 @@
         "subtitle": "Estimated value of goods and services produced per hour worked",
         "longDescription": "This indicator shows the measure of business productivity (estimate of the volume of goods and services produced) in £ per hour worked (official statistics in development), in the UK, for 2004 to 2023.",
         "caveats": null,
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
         "measure": "Pounds",
         "unit": "£",
         "polarity": 1

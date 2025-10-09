@@ -200,9 +200,12 @@
         "subtitle": "Percentage of premises that do not have access to services above 30Mbps",
         "longDescription": "This dataset shows the percentage of premises that do not have access to services above 30Mbps, UK, as of January 2025.",
         "caveats": "Some of this data has been aggregated and may show differences to other published figures.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
         "measure": "Percentage",
         "unit": "%",
         "polarity": 1

@@ -202,9 +202,12 @@
         "subtitle": "Businesses with turnover or employment in current year",
         "longDescription": "This indicator shows the count of active businesses, in the UK, for 2018 to 2023.",
         "caveats": "The starting point for demography is the concept of a population of active businesses in a reference year (t). These are defined as businesses that had either turnover or employment at any time during the reference period. Some of this data has been aggregated and may show differences to other published figures.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
         "measure": "Number of enterprises",
         "unit": "Number of enterprises",
         "polarity": 1

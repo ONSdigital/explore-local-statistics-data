@@ -179,9 +179,12 @@
         "standardised": true,
         "subtitle": "Percentage of people aged 16 to 64 with Level 3 or above qualifications",
         "longDescription": "This indicator shows the percentage of the population aged 16 to 64 with Regulated Qualifications Framework (RQF) level 3+ qualifications, in Northern Ireland, for 2016 to 2023.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
         "measure": "Percentage",
         "unit": "%",
         "polarity": 1

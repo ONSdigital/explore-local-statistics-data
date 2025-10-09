@@ -187,9 +187,12 @@
         "subtitle": "Percentage of people achieving GCSEs in both subjects by age 19",
         "longDescription": "This indicator shows GCSEs (and equivalent) in English and maths by age 19, in England, for academic years 2016/17 to 2023/24.",
         "caveats": "Some of this data has been aggregated and may show differences to other published figures.\n\nAssignment to a local authority is based on the school attended in the academic year the young person turned 16.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "academic-year",
         "measure": "Percentage",
         "unit": "%",
         "polarity": 1

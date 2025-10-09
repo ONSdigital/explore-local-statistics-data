@@ -183,9 +183,12 @@
         "subtitle": "Count of learners aged 19 years and over achieving a funded further education and skills learning aim (with the exception of community learning and non-regulated Multiply aims)",
         "longDescription": "This indicator shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, non-qualification parts of the Multiply programme and bootcamps, in England, for academic years 2018/19 to 2023/24.",
         "caveats": null,
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "academic-year",
         "measure": "Achievements gained",
         "unit": "Number",
         "polarity": 1

@@ -195,9 +195,12 @@
         "subtitle": "Average length of stay (in nights) at a short-term let",
         "longDescription": "This indicator shows the average length of stay (in nights) at a short-term let, in the United Kingdom, for monthly periods July 2023 to December 2024.",
         "caveats": "Analysis uses data from online collaborative economy platforms Airbnb, Booking.com and Expedia Group. \n\nAverage length of stay is calculated by dividing the number of nights by the number of stays. \n\nThe data have a strong seasonal trend. Therefore, changes over time should generally be compared year-on-year, rather than month-on-month or quarter-on-quarter. \n\nWhile these statistics are believed to cover a large proportion of short-term lets activity in the UK, they do not cover all activity, as data from other providers and platforms are not included.",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "monthly",
+        "periodFormat": "year",
         "measure": "Average length of stay in nights",
         "unit": "Average length of stay in nights",
         "polarity": 1

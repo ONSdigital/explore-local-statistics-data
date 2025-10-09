@@ -187,9 +187,12 @@
         "subtitle": "Percentage of adults aged 18 and over classified as living with obesity",
         "longDescription": "This indicator shows the percentage of adults aged 18 and over classified as living with obesity, in England, for 16/11/2015-15/11/2016 to 16/11/2023-15/11/2024.",
         "caveats": "Adults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m².",
+        "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "1-year",
         "measure": "Percentage",
         "unit": "%",
         "polarity": -1

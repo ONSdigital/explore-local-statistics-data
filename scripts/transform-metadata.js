@@ -4,6 +4,7 @@ import { csvParse, autoType } from "d3-dsv";
 import { reverseDate, stripBom, slugifyCode, titleFromSlug } from "./utils.js";
 import { skipDatasets, colLookup } from "./config.js";
 import inferGeos from "./infer-geos.js";
+import inferPeriodFormat from "./infer-period-format.js";
 
 function formatColumns(cols) {
   // Some CSVs currently use a "measure" column in place of "indicator"
@@ -21,6 +22,20 @@ function formatColumns(cols) {
   });
 }
 
+function isMultivariate(rows, cols) {
+  const dimCols = cols.filter(col => col.type === "dimension");
+  if (dimCols.length < 3) return false;
+
+  // Check if more than one dimension column has multiple values
+  const size = [];
+  for (const col of dimCols) {
+    const values = new Set(rows.map(row => row[col.titles[0]]));
+    size.push(values.size);
+  }
+  if (size.filter(n => n > 1).length > 2) return true;
+  return false;
+}
+
 async function makeBaseMetadata(meta, data, cols) {
   const shared = meta?.shared || meta;
   const sourceOrg = shared.sourceOrg.split("|");
@@ -35,6 +50,7 @@ async function makeBaseMetadata(meta, data, cols) {
     experimentalStatistic: shared.experimentalStatistic === "T"
   };
 
+  // Geography metadata is inferred from the GSS codes in the CSV
   const geoCol = cols.find(col => col.name === "areacd");
   const geoCodes = Array.from(new Set(data.map(d => d[geoCol.titles[0]])));
 
@@ -48,6 +64,7 @@ function makeIndicators(ds, meta, data, cols) {
   const indicators = [];
   const valueCol = cols.find(col => col.name === "value");
   const indicatorCol = cols.find(col => col.type === "indicator");
+  const periodCol = cols.find(col => col.name === "period");
   const metaCols = cols.filter(col => col.type === "metadata");
 
   const isSingleIndicator = !meta.shared;
@@ -71,14 +88,26 @@ function makeIndicators(ds, meta, data, cols) {
       subtitle: base.subtitle,
       longDescription: base.longDescription,
       caveats: base.caveats,
-      // The below are usually calculated at the data processing stage
+      // The below are calculated from the columns and values in the CSV
+      isMultivariate: isMultivariate(rows, cols),
       confidenceIntervals: cols.find(col => col.name === "lci") ? true : false,
       canBeNegative: rows.map(d => d[valueCol.titles[0]]).sort((a, b) => a - b)[0] < 0
     };
-    // These seem to be the inverse of each other. Mybe can get rid of one?
+
+    // These seem to be the inverse of each other. Maybe can get rid of one?
     // (Current usage also seems to be inconsistent with the definition)
     indicator.zeroBaseline = !indicator.canBeNegative;
 
+    // Periodicity and date format are inferred from the period strings in the CSV
+    const periods = Array.from(new Set(rows.map(d => {
+      const period = d[periodCol.titles[0]];
+      return period.toISOString ? period.toISOString().slice(0, 10) : period;
+    })));
+    const { frequency, periodFormat } = inferPeriodFormat(periods);
+
+    indicator.frequency = frequency;
+    indicator.periodFormat = periodFormat;
+    
     for (const col of metaCols) {
       indicator[col.name] = rows[0][col.titles[0]];
     }
