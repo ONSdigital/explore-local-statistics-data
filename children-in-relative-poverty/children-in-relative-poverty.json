@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 08/10/2025 at 10:36",
+  "_note": "This file was last modified on 09/10/2025 at 11:42",
     
     "ess-beta-metadata": {
       "label": "Children in relative poverty",
@@ -13,7 +13,7 @@
       "sourceURL": "https://www.gov.uk/government/collections/children-in-low-income-families-local-area-statistics",
       "sourceOrg": "Department for Work and Pensions",
       "longDescription": "This indicator shows the percentage of children aged 0 to 15 living in relative low income families Before Housing Costs (BHC), in the UK, for financial years ending 2015 to 2024.",
-      "caveats": "Relative low income is defined as a family in low income Before Housing Costs (BHC) in the reference year. A family must have claimed Child Benefit and at least one other household benefit (Universal Credit, tax credits, or Housing Benefit) at any point in the year to be classed as low income in these statistics.\n\nRates have been derived by dividing the number of children aged 0 to 15 in low income families by the number of all children aged 0-15 (sourced from latest available mid-year population estimates).",
+      "caveats": "Relative low income is defined as a family in low income Before Housing Costs (BHC) in the reference year. A family must have claimed Child Benefit and at least one other household benefit (Universal Credit, tax credits, or Housing Benefit) at any point in the year to be classed as low income in these statistics.\n\nRates have been derived by dividing the number of children aged 0 to 15 in low income families by the number of all children aged 0-15 (sourced from latest available mid-year population estimates at the time of publication).",
       "standardised": "T"
   }    
 }
