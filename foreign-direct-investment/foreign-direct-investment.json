@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 06/10/2025 at 10:48",
+  "_note": "This file was last modified on 09/10/2025 at 11:46",
 
     "ess-beta-metadata": {
       "shared": {
@@ -17,14 +17,14 @@
       "Inward foreign direct investment": {
         "label": "Inward foreign direct investment",
         "subtitle": "Value of foreign direct investments (FDI) in the UK from non-resident companies",
-        "longDescription": "This indicator shows the total FDI international investment position in the UK (inward) at end period (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2015-2021.",
+        "longDescription": "This indicator shows the total FDI international investment position in the UK (inward) at end period (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2015 to 2021.",
         "caveats": "Foreign direct investment (FDI) is cross-border investment made with the objective of establishing a lasting interest in the host economy. FDI is also defined by control relationships, where the direct investor (parent company) controls at least 10% of the voting power (ordinary shares) of the direct investment enterprise. These relationships can be measured in two directions:\n\n- outward: the direct investments of UK-resident companies in other countries \n\n- inward: the direct investments in the UK from non-resident companies"
       },
   
       "Outward foreign direct investment": {
         "label": "Outward foreign direct investment",
         "subtitle": "Value of foreign direct investments (FDI) of UK-resident companies in other countries",
-        "longDescription": "This indicator shows the total FDI international investment position abroad (outward) at end period (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2015-2021.",
+        "longDescription": "This indicator shows the total FDI international investment position abroad (outward) at end period (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2015 to 2021.",
         "caveats": "Foreign direct investment (FDI) is cross-border investment made with the objective of establishing a lasting interest in the host economy. FDI is also defined by control relationships, where the direct investor (parent company) controls at least 10% of the voting power (ordinary shares) of the direct investment enterprise. These relationships can be measured in two directions:\n\n- outward: the direct investments of UK-resident companies in other countries \n\n- inward: the direct investments in the UK from non-resident companies"
       }
   }
