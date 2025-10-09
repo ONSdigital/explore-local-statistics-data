@@ -201,7 +201,7 @@
         "decimalPlaces": 0,
         "standardised": true,
         "subtitle": "Average weekly pay based on where people live",
-        "longDescription": "This indicator shows the average (median) weekly pay based on where people live, in the UK, for a pay period in April 2008 to April 2024.",
+        "longDescription": "This indicator shows the average (median) weekly pay based on where people live, in the UK, for a pay period that included a specified date in April 2008 to April 2024.",
         "caveats": "For Great Britain data, 2024 estimates are provisional and relate to the pay period that includes 17 April 2024. Estimates for 2023 have been revised and relate to the pay period that includes 19 April 2023.\n\nThe country level figure for Northern Ireland has been sourced from Nomis rather than NISRA. This is to allow for confidence intervals.\n\nNorthern Ireland Local Government District data has been sourced from the [NISRA Data Portal](https://data.nisra.gov.uk/).",
         "isMultivariate": false,
         "confidenceIntervals": true,

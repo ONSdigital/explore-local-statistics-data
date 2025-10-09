@@ -8,7 +8,7 @@
   "dc:title": "Population by age and sex",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-07-30",
-  "dc:modified": "2025-09-09",
+  "dc:modified": "2025-10-09",
   "tables": [
     {
       "url": "population-by-age-and-sex.csv",
