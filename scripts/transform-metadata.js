@@ -47,7 +47,7 @@ async function makeBaseMetadata(meta, data, cols) {
       href: sourceURL[i],
       date: sourceDate[i],
     })),
-    experimentalStatistic: shared.experimentalStatistic === "T"
+    experimentalStatistic: [true, "T"].includes(shared.experimentalStatistic)
   };
 
   // Geography metadata is inferred from the GSS codes in the CSV
@@ -73,18 +73,18 @@ function makeIndicators(ds, meta, data, cols) {
     : [data[0][indicatorCol.titles[0]]];
   
   for (const code of codes) {
-    const base = isSingleIndicator ? meta : meta[code];
+    const base = isSingleIndicator ? meta : {...(meta.shared || {}), ...meta[code]};
     const rows = isSingleIndicator ? data : data.filter(d => d[indicatorCol.titles[0]] === code);
     const indicator = {
       code,
       slug: slugifyCode(isSingleIndicator ? ds : code), // This is a placeholder. Should be defined manually elsewhere
       dataset: ds,
       label: base.label,
-      prefix: base.prefix === "GBPSign" ? "£" : base.prefix,
-      suffix: base.suffix,
+      prefix: base.prefix === "GBPSign" ? "£" : base.prefix || null,
+      suffix: base.suffix || null,
       subText: base.subText,
-      decimalPlaces: base.decimalPlaces,
-      standardised: base.standardised === "T",
+      decimalPlaces: base.decimalPlaces || 0,
+      standardised: [true, "T"].includes(base.standardised),
       subtitle: base.subtitle,
       longDescription: base.longDescription,
       caveats: base.caveats,
