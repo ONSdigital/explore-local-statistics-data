@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Cigarette smokers",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2024-10-01",
   "dc:modified": "2025-10-06",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "cigarette-smokers.csv",

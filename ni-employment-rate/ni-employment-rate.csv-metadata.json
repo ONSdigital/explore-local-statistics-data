@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Ni employment rate",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Northern Ireland Statistics and Research Agency",
   "dc:issued": "2024-07-09",
   "dc:modified": "2025-09-30",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "ni-employment-rate.csv",

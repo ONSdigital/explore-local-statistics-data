@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Claimant count",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-01-21",
   "dc:modified": "2025-10-01",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "claimant-count.csv",

@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Greenhouse gas emissions",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Energy Security and Net Zero",
   "dc:issued": "2025-07-03",
   "dc:modified": "2025-10-02",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "greenhouse-gas-emissions.csv",

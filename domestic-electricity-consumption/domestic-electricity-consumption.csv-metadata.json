@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Domestic electricity consumption",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Energy Security and Net Zero (Great Britain), Department for Energy Security and Net Zero (Northern Ireland)",
   "dc:issued": "2024-12-19",
   "dc:modified": "2025-10-02",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "domestic-electricity-consumption.csv",

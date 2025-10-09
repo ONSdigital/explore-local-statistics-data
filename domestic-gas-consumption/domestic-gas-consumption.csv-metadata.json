@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Domestic gas consumption",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Energy Security and Net Zero",
   "dc:issued": "2024-12-19",
   "dc:modified": "2025-10-02",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "domestic-gas-consumption.csv",

@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Children in relative poverty",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Work and Pensions",
   "dc:issued": "2025-03-27",
   "dc:modified": "2025-10-08",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "children-in-relative-poverty.csv",

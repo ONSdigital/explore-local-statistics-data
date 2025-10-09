@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Railway station walk",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2024-10-17",
   "dc:modified": "2025-10-03",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "railway-station-walk.csv",

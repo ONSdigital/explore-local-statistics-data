@@ -6,9 +6,11 @@
     }
   ],
   "dc:title": "Total value of uk exports",
+  "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-02-06",
   "dc:modified": "2025-10-01",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "total-value-of-uk-exports.csv",
