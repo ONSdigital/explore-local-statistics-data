@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 03/10/2025 at 13:13",
+  "_note": "This file was last modified on 09/10/2025 at 11:48",
     
     "ess-beta-metadata": {
       "label": "Persistent absences for pupils eligible for free school meals",
@@ -12,7 +12,7 @@
       "sourceDate": "21/03/2025",
       "sourceURL": "https://explore-education-statistics.service.gov.uk/find-statistics/pupil-absence-in-schools-in-england",
       "sourceOrg": "Department for Education",
-      "longDescription": "This indicator shows the percentage of pupils in state-funded primary, state-funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded schools), for academic years 2017/18 - 2023/24.",
+      "longDescription": "This indicator shows the percentage of pupils in state-funded primary, state-funded secondary and special schools who have been eligible for free school meals in the past 6 years that were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded schools), for academic years 2017/18 to 2023/24.",
       "caveats": "Data is not available for academic year 2019/20.\n\nSessions recorded as not attending due to COVID circumstances are included as possible sessions in 2020/21 and 2021/22 only, but not as an absence within absence rates.",
       "standardised": "T"
   }
