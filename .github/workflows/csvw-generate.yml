@@ -1,0 +1,41 @@
+name: Generate CSVW files on csvw-metadata branch
+
+# Trigger workflow on push to main branch
+on:
+  push:
+  branches:
+  - main
+
+# Workflow actions
+jobs:
+  generate-csvw:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout main branch of repo
+      uses: actions/checkout@v5
+
+    - name: Checkout CSVW branch + merge updates from main
+      run: |-
+        git checkout csvw-metadata
+        git pull
+        git merge main
+
+    - name: Remove existing CSVW files
+      run: find . -name "*.csv-metadata.json" -type f -delete
+
+    - name: Run transform-metadata script
+      uses: actions/setup-node@v4
+      with:
+          node-version: '22.x'
+      run: |-
+        npm install
+        npm run transform-metadata
+
+    - name: Commit changes
+      run: |-
+        git config user.name "Github action"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Updated data: ${timestamp}" || exit 0
+        git push
