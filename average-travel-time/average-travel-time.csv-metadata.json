@@ -137,7 +137,6 @@
     "indicators": [
       {
         "code": "Cycle to work",
-        "slug": "cycle-to-work",
         "dataset": "average-travel-time",
         "label": "Travel time to employment centre by bicycle",
         "prefix": null,
@@ -157,7 +156,6 @@
       },
       {
         "code": "Drive to work",
-        "slug": "drive-to-work",
         "dataset": "average-travel-time",
         "label": "Travel time to employment centre by car",
         "prefix": null,
@@ -177,7 +175,6 @@
       },
       {
         "code": "Public transport or walk to work",
-        "slug": "public-transport-or-walk-to-work",
         "dataset": "average-travel-time",
         "label": "Travel time to employment centre by public transport and walking",
         "prefix": null,

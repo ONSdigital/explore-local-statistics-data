@@ -158,7 +158,6 @@
     "indicators": [
       {
         "code": "Aged four to five years underweight",
-        "slug": "aged-four-to-five-years-underweight",
         "dataset": "child-obesity",
         "label": "Underweight prevalence in children at reception age",
         "prefix": null,
@@ -180,7 +179,6 @@
       },
       {
         "code": "Aged four to five years healthy weight",
-        "slug": "aged-four-to-five-years-healthy-weight",
         "dataset": "child-obesity",
         "label": "Healthy weight prevalence in children at reception age",
         "prefix": null,
@@ -202,7 +200,6 @@
       },
       {
         "code": "Aged four to five years overweight",
-        "slug": "aged-four-to-five-years-overweight",
         "dataset": "child-obesity",
         "label": "Overweight prevalence in children at reception age",
         "prefix": null,
@@ -224,7 +221,6 @@
       },
       {
         "code": "Aged four to five years obese",
-        "slug": "aged-four-to-five-years-obese",
         "dataset": "child-obesity",
         "label": "Obesity prevalence in children at reception age",
         "prefix": null,
@@ -246,7 +242,6 @@
       },
       {
         "code": "Aged 10 to 11 years underweight",
-        "slug": "aged-10-to-11-years-underweight",
         "dataset": "child-obesity",
         "label": "Underweight prevalence in children at Year 6 age",
         "prefix": null,
@@ -268,7 +263,6 @@
       },
       {
         "code": "Aged 10 to 11 years healthy weight",
-        "slug": "aged-10-to-11-years-healthy-weight",
         "dataset": "child-obesity",
         "label": "Healthy weight prevalence in children at Year 6 age",
         "prefix": null,
@@ -290,7 +284,6 @@
       },
       {
         "code": "Aged 10 to 11 years overweight",
-        "slug": "aged-10-to-11-years-overweight",
         "dataset": "child-obesity",
         "label": "Overweight prevalence in children at Year 6 age",
         "prefix": null,
@@ -312,7 +305,6 @@
       },
       {
         "code": "Aged 10 to 11 years obese",
-        "slug": "aged-10-to-11-years-obese",
         "dataset": "child-obesity",
         "label": "Obesity prevalence in children at Year 6 age",
         "prefix": null,

@@ -191,7 +191,6 @@
     "indicators": [
       {
         "code": "Museums per 100,000 population",
-        "slug": "museums",
         "dataset": "museums",
         "label": "Museums",
         "prefix": null,

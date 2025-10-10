@@ -181,7 +181,6 @@
     "indicators": [
       {
         "code": "Homicide Offences",
-        "slug": "homicide-offences",
         "dataset": "homicide-offences",
         "label": "Homicide offences",
         "prefix": null,

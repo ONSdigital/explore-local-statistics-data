@@ -193,7 +193,6 @@
     "indicators": [
       {
         "code": "Active businesses",
-        "slug": "active-enterprises",
         "dataset": "active-enterprises",
         "label": "Active businesses",
         "prefix": null,

@@ -195,7 +195,6 @@
     "indicators": [
       {
         "code": "Employment rate",
-        "slug": "employment-rate",
         "dataset": "employment-rate",
         "label": "Employment rate (Great Britain)",
         "prefix": null,
@@ -217,7 +216,6 @@
       },
       {
         "code": "Economically inactive",
-        "slug": "economically-inactive",
         "dataset": "employment-rate",
         "label": "Economic inactivity rate (Great Britain)",
         "prefix": null,

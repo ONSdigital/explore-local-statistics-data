@@ -158,7 +158,6 @@
     "indicators": [
       {
         "code": "Communication and language",
-        "slug": "communication-and-language",
         "dataset": "early-years",
         "label": "Communication and language skills by end of Early years foundation stage",
         "prefix": null,
@@ -180,7 +179,6 @@
       },
       {
         "code": "Literacy",
-        "slug": "literacy",
         "dataset": "early-years",
         "label": "Literacy skills by end of Early years foundation stage",
         "prefix": null,
@@ -202,7 +200,6 @@
       },
       {
         "code": "Mathematics",
-        "slug": "mathematics",
         "dataset": "early-years",
         "label": "Maths skills by end of Early years foundation stage",
         "prefix": null,

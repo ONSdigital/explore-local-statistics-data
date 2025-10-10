@@ -171,7 +171,6 @@
     "indicators": [
       {
         "code": "Net additions to the housing stock (per 1,000 stock) (Northern Ireland)",
-        "slug": "net-additions-to-the-housing-stock-northern-ireland",
         "dataset": "net-additions-to-the-housing-stock-northern-ireland",
         "label": "Net additions to the housing stock (Northern Ireland)",
         "prefix": null,

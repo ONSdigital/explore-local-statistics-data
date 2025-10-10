@@ -158,7 +158,6 @@
     "indicators": [
       {
         "code": "Female healthy life expectancy",
-        "slug": "female-healthy-life-expectancy",
         "dataset": "healthy-life-expectancy",
         "label": "Female healthy life expectancy",
         "prefix": null,
@@ -180,7 +179,6 @@
       },
       {
         "code": "Male healthy life expectancy",
-        "slug": "male-healthy-life-expectancy",
         "dataset": "healthy-life-expectancy",
         "label": "Male healthy life expectancy",
         "prefix": null,

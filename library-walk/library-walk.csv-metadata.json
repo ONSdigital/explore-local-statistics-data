@@ -182,7 +182,6 @@
     "indicators": [
       {
         "code": "Residents within a 30 minute walk of their nearest library",
-        "slug": "library-walk",
         "dataset": "library-walk",
         "label": "Residents within a 30 minute walk of their nearest library",
         "prefix": null,

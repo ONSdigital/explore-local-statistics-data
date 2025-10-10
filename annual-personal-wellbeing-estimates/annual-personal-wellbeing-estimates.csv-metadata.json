@@ -168,7 +168,6 @@
     "indicators": [
       {
         "code": "Satisfaction",
-        "slug": "satisfaction",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Life satisfaction",
         "prefix": null,
@@ -190,7 +189,6 @@
       },
       {
         "code": "Happiness",
-        "slug": "happiness",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Happiness",
         "prefix": null,
@@ -212,7 +210,6 @@
       },
       {
         "code": "Anxiety",
-        "slug": "anxiety",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Anxiety",
         "prefix": null,
@@ -234,7 +231,6 @@
       },
       {
         "code": "Worthwhile",
-        "slug": "worthwhile",
         "dataset": "annual-personal-wellbeing-estimates",
         "label": "Feeling life is worthwhile",
         "prefix": null,

@@ -176,7 +176,6 @@
     "indicators": [
       {
         "code": "Under 75 mortality rate from coronary heart disease or cerebrovascular disease (per 100,000 population) (Scotland)",
-        "slug": "mortality-rate-from-coronary-heart-disease-scotland",
         "dataset": "mortality-rate-from-coronary-heart-disease-scotland",
         "label": "Mortality rate from coronary heart disease or cerebrovascular disease (Scotland)",
         "prefix": null,

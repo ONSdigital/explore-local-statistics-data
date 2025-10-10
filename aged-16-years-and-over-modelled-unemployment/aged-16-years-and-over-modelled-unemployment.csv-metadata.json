@@ -194,7 +194,6 @@
     "indicators": [
       {
         "code": "Modelled unemployment rate",
-        "slug": "aged-16-years-and-over-modelled-unemployment",
         "dataset": "aged-16-years-and-over-modelled-unemployment",
         "label": "Modelled unemployment rate",
         "prefix": null,

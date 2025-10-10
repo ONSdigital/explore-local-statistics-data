@@ -173,7 +173,6 @@
     "indicators": [
       {
         "code": "Gross domestic product per head at current market price",
-        "slug": "gross-domestic-product-per-head-at-current-market-price",
         "dataset": "gdp-per-head",
         "label": "Gross domestic product per head at current market prices",
         "prefix": "£",
@@ -195,7 +194,6 @@
       },
       {
         "code": "Gross domestic product per head in chained volume measure",
-        "slug": "gross-domestic-product-per-head-in-chained-volume-measure",
         "dataset": "gdp-per-head",
         "label": "Gross domestic product per head in chained volume measures",
         "prefix": "£",

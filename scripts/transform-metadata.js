@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync, statSync } from "fs";
 import { execSync } from "child_process";
 import { csvParse, autoType } from "d3-dsv";
-import { reverseDate, stripBom, slugifyCode, titleFromSlug } from "./utils.js";
+import { reverseDate, stripBom, titleFromSlug } from "./utils.js";
 import { skipDatasets, colLookup } from "./config.js";
 import inferGeos from "./infer-geos.js";
 import inferPeriodFormat from "./infer-period-format.js";
@@ -77,7 +77,6 @@ function makeIndicators(ds, meta, data, cols) {
     const rows = isSingleIndicator ? data : data.filter(d => d[indicatorCol.titles[0]] === code);
     const indicator = {
       code,
-      slug: slugifyCode(isSingleIndicator ? ds : code), // This is a placeholder. Should be defined manually elsewhere
       dataset: ds,
       label: base.label,
       prefix: base.prefix === "GBPSign" ? "£" : base.prefix || null,

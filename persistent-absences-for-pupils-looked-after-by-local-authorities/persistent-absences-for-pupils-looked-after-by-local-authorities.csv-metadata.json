@@ -176,7 +176,6 @@
     "indicators": [
       {
         "code": "Persistent absences for pupils who are looked after continuously for at least 12 months by local authorities",
-        "slug": "persistent-absences-for-pupils-looked-after-by-local-authorities",
         "dataset": "persistent-absences-for-pupils-looked-after-by-local-authorities",
         "label": "Persistent absences for pupils looked after by local authorities",
         "prefix": null,

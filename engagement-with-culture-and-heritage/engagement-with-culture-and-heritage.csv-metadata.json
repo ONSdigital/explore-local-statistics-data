@@ -163,7 +163,6 @@
     "indicators": [
       {
         "code": "Engaged with the arts",
-        "slug": "engaged-with-the-arts",
         "dataset": "engagement-with-culture-and-heritage",
         "label": "Engaged with the arts",
         "prefix": null,
@@ -185,7 +184,6 @@
       },
       {
         "code": "Visited a heritage site",
-        "slug": "visited-a-heritage-site",
         "dataset": "engagement-with-culture-and-heritage",
         "label": "Visited a heritage site",
         "prefix": null,
@@ -207,7 +205,6 @@
       },
       {
         "code": "Visited a museum or gallery",
-        "slug": "visited-a-museum-or-gallery",
         "dataset": "engagement-with-culture-and-heritage",
         "label": "Visited a museum or gallery",
         "prefix": null,
@@ -229,7 +226,6 @@
       },
       {
         "code": "Visited a public library",
-        "slug": "visited-a-public-library",
         "dataset": "engagement-with-culture-and-heritage",
         "label": "Visited a public library",
         "prefix": null,

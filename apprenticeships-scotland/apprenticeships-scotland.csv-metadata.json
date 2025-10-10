@@ -147,7 +147,6 @@
     "indicators": [
       {
         "code": "Apprenticeship starts (Scotland)",
-        "slug": "apprenticeship-starts",
         "dataset": "apprenticeships-scotland",
         "label": "Apprenticeship starts (Scotland)",
         "prefix": null,
@@ -169,7 +168,6 @@
       },
       {
         "code": "Apprenticeship achievements (Scotland)",
-        "slug": "apprenticeship-achievements",
         "dataset": "apprenticeships-scotland",
         "label": "Apprenticeship achievements (Scotland)",
         "prefix": null,

@@ -190,7 +190,6 @@
     "indicators": [
       {
         "code": "Proportion of the population aged 16 – 64 with no qualifications",
-        "slug": "aged-16-to-64-years-with-no-qualifications-great-britain",
         "dataset": "aged-16-to-64-years-with-no-qualifications-great-britain",
         "label": "No qualifications",
         "prefix": null,

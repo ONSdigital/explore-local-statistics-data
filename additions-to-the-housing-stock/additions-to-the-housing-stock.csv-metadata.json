@@ -177,7 +177,6 @@
     "indicators": [
       {
         "code": "Net additions to the housing stock (rate per 1,000 stock)",
-        "slug": "additions-to-the-housing-stock",
         "dataset": "additions-to-the-housing-stock",
         "label": "Net additions to the housing stock (England)",
         "prefix": null,

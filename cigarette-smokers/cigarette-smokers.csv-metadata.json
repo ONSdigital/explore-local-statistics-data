@@ -187,7 +187,6 @@
     "indicators": [
       {
         "code": "Adults that currently smoke cigarettes",
-        "slug": "cigarette-smokers",
         "dataset": "cigarette-smokers",
         "label": "Cigarette smokers",
         "prefix": null,

@@ -165,7 +165,6 @@
     "indicators": [
       {
         "code": "Inward foreign direct investment",
-        "slug": "inward-foreign-direct-investment",
         "dataset": "foreign-direct-investment",
         "label": "Inward foreign direct investment",
         "prefix": "£",
@@ -187,7 +186,6 @@
       },
       {
         "code": "Outward foreign direct investment",
-        "slug": "outward-foreign-direct-investment",
         "dataset": "foreign-direct-investment",
         "label": "Outward foreign direct investment",
         "prefix": "£",

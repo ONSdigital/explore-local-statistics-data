@@ -194,7 +194,6 @@
     "indicators": [
       {
         "code": "Gross value added per hour worked",
-        "slug": "gross-value-added-per-hour-worked",
         "dataset": "gross-value-added-per-hour-worked",
         "label": "Gross value added per hour worked",
         "prefix": "£",

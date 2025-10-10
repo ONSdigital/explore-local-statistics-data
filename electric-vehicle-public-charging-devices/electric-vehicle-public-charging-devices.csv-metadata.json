@@ -190,7 +190,6 @@
     "indicators": [
       {
         "code": "Publicly available electric vehicle charging devices at all speeds (per 100,000 people)",
-        "slug": "electric-vehicle-public-charging-devices",
         "dataset": "electric-vehicle-public-charging-devices",
         "label": "Electric vehicle public charging devices",
         "prefix": null,

@@ -137,7 +137,6 @@
     "indicators": [
       {
         "code": "Employment rate",
-        "slug": "employment-rate",
         "dataset": "ni-employment-rate",
         "label": "Employment rate (Northern Ireland)",
         "prefix": null,
@@ -158,7 +157,6 @@
       },
       {
         "code": "Economically inactive",
-        "slug": "economically-inactive",
         "dataset": "ni-employment-rate",
         "label": "Economic inactivity rate (Northern Ireland)",
         "prefix": null,

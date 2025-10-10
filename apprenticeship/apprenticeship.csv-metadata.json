@@ -158,7 +158,6 @@
     "indicators": [
       {
         "code": "Apprenticeship starts (England)",
-        "slug": "apprenticeship-starts",
         "dataset": "apprenticeship",
         "label": "Apprenticeship starts (England)",
         "prefix": null,
@@ -180,7 +179,6 @@
       },
       {
         "code": "Apprenticeship achievements (England)",
-        "slug": "apprenticeship-achievements",
         "dataset": "apprenticeship",
         "label": "Apprenticeship achievements (England)",
         "prefix": null,

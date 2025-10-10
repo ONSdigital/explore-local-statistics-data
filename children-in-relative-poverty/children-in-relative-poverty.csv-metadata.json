@@ -185,7 +185,6 @@
     "indicators": [
       {
         "code": "Children in poverty",
-        "slug": "children-in-relative-poverty",
         "dataset": "children-in-relative-poverty",
         "label": "Children in relative poverty",
         "prefix": null,

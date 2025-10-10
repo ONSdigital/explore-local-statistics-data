@@ -181,7 +181,6 @@
     "indicators": [
       {
         "code": "Apprenticeships starts (Northern Ireland)",
-        "slug": "apprenticeships-starts-ni",
         "dataset": "apprenticeships-starts-ni",
         "label": "Apprenticeship starts (Northern Ireland)",
         "prefix": null,

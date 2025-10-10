@@ -171,7 +171,6 @@
     "indicators": [
       {
         "code": "Under 75 mortality rate from circulatory diseases considered preventable (per 100,000 population) (Northern Ireland)",
-        "slug": "preventable-cardiovascular-mortality-ni",
         "dataset": "preventable-cardiovascular-mortality-ni",
         "label": "Preventable cardiovascular mortality (Northern Ireland)",
         "prefix": null,

@@ -191,7 +191,6 @@
     "indicators": [
       {
         "code": "4G coverage provided by at least one mobile network provider",
-        "slug": "4g-coverage",
         "dataset": "4g-coverage",
         "label": "4G coverage",
         "prefix": null,

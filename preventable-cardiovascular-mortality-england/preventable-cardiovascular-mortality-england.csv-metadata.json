@@ -177,7 +177,6 @@
     "indicators": [
       {
         "code": "Under 75 mortality rate from cardiovascular diseases considered preventable (per 100,000 population) (England)",
-        "slug": "preventable-cardiovascular-mortality-england",
         "dataset": "preventable-cardiovascular-mortality-england",
         "label": "Preventable cardiovascular mortality (England)",
         "prefix": null,

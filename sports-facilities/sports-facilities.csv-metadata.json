@@ -178,7 +178,6 @@
     "indicators": [
       {
         "code": "Sports facilities per 10,000 population",
-        "slug": "sports-facilities",
         "dataset": "sports-facilities",
         "label": "Sports facilities",
         "prefix": null,

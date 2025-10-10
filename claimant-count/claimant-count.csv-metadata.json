@@ -191,7 +191,6 @@
     "indicators": [
       {
         "code": "Claimant Count",
-        "slug": "claimant-count",
         "dataset": "claimant-count",
         "label": "Claimant Count",
         "prefix": null,

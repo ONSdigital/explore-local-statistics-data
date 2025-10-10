@@ -172,7 +172,6 @@
     "indicators": [
       {
         "code": "Business births",
-        "slug": "business-births",
         "dataset": "business-demography",
         "label": "Business births",
         "prefix": null,
@@ -194,7 +193,6 @@
       },
       {
         "code": "Business deaths",
-        "slug": "business-deaths",
         "dataset": "business-demography",
         "label": "Business deaths",
         "prefix": null,
@@ -216,7 +214,6 @@
       },
       {
         "code": "High growth businesses",
-        "slug": "high-growth-businesses",
         "dataset": "business-demography",
         "label": "High growth businesses",
         "prefix": null,

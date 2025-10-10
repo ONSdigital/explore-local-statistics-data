@@ -165,7 +165,6 @@
     "indicators": [
       {
         "code": "5-year age band",
-        "slug": "population-by-age-and-sex",
         "dataset": "population-by-age-and-sex",
         "label": "Population by age and sex",
         "prefix": null,
