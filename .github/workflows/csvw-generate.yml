@@ -16,6 +16,7 @@ jobs:
 
     - name: Checkout CSVW branch + merge updates from main
       run: |-
+        git fetch
         git checkout csvw-metadata
         git pull
         git merge main
