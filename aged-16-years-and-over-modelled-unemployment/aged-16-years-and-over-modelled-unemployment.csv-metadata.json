@@ -78,10 +78,10 @@
             "type": "measure"
           },
           {
-            "name": "value",
+            "name": "numerator",
             "titles": [
               "Count",
-              "Observation value"
+              "Numerator"
             ],
             "datatype": "number",
             "type": "measure"
