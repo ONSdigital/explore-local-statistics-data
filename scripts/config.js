@@ -114,7 +114,7 @@ const cols = {
 };
 
 const duplicateCols = {
-  Count: "Observation",
+  Count: "Numerator",
   indicator: "Indicator",
   areacd: "AREACD",
   areanm: "AREANM",
