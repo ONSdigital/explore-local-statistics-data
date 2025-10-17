@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-05-19",
-  "dc:modified": "2025-10-02",
+  "dc:modified": "2025-10-17",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -194,14 +194,14 @@
         "decimalPlaces": 0,
         "standardised": false,
         "subtitle": "The number of guest nights spent during a stay at a short-term let, with a night counted per individual member of the visiting group",
-        "longDescription": "This indicator shows the number of guest nights spent during a stay at a short-term let, with a night counted per individual member of the visiting group, in the United Kingdom, for monthly periods July 2023 to December 2024.",
+        "longDescription": "This indicator shows the number of guest nights spent during a stay at a short-term let, with a night counted per individual member of the visiting group, in the United Kingdom, for Quarter 3 (July to Sept) 2023 to Quarter 4 (Oct to Dec) 2024.",
         "caveats": "Analysis uses data from online collaborative economy platforms Airbnb, Booking.com and Expedia Group. \n\nThe number of nights spent during a stay, with a night counted per individual member of the visiting group. This can be influenced by guest group size and length of stay. For example, a family of four staying for 2 nights would be 8 guest nights. \n\nThe data have a strong seasonal trend. Therefore, changes over time should generally be compared year-on-year, rather than month-on-month or quarter-on-quarter. \n\nWhile these statistics are believed to cover a large proportion of short-term lets activity in the UK, they do not cover all activity, as data from other providers and platforms are not included.",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "frequency": "monthly",
-        "periodFormat": "year",
+        "frequency": "quarterly",
+        "periodFormat": "quarter",
         "measure": "Number of guest nights",
         "unit": "Number of guest nights",
         "polarity": 1
