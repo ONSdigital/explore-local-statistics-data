@@ -21,7 +21,7 @@ jobs:
         git fetch
         git checkout csvw-metadata
         git pull
-        git merge main --allow-unrelated-histories
+        git merge main --allow-unrelated-histories --strategy-option theirs
 
     - name: Remove existing CSVW files
       run: find . -name "*.csv-metadata.json" -type f -delete
