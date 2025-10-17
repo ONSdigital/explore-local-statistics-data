@@ -16,10 +16,12 @@ jobs:
 
     - name: Checkout CSVW branch + merge updates from main
       run: |-
+        git config user.name "Github action"
+        git config user.email "actions@users.noreply.github.com"
         git fetch
         git checkout csvw-metadata
         git pull
-        git merge main
+        git merge main --allow-unrelated-histories --strategy-option theirs
 
     - name: Remove existing CSVW files
       run: find . -name "*.csv-metadata.json" -type f -delete
@@ -36,8 +38,6 @@ jobs:
 
     - name: Commit changes
       run: |-
-        git config user.name "Github action"
-        git config user.email "actions@users.noreply.github.com"
         git add -A
         timestamp=$(date -u)
         git commit -m "Updated data: ${timestamp}" || exit 0
