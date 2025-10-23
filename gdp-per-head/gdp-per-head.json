@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 30/09/2025 at 13:20",
+  "_note": "This file was last modified on 23/10/2025 at 12:05",
 
     "ess-beta-metadata": {
         "shared": {
@@ -8,7 +8,7 @@
           "subText": null,
           "decimalPlaces": 0,
           "experimentalStatistic": "F",
-          "sourceDate": "17/04/2025",
+          "sourceDate": "10/10/2025",
           "sourceURL": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/regionaleconomicactivitybygrossdomesticproductuk/previousreleases",
           "sourceOrg": "Office for National Statistics",
           "standardised": "T"
