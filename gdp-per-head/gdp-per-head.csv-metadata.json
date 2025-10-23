@@ -8,8 +8,8 @@
   "dc:title": "Gdp per head",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2025-04-17",
-  "dc:modified": "2025-09-30",
+  "dc:issued": "2025-10-10",
+  "dc:modified": "2025-10-23",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -123,7 +123,7 @@
       {
         "name": "Office for National Statistics",
         "href": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/regionaleconomicactivitybygrossdomesticproductuk/previousreleases",
-        "date": "2025-04-17"
+        "date": "2025-10-10"
       }
     ],
     "experimentalStatistic": false,
@@ -145,11 +145,13 @@
         "E07",
         "E08",
         "E09",
+        "E13",
         "E47",
         "K02",
         "K99",
         "N09",
         "N34",
+        "na",
         "S12",
         "TLB",
         "TLC",
@@ -189,7 +191,7 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "year",
-        "unit": "£",
+        "unit": "�",
         "measure": "Pounds"
       },
       {
@@ -210,7 +212,7 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "year",
-        "unit": "£",
+        "unit": "�",
         "measure": "Pounds"
       }
     ]
