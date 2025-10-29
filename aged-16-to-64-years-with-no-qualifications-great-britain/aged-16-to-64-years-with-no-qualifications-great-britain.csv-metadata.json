@@ -199,7 +199,7 @@
         "standardised": true,
         "subtitle": "Percentage of people aged 16 to 64 with no qualifications",
         "longDescription": "This indicator shows percentage of the population aged 16 to 64 with no qualifications (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2022 and 2023.",
-        "caveats": "The ongoing challenges with response rates, response levels and weighting approach mean that labour market statistics based on both the Labour Force Survey (LFS) and Annual Population Survey (APS) will be considered [official statistics in development](https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/) until further review. Because of increased volatility of LFS and APS estimates, estimates of change should be treated with additional caution.",
+        "caveats": "The ongoing challenges with response rates, response levels and weighting approach mean that labour market statistics based on both the Labour Force Survey (LFS) and Annual Population Survey (APS) will be considered [official statistics in development](https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/) until further review. Because of increased volatility of LFS and APS estimates, estimates of change should be treated with additional caution.\n\nUpdates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2026.",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
