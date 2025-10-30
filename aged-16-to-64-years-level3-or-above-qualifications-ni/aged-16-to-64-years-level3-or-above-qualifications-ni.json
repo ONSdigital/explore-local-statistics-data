@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 02/10/2025 at 10:50",
+  "_note": "This file was last modified on 30/10/2025 at 13:36",
     
     "ess-beta-metadata": {
       "label": "Level 3 or above qualifications (Northern Ireland)",
@@ -13,6 +13,7 @@
       "sourceURL": "https://www.nisra.gov.uk/publications/highest-qualification-level-2023",
       "sourceOrg": "Northern Ireland Statistics and Research Agency",
       "longDescription": "This indicator shows the percentage of the population aged 16 to 64 with Regulated Qualifications Framework (RQF) level 3+ qualifications, in Northern Ireland, for 2016 to 2023.",
+      "caveats": "Updates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2026.",
       "standardised": "T"
   }
 }
