@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-09-26",
-  "dc:modified": "2025-10-29",
+  "dc:modified": "2025-10-30",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -59,6 +59,22 @@
             "datatype": "date",
             "type": "dimension",
             "role": "time"
+          },
+          {
+            "name": "sex",
+            "titles": [
+              "Sex"
+            ],
+            "datatype": "string",
+            "type": "dimension"
+          },
+          {
+            "name": "age",
+            "titles": [
+              "Age band"
+            ],
+            "datatype": "string",
+            "type": "dimension"
           },
           {
             "name": "value",
