@@ -1,19 +1,19 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 13:35",
+  "_note": "This file was last modified on 31/10/2025 at 11:44",
     
     "ess-beta-metadata": {
-      "label": "Gross disposable household income",
+      "label": "Gross disposable household income per head",
       "prefix": "GBPSign",
       "suffix": null,
       "subText": null,
       "decimalPlaces": 0,
       "subtitle": "Average income per person (£) after taxes and direct benefits",
       "experimentalStatistic": "F",
-      "sourceDate": "04/09/2024",
+      "sourceDate": "10/09/2025",
       "sourceURL": "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousReleases",
       "sourceOrg": "Office for National Statistics",
-      "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2022.",
-      "caveats": "Figures for 2022 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
+      "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2023.",
+      "caveats": "Figures for 2023 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
       "standardised": "T"
   }
 }
