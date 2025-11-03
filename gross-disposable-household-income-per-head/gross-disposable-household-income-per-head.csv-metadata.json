@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-09-10",
-  "dc:modified": "2025-11-03",
+  "dc:modified": "2025-10-31",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -146,7 +146,7 @@
     "source": [
       {
         "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousReleases",
+        "href": "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousreleases",
         "date": "2025-09-10"
       }
     ],
