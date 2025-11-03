@@ -8,8 +8,8 @@
   "dc:title": "Gross disposable household income per head",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2024-09-04",
-  "dc:modified": "2025-10-01",
+  "dc:issued": "2025-09-10",
+  "dc:modified": "2025-11-03",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -147,7 +147,7 @@
       {
         "name": "Office for National Statistics",
         "href": "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousReleases",
-        "date": "2024-09-04"
+        "date": "2025-09-10"
       }
     ],
     "experimentalStatistic": false,
@@ -175,7 +175,6 @@
         "E12",
         "E13",
         "E47",
-        "E61",
         "E92",
         "K02",
         "K03",
@@ -185,6 +184,19 @@
         "N92",
         "S12",
         "S92",
+        "TLB",
+        "TLC",
+        "TLD",
+        "TLE",
+        "TLF",
+        "TLG",
+        "TLH",
+        "TLI",
+        "TLJ",
+        "TLK",
+        "TLL",
+        "TLM",
+        "TLN",
         "W06",
         "W42",
         "W92"
@@ -196,15 +208,15 @@
       {
         "code": "Gross disposable household income",
         "dataset": "gross-disposable-household-income-per-head",
-        "label": "Gross disposable household income",
+        "label": "Gross disposable household income per head",
         "prefix": "£",
         "suffix": null,
         "subText": null,
         "decimalPlaces": 0,
         "standardised": true,
         "subtitle": "Average income per person (£) after taxes and direct benefits",
-        "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2022.",
-        "caveats": "Figures for 2022 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
+        "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2023.",
+        "caveats": "Figures for 2023 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
