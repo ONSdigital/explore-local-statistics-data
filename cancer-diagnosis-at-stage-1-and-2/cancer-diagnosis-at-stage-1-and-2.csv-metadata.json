@@ -8,8 +8,8 @@
   "dc:title": "Cancer diagnosis at stage 1 and 2",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for Health Improvement and Disparities",
-  "dc:issued": "2024-02-06",
-  "dc:modified": "2025-10-02",
+  "dc:issued": "2025-11-04",
+  "dc:modified": "2025-11-05",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -147,7 +147,7 @@
       {
         "name": "Office for Health Improvement and Disparities",
         "href": "https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/4/gid/1000042/pat/15/par/E92000001/ati/6/are/E12000004/iid/93671/age/1/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1/page-options/car-ao-0_car-do-0_tre-ao-1",
-        "date": "2024-02-06"
+        "date": "2025-11-04"
       }
     ],
     "experimentalStatistic": false,
@@ -187,8 +187,8 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage",
-        "longDescription": "This indicator shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2021.",
-        "caveats": "Due to the impact of the COVID-19 pandemic on both clinical and data quality arrangements, the ability to obtain stage data for cancer registrations was reduced for the 2019 and 2020 diagnosis years. In 2019, the proportion of stageable cancer diagnoses with a registered stage fell from 85% in 2018 to 76%. For the 2020 diagnosis year, stage completeness increased to 81%.\n\nThe data source combines the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
+        "longDescription": "This indicator shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2022.",
+        "caveats": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage (1, 2, 3, and 4) for the following cancer sites: invasive malignancies of lung, oesophagus, colon, rectum, pancreas, invasive melanomas of the skin, breast, uterus, ovary, prostate, testis, kidney, bladder, Hodgkin Lymphoma, larynx, oropharynx, oral cavity, and non Hodgkin lymphoma.\n\nSome cancer groups are excluded from the indicator due to higher levels of missing stage at diagnosis data over the last three years (2020-2022). They were excluded on the basis that their inclusion would compromise the statistical robustness of the measure.\n\nThe data source combines the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
