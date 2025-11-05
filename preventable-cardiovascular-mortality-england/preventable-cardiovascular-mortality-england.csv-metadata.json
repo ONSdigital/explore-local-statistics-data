@@ -8,8 +8,8 @@
   "dc:title": "Preventable cardiovascular mortality england",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for Health Improvement and Disparities",
-  "dc:issued": "2024-11-05",
-  "dc:modified": "2025-10-02",
+  "dc:issued": "2025-11-04",
+  "dc:modified": "2025-11-05",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -147,7 +147,7 @@
       {
         "name": "Office for Health Improvement and Disparities",
         "href": "https://fingertips.phe.org.uk/profile/public-health-outcomes-framework/data#page/4/gid/1000044/pat/159/par/K02000001/ati/15/are/E92000001/iid/93722/age/163/sex/4/cat/-1/ctp/-1/yrr/3/cid/4/tbm/1/page-options/car-do-0",
-        "date": "2024-11-05"
+        "date": "2025-11-04"
       }
     ],
     "experimentalStatistic": false,
@@ -185,8 +185,8 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Age-standardised mortality from cardiovascular diseases considered preventable for people aged under 75, per 100,000 people",
-        "longDescription": "This indicator shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population, in England, for three-year rolling periods 2001-2003 to 2021-2023.",
-        "caveats": "Population estimates produced by the Office for National Statistics for mid-2022 have been revised, to account for updated estimates of international migration for England and Wales. Data for all geographies covering the 2022 period have been revised to use the revised population estimates. The resultant revisions to rates are very small and do not introduce any meaningful changes to results previously presented. \n\nThis indicator covers the period since March 2020 and includes the impact of the COVID-19 pandemic.\n\nThe data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
+        "longDescription": "This indicator shows the age-standardised mortality rate from cardiovascular diseases considered preventable for those aged under 75 per 100,000 population, in England, for three-year rolling periods 2001-2003 to 2022-2024.",
+        "caveats": "Population estimates produced by the Office for National Statistics for mid-2022 and mid-2023 have been revised, to account for updated estimates of international migration for England and Wales. Data for England, regions and local authorities covering the 2022 and 2023 period have been revised to use the revised population estimates. The resultant revisions to rates are very small and do not introduce any meaningful changes to results previously presented.\n\nThis indicator covers the period since March 2020 and includes the impact of the COVID-19 pandemic.\n\nThe data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
