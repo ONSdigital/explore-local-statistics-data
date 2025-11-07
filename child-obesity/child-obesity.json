@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 05/11/2025 at 11:30",
+  "_note": "This file was last modified on 07/11/2025 at 11:21",
     
     "ess-beta-metadata": {
       "shared": {
@@ -60,7 +60,7 @@
       "Aged 10 to 11 years obese": {
         "label": "Obesity prevalence in children at Year 6 age",
         "subtitle": "Percentage of children aged 10 to 11 classified as living with obesity",
-        "longDescription": "This indicator shows the percentage of children aged 10-11 years (Year 6 age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2024/25."
       }
   }
 }
