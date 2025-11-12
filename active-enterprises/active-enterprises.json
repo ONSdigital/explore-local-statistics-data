@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 11:15",
+  "_note": "This file was last modified on 10/11/2025 at 11:32",
     
     "ess-beta-metadata": {
         "label": "Active businesses",
@@ -11,7 +11,7 @@
         "experimentalStatistic": "F",
         "sourceDate": "18/11/2024",
         "longDescription": "This indicator shows the count of active businesses, in the UK, for 2018 to 2023.",
-        "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousReleases",
+        "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousreleases",
         "sourceOrg": "Office for National Statistics",
         "caveats": "The starting point for demography is the concept of a population of active businesses in a reference year (t). These are defined as businesses that had either turnover or employment at any time during the reference period. Some of this data has been aggregated and may show differences to other published figures.",
         "standardised": "F"

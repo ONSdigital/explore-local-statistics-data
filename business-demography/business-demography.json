@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 11:20",
+  "_note": "This file was last modified on 10/11/2025 at 11:33",
  
     "ess-beta-metadata": {
       "shared": {
@@ -9,7 +9,7 @@
         "decimalPlaces": 1,
         "experimentalStatistic": "F",
         "sourceDate": "18/11/2024",
-        "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousReleases",
+        "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousreleases",
         "sourceOrg": "Office for National Statistics",
         "standardised": "T"
       },
