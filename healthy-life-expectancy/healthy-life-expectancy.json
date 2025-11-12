@@ -9,7 +9,7 @@
         "decimalPlaces": 1,
         "experimentalStatistic": "T",
         "sourceDate": "16/01/2025",
-        "sourceURL": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/healthstatelifeexpectanciesuk/previousReleases#",
+        "sourceURL": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/healthstatelifeexpectanciesuk/previousreleases#",
         "sourceOrg": "Office for National Statistics",
         "standardised": "T",
         "caveats": "Coverage is limited to England and Wales. Estimates for Scotland and Northern Ireland will be added when Scottish 2022 census health data and 2023 population estimates for Northern Irish local government districts are available.\n\nThe estimates in this indicator have been produced using an interim methodological fix. The decline in sample size of the Annual Population Survey has impaired our ability to continue using the previous method to estimate age-specific prevalence of good general health by local authority. We therefore used logistic regression to estimate good health prevalence instead of using the survey's observed prevalence. This enables continuity in local area reporting with a viable, comparable time series. ONS is currently conducting a review of data sources to assess their future potential to provide robust, reliable and durable measures of health status."
