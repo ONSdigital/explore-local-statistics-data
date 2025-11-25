@@ -8,8 +8,8 @@
   "dc:title": "Cigarette smokers",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2024-10-01",
-  "dc:modified": "2025-10-06",
+  "dc:issued": "2025-11-04",
+  "dc:modified": "2025-11-25",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -146,11 +146,11 @@
     "source": [
       {
         "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/datasets/smokinghabitsintheukanditsconstituentcountries",
-        "date": "2024-10-01"
+        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/adultsmokinghabitsingreatbritain/previousreleases",
+        "date": "2025-11-04"
       }
     ],
-    "experimentalStatistic": false,
+    "experimentalStatistic": true,
     "geography": {
       "countries": [
         "E",
@@ -170,8 +170,6 @@
         "E07",
         "E08",
         "E09",
-        "E10",
-        "E12",
         "E92",
         "K02",
         "N09",
@@ -181,7 +179,7 @@
         "W06",
         "W92"
       ],
-      "year": 2019,
+      "year": 2022,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -195,14 +193,14 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of people aged 18 and over who state they currently smoke cigarettes (excluding e-cigarettes)",
-        "longDescription": "This indicator shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes), in the United Kingdom, for 2012 to 2023.",
-        "caveats": "To improve the comparability of smoking prevalence estimates for 2020 and subsequent years, the weighting methodology has been improved to remove the effect of the change in method of data collection between 2019 and 2020. For more information please refer to the [Adult smoking habits in the UK methodology page.](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/drugusealcoholandsmoking/methodologies/adultsmokinghabitsintheukmethodology)\n\nNorthern Ireland local authority smoking prevalence estimates are not available before 2015.",
+        "longDescription": "This indicator shows the percentage of adults (18+) who state they currently smoke cigarettes (excluding e-cigarettes) (official statistics in development), in the United Kingdom, rolling five-year average, for periods between 2019 to 2023 and 2020 to 2024.",
+        "caveats": "Current smoker estimates for each local authority can vary a lot from year to year because of small sample sizes. So, this indicator has moved to a five-year average to give a clearer picture of how smoking prevalence varies between local authority areas, rather than focusing on one year's figures.\n\nThe averages presented are five-year averages, calculated using data from 2019 to 2023 and 2020 to 2024, where available.\n\nThe five-year estimates have ranges of uncertainty (confidence intervals), which can be displayed by selecting the ‘Options’ button next to the bar and line charts.\n\nNorth Northamptonshire and West Northamptonshire averages are based on a 3-year average (2022 to 2024), because of boundary changes.\n\nCity of London and Buckinghamshire Unitary Authority averages are based on a 4-year average (2021 to 2024), because of boundary changes.\n\nDue to minor boundary changes in 2024, Local Authority codes were updated for Barnsley and Sheffield. Barnsley changed from E08000016 to E08000038, and Sheffield changed from E08000019 to E08000039. These changes did not affect comparability.\n\nTo account for the discontinuity caused by the move to telephone-only interviewing in 2020, a weighting adjustment was introduced for APS data from 2020 to 2023. A single factor was applied to the existing APS weights to give an adjusted weight, which reduced the discontinuity effect caused by the change in method of data collection. For the 2024 release, a revised weighting approach was developed, applying separate scaling factors for each year, reflecting the return to mixed mode (face-to-face and telephone) interviewing at the end of 2023. Estimates from 2020 to 2023 have been revised to reflect the updated approach. The weighting approach has not been applied to 2024 estimates because of the return to mixed mode interviewing. For more information please refer to the [Adult smoking habits in the UK methodology page](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/drugusealcoholandsmoking/methodologies/adultsmokinghabitsintheukmethodology).",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
-        "periodFormat": "year",
+        "periodFormat": "4-year",
         "measure": "Percentage",
         "unit": "%",
         "polarity": -1

@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics, Northern Ireland Statistics and Research Agency",
   "dc:issued": "2025-10-23",
-  "dc:modified": "2025-11-06",
+  "dc:modified": "2025-11-25",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -209,7 +209,7 @@
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
-        "periodFormat": "1-year",
+        "periodFormat": "year",
         "measure": "Pounds",
         "unit": "£",
         "polarity": 1
