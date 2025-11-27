@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 14:38",
+  "_note": "This file was last modified on 27/11/2025 at 11:46",
 
     "ess-beta-metadata": {
       "label": "Gigabit capable broadband",
@@ -9,10 +9,10 @@
       "decimalPlaces": 1,
       "subtitle": "Percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more)",
       "experimentalStatistic": "F",
-      "sourceDate": "08/05/2025",
-      "sourceURL": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-update-spring-2025",
+      "sourceDate": "19/11/2025",
+      "sourceURL": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-20252",
       "sourceOrg": "Ofcom",
-      "longDescription": "This indicator shows the percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), in the UK, as of January 2025.",
+      "longDescription": "This indicator shows the percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), in the UK, as of July 2025.",
       "caveats": "Some of this data has been aggregated and may show differences to other published figures.",
       "standardised": "T"
     }
