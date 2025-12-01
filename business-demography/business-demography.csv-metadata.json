@@ -8,8 +8,8 @@
   "dc:title": "Business demography",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2024-11-18",
-  "dc:modified": "2025-10-01",
+  "dc:issued": "2025-11-20",
+  "dc:modified": "2025-12-01",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -126,7 +126,7 @@
       {
         "name": "Office for National Statistics",
         "href": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousreleases",
-        "date": "2024-11-18"
+        "date": "2025-11-20"
       }
     ],
     "experimentalStatistic": false,
@@ -166,7 +166,7 @@
         "W06",
         "W92"
       ],
-      "year": 2018,
+      "year": 2019,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -180,7 +180,7 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of businesses newly registered for VAT and/or PAYE",
-        "longDescription": "This indicator shows the business births as a percentage of all active businesses, in the UK, for 2018 to 2023.",
+        "longDescription": "This indicator shows the business births as a percentage of all active businesses, in the UK, for 2019 to 2024.",
         "caveats": "A birth is identified as a business that was present in year t, but did not exist in year t-1 or t-2. Births are identified by making comparison of annual active population files and identifying those present in the latest file, but not the two previous ones. The birth rate is calculated using the number of births as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "confidenceIntervals": true,
@@ -201,7 +201,7 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of businesses ceasing activity",
-        "longDescription": "This indicator shows the business deaths as a percentage of all active businesses, in the UK, for 2018 to 2023.",
+        "longDescription": "This indicator shows the business deaths as a percentage of all active businesses, in the UK, for 2019 to 2024.",
         "caveats": "A death is defined as a business that was on the active file in year t, but was no longer present in the active file in t+1 and t+2. In order to provide an early estimate of deaths, an adjustment has been made to the latest two years deaths to allow for reactivations. These figures are provisional and subject to revision. The death rate is calculated using the number of deaths as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "confidenceIntervals": true,
@@ -222,7 +222,7 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of businesses with an average growth in employment of greater than 20% per year over a three-year period",
-        "longDescription": "This indicator shows the high growth businesses as a percentage of active businesses with 10 or more employees, in the UK, for 2018 to 2023.",
+        "longDescription": "This indicator shows the high growth businesses as a percentage of active businesses with 10 or more employees, in the UK, for 2019 to 2024.",
         "caveats": "High growth measures all businesses with an average growth in employment of greater than 20%, per annum, over a three-year period. The size threshold used to identify these businesses is that they have 10 or more employees. The rate of high growth businesses is calculated using the number of high growth businesses as a proportion of the active businesses with 10 or more employees. Some of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "confidenceIntervals": true,
