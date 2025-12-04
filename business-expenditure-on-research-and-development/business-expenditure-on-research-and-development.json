@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 12:05",
+  "_note": "This file was last modified on 04/12/2025 at 11:40",
     
     "ess-beta-metadata": {
       "label": "Business expenditure on research and development",
@@ -9,10 +9,10 @@
       "decimalPlaces": 0,
       "subtitle": "Businesses gross expenditure within each region",
       "experimentalStatistic": "F",
-      "sourceDate": "11/12/2024",
+      "sourceDate": "28/11/2025",
       "sourceURL": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/datasets/businessenterpriseresearchanddevelopmentukdesignatedasofficialstatistics",
       "sourceOrg": "Office for National Statistics",
-      "longDescription": "This indicator shows the total business enterprise expenditure on research and development, in the UK, for 2022 and 2023.",
+      "longDescription": "This indicator shows the total business enterprise expenditure on research and development, in the UK, for 2022 to 2024.",
       "caveats": "Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).\n\nRegional estimates are compiled based on a combination of larger businesses reporting their R&D performing locations and smaller businesses having their data allocated to the location of their main business address held on the inter-departmental business register.\n\nEstimates produced at disaggregate levels such as region, product group and SIC may in some cases be subject to a high level of variability from year to year. This may be due to industry reclassification of some businesses and sampling variability.",
       "standardised": "F"
   }
