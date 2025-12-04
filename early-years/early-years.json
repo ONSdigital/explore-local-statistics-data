@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 15:00",
+  "_note": "This file was last modified on 04/12/2025 at 14:40",
 
     "ess-beta-metadata": {
       "shared": {
@@ -8,30 +8,30 @@
         "subText": null,
         "decimalPlaces": 1,
         "experimentalStatistic": "F",
-        "sourceDate": "28/11/2024",
+        "sourceDate": "27/11/2025",
         "sourceURL": "https://explore-education-statistics.service.gov.uk/find-statistics/early-years-foundation-stage-profile-results",
         "sourceOrg": "Department for Education",
         "standardised": "T"
       },
   
       "Communication and language": {
-        "label": "Communication and language skills by end of Early years foundation stage",
+        "label": "Communication and language skills by end of early years foundation stage",
         "subtitle": "Percentage of 5 year olds at 'expected level' across all communication and language early learning goals",
-        "longDescription": "This indicator shows the Early years foundation stage profile outcomes of five year olds. Percentage at 'expected level' across all communication and language early learning goals, in England (state-funded schools), for academic years 2021/22 to 2023/24.",
+        "longDescription": "This indicator shows the early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all communication and language early learning goals, in England (state-funded schools), for academic years 2021/22 to 2024/25.",
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures."
       },
 
       "Literacy": {
-        "label": "Literacy skills by end of Early years foundation stage",
+        "label": "Literacy skills by end of early years foundation stage",
         "subtitle": "Percentage of 5 year olds at 'expected level' across all literacy early learning goals",
-        "longDescription": "This indicator shows the Early years foundation stage profile outcomes of five year olds. Percentage at 'expected level' across all literacy early learning goals, in England (state-funded schools), for academic years 2021/22 to 2023/24.",
+        "longDescription": "This indicator shows the early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all literacy early learning goals, in England (state-funded schools), for academic years 2021/22 to 2024/25.",
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures."
       },
   
       "Mathematics": {
-        "label": "Maths skills by end of Early years foundation stage",
+        "label": "Maths skills by end of early years foundation stage",
         "subtitle": "Percentage of 5 year olds at 'expected level' across all maths early learning goals",
-        "longDescription": "This indicator shows the Early years foundation stage profile outcomes of five year olds. Percentage at 'expected level' across all mathematics early learning goals, in England (state-funded schools), for academic years 2021/22 to 2023/24.",
+        "longDescription": "This indicator shows the early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all mathematics early learning goals, in England (state-funded schools), for academic years 2021/22 to 2024/25.",
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures."
       }
   }  
