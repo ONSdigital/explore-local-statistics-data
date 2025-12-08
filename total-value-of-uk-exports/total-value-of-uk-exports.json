@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 04/12/2025 at 11:27",
+  "_note": "This file was last modified on 08/12/2025 at 15:25",
 
     "ess-beta-metadata": {
       "label": "Value of UK exports",
@@ -7,7 +7,7 @@
       "suffix": null,
       "subText": "in £ millions",
       "decimalPlaces": 0,
-      "subtitle": "Estimated total value of UK exports including trade in both goods and services",
+      "subtitle": "Estimated total value of UK exports including trade in both goods and services (£ millions)",
       "experimentalStatistic": "T",
       "sourceDate": "06/08/2025",
       "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousreleases",
