@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 10/11/2025 at 09:40",
+  "_note": "This file was last modified on 08/12/2025 at 15:25",
 
     "ess-beta-metadata": {
       "label": "Value of UK exports",
@@ -7,12 +7,12 @@
       "suffix": null,
       "subText": "in £ millions",
       "decimalPlaces": 0,
-      "subtitle": "Estimated total value of UK exports including trade in both goods and services",
+      "subtitle": "Estimated total value of UK exports including trade in both goods and services (£ millions)",
       "experimentalStatistic": "T",
-      "sourceDate": "06/02/2025",
+      "sourceDate": "06/08/2025",
       "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/internationaltrade/bulletins/internationaltradeinuknationsregionsandcities/previousreleases",
       "sourceOrg": "Office for National Statistics",
-      "longDescription": "This indicator shows the estimated total value of UK exports including trade in both goods and services (official statistics in development), in the UK, for 2019 to 2022.",
+      "longDescription": "This indicator shows the estimated total value of UK exports including trade in both goods and services (official statistics in development), in the UK, for 2019 to 2023.",
       "caveats": "Data for lower levels of geography (ITL2 and ITL3) can be found in the original data source or in the [CSV file](https://github.com/ONSdigital/explore-local-statistics-data/blob/main/total-value-of-uk-exports/total-value-of-uk-exports.csv) on ONS Digital GitHub.",
       "standardised": "F"
   }
