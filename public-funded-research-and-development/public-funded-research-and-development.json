@@ -1,5 +1,5 @@
 {
-    "_note": "This file was last modified on 01/10/2025 at 11:46",
+    "_note": "This file was last modified on 81/12/2025 at 15:24",
   
     "ess-beta-metadata": {
       "label": "Public-funded expenditure on research and development",
@@ -7,7 +7,7 @@
       "suffix": null,
       "subText": "in £ millions",
       "decimalPlaces": 0,
-      "subtitle": "Public-funded gross expenditure within each region",
+      "subtitle": "Public-funded gross expenditure within each region (£ millions)",
       "experimentalStatistic": "T",
       "sourceDate": "25/06/2024",
       "sourceURL": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/datasets/ukpublicfundedgrossregionalcapitalandnoncapitalexpenditureonresearchanddevelopment",
