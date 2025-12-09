@@ -8,8 +8,8 @@
   "dc:title": "Business expenditure on research and development",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2024-12-11",
-  "dc:modified": "2025-10-01",
+  "dc:issued": "2025-11-28",
+  "dc:modified": "2025-12-09",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -147,7 +147,7 @@
       {
         "name": "Office for National Statistics",
         "href": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/researchanddevelopmentexpenditure/datasets/businessenterpriseresearchanddevelopmentukdesignatedasofficialstatistics",
-        "date": "2024-12-11"
+        "date": "2025-11-28"
       }
     ],
     "experimentalStatistic": false,
@@ -184,8 +184,8 @@
         "subText": "in £ millions",
         "decimalPlaces": 0,
         "standardised": false,
-        "subtitle": "Businesses gross expenditure within each region",
-        "longDescription": "This indicator shows the total business enterprise expenditure on research and development, in the UK, for 2022 and 2023.",
+        "subtitle": "Businesses gross expenditure within each region (£ millions)",
+        "longDescription": "This indicator shows the total business enterprise expenditure on research and development, in the UK, for 2022 to 2024.",
         "caveats": "Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).\n\nRegional estimates are compiled based on a combination of larger businesses reporting their R&D performing locations and smaller businesses having their data allocated to the location of their main business address held on the inter-departmental business register.\n\nEstimates produced at disaggregate levels such as region, product group and SIC may in some cases be subject to a high level of variability from year to year. This may be due to industry reclassification of some businesses and sampling variability.",
         "isMultivariate": false,
         "confidenceIntervals": true,
