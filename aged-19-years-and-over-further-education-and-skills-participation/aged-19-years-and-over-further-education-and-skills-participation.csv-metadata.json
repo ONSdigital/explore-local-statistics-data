@@ -8,8 +8,8 @@
   "dc:title": "Aged 19 years and over further education and skills participation",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Education",
-  "dc:issued": "2024-11-28",
-  "dc:modified": "2025-10-02",
+  "dc:issued": "2025-11-27",
+  "dc:modified": "2025-12-09",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -146,8 +146,8 @@
     "source": [
       {
         "name": "Department for Education",
-        "href": "https://explore-education-statistics.service.gov.uk/data-catalogue/further-education-and-skills/2023-24",
-        "date": "2024-11-28"
+        "href": "https://explore-education-statistics.service.gov.uk/data-catalogue/further-education-and-skills/2024-25",
+        "date": "2025-11-27"
       }
     ],
     "experimentalStatistic": false,
@@ -173,7 +173,7 @@
         "E61",
         "E92"
       ],
-      "year": 2019,
+      "year": 2020,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -187,7 +187,7 @@
         "decimalPlaces": 0,
         "standardised": true,
         "subtitle": "People aged 19 and above participating in further education and skills learning (including apprenticeships), per 100,000 people",
-        "longDescription": "This indicator shows aged 19 years and over further education and skills participation rate per 100,000 population, in England, for full academic years 2018/19 to 2023/24.",
+        "longDescription": "This indicator shows aged 19 years and over further education and skills participation rate per 100,000 population, in England, for full academic years 2019/20 to 2024/25.",
         "caveats": "Participation is the count of learners that participated at any point during the stated academic period. Learners undertaking more than one course will be counted only once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.",
         "isMultivariate": false,
         "confidenceIntervals": true,
