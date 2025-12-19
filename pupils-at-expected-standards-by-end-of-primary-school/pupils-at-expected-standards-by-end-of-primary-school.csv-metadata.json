@@ -8,8 +8,8 @@
   "dc:title": "Pupils at expected standards by end of primary school",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Education",
-  "dc:issued": "2024-12-12",
-  "dc:modified": "2025-10-01",
+  "dc:issued": "2025-12-11",
+  "dc:modified": "2025-12-19",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -146,8 +146,8 @@
     "source": [
       {
         "name": "Department for Education",
-        "href": "https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-2-attainment",
-        "date": "2024-12-12"
+        "href": "https://explore-education-statistics.service.gov.uk/find-statistics/key-stage-2-attainment/2024-25-revised",
+        "date": "2025-12-11"
       }
     ],
     "experimentalStatistic": false,
@@ -187,8 +187,8 @@
         "decimalPlaces": 0,
         "standardised": true,
         "subtitle": "Percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths",
-        "longDescription": "This indicator shows the percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of Key Stage 2, in England state-funded schools, for academic years 2018/19 to 2023/24.",
-        "caveats": "'State-funded schools' includes LA maintained schools, sponsored academies, converter academies, free schools and state-funded special schools (including hospital schools).\n\nData is not available for 2019/20 and 2020/21 academic years as assessments were cancelled due to the COVID-19 pandemic.\n\nWriting teacher assessment and reading, writing and maths (combined) measures from 2018 onwards are not directly comparable to previous years due to changes in the writing teacher assessment frameworks.\n\nSome of this data has been aggregated and may show differences to other published figures.",
+        "longDescription": "This indicator shows the percentage of pupils in state-funded schools meeting the expected standard in reading, writing and maths at the end of Key Stage 2, in England, for academic years 2018/19 to 2024/25.",
+        "caveats": "Data is not available for 2019/20 and 2020/21 academic years as assessments were cancelled due to the COVID-19 pandemic.\n\nFigures for 2025 are based on revised data. Figures for other years are based on final data.\n\n'All state funded' includes local authority maintained schools, academy sponsor led, academy converter, free schools and state funded special schools (excluding hospital schools).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
