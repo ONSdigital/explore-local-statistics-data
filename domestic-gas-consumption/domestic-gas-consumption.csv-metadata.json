@@ -8,8 +8,8 @@
   "dc:title": "Domestic gas consumption",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Energy Security and Net Zero",
-  "dc:issued": "2024-12-19",
-  "dc:modified": "2025-10-02",
+  "dc:issued": "2025-12-18",
+  "dc:modified": "2025-12-22",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -147,7 +147,7 @@
       {
         "name": "Department for Energy Security and Net Zero",
         "href": "https://www.gov.uk/government/collections/sub-national-gas-consumption-data",
-        "date": "2024-12-19"
+        "date": "2025-12-18"
       }
     ],
     "experimentalStatistic": false,
@@ -192,7 +192,7 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Median domestic gas consumption (kWh)",
-        "longDescription": "This indicator shows median domestic gas consumption (kWh), in Great Britain, for 2012 to 2023.",
+        "longDescription": "This indicator shows median domestic gas consumption (kWh), in Great Britain, for 2012 to 2024.",
         "caveats": "These figures are based on meter level gas consumption data. Those meters with an annual consumption less than 73,200 kWh are classified as domestic meters. This means that some small industrial and commercial consumers will be classified as domestic.\n\nThese estimates are weather-corrected. This means that the effect of differences in weather conditions between years has been removed to provide more like for like comparisons over time.\n\nThe precise time periods covered by different years of data differ:\n- Prior to 2015: October – September (same period as 2015)\n- 2015: October 2014 – September 2015\n- 2016: mid-July 2016 – mid-July 2017\n- 2017: mid-June 2017 – mid-June 2018\n- 2018: mid-May 2018 – mid-May 2019\n- 2019 onwards: same pattern as 2018",
         "isMultivariate": false,
         "confidenceIntervals": true,
