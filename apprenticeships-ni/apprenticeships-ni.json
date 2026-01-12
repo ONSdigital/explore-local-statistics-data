@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 02/10/2025 at 09:36",
+    
+    "ess-beta-metadata": {
+      "label": "Apprenticeship starts (Northern Ireland)",
+      "prefix": null,
+      "suffix": null,
+      "subText": "per 100,000 population",
+      "decimalPlaces": 0,
+      "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
+      "experimentalStatistic": "F",
+      "sourceDate": "12/06/2025|31/01/2025|28/05/2025",
+      "sourceURL": "https://www.economy-ni.gov.uk/publications/apprenticeshipsni-ad-hoc-tables|https://www.economy-ni.gov.uk/publications/higher-level-apprenticeships-further-education-academic-year-202324|https://www.economy-ni.gov.uk/articles/higher-level-apprenticeships-northern-ireland-heis-statistical-fact-sheets",
+      "sourceOrg": "Department for the Economy (Northern Ireland) ApprenticeshipsNI|Further Education colleges and CAFRE|Higher Education Institutions",
+      "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Northern Ireland, for full academic years 2019/20 to 2022/23",
+      "caveats": "Starts refer to the number of participants who are in the first year of an apprenticeship programme.\n\nData relate to participants who have been on their course 28 days or more.\n\nGeography is based upon the home postcode of the learner.\n\nApprenticeshipsNI includes levels 2 and 3.\n\nHigher Level Apprenticeships (HLA) at further education (FE) colleges in Northern Ireland and the College of Agriculture, Food and Rural Enterprise (CAFRE) includes levels 4, 5 and 6.\n\nHLA at Higher Education Institutions (HEIs) in Northern Ireland includes levels 6 and 7.\n\n[2023 mid-year population estimates for Northern Ireland](https://www.nisra.gov.uk/publications/2023-mid-year-population-estimates-northern-ireland-and-estimates-population-aged-85) have been used to create a rate per 100,000 population.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+      "standardised": "T"
+  }
+}

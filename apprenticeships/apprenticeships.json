@@ -1,0 +1,31 @@
+{
+  "_note": "This file was last modified on 05/12/2025 at 13:11",
+    
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 0,
+        "experimentalStatistic": "F",
+        "sourceDate": "27/11/2025",
+        "sourceURL": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills",
+        "sourceOrg": "Department for Education",
+        "standardised": "T"
+      },
+  
+      "Apprenticeship starts (England)": {
+        "label": "Apprenticeship starts (England)",
+        "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2019/20 to 2024/25.",
+        "caveats": "Starts are the count of apprenticeships started at any point during the stated academic period. Learners starting more than one apprenticeship will appear more than once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable."
+      },
+  
+      "Apprenticeship achievements (England)": {
+        "label": "Apprenticeship achievements (England)",
+        "subtitle": "Apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in England, for full academic years 2019/20 to 2024/25.",
+        "caveats": "Achievements are the count of apprenticeships achieved at any point during the stated academic period. Learners achieving more than one apprenticeship will appear more than once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable."
+      }
+  }    
+}
