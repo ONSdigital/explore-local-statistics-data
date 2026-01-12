@@ -60,12 +60,11 @@
             "type": "measure"
           },
           {
-            "name": "numerator",
             "titles": [
               "Numerator"
             ],
             "datatype": "number",
-            "type": "measure"
+            "suppressOutput": true
           },
           {
             "name": "unit",

@@ -61,22 +61,20 @@
             "type": "measure"
           },
           {
-            "name": "numerator",
             "titles": [
               "numerator",
               "Numerator"
             ],
             "datatype": "number",
-            "type": "measure"
+            "suppressOutput": true
           },
           {
-            "name": "denominator",
             "titles": [
               "denominator",
               "Denominator"
             ],
             "datatype": "number",
-            "type": "measure"
+            "suppressOutput": true
           },
           {
             "name": "unit",
