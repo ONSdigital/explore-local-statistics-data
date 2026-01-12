@@ -88,16 +88,12 @@ const cols = {
     datatype: "string",
   },
   Numerator: {
-    name: "numerator",
     titles: "Numerator",
     datatype: "number",
-    type: "measure"
   },
   Denominator: {
-    name: "denominator",
     titles: "Denominator",
     datatype: "number",
-    type: "measure"
   },
   "Age band": {
     name: "age",
