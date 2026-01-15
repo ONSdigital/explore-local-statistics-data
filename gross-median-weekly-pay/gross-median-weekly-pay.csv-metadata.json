@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics, Northern Ireland Statistics and Research Agency",
   "dc:issued": "2025-10-23",
-  "dc:modified": "2025-11-25",
+  "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -19,7 +19,7 @@
           {
             "name": "areacd",
             "titles": [
-              "AREACD",
+              "areacd",
               "Area code"
             ],
             "datatype": "string",
@@ -28,7 +28,7 @@
           },
           {
             "titles": [
-              "AREANM",
+              "areanm",
               "Area name"
             ],
             "datatype": "string",
@@ -36,16 +36,8 @@
           },
           {
             "titles": [
-              "Geography",
+              "geography",
               "Geography type"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "Variable Name",
-              "Variable name"
             ],
             "datatype": "string",
             "suppressOutput": true
@@ -53,6 +45,7 @@
           {
             "name": "indicator",
             "titles": [
+              "indicator",
               "Indicator"
             ],
             "datatype": "string",
@@ -61,7 +54,7 @@
           {
             "name": "period",
             "titles": [
-              "Period",
+              "period",
               "Time period"
             ],
             "datatype": "date",
@@ -71,7 +64,7 @@
           {
             "name": "value",
             "titles": [
-              "Observation",
+              "observation",
               "Observation value"
             ],
             "datatype": "number",
@@ -80,6 +73,7 @@
           {
             "name": "measure",
             "titles": [
+              "measure",
               "Measure"
             ],
             "datatype": "string",
@@ -89,6 +83,7 @@
           {
             "name": "unit",
             "titles": [
+              "unit",
               "Unit"
             ],
             "datatype": "string",
@@ -98,7 +93,7 @@
           {
             "name": "lci",
             "titles": [
-              "Lower Confidence Interval (95%)",
+              "lci_95",
               "Lower confidence interval (95%)"
             ],
             "datatype": "number",
@@ -107,7 +102,7 @@
           {
             "name": "uci",
             "titles": [
-              "Upper Confidence Interval (95%)",
+              "uci_95",
               "Upper confidence interval (95%)"
             ],
             "datatype": "number",
@@ -116,23 +111,15 @@
           {
             "name": "status",
             "titles": [
-              "Observation Status",
+              "status",
               "Observation status"
             ],
             "datatype": "string",
             "type": "status"
           },
           {
-            "name": "polarity",
             "titles": [
-              "Polarity"
-            ],
-            "datatype": "number",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
+              "notes",
               "Notes"
             ],
             "datatype": "string",
@@ -167,6 +154,7 @@
         "uk",
         "ctry",
         "rgn",
+        "cauth",
         "utla",
         "ltla"
       ],
@@ -177,6 +165,7 @@
         "E09",
         "E10",
         "E12",
+        "E47",
         "E92",
         "K02",
         "K03",
@@ -203,7 +192,7 @@
         "standardised": true,
         "subtitle": "Average weekly pay based on where people live",
         "longDescription": "This indicator shows the average (median) weekly pay for all employee jobs (full-time and part-time) based on where people live, in the UK, for a pay period that included a specified date in April 2008 to April 2025.",
-        "caveats": "For Great Britain data, 2025 estimates are provisional and relate to the pay period that includes 30 April 2025. Estimates for 2024 have been revised and relate to the pay period that includes 17 April 2024.\n\nThe country level figure for Northern Ireland has been sourced from Nomis rather than NISRA. This is to allow for confidence intervals.",
+        "caveats": "For Great Britain data, 2025 estimates are provisional and relate to the pay period that includes 30 April 2025. Estimates for 2024 have been revised and relate to the pay period that includes 17 April 2024.\n\nThe country level figure for Northern Ireland has been sourced from Nomis rather than NISRA. This is to allow for confidence intervals.\n\nCombined Authority data has been sourced from the following: [2023 (revised)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/adhocs/2934annualsurveyofhoursandearningsestimatesofearningsofresidencebasedemployeesbycombinedauthorities), [2024 (revised) and 2025 (provisional)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/adhocs/3107annualsurveyofhoursandearningsestimatesofearningsofresidenceandworkbasedemployeesbycombinedauthorities2024revisedand2025provisional).",
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
@@ -211,8 +200,7 @@
         "frequency": "annual",
         "periodFormat": "year",
         "measure": "Pounds",
-        "unit": "£",
-        "polarity": 1
+        "unit": "£"
       }
     ]
   }

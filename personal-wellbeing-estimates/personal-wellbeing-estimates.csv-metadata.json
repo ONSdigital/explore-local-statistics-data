@@ -5,15 +5,15 @@
       "@language": "en"
     }
   ],
-  "dc:title": "Business demography",
+  "dc:title": "Personal wellbeing estimates",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2025-11-20",
+  "dc:issued": "2023-11-07",
   "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
-      "url": "business-demography.csv",
+      "url": "personal-wellbeing-estimates.csv",
       "tableSchema": {
         "columns": [
           {
@@ -62,15 +62,6 @@
             "role": "time"
           },
           {
-            "name": "value",
-            "titles": [
-              "observation",
-              "Observation value"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
             "name": "measure",
             "titles": [
               "measure",
@@ -79,6 +70,15 @@
             "datatype": "string",
             "type": "metadata",
             "suppressOutput": true
+          },
+          {
+            "name": "value",
+            "titles": [
+              "observation",
+              "Observation value"
+            ],
+            "datatype": "number",
+            "type": "measure"
           },
           {
             "name": "unit",
@@ -133,8 +133,8 @@
     "source": [
       {
         "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousreleases",
-        "date": "2025-11-20"
+        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/measuringnationalwellbeing/previousreleases",
+        "date": "2023-11-07"
       }
     ],
     "experimentalStatistic": false,
@@ -149,7 +149,6 @@
         "uk",
         "ctry",
         "rgn",
-        "cauth",
         "utla",
         "ltla"
       ],
@@ -162,11 +161,8 @@
         "E11",
         "E12",
         "E13",
-        "E47",
         "E92",
         "K02",
-        "K03",
-        "K04",
         "N09",
         "N92",
         "S12",
@@ -174,72 +170,93 @@
         "W06",
         "W92"
       ],
-      "year": 2019,
+      "year": 2022,
       "initialLevel": "ltla"
     },
     "indicators": [
       {
-        "code": "Business births",
-        "dataset": "business-demography",
-        "label": "Business births",
+        "code": "Satisfaction",
+        "dataset": "personal-wellbeing-estimates",
+        "label": "Life satisfaction",
         "prefix": null,
-        "suffix": "%",
-        "subText": null,
+        "suffix": null,
+        "subText": "score out of 10",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Percentage of businesses newly registered for VAT and/or PAYE",
-        "longDescription": "This indicator shows the business births as a percentage of all active businesses, in the UK, for 2019 to 2024.",
-        "caveats": "A birth is identified as a business that was present in year t, but did not exist in year t-1 or t-2. Births are identified by making comparison of annual active population files and identifying those present in the latest file, but not the two previous ones. The birth rate is calculated using the number of births as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures.",
+        "subtitle": "Average rating of life satisfaction (0 = 'not at all satisfied', 10 = 'completely satisfied') for people aged 16 and over",
+        "longDescription": "This indicator shows the average rating of those that feel satisfied about their lives (where 0 is 'not at all satisfied' and 10 is 'completely satisfied'), for adults aged 16 years and over, in the UK, for periods 04/2011-03/2012 to 04/2022-03/2023.",
+        "caveats": null,
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
-        "periodFormat": "year",
-        "measure": "Percentage",
-        "unit": "%"
+        "periodFormat": "financial-year",
+        "measure": "Mean (Where 0 is 'not at all satisfied' and 10 is 'completely satisfied')",
+        "unit": "Score out of 10"
       },
       {
-        "code": "Business deaths",
-        "dataset": "business-demography",
-        "label": "Business deaths",
+        "code": "Happiness",
+        "dataset": "personal-wellbeing-estimates",
+        "label": "Happiness",
         "prefix": null,
-        "suffix": "%",
-        "subText": null,
+        "suffix": null,
+        "subText": "score out of 10",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Percentage of businesses ceasing activity",
-        "longDescription": "This indicator shows the business deaths as a percentage of all active businesses, in the UK, for 2019 to 2024.",
-        "caveats": "A death is defined as a business that was on the active file in year t, but was no longer present in the active file in t+1 and t+2. In order to provide an early estimate of deaths, an adjustment has been made to the latest two years deaths to allow for reactivations. These figures are provisional and subject to revision. The death rate is calculated using the number of deaths as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures.",
+        "subtitle": "Average rating of happiness (0 = 'not at all happy', 10 = 'completely happy') for people aged 16 and over",
+        "longDescription": "This indicator shows the average rating of those that felt happy yesterday (where 0 is 'not at all happy' and 10 is 'completely happy'), for adults aged 16 years and over, in the UK, for periods 04/2011-03/2012 to 04/2022-03/2023.",
+        "caveats": null,
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
-        "periodFormat": "year",
-        "measure": "Percentage",
-        "unit": "%"
+        "periodFormat": "financial-year",
+        "measure": "Mean (Where 0 is 'not at all happy' and 10 is 'completely happy')",
+        "unit": "Score out of 10"
       },
       {
-        "code": "High growth businesses",
-        "dataset": "business-demography",
-        "label": "High growth businesses",
+        "code": "Anxiety",
+        "dataset": "personal-wellbeing-estimates",
+        "label": "Anxiety",
         "prefix": null,
-        "suffix": "%",
-        "subText": null,
+        "suffix": null,
+        "subText": "score out of 10",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Percentage of businesses with an average growth in employment of greater than 20% per year over a three-year period",
-        "longDescription": "This indicator shows the high growth businesses as a percentage of active businesses with 10 or more employees, in the UK, for 2019 to 2024.",
-        "caveats": "High growth measures all businesses with an average growth in employment of greater than 20%, per annum, over a three-year period. The size threshold used to identify these businesses is that they have 10 or more employees. The rate of high growth businesses is calculated using the number of high growth businesses as a proportion of the active businesses with 10 or more employees. Some of this data has been aggregated and may show differences to other published figures.",
+        "subtitle": "Average rating for anxiety during previous day (0 = 'not at all anxious', 10 = 'completely anxious') for people aged 16 and over",
+        "longDescription": "This indicator shows the average rating of those that felt anxious yesterday (where 0 is 'not at all anxious' and 10 is 'completely anxious'), for adults aged 16 years and over, in the UK, for periods 04/2011-03/2012 to 04/2022-03/2023.",
+        "caveats": null,
         "isMultivariate": false,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
-        "periodFormat": "year",
-        "measure": "Percentage",
-        "unit": "%"
+        "periodFormat": "financial-year",
+        "measure": "Mean (Where 0 is 'not at all anxious' and 10 is 'completely anxious')",
+        "unit": "Score out of 10"
+      },
+      {
+        "code": "Worthwhile",
+        "dataset": "personal-wellbeing-estimates",
+        "label": "Feeling life is worthwhile",
+        "prefix": null,
+        "suffix": null,
+        "subText": "score out of 10",
+        "decimalPlaces": 1,
+        "standardised": true,
+        "subtitle": "Average rating that the things they do in life are worthwhile (0 = 'not at all worthwhile', 10 = 'completely worthwhile') for people aged 16 and over",
+        "longDescription": "This indicator shows the average rating of those that feel the things they do in life are worthwhile (where 0 is 'not at all worthwhile' and 10 is 'completely worthwhile'), for adults aged 16 years and over, in the UK, for periods 04/2011-03/2012 to 04/2022-03/2023.",
+        "caveats": null,
+        "isMultivariate": false,
+        "confidenceIntervals": true,
+        "canBeNegative": false,
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "financial-year",
+        "measure": "Mean (Where 0 is 'not at all worthwhile' and 10 is 'completely worthwhile')",
+        "unit": "Score out of 10"
       }
     ]
   }

@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Ofcom",
   "dc:issued": "2025-11-19",
-  "dc:modified": "2025-11-27",
+  "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -19,7 +19,7 @@
           {
             "name": "areacd",
             "titles": [
-              "AREACD",
+              "areacd",
               "Area code"
             ],
             "datatype": "string",
@@ -28,7 +28,7 @@
           },
           {
             "titles": [
-              "AREANM",
+              "areanm",
               "Area name"
             ],
             "datatype": "string",
@@ -36,16 +36,8 @@
           },
           {
             "titles": [
-              "Geography",
+              "geography",
               "Geography type"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "Variable Name",
-              "Variable name"
             ],
             "datatype": "string",
             "suppressOutput": true
@@ -53,6 +45,7 @@
           {
             "name": "indicator",
             "titles": [
+              "indicator",
               "Indicator"
             ],
             "datatype": "string",
@@ -61,7 +54,7 @@
           {
             "name": "period",
             "titles": [
-              "Period",
+              "period",
               "Time period"
             ],
             "datatype": "date",
@@ -71,7 +64,7 @@
           {
             "name": "value",
             "titles": [
-              "Observation",
+              "observation",
               "Observation value"
             ],
             "datatype": "number",
@@ -80,6 +73,7 @@
           {
             "name": "measure",
             "titles": [
+              "measure",
               "Measure"
             ],
             "datatype": "string",
@@ -89,6 +83,7 @@
           {
             "name": "unit",
             "titles": [
+              "unit",
               "Unit"
             ],
             "datatype": "string",
@@ -98,7 +93,7 @@
           {
             "name": "lci",
             "titles": [
-              "Lower Confidence Interval (95%)",
+              "lci_95",
               "Lower confidence interval (95%)"
             ],
             "datatype": "number",
@@ -107,7 +102,7 @@
           {
             "name": "uci",
             "titles": [
-              "Upper Confidence Interval (95%)",
+              "uci_95",
               "Upper confidence interval (95%)"
             ],
             "datatype": "number",
@@ -116,23 +111,15 @@
           {
             "name": "status",
             "titles": [
-              "Observation Status",
+              "status",
               "Observation status"
             ],
             "datatype": "string",
             "type": "status"
           },
           {
-            "name": "polarity",
             "titles": [
-              "Polarity"
-            ],
-            "datatype": "number",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
+              "notes",
               "Notes"
             ],
             "datatype": "string",
@@ -190,7 +177,7 @@
     },
     "indicators": [
       {
-        "code": "Premises with gigabit capable broadband",
+        "code": "Gigabit capable broadband",
         "dataset": "gigabit-capable-broadband",
         "label": "Gigabit capable broadband",
         "prefix": null,
@@ -208,8 +195,7 @@
         "frequency": "annual",
         "periodFormat": "year",
         "measure": "Percentage",
-        "unit": "%",
-        "polarity": 1
+        "unit": "%"
       }
     ]
   }

@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-09-26",
-  "dc:modified": "2025-10-29",
+  "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -19,7 +19,7 @@
           {
             "name": "areacd",
             "titles": [
-              "AREACD",
+              "areacd",
               "Area code"
             ],
             "datatype": "string",
@@ -28,7 +28,7 @@
           },
           {
             "titles": [
-              "AREANM",
+              "areanm",
               "Area name"
             ],
             "datatype": "string",
@@ -36,7 +36,7 @@
           },
           {
             "titles": [
-              "Geography",
+              "geography",
               "Geography type"
             ],
             "datatype": "string",
@@ -45,6 +45,7 @@
           {
             "name": "indicator",
             "titles": [
+              "indicator",
               "Indicator"
             ],
             "datatype": "string",
@@ -53,7 +54,7 @@
           {
             "name": "period",
             "titles": [
-              "Period",
+              "period",
               "Time period"
             ],
             "datatype": "date",
@@ -63,6 +64,7 @@
           {
             "name": "sex",
             "titles": [
+              "sex",
               "Sex"
             ],
             "datatype": "string",
@@ -71,6 +73,7 @@
           {
             "name": "age",
             "titles": [
+              "age_band",
               "Age band"
             ],
             "datatype": "string",
@@ -79,7 +82,7 @@
           {
             "name": "value",
             "titles": [
-              "Value",
+              "observation",
               "Observation value"
             ],
             "datatype": "number",
@@ -88,6 +91,7 @@
           {
             "name": "measure",
             "titles": [
+              "measure",
               "Measure"
             ],
             "datatype": "string",
@@ -97,6 +101,7 @@
           {
             "name": "unit",
             "titles": [
+              "unit",
               "Unit"
             ],
             "datatype": "string",
@@ -104,13 +109,39 @@
             "suppressOutput": true
           },
           {
+            "name": "lci",
+            "titles": [
+              "lci_95",
+              "Lower confidence interval (95%)"
+            ],
+            "datatype": "number",
+            "type": "measure"
+          },
+          {
+            "name": "uci",
+            "titles": [
+              "uci_95",
+              "Upper confidence interval (95%)"
+            ],
+            "datatype": "number",
+            "type": "measure"
+          },
+          {
             "name": "status",
             "titles": [
-              "Observation Status",
+              "status",
               "Observation status"
             ],
             "datatype": "string",
             "type": "status"
+          },
+          {
+            "titles": [
+              "notes",
+              "Notes"
+            ],
+            "datatype": "string",
+            "suppressOutput": true
           }
         ]
       }
@@ -176,7 +207,7 @@
         "longDescription": "This indicator shows the mid-year estimate of the total population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -197,7 +228,7 @@
         "longDescription": "This indicator shows the mid-year estimate of the total female population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -218,7 +249,7 @@
         "longDescription": "This indicator shows the mid-year estimate of the total male population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -239,7 +270,7 @@
         "longDescription": "This indicator shows the median age of people, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -260,7 +291,7 @@
         "longDescription": "This indicator shows the median age of the female population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -281,7 +312,7 @@
         "longDescription": "This indicator shows the median age of the male population, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Median age is calculated as the age category in which the mid-point of the population distribution falls. There may be slight differences when compared with other sources, as these may reflect where the mid-point falls within the given age category. These reflect differences in precision, not accuracy.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -302,7 +333,7 @@
         "longDescription": "This indicator shows the number of usual residents per square kilometre, calculated based on total land area excluding inland water, in the United Kingdom, for 1991 to 2024.",
         "caveats": "[Standard Area Measurements (December 2024) in the UK](https://geoportal.statistics.gov.uk/datasets/ons::standard-area-measurements-for-the-local-authority-districts-december-2024-in-the-united-kingdom/about) was used to calculate population density by dividing the total population by the area in square kilometres.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -323,7 +354,7 @@
         "longDescription": "This indicator shows the number of usual female residents per square kilometre, calculated based on total land area excluding inland water, in the United Kingdom, for 1991 to 2024.",
         "caveats": "[Standard Area Measurements (December 2024) in the UK](https://geoportal.statistics.gov.uk/datasets/ons::standard-area-measurements-for-the-local-authority-districts-december-2024-in-the-united-kingdom/about) was used to calculate population density by dividing the female population by the area in square kilometres.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -344,7 +375,7 @@
         "longDescription": "This indicator shows the number of usual male residents per square kilometre, calculated based on total land area excluding inland water, in the United Kingdom, for 1991 to 2024.",
         "caveats": "[Standard Area Measurements (December 2024) in the UK](https://geoportal.statistics.gov.uk/datasets/ons::standard-area-measurements-for-the-local-authority-districts-december-2024-in-the-united-kingdom/about) was used to calculate population density by dividing the male population by the area in square kilometres.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -365,7 +396,7 @@
         "longDescription": "This indicator shows the five-year percentage change in population, in the United Kingdom, for 1996 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": true,
         "zeroBaseline": false,
         "frequency": "annual",
@@ -386,7 +417,7 @@
         "longDescription": "This indicator shows the percentage of the population aged 0 to 15, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -407,7 +438,7 @@
         "longDescription": "This indicator shows the percentage of the female population aged 0 to 15, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -428,7 +459,7 @@
         "longDescription": "This indicator shows the percentage of the male population aged 0 to 15, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -449,7 +480,7 @@
         "longDescription": "This indicator shows the percentage of the population aged 16 to 64, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -470,7 +501,7 @@
         "longDescription": "This indicator shows the percentage of the female population aged 16 to 64, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -491,7 +522,7 @@
         "longDescription": "This indicator shows the percentage of the male population aged 16 to 64, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -512,7 +543,7 @@
         "longDescription": "This indicator shows the percentage of the population aged 65 and over, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -533,7 +564,7 @@
         "longDescription": "This indicator shows the percentage of the female population aged 65 and over, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -554,7 +585,7 @@
         "longDescription": "This indicator shows the percentage of the male population aged 65 and over, in the United Kingdom, for 1991 to 2024.",
         "caveats": "Population estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
         "isMultivariate": false,
-        "confidenceIntervals": false,
+        "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

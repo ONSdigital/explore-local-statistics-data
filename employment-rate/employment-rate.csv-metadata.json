@@ -9,22 +9,13 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2024-04-16",
-  "dc:modified": "2025-09-30",
+  "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
       "url": "employment-rate.csv",
       "tableSchema": {
         "columns": [
-          {
-            "name": "indicator",
-            "titles": [
-              "indicator",
-              "Indicator"
-            ],
-            "datatype": "string",
-            "type": "indicator"
-          },
           {
             "name": "areacd",
             "titles": [
@@ -52,6 +43,25 @@
             "suppressOutput": true
           },
           {
+            "name": "indicator",
+            "titles": [
+              "indicator",
+              "Indicator"
+            ],
+            "datatype": "string",
+            "type": "indicator"
+          },
+          {
+            "name": "period",
+            "titles": [
+              "period",
+              "Time period"
+            ],
+            "datatype": "date",
+            "type": "dimension",
+            "role": "time"
+          },
+          {
             "name": "value",
             "titles": [
               "observation",
@@ -61,19 +71,13 @@
             "type": "measure"
           },
           {
+            "name": "measure",
             "titles": [
-              "numerator",
-              "Numerator"
+              "measure",
+              "Measure"
             ],
-            "datatype": "number",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "denominator",
-              "Denominator"
-            ],
-            "datatype": "number",
+            "datatype": "string",
+            "type": "metadata",
             "suppressOutput": true
           },
           {
@@ -87,29 +91,9 @@
             "suppressOutput": true
           },
           {
-            "name": "measure",
-            "titles": [
-              "measure",
-              "Measure"
-            ],
-            "datatype": "string",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "name": "period",
-            "titles": [
-              "period",
-              "Time period"
-            ],
-            "datatype": "date",
-            "type": "dimension",
-            "role": "time"
-          },
-          {
             "name": "lci",
             "titles": [
-              "lower_confidence_interval_95",
+              "lci_95",
               "Lower confidence interval (95%)"
             ],
             "datatype": "number",
@@ -118,7 +102,7 @@
           {
             "name": "uci",
             "titles": [
-              "upper_confidence_interval_95",
+              "uci_95",
               "Upper confidence interval (95%)"
             ],
             "datatype": "number",
@@ -127,7 +111,7 @@
           {
             "name": "status",
             "titles": [
-              "observation_status",
+              "status",
               "Observation status"
             ],
             "datatype": "string",
@@ -209,8 +193,8 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "year",
-        "unit": "%",
-        "measure": "Percentage"
+        "measure": "Percentage",
+        "unit": "%"
       },
       {
         "code": "Economically inactive",
@@ -230,8 +214,8 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "year",
-        "unit": "%",
-        "measure": "Percentage"
+        "measure": "Percentage",
+        "unit": "%"
       }
     ]
   }

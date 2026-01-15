@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Culture, Media and Sport",
   "dc:issued": "2024-07-24",
-  "dc:modified": "2025-10-06",
+  "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -62,6 +62,15 @@
             "role": "time"
           },
           {
+            "name": "value",
+            "titles": [
+              "observation",
+              "Observation value"
+            ],
+            "datatype": "number",
+            "type": "measure"
+          },
+          {
             "name": "measure",
             "titles": [
               "measure",
@@ -82,18 +91,9 @@
             "suppressOutput": true
           },
           {
-            "name": "value",
-            "titles": [
-              "value",
-              "Observation value"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
             "name": "lci",
             "titles": [
-              "lower_confidence_interval_95",
+              "lci_95",
               "Lower confidence interval (95%)"
             ],
             "datatype": "number",
@@ -102,7 +102,7 @@
           {
             "name": "uci",
             "titles": [
-              "upper_confidence_interval_95",
+              "uci_95",
               "Upper confidence interval (95%)"
             ],
             "datatype": "number",
@@ -111,11 +111,19 @@
           {
             "name": "status",
             "titles": [
-              "observation_status",
+              "status",
               "Observation status"
             ],
             "datatype": "string",
             "type": "status"
+          },
+          {
+            "titles": [
+              "notes",
+              "Notes"
+            ],
+            "datatype": "string",
+            "suppressOutput": true
           }
         ]
       }
