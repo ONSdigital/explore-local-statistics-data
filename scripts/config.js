@@ -134,6 +134,8 @@ const duplicateCols = {
   Total: "Denominator",
   Value: "Observation",
   value: "Observation",
+  age_band: "Age band",
+  sex: "Sex",
   "mode-of-travel": "Indicator"
 };
 
