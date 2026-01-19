@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Ministry of Housing, Communities and Local Government",
   "dc:issued": "2025-11-20",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -175,7 +175,7 @@
         "longDescription": "This indicator shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in England, for financial years ending from 2002 to 2025.",
         "caveats": "Net additional dwellings per 1,000 stock are available at an England, regional and local authority district level in DLUHC [net additional dwellings interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTE5YWQ3MDYtZmFjMC00N2YwLWIxM2EtYWY2NTk1NjExYjgwIiwidCI6ImJmMzQ2ODEwLTljN2QtNDNkZS1hODcyLTI0YTJlZjM5OTVhOCJ9).",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": true,
         "zeroBaseline": false,
         "frequency": "annual",

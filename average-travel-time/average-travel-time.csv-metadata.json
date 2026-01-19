@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Transport",
   "dc:issued": "2021-11-04",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -176,7 +176,7 @@
         "longDescription": "This indicator shows the average travel time in minutes to nearest employment centre with 500 to 4,999 jobs available by cycle (official statistics in development), in England, for 2014 to 2019.",
         "caveats": "Data is not available for 2018.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -197,7 +197,7 @@
         "longDescription": "This indicator shows the average travel time in minutes to nearest employment centre with 500 to 4,999 jobs available by car (official statistics in development), in England, for 2014 to 2019.",
         "caveats": "Data is not available for 2018.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -218,7 +218,7 @@
         "longDescription": "This indicator shows the average travel time in minutes to nearest employment centre with 500 to 4,999 jobs available by public transport or walking (official statistics in development), in England, for 2014 to 2019.",
         "caveats": "Data is not available for 2018.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

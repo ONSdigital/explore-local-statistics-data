@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Welsh Government",
   "dc:issued": "2025-04-03",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -169,7 +169,7 @@
         "longDescription": "This indicator shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Wales, for financial years ending 2002 to 2024.",
         "caveats": "In Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use.\n\nPlease note that data is rounded to even.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

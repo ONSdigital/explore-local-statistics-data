@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Education",
   "dc:issued": "2025-01-30",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -172,7 +172,7 @@
         "longDescription": "This indicator shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, non-qualification parts of the Multiply programme and bootcamps, in England, for academic years 2018/19 to 2023/24.",
         "caveats": null,
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

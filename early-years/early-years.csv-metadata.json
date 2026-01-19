@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Education",
   "dc:issued": "2025-11-27",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -178,7 +178,7 @@
         "longDescription": "This indicator shows the early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all communication and language early learning goals, in England (state-funded schools), for academic years 2021/22 to 2024/25.",
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -199,7 +199,7 @@
         "longDescription": "This indicator shows the early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all literacy early learning goals, in England (state-funded schools), for academic years 2021/22 to 2024/25.",
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -220,7 +220,7 @@
         "longDescription": "This indicator shows the early years foundation stage profile outcomes of 5 year olds. Percentage at 'expected level' across all mathematics early learning goals, in England (state-funded schools), for academic years 2021/22 to 2024/25.",
         "caveats": "Early years foundation stage profile was revised significantly in September 2021. It is therefore not possible to directly compare assessment outcomes from 2021/22 onwards with earlier years.\n\nResults are published by DfE and there are some differences between the results broken down by upper tier local authorities (based on the location of the submitting authority) and those by lower tier local authorities (based on the postcode of the school or provider). For more information, please refer to [Early years foundation stage profile results Methodology](https://explore-education-statistics.service.gov.uk/methodology/early-years-foundation-stage-profile-results-methodology).\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

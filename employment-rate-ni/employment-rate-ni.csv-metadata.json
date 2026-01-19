@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Northern Ireland Statistics and Research Agency",
   "dc:issued": "2024-07-09",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -169,7 +169,7 @@
         "longDescription": "This indicator shows the percentage of people aged between 16 and 64 years in paid work or who had a job that they were temporarily away from, in Northern Ireland, for 2023.",
         "caveats": "Calculation of employment rate: number of employed people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.\n\nTime series data is available at [NISRA](https://www.nisra.gov.uk/publications/labour-market-status-sub-population-tables).\n\nBecause the Labour Force Survey (LFS) is a sample survey, results are subject to sampling error, i.e. the actual percentage of the population in private households with a particular characteristic may differ from the percentage of the LFS sample with that characteristic.\n\nUpdates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2026.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -190,7 +190,7 @@
         "longDescription": "This indicator shows the percentage of people aged between 16 and 64 years who are not in employment but do not meet the internationally accepted definition of unemployment because they have not been seeking work within the last four weeks or they are unable to start work in the next two weeks, in Northern Ireland, for 2023.",
         "caveats": "Calculation of economic inactivity rate: number of economically inactive people aged 16 to 64 years divided by the population aged 16 to 64 years. Population is the sum of employed plus unemployed plus inactive.\n\nTime series data is available at [NISRA](https://www.nisra.gov.uk/publications/labour-market-status-sub-population-tables).\n\nBecause the Labour Force Survey (LFS) is a sample survey, results are subject to sampling error, i.e. the actual percentage of the population in private households with a particular characteristic may differ from the percentage of the LFS sample with that characteristic.\n\nUpdates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2026.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

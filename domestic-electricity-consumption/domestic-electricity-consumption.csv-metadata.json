@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Energy Security and Net Zero (Great Britain), Department for Energy Security and Net Zero (Northern Ireland)",
   "dc:issued": "2025-12-18",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -190,7 +190,7 @@
         "longDescription": "This indicator shows median domestic electricity consumption (kWh), in the UK, for 2012 to 2024.",
         "caveats": "These figures are based on meter level electricity consumption data.\n\nElectricity consumption estimates for Great Britain cover the months February to January. For example, 2024 relates to the period February 2024 to January 2025. Electricity meters with a profile class of 1 or 2 are classified as domestic meters.\n\nElectricity consumption estimates for Northern Ireland refer to financial years (1 April – 31 March). For example, 2024 relates to the period 1 April 2024 to 31 March 2025. Northern Ireland local government district figures are only available from 2015 onwards. Electricity meters are classified as domestic meters based on their tariff type.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics, Northern Ireland Statistics and Research Agency",
   "dc:issued": "2025-10-23",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -194,7 +194,7 @@
         "longDescription": "This indicator shows the average (median) weekly pay for all employee jobs (full-time and part-time) based on where people live, in the UK, for a pay period that included a specified date in April 2008 to April 2025.",
         "caveats": "For Great Britain data, 2025 estimates are provisional and relate to the pay period that includes 30 April 2025. Estimates for 2024 have been revised and relate to the pay period that includes 17 April 2024.\n\nThe country level figure for Northern Ireland has been sourced from Nomis rather than NISRA. This is to allow for confidence intervals.\n\nCombined Authority data has been sourced from the following: [2023 (revised)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/adhocs/2934annualsurveyofhoursandearningsestimatesofearningsofresidencebasedemployeesbycombinedauthorities), [2024 (revised) and 2025 (provisional)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/adhocs/3107annualsurveyofhoursandearningsestimatesofearningsofresidenceandworkbasedemployeesbycombinedauthorities2024revisedand2025provisional).",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

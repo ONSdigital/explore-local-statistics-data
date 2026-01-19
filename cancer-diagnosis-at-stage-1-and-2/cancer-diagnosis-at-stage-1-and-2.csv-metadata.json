@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for Health Improvement and Disparities",
   "dc:issued": "2025-11-04",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -177,7 +177,7 @@
         "longDescription": "This indicator shows new cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage, in England, for 2013 to 2022.",
         "caveats": "New cases of cancer diagnosed at stages 1 and 2 as a percentage of all new cases of cancer diagnosed at any known stage (1, 2, 3, and 4) for the following cancer sites: invasive malignancies of lung, oesophagus, colon, rectum, pancreas, invasive melanomas of the skin, breast, uterus, ovary, prostate, testis, kidney, bladder, Hodgkin Lymphoma, larynx, oropharynx, oral cavity, and non Hodgkin lymphoma.\n\nSome cancer groups are excluded from the indicator due to higher levels of missing stage at diagnosis data over the last three years (2020-2022). They were excluded on the basis that their inclusion would compromise the statistical robustness of the measure.\n\nThe data source combines the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

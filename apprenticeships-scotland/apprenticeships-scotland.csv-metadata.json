@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Skills Development Scotland",
   "dc:issued": "2025-05-13",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -169,7 +169,7 @@
         "longDescription": "This indicator shows modern apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years ending 2014 to 2025.",
         "caveats": "Geography is based upon the home postcode of the learner.\n\nFrom 2013/14 to 2017/18, Modern Apprenticeship (MA) data was reported by Scottish Vocational Qualification (SVQ) level (2, 3, 4 and 5). From 2018/19, SDS began to phase out reporting by SVQ level to instead report by the Scottish Credit and Qualifications Framework (SCQF) levels. Therefore from 2018/19, any data relating to MA starts is reported by SCQF level only, with residual data including both SVQ and SCQF levels. Please refer back to the Modern Apprenticeship Statistics [user guide](https://www.skillsdevelopmentscotland.co.uk/media/qp3jhkdz/modern-apprenticeship-user-guide.pdf) for more information.\n\nThe [Scotland population time series data](https://www.nrscotland.gov.uk/publications/population-estimates-time-series-data/) is used to create a rate per 100,000 population and are currently available for the years up to mid-2023.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -190,7 +190,7 @@
         "longDescription": "This indicator shows modern apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in Scotland, for financial years ending 2014 to 2025.",
         "caveats": "Geography is based upon the home postcode of the learner.\n\nFrom 2013/14 to 2017/18, Modern Apprenticeship (MA) data was reported by Scottish Vocational Qualification (SVQ) level (2, 3, 4 and 5). From 2018/19, SDS began to phase out reporting by SVQ level to instead report by the Scottish Credit and Qualifications Framework (SCQF) levels. Therefore from 2018/19, any data relating to MA starts is reported by SCQF level only, with residual data including both SVQ and SCQF levels. Please refer back to the Modern Apprenticeship Statistics [user guide](https://www.skillsdevelopmentscotland.co.uk/media/qp3jhkdz/modern-apprenticeship-user-guide.pdf) for more information.\n\nThe [Scotland population time series data](https://www.nrscotland.gov.uk/publications/population-estimates-time-series-data/) is used to create a rate per 100,000 population and are currently available for the years up to mid-2023.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

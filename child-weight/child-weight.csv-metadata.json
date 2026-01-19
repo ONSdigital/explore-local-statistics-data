@@ -9,7 +9,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for Health Improvement and Disparities",
   "dc:issued": "2025-11-04",
-  "dc:modified": "2026-01-14",
+  "dc:modified": "2026-01-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tables": [
     {
@@ -91,7 +91,7 @@
             "suppressOutput": true
           },
           {
-            "name": "lci",
+            "name": "lci_95",
             "titles": [
               "lci_95",
               "Lower confidence interval (95%)"
@@ -100,7 +100,7 @@
             "type": "measure"
           },
           {
-            "name": "uci",
+            "name": "uci_95",
             "titles": [
               "uci_95",
               "Upper confidence interval (95%)"
@@ -177,7 +177,7 @@
         "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as underweight, in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -198,7 +198,7 @@
         "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as healthy weight, in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -219,7 +219,7 @@
         "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as overweight, in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -240,7 +240,7 @@
         "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -261,7 +261,7 @@
         "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as underweight, in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -282,7 +282,7 @@
         "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as healthy weight, in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -303,7 +303,7 @@
         "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as overweight, in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
@@ -324,7 +324,7 @@
         "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2024/25.",
         "caveats": "The data presented only includes children participating in the National Child Measurement Programme (NCMP) in state maintained schools, any measurements taken at independent and special schools are excluded from the analysis.\n\nChildren are classified as (centiles are of the British 1990 growth reference (UK90) according to age and sex):\n\n- Underweight if their body mass index (BMI) is less than the 2nd centile.\n\n- Healthy weight if their body mass index (BMI) is between the 2nd and less than the 85th centile.\n\n- Overweight if their body mass index (BMI) is on or above the 85th centile, but less than the 95th centile.\n\n- Living with obesity if their body mass index (BMI) is on or above the 95th centile.\n\nLocal authority and region geographies are derived from the postcode of child residency; only children with valid geographical coding (postcode of residence) have been included in the analysis.\n\n The data source combines the City of London totals with Hackney, and the Isles of Scilly totals with Cornwall to prevent potential disclosure of individuals. Explore Local Statistics cannot visualise data for combined areas so please refer to the original data source for this data.",
         "isMultivariate": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
