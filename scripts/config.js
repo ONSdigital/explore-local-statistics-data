@@ -52,13 +52,13 @@ const cols = {
     type: "metadata",
   },
   "Lower Confidence Interval (95%)": {
-    name: "lci",
+    name: "lci_95",
     titles: "Lower confidence interval (95%)",
     datatype: "number",
     type: "measure"
   },
   "Upper Confidence Interval (95%)": {
-    name: "uci",
+    name: "uci_95",
     titles: "Upper confidence interval (95%)",
     datatype: "number",
     type: "measure"
