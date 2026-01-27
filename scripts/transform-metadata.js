@@ -147,6 +147,7 @@ for (const ds of datasets) {
 
   const csvw = {
     "@context": ["http://www.w3.org/ns/csvw", { "@language": "en" }],
+    url: `${ds}.csv`,
     "dc:title": meta.title || titleFromSlug(ds),
     "dc:creator": "Office for National Statistics",
     "dc:publisher": metadata.source.map(s => s.name).join(", "),
@@ -155,14 +156,9 @@ for (const ds of datasets) {
     // The date the CSV file was committed to git
     "dc:modified": modifedDate,
     "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-    tables: [
-      {
-        url: `${ds}.csv`,
-        tableSchema: {
-          columns
-        }
-      },
-    ],
+    tableSchema: {
+      columns
+    },
     metadata
   };
 
