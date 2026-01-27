@@ -5,130 +5,126 @@
       "@language": "en"
     }
   ],
+  "url": "total-value-of-uk-exports.csv",
   "dc:title": "Total value of uk exports",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-08-06",
-  "dc:modified": "2026-01-13",
+  "dc:modified": "2026-01-14",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-  "tables": [
-    {
-      "url": "total-value-of-uk-exports.csv",
-      "tableSchema": {
-        "columns": [
-          {
-            "name": "areacd",
-            "titles": [
-              "areacd",
-              "Area code"
-            ],
-            "datatype": "string",
-            "type": "dimension",
-            "role": "geo"
-          },
-          {
-            "titles": [
-              "areanm",
-              "Area name"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "geography",
-              "Geography type"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "name": "indicator",
-            "titles": [
-              "indicator",
-              "Indicator"
-            ],
-            "datatype": "string",
-            "type": "indicator"
-          },
-          {
-            "name": "period",
-            "titles": [
-              "period",
-              "Time period"
-            ],
-            "datatype": "date",
-            "type": "dimension",
-            "role": "time"
-          },
-          {
-            "name": "value",
-            "titles": [
-              "observation",
-              "Observation value"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "measure",
-            "titles": [
-              "measure",
-              "Measure"
-            ],
-            "datatype": "string",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "name": "unit",
-            "titles": [
-              "unit",
-              "Unit"
-            ],
-            "datatype": "string",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "name": "lci_95",
-            "titles": [
-              "lci_95",
-              "Lower confidence interval (95%)"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "uci_95",
-            "titles": [
-              "uci_95",
-              "Upper confidence interval (95%)"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "status",
-            "titles": [
-              "status",
-              "Observation status"
-            ],
-            "datatype": "string",
-            "type": "status"
-          },
-          {
-            "titles": [
-              "notes",
-              "Notes"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          }
-        ]
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "areacd",
+        "titles": [
+          "areacd",
+          "Area code"
+        ],
+        "datatype": "string",
+        "type": "dimension",
+        "role": "geo"
+      },
+      {
+        "titles": [
+          "areanm",
+          "Area name"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "titles": [
+          "geography",
+          "Geography type"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "name": "indicator",
+        "titles": [
+          "indicator",
+          "Indicator"
+        ],
+        "datatype": "string",
+        "type": "indicator"
+      },
+      {
+        "name": "period",
+        "titles": [
+          "period",
+          "Time period"
+        ],
+        "datatype": "date",
+        "type": "dimension",
+        "role": "time"
+      },
+      {
+        "name": "value",
+        "titles": [
+          "observation",
+          "Observation value"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "measure",
+        "titles": [
+          "measure",
+          "Measure"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "unit",
+        "titles": [
+          "unit",
+          "Unit"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "lci_95",
+        "titles": [
+          "lci_95",
+          "Lower confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "uci_95",
+        "titles": [
+          "uci_95",
+          "Upper confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "status",
+        "titles": [
+          "status",
+          "Observation status"
+        ],
+        "datatype": "string",
+        "type": "status"
+      },
+      {
+        "titles": [
+          "notes",
+          "Notes"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
       }
-    }
-  ],
+    ]
+  },
   "metadata": {
     "source": [
       {

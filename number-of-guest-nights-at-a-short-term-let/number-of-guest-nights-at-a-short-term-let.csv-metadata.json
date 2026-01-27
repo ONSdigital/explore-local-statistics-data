@@ -5,143 +5,139 @@
       "@language": "en"
     }
   ],
+  "url": "number-of-guest-nights-at-a-short-term-let.csv",
   "dc:title": "Number of guest nights at a short term let",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-12-04",
   "dc:modified": "2025-12-09",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-  "tables": [
-    {
-      "url": "number-of-guest-nights-at-a-short-term-let.csv",
-      "tableSchema": {
-        "columns": [
-          {
-            "name": "areacd",
-            "titles": [
-              "AREACD",
-              "Area code"
-            ],
-            "datatype": "string",
-            "type": "dimension",
-            "role": "geo"
-          },
-          {
-            "titles": [
-              "AREANM",
-              "Area name"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "Geography",
-              "Geography type"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "Variable Name",
-              "Variable name"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          },
-          {
-            "name": "indicator",
-            "titles": [
-              "Indicator"
-            ],
-            "datatype": "string",
-            "type": "indicator"
-          },
-          {
-            "name": "period",
-            "titles": [
-              "Period",
-              "Time period"
-            ],
-            "datatype": "date",
-            "type": "dimension",
-            "role": "time"
-          },
-          {
-            "name": "value",
-            "titles": [
-              "Observation",
-              "Observation value"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "measure",
-            "titles": [
-              "Measure"
-            ],
-            "datatype": "string",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "name": "unit",
-            "titles": [
-              "Unit"
-            ],
-            "datatype": "string",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "name": "lci_95",
-            "titles": [
-              "Lower Confidence Interval (95%)",
-              "Lower confidence interval (95%)"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "uci_95",
-            "titles": [
-              "Upper Confidence Interval (95%)",
-              "Upper confidence interval (95%)"
-            ],
-            "datatype": "number",
-            "type": "measure"
-          },
-          {
-            "name": "status",
-            "titles": [
-              "Observation Status",
-              "Observation status"
-            ],
-            "datatype": "string",
-            "type": "status"
-          },
-          {
-            "name": "polarity",
-            "titles": [
-              "Polarity"
-            ],
-            "datatype": "number",
-            "type": "metadata",
-            "suppressOutput": true
-          },
-          {
-            "titles": [
-              "Notes"
-            ],
-            "datatype": "string",
-            "suppressOutput": true
-          }
-        ]
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "areacd",
+        "titles": [
+          "AREACD",
+          "Area code"
+        ],
+        "datatype": "string",
+        "type": "dimension",
+        "role": "geo"
+      },
+      {
+        "titles": [
+          "AREANM",
+          "Area name"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "titles": [
+          "Geography",
+          "Geography type"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "titles": [
+          "Variable Name",
+          "Variable name"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "name": "indicator",
+        "titles": [
+          "Indicator"
+        ],
+        "datatype": "string",
+        "type": "indicator"
+      },
+      {
+        "name": "period",
+        "titles": [
+          "Period",
+          "Time period"
+        ],
+        "datatype": "date",
+        "type": "dimension",
+        "role": "time"
+      },
+      {
+        "name": "value",
+        "titles": [
+          "Observation",
+          "Observation value"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "measure",
+        "titles": [
+          "Measure"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "unit",
+        "titles": [
+          "Unit"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "lci_95",
+        "titles": [
+          "Lower Confidence Interval (95%)",
+          "Lower confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "uci_95",
+        "titles": [
+          "Upper Confidence Interval (95%)",
+          "Upper confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "status",
+        "titles": [
+          "Observation Status",
+          "Observation status"
+        ],
+        "datatype": "string",
+        "type": "status"
+      },
+      {
+        "name": "polarity",
+        "titles": [
+          "Polarity"
+        ],
+        "datatype": "number",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "titles": [
+          "Notes"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
       }
-    }
-  ],
+    ]
+  },
   "metadata": {
     "source": [
       {
