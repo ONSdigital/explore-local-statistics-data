@@ -5,12 +5,12 @@
       "@language": "en"
     }
   ],
-  "url": "claimant-count.csv",
-  "dc:title": "Claimant count",
+  "url": "average-house-price.csv",
+  "dc:title": "Average house price",
   "dc:creator": "Office for National Statistics",
-  "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2026-01-20",
-  "dc:modified": "2026-01-29",
+  "dc:publisher": "HM Land Registry",
+  "dc:issued": "2026-01-21",
+  "dc:modified": "2026-02-05",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -128,12 +128,12 @@
   "metadata": {
     "source": [
       {
-        "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/regionallabourmarket/previousreleases",
-        "date": "2026-01-20"
+        "name": "HM Land Registry",
+        "href": "https://www.gov.uk/government/collections/uk-house-price-index-reports-2025",
+        "date": "2026-01-21"
       }
     ],
-    "experimentalStatistic": true,
+    "experimentalStatistic": false,
     "geography": {
       "countries": [
         "E",
@@ -145,7 +145,6 @@
         "uk",
         "ctry",
         "rgn",
-        "cauth",
         "utla",
         "ltla"
       ],
@@ -155,8 +154,9 @@
         "E08",
         "E09",
         "E10",
+        "E11",
         "E12",
-        "E47",
+        "E13",
         "E92",
         "K02",
         "K03",
@@ -168,31 +168,31 @@
         "W06",
         "W92"
       ],
-      "year": 2024,
+      "year": 2025,
       "initialLevel": "ltla"
     },
     "indicators": [
       {
-        "code": "Claimant Count",
-        "dataset": "claimant-count",
-        "label": "Claimant Count",
-        "prefix": null,
-        "suffix": "%",
+        "code": "Average house price",
+        "dataset": "average-house-price",
+        "label": "Average house price",
+        "prefix": "£",
+        "suffix": null,
         "subText": null,
-        "decimalPlaces": 1,
+        "decimalPlaces": 0,
         "standardised": true,
-        "subtitle": "Percentage of people aged 16 to 64 who are claiming unemployment-related benefits",
-        "longDescription": "This indicator shows Claimant Count as a percentage of residents aged 16 to 64 (official statistics in development), in the UK, for 2001 to 2025.",
-        "caveats": "Proportions of people claiming are the number of claimants in a year divided by the population aged from 16 to 64 from mid-year 2023 population estimates.\n\nThe experimental Claimant Count consists of claimants of Jobseekers Allowance (JSA) and some Universal Credit (UC) Claimants. The UC claimants that are included are 1) those that were recorded as not in employment (May 2013-April 2015), and 2) those claimants of Universal Credit who are required to search for work, i.e. within the Searching for Work conditionality regime as defined by the Department for Work & Pensions (from April 2015 onwards).\n\nThe count is based on live claims on the second Thursday of the reference month.\n\nUnder certain circumstances, some people are able to claim both contribution-based JSA and UC at the same time. Consequently, there has been a small amount of double counting. Information from DWP suggests this double counting increased at the start of the pandemic and has stabilised at approximately 1.0 to 1.5% of the Claimant Count.\n\nNorthern Ireland local government districts Claimant Count figures are only available from 2013 onwards.",
+        "subtitle": "Average monthly price of a property (£)",
+        "longDescription": "This indicator shows the average (geometric mean) monthly house price, in the United Kingdom, for January 2005 to November 2025.",
+        "caveats": "For the UK House Price Index (UK HPI), the standard average house price is calculated by taking the average (geometric mean) price in January 2015 and then recalculating it in accordance with the index change back in time and forward to the present day. The geometric mean reduces the weighting given to high value properties when compared to the arithmetic mean and is typically lower, usually closer to that of the median.\n\nEstimates for the most recent months are provisional and are likely to be updated as more data is incorporated into the index. Read [Revisions to the UK HPI data](https://www.gov.uk/government/publications/about-the-uk-house-price-index/about-the-uk-house-price-index#monthly-revision).\n\nThe UK House Price Index (UK HPI) is calculated by the Office for National Statistics and Land & Property Services Northern Ireland. Find out about the [methodology used](https://www.gov.uk/government/publications/about-the-uk-house-price-index/quality-and-methodology#methods-used-to-produce-the-uk-hpi) to create the UK HPI.\n\nData for the UK House Price Index is provided by HM Land Registry, Registers of Scotland, The Land & Property Services Northern Ireland Statistics & Research Agency and the Valuation Office Agency. Find out more [about the UK House Price Index](https://www.gov.uk/government/publications/about-the-uk-house-price-index).",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": true,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "frequency": "annual",
+        "frequency": "monthly",
         "periodFormat": "year",
-        "measure": "Percentage",
-        "unit": "%"
+        "measure": "Pounds",
+        "unit": "£"
       }
     ]
   }
