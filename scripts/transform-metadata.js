@@ -39,7 +39,6 @@ function isMultivariate(rows, cols) {
 function hasTimeseries(rows, cols) {
   const periodCol = cols.find(col => col.name === "period");
   const uniquePeriods = new Set(rows.map(row => row[periodCol.titles[0]]));
-  console.log(uniquePeriods);
   return uniquePeriods.size > 1;
 }
 
