@@ -36,6 +36,12 @@ function isMultivariate(rows, cols) {
   return false;
 }
 
+function hasTimeseries(rows, cols) {
+  const periodCol = cols.find(col => col.name === "period");
+  const uniquePeriods = new Set(rows.map(row => row[periodCol.titles[0]]))
+  return uniquePeriods.size > 1;
+}
+
 async function makeBaseMetadata(meta, data, cols) {
   const shared = meta?.shared || meta;
   const sourceOrg = shared.sourceOrg.split("|");
@@ -89,7 +95,8 @@ function makeIndicators(ds, meta, data, cols) {
       caveats: base.caveats,
       // The below are calculated from the columns and values in the CSV
       isMultivariate: isMultivariate(rows, cols),
-      confidenceIntervals: cols.find(col => col.name === "lci") ? true : false,
+      hasTimeseries: hasTimeseries(rows, cols),
+      confidenceIntervals: cols.find(col => col.name === "lci_95") ? true : false,
       canBeNegative: rows.map(d => d[valueCol.titles[0]]).sort((a, b) => a - b)[0] < 0
     };
 
