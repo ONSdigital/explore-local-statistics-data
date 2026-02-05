@@ -5,18 +5,24 @@ export function stripBom(str) {
   return str;
 }
 
+// A modified version of
+// https://github.com/d3/d3-dsv/blob/main/src/autoType.js
+// that always leaves dates as strings.
+export function autoTypeWithoutDates(object) {
+	for (const key in object) {
+		const value = object[key].trim();
+		if (!value) object[key] = null;
+		else if (value.toLowerCase() === 'true') object[key] = true;
+		else if (value.toLowerCase() === 'false') object[key] = false;
+		else if (value === 'NaN') object[key] = NaN;
+		else if (!isNaN(+value)) object[key] = +value;
+	}
+	return object;
+}
+
 export function reverseDate(str) {
   return str.split("/").reverse().join("-");
 }
-
-// export function slugifyCode(str) {
-//   return str.toLowerCase()
-//     .replace(/\(.*?\)/g, "") // Remove anything in parentheses
-//     .replace(/[\u0300-\u036f]/g, "") // Strip accents etc from letters
-//     .replace(/[^a-z0-9\s\-_]/g, "") // Remove non-alphanumeric characters
-//     .trim()
-//     .replace(/[\s-_]+/g, "-"); // Replace strings of spaces/hypens/underscores with a single hyphen
-// }
 
 export function titleFromSlug(str) {
   str = str.replaceAll("-", " ");

@@ -1,7 +1,7 @@
 import { existsSync, readdirSync, readFileSync, writeFileSync, statSync } from "fs";
 import { execSync } from "child_process";
-import { csvParse, autoType } from "d3-dsv";
-import { reverseDate, stripBom, titleFromSlug } from "./utils.js";
+import { csvParse } from "d3-dsv";
+import { reverseDate, stripBom, titleFromSlug, autoTypeWithoutDates } from "./utils.js";
 import { skipDatasets, colLookup } from "./config.js";
 import inferGeos from "./infer-geos.js";
 import inferPeriodFormat from "./infer-period-format.js";
@@ -38,7 +38,8 @@ function isMultivariate(rows, cols) {
 
 function hasTimeseries(rows, cols) {
   const periodCol = cols.find(col => col.name === "period");
-  const uniquePeriods = new Set(rows.map(row => row[periodCol.titles[0]]))
+  const uniquePeriods = new Set(rows.map(row => row[periodCol.titles[0]]));
+  console.log(uniquePeriods);
   return uniquePeriods.size > 1;
 }
 
@@ -144,7 +145,7 @@ for (const ds of datasets) {
 
   const data = csvParse(
     stripBom(readFileSync(dataPath, { encoding: "utf-8" })),
-    autoType
+    autoTypeWithoutDates
   );
   const meta = JSON.parse(readFileSync(metaPath, { encoding: "utf-8" }));
   const modifedDate = execSync(`git log -1 --pretty="format:%cs" ${dataPath}`, { encoding: "utf-8" });
