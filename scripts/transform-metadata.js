@@ -45,8 +45,8 @@ function hasTimeseries(rows, cols) {
 function hasIntervals(rows, cols) {
   const intervalCol = cols.find(col => col.name === "lci_95");
   if (!intervalCol) return false;
-  const uniqueValues = new Set(rows.map(row => row[intervalCol.titles[0]]));
-  return uniqueValues.size < 2;
+  const uniqueValues = rows.map(row => row[intervalCol.titles[0]]).filter(val => val);
+  return uniqueValues.length > 1;
 }
 
 async function makeBaseMetadata(meta, data, cols) {
