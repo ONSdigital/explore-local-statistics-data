@@ -187,7 +187,7 @@
         "caveats": "These figures are based on meter level electricity consumption data.\n\nElectricity consumption estimates for Great Britain cover the months February to January. For example, 2024 relates to the period February 2024 to January 2025. Electricity meters with a profile class of 1 or 2 are classified as domestic meters.\n\nElectricity consumption estimates for Northern Ireland refer to financial years (1 April – 31 March). For example, 2024 relates to the period 1 April 2024 to 31 March 2025. Northern Ireland local government district figures are only available from 2015 onwards. Electricity meters are classified as domestic meters based on their tariff type.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

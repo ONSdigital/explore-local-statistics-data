@@ -174,7 +174,7 @@
         "caveats": "Participation is the count of learners that participated at any point during the stated academic period. Learners undertaking more than one course will be counted only once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

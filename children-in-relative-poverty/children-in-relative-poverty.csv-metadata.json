@@ -180,7 +180,7 @@
         "caveats": "Relative low income is defined as a family in low income Before Housing Costs (BHC) in the reference year. A family must have claimed Child Benefit and at least one other household benefit (Universal Credit, tax credits, or Housing Benefit) at any point in the year to be classed as low income in these statistics.\n\nRates have been derived by dividing the number of children aged 0 to 15 in low income families by the number of all children aged 0-15 (sourced from latest available mid-year population estimates at the time of publication).",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

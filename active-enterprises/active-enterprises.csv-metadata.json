@@ -188,7 +188,7 @@
         "caveats": "The starting point for demography is the concept of a population of active businesses in a reference year (t). These are defined as businesses that had either turnover or employment at any time during the reference period. Some of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

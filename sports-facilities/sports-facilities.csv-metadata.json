@@ -173,7 +173,7 @@
         "caveats": "Per capita estimates are calculated using the usual resident population estimates from the most recent Census.\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "hasTimeseries": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

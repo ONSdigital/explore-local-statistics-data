@@ -10,7 +10,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "HM Land Registry",
   "dc:issued": "2026-01-21",
-  "dc:modified": "2026-02-05",
+  "dc:modified": "2026-01-27",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -186,7 +186,7 @@
         "caveats": "For the UK House Price Index (UK HPI), the standard average house price is calculated by taking the average (geometric mean) price in January 2015 and then recalculating it in accordance with the index change back in time and forward to the present day. The geometric mean reduces the weighting given to high value properties when compared to the arithmetic mean and is typically lower, usually closer to that of the median.\n\nEstimates for the most recent months are provisional and are likely to be updated as more data is incorporated into the index. Read [Revisions to the UK HPI data](https://www.gov.uk/government/publications/about-the-uk-house-price-index/about-the-uk-house-price-index#monthly-revision).\n\nThe UK House Price Index (UK HPI) is calculated by the Office for National Statistics and Land & Property Services Northern Ireland. Find out about the [methodology used](https://www.gov.uk/government/publications/about-the-uk-house-price-index/quality-and-methodology#methods-used-to-produce-the-uk-hpi) to create the UK HPI.\n\nData for the UK House Price Index is provided by HM Land Registry, Registers of Scotland, The Land & Property Services Northern Ireland Statistics & Research Agency and the Valuation Office Agency. Find out more [about the UK House Price Index](https://www.gov.uk/government/publications/about-the-uk-house-price-index).",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "monthly",

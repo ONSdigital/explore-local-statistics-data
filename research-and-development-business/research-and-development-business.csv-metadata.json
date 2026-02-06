@@ -172,7 +172,7 @@
         "caveats": "Statistics presented are compiled in line with internationally-agreed best practice as defined in the Frascati Manual 2015 by the [Organisation for Economic Co-operation and Development](https://www.oecd.org/publications/frascati-manual-2015-9789264239012-en.htm).\n\nRegional estimates are compiled based on a combination of larger businesses reporting their R&D performing locations and smaller businesses having their data allocated to the location of their main business address held on the inter-departmental business register.\n\nEstimates produced at disaggregate levels such as region, product group and SIC may in some cases be subject to a high level of variability from year to year. This may be due to industry reclassification of some businesses and sampling variability.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

@@ -186,7 +186,7 @@
         "caveats": "Some of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "hasTimeseries": false,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

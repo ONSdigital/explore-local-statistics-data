@@ -187,7 +187,7 @@
         "caveats": "Analysis uses data from online collaborative economy platforms Airbnb, Booking.com and Expedia Group. \n\nAverage length of stay is calculated by dividing the number of nights by the number of stays. \n\nThe data have a strong seasonal trend. Therefore, changes over time should generally be compared year-on-year, rather than month-on-month or quarter-on-quarter. \n\nWhile these statistics are believed to cover a large proportion of short-term lets activity in the UK, they do not cover all activity, as data from other providers and platforms are not included.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "quarterly",

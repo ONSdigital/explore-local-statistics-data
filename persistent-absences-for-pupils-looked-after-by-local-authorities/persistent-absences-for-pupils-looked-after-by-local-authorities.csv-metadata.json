@@ -171,7 +171,7 @@
         "caveats": "For the looked after children, absence data is matched to school census data for each school type, meaning that the pupils included are those on the school census with absence data. Persistent absence figures for all pupils and free school meals (FSM) are taken from the national absence figures and are produced using a different methodology based on enrolments and the school type is allocated in a different way so it is not appropriate to compare these figures with those for looked after children.\n\nData for 2019/20 is unavailable because, due to the pandemic, only autumn term 2019 absence data was collected, resulting in an incomplete year of data.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",

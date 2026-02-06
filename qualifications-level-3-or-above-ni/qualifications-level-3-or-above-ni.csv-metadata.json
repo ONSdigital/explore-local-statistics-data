@@ -166,7 +166,7 @@
         "caveats": "Updates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2026.",
         "isMultivariate": false,
         "hasTimeseries": true,
-        "confidenceIntervals": true,
+        "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
         "frequency": "annual",
