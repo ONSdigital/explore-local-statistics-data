@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 05/02/2026 at 08:30",
+
+  "ess-beta-metadata": {
+    "experimentalStatistic": "F",
+    "sourceDate": "26/09/2025",
+    "sourceURL": "https://www.nomisweb.co.uk/datasets/pestsyoala",
+    "sourceOrg": "Office for National Statistics",
+    "label": "Population by age and sex",
+    "prefix": null,
+    "suffix": "%",
+    "subText": null,
+    "decimalPlaces": 1,
+    "standardised": "T",
+    "subtitle": "Percentage of the total population by sex and five-year age band",
+    "longDescription": "This indicator shows the percentage distribution of the total population by sex and five‑year age bands, in the United Kingdom, for 1991 to 2024.",
+    "caveats": "Ages 85 and over are combined into a single category.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS."
+  }
+}
