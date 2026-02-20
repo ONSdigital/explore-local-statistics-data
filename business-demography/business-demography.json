@@ -4,18 +4,29 @@
     "ess-beta-metadata": {
       "shared": {
         "prefix": null,
-        "suffix": "%",
-        "subText": null,
-        "decimalPlaces": 1,
         "experimentalStatistic": "F",
         "sourceDate": "20/11/2025",
         "sourceURL": "https://www.ons.gov.uk/businessindustryandtrade/business/activitysizeandlocation/bulletins/businessdemography/previousreleases",
-        "sourceOrg": "Office for National Statistics",
-        "standardised": "T"
+        "sourceOrg": "Office for National Statistics"
       },
   
+      "Active businesses": {
+        "label": "Active businesses",
+        "suffix": null,
+        "subText": "number of enterprises",
+        "decimalPlaces": 0,
+        "standardised": "F",
+        "subtitle": "Businesses with turnover or employment in current year",
+        "longDescription": "This indicator shows the count of active businesses, in the UK, for 2019 to 2024.",
+        "caveats": "The starting point for demography is the concept of a population of active businesses in a reference year (t). These are defined as businesses that had either turnover or employment at any time during the reference period. Some of this data has been aggregated and may show differences to other published figures."
+      },
+
       "Business births": {
         "label": "Business births",
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
         "subtitle": "Percentage of businesses newly registered for VAT and/or PAYE",
         "longDescription": "This indicator shows the business births as a percentage of all active businesses, in the UK, for 2019 to 2024.",
         "caveats": "A birth is identified as a business that was present in year t, but did not exist in year t-1 or t-2. Births are identified by making comparison of annual active population files and identifying those present in the latest file, but not the two previous ones. The birth rate is calculated using the number of births as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures."
@@ -23,6 +34,10 @@
 
       "Business deaths": {
         "label": "Business deaths",
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
         "subtitle": "Percentage of businesses ceasing activity",
         "longDescription": "This indicator shows the business deaths as a percentage of all active businesses, in the UK, for 2019 to 2024.",
         "caveats": "A death is defined as a business that was on the active file in year t, but was no longer present in the active file in t+1 and t+2. In order to provide an early estimate of deaths, an adjustment has been made to the latest two years deaths to allow for reactivations. These figures are provisional and subject to revision. The death rate is calculated using the number of deaths as a proportion of the active businesses. Some of this data has been aggregated and may show differences to other published figures."
@@ -30,9 +45,68 @@
   
       "High growth businesses": {
         "label": "High growth businesses",
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": "T",
         "subtitle": "Percentage of businesses with an average growth in employment of greater than 20% per year over a three-year period",
         "longDescription": "This indicator shows the high growth businesses as a percentage of active businesses with 10 or more employees, in the UK, for 2019 to 2024.",
         "caveats": "High growth measures all businesses with an average growth in employment of greater than 20%, per annum, over a three-year period. The size threshold used to identify these businesses is that they have 10 or more employees. The rate of high growth businesses is calculated using the number of high growth businesses as a proportion of the active businesses with 10 or more employees. Some of this data has been aggregated and may show differences to other published figures."
+      },
+
+      "One-year survival rate": {
+        "label": "One-year business survival rate",
+        "suffix": "%",
+        "decimalPlaces": 1,
+        "subText": null,
+        "standardised": "T",
+        "subtitle": "Percentage of newly born businesses that survived for one year",
+        "longDescription": "This indicator shows the one-year survival rate of UK businesses born from 2019 to 2023.",
+        "caveats": "A business is deemed to have survived for one year if it is active in terms of employment and/or turnover at any point during the year following its year of birth.\n\nThe one‑year business survival rate is calculated as the number of businesses that survive for one year as a proportion of businesses born in the start year.\n\nSome of this data has been aggregated and may show differences to other published figures."
+      },
+
+      "Two-year survival rate": {
+        "label": "Two-year business survival rate",
+        "suffix": "%",
+        "decimalPlaces": 1,
+        "subText": null,
+        "standardised": "T",
+        "subtitle": "Percentage of newly born businesses that survived for two years",
+        "longDescription": "This indicator shows the two-year survival rate of UK businesses born from 2019 to 2022.",
+        "caveats": "A business is deemed to have survived for two years if it is active in terms of employment and/or turnover at any point during the second calendar year following its year of birth.\n\nThe two‑year business survival rate is calculated as the number of businesses that survive for two years as a proportion of businesses born in the start year.\n\nSome of this data has been aggregated and may show differences to other published figures."
+      },
+
+      "Three-year survival rate": {
+        "label": "Three-year business survival rate",
+        "suffix": "%",
+        "decimalPlaces": 1,
+        "subText": null,
+        "standardised": "T",
+        "subtitle": "Percentage of newly born businesses that survived for three years",
+        "longDescription": "This indicator shows the three-year survival rate of UK businesses born from 2019 to 2021.",
+        "caveats": "A business is deemed to have survived for three years if it is active in terms of employment and/or turnover at any point during the third calendar year following its year of birth.\n\nThe three‑year business survival rate is calculated as the number of businesses that survive for three years as a proportion of businesses born in the start year.\n\nSome of this data has been aggregated and may show differences to other published figures."
+      },
+
+      "Four-year survival rate": {
+        "label": "Four-year business survival rate",
+        "suffix": "%",
+        "decimalPlaces": 1,
+        "subText": null,
+        "standardised": "T",
+        "subtitle": "Percentage of newly born businesses that survived for four years",
+        "longDescription": "This indicator shows the four-year survival rate of UK businesses born in 2019 and 2020.",
+        "caveats": "A business is deemed to have survived for four years if it is active in terms of employment and/or turnover at any point during the fourth calendar year following its year of birth.\n\nThe four‑year business survival rate is calculated as the number of businesses that survive for four years as a proportion of businesses born in the start year.\n\nSome of this data has been aggregated and may show differences to other published figures."
+      },
+
+      "Five-year survival rate": {
+        "label": "Five-year business survival rate",
+        "suffix": "%",
+        "decimalPlaces": 1,
+        "subText": null,
+        "standardised": "T",
+        "subtitle": "Percentage of newly born businesses that survived for five years",
+        "longDescription": "This indicator shows the five-year survival rate of UK businesses born in 2019.",
+        "caveats": "A business is deemed to have survived for five years if it is active in terms of employment and/or turnover at any point during the fifth calendar year following its year of birth.\n\nThe five‑year business survival rate is calculated as the number of businesses that survive for five years as a proportion of businesses born in the start year.\n\nSome of this data has been aggregated and may show differences to other published figures."
       }
   }    
 }
