@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 20/02/2026 at 10:30",
+  "_note": "This file was last modified on 23/02/2026 at 13:22",
 
     "ess-beta-metadata": {
       "shared": {
@@ -24,7 +24,7 @@
       "Greenhouse gas regulating": {
         "label": "Greenhouse gas regulating",
         "subtitle": "Estimated value of the removal of greenhouse gases from the atmosphere by natural habitats (£ millions)",
-        "longDescription": "This indicator shows the estimated value of the removal of greenhouse gases, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 1990 to 2024.",
+        "longDescription": "This indicator shows the estimated value of the removal of greenhouse gases, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 2005 to 2024.",
         "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
       },
       
