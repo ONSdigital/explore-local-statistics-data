@@ -1,0 +1,38 @@
+{
+  "_note": "This file was last modified on 23/02/2026 at 15:11",
+
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": null,
+        "suffix": null,
+        "subText": "in £ millions",
+        "decimalPlaces": 0,
+        "experimentalStatistic": "T",
+        "sourceDate": "05/12/2025",
+        "sourceURL": "https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/uknaturalcapitalaccounts/previousreleases",
+        "sourceOrg": "Office for National Statistics",
+        "standardised": "F"
+      },
+  
+      "Air pollution regulating": {
+        "label": "Air pollution regulating",
+        "subtitle": "Estimated value of pollution removal by natural habitats (£ millions)",
+        "longDescription": "This indicator shows the contribution of natural habitats in removing harmful pollutants from the atmosphere (official statistics in development), in the United Kingdom, for 2005 to 2024.",
+        "caveats": "This data includes all pollutants and all habitats.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
+        },
+ 
+      "Greenhouse gas regulating": {
+        "label": "Greenhouse gas regulating",
+        "subtitle": "Estimated value of the removal of greenhouse gases from the atmosphere by natural habitats (£ millions)",
+        "longDescription": "This indicator shows the estimated value of the removal of greenhouse gases, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 2005 to 2023.",
+        "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
+      },
+      
+      "Urban heat regulating": {
+        "label": "Urban heat regulating",
+        "subtitle": "Estimated value of cooling provided by natural habitats in urban areas (£ millions)",
+        "longDescription": "This indicator shows the estimated the value of green spaces (for example, woodlands, private gardens, parks, and grassland) and blue spaces (for example, rivers, canals, lakes and ponds) that can cool down built-up environments on hot days (official statistics in development), in Great Britain, for 1998 to 2024.",
+        "caveats": "Hot days are defined as days with a maximum temperature of 28 degrees Celsius and above.\n\nThe UK and country level values for the number of hot days are the sum of the number of hot days per local authority.\n\nThere are two parts to the calculation of annual value. The value that nature provides in work productivity savings during hot days and savings on air conditioning. The air conditioning value is based on a model from 2014 and we assume a flat time series for this contribution. When there are no hot days for a local authority, this means that the only value comes from the air conditioning value.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
+      }
+    }
+}
