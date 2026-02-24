@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 16/02/2026 at 12:08",
+    
+    "ess-beta-metadata": {
+      "label": "Housing affordability ratio (residence-based)",
+      "prefix": null,
+      "suffix": null,
+      "subText": "affordability ratio",
+      "decimalPlaces": 1,
+      "subtitle": "Ratio of median house price to median gross annual residence-based earnings",
+      "experimentalStatistic": "F",
+      "sourceDate": "24/03/2025",
+      "sourceURL": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingaffordabilityinenglandandwales/previousreleases",
+      "sourceOrg": "Office for National Statistics",
+      "longDescription": "This indicator shows the median affordability ratio calculated by dividing house sales prices by gross annual residence-based earnings, in England and Wales, for 2002 to 2024.",
+      "caveats": "A threshold of five years of earnings is used as a broad indicator of affordability.\n\nHousing affordability estimates are calculated by dividing house sales prices for an area by average earnings to create a ratio. This ratio allows comparisons between areas and over time without needing to adjust for inflation. A higher housing affordability ratio reflects a less affordable area.\n\nEarnings data are from the [Annual Survey of Hours and Earnings (ASHE)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/placeofresidencebylocalauthorityashetable8), which provides a snapshot of earnings at April in each year. Earnings relate to gross full-time individual earnings for people who live in the area, though they may work elsewhere. A snapshot of the annual earnings of all full-time employees is used, or an annualised version of the weekly estimate where annual data are not available.\n\nHouse price statistics are from [house prices for small areas](https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingaffordabilityinenglandandwales/2024/relateddata), which report the median price paid for residential property and refer to a 12 month period with April in the middle (year ending September).\n\nThe House price statistics for small areas (HPSSA) data used here are not mix adjusted, so price variations may be a combination of true price changes and differences in the mix of housing types and trends. They will therefore differ from those in the [Private rent and house prices, UK bulletins](https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/privaterentandhousepricesuk/previousreleases), which are mix adjusted and comparable over time.\n\nThese affordability ratio statistics are revised annually to reflect revisions to the house price statistics and earnings data.\n\nPlease refer to the [Housing affordability in England and Wales bulletin](https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/housingaffordabilityinenglandandwales/latest) for further information. This bulletin includes analysis of workplace‑based earnings affordability for all dwellings, which is used in England within the updated standard method for [assessing local housing need](https://www.gov.uk/guidance/housing-and-economic-development-needs-assessments).",
+      "standardised": "T"
+  }
+}
