@@ -9,8 +9,8 @@
   "dc:title": "Healthy life expectancy",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2025-01-16",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-02-19",
+  "dc:modified": "2026-02-24",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -129,19 +129,23 @@
     "source": [
       {
         "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/healthstatelifeexpectanciesuk/previousreleases#",
-        "date": "2025-01-16"
+        "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/healthstatelifeexpectanciesuk/previousreleases",
+        "date": "2026-02-19"
       }
     ],
     "experimentalStatistic": true,
     "geography": {
       "countries": [
         "E",
+        "N",
+        "S",
         "W"
       ],
       "levels": [
+        "uk",
         "ctry",
         "rgn",
+        "cauth",
         "utla",
         "ltla"
       ],
@@ -151,12 +155,17 @@
         "E09",
         "E10",
         "E12",
+        "E47",
         "E92",
+        "K02",
+        "N09",
+        "N92",
+        "S12",
+        "S92",
         "W06",
-        "W11",
         "W92"
       ],
-      "year": 2024,
+      "year": 2025,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -169,9 +178,9 @@
         "subText": "years",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Average years expected to be lived in good health for females born during year",
-        "longDescription": "This indicator shows the average years expected to be lived in good health for females born during the reference period (official statistics in development), in England and Wales, for three-year rolling periods between 2011 to 2013 and 2021 to 2023.",
-        "caveats": "Coverage is limited to England and Wales. Estimates for Scotland and Northern Ireland will be added when Scottish 2022 census health data and 2023 population estimates for Northern Irish local government districts are available.\n\nThe estimates in this indicator have been produced using an interim methodological fix. The decline in sample size of the Annual Population Survey has impaired our ability to continue using the previous method to estimate age-specific prevalence of good general health by local authority. We therefore used logistic regression to estimate good health prevalence instead of using the survey's observed prevalence. This enables continuity in local area reporting with a viable, comparable time series. ONS is currently conducting a review of data sources to assess their future potential to provide robust, reliable and durable measures of health status.",
+        "subtitle": "Average years expected to be lived in good health for females born in the given year",
+        "longDescription": "This indicator shows the average years expected to be lived in good health for females born during the reference period (official statistics in development), in the United Kingdom, for three-year rolling periods between 2011 to 2013 and 2022 to 2024.",
+        "caveats": "Healthy life expectancy is a summary measure of health that adds a quality dimension to estimates of life expectancy by dividing expected lifespan into time spent in different states of health. Healthy life expectancy measures health-related wellbeing and represents the average time an individual is expected to live in \"very good\" or \"good\" general health, based on how individuals perceive their general health.\n\nThe estimates in this indicator have been produced using an interim methodological fix. The decline in sample size of the Annual Population Survey has impaired our ability to continue using the previous method to estimate age-specific prevalence of \"good\" general health by local authority. We therefore used logistic regression to estimate \"good\" health prevalence instead of using the survey's observed prevalence. This enables continuity in local area reporting with a viable, comparable time series. ONS is currently conducting a review of data sources to assess their future potential to provide robust, reliable and durable measures of health status.\n\nFigures are based on the number of deaths registered, mid-year population estimates, and health state prevalence aggregated over three consecutive years. Figures exclude deaths of non-residents.\n\nEstimates for Isles of Scilly and City of London are excluded because of insufficient population counts.\n\nEstimates for Northern Ireland’s local government districts are available only from 2014 to 2016 onward.\n\nThese estimates of healthy life expectancy in Northern Ireland use different methods and data sources compared to those produced by the Northern Ireland Department of Health; please see their [Health inequalities annual report](https://www.health-ni.gov.uk/news/health-inequalities-annual-report-2025) for more information.\n\nMore quality and methodology information on strengths, limitations, appropriate uses, and how the data were created is available in the [Health state life expectancies, UK quality and methodology information (QMI) report](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/methodologies/healthstatelifeexpectanciesukqmi2020to2022).",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": true,
@@ -191,9 +200,9 @@
         "subText": "years",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Average years expected to be lived in good health for males born during year",
-        "longDescription": "This indicator shows the average years expected to be lived in good health for males born during the reference period (official statistics in development), in England and Wales, for three-year rolling periods between 2011 to 2013 and 2021 to 2023.",
-        "caveats": "Coverage is limited to England and Wales. Estimates for Scotland and Northern Ireland will be added when Scottish 2022 census health data and 2023 population estimates for Northern Irish local government districts are available.\n\nThe estimates in this indicator have been produced using an interim methodological fix. The decline in sample size of the Annual Population Survey has impaired our ability to continue using the previous method to estimate age-specific prevalence of good general health by local authority. We therefore used logistic regression to estimate good health prevalence instead of using the survey's observed prevalence. This enables continuity in local area reporting with a viable, comparable time series. ONS is currently conducting a review of data sources to assess their future potential to provide robust, reliable and durable measures of health status.",
+        "subtitle": "Average years expected to be lived in good health for males born in the given year",
+        "longDescription": "This indicator shows the average years expected to be lived in good health for males born during the reference period (official statistics in development), in the United Kingdom, for three-year rolling periods between 2011 to 2013 and 2022 to 2024.",
+        "caveats": "Healthy life expectancy is a summary measure of health that adds a quality dimension to estimates of life expectancy by dividing expected lifespan into time spent in different states of health. Healthy life expectancy measures health-related wellbeing and represents the average time an individual is expected to live in \"very good\" or \"good\" general health, based on how individuals perceive their general health.\n\nThe estimates in this indicator have been produced using an interim methodological fix. The decline in sample size of the Annual Population Survey has impaired our ability to continue using the previous method to estimate age-specific prevalence of \"good\" general health by local authority. We therefore used logistic regression to estimate \"good\" health prevalence instead of using the survey's observed prevalence. This enables continuity in local area reporting with a viable, comparable time series. ONS is currently conducting a review of data sources to assess their future potential to provide robust, reliable and durable measures of health status.\n\nFigures are based on the number of deaths registered, mid-year population estimates, and health state prevalence aggregated over three consecutive years. Figures exclude deaths of non-residents.\n\nEstimates for Isles of Scilly and City of London are excluded because of insufficient population counts.\n\nEstimates for Northern Ireland’s local government districts are available only from 2014 to 2016 onward.\n\nThese estimates of healthy life expectancy in Northern Ireland use different methods and data sources compared to those produced by the Northern Ireland Department of Health; please see their [Health inequalities annual report](https://www.health-ni.gov.uk/news/health-inequalities-annual-report-2025) for more information.\n\nMore quality and methodology information on strengths, limitations, appropriate uses, and how the data were created is available in the [Health state life expectancies, UK quality and methodology information (QMI) report](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/methodologies/healthstatelifeexpectanciesukqmi2020to2022).",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": true,
