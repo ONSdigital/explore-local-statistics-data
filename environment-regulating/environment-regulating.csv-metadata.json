@@ -1,0 +1,238 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "url": "environment-regulating.csv",
+  "dc:title": "Environment regulating",
+  "dc:creator": "Office for National Statistics",
+  "dc:publisher": "Office for National Statistics",
+  "dc:issued": "2025-12-05",
+  "dc:modified": "2026-03-05",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "areacd",
+        "titles": [
+          "areacd",
+          "Area code"
+        ],
+        "datatype": "string",
+        "type": "dimension",
+        "role": "geo"
+      },
+      {
+        "titles": [
+          "areanm",
+          "Area name"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "titles": [
+          "geography",
+          "Geography type"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "name": "indicator",
+        "titles": [
+          "indicator",
+          "Indicator"
+        ],
+        "datatype": "string",
+        "type": "indicator"
+      },
+      {
+        "name": "period",
+        "titles": [
+          "period",
+          "Time period"
+        ],
+        "datatype": "date",
+        "type": "dimension",
+        "role": "time"
+      },
+      {
+        "name": "value",
+        "titles": [
+          "observation",
+          "Observation value"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "measure",
+        "titles": [
+          "measure",
+          "Measure"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "unit",
+        "titles": [
+          "unit",
+          "Unit"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "lci_95",
+        "titles": [
+          "lci_95",
+          "Lower confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "uci_95",
+        "titles": [
+          "uci_95",
+          "Upper confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "status",
+        "titles": [
+          "status",
+          "Observation status"
+        ],
+        "datatype": "string",
+        "type": "status"
+      },
+      {
+        "titles": [
+          "notes",
+          "Notes"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      }
+    ]
+  },
+  "metadata": {
+    "source": [
+      {
+        "name": "Office for National Statistics",
+        "href": "https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/uknaturalcapitalaccounts/previousreleases",
+        "date": "2025-12-05"
+      }
+    ],
+    "experimentalStatistic": true,
+    "geography": {
+      "countries": [
+        "E",
+        "N",
+        "S",
+        "W"
+      ],
+      "levels": [
+        "uk",
+        "ctry",
+        "rgn",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E92",
+        "K02",
+        "K03",
+        "N09",
+        "N92",
+        "S12",
+        "S92",
+        "W06",
+        "W92"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
+    "indicators": [
+      {
+        "code": "Air pollution regulating",
+        "dataset": "environment-regulating",
+        "label": "Air pollution regulating",
+        "prefix": null,
+        "suffix": null,
+        "subText": "in £ millions, 2024 prices",
+        "decimalPlaces": 0,
+        "standardised": false,
+        "subtitle": "Estimated value of pollution removal by natural habitats (£ millions, 2024 prices)",
+        "longDescription": "This indicator shows the contribution of natural habitats in removing harmful pollutants from the atmosphere (official statistics in development), in the United Kingdom, for 2005 to 2024.",
+        "caveats": "This data includes all pollutants and all habitats.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information.",
+        "isMultivariate": false,
+        "hasTimeseries": true,
+        "confidenceIntervals": false,
+        "canBeNegative": false,
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
+        "measure": "Pounds",
+        "unit": "£ million"
+      },
+      {
+        "code": "Greenhouse gas regulating",
+        "dataset": "environment-regulating",
+        "label": "Greenhouse gas regulating",
+        "prefix": null,
+        "suffix": null,
+        "subText": "in £ millions, 2024 prices",
+        "decimalPlaces": 0,
+        "standardised": false,
+        "subtitle": "Estimated value of the net greenhouse gases removed from the atmosphere or emitted by natural habitats (£ million, 2024 prices)",
+        "longDescription": "This indicator shows the estimated value of the removal of greenhouse gases, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 2005 to 2023.",
+        "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information.",
+        "isMultivariate": false,
+        "hasTimeseries": true,
+        "confidenceIntervals": false,
+        "canBeNegative": true,
+        "zeroBaseline": false,
+        "frequency": "annual",
+        "periodFormat": "year",
+        "measure": "Pounds",
+        "unit": "£ million"
+      },
+      {
+        "code": "Urban heat regulating",
+        "dataset": "environment-regulating",
+        "label": "Urban heat regulating",
+        "prefix": null,
+        "suffix": null,
+        "subText": "in £ millions, 2024 prices",
+        "decimalPlaces": 0,
+        "standardised": false,
+        "subtitle": "Estimated value of cooling provided by natural habitats in urban areas (£ millions, 2024 prices)",
+        "longDescription": "This indicator shows the estimated the value of green spaces (for example, woodlands, private gardens, parks, and grassland) and blue spaces (for example, rivers, canals, lakes and ponds) that can cool down built-up environments on hot days (official statistics in development), in Great Britain, for 1998 to 2024.",
+        "caveats": "Hot days are defined as days with a maximum temperature of 28 degrees Celsius and above.\n\nThe UK and country level values for the number of hot days are the sum of the number of hot days per local authority.\n\nThere are two parts to the calculation of annual value. The value that nature provides in work productivity savings during hot days and savings on air conditioning. The air conditioning value is based on a model from 2014 and we assume a flat time series for this contribution. When there are no hot days for a local authority, this means that the only value comes from the air conditioning value.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information.",
+        "isMultivariate": false,
+        "hasTimeseries": true,
+        "confidenceIntervals": false,
+        "canBeNegative": false,
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
+        "measure": "Pounds",
+        "unit": "£ million"
+      }
+    ]
+  }
+}
