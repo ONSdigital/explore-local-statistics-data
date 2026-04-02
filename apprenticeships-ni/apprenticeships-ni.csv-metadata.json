@@ -9,8 +9,8 @@
   "dc:title": "Apprenticeships ni",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for the Economy (Northern Ireland) ApprenticeshipsNI, Further Education colleges and CAFRE, Higher Education Institutions",
-  "dc:issued": "2025-06-12",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-04-01",
+  "dc:modified": "2026-04-02",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -130,17 +130,17 @@
       {
         "name": "Department for the Economy (Northern Ireland) ApprenticeshipsNI",
         "href": "https://www.economy-ni.gov.uk/publications/apprenticeshipsni-ad-hoc-tables",
-        "date": "2025-06-12"
+        "date": "2026-04-01"
       },
       {
         "name": "Further Education colleges and CAFRE",
         "href": "https://www.economy-ni.gov.uk/publications/higher-level-apprenticeships-further-education-academic-year-202324",
-        "date": "2025-01-31"
+        "date": "2026-01-15"
       },
       {
         "name": "Higher Education Institutions",
         "href": "https://www.economy-ni.gov.uk/articles/higher-level-apprenticeships-northern-ireland-heis-statistical-fact-sheets",
-        "date": "2025-05-28"
+        "date": "2026-03-27"
       }
     ],
     "experimentalStatistic": false,
@@ -172,8 +172,8 @@
         "decimalPlaces": 0,
         "standardised": true,
         "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
-        "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Northern Ireland, for full academic years 2019/20 to 2022/23",
-        "caveats": "Starts refer to the number of participants who are in the first year of an apprenticeship programme.\n\nData relate to participants who have been on their course 28 days or more.\n\nGeography is based upon the home postcode of the learner.\n\nApprenticeshipsNI includes levels 2 and 3.\n\nHigher Level Apprenticeships (HLA) at further education (FE) colleges in Northern Ireland and the College of Agriculture, Food and Rural Enterprise (CAFRE) includes levels 4, 5 and 6.\n\nHLA at Higher Education Institutions (HEIs) in Northern Ireland includes levels 6 and 7.\n\n[2023 mid-year population estimates for Northern Ireland](https://www.nisra.gov.uk/publications/2023-mid-year-population-estimates-northern-ireland-and-estimates-population-aged-85) have been used to create a rate per 100,000 population.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
+        "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Northern Ireland, for full academic years 2019/20 to 2023/24",
+        "caveats": "Starts refer to the number of participants who are in the first year of an apprenticeship programme.\n\nData relate to participants who have been on their course 28 days or more.\n\nGeography is based upon the home postcode of the learner.\n\nApprenticeshipsNI includes levels 2 and 3.\n\nHigher Level Apprenticeships (HLA) at further education (FE) colleges in Northern Ireland and the College of Agriculture, Food and Rural Enterprise (CAFRE) includes levels 4, 5 and 6.\n\nHLA at Higher Education Institutions (HEIs) in Northern Ireland includes levels 6 and 7.\n\n[2024 mid-year population estimates for Northern Ireland](https://www.nisra.gov.uk/publications/2024-mid-year-population-estimates-northern-ireland-and-estimates-population-aged-85) have been used to create a rate per 100,000 population.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
