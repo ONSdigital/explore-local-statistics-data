@@ -1,12 +1,12 @@
 {
-  "_note": "This file was last modified on 05/03/2026 at 07:54",
+  "_note": "This file was last modified on 24/03/2026 at 10:57",
 
     "ess-beta-metadata": {
       "shared": {
         "prefix": null,
         "suffix": null,
         "subText": "in £ millions, 2024 prices",
-        "decimalPlaces": 0,
+        "decimalPlaces": 1,
         "experimentalStatistic": "T",
         "sourceDate": "05/12/2025",
         "sourceURL": "https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/uknaturalcapitalaccounts/previousreleases",
@@ -32,7 +32,7 @@
         "label": "Urban heat regulating",
         "subtitle": "Estimated value of cooling provided by natural habitats in urban areas (£ millions, 2024 prices)",
         "longDescription": "This indicator shows the estimated the value of green spaces (for example, woodlands, private gardens, parks, and grassland) and blue spaces (for example, rivers, canals, lakes and ponds) that can cool down built-up environments on hot days (official statistics in development), in Great Britain, for 1998 to 2024.",
-        "caveats": "Hot days are defined as days with a maximum temperature of 28 degrees Celsius and above.\n\nThe UK and country level values for the number of hot days are the sum of the number of hot days per local authority.\n\nThere are two parts to the calculation of annual value. The value that nature provides in work productivity savings during hot days and savings on air conditioning. The air conditioning value is based on a model from 2014 and we assume a flat time series for this contribution. When there are no hot days for a local authority, this means that the only value comes from the air conditioning value.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
+        "caveats": "Hot days are defined as days with a maximum temperature of 28 degrees Celsius and above.\n\nThe UK and country level values for the number of hot days are the sum of the number of hot days per local authority.\n\nThere are two parts to the calculation of annual value. The value that nature provides in work productivity savings during hot days and savings on air conditioning. The air conditioning value is based on a model from 2014 and we assume a flat time series for this contribution. When there are no hot days for a local authority, this means that the only value comes from the air conditioning value.\n\nThese values have been rounded to 1 decimal place. Some Local Authorities with 0 values may have an annual and asset value that are hidden by being rounded to 1 decimal place. Please view the Natural Capital Accounts [Detailed Summary Tables](https://www.ons.gov.uk/economy/environmentalaccounts/datasets/uknaturalcapitalaccountsdetailedsummarytables) for the full details.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
       }
     }
 }
