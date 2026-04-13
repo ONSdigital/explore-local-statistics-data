@@ -10,7 +10,7 @@
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
   "dc:issued": "2025-09-26",
-  "dc:modified": "2026-01-12",
+  "dc:modified": "2026-04-13",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -406,7 +406,7 @@
         "canBeNegative": true,
         "zeroBaseline": false,
         "frequency": "annual",
-        "periodFormat": "5-year",
+        "periodFormat": "year",
         "measure": "Percentage",
         "unit": "%"
       },
