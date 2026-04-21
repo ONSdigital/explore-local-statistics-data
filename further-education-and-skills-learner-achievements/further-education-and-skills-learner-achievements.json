@@ -1,19 +1,19 @@
 {
-  "_note": "This file was last modified on 01/10/2025 at 15:05",
+  "_note": "This file was last modified on 21/04/2026 at 14:30",
 
     "ess-beta-metadata": {
       "label": "Further education and skills learner achievements",
       "prefix": null,
       "suffix": null,
-      "subText": "number of learners",
+      "subText": "per 100,000 population",
       "decimalPlaces": 0,
-      "subtitle": "Count of learners aged 19 years and over achieving a funded further education and skills learning aim (with the exception of community learning and non-regulated Multiply aims)",
+      "subtitle": "People aged 19 and over achieving a funded further education and skills learning aim, per 100,000 people",
       "experimentalStatistic": "F",
-      "sourceDate": "30/01/2025",
-      "sourceURL": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills/2023-24",
+      "sourceDate": "27/11/2025",
+      "sourceURL": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills",
       "sourceOrg": "Department for Education",
-      "longDescription": "This indicator shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, non-qualification parts of the Multiply programme and bootcamps, in England, for academic years 2018/19 to 2023/24.",
-      "caveats": null,
-      "standardised": "F"
+      "longDescription": "This indicator shows the rate per 100,000 population of learners aged 19 years and over who successfully completed at least one education and training or apprenticeship learning aim, in England, for full academic years 2020/21 to 2024/25.",
+      "caveats": "Total achievements are the count of learners that achieved at any point during the stated academic period. Learners achieving more than one course will appear only once in the grand total.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nAs of April 2026, please note that this indicator previously excluded community learning and non‑regulated Multiply aims. These are now included following the discontinuation of the previously used data source.",
+      "standardised": "T"
   }    
 }
