@@ -9,8 +9,8 @@
   "dc:title": "Gcses in english and maths",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Education",
-  "dc:issued": "2025-04-24",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-04-23",
+  "dc:modified": "2026-04-28",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -130,7 +130,7 @@
       {
         "name": "Department for Education",
         "href": "https://explore-education-statistics.service.gov.uk/find-statistics/level-2-and-3-attainment-by-young-people-aged-19",
-        "date": "2025-04-24"
+        "date": "2026-04-23"
       }
     ],
     "experimentalStatistic": false,
@@ -169,8 +169,8 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of people achieving GCSEs in both subjects by age 19",
-        "longDescription": "This indicator shows GCSEs (and equivalent) in English and maths by age 19, in England, for academic years 2016/17 to 2023/24.",
-        "caveats": "Some of this data has been aggregated and may show differences to other published figures.\n\nAssignment to a local authority is based on the school attended in the academic year the young person turned 16.",
+        "longDescription": "This indicator shows GCSEs (and equivalent) in English and maths by age 19, in England, for academic years 2016/17 to 2024/25.",
+        "caveats": "All geography breakdowns are based on the school location of the young person at age 15 (year 11) and include only those educated in the state-funded sector.\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
