@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 02/10/2025 at 11:22",
+  "_note": "This file was last modified on 11/05/2026 at 12:10",
     
     "ess-beta-metadata": {
         "label": "Adult obesity prevalence",
@@ -9,11 +9,11 @@
         "decimalPlaces": 1,
         "subtitle": "Percentage of adults aged 18 and over classified as living with obesity",
         "experimentalStatistic": "F",
-        "sourceDate": "07/05/2025",
+        "sourceDate": "06/05/2026",
         "sourceURL": "https://fingertips.phe.org.uk/profile/obesity-physical-activity-nutrition/data#page/1/gid/1938133368/pat/159/par/K02000001/ati/15/are/E92000001/yrr/1/cid/4/tbm/1",
         "sourceOrg": "Office for Health Improvement and Disparities",
-        "longDescription": "This indicator shows the percentage of adults aged 18 and over classified as living with obesity, in England, for 16/11/2015-15/11/2016 to 16/11/2023-15/11/2024.",
-        "caveats": "Adults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m².",
+        "longDescription": "This indicator shows the percentage of adults aged 18 and over classified as living with obesity, in England, for 16/11/2015-15/11/2016 to 16/11/2024-15/11/2025.",
+        "caveats": "Adults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m².\n\nData is based on [Active Lives Adult Survey (ALAS)](https://www.sportengland.org/research-and-data/data/active-lives) from Sport England. The survey provides self-reported height and weight, which can be used to produce BMI estimates. The data collected also allows for adjustments to be applied to the self-reported height and weight measurements at an individual level to give likely actual height and weight. Please see [Indicator Definitions and Supporting Information](https://fingertips.phe.org.uk/profile/obesity-physical-activity-nutrition/data#page/6/gid/1938133368/pat/159/par/K02000001/ati/15/are/E92000001/iid/93881/age/168/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1) for further details.",
         "standardised": "T"
     }
 }
