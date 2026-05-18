@@ -9,8 +9,8 @@
   "dc:title": "Adult obesity prevalence",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for Health Improvement and Disparities",
-  "dc:issued": "2025-05-07",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-05-06",
+  "dc:modified": "2026-05-18",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -130,7 +130,7 @@
       {
         "name": "Office for Health Improvement and Disparities",
         "href": "https://fingertips.phe.org.uk/profile/obesity-physical-activity-nutrition/data#page/1/gid/1938133368/pat/159/par/K02000001/ati/15/are/E92000001/yrr/1/cid/4/tbm/1",
-        "date": "2025-05-07"
+        "date": "2026-05-06"
       }
     ],
     "experimentalStatistic": false,
@@ -169,8 +169,8 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of adults aged 18 and over classified as living with obesity",
-        "longDescription": "This indicator shows the percentage of adults aged 18 and over classified as living with obesity, in England, for 16/11/2015-15/11/2016 to 16/11/2023-15/11/2024.",
-        "caveats": "Adults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m².",
+        "longDescription": "This indicator shows the percentage of adults aged 18 and over classified as living with obesity, in England, for 16/11/2015-15/11/2016 to 16/11/2024-15/11/2025.",
+        "caveats": "Adults are defined as living with obesity if their body mass index (BMI) is greater than or equal to 30kg/m².\n\nData is based on [Active Lives Adult Survey (ALAS)](https://www.sportengland.org/research-and-data/data/active-lives) from Sport England. The survey provides self-reported height and weight, which can be used to produce BMI estimates. The data collected also allows for adjustments to be applied to the self-reported height and weight measurements at an individual level to give likely actual height and weight. Please see [Indicator Definitions and Supporting Information](https://fingertips.phe.org.uk/profile/obesity-physical-activity-nutrition/data#page/6/gid/1938133368/pat/159/par/K02000001/ati/15/are/E92000001/iid/93881/age/168/sex/4/cat/-1/ctp/-1/yrr/1/cid/4/tbm/1) for further details.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": true,
