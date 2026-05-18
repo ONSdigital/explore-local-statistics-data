@@ -9,8 +9,8 @@
   "dc:title": "Further education and skills learner achievements",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Department for Education",
-  "dc:issued": "2025-01-30",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2025-11-27",
+  "dc:modified": "2026-05-18",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -129,8 +129,8 @@
     "source": [
       {
         "name": "Department for Education",
-        "href": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills/2023-24",
-        "date": "2025-01-30"
+        "href": "https://explore-education-statistics.service.gov.uk/find-statistics/further-education-and-skills",
+        "date": "2025-11-27"
       }
     ],
     "experimentalStatistic": false,
@@ -140,18 +140,23 @@
       ],
       "levels": [
         "ctry",
+        "rgn",
+        "cauth",
         "utla",
         "ltla"
       ],
       "types": [
         "E06",
+        "E07",
         "E08",
         "E09",
         "E10",
-        "E92",
-        "K99"
+        "E12",
+        "E47",
+        "E61",
+        "E92"
       ],
-      "year": 2024,
+      "year": 2020,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -161,12 +166,12 @@
         "label": "Further education and skills learner achievements",
         "prefix": null,
         "suffix": null,
-        "subText": "number of learners",
+        "subText": "per 100,000 population",
         "decimalPlaces": 0,
-        "standardised": false,
-        "subtitle": "Count of learners aged 19 years and over achieving a funded further education and skills learning aim (with the exception of community learning and non-regulated Multiply aims)",
-        "longDescription": "This indicator shows the count of learners achieving a funded further education and skills learning aim, with the exception of community learning, non-qualification parts of the Multiply programme and bootcamps, in England, for academic years 2018/19 to 2023/24.",
-        "caveats": null,
+        "standardised": true,
+        "subtitle": "People aged 19 and over achieving a funded further education and skills learning aim, per 100,000 people",
+        "longDescription": "This indicator shows the rate per 100,000 population of learners aged 19 years and over who successfully completed at least one education and training or apprenticeship learning aim, in England, for full academic years 2019/20 to 2024/25.",
+        "caveats": "Total achievements are the count of learners that achieved at any point during the stated academic period. Learners achieving more than one course will appear only once in the grand total.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nAs of April 2026, please note that this indicator previously excluded community learning and non‑regulated Multiply aims. These are now included following the discontinuation of the previously used data source.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
@@ -174,8 +179,8 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "academic-year",
-        "measure": "Achievements gained",
-        "unit": "Number"
+        "measure": "Rate per 100,000 population",
+        "unit": "Rate per 100,000 population"
       }
     ]
   }
