@@ -7,9 +7,7 @@
     "decimalPlaces": 1,
     "experimentalStatistic": "T",
     "sourceDate": "19/06/2025",
-    "sourceURL": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivityindicesbylocalauthoritydistrict/current/labourproductivitylocalauthorities.xls",
-                  "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivitygvaperhourworkedandgvaperfilledjobindicesbyuknuts2andnuts3subregions/current/labourproductivityitls.xls",
-                  "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivityindicesbycombinedauthoritiesandeconomicenterpriseregions/current/labourproductivitycaeer1.xls",
+    "sourceURL": "https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/regionalandsubregionallabourproductivityuk/previousreleases",
     "sourceOrg": "Office for National Statistics",
     "caveats": null,
     "standardised": "T"
