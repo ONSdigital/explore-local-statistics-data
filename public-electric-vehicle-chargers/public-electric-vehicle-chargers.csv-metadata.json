@@ -5,11 +5,11 @@
       "@language": "en"
     }
   ],
-  "url": "gigabit-capable-broadband.csv",
-  "dc:title": "Gigabit capable broadband",
+  "url": "public-electric-vehicle-chargers.csv",
+  "dc:title": "Public electric vehicle chargers",
   "dc:creator": "Office for National Statistics",
-  "dc:publisher": "Ofcom",
-  "dc:issued": "2026-05-13",
+  "dc:publisher": "Department for Transport, sourced from Zapmap",
+  "dc:issued": "2026-05-21",
   "dc:modified": "2026-05-29",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
@@ -128,12 +128,12 @@
   "metadata": {
     "source": [
       {
-        "name": "Ofcom",
-        "href": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/infrastructure-research",
-        "date": "2026-05-13"
+        "name": "Department for Transport, sourced from Zapmap",
+        "href": "https://www.gov.uk/government/collections/electric-vehicle-charging-infrastructure-statistics",
+        "date": "2026-05-21"
       }
     ],
-    "experimentalStatistic": false,
+    "experimentalStatistic": true,
     "geography": {
       "countries": [
         "E",
@@ -173,26 +173,26 @@
     },
     "indicators": [
       {
-        "code": "Gigabit capable broadband",
-        "dataset": "gigabit-capable-broadband",
-        "label": "Gigabit capable broadband",
+        "code": "Public electric vehicle chargers",
+        "dataset": "public-electric-vehicle-chargers",
+        "label": "Public electric vehicle chargers",
         "prefix": null,
-        "suffix": "%",
-        "subText": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
         "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more)",
-        "longDescription": "This indicator shows the percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), in the UK, as of January 2026.",
-        "caveats": "Some of this data has been aggregated and may show differences to other published figures.",
+        "subtitle": "Publicly available electric vehicle chargers at all speeds per 100,000 people",
+        "longDescription": "This indicator shows publicly available electric vehicle chargers at all speeds per 100,000 population (official statistics in development), in the UK, as of 00:00 on the first day of each quarter from January 2026 to April 2026.",
+        "caveats": "This indicator previously reported the number of publicly available electric vehicle (EV) charging devices. As of May 2026, it focuses on publicly available EV chargers, representing an improvement from measuring the number of devices which can be charged at to the number of vehicles which can be charged. Reporting chargers provides a more representative estimate of the UK’s public EV charging infrastructure and aligns with wider international practice.\n\nData are provided by individual charge point operators (CPOs) as set out in the [Public Charge Point Regulations 2023 guidance](https://www.gov.uk/government/publications/the-public-charge-point-regulations-2023-guidance/public-charge-point-regulations-2023-guidance) and collated by Zapmap for use by the Department for Transport (DfT).\n\nThe data represent the number of chargers reported as operational at 00:00 on the first day of each quarter.\n\nThere are instances where the published number of public EV chargers in a local authority goes down from one statistical publication to the next, or where a local increase is followed shortly by a decrease of a similar magnitude. This can be caused by quality revisions from an individual CPO and does not necessarily represent a real reduction in the availability of public EV charging infrastructure in the area. This can also happen if a CPO installs new chargers to replace old chargers which are decommissioned gradually over time.\n\nPopulation estimates used to calculate the per 100,000 population figures were sourced from the Office for National Statistics Mid-Year Estimates 2024.\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
-        "hasTimeseries": false,
+        "hasTimeseries": true,
         "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "frequency": "annual",
-        "periodFormat": "year",
-        "measure": "Percentage",
-        "unit": "%"
+        "frequency": "quarterly",
+        "periodFormat": "month",
+        "measure": "Rate per 100,000 population",
+        "unit": "Rate per 100,000 population"
       }
     ]
   }

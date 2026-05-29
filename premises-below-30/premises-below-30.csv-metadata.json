@@ -9,8 +9,8 @@
   "dc:title": "Premises below 30",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Ofcom",
-  "dc:issued": "2025-11-19",
-  "dc:modified": "2026-01-14",
+  "dc:issued": "2026-05-13",
+  "dc:modified": "2026-05-29",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -129,8 +129,8 @@
     "source": [
       {
         "name": "Ofcom",
-        "href": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/connected-nations-20252",
-        "date": "2025-11-19"
+        "href": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/infrastructure-research",
+        "date": "2026-05-13"
       }
     ],
     "experimentalStatistic": false,
@@ -168,7 +168,7 @@
         "W06",
         "W92"
       ],
-      "year": 2024,
+      "year": 2025,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -182,7 +182,7 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of premises that do not have access to services above 30Mbps",
-        "longDescription": "This dataset shows the percentage of premises that do not have access to services above 30Mbps, UK, as of July 2025.",
+        "longDescription": "This dataset shows the percentage of premises that do not have access to services above 30Mbps, UK, as of January 2026.",
         "caveats": "Some of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "hasTimeseries": false,
