@@ -1,12 +1,12 @@
 {
-  "_note": "This file was last modified on 10/06/2026 at 11:38",
+  "_note": "This file was last modified on 11/06/2026 at 09:32",
     
     "ess-beta-metadata": {
       "label": "Motor vehicle flow",
       "prefix": null,
       "suffix": null,
       "subText": "annual average daily flow",
-      "decimalPlaces": 1,
+      "decimalPlaces": 0,
       "subtitle": "Annual Average Daily Flow (AADF)",
       "experimentalStatistic": "F",
       "sourceDate": "20/05/2026",
