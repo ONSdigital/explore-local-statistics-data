@@ -1,0 +1,225 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "url": "gross-value-added.csv",
+  "dc:title": "Gross value added",
+  "dc:creator": "Office for National Statistics",
+  "dc:publisher": "Office for National Statistics",
+  "dc:issued": "2025-06-19",
+  "dc:modified": "2026-06-12",
+  "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "areacd",
+        "titles": [
+          "areacd",
+          "Area code"
+        ],
+        "datatype": "string",
+        "type": "dimension",
+        "role": "geo"
+      },
+      {
+        "titles": [
+          "areanm",
+          "Area name"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "titles": [
+          "geography",
+          "Geography type"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      },
+      {
+        "name": "indicator",
+        "titles": [
+          "indicator",
+          "Indicator"
+        ],
+        "datatype": "string",
+        "type": "indicator"
+      },
+      {
+        "name": "period",
+        "titles": [
+          "period",
+          "Time period"
+        ],
+        "datatype": "date",
+        "type": "dimension",
+        "role": "time"
+      },
+      {
+        "name": "value",
+        "titles": [
+          "observation",
+          "Observation value"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "measure",
+        "titles": [
+          "measure",
+          "Measure"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "unit",
+        "titles": [
+          "unit",
+          "Unit"
+        ],
+        "datatype": "string",
+        "type": "metadata",
+        "suppressOutput": true
+      },
+      {
+        "name": "lci_95",
+        "titles": [
+          "lci_95",
+          "Lower confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "uci_95",
+        "titles": [
+          "uci_95",
+          "Upper confidence interval (95%)"
+        ],
+        "datatype": "number",
+        "type": "measure"
+      },
+      {
+        "name": "status",
+        "titles": [
+          "status",
+          "Observation status"
+        ],
+        "datatype": "string",
+        "type": "status"
+      },
+      {
+        "titles": [
+          "notes",
+          "Notes"
+        ],
+        "datatype": "string",
+        "suppressOutput": true
+      }
+    ]
+  },
+  "metadata": {
+    "source": [
+      {
+        "name": "Office for National Statistics",
+        "href": "https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/regionalandsubregionallabourproductivityuk/previousreleases",
+        "date": "2025-06-19"
+      }
+    ],
+    "experimentalStatistic": true,
+    "geography": {
+      "countries": [
+        "E",
+        "N",
+        "S",
+        "W"
+      ],
+      "levels": [
+        "cauth",
+        "utla",
+        "ltla"
+      ],
+      "types": [
+        "E06",
+        "E07",
+        "E08",
+        "E09",
+        "E47",
+        "K99",
+        "N09",
+        "N34",
+        "S12",
+        "TLB",
+        "TLC",
+        "TLD",
+        "TLE",
+        "TLF",
+        "TLG",
+        "TLH",
+        "TLI",
+        "TLJ",
+        "TLK",
+        "TLL",
+        "TLM",
+        "TLN",
+        "W06",
+        "W42"
+      ],
+      "year": 2024,
+      "initialLevel": "ltla"
+    },
+    "indicators": [
+      {
+        "code": "Gross value added per hour worked",
+        "dataset": "gross-value-added",
+        "label": "Gross value added per hour worked",
+        "prefix": "£",
+        "suffix": null,
+        "subText": null,
+        "decimalPlaces": 1,
+        "standardised": true,
+        "subtitle": "Estimated value added of goods and services produced per hour worked",
+        "longDescription": "This indicator shows labour productivity (gross value added per labour input) in £ per hour worked (official statistics in development), in the UK, for 2004 to 2023.",
+        "caveats": null,
+        "isMultivariate": false,
+        "hasTimeseries": true,
+        "confidenceIntervals": false,
+        "canBeNegative": false,
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
+        "measure": "Pounds",
+        "unit": "£"
+      },
+      {
+        "code": "Gross value added per filled job",
+        "dataset": "gross-value-added",
+        "label": "Gross value added per job filled",
+        "prefix": "£",
+        "suffix": null,
+        "subText": null,
+        "decimalPlaces": 0,
+        "standardised": true,
+        "subtitle": "Estimated value added of goods and services produced per job filled",
+        "longDescription": "This indicator shows labour productivity (gross value added per labour input) in £ per job filled (official statistics in development), in the UK, for 2002 to 2023.",
+        "caveats": null,
+        "isMultivariate": false,
+        "hasTimeseries": true,
+        "confidenceIntervals": false,
+        "canBeNegative": false,
+        "zeroBaseline": true,
+        "frequency": "annual",
+        "periodFormat": "year",
+        "measure": "Pounds",
+        "unit": "£"
+      }
+    ]
+  }
+}
