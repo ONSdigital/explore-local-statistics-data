@@ -9,8 +9,8 @@
   "dc:title": "Net additions to the housing stock wales",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Welsh Government",
-  "dc:issued": "2025-04-03",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-06-04",
+  "dc:modified": "2026-06-12",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -129,8 +129,8 @@
     "source": [
       {
         "name": "Welsh Government",
-        "href": "https://statswales.gov.wales/Catalogue/Housing/Dwelling-Stock-Estimates/dwellingstockestimates-by-localauthority-tenure",
-        "date": "2025-04-03"
+        "href": "https://stats.gov.wales/en-GB/6476cc20-ddeb-46a5-be64-10a23c8a159f/start#about",
+        "date": "2026-06-04"
       }
     ],
     "experimentalStatistic": false,
@@ -158,12 +158,12 @@
         "label": "Net additions to the housing stock (Wales)",
         "prefix": null,
         "suffix": null,
-        "subText": "per 1,000 stock",
+        "subText": "per 1,000 dwellings",
         "decimalPlaces": 0,
         "standardised": true,
-        "subtitle": "Net additions to the stock of dwellings per 1,000 dwellings",
-        "longDescription": "This indicator shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Wales, for financial years ending 2002 to 2024.",
-        "caveats": "In Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use.\n\nPlease note that data is rounded to even.",
+        "subtitle": "Net additions to the housing stock per 1,000 dwellings",
+        "longDescription": "This indicator shows the net additions to the housing stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 dwellings, in Wales, for financial years ending 2002 to 2025.",
+        "caveats": "In Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
@@ -171,8 +171,8 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "financial-year",
-        "measure": "Net additional dwellings per 1,000 stock",
-        "unit": "Net additional dwellings per 1,000 stock"
+        "measure": "Rate per 1,000 dwellings",
+        "unit": "Rate per 1,000 dwellings"
       }
     ]
   }
