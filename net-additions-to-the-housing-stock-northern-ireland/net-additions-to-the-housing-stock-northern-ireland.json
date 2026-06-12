@@ -1,18 +1,18 @@
 {
-  "_note": "This file was last modified on 09/10/2025 at 12:01",
+  "_note": "This file was last modified on 12/06/2026 at 11:47",
     
     "ess-beta-metadata": {
         "label": "Net additions to the housing stock (Northern Ireland)",
         "prefix": null,
         "suffix": null,
-        "subText": "per 1,000 stock",
+        "subText": "per 1,000 dwellings",
         "decimalPlaces": 0,
-        "subtitle": "Net additions to the stock of dwellings per 1,000 dwellings",
+        "subtitle": "Net additions to the housing stock per 1,000 dwellings",
         "experimentalStatistic": "F",
-        "sourceDate": "04/06/2025",
+        "sourceDate": "03/06/2026",
         "sourceURL": "https://www.finance-ni.gov.uk/publications/annual-housing-stock-statistics",
         "sourceOrg": "Northern Ireland Department of Finance",
-        "longDescription": "This indicator shows the net additions to the dwelling stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 stock, in Northern Ireland, for financial years ending 2013 to 2025.",
+        "longDescription": "This indicator shows the net additions to the housing stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 dwellings, in Northern Ireland, for financial years ending 2013 to 2026.",
         "caveats": "In line with The Rates (Northern Ireland) Order 1977, Housing Stock is defined as a count of properties which are valued as domestic or mixed for the purposes of rating. This refers to properties in the Valuation List which are used for the purposes of a private dwelling. This excludes caravans, domestic garages, domestic stores and car parking spaces.\n\nPrivate refers to a self-contained dwelling and not the ownership or build type of the dwelling. Housing Stock includes both social sector and private sector dwellings in the Valuation List.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable.",
         "standardised": "T"
   }
