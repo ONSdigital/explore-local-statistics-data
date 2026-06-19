@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 11/06/2026 at 09:32",
+  "_note": "This file was last modified on 19/06/2026 at 08:40",
     
     "ess-beta-metadata": {
       "label": "Motor vehicle flow",
@@ -12,8 +12,8 @@
       "sourceDate": "20/05/2026",
       "sourceURL": "https://www.gov.uk/government/statistical-data-sets/road-traffic-estimates-tra#traffic-by-local-authority-tra89",
       "sourceOrg": "Department for Transport",
-      "longDescription": "This indicator shows the Annual Average Daily Flow (AADF) which measures the average volume of traffic per mile of road on a typical day, in Great Britain, for 1993 to 2025.",
-      "caveats": "Figures are presented rounded to nearest hundred.\n\nThe calculation for the average daily flow is estimated by dividing the annual traffic estimate by the road length and the number of days in the year.\n\nWhile road traffic estimates are robust at higher levels of aggregation, local authority splits and temporal distributions are less robust, reflecting limitations in sample size and coverage. These datasets are therefore labelled as Official Statistics to reflect this.\n\nFurther information on how AADFs are calculated, along with information on data quality and robustness, is available in the [Department for Transport Background Quality Report](https://www.gov.uk/government/statistics/road-traffic-estimates-in-great-britain-2024/background-quality-report).\n\nDepartment for Transport also publish [road length statistics by local authority](https://www.gov.uk/government/statistical-data-sets/road-length-statistics-rdl#road-length-in-miles-rdl01). Together with AADFs, these allow users to see both how busy roads are within an area and the overall size of the road network.",
+      "longDescription": "This indicator shows the Annual Average Daily Flow (AADF) which measures the average number of vehicles per mile of road on a typical day, in Great Britain, for 1993 to 2025.",
+      "caveats": "This indicator shows the Annual Average Daily Flow (AADF) which measures the average number of vehicles per mile of road on a typical day, in Great Britain.\n\nThe units for this measure are number of vehicles and figures are presented rounded to nearest hundred.\n\nThe calculation for the average daily flow is estimated by dividing the annual traffic estimate by the road length and the number of days in the year.\n\nThis measure includes motor vehicle traffic on all publicly maintained highways, covering both centrally and locally managed roads.\n\nWhile road traffic estimates are robust at higher levels of aggregation, local authority splits and temporal distributions are less robust, reflecting limitations in sample size and coverage. These datasets are therefore labelled as Official Statistics to reflect this.\n\nFurther information on definitions and methodology, along with information on data quality and robustness, is available in the [Department for Transport Background Quality Report](https://www.gov.uk/government/statistics/road-traffic-estimates-in-great-britain-2024/background-quality-report).\n\nDepartment for Transport also publish [road length statistics by local authority](https://www.gov.uk/government/statistical-data-sets/road-length-statistics-rdl#road-length-in-miles-rdl01). Together with AADFs, these allow users to see both how busy roads are within an area and the overall size of the road network.",
       "standardised": "T"
   }
 }
