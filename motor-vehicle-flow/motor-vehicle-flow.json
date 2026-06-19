@@ -7,7 +7,7 @@
       "suffix": null,
       "subText": "annual average daily flow",
       "decimalPlaces": 0,
-      "subtitle": "Annual Average Daily Flow (AADF)",
+      "subtitle": "Annual Average Daily Flow (AADF) which measures the average number of vehicles per mile of road on a typical day",
       "experimentalStatistic": "F",
       "sourceDate": "20/05/2026",
       "sourceURL": "https://www.gov.uk/government/statistical-data-sets/road-traffic-estimates-tra#traffic-by-local-authority-tra89",
