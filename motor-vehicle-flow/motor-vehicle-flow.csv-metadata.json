@@ -5,12 +5,12 @@
       "@language": "en"
     }
   ],
-  "url": "gross-value-added.csv",
-  "dc:title": "Gross value added",
+  "url": "motor-vehicle-flow.csv",
+  "dc:title": "Motor vehicle flow",
   "dc:creator": "Office for National Statistics",
-  "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2025-06-19",
-  "dc:modified": "2026-06-18",
+  "dc:publisher": "Department for Transport",
+  "dc:issued": "2026-05-20",
+  "dc:modified": "2026-06-19",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -128,88 +128,54 @@
   "metadata": {
     "source": [
       {
-        "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/regionalandsubregionallabourproductivityuk/previousreleases",
-        "date": "2025-06-19"
+        "name": "Department for Transport",
+        "href": "https://www.gov.uk/government/statistical-data-sets/road-traffic-estimates-tra#traffic-by-local-authority-tra89",
+        "date": "2026-05-20"
       }
     ],
-    "experimentalStatistic": true,
+    "experimentalStatistic": false,
     "geography": {
       "countries": [
         "E",
-        "N",
         "S",
         "W"
       ],
       "levels": [
-        "cauth",
+        "ctry",
+        "rgn",
         "utla",
         "ltla"
       ],
       "types": [
         "E06",
-        "E07",
         "E08",
         "E09",
-        "E47",
-        "K99",
-        "N09",
-        "N34",
+        "E10",
+        "E11",
+        "E12",
+        "E92",
+        "K03",
         "S12",
-        "TLB",
-        "TLC",
-        "TLD",
-        "TLE",
-        "TLF",
-        "TLG",
-        "TLH",
-        "TLI",
-        "TLJ",
-        "TLK",
-        "TLL",
-        "TLM",
-        "TLN",
+        "S92",
         "W06",
-        "W42"
+        "W92"
       ],
-      "year": 2024,
+      "year": 2018,
       "initialLevel": "ltla"
     },
     "indicators": [
       {
-        "code": "Gross value added per hour worked",
-        "dataset": "gross-value-added",
-        "label": "Gross value added per hour worked",
-        "prefix": "£",
+        "code": "Motor vehicle flow",
+        "dataset": "motor-vehicle-flow",
+        "label": "Motor vehicle flow",
+        "prefix": null,
         "suffix": null,
-        "subText": null,
-        "decimalPlaces": 1,
-        "standardised": true,
-        "subtitle": "Estimated value added of goods and services produced per hour worked",
-        "longDescription": "This indicator shows labour productivity (gross value added per labour input) in £ per hour worked (official statistics in development), in the UK, for 2004 to 2023.",
-        "caveats": null,
-        "isMultivariate": false,
-        "hasTimeseries": true,
-        "confidenceIntervals": false,
-        "canBeNegative": false,
-        "zeroBaseline": true,
-        "frequency": "annual",
-        "periodFormat": "year",
-        "measure": "Pounds",
-        "unit": "£"
-      },
-      {
-        "code": "Gross value added per filled job",
-        "dataset": "gross-value-added",
-        "label": "Gross value added per job filled",
-        "prefix": "£",
-        "suffix": null,
-        "subText": null,
+        "subText": "annual average daily flow",
         "decimalPlaces": 0,
         "standardised": true,
-        "subtitle": "Estimated value added of goods and services produced per job filled",
-        "longDescription": "This indicator shows labour productivity (gross value added per labour input) in £ per job filled (official statistics in development), in the UK, for 2002 to 2023.",
-        "caveats": null,
+        "subtitle": "Annual Average Daily Flow (AADF) which measures the average number of vehicles per mile of road on a typical day",
+        "longDescription": "This indicator shows the Annual Average Daily Flow (AADF) which measures the average number of vehicles per mile of road on a typical day, in Great Britain, for 1993 to 2025.",
+        "caveats": "This indicator shows the Annual Average Daily Flow (AADF) which measures the average number of vehicles per mile of road on a typical day, in Great Britain.\n\nThe units for this measure are number of vehicles and figures are presented rounded to nearest hundred.\n\nThe calculation for the average daily flow is estimated by dividing the annual traffic estimate by the road length and the number of days in the year.\n\nThis measure includes motor vehicle traffic on all publicly maintained highways, covering both centrally and locally managed roads.\n\nWhile road traffic estimates are robust at higher levels of aggregation, local authority splits and temporal distributions are less robust, reflecting limitations in sample size and coverage. These datasets are therefore labelled as Official Statistics to reflect this.\n\nFurther information on definitions and methodology, along with information on data quality and robustness, is available in the [Department for Transport Background Quality Report](https://www.gov.uk/government/statistics/road-traffic-estimates-in-great-britain-2024/background-quality-report).\n\nDepartment for Transport also publish [road length statistics by local authority](https://www.gov.uk/government/statistical-data-sets/road-length-statistics-rdl#road-length-in-miles-rdl01). Together with AADFs, these allow users to see both how busy roads are within an area and the overall size of the road network.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
@@ -217,8 +183,8 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "year",
-        "measure": "Pounds",
-        "unit": "£"
+        "measure": "Annual average daily flow",
+        "unit": "Annual average daily flow"
       }
     ]
   }
