@@ -1,0 +1,32 @@
+{
+  "_note": "This file was last modified on 18/06/2026 at 17:05",
+
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": "GBPSign",
+        "suffix": null,
+        "subText": null,
+        "decimalPlaces": 1,
+        "experimentalStatistic": "T",
+        "sourceDate": "19/06/2025",
+        "sourceURL": "https://www.ons.gov.uk/economy/economicoutputandproductivity/productivitymeasures/bulletins/regionalandsubregionallabourproductivityuk/previousreleases",
+        "sourceOrg": "Office for National Statistics",
+        "caveats": null,
+        "standardised": "T"
+    },
+
+    "Gross value added per hour worked": {
+      "label": "Gross value added per hour worked",
+      "decimalPlaces": 1,
+      "subtitle": "Estimated value added of goods and services produced per hour worked",
+      "longDescription": "This indicator shows labour productivity (gross value added per labour input) in £ per hour worked (official statistics in development), in the UK, for 2004 to 2023."
+    },
+
+    "Gross value added per filled job" : {
+      "label": "Gross value added per job filled",
+      "decimalPlaces": 0,
+      "subtitle": "Estimated value added of goods and services produced per job filled",
+      "longDescription": "This indicator shows labour productivity (gross value added per labour input) in £ per job filled (official statistics in development), in the UK, for 2002 to 2023."
+    }
+  }
+}
