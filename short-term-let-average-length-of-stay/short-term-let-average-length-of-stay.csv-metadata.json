@@ -9,8 +9,8 @@
   "dc:title": "Short term let average length of stay",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2025-12-04",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-06-24",
+  "dc:modified": "2026-06-26",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -130,7 +130,7 @@
       {
         "name": "Office for National Statistics",
         "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/housing/bulletins/shorttermletsthroughonlinecollaborativeeconomyplatformsuk/previousreleases",
-        "date": "2025-12-04"
+        "date": "2026-06-24"
       }
     ],
     "experimentalStatistic": false,
@@ -169,7 +169,7 @@
         "W06",
         "W92"
       ],
-      "year": 2024,
+      "year": 2025,
       "initialLevel": "ltla"
     },
     "indicators": [
@@ -183,15 +183,15 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Average length of stay (in nights) at a short-term let",
-        "longDescription": "This indicator shows the average length of stay (in nights) at a short-term let, in the United Kingdom, for Quarter 3 (July to Sept) 2023 to Quarter 2 (Apr to Jun) 2025.",
+        "longDescription": "This indicator shows the average length of stay (in nights) at a short-term let, in the United Kingdom, for July 2023 to December 2025.",
         "caveats": "Analysis uses data from online collaborative economy platforms Airbnb, Booking.com and Expedia Group. \n\nAverage length of stay is calculated by dividing the number of nights by the number of stays. \n\nThe data have a strong seasonal trend. Therefore, changes over time should generally be compared year-on-year, rather than month-on-month or quarter-on-quarter. \n\nWhile these statistics are believed to cover a large proportion of short-term lets activity in the UK, they do not cover all activity, as data from other providers and platforms are not included.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
         "canBeNegative": false,
         "zeroBaseline": true,
-        "frequency": "quarterly",
-        "periodFormat": "quarter",
+        "frequency": "monthly",
+        "periodFormat": "year",
         "measure": "Average length of stay in nights",
         "unit": "Average length of stay in nights"
       }
