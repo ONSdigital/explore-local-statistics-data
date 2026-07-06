@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 12/06/2026 at 11:56",
+  "_note": "This file was last modified on 06/07/2026 at 15:16",
     
     "ess-beta-metadata": {
       "label": "Net additions to the housing stock (England)",
@@ -13,7 +13,7 @@
       "sourceURL": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-dwelling-stock-including-vacants",
       "sourceOrg": "Ministry of Housing, Communities and Local Government",
       "longDescription": "This indicator shows the net additions to the housing stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 dwellings, in England, for financial years ending from 2002 to 2025.",
-      "caveats": "Net additional dwellings per 1,000 stock are available at an England, regional and local authority district level in DLUHC [net additional dwellings interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTE5YWQ3MDYtZmFjMC00N2YwLWIxM2EtYWY2NTk1NjExYjgwIiwidCI6ImJmMzQ2ODEwLTljN2QtNDNkZS1hODcyLTI0YTJlZjM5OTVhOCJ9).",
+      "caveats": "Net additional dwellings per 1,000 stock are available at an England, regional and local authority district level in MHCLG [net additional dwellings interactive dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTE5YWQ3MDYtZmFjMC00N2YwLWIxM2EtYWY2NTk1NjExYjgwIiwidCI6ImJmMzQ2ODEwLTljN2QtNDNkZS1hODcyLTI0YTJlZjM5OTVhOCJ9).",
       "standardised": "T"
   }
 }
