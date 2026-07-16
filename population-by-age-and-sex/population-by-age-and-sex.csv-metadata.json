@@ -201,7 +201,7 @@
         "standardised": true,
         "subtitle": "Percentage of the total population by sex and five-year age band",
         "longDescription": "This indicator shows the percentage distribution of the total population by sex and five‑year age bands, in the United Kingdom, for 1991 to 2024.",
-        "caveats": "Ages 85 and over are combined into a single category.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.",
+        "caveats": "Ages 85 and over are combined into a single category.\n\nPopulation estimates in Explore Local Statistics (ELS) are informed by those available on Nomis at the time of publication on ELS.\n\nData on ELS will be updated when the [Population estimates for the UK, England, Wales, Scotland and Northern Ireland: mid-2025](https://www.ons.gov.uk/releases/populationestimatesfortheukenglandwalesscotlandandnorthernirelandmid2025) release is published, provisionally scheduled for September to October 2026.",
         "isMultivariate": true,
         "hasTimeseries": true,
         "confidenceIntervals": false,
