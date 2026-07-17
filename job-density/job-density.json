@@ -5,7 +5,7 @@
       "label": "Job density",
       "prefix": null,
       "suffix": null,
-      "subText": "Jobs per resident aged 16 to 64",
+      "subText": "jobs per resident aged 16 to 64",
       "decimalPlaces": 1,
       "subtitle": "Number of jobs per resident aged 16 to 64",
       "experimentalStatistic": "F",
