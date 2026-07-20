@@ -2,18 +2,18 @@
   "_note": "This file was last modified on 09/07/2026 at 08:47",
 
     "ess-beta-metadata": {
-      "label": "Fuel poverty",
+      "label": "Fuel poverty (England)",
       "prefix": null,
       "suffix": "%",
       "subText": null,
       "decimalPlaces": 1,
-      "subtitle": "Percentage of households fuel poor",
+      "subtitle": "Percentage of households in fuel poverty (Low Income Low Energy Efficiency)",
       "experimentalStatistic": "T",
       "sourceDate": "14/05/2026",
-      "sourceURL": "https://www.data.gov.uk/dataset/f3009590-2bc9-40d9-8dc3-571e6fddae45/fuel_poverty_sub-regional_statistics",
+      "sourceURL": "https://www.gov.uk/government/collections/fuel-poverty-statistics",
       "sourceOrg": "Department for Energy Security and Net Zero",
       "longDescription": "This indicator shows the percentage of households in fuel poverty according to the Low Income Low Energy Efficiency (LILEE) metric (official statistics in development), in England, for 2024.",
-      "caveats": "These figures are modelled estimates for England based on data from the English Housing Survey.\n\nEstimates of fuel poverty at the regional level are taken from the national fuel poverty statistics for 2024. Estimates at the sub-regional level are official statistics in development and are modelled and constrained to regional totals. These should only be used to look at general trends and identify areas of particularly high or low fuel poverty. They should not be used to identify detailed trends over time.\n\nThe estimates are based on the Low Income Low Energy Efficiency (LILEE) fuel poverty metric. The LILEE indicator considers a household to be fuel poor if it is living in a property with an energy efficiency rating of band D, E, F or G as determined by the most up-to-date Fuel Poverty Energy Efficiency Rating (FPEER) Methodology and its disposable income (income after housing costs (AHC) and energy needs) would be below the poverty line. This is calculated using a household’s required energy bills rather than actual utility spending so that families who ration their heating are still accurately counted.\n\nLocal fuel poverty statistics are modelled estimates and should not be used to identify detailed trends over time.\n\nSome of this data has been aggregated and may show differences to other published figures.",
+      "caveats": "These figures are modelled estimates for England based on data from the English Housing Survey.\n \nEstimates of fuel poverty at the regional level are taken from the national fuel poverty statistics for 2024. Estimates at the sub-regional level are official statistics in development and are modelled and constrained to regional totals. These should only be used to look at general trends and identify areas of particularly high or low fuel poverty. They should not be used to identify detailed trends over time. \n \nThe estimates are based on the Low Income Low Energy Efficiency (LILEE) fuel poverty metric. The LILEE indicator considers a household to be fuel poor if it is living in a property with an energy efficiency rating of band D, E, F or G as determined by the most up-to-date Fuel Poverty Energy Efficiency Rating (FPEER) Methodology and its disposable income (income after housing costs (AHC) and energy needs) would be below the poverty line. This is calculated using a household’s required energy bills rather than actual utility spending so that families who ration their heating are still accurately counted.\n \nEstimates should only be used to look at general trends and identify areas of particularly high or low fuel poverty.\n\nGeographies are based on May 2026 geography codes.\n\nHousehold and fuel poverty numbers at region level come from the national fuel poverty statistics, 2024.\n\nSome of this data has been aggregated and may show differences to other published figures.\n\nFor more information, see the sub-regional fuel poverty report, 2026: https://www.gov.uk/government/statistics/sub-regional-fuel-poverty-report-2026-2024-data.",
       "standardised": "T"
     }
 }
