@@ -1,0 +1,30 @@
+{
+  "_note": "This file was last modified on 21/07/2026 at 10:00",
+
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": null,
+        "suffix": null,
+        "subText": "years",
+        "decimalPlaces": 1,
+        "experimentalStatistic": "F",
+        "sourceDate": "10/12/2025",
+        "sourceURL": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/healthandlifeexpectancies/bulletins/lifeexpectancyforlocalareasoftheuk/previousreleases",
+        "sourceOrg": "Office for National Statistics",
+        "standardised": "T",
+        "caveats": "Figures are based on the number of deaths registered and mid-year population estimates, aggregated over three consecutive calendar years.\n\nFigures are not calculated for City of London or Isles of Scilly due to small numbers of deaths and populations.\n\nCountry-level estimates are provided as a comparator only. If you are interested in life expectancy at country level please refer to the [National life tables - life expectancy in the UK](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/bulletins/nationallifetablesunitedkingdom/latest) release.\n\nThe life expectancy estimates reported are period based. Period life expectancy at a given age for an area is the average number of additional years a person would live if he or she experienced the area's age-specific mortality rates for that time period, throughout the rest of their life. More information can be found in our [Period and cohort life expectancy explained methodology](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/methodologies/periodandcohortlifeexpectancyexplained).\n\nThe figure reflects mortality among those living in the area in each period, rather than mortality among those born in each area. It is not therefore the number of years a person in the area in each period will be expected to actually live. This is because the death rates of the area are likely to change in the future and because many of those in the area may live elsewhere for at least part of their lives. The measure reflects the mortality rates prevailing at the time and therefore gives a measure with which to compare different populations both by location and by time."
+      },
+
+      "Female life expectancy": {
+        "label": "Female life expectancy",
+        "subtitle": "Average years expected to be lived for females born in the given year",
+        "longDescription": "This indicator shows the average years expected to be lived for females born during the reference period, in the United Kingdom, for three-year rolling periods between 2001 to 2003 and 2022 to 2024."
+      },
+
+      "Male life expectancy": {
+        "label": "Male life expectancy",
+        "subtitle": "Average years expected to be lived for males born in the given year",
+        "longDescription": "This indicator shows the average years expected to be lived for males born during the reference period, in the United Kingdom, for three-year rolling periods between 2001 to 2003 and 2022 to 2024."
+      }
+  }
+}
