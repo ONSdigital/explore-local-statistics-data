@@ -17,7 +17,7 @@
       "Air pollution regulating": {
         "label": "Air pollution regulating",
         "subtitle": "Estimated value of pollution removal by natural habitats (£ millions, 2024 prices)",
-        "longDescription": "This indicator shows the contribution of natural habitats in removing harmful pollutants from the atmosphere (official statistics in development), in the United Kingdom, for 2005 to 2024.",
+        "longDescription": "This indicator shows the contribution of natural habitats in removing pollutants from the atmosphere (official statistics in development), in the United Kingdom, for 2005 to 2024.",
         "caveats": "This data includes all pollutants and all habitats.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
         },
  
@@ -25,7 +25,7 @@
         "label": "Greenhouse gas regulating",
         "subtitle": "Estimated value of the net greenhouse gases removed from the atmosphere or emitted by natural habitats (£ million, 2024 prices)",
         "longDescription": "This indicator shows the estimated value of the removal of greenhouse gases, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 2005 to 2023.",
-        "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
+        "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed. A positive value indicates more greenhouse gas is absorbed than emitted by nature in the Local Authority, while a negative value indicates more greenhouse gas is emitted than absorbed.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
       },
       
       "Urban heat regulating": {
