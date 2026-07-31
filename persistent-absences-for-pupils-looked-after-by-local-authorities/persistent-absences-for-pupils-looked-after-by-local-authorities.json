@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 09/04/2026 at 10:36",
+  "_note": "This file was last modified on 31/07/2026 at 12:03",
     
     "ess-beta-metadata": {
       "label": "Persistent absences for pupils looked after by local authorities",
@@ -7,12 +7,12 @@
       "suffix": "%",
       "subText": null,
       "decimalPlaces": 1,
-      "subtitle": "Percentage of pupils looked after continuously by local authorities for at least 12 months that were absent for 10% of academic year",
+      "subtitle": "Percentage of pupils looked after continuously for at least 12 months by local authorities in England that were absent for 10% of academic year",
       "experimentalStatistic": "F",
       "sourceDate": "02/04/2026",
       "sourceURL": "https://explore-education-statistics.service.gov.uk/find-statistics/outcomes-for-children-in-need-including-children-looked-after-by-local-authorities-in-england",
       "sourceOrg": "Department for Education",
-      "longDescription": "This indicator shows the percentage of pupils in state-funded primary, state-funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities who were persistently absent (those absent for 10% of schooling sessions) during the academic year, in England (state-funded primary and secondary schools, special schools and pupil referral units), for financial years ending 2019 to 2025.",
+      "longDescription": "This indicator shows the percentage of pupils in state-funded primary, state-funded secondary, special schools and pupil referral units who have been looked after continuously for at least 12 months (as of 31 March of that year) by local authorities in England who were persistently absent (those absent for 10% of schooling sessions) during the academic year (state-funded primary and secondary schools, special schools and pupil referral units), for reporting years ending 2019 to 2025, excluding reporting year ending 2020.",
       "caveats": "For the looked after children, absence data is matched to school census data for each school type, meaning that the pupils included are those on the school census with absence data. Persistent absence figures for all pupils and free school meals (FSM) are taken from the national absence figures and are produced using a different methodology based on enrolments and the school type is allocated in a different way so it is not appropriate to compare these figures with those for looked after children.\n\nDue to the disruption caused by the impact of COVID during the 2020/21 and 2021/22 academic years, caution should be taken when comparing data to previous years. No absence data relating to the full 2019/20 academic year is available.",
       "standardised": "T"
   }
