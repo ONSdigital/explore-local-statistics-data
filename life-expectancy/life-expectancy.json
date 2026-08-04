@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 04/08/2026 at 06:00",
+  "_note": "This file was last modified on 04/08/2026 at 13:18",
 
     "ess-beta-metadata": {
       "shared": {
@@ -18,13 +18,13 @@
       "Female life expectancy": {
         "label": "Female life expectancy",
         "subtitle": "Life expectancy at birth for females",
-        "longDescription": "This indicator shows period life expectancy at birth for an area, which is the average number of years a person would live if he or she experienced the area's age-specific mortality rates for that time period, throughout their life, in the United Kingdom, for three-year rolling periods between 2001 to 2003 and 2022 to 2024."
+        "longDescription": "This indicator shows period life expectancy at birth for an area, which is the average number of years a person would live if they experienced the area's age-specific mortality rates for that time period throughout their life, in the United Kingdom, for three-year rolling periods between 2001 to 2003 and 2022 to 2024."
       },
 
       "Male life expectancy": {
         "label": "Male life expectancy",
         "subtitle": "Life expectancy at birth for males",
-        "longDescription": "This indicator shows period life expectancy at birth for an area, which is the average number of years a person would live if he or she experienced the area's age-specific mortality rates for that time period, throughout their life, in the United Kingdom, for three-year rolling periods between 2001 to 2003 and 2022 to 2024."
+        "longDescription": "This indicator shows period life expectancy at birth for an area, which is the average number of years a person would live if they experienced the area's age-specific mortality rates for that time period throughout their life, in the United Kingdom, for three-year rolling periods between 2001 to 2003 and 2022 to 2024."
       }
   }
 }
