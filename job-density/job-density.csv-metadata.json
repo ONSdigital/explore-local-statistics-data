@@ -5,12 +5,12 @@
       "@language": "en"
     }
   ],
-  "url": "gross-disposable-household-income-per-head.csv",
-  "dc:title": "Gross disposable household income per head",
+  "url": "job-density.csv",
+  "dc:title": "Job density",
   "dc:creator": "Office for National Statistics",
   "dc:publisher": "Office for National Statistics",
-  "dc:issued": "2025-09-10",
-  "dc:modified": "2026-01-12",
+  "dc:issued": "2026-04-21",
+  "dc:modified": "2026-08-18",
   "dc:license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
   "tableSchema": {
     "columns": [
@@ -129,20 +129,18 @@
     "source": [
       {
         "name": "Office for National Statistics",
-        "href": "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousreleases",
-        "date": "2025-09-10"
+        "href": "https://www.nomisweb.co.uk/datasets/jd",
+        "date": "2026-04-21"
       }
     ],
     "experimentalStatistic": false,
     "geography": {
       "countries": [
         "E",
-        "N",
         "S",
         "W"
       ],
       "levels": [
-        "uk",
         "ctry",
         "rgn",
         "cauth",
@@ -156,32 +154,13 @@
         "E09",
         "E10",
         "E12",
-        "E13",
         "E47",
         "E92",
-        "K02",
         "K03",
         "K04",
-        "N09",
-        "N34",
-        "N92",
         "S12",
         "S92",
-        "TLB",
-        "TLC",
-        "TLD",
-        "TLE",
-        "TLF",
-        "TLG",
-        "TLH",
-        "TLI",
-        "TLJ",
-        "TLK",
-        "TLL",
-        "TLM",
-        "TLN",
         "W06",
-        "W42",
         "W92"
       ],
       "year": 2024,
@@ -189,17 +168,17 @@
     },
     "indicators": [
       {
-        "code": "Gross disposable household income",
-        "dataset": "gross-disposable-household-income-per-head",
-        "label": "Gross disposable household income per head",
-        "prefix": "£",
+        "code": "Job density",
+        "dataset": "job-density",
+        "label": "Job density",
+        "prefix": null,
         "suffix": null,
-        "subText": null,
-        "decimalPlaces": 0,
+        "subText": "jobs per resident aged 16 to 64",
+        "decimalPlaces": 1,
         "standardised": true,
-        "subtitle": "Average income per person (£) after taxes and direct benefits",
-        "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2023.",
-        "caveats": "The latest [GDHI data](https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousreleases) has been published but is not yet available on this service. The data will be added to Explore Local Statistics shortly after it becomes available on [Nomis](https://www.nomisweb.co.uk/datasets/gdhi).\n\nFigures for 2023 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
+        "subtitle": "Number of jobs per resident aged 16 to 64",
+        "longDescription": "This indicator shows the number of jobs per resident aged 16 to 64 (including employee jobs, self-employed, government-supported trainees and HM Forces), in Great Britain, from 2011 to 2024.",
+        "caveats": "Job density is useful for comparing economic activity, employment concentration and commuting patterns across areas. However, as it is based on survey estimates and population data, results are subject to sampling and other sources of error and should not be used to set local performance targets.\n\nData for the City of London has been excluded from the line chart and bar chart on this service because its high workplace population relative to its resident population can distort the overall representation of the data. Please refer to the accompanying dataset below or the [data source](https://www.nomisweb.co.uk/datasets/jd) for this information.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
@@ -207,8 +186,8 @@
         "zeroBaseline": true,
         "frequency": "annual",
         "periodFormat": "year",
-        "measure": "Pounds",
-        "unit": "£"
+        "measure": "Number of jobs per resident aged 16 to 64",
+        "unit": "Number of jobs per resident aged 16 to 64"
       }
     ]
   }
