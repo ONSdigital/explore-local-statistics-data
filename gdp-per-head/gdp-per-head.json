@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 23/10/2025 at 12:05",
+  "_note": "This file was last modified on 18/08/2026 at 08:05",
 
     "ess-beta-metadata": {
         "shared": {
@@ -18,14 +18,14 @@
           "label": "Gross domestic product per head at current market prices",
           "subtitle": "GDP per head including the effects of inflation",
           "longDescription": "This indicator shows gross domestic product (GDP) per head at current market prices in pounds, in the UK, for 1998 to 2023.",
-          "caveats": "This time series includes the effects of inflation and is most useful for comparison of levels between different areas.\n\n2023 data are provisional.\n\nData for the City of London has been excluded from the line chart and bar chart on this service due to its very high GDP figures and very low population, which distort the overall representation. Please refer to the accompanying dataset below or the [data source](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/regionaleconomicactivitybygrossdomesticproductuk/previousreleases) for this information."
+          "caveats": "This time series includes the effects of inflation and is most useful for comparison of levels between different areas.\n\n2023 data are provisional.\n\nData for the City of London has been excluded from the line chart and bar chart on this service due to its very high GDP figures and very low population, which distort the overall representation. Please refer to the accompanying dataset below or the [data source](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/regionaleconomicactivitybygrossdomesticproductuk/previousreleases) for this information.\n\nWhile GDP per head can be a useful way of comparing regions of different size, comparisons can be affected by commuting flows into or out of the region. Therefore, these [figures should be used with caution](https://blog.ons.gov.uk/2018/11/23/mind-the-gap-why-the-uk-might-not-be-the-most-regionally-unequal-country/). For such areas, it is advisable to refer to GVA per hour worked or GVA per job filled for a direct measure of economic performance."
         },
     
         "Gross domestic product per head in chained volume measure": {
           "label": "Gross domestic product per head in chained volume measures",
           "subtitle": "GDP per head with the effects of inflation removed by considering changes in quantity between consecutive periods, holding prices from previous periods constant",
           "longDescription": "This indicator shows gross domestic product (GDP) per head in chained volume measures (CVM) in 2019 money value, in pounds, in the UK, for 1998 to 2023.",
-          "caveats":"This time series has the effects of inflation removed by considering changes in quantity between consecutive periods, holding prices from previous periods constant and is most useful for monitoring growth over time within any given area.\n\n2023 data are provisional.\n\nData for the City of London has been excluded from the line chart and bar chart on this service due to its very high GDP figures and very low population, which distort the overall representation. Please refer to the accompanying dataset below or the [data source](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/regionaleconomicactivitybygrossdomesticproductuk/previousreleases) for this information."
+          "caveats":"This time series has the effects of inflation removed by considering changes in quantity between consecutive periods, holding prices from previous periods constant and is most useful for monitoring growth over time within any given area.\n\n2023 data are provisional.\n\nData for the City of London has been excluded from the line chart and bar chart on this service due to its very high GDP figures and very low population, which distort the overall representation. Please refer to the accompanying dataset below or the [data source](https://www.ons.gov.uk/economy/grossdomesticproductgdp/bulletins/regionaleconomicactivitybygrossdomesticproductuk/previousreleases) for this information.\n\nWhile GDP per head can be a useful way of comparing regions of different size, comparisons can be affected by commuting flows into or out of the region. Therefore, these [figures should be used with caution](https://blog.ons.gov.uk/2018/11/23/mind-the-gap-why-the-uk-might-not-be-the-most-regionally-unequal-country/). For such areas, it is advisable to refer to GVA per hour worked or GVA per job filled for a direct measure of economic performance."
         }
     }
   }
