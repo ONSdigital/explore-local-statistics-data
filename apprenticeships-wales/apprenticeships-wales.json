@@ -18,7 +18,7 @@
         "sourceDate": "19/02/2026",
         "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Wales, for full academic years 2012/13 to 2024/25.",
-        "caveats": null
+        "caveats": "Rates per 100,000 population aged 16 years and over have been calculated using [Wales mid-year population estimates](https://www.nomisweb.co.uk/datasets/pestsyoala), which are currently available up to mid-2025.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable."
       },
   
       "Apprenticeship achievements (Wales)": {
@@ -26,7 +26,7 @@
         "sourceDate": "18/03/2026",
         "subtitle": "Apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
         "longDescription": "This indicator shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in Wales, for full academic years 2016/17 to 2024/25.",
-        "caveats": "The standard outcome measures were not produced in the 2019/20 and 2020/21 academic year due to the pandemic."
+        "caveats": "The standard outcome measures were not produced in the 2019/20 and 2020/21 academic year due to the pandemic.\n\nRates per 100,000 population aged 16 years and over have been calculated using [Wales mid-year population estimates](https://www.nomisweb.co.uk/datasets/pestsyoala), which are currently available up to mid-2025.\n\nFigures produced by each UK nation may differ due to differing sources, time periods, age analysed or differences in methodologies so they are not directly comparable."
       }
   }    
 }
