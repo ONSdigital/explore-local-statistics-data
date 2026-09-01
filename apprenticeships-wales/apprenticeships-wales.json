@@ -1,0 +1,31 @@
+{
+  "_note": "This file was last modified on 01/09/2026 at 07:30",
+    
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 100,000 population",
+        "decimalPlaces": 0,
+        "experimentalStatistic": "F",
+        "sourceDate": "19/02/2026 and 18/03/2026",
+        "sourceURL": "https://stats.gov.wales/en-GB/topic/14/apprenticeships",
+        "sourceOrg": "Welsh Government",
+        "standardised": "T"
+      },
+  
+      "Apprenticeship starts (Wales)": {
+        "label": "Apprenticeship starts (Wales)",
+        "subtitle": "Apprenticeship programme starts by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships started by adults aged 16+ based on home address, rate per 100,000 population, in Wales, for full academic years 2012/13 to 2024/25.",
+        "caveats": ""
+      },
+  
+      "Apprenticeship achievements (Wales)": {
+        "label": "Apprenticeship achievements (Wales)",
+        "subtitle": "Apprenticeship programme achievements by people aged 16 or above, per 100,000 people",
+        "longDescription": "This indicator shows apprenticeships achieved by adults aged 16+ based on home address, rate per 100,000 population, in Wales, for full academic years 2016/17 to 2024/25.",
+        "caveats": "The standard outcome measures were not produced in the 2019/20 and 2020/21 academic year due to the pandemic."
+      }
+  }    
+}
