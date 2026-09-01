@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 18/08/2026 at 08:24",
+  "_note": "This file was last modified on 01/09/2026 at 08:17",
     
     "ess-beta-metadata": {
       "label": "Gross disposable household income per head",
@@ -9,11 +9,11 @@
       "decimalPlaces": 0,
       "subtitle": "Average income per person (£) after taxes and direct benefits",
       "experimentalStatistic": "F",
-      "sourceDate": "10/09/2025",
+      "sourceDate": "19/08/2026",
       "sourceURL": "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousreleases",
       "sourceOrg": "Office for National Statistics",
-      "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2023.",
-      "caveats": "The latest [GDHI data](https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/bulletins/regionalgrossdisposablehouseholdincomegdhi/previousreleases) has been published but is not yet available on this service. The data will be added to Explore Local Statistics shortly after it becomes available on [Nomis](https://www.nomisweb.co.uk/datasets/gdhi).\n\nFigures for 2023 are provisional, as national estimates have not been through supply and use balancing at the time of the data source publication.",
+      "longDescription": "This indicator shows an estimate of the amount of money each individual within a household has available for spending or saving after they have paid taxes and received any direct benefits, in pounds, in the UK, for 1997 to 2024.",
+      "caveats": "Gross disposable household income (GDHI) is the amount of money that all of the individuals in the household sector have available for spending or saving after income distribution measures (for example, taxes, social contributions and benefits) have taken effect. GDHI is a concept which is seen to reflect the 'material welfare' of the household sector.\n\nIt should be noted that regional GDHI estimates relate to totals for all individuals within the household sector for a region rather than to an average household or family unit. The household sector comprises all individuals in an economy, including people living in traditional households as well as those living in institutions such as retirement homes and prisons. The sector also includes sole trader enterprises (the self-employed).",
       "standardised": "T"
   }
 }
