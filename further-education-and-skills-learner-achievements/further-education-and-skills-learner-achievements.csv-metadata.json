@@ -171,7 +171,7 @@
         "standardised": true,
         "subtitle": "People aged 19 and over achieving a funded further education and skills learning aim, per 100,000 people",
         "longDescription": "This indicator shows the rate per 100,000 population of learners aged 19 years and over who successfully completed at least one education and training or apprenticeship learning aim, in England, for full academic years 2019/20 to 2024/25.",
-        "caveats": "Total achievements are the count of learners that achieved at any point during the stated academic period. Learners achieving more than one course will appear only once in the grand total.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.\n\nAs of April 2026, please note that this indicator previously excluded community learning and non‑regulated Multiply aims. These are now included following the discontinuation of the previously used data source.",
+        "caveats": "Total achievements are the count of learners that achieved at any point during the stated academic period. Learners achieving more than one course will appear only once in the grand total.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,

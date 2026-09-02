@@ -170,7 +170,7 @@
         "standardised": true,
         "subtitle": "Percentage of people achieving GCSEs in both subjects by age 19",
         "longDescription": "This indicator shows GCSEs (and equivalent) in English and maths by age 19, in England, for academic years 2016/17 to 2024/25.",
-        "caveats": "All geography breakdowns are based on the school location of the young person at age 15 (year 11) and include only those educated in the state-funded sector.\n\nSome of this data has been aggregated and may show differences to other published figures.",
+        "caveats": "All geography breakdowns are based on the school location of the young person at age 15 (year 11) and include only those educated in the state-funded sector.\n\nThese figures include GCSEs and other level 2 qualifications, such as functional skills.\n\nSome of this data has been aggregated and may show differences to other published figures.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": false,
