@@ -133,7 +133,7 @@
         "date": "2024-04-16"
       }
     ],
-    "experimentalStatistic": true,
+    "experimentalStatistic": false,
     "geography": {
       "countries": [
         "E",
@@ -181,8 +181,8 @@
         "decimalPlaces": 1,
         "standardised": true,
         "subtitle": "Percentage of people aged 16 to 64 with Level 3 or above qualifications",
-        "longDescription": "This indicator shows the percentage of the population aged 16 to 64 with Regulated Qualifications Framework (RQF) level 3+ qualifications (official statistics in development), in Great Britain (Northern Ireland national figure included), for 2022 to 2023.",
-        "caveats": "The ongoing challenges with response rates, response levels and weighting approach mean that labour market statistics based on both the Labour Force Survey (LFS) and Annual Population Survey (APS) will be considered [official statistics in development](https://osr.statisticsauthority.gov.uk/policies/official-statistics-policies/official-statistics-in-development/) until further review. Because of increased volatility of LFS and APS estimates, estimates of change should be treated with additional caution.\n\nUpdates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2026.\n\nPlease note that this indicator previously used National Vocational Qualification (NVQ) level 3+ qualifications data but has been updated to the Regulated Qualifications Framework (RQF) level 3+ qualifications data.",
+        "longDescription": "This indicator shows the percentage of the population aged 16 to 64 with Regulated Qualifications Framework (RQF) level 3+ qualifications, in Great Britain (Northern Ireland national figure included), for the annual periods January to December, 2022 and 2023.",
+        "caveats": "These estimates are derived from the Labour Force Survey (LFS) and Annual Population Survey (APS), which have moved from [Official Statistics in Development](https://osr.statisticsauthority.gov.uk/who-we-are/policies/official-statistics-policies/official-statistics-in-development/) to [Official Statistics](https://osr.statisticsauthority.gov.uk/who-we-are/policies/official-statistics-policies/official-statistics-policy/). Since late 2023, ONS has introduced improvements to survey collection, sampling and weighting methods, helping to improve response levels and data quality. Further information on the strengths, limitations and appropriate uses of these data is available in the [Labour Force Survey quality and methodology information (QMI)](https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/methodologies/labourforcesurveylfsqmi).\n\nUpdates to this indicator have been temporarily suspended until the APS reweighting is implemented in 2027.",
         "isMultivariate": false,
         "hasTimeseries": true,
         "confidenceIntervals": true,
