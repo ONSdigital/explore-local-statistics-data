@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 17/08/2026 at 14:25",
+
+    "ess-beta-metadata": {
+      "label": "Job density",
+      "prefix": null,
+      "suffix": null,
+      "subText": "jobs per resident aged 16 to 64",
+      "decimalPlaces": 1,
+      "subtitle": "Number of jobs per resident aged 16 to 64",
+      "experimentalStatistic": "F",
+      "sourceDate": "21/04/2026",
+      "sourceURL": "https://www.nomisweb.co.uk/datasets/jd",
+      "sourceOrg": "Office for National Statistics",
+      "longDescription": "This indicator shows the number of jobs per resident aged 16 to 64 (including employee jobs, self-employed, government-supported trainees and HM Forces), in Great Britain, from 2011 to 2024.",
+      "caveats": "Job density is useful for comparing economic activity, employment concentration and commuting patterns across areas. However, as it is based on survey estimates and population data, results are subject to sampling and other sources of error and should not be used to set local performance targets.\n\nData for the City of London has been excluded from the line chart and bar chart on this service because its high workplace population relative to its resident population can distort the overall representation of the data. Please refer to the accompanying dataset below or the [data source](https://www.nomisweb.co.uk/datasets/jd) for this information.",
+      "standardised": "T"
+  }
+}
