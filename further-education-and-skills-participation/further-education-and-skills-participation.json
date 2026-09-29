@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 14/04/2026 at 14:36",
+  "_note": "This file was last modified on 24/09/2026 at 14:10",
     
     "ess-beta-metadata": {
       "label": "Further education and skills participation",
@@ -12,7 +12,7 @@
       "sourceDate": "27/11/2025",
       "sourceURL": "https://explore-education-statistics.service.gov.uk/data-catalogue/further-education-and-skills",
       "sourceOrg": "Department for Education",
-      "longDescription": "This indicator shows the rate per 100,000 population of learners aged 19 years and over who are participating in at least one education and training or apprenticeship learning aim, in England, for full academic years 2019/20 to 2024/25.",
+      "longDescription": "This indicator shows the rate per 100,000 population of learners aged 19 years and over participating in further education and skills learning, in England, for full academic years 2019/20 to 2024/25.",
       "caveats": "Participation is the count of learners that participated at any point during the stated academic period. Learners undertaking more than one course will be counted only once.\n\nGeography is based upon the home postcode of the learner.\n\nFigures for all academic years cover the twelve months (Aug to Jul) and are final full year figures.",
       "standardised": "T"
   } 
