@@ -1,0 +1,48 @@
+{
+  "_note": "This file was last modified on 11/08/2026 at 13:53",
+
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "experimentalStatistic": "F",
+        "sourceDate": "13/05/2026",
+        "sourceURL": "https://www.ofcom.org.uk/phones-and-broadband/coverage-and-speeds/infrastructure-research",
+        "sourceOrg": "Ofcom",
+        "caveats": "All coverage figures refer to fixed line broadband only.\n\nSome of this data has been aggregated and may show differences to other published figures.",
+        "standardised": "T"
+      },
+      
+      "Gigabit capable broadband": {
+        "label": "Gigabit capable broadband",
+        "subtitle": "Percentage of premises that have coverage from a gigabit-capable service (download speeds of at least 1,000 Mbps or more)",
+        "longDescription": "This indicator shows the percentage of premises that have coverage from a gigabit-capable service (download speeds of 1,000 Mbps or more), in the UK, as of January 2026."
+        },
+
+      "Premises below 30Mbps": {
+        "label": "Premises below 30Mbps",
+        "subtitle": "Percentage of premises that do not have access to services above 30 Mbps",
+        "longDescription": "This dataset shows the percentage of premises that do not have access to services above 30 Mbps, UK, as of January 2026."
+        },
+      
+      "Superfast broadband": {
+        "label": "Superfast broadband",
+        "subtitle": "Percentage of premises with access to a superfast broadband service (download speed of at least 30 Mbit/s)",
+        "longDescription": "This indicator shows the percentage of premises with access to a superfast broadband service (download speed of at least 30 Mbit/s), in the UK, as of January 2026."
+        },
+
+      "Ultrafast broadband": {
+        "label": "Ultrafast broadband",
+        "subtitle": "Percentage of premises with access to a ultrafast broadband service (download speed of at least 300 Mbit/s)",
+        "longDescription": "This indicator shows the percentage of premises with access to a ultrafast broadband service (download speed of at least 300 Mbit/s), in the UK, as of January 2026."
+        },
+
+      "Premises with access to full fibre": {
+        "label": "Premises with access to full fibre",
+        "subtitle": "Percentage of premises that have coverage from a full-fibre service",
+        "longDescription": "This indicator shows the percentage of premises that have coverage from a full-fibre service, in the UK, as of January 2026."
+        }
+    }
+}
