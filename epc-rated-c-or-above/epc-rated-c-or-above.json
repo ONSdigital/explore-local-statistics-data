@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 30/09/2026 at 07:30",
+    
+    "ess-beta-metadata": {
+        "label": "Energy Performance of Buildings Certificates rated band C or above",
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 1,
+        "subtitle": "Percentage of domestic properties with an Energy Performance Certificate (EPC) rating of band C or above",
+        "experimentalStatistic": "F",
+        "sourceDate": "30/07/2026",
+        "sourceURL": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-energy-performance-of-buildings-certificates",
+        "sourceOrg": "Ministry of Housing, Communities and Local Government",
+        "longDescription": "This indicator shows the percentage of domestic properties with an Energy Performance Certificate (EPC) rating of band C or above, in England and Wales, for quarter 4 2008 to quarter 2 2026.",
+        "caveats": "This data is taken from certificates lodged on the Energy Performance of Buildings Registers since 2008.\n\nThe EPC register does not hold data for every domestic building in England and Wales. Buildings only require an EPC when, sold, let or constructed. These statistics should, therefore, not be interpreted as a true representation of the whole of the building stock in England and Wales, but viewed as part of a wider package of Government’s provision of information on the energy efficiency of buildings.",
+        "standardised": "T"
+    }
+}
