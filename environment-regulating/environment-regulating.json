@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 28/07/2026 at 06:28",
+  "_note": "This file was last modified on 05/11/2026 at 12:54",
 
     "ess-beta-metadata": {
       "shared": {
@@ -23,9 +23,9 @@
  
       "Greenhouse gas regulating": {
         "label": "Greenhouse gas regulating",
-        "subtitle": "Estimated value of the net greenhouse gases removed from the atmosphere or emitted by natural habitats (£ million, 2024 prices)",
-        "longDescription": "This indicator shows the estimated value of the removal of greenhouse gases, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 2005 to 2023.",
-        "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed. A positive value indicates more greenhouse gas is absorbed than emitted by nature in the Local Authority, while a negative value indicates more greenhouse gas is emitted than absorbed.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
+        "subtitle": "Estimated value of the net territorial greenhouse gases removed from the atmosphere or emitted by natural habitats (£ million, 2024 prices)",
+        "longDescription": "This indicator shows the estimated value of territorial greenhouse gas removals, in carbon dioxide equivalent (CO2e), from the atmosphere by natural habitats (official statistics in development), in the United Kingdom, for 2005 to 2023.",
+        "caveats": "This data includes all habitats.\n\nLocal greenhouse gas regulating estimates are produced through local authority modelling of national estimates and are not specific to the land management of each authority.\n\nGreenhouse gas regulating estimates measure the net greenhouse gas emitted and absorbed. A positive value indicates more greenhouse gas is absorbed than emitted by nature in the Local Authority, while a negative value indicates more greenhouse gas is emitted than absorbed.\n\nThis indicator uses the territorial measure of greenhouse gas emissions. See [Measuring UK greenhouse gas emissions](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/measuringukgreenhousegasemissions) for details on the different measures.\n\nPlease refer to the [UK natural capital accounts quality and methods guide](https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsqualityandmethodsguide) for more information."
       },
       
       "Urban heat regulating": {
