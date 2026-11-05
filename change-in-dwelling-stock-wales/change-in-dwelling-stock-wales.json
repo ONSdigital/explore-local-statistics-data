@@ -1,0 +1,19 @@
+{
+  "_note": "This file was last modified on 05/11/2026 at 13:16",
+    
+    "ess-beta-metadata": {
+        "label": "Change in dwelling stock (Wales)",
+        "prefix": null,
+        "suffix": null,
+        "subText": "per 1,000 dwellings",
+        "decimalPlaces": 0,
+        "subtitle": "Annual change to the housing stock per 1,000 dwellings",
+        "experimentalStatistic": "F",
+        "sourceDate": "04/06/2026",
+        "sourceURL": "https://stats.gov.wales/en-GB/6476cc20-ddeb-46a5-be64-10a23c8a159f/start#about",
+        "sourceOrg": "Welsh Government",
+        "longDescription": "This indicator shows the annual change to the housing stock (including new builds, conversions, changes of use, other gains/losses and offset by demolitions) per 1,000 dwellings, in Wales, for financial years ending 2002 to 2025.",
+        "caveats": "In November 2026, this indicator was renamed from ‘Net additions to the housing stock (Wales)’ to ‘Change in dwelling stock (Wales)’.\n\nIn Wales, the approach to housing stock is very similar to that in England, using the Census and adding a measure of net supply for each intervening year. However, there may be a small negative bias in the net supply estimate for Wales compared to the rest of the UK since they do not include new builds certified by Approved Inspectors and they have no way of incorporating gains or losses due to Change of Use.",
+        "standardised": "T"
+  }
+}
