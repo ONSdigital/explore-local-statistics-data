@@ -1,0 +1,89 @@
+{
+  "_note": "This file was last modified on 05/11/2026 at 15:37",
+
+    "ess-beta-metadata": {
+      "shared": {
+        "prefix": null,
+        "suffix": "%",
+        "subText": null,
+        "decimalPlaces": 0,
+        "experimentalStatistic": "F",
+        "sourceDate": "31/07/2026",
+        "sourceURL": "https://www.gov.uk/guidance/community-and-engagement-survey-202526",
+        "sourceOrg": "Department for Digital, Culture, Media and Sport",
+        "standardised": "T"
+      },
+  
+      "Engaged with the arts": {
+        "label": "Engaged with the arts",
+        "subtitle": "Percentage of people aged 16+ who reported engaging with the arts physically in the last 12 months",
+        "longDescription": "This indicator shows the percentage of adults who reported engaging with the arts physically (attended an event or participated in an activity in person) in the last 12 months, in England, for October 2025 to March 2026.",
+        "caveats": "Examples of physical arts engagement include reading, performing music, or going to a comedy event.  The full list of qualifying activities and events asked of respondents can be found in [Annex E](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-summary-report/community-and-engagement-survey-202526-summary-report) of the data source.\n\nConfidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+      "Visited a heritage site": {
+        "label": "Visited a heritage site",
+        "subtitle": "Percentage of people aged 16+ who reported visiting a heritage site in person in the last 12 months",
+        "longDescription": "This indicator shows the percentage of adults who reported visiting a heritage site in person  in the last 12 months, in England, for October 2025 to March 2026.",
+        "caveats": "Physical engagement with the heritage sector is defined as visiting one of a variety of places with celebrated histories, such as those connected with industrial history, or ancient monuments, or archaeological sites.\n\nConfidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+  
+      "Visited a museum or gallery": {
+        "label": "Visited a museum or gallery",
+        "subtitle": "Percentage of people aged 16+ who reported visiting a museum or gallery in person in the last 12 months",
+        "longDescription": "This indicator shows the percentage of adults who reported visiting a museum or gallery in person in the last 12 months, in England, for October 2025 to March 2026.",
+        "caveats": "Respondents were asked about their visits to museums and galleries in the 12 months prior to completing the survey.\n\nConfidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+  
+      "Visited a public library": {
+        "label": "Visited a public library",
+        "subtitle": "Percentage of people aged 16+ who reported visiting a public library building or mobile library in person in the last 12 months",
+        "longDescription": "This indicator shows the percentage of adults who reported visiting a public library building or mobile library in person in the last 12 months, in England, for October 2025 to March 2026.",
+        "caveats": "Physical library engagement includes visiting a public library building or mobile library in-person during leisure time, being visited by a home library service and using another library outreach service (for example attending a community event where the library staff or volunteers were present).\n\nConfidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+      "Civic engagement": {
+        "label": "Civic engagement",
+        "subtitle": "Percentage of people aged 16+ who engaged in civic participation, civic consultation or civic activism at least once in the last 12 months",
+        "longDescription": "This indicator shows the percentage of people aged 16+ who engaged in civic participation, civic consultation or civic activism at least once in the last 12 months, in England, for October 2024 to March 2025 and October 2025 to March 2026.",
+        "caveats": "Civic participation is defined as engagement in democratic processes, both in person and online, including contacting a local official (such as a local councillor or MP), signing a petition, or attending a public rally (excludes voting). \n\nCivic consultation is defined as taking part in a consultation about local services or problems in the local area through completing a questionnaire, attending a public meeting or being involved in a face-to-face or online group. \n\nCivic activism is defined as involvement in local community roles such as being a local councillor, school governor, volunteer special constable or magistrate (for those aged 18 or over). Civic activism also includes involvement, either in person or online, in decision making groups in the local area. Examples of this are a tenants’ association, groups making decisions about local health or education services, or groups set up to either regenerate a local area or address issues such as crime. \n\nConfidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant. \n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey. \n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+      "Influencing local decisions": {
+        "label": "Influencing local decisions",
+        "subtitle": "Percentage of people aged 16+ who “definitely” or “tended” to agree that they can personally influence decisions affecting their local area",
+        "longDescription": "This indicator shows the percentage of people aged 16+ who “definitely” or “tended” to agree that they can personally influence decisions affecting their local area, in England, for October 2024 to March 2025 and October 2025 to March 2026.",
+        "caveats": "Confidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+      "Loneliness": {
+        "label": "Loneliness",
+        "subtitle": "Percentage of people aged 16+ who reported feeling lonely often or always",
+        "longDescription": "This indicator shows the percentage of people aged 16+ who reported feeling lonely often or always, in England, for October 2024 to March 2025 and October 2025 to March 2026.",
+        "caveats": "Confidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+      "Neighbourhood and community": {
+        "label": "Neighbourhood and community",
+        "subtitle": "Percentage of people aged 16+ who felt they belonged “very strongly” or “fairly strongly” to their immediate neighbourhood",
+        "longDescription": "This indicator shows the percentage of people aged 16+ who felt they belonged “very strongly” or “fairly strongly” to their immediate neighbourhood, in England, for October 2024 to March 2025 and October 2025 to March 2026.",
+        "caveats": "Confidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+   "Pride in local area": {
+        "label": "Pride in local area",
+        "subtitle": "Percentage of people aged 16+ who agreed that they were proud to live in their local area",
+        "longDescription": "This indicator shows the percentage of people aged 16+ who agreed that they were proud to live in their local area, in England, for October 2024 to March 2025 and October 2025 to March 2026.",
+        "caveats": "Confidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      },
+
+      "Volunteering": {
+        "label": "Volunteering",
+        "subtitle": "Percentage of people aged 16+ who engaged in either formal or informal volunteering at least once a month in the last 12 months",
+        "longDescription": "This indicator shows the percentage of people aged 16+ who engaged in either formal or informal volunteering at least once a month in the last 12 months, in England, for October 2024 to March 2025 and October 2025 to March 2026.",
+        "caveats": "Volunteering refers to those who have given unpaid help to groups or clubs, for example, leading a group, administrative support, mutual aid groups or befriending or mentoring people.\n\nConfidence intervals can be displayed on the bar chart by selecting the ‘Options’ button. These help show that differences between similarly ranked geographies may not be statistically significant.\n\nThe Community and Engagement Survey (CES) is a survey of people aged 16 and over in England, designed to explore how people across England engage with their community and with culture, media and live sport. In October 2025, the Community and Engagement Survey replaced DCMS’ Participation Survey and Community Life Survey.\n\nThe data has been weighted to compensate for differences in both sampling probability and response probability. Please see the [weighting methodology](https://www.gov.uk/government/statistics/community-and-engagement-survey-202526-supplementary-documents/community-and-engagement-survey-202526-technical-report--2#weighting) for further details."
+      }
+
+
+  } 
+}
