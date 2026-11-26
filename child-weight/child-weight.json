@@ -1,5 +1,5 @@
 {
-  "_note": "This file was last modified on 07/11/2025 at 11:21",
+  "_note": "This file was last modified on 10/11/2026 at 13:33",
     
     "ess-beta-metadata": {
       "shared": {
@@ -8,7 +8,7 @@
         "subText": null,
         "decimalPlaces": 1,
         "experimentalStatistic": "F",
-        "sourceDate": "04/11/2025",
+        "sourceDate": "03/11/2026",
         "sourceURL": "https://fingertips.phe.org.uk/profile/obesity-physical-activity-nutrition/data#page/1/gid/8000011/pat/159/par/K02000001/ati/15/are/E92000001/yrr/1/cid/4/tbm/1",
         "sourceOrg": "Office for Health Improvement and Disparities",
         "standardised": "T",
@@ -18,49 +18,49 @@
       "Aged four to five years underweight": {
         "label": "Underweight prevalence in children at reception age",
         "subtitle": "Percentage of children aged 4 to 5 classified as underweight",
-        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as underweight, in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as underweight, in England, for academic years 2006/07 to 2025/26."
       },
 
       "Aged four to five years healthy weight": {
         "label": "Healthy weight prevalence in children at reception age",
         "subtitle": "Percentage of children aged 4 to 5 classified as at a healthy weight",
-        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as healthy weight, in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as healthy weight, in England, for academic years 2006/07 to 2025/26."
       },
 
       "Aged four to five years overweight": {
         "label": "Overweight prevalence in children at reception age",
         "subtitle": "Percentage of children aged 4 to 5 classified as overweight",
-        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as overweight, in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as overweight, in England, for academic years 2006/07 to 2025/26."
       },
 
       "Aged four to five years obese": {
         "label": "Obesity prevalence in children at reception age",
         "subtitle": "Percentage of children aged 4 to 5 classified as living with obesity",
-        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 4 to 5 years (reception age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2025/26."
       },
 
       "Aged 10 to 11 years underweight": {
         "label": "Underweight prevalence in children at Year 6 age",
         "subtitle": "Percentage of children aged 10 to 11 classified as underweight",
-        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as underweight, in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as underweight, in England, for academic years 2006/07 to 2025/26."
       },
 
       "Aged 10 to 11 years healthy weight": {
         "label": "Healthy weight prevalence in children at Year 6 age",
         "subtitle": "Percentage of children aged 10 to 11 classified as at a healthy weight",
-        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as healthy weight, in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as healthy weight, in England, for academic years 2006/07 to 2025/26."
       },
 
       "Aged 10 to 11 years overweight": {
         "label": "Overweight prevalence in children at Year 6 age",
         "subtitle": "Percentage of children aged 10 to 11 classified as overweight",
-        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as overweight, in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as overweight, in England, for academic years 2006/07 to 2025/26."
       },
   
       "Aged 10 to 11 years obese": {
         "label": "Obesity prevalence in children at Year 6 age",
         "subtitle": "Percentage of children aged 10 to 11 classified as living with obesity",
-        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2024/25."
+        "longDescription": "This indicator shows the percentage of children aged 10 to 11 years (Year 6 age) classified as living with obesity (including severe obesity), in England, for academic years 2006/07 to 2025/26."
       }
   }
 }
